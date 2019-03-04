@@ -33,6 +33,7 @@ index for easier search instead of github stars.
 * [Crypto](#crypto)
 * [Databases](#databases)
 * [Data Structures](#data-structures)
+* [Hashing](#hashing)
 * [Multiple Purpose Libraries](#multiple-purpose-libraries)
 
 --------------------------------------------------------------------------------
@@ -275,7 +276,7 @@ protocols.
   SQL database engine. Public domain.
 * [UnQLite][93] - Self-contained, serverless, zero-configuration, transactional
   NoSQL engine. [``BSD-2-Clause``][BSD-2-Clause]
-* [WhiteDB][512] - Lightweight database library, operating entirely in main
+* [WhiteDB][94] - Lightweight database library, operating entirely in main
   memory. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 
 ### Data Structures ###
@@ -298,6 +299,18 @@ protocols.
 of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [uthash][106] - Single-file hash table implementation. [``BSD-1-Clause``][BSD-1-Clause]
 * [vector.h][107] - Header library for typed lists. [``MIT``][MIT]
+
+## Hashing ##
+Hash function implementations for *non*-crypto purposes. Cryptographic hashes
+can be found in the Crypto section.
+
+* [CLHash][165] - Library implementing fast CLHash hashing function. Only works
+  on Intel Haswell or newer. [``Apache-2.0``][Apache-2.0]
+* [HighwayHash][166] - Fast, strong, SIMD-using hash function. Also contains an
+  implementation of SipHash. [``Apache-2.0``][Apache-2.0]
+* [SpookyHash][167] - Fast hash function. [``BSD-3-Clause``][BSD-3-Clause]
+* [t1ha][168] - Fast Positive Hash - a portable, fast hash function. [``BSD-3-Clause``][BSD-3-Clause]
+* [xxHash][169] - Fast 32 and 64 bit hashing algorithm. [``BSD-2-Clause``][BSD-2-Clause]
 
 ### Multiple Purpose Libraries ###
 * [pal][65] - Optimized library for maths, parallel processing and data
@@ -329,6 +342,12 @@ UNSORTED
 * [Glade][328] - RAD tool to enable quick development of GTK+ GUIs. [``GPL-2.0-only``][GPL-2.0-only]
 
 
+
+[169]: http://cyan4973.github.io/xxHash
+[168]: https://github.com/leo-yuriev/t1ha
+[167]: https://github.com/centaurean/spookyhash
+[166]: https://github.com/google/highwayhash
+[165]: https://github.com/lemire/clhash
 
 [164]: https://github.com/waruqi/tbox
 [163]: http://wolkykim.github.io/qlibc
