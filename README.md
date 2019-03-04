@@ -14,14 +14,15 @@ index for easier search instead of github stars.
 ## Index ##
 
 * [Meta](#meta)
-
 * [AI](#ai)
-* [Build Systems](#build-systems)
+* [Tooling](#tooling)
+	* [Build Systems](#build-systems)
+	* [Compilers](#compilers)
+	* [Utilities](#utilities)
 
 ## Contents ##
 
 ### Meta ###
-
 #### Standart ####
 
 * [Draft C89 standard][1]
@@ -30,7 +31,6 @@ index for easier search instead of github stars.
 * [Draft C18 standard][4]
 
 ### AI ###
-
 Computer vision, neural nets, machine learning, and other similar things.
 Basically, if your university calls it AI, it lives here.
 
@@ -43,10 +43,10 @@ Basically, if your university calls it AI, it lives here.
 * [KANN][9] - Two-file ANN library. [``MIT``][MIT]
 * [LibDEEP][10] - Deep learning library. [``BSD-3-Clause``][BSD-3-Clause]
 
-### Build Systems ###
+### Tooling ###
+Compilers and other tooling.
 
-Tools that automate the building and testing of projects in C.
-
+#### Build Systems ####
 * [CMake][11] - Cross-platform family of tools designed to build, package and
   test software. Written in C++11. [``BSD-3-Clause``][BSD-3-Clause]
 * [GNU Make][12] - Tool which controls the generation of executables and other
@@ -59,6 +59,29 @@ Tools that automate the building and testing of projects in C.
 * [zproject][17] - Project generator and build system support tool for ZeroMQ
   project. [``MPL-2.0``][MPL-2.0]
 
+#### Compilers ####
+* [GCC][18] - Provides a C compiler as part of its compiler set. Supports C11. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [Clang][19] - Compiler for LLVM. Supports C11. [``NCSA``][NCSA]
+* [PCC][20] - Venerable compiler. Supports C99. [Various licenses][21], all
+  open source.
+
+#### Utilities ####
+* [ccache][22] - Compiler cache designed to speed up recompilation. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [distcc][23] - Program that allows builds to be distributed among several
+  machines. [``GPL-2.0-or-later``][GPL-2.0-or-later]
+* [Firm][24] - Library that provides a graph-based intermediate
+  representation, optimizations and assembly code generation suitable for use in
+  compilers. Comes with an example C front-end under the same
+  license. [``LGPL-2.1-only``][LGPL-2.1-only]
+
+
+[24]: https://pp.ipd.kit.edu/firm/
+[23]: https://github.com/distcc/distcc
+[22]: https://ccache.samba.org/
+[21]: http://pcc.ludd.ltu.se/licenses/
+[20]: http://pcc.ludd.ltu.se/
+[19]: https://clang.llvm.org/
+[18]: https://gcc.gnu.org/
 
 [17]: https://github.com/zeromq/zproject
 [16]: https://xmake.io/
