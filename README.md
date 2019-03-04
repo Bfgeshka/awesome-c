@@ -38,6 +38,8 @@ are a mess.
 * [Graphics](#graphics)
 * [GUI](#gui)
 * [Hashing](#hashing)
+* [Memory Management](#memory-management)
+* [Multimedia](#multimedia)
 * [Multiple Purpose Libraries](#multiple-purpose-libraries)
 
 --------------------------------------------------------------------------------
@@ -380,6 +382,34 @@ can be found in the Crypto section.
 * [t1ha][168] - Fast Positive Hash - a portable, fast hash function. [``BSD-3-Clause``][BSD-3-Clause]
 * [xxHash][169] - Fast 32 and 64 bit hashing algorithm. [``BSD-2-Clause``][BSD-2-Clause]
 
+### Memory Management ###
+* [Boehm GC][212] - Garbage collection for C. Various licenses, all open source.
+* [jemalloc][213] - Malloc implementation that emphasizes avoidance of
+  fragmentation and scalable concurrency support. [``BSD-2-Clause``][BSD-2-Clause]
+* [Lockless Memory Allocator][214] - Efficient memory allocator. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [rpmalloc][215] - Thread-caching, fast memory allocator, naturally aligned on
+  32-byte boundaries. Public domain.
+* [talloc][216] - Hierarchical, reference-counted memory pool system with
+  destructors. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
+* [tlsf][217] - Two-Level Segregated Fit allocator; a general-purpose, dynamic
+  memory allocator designed to meet real-time requirements.
+  [Up-to-date implementation][218]. [``BSD-3-Clause``][BSD-3-Clause]
+
+## Multimedia ##
+Audio and video processing
+
+* [aubio][219] - Library for audio and music analysis. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [FFMPEG][220] - Complete, cross-platform solution to record, convert and
+  stream audio and video. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [GStreamer][221] - Framework for audio and visual media. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [libmpv][222] - Music-playing library. [``GPL-2.0-or-later``][GPL-2.0-or-later]
+* [libsndfile][223] - Library for reading and writing sound files. Supports
+  many formats. [``LGPL-2.1-only``][LGPL-2.1-only] or [``LGPL-3.0-only``][LGPL-3.0-only]
+* [libsoundio][224] - Library for cross-platform, real-time audio input and
+  output. Has a range of back-ends. [``MIT``][MIT]
+* [minimp3][225] - Lightweight MP3 decoder single header library. [``CC0-1.0``][CC0-1.0]
+* [Soundpipe][226] - Lightweight music DSP library. [``MIT``][MIT]
+
 ### Multiple Purpose Libraries ###
 * [pal][65] - Optimized library for maths, parallel processing and data
   movement. [``Apache-2.0``][Apache-2.0]
@@ -420,7 +450,27 @@ UNSORTED
 * [libRSVG][417] - Library to render SVG files using Cairo. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [libvips][511] - Image processing library. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [mozjpeg][200] - Improved JPEG encoder. [``BSD-3-Clause``][BSD-3-Clause]
+* [lodepng][69] - Simple PNG image decoder and encoder, requiring no other
+  dependencies. [``BSD-3-Clause``][BSD-3-Clause]
 
+
+
+[226]: http://paulbatchelor.github.io/proj/soundpipe.html
+[225]: https://github.com/lieff/minimp3
+[224]: http://libsound.io
+[223]: http://www.mega-nerd.com/libsndfile/
+[222]: https://mpv.io
+[221]: https://gstreamer.freedesktop.org/
+[220]: https://www.ffmpeg.org/
+[219]: https://github.com/aubio/aubio
+
+[218]: https://github.com/minad/tlsf
+[217]: http://www.gii.upv.es/tlsf/
+[216]: https://talloc.samba.org/talloc/doc/html/index.html
+[215]: https://github.com/rampantpixels/rpmalloc
+[214]: https://locklessinc.com/
+[213]: http://jemalloc.net
+[212]: https://www.hboehm.info/gc/
 
 [211]: http://xforms-toolkit.org/
 [210]: http://www.tcl.tk/
