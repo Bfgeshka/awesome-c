@@ -26,6 +26,8 @@ index for easier search instead of github stars.
 * [Compression](#compression)
 * [Concurrency and Parallelism](#concurrency-and-parallelism)
 * [Crypto](#crypto)
+* [Databases](#databases)
+* [Data Structures](#data-structures)
 
 --------------------------------------------------------------------------------
 
@@ -146,8 +148,7 @@ Basically, if your university calls it AI, it lives here.
 * [pthreads][67] - POSIX thread library. Standard (no license applicable).
 * [TinyCThread][68] - Portable, small implementation of the C11 threads API. [``Zlib``][Zlib]
 
-## Crypto ##
-
+### Crypto ###
 Mostly library implementations of well-known cryptographic algorithms or
 protocols.
 
@@ -174,11 +175,47 @@ protocols.
 * [trezor-crypto][82] - Heavily optimized crypto algorithms for embedded
   devices. [``MIT``][MIT]
 
+## Databases ##
+
+* [BerkeleyDB][83] - Library for a high-performance embedded database for
+  key-value data. [``AGPL-3.0-only``][AGPL-3.0-only]
+* [Groonga][84] - Columnar store with full-text search. [``LGPL-2.1-only``][LGPL-2.1-only]
+* [Hiredis][85] - Minimalistic client library for Redis. [``BSD-3-Clause``][BSD-3-Clause]
+* [libmongoc][86] - High-performance client library for MongoDB. [``Apache-2.0``][Apache-2.0]
+* [LMDB][87] - Ultra-fast, ultra-compact key-value embedded data store. [``OLDAP-2.8``][OLDAP-2.8]
+* [PostgreSQL][88] - Powerful object-relational database system. [``PostgreSQL``][PostgreSQL]
+* [Redis][89] - Advanced key-value store. [``BSD-3-Clause``][BSD-3-Clause]
+* [sophia][90] - Modern, embeddable key-value database. [``BSD-2-Clause``][BSD-2-Clause]
+* [sparkey][91] - Simple constant key/value storage library. Designed for
+  read-heavy loads with infrequent, large bulk inserts. [``Apache-2.0``][Apache-2.0]
+* [SQLite][92] - Self-contained, serverless, zero-configuration, transactional
+  SQL database engine. Public domain.
+* [UnQLite][93] - Self-contained, serverless, zero-configuration, transactional
+  NoSQL engine. [``BSD-2-Clause``][BSD-2-Clause]
+* [WhiteDB][512] - Lightweight database library, operating entirely in main
+  memory. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+
 ### Data structures ###
 
 * [libhl][58] - Library implementing a thread-safe API to manage a range of data
   structures. Also provides some supporting functions and structures for
   concurrent and lockfree programming. [``LGPL-3.0-only``][LGPL-3.0-only]
+* [Collections-C][95] - Library of generic data structures. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
+* [kdtree][96] - Simple library for working with KD-trees. [``BSD-3-Clause``][BSD-3-Clause]
+* [libavl][97] - Library containing a range of self-balancing binary trees. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [ds][98] - Common Data Structures and Algorithms. [``MIT``][MIT]
+* [igraph][99] - A graph processing library. [``GPL-2.0-or-later``][GPL-2.0-or-later]
+* [liblfds][100] - Portable lock-free data structure library. Public domain
+  (more exactly, whatever license you want).
+* [M\*LIB][101] - Library for generic, but typesafe C containers. Implemented as
+  header-only. [``BSD-2-Clause``][BSD-2-Clause]
+* [offbrand][102] - Collection of generic, reference-counted data structures. [``MIT``][MIT]
+* [libsrt][103] - Soft and hard real-time data structures. [``BSD-3-Clause``][BSD-3-Clause].
+* [list.h][104] - Implementations for single- and double-linked list functions. [``GPL-3.0-only``][GPL-3.0-only]
+* [PackedArray][105] - Random-access array of tightly packed unsigned integers
+of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
+* [uthash][106] - Single-file hash table implementation. [``BSD-1-Clause``][BSD-1-Clause]
+* [vector.h][107] - Header library for typed lists. [``MIT``][MIT]
 
 ### Multiple purpose libraries ###
 
@@ -186,10 +223,35 @@ protocols.
   movement. [``Apache-2.0``][Apache-2.0]
 
 
-
 [65]: https://github.com/parallella/pal
 
+[107]: https://github.com/swenson/vector.h
+[106]: http://troydhanson.github.io/uthash/
+[105]: https://github.com/gpakosz/PackedArray
+[104]: https://github.com/nbulischeck/list.h
+[103]: https://faragon.github.io/libsrt.html
+[102]: https://github.com/theck01/offbrand_lib
+[101]: https://github.com/P-p-H-d/mlib
+[100]: http://liblfds.org/
+[99]: https://igraph.org/
+[98]: https://github.com/recp/ds
+[97]: http://adtinfo.org/libavl.html/index.html
+[96]: https://github.com/jtsiomb/kdtree
+[95]: https://github.com/srdja/Collections-C
 [58]: https://github.com/xant/libhl
+
+[94]: http://whitedb.org/
+[93]: https://unqlite.org/
+[92]: https://www.sqlite.org/
+[91]: https://github.com/spotify/sparkey
+[90]: http://sophia.systems
+[89]: https://redis.io/
+[88]: https://www.postgresql.org/
+[87]: https://symas.com/lightning-memory-mapped-database/
+[86]: http://mongoc.org/
+[85]: https://github.com/redis/hiredis
+[84]: https://github.com/groonga/groonga
+[83]: http://www.oracle.com/us/products/database/berkeley-db
 
 [82]: https://github.com/trezor/trezor-crypto
 [81]: http://www.saphir2.com/sphlib/
