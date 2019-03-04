@@ -14,34 +14,26 @@ index for easier search instead of github stars.
 ## Index ##
 
 * [Meta](#meta)
+	* [Standarts](#standarts)
+	* [Tooling](#tooling)
+		* [Build Systems](#build-systems)
+		* [Compilers](#compilers)
+		* [Utilities](#utilities)
+
+--------------------------------------------------------------------------------
+
 * [AI](#ai)
-* [Tooling](#tooling)
-	* [Build Systems](#build-systems)
-	* [Compilers](#compilers)
-	* [Utilities](#utilities)
+* [Compression](#compression)
 
-## Contents ##
+--------------------------------------------------------------------------------
 
-### Meta ###
-#### Standart ####
+## Meta ##
 
+### Standarts ###
 * [Draft C89 standard][1]
 * [Draft C99 standard][2]
 * [Draft C11 standard][3]
 * [Draft C18 standard][4]
-
-### AI ###
-Computer vision, neural nets, machine learning, and other similar things.
-Basically, if your university calls it AI, it lives here.
-
-* [ccv][5] - C-based/Cached/Core Computer Vision library; modern computer
-  vision. [``BSD-3-Clause``][BSD-3-Clause]
-* [Cranium][6] - Portable, header-only ANN library in C99. [``MIT``][MIT]
-* [FANN][7] - Fast Artifical Neural Network library; an implementation of neural
-  networks. [``GPL-2.0-only``][GPL-2.0-only]
-* [Genann][8] - Simple ANN in C89, without additional dependencies. [``Zlib``][Zlib]
-* [KANN][9] - Two-file ANN library. [``MIT``][MIT]
-* [LibDEEP][10] - Deep learning library. [``BSD-3-Clause``][BSD-3-Clause]
 
 ### Tooling ###
 Compilers and other tooling.
@@ -69,11 +61,91 @@ Compilers and other tooling.
 * [ccache][22] - Compiler cache designed to speed up recompilation. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [distcc][23] - Program that allows builds to be distributed among several
   machines. [``GPL-2.0-or-later``][GPL-2.0-or-later]
-* [Firm][24] - Library that provides a graph-based intermediate
-  representation, optimizations and assembly code generation suitable for use in
-  compilers. Comes with an example C front-end under the same
-  license. [``LGPL-2.1-only``][LGPL-2.1-only]
+* [Firm][24] - Library that provides a graph-based intermediate representation,
+  optimizations and assembly code generation suitable for use in compilers.
+  Comes with an example C front-end under the same license. [``LGPL-2.1-only``][LGPL-2.1-only]
 
+--------------------------------------------------------------------------------
+
+## Contents ##
+
+### AI ###
+Computer vision, neural nets, machine learning, and other similar things.
+Basically, if your university calls it AI, it lives here.
+
+* [ccv][5] - C-based/Cached/Core Computer Vision library; modern computer
+  vision. [``BSD-3-Clause``][BSD-3-Clause]
+* [Cranium][6] - Portable, header-only ANN library in C99. [``MIT``][MIT]
+* [FANN][7] - Fast Artifical Neural Network library; an implementation of neural
+  networks. [``GPL-2.0-only``][GPL-2.0-only]
+* [Genann][8] - Simple ANN in C89, without additional dependencies. [``Zlib``][Zlib]
+* [KANN][9] - Two-file ANN library. [``MIT``][MIT]
+* [LibDEEP][10] - Deep learning library. [``BSD-3-Clause``][BSD-3-Clause]
+
+### Compression ###
+
+* [blosc][25] - Fast, multi-threaded, meta-compressor library. Various licenses,
+  all open source.
+* [Brotli][26] - General-purpose lossless compression algorithm library. Has
+  speeds comparable to DEFLATE, but much higher compression ratios. [``MIT``][MIT].
+* [clzip][27] - C [lzip][28] implementation. [``GPL-2.0-or-later``][GPL-2.0-or-later]
+* [CRoaring][29] - C implementation of [Roaring bitmaps][30]. [``Apache-2.0``][Apache-2.0]
+* [FiniteStateEntropy][31] - Two efficient compression codecs optimized for
+  modern CPUs. [``BSD-2-Clause``][BSD-2-Clause]
+* [DENSITY][32] - Fast compression library. [``BSD-3-Clause``][BSD-3-Clause]
+* [heatshrink][33] - Data compression/decompression library for embedded and
+  real-time systems. [``ISC``][ISC]
+* [fast\_zlib][34] - Improved zlib, which runs 2 to 10 times faster. [``BSD-3-Clause``][BSD-3-Clause]
+* [huffandpuff][35] - Minimal Huffman encoder and decoder. Public domain.
+* [libbzip2][36] - Patent-free, high-quality data compression library. [``BSD-4-Clause``][BSD-4-Clause]
+* [Lizard][37] - Formerly LZ5. Achieves compression ratios comparable with zip
+  and zlib at decompression speeds of 1000MB/s and faster. [``BSD-2-Clause``][BSD-2-Clause]
+* [lz4][38] - Fast compression algorithm. [``BSD-2-Clause``][BSD-2-Clause]
+* [lzo][39] - Fast data compression library. [``GPL-2.0-or-later``][GPL-2.0-or-later]
+* [pixz][40] - Parallel, indexed xz compressor. [``BSD-2-Clause``][BSD-2-Clause]
+* [shoco][41] - Compressor for small text strings. [``MIT``][MIT]
+* [SIMDComp][42] - Simple library for compressing lists of integers using
+  binary packing. Makes use of SIMD instructions on x86. [``BSD-3-Clause``][BSD-3-Clause]
+* [smaz][43] - Efficient string compression library. [``BSD-3-Clause``][BSD-3-Clause]
+* [squash][44] - Compression abstraction library, complete with some utilities. [``MIT``][MIT]
+* [TurboPFor][45] - Fast integer compression. [``GPL-2.0-or-later``][GPL-2.0-or-later]
+* [TurboRLE][46] - Efficient run-length encoding. [``GPL-2.0-or-later``][GPL-2.0-or-later]
+* [zip][47] - Small zip archive processing library. [``Unlicense``][Unlicense]
+* [Zlib][48] - Popular compression library. [``BSD-3-Clause``][BSD-3-Clause]
+* [libarchive][49] - libarchive is a portable, efficient C library that can read
+  and write streaming archives in a variety of formats. [``BSD-3-Clause``][BSD-3-Clause]
+* [zlib-ng][50] - Zlib replacement with optimizations for modern CPUs systems. [``BSD-3-Clause``][BSD-3-Clause]
+* [Zstandard][51] - Fast, lossless compression algorithm, targeting real-time
+  compression scenarios at zlib-level or better compression ratios. [``BSD-3-Clause``][BSD-3-Clause]
+
+
+[51]: http://facebook.github.io/zstd/
+[50]: https://github.com/Dead2/zlib-ng
+[49]: https://github.com/libarchive/libarchive
+[48]: http://zlib.net
+[47]: https://github.com/kuba--/zip
+[46]: https://github.com/powturbo/TurboRLE
+[45]: https://github.com/powturbo/TurboPFor
+[44]: https://github.com/quixdb/squash
+[43]: https://github.com/antirez/smaz
+[42]: https://github.com/lemire/simdcomp
+[41]: http://ed-von-schleck.github.io/shoco
+[40]: https://github.com/vasi/pixz
+[39]: http://www.oberhumer.com/opensource/lzo/
+[38]: http://lz4.github.io/lz4/
+[37]: https://github.com/inikep/lizard
+[36]: http://www.bzip.org/
+[35]: https://github.com/adamierymenko/huffandpuff
+[34]: https://github.com/gildor2/fast_zlib
+[33]: https://github.com/atomicobject/heatshrink
+[32]: https://github.com/centaurean/density
+[31]: https://github.com/Cyan4973/FiniteStateEntropy
+[30]: http://roaringbitmap.org/
+[29]: https://github.com/RoaringBitmap/CRoaring
+[28]: http://lzip.nongnu.org/lzip.html
+[27]: http://lzip.nongnu.org/clzip.html
+[26]: https://github.com/google/brotli
+[25]: http://blosc.org/pages/blosc-in-depth
 
 [24]: https://pp.ipd.kit.edu/firm/
 [23]: https://github.com/distcc/distcc
