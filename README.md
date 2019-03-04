@@ -14,11 +14,9 @@ index for easier search instead of github stars.
 ## Index ##
 
 * [Meta](#meta)
-===============
+
 * [AI](#ai)
 * [Build Systems](#build-systems)
-
-===============
 
 ## Contents ##
 
