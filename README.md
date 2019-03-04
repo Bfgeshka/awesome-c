@@ -8,7 +8,8 @@ C++ is an afterthought.
 **Note:** there are several awesome-c lists already, but they are having
 somewhat different sets of libraries in them. This list tries to incorporate
 them all, and many more other resources. Consider it my personal cheat sheet and
-index for easier search instead of github stars.
+index for easier search instead of github stars. Also, original list categories
+are a mess.
 
 
 ## Index ##
@@ -33,6 +34,9 @@ index for easier search instead of github stars.
 * [Crypto](#crypto)
 * [Databases](#databases)
 * [Data Structures](#data-structures)
+* [Game Development](#game-development)
+* [Graphics](#graphics)
+* [GUI](#gui)
 * [Hashing](#hashing)
 * [Multiple Purpose Libraries](#multiple-purpose-libraries)
 
@@ -300,7 +304,71 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [uthash][106] - Single-file hash table implementation. [``BSD-1-Clause``][BSD-1-Clause]
 * [vector.h][107] - Header library for typed lists. [``MIT``][MIT]
 
-## Hashing ##
+### Game Development ###
+Engines, libraries and other helpful things specifically for making games.
+
+* [Allegro][170] - Cross-platform, game development and multimedia library. [``Zlib``][Zlib]
+* [cglm][171] - Optimized OpenGL/Graphics Math (glm) for C. [``MIT``][MIT]
+* [Chipmunk2D][172] - Fast and lightweight 2D game physics library. [``MIT``][MIT]
+* [Corange][173] - Game engine in pure C. [``BSD-2-Clause``][BSD-2-Clause]
+* [CSFML][174] - Binding for [SFML][175]. [``Zlib``][Zlib]
+* [Darkplaces][176] - Modified version of the Quake2 engine. [``GPL-2.0-only``][GPL-2.0-only]
+* [Epoxy][177] - Library for handling OpenGL function pointer management. [``MIT``][MIT]
+* [Freecell Solver][178] - Set of libraries and command-line programs for
+  automatically solving FreeCell and some similar variants of card Solitaire. [``MIT``][MIT]
+* [ioquake3][181] - Quake3 engine, freed at last. [``GPL-2.0-only``][GPL-2.0-only]
+* [kazmath][182] - Maths library for games. [``BSD-2-Clause``][BSD-2-Clause]
+* [libao][183] - Cross-platform audio library with a wide variety of outputs. [``GPL-2.0-or-later``][GPL-2.0-or-later]
+* [MATHC][184] - Math library for 2D and 3D programming. [``ZLib``][Zlib]
+* [Orx][185] - Portable, lightweight, plugin-based, data-driven, 2D-oriented
+  game engine. [``Zlib``][Zlib]
+* [Quake][186] - Quake engine. [``GPL-2.0-only``][GPL-2.0-only]
+* [Quake2][187] - Quake2 engine. [``GPL-2.0-only``][GPL-2.0-only]
+* [raylib][188] - Simple library to learn video game programming. [``Zlib``][Zlib]
+* [RetroArch][189] - Reference frontend for [libretro][190]. [``GPL-3.0-only``][GPL-3.0-only]
+* [SDL2][191] - Cross-platform library designed to provide low-level access to
+  audio, keyboard, mouse, joystick and graphics hardware via OpenGL. [``Zlib``][Zlib]
+* [sdl-gpu][192] - Library for high-performance, modern 2D graphics. Based on
+  SDL. [``MIT``][MIT]
+* [SIGIL][193] - Sound, Input and Graphics Integration Library; a simple
+  alternative to other libraries for doing all those things. Various licenses,
+  all open source.
+* [Spearmint][194] - Engine designed for FPS games. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [uastar][195] - Minimal A\* implementation. [``ZLib``][Zlib]
+
+### Graphics ###
+Access to graphical APIs or other graphic rendering libraries.
+
+* [FreeGLUT][179] - Alternative to the OpenGL Utility Toolkit. Allows the
+  creation and management of windows with OpenGL contexts. [``X11``][X11]
+* [GLFW][180] - Multi-platform library for creating windows with OpenGL
+  contexts. [``Zlib``][Zlib]
+* [Cairo][196] - 2D graphics library. [``LGPL-2.1-only``][LGPL-2.1-only] or [``MPL-1.1``][205]
+* [graphene][197] - Thin layer of graphical data types. [``MIT``][MIT]
+* [libcaca][198] - ASCII renderer for terminal-based interfaces. [``WTFPL``][WTFPL]
+* [libsixel][199] - Library implementing the SIXEL protocol, allowing beautiful
+  graphics in your terminal. [``MIT``][MIT]
+* [libxmi][200] - Function library for rasterizing 2D vector
+  graphics. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [lightmapper][201] - Single-file library for lightmap baking, using an
+  existing OpenGL renderer. Public domain.
+* [nanovg][202] - Anti-aliased 2D vector drawing library on top of OpenGL, for
+  UI and visualizations. [``Zlib``][Zlib]
+* [OpenGL][203] - Industry standard for high-performance graphics, with a
+  native C binding. [Various licenses][204].
+
+### GUI ###
+Widget toolkits, or things meant to be used in a similar way to them.
+
+* [GTK+][206] - Cross-platform widget toolkit. [``LGPL-2.1-only``][LGPL-2.1-only]
+* [IUP][207] - Another cross-platform widget toolkit. [``MIT``][MIT]
+* [nuklear][208] - Small, C89, single-header widget toolkit. Public domain.
+* [tinyfiledialogs][209] - Single-file library for simple dialogs. Compatible
+  with many other toolkits and OSes. [``Zlib``][Zlib]
+* [Tk][210] - Basic widget toolkit. Part of Tcl/Tk. [``TCL``][TCL]
+* [XForms Toolkit][211] - Widget toolkit designed for the XWindow system. [``LGPL-2.1-only``][LGPL-2.1-only]
+
+### Hashing ###
 Hash function implementations for *non*-crypto purposes. Cryptographic hashes
 can be found in the Crypto section.
 
@@ -340,8 +408,64 @@ can be found in the Crypto section.
 UNSORTED
 * [debug][467] - One-header library for easier 'printf debugging'. [``MIT``][MIT]
 * [Glade][328] - RAD tool to enable quick development of GTK+ GUIs. [``GPL-2.0-only``][GPL-2.0-only]
+* [giflib][401] - Library for reading and writing gif images. [``MIT``][MIT]
+* [heman][365] - Tiny library of image utilities dealing with height maps,
+  normal maps, distance fields and the like. [``MIT``][MIT]
+* [libgd][402] - Library for the dynamic creation of images by programmers. [``MIT``][MIT]
+* [libimagequant][300] - Small, portable library for high-quality conversion of
+  RGBA images to 8-bit indexed colour images. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [libjpeg-turbo][193] - Faster library for reading and writing JPEG files.
+  [Various licences][194].
+* [libpng][382] - Official PNG reference library. [``Libpng``][Libpng]
+* [libRSVG][417] - Library to render SVG files using Cairo. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [libvips][511] - Image processing library. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [mozjpeg][200] - Improved JPEG encoder. [``BSD-3-Clause``][BSD-3-Clause]
 
 
+[211]: http://xforms-toolkit.org/
+[210]: http://www.tcl.tk/
+[209]: https://sourceforge.net/projects/tinyfiledialogs/
+[208]: https://github.com/vurtun/nuklear
+[207]: http://webserver2.tecgraf.puc-rio.br/iup/
+[206]: https://www.gtk.org/
+
+[205]: https://spdx.org/licenses/MPL-1.1.html
+[204]: http://www.sgi.com/tech/opengl/?/license.html
+[203]: https://www.opengl.org/
+[202]: https://github.com/memononen/nanovg
+[201]: https://github.com/ands/lightmapper
+[200]: https://gnu.org/software/libxmi/
+[199]: https://github.com/saitoha/libsixel
+[198]: https://github.com/cacalabs/libcaca
+[197]: http://ebassi.github.io/graphene/
+[196]: http://cairographics.org/
+
+[195]: https://github.com/ferreiradaselva/uastar
+[194]: https://clover.moe/spearmint
+[193]: http://www.libsigil.com/
+[192]: https://github.com/grimfang4/sdl-gpu
+[191]: https://www.libsdl.org/
+[190]: https://www.libretro.com/
+[189]: https://github.com/libretro/RetroArch
+[188]: https://www.raylib.com
+[187]: https://github.com/id-Software/Quake-2
+[186]: https://github.com/id-Software/Quake
+[185]: http://orx-project.org
+[184]: https://github.com/ferreiradaselva/mathc
+[183]: https://xiph.org/ao/
+[182]: https://github.com/Kazade/kazmath
+[181]: https://ioquake3.org
+[180]: https://www.glfw.org/
+[179]: http://freeglut.sourceforge.net
+[178]: https://github.com/shlomif/fc-solve
+[177]: https://github.com/anholt/libepoxy
+[176]: https://icculus.org/twilight/darkplaces/
+[175]: https://www.sfml-dev.org/index.php
+[174]: https://www.sfml-dev.org/download/csfml/
+[173]: https://github.com/orangeduck/Corange
+[172]: http://chipmunk-physics.net
+[171]: https://github.com/recp/cglm
+[170]: https://liballeg.org
 
 [169]: http://cyan4973.github.io/xxHash
 [168]: https://github.com/leo-yuriev/t1ha
