@@ -24,6 +24,8 @@ index for easier search instead of github stars.
 
 * [AI](#ai)
 * [Compression](#compression)
+* [Concurrency and Parallelism](#concurrency-and-parallelism)
+* [Crypto](#crypto)
 
 --------------------------------------------------------------------------------
 
@@ -118,6 +120,107 @@ Basically, if your university calls it AI, it lives here.
 * [Zstandard][51] - Fast, lossless compression algorithm, targeting real-time
   compression scenarios at zlib-level or better compression ratios. [``BSD-3-Clause``][BSD-3-Clause]
 
+### Concurrency and Parallelism ###
+
+* [cchan][52] - Small library for channel constructs for inter-thread
+  communication. Public domain.
+* [checkedthreads][53] - A simple library for parallelism, with built-in
+  checking for race conditions. [``BSD-2-Clause``][BSD-2-Clause]
+* [ck][54] - Concurrency primitives, safe memory reclamation mechanisms and
+  non-blocking data structures. [``BSD-2-Clause``][BSD-2-Clause]
+* [FCFS RWLock][55] - First-come first-served Readers/Writers lock for POSIX
+  threads. Various licenses, all open source.
+* [libconcurrent][56] - Concurrent programming library, using coroutines, for
+  C11. [``Zlib``][Zlib]
+* [libdill][57] - Library which makes structured concurrent programming easy. [``MIT``][MIT]
+* [liburcu][59] - Data synchronization library, which scales linearly with the
+  number of cores. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [mill][60] - Go-style concurrency. [``MIT``][MIT]
+* [oclkit][61] - Two-file OpenCL wrapper. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [OCL-MLA][62] - OpenCL Mid-Level Abstractions. [``BSD-3-Clause``][BSD-3-Clause]
+* [OpenMP][63] - Set of pragmas designed to allow for easy parallelization of
+  code. Standard (licensing not applicable).
+* [OpenMPI][64] - Message passing interface implementation. [``BSD-3-Clause``][BSD-3-Clause]
+* [pth][66] - Portable implementation for non-preemptive priority-based
+  scheduling for multiple threads of execution. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [pthreads][67] - POSIX thread library. Standard (no license applicable).
+* [TinyCThread][68] - Portable, small implementation of the C11 threads API. [``Zlib``][Zlib]
+
+## Crypto ##
+
+Mostly library implementations of well-known cryptographic algorithms or
+protocols.
+
+* [GNU SASL][69] - Implementation of the Simple Authentication and Security
+  Layer and few common SASL mechanisms. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [GnuTLS][70] - Secure communication library, implementing SSL, TLS and DTLS. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [libgcrypt][71] - General-purpose cryptography library, with a range of
+  available ciphers. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [OpenSSL][72] - Implementation of the SSL and TLS protocols. Also includes a
+  cryptography library. [Dual Licensed under the OpenSSL License and the SSLeay License][73].
+* [liboqs][74] - Library for quantum-resistant cryptographicl algorithms. [``MIT``][MIT]
+* [libsodium][75] - Modern and easy-to-use crypto library. [``MIT``][MIT]
+* [libtomcrypt][76] - Fairly comprehensive, modular and portable cryptographic
+  toolkit. Public domain.
+* [mbed TLS][77] - Another crypto implementation. [``Apache-2.0``][Apache-2.0]
+* [MIRACL][78] - Multiprecision Integer and Rational Arithmetic Cryptographic
+  Library; an SDK for elliptic curve cryptography. [``AGPL-3.0-or-later``][AGPL-3.0-or-later]
+* [retter][79] - Collection of hash functions, ciphers, tools, libraries and
+  materials related to cryptography and security. Public domain.
+* [s2n][80] - C99 implementation of the TLS/SSL protocols, designed to be
+  simple, fast and with security as a priority. [``Apache-2.0``][Apache-2.0]
+* [sphlib][81] - Set of implementations of various hash functions, including
+  several cryptographic ones. [``MIT``][MIT]
+* [trezor-crypto][82] - Heavily optimized crypto algorithms for embedded
+  devices. [``MIT``][MIT]
+
+### Data structures ###
+
+* [libhl][58] - Library implementing a thread-safe API to manage a range of data
+  structures. Also provides some supporting functions and structures for
+  concurrent and lockfree programming. [``LGPL-3.0-only``][LGPL-3.0-only]
+
+### Multiple purpose libraries ###
+
+* [pal][65] - Optimized library for maths, parallel processing and data
+  movement. [``Apache-2.0``][Apache-2.0]
+
+
+
+[65]: https://github.com/parallella/pal
+
+[58]: https://github.com/xant/libhl
+
+[82]: https://github.com/trezor/trezor-crypto
+[81]: http://www.saphir2.com/sphlib/
+[80]: https://github.com/awslabs/s2n
+[79]: http://maciejczyzewski.me/retter/
+[78]: https://github.com/miracl/MIRACL
+[77]: https://tls.mbed.org/
+[76]: https://www.libtom.net
+[75]: https://download.libsodium.org/doc
+[74]: https://openquantumsafe.org/
+[73]: https://www.openssl.org/source/license.html
+[72]: https://www.openssl.org/
+[71]: https://gnupg.org/related_software/libgcrypt
+[70]: http://www.gnutls.org/
+[69]: https://gnu.org/software/gsasl/
+
+[68]: https://tinycthread.github.io/
+[67]: https://en.wikipedia.org/wiki/POSIX_Threads
+[66]: https://gnu.org/software/pth/
+[64]: https://www.open-mpi.org/
+[63]: https://www.openmp.org/
+[62]: http://tuxfan.github.io/ocl-mla/
+[61]: https://github.com/matze/oclkit
+[60]: http://libmill.org/
+[59]: http://liburcu.org/
+[57]: http://libdill.org/
+[56]: https://github.com/sharow/libconcurrent
+[55]: http://www.shlomifish.org/rwlock/
+[54]: http://concurrencykit.org
+[53]: https://github.com/yosefk/checkedthreads
+[52]: http://repo.hu/projects/cchan/
 
 [51]: http://facebook.github.io/zstd/
 [50]: https://github.com/Dead2/zlib-ng
