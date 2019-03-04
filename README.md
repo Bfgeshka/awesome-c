@@ -164,9 +164,7 @@ IDEs and text editors with good support of C specifics.
 
 --------------------------------------------------------------------------------
 
-## Contents ##
-
-### AI ###
+## AI ##
 Computer vision, neural nets, machine learning, and other similar things.
 Basically, if your university calls it AI, it lives here.
 
@@ -179,7 +177,7 @@ Basically, if your university calls it AI, it lives here.
 * [KANN][9] - Two-file ANN library. [``MIT``][MIT]
 * [LibDEEP][10] - Deep learning library. [``BSD-3-Clause``][BSD-3-Clause]
 
-### Compression ###
+## Compression ##
 * [blosc][25] - Fast, multi-threaded, meta-compressor library. Various licenses,
   all open source.
 * [Brotli][26] - General-purpose lossless compression algorithm library. Has
@@ -214,7 +212,7 @@ Basically, if your university calls it AI, it lives here.
 * [Zstandard][51] - Fast, lossless compression algorithm, targeting real-time
   compression scenarios at zlib-level or better compression ratios. [``BSD-3-Clause``][BSD-3-Clause]
 
-### Concurrency And Parallelism ###
+## Concurrency And Parallelism ##
 * [cchan][52] - Small library for channel constructs for inter-thread
   communication. Public domain.
 * [checkedthreads][53] - A simple library for parallelism, with built-in
@@ -239,7 +237,7 @@ Basically, if your university calls it AI, it lives here.
 * [pthreads][67] - POSIX thread library. Standard (no license applicable).
 * [TinyCThread][68] - Portable, small implementation of the C11 threads API. [``Zlib``][Zlib]
 
-### Crypto ###
+## Crypto ##
 Mostly library implementations of well-known cryptographic algorithms or
 protocols.
 
@@ -266,7 +264,7 @@ protocols.
 * [trezor-crypto][82] - Heavily optimized crypto algorithms for embedded
   devices. [``MIT``][MIT]
 
-### Databases ###
+## Databases ##
 * [BerkeleyDB][83] - Library for a high-performance embedded database for
   key-value data. [``AGPL-3.0-only``][AGPL-3.0-only]
 * [Groonga][84] - Columnar store with full-text search. [``LGPL-2.1-only``][LGPL-2.1-only]
@@ -285,7 +283,7 @@ protocols.
 * [WhiteDB][94] - Lightweight database library, operating entirely in main
   memory. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 
-### Data Structures ###
+## Data Structures ##
 * [libhl][58] - Library implementing a thread-safe API to manage a range of data
   structures. Also provides some supporting functions and structures for
   concurrent and lockfree programming. [``LGPL-3.0-only``][LGPL-3.0-only]
@@ -306,7 +304,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [uthash][106] - Single-file hash table implementation. [``BSD-1-Clause``][BSD-1-Clause]
 * [vector.h][107] - Header library for typed lists. [``MIT``][MIT]
 
-### Game Development ###
+## Game Development ##
 Engines, libraries and other helpful things specifically for making games.
 
 * [Allegro][170] - Cross-platform, game development and multimedia library. [``Zlib``][Zlib]
@@ -338,7 +336,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [Spearmint][194] - Engine designed for FPS games. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [uastar][195] - Minimal A\* implementation. [``ZLib``][Zlib]
 
-### Graphics ###
+## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
 
 * [FreeGLUT][179] - Alternative to the OpenGL Utility Toolkit. Allows the
@@ -359,7 +357,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [OpenGL][203] - Industry standard for high-performance graphics, with a
   native C binding. [Various licenses][204].
 
-### GUI ###
+## GUI ##
 Widget toolkits, or things meant to be used in a similar way to them.
 
 * [GTK+][206] - Cross-platform widget toolkit. [``LGPL-2.1-only``][LGPL-2.1-only]
@@ -370,7 +368,7 @@ Widget toolkits, or things meant to be used in a similar way to them.
 * [Tk][210] - Basic widget toolkit. Part of Tcl/Tk. [``TCL``][TCL]
 * [XForms Toolkit][211] - Widget toolkit designed for the XWindow system. [``LGPL-2.1-only``][LGPL-2.1-only]
 
-### Hashing ###
+## Hashing ##
 Hash function implementations for *non*-crypto purposes. Cryptographic hashes
 can be found in the Crypto section.
 
@@ -382,7 +380,7 @@ can be found in the Crypto section.
 * [t1ha][168] - Fast Positive Hash - a portable, fast hash function. [``BSD-3-Clause``][BSD-3-Clause]
 * [xxHash][169] - Fast 32 and 64 bit hashing algorithm. [``BSD-2-Clause``][BSD-2-Clause]
 
-### Memory Management ###
+## Memory Management ##
 * [Boehm GC][212] - Garbage collection for C. Various licenses, all open source.
 * [jemalloc][213] - Malloc implementation that emphasizes avoidance of
   fragmentation and scalable concurrency support. [``BSD-2-Clause``][BSD-2-Clause]
@@ -410,7 +408,7 @@ Audio and video processing
 * [minimp3][225] - Lightweight MP3 decoder single header library. [``CC0-1.0``][CC0-1.0]
 * [Soundpipe][226] - Lightweight music DSP library. [``MIT``][MIT]
 
-### Multiple Purpose Libraries ###
+## Multiple Purpose Libraries ##
 * [pal][65] - Optimized library for maths, parallel processing and data
   movement. [``Apache-2.0``][Apache-2.0]
 * [APR][154] - Apache Portable Runtime; another library of cross-platform utility
