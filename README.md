@@ -18,16 +18,22 @@ index for easier search instead of github stars.
 	* [Tooling](#tooling)
 		* [Build Systems](#build-systems)
 		* [Compilers](#compilers)
+		* [Debugging And Analysis](#debugging-and-analysis)
+		* [Documentation Generation](#documentation-generation)
+		* [Editors](#editors)
+		* [Profiling](#profiling)
+		* [Text Editor Extensions](#text-editor-extensions)
 		* [Utilities](#utilities)
 
 --------------------------------------------------------------------------------
 
 * [AI](#ai)
 * [Compression](#compression)
-* [Concurrency and Parallelism](#concurrency-and-parallelism)
+* [Concurrency And Parallelism](#concurrency-and-parallelism)
 * [Crypto](#crypto)
 * [Databases](#databases)
 * [Data Structures](#data-structures)
+* [Multiple Purpose Libraries](#multiple-purpose-libraries)
 
 --------------------------------------------------------------------------------
 
@@ -47,6 +53,8 @@ Compilers and other tooling.
   test software. Written in C++11. [``BSD-3-Clause``][BSD-3-Clause]
 * [GNU Make][12] - Tool which controls the generation of executables and other
   non-source files of a program. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [GMSL][146] - GNU Make Standard Library; a collection of additional
+  functionality for GNU Make. [``BSD-3-Clause``][BSD-3-Clause]
 * [Meson][13] -  Build system based on Ninja and Python. [``Apache-2.0``][Apache-2.0]
 * [Premake][14] - Generates project files for Visual Studio, Xcode and GNU Make.
   Targets suppport can be extended via modules. [``BSD-3-Clause``][BSD-3-Clause]
@@ -61,6 +69,63 @@ Compilers and other tooling.
 * [PCC][20] - Venerable compiler. Supports C99. [Various licenses][21], all
   open source.
 
+#### Debugging And Analysis ####
+* [C-Reduce][108] - Tool that takes a large C file with a property of interest
+  and automatically produces a much smaller C file that has the same property.
+  Intended to help create minimal bug-demonstrating cases in complex code. [``BSD-3-Clause``][BSD-3-Clause]
+* [CBMC][109] - C Bounded Model Checker; a tool for verification of array
+  bounds, pointer safety and user-specified assertions. [``BSD-4-Clause``][BSD-4-Clause]
+* [GNU cflow][110] - Analyzes a collection of source files and prints a graph
+  charting control flow in the program. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [GNU Complexity][111] - Tool for measuring the complexity of source code. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [CScout][112] - Source code analyzer and refactoring browser for C programs. [``GPL-3.0-only``][GPL-3.0-only]
+* [GNU DDD][113] - Graphical front-end for a range of command-line debuggers. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [GDB][114] - GNU Project debugger. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [lldb][115] - LLVM debugger. [``NCSA``][NCSA]
+* [rr][116] - Debugger that records non-deterministic executions to allow for
+  deterministic debugging. [``BSD-2-Clause``][BSD-2-Clause]
+* [Valgrind][117] - Range of dynamic analysis tools, including a leak checker. [``GPL-2.0-only``][GPL-2.0-only]
+* [address-sanitizer][138] - Fast memory error detector. [``Apache-2.0``][Apache-2.0]
+* [ClangCheck][144] - Static analysis tool, designed to work with Clang. [``NCSA``][NCSA]
+* [Cppcheck][145] - Static analysis tool. Despite the name, works well with C. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+
+#### Documentation Generation ####
+* [Cxref][118] - Generates documentation in either LaTeX, HTML, RTF or SGML. [``GPL-2.0-only``][GPL-2.0-only]
+* [DocOnce][119] - Modestly tagged markup language that can be used to generate
+  a range of formats. [``BSD-3-Clause``][BSD-3-Clause]
+* [Doxygen][120] - De-facto standard tool for generating documentation from
+  annotated sources. Can generate a large range of formats. [``GPL-2.0-only``][GPL-2.0-only]
+
+#### Editors ####
+IDEs and text editors with good support of C specifics.
+
+* [Anjuta DevStudio][121] - GNOME IDE. [``GPL-2.0-only``][GPL-2.0-only]
+* [Code::Blocks][122] - Extendable, configurable IDE supporting C. [``GPL-3.0-only``][GPL-3.0-only]
+* [CodeLite][123] - Cross-platform IDE. [``GPL-2.0-only``][GPL-2.0-only]
+* [Geany][124] - Small and fast IDE. [``GPL-2.0-or-later``][GPL-2.0-or-later]
+* [KDevelop][125] - KDE IDE. [``GPL-2.0-only``][GPL-2.0-only]
+
+#### Profiling ####
+* [gperftools][126] - Collection of utilities for measuring and improving
+  performance. [``BSD-3-Clause``][BSD-3-Clause]
+* [gprof][127] - Performance analysis tool. Part of GNU binutils. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [OProfile][128] - Statistical profiler for Linux. Can profile any code
+  (including the kernel!) with low overhead and without recompilation. [``GPL-2.0-only``][GPL-2.0-only]
+* [perf][129] - Linux kernel-based profiler with a lot of functionality. [``GPL-2.0-only``][GPL-2.0-only]
+
+#### Text Editor Extensions ####
+* [CCompletion][130] - Notepad++ autocompletion plugin. Works with all
+  identifiers recognized by Ctags. This is a download link. [``GPL-2.0-or-later``][GPL-2.0-or-later]
+* [CEDET][131] - Collection of Emacs Development Environment Tools; designed to
+  provide IDE-like features to Emacs. Built-in. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [Flycheck][132] - Modern syntax checking for Emacs. For C, it can use either
+  GCC or Clang as a back-end. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [Neomake][133] - Async :make and linting framework for Neovim/Vim. [``MIT``][MIT]
+* [Syntastic][134] - Syntax checking and linting for Vim. [``WTFPL``][WTFPL]
+* [YASnippet][135] - Emacs code template system, with C templates for common
+  snippets. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [YouCompleteMe][136] - Code completion engine for Vim. [``GPL-3.0-only``][GPL-3.0-only]
+
 #### Utilities ####
 * [ccache][22] - Compiler cache designed to speed up recompilation. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [distcc][23] - Program that allows builds to be distributed among several
@@ -68,6 +133,27 @@ Compilers and other tooling.
 * [Firm][24] - Library that provides a graph-based intermediate representation,
   optimizations and assembly code generation suitable for use in compilers.
   Comes with an example C front-end under the same license. [``LGPL-2.1-only``][LGPL-2.1-only]
+* [Artistic Style][137] - Fast and small automatic source code formatter that
+  supports C. [``LGPL-3.0-only``][LGPL-3.0-only]
+* [biicode][139] - Dependency manager. [``MIT``][MIT]
+* [c][140] - Compile and execute C "scripts" in one go on the command line. Also
+  has shebang support. [``MIT``][MIT]
+* [c99sh][141] - Run C files using hash-bang. [``BSD-2-Clause``][BSD-2-Clause]
+* [cdecl][142] - Online service to translate C declarations into English and
+  vice versa. Public domain.
+* [cinclude2dot][143] - Graphs include dependencies in a project using Graphviz. [GPL-1.0-or-later][335] or [``GPL-2.0-or-later``][GPL-2.0-or-later] or [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [GNU Global][147] - Source code tagging tool. [``GPL-3.0-only``][GPL-3.0-only]
+* [GPP][148] - General-purpose preprocessor. More versatile than the C
+  preprocessor, but more flexible than m4. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
+* [Highlight][149] - Converts source code to formatted text with highlighting. [``GPL-3.0-only``][GPL-3.0-only]
+* [include-what-you-use][150] - Helps find unecessary inclusions and make
+  suggestions for fixing them. Based on LLVM/Clang (and only works with it). [``NCSA``][NCSA]
+* [indent][151] - Formats C source code automatically to make it easier to
+  read. Also converts from one style of source to another. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [SMACK][152] - Modular software verification toolchain and a self-contained
+  software verifier. Currently only works with programs compiled using Clang. [``MIT``][MIT]
+* [unifdef][153] - Removes #ifdef and #if directives with their delimited text
+  without touching any other part of the file. [``BSD-3-Clause``][BSD-3-Clause] or [``BSD-2-Clause``][BSD-2-Clause]
 
 --------------------------------------------------------------------------------
 
@@ -87,7 +173,6 @@ Basically, if your university calls it AI, it lives here.
 * [LibDEEP][10] - Deep learning library. [``BSD-3-Clause``][BSD-3-Clause]
 
 ### Compression ###
-
 * [blosc][25] - Fast, multi-threaded, meta-compressor library. Various licenses,
   all open source.
 * [Brotli][26] - General-purpose lossless compression algorithm library. Has
@@ -122,8 +207,7 @@ Basically, if your university calls it AI, it lives here.
 * [Zstandard][51] - Fast, lossless compression algorithm, targeting real-time
   compression scenarios at zlib-level or better compression ratios. [``BSD-3-Clause``][BSD-3-Clause]
 
-### Concurrency and Parallelism ###
-
+### Concurrency And Parallelism ###
 * [cchan][52] - Small library for channel constructs for inter-thread
   communication. Public domain.
 * [checkedthreads][53] - A simple library for parallelism, with built-in
@@ -175,8 +259,7 @@ protocols.
 * [trezor-crypto][82] - Heavily optimized crypto algorithms for embedded
   devices. [``MIT``][MIT]
 
-## Databases ##
-
+### Databases ###
 * [BerkeleyDB][83] - Library for a high-performance embedded database for
   key-value data. [``AGPL-3.0-only``][AGPL-3.0-only]
 * [Groonga][84] - Columnar store with full-text search. [``LGPL-2.1-only``][LGPL-2.1-only]
@@ -195,8 +278,7 @@ protocols.
 * [WhiteDB][512] - Lightweight database library, operating entirely in main
   memory. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 
-### Data structures ###
-
+### Data Structures ###
 * [libhl][58] - Library implementing a thread-safe API to manage a range of data
   structures. Also provides some supporting functions and structures for
   concurrent and lockfree programming. [``LGPL-3.0-only``][LGPL-3.0-only]
@@ -217,13 +299,101 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [uthash][106] - Single-file hash table implementation. [``BSD-1-Clause``][BSD-1-Clause]
 * [vector.h][107] - Header library for typed lists. [``MIT``][MIT]
 
-### Multiple purpose libraries ###
-
+### Multiple Purpose Libraries ###
 * [pal][65] - Optimized library for maths, parallel processing and data
   movement. [``Apache-2.0``][Apache-2.0]
+* [APR][154] - Apache Portable Runtime; another library of cross-platform utility
+  functions. [``Apache-2.0``][Apache-2.0]
+* [C Algorithms][155] - Collection of common algorithms and data structures. [``ISC``][ISC]
+* [CPL][156] - The Common Pipeline Library; a set of libraries designed to be a
+  comprehensive, efficient and robust software toolkit. [``GPL-2.0-only``][GPL-2.0-only]
+* [EFL][157] - Large collection of useful data structures and functions. Various
+  licenses, all open source.
+* [klib][158] - Small and lightweight implementations of common algorithms and
+  data structures. [``MIT``][MIT]
+* [libcork][159] - Utility functions and structures, designed for
+  resource-constrained systems. Can be embedded. [``BSD-3-Clause``][BSD-3-Clause]
+* [libnih][160] - Lightweight library of functions and structures. [``GPL-2.0-only``][GPL-2.0-only]
+* [libU][161] - Small library of basic utilities, including memory allocation,
+  string manipulation and logging. [``BSD-3-Clause``][BSD-3-Clause]
+* [PBL][162] - Large library of utilities, featuring data structures, among
+  other things. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [qlibc][163] - Simple and powerful library, designed as a replacement for GLib
+  while focusing on being small and light. [``BSD-2-Clause``][BSD-2-Clause]
+* [TBOX][164] - Multi-platform library with a large number of capabilities. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 
 
+-=-=-=-=-=-=-=-=-=-
+UNSORTED
+* [debug][467] - One-header library for easier 'printf debugging'. [``MIT``][MIT]
+* [Glade][328] - RAD tool to enable quick development of GTK+ GUIs. [``GPL-2.0-only``][GPL-2.0-only]
+
+
+
+[164]: https://github.com/waruqi/tbox
+[163]: http://wolkykim.github.io/qlibc
+[162]: http://www.mission-base.com/peter/source/
+[161]: http://www.koanlogic.com/libu/
+[160]: https://github.com/keybuk/libnih
+[159]: http://libcork.readthedocs.io/en/0.14.0/
+[158]: http://attractivechaos.github.io/klib/#About
+[157]: https://www.enlightenment.org
+[156]: http://www.eso.org/sci/software/cpl/
+[155]: https://fragglet.github.io/c-algorithms
+[154]: http://apr.apache.org/
 [65]: https://github.com/parallella/pal
+
+[153]: http://dotat.at/prog/unifdef/
+[152]: https://github.com/smackers/smack
+[151]: https://www.gnu.org/software/indent/
+[150]: https://github.com/include-what-you-use/include-what-you-use
+[149]: http://www.andre-simon.de/doku/highlight/en/highlight.php
+[148]: https://logological.org/gpp
+[147]: https://www.gnu.org/software/global/
+[146]: https://gmsl.sourceforge.net/
+[145]: http://cppcheck.sourceforge.net/
+[144]: https://clang.llvm.org/docs/ClangCheck.html
+[143]: https://www.flourish.org/cinclude2dot/
+[142]: https://cdecl.org/
+[141]: https://github.com/RhysU/c99sh
+[140]: https://github.com/ryanmjacobs/c
+[139]: https://biicode.github.io/biicode/
+[138]: https://github.com/google/sanitizers
+[137]: http://astyle.sourceforge.net/
+
+[136]: http://valloric.github.io/YouCompleteMe/
+[135]: http://joaotavora.github.io/yasnippet/
+[134]: https://github.com/vim-syntastic/syntastic
+[133]: https://github.com/neomake/neomake
+[132]: https://github.com/flycheck/flycheck
+[131]: http://cedet.sourceforge.net/
+[130]: http://freeweb.siol.net/rmihor/NppCCompletionPlugin.zip
+
+[129]: https://perf.wiki.kernel.org/index.php/Main_Page
+[128]: http://oprofile.sourceforge.net/news/
+[127]: https://www.gnu.org/software/binutils/
+[126]: https://github.com/gperftools/gperftools
+
+[125]: https://www.kdevelop.org/
+[124]: https://www.geany.org/
+[123]: https://www.codelite.org/
+[122]: http://www.codeblocks.org/
+[121]: http://anjuta.org/
+
+[120]: http://www.doxygen.nl/
+[119]: https://hplgit.github.io/doconce/doc/web/index.html
+[118]: http://www.gedanken.org.uk/software/cxref/
+
+[117]: http://www.valgrind.org/
+[116]: https://rr-project.org/
+[115]: https://lldb.llvm.org/
+[114]: https://www.gnu.org/software/gdb/
+[113]: https://www.gnu.org/software/ddd/ddd.html
+[112]: https://www.spinellis.gr/cscout/
+[111]: https://www.gnu.org/software/complexity/
+[110]: http://www.gnu.org/software/cflow/
+[109]: https://www.cprover.org/cbmc/
+[108]: https://embed.cs.utah.edu/creduce/
 
 [107]: https://github.com/swenson/vector.h
 [106]: http://troydhanson.github.io/uthash/
