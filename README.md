@@ -41,6 +41,7 @@ are a mess.
 * [Memory Management](#memory-management)
 * [Multimedia](#multimedia)
 * [Multiple Purpose Libraries](#multiple-purpose-libraries)
+* [Networking](#networking)
 
 --------------------------------------------------------------------------------
 
@@ -431,6 +432,41 @@ Audio and video processing
   while focusing on being small and light. [``BSD-2-Clause``][BSD-2-Clause]
 * [TBOX][164] - Multi-platform library with a large number of capabilities. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 
+## Networking ##
+* [asnlc][227] - Compiler of ASN.1 specifications into C source code. [``BSD-2-Clause``][BSD-2-Clause]
+* [CHL][228] - C Hypertext Library - A library for writing for web in C. [``GPL-3.0-only``][GPL-3.0-only]
+* [GNU adns][229] - Advanced, easy-to-use, asynch-capable DNS client library
+  and utilities. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [http-parser][230] - HTTP request/response parser. [``MIT``][MIT]
+* [ldns][231] - Library to simplify DNS programming. [``BSD-3-Clause``][BSD-3-Clause]
+* [libcurl][232] - Client-side URL transfer library, supporting a wide range of
+  formats. [``curl``][curl]
+* [LibEtPan][233] - Mail library providing an efficient network for IMAP, SMTP,
+  POP and NNTP. [``BSD-3-Clause``][BSD-3-Clause]
+* [libhttpd][234] - Library to add basic web server capabilities to an
+  application or embedded device. [``GPL-2.0-only``][GPL-2.0-only]
+* [libidn][235] - Implementation of the Stringprep, Punycode and IDNA
+  specifications. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [libmicrohttpd][236] - Small library that makes it easy to run an HTTP
+  server as part of another application. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [libonion][237] - HTTP server library, designed to be easy to use. [``Apache-2.0``][Apache-2.0]
+* [libquickmail][238] - Library intended to give developers a way to send email
+  from their applications. Supports multiple To/Cc/Bcc recipients and
+  attachments without size limits. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [libsagui][239] - Library for cross-platform HTTP servers. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
+* [LibVNCServer][240] - Cross-platform libraries to implement VNC server and/or
+  client functionality. [``GPL-2.0-or-later``][GPL-2.0-or-later]
+* [libwebsock][241] - Easy-to-use and powerful web socket library. [``LGPL-3.0-only``][LGPL-3.0-only]
+* [lwan][242] - Experimental, scalable, high-performance HTTP server. [``GPL-2.0-only``][GPL-2.0-only]
+* [mongoose][243] - Embedded web server. [``GPL-2.0-only``][GPL-2.0-only]
+* [nanomsg][244] - C-based implementation of ZeroMQ. [``MIT``][MIT]
+* [NNG][245] - nanomsg-next-generation - lightweight brokerless messaging. [``MIT``][MIT]
+* [oSip][246] - SIP implementation without additional dependencies. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [socket99][247] - C99 wrapper for the BSD sockets API. [``ISC``][ISC]
+* [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
+  protocol, as described in RFC 6455. [``MIT``][MIT]
+* [zyre][249] - Framework for proximity-based peer-to-peer applications. [``MPL-2.0``][MPL-2.0]
+
 
 -=-=-=-=-=-=-=-=-=-
 UNSORTED
@@ -450,8 +486,35 @@ UNSORTED
 * [mozjpeg][200] - Improved JPEG encoder. [``BSD-3-Clause``][BSD-3-Clause]
 * [lodepng][69] - Simple PNG image decoder and encoder, requiring no other
   dependencies. [``BSD-3-Clause``][BSD-3-Clause]
+* [gumbo-parser][196] - HTML5 parsing library in C99. [``Apache-2.0``][Apache-2.0]
+* [libev][144] - Yet another event loop. [``BSD-2-Clause``][BSD-2-Clause]
+* [libevent][124] - Event loop replacement for network servers. [``BSD-3-Clause``][BSD-3-Clause]
+* [twitc][237] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
 
 
+[249]: https://github.com/zeromq/zyre
+[248]: https://tatsuhiro-t.github.io/wslay/
+[247]: https://github.com/silentbicycle/socket99
+[246]: https://gnu.org/software/osip/
+[245]: https://nanomsg.github.io/nng/
+[244]: https://github.com/nanomsg/nanomsg
+[243]: https://cesanta.com
+[242]: https://lwan.ws
+[241]: https://github.com/JonnyWhatshisface/libwebsock
+[240]: https://github.com/LibVNC/libvncserver
+[239]: https://risoflora.github.io/libsagui/
+[238]: http://sourceforge.net/projects/libquickmail/
+[237]: https://www.coralbits.com/libonion/
+[236]: https://gnu.org/software/libmicrohttpd/
+[235]: https://gnu.org/software/libidn/
+[234]: http://www.hughes.com.au/products/libhttpd/
+[233]: http://www.etpan.org
+[232]: https://curl.haxx.se/libcurl/
+[231]: http://www.nlnetlabs.nl/projects/ldns/index.html
+[230]: https://github.com/joyent/http-parser
+[229]: https://www.gnu.org/software/adns/
+[228]: https://github.com/it4e/CHL
+[227]: http://lionet.info/asn1c/compiler.html
 
 [226]: http://paulbatchelor.github.io/proj/soundpipe.html
 [225]: https://github.com/lieff/minimp3
