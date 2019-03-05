@@ -12,9 +12,12 @@ index for easier search instead of github stars. Also, original list categories
 are a mess.
 
 Incorporated lists:
-	* https://github.com/kozross/awesome-c
-	* https://github.com/aleksandar-todorovic/awesome-c
-	* https://github.com/uhub/awesome-c
+
+* https://github.com/kozross/awesome-c
+* https://github.com/aleksandar-todorovic/awesome-c
+* https://github.com/uhub/awesome-c
+
+--------------------------------------------------------------------------------
 
 ## Index ##
 
