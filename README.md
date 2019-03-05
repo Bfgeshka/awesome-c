@@ -138,8 +138,8 @@ Incorporated lists:
 * [Libtool][2-11] - Generic library support script. Part of the Autotools. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [Meson][2-12] - Build system based on Ninja and Python. [``Apache-2.0``][Apache-2.0]
 * [Ninja][2-13] - Small, simple build system with a focus on speed. [``Apache-2.0``][Apache-2.0]
-* [Premake][2-14] - Generates project files for Visual Studio, Xcode and GNU Make.
-  Targets suppport can be extended via modules. [``BSD-3-Clause``][BSD-3-Clause]
+* [Premake][2-14] - Generates project files for Visual Studio, Xcode and GNU
+  Make. Targets suppport can be extended via modules. [``BSD-3-Clause``][BSD-3-Clause]
 * [Qbs][2-15] - Modern build tool for software projects. [``LGPL-3.0-only``][LGPL-3.0-only]
 * [qmake][2-16] - Build system included with the Qt Framework. [`GNU GPL3 with Qt Exception`][2-17]
 * [SCons][2-18] - Software construction tool based on Python. [``MIT``][MIT]
@@ -188,24 +188,38 @@ Incorporated lists:
 [3-8]: https://github.com/ispc/ispc/blob/master/LICENSE.txt
 
 #### Debugging and Analysis ####
-* [C-Reduce][108] - Tool that takes a large C file with a property of interest
+* [address-sanitizer][4-3] - Fast memory error detector. [``Apache-2.0``][Apache-2.0]
+* [C-Reduce][4-1] - Tool that takes a large C file with a property of interest
   and automatically produces a much smaller C file that has the same property.
   Intended to help create minimal bug-demonstrating cases in complex code. [``BSD-3-Clause``][BSD-3-Clause]
-* [CBMC][109] - C Bounded Model Checker; a tool for verification of array
+* [CBMC][4-2] - C Bounded Model Checker; a tool for verification of array
   bounds, pointer safety and user-specified assertions. [``BSD-4-Clause``][BSD-4-Clause]
-* [GNU cflow][110] - Analyzes a collection of source files and prints a graph
+* [ClangCheck][4-4] - Static analysis tool, designed to work with Clang. [``NCSA``][NCSA]
+* [Cppcheck][4-5] - Static analysis tool. Despite the name, works well with C. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [GNU cflow][4-6] - Analyzes a collection of source files and prints a graph
   charting control flow in the program. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [GNU Complexity][111] - Tool for measuring the complexity of source code. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [CScout][112] - Source code analyzer and refactoring browser for C programs. [``GPL-3.0-only``][GPL-3.0-only]
-* [GNU DDD][113] - Graphical front-end for a range of command-line debuggers. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [GDB][114] - GNU Project debugger. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [lldb][115] - LLVM debugger. [``NCSA``][NCSA]
-* [rr][116] - Debugger that records non-deterministic executions to allow for
+* [GNU Complexity][4-7] - Tool for measuring the complexity of source code. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [CScout][4-8] - Source code analyzer and refactoring browser for C programs. [``GPL-3.0-only``][GPL-3.0-only]
+* [GNU DDD][4-9] - Graphical front-end for a range of command-line debuggers. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [GDB][4-10] - GNU Project debugger. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [lldb][4-11] - LLVM debugger. [``NCSA``][NCSA]
+* [rr][4-12] - Debugger that records non-deterministic executions to allow for
   deterministic debugging. [``BSD-2-Clause``][BSD-2-Clause]
-* [Valgrind][117] - Range of dynamic analysis tools, including a leak checker. [``GPL-2.0-only``][GPL-2.0-only]
-* [address-sanitizer][138] - Fast memory error detector. [``Apache-2.0``][Apache-2.0]
-* [ClangCheck][144] - Static analysis tool, designed to work with Clang. [``NCSA``][NCSA]
-* [Cppcheck][145] - Static analysis tool. Despite the name, works well with C. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [Valgrind][4-13] - Range of dynamic analysis tools, including a leak checker. [``GPL-2.0-only``][GPL-2.0-only]
+
+[4-1]: https://embed.cs.utah.edu/creduce/
+[4-2]: https://www.cprover.org/cbmc/
+[4-3]: https://github.com/google/sanitizers
+[4-4]: https://clang.llvm.org/docs/ClangCheck.html
+[4-5]: http://cppcheck.sourceforge.net/
+[4-6]: http://www.gnu.org/software/cflow/
+[4-7]: https://www.gnu.org/software/complexity/
+[4-8]: https://www.spinellis.gr/cscout/
+[4-9]: https://www.gnu.org/software/ddd/ddd.html
+[4-10]: https://www.gnu.org/software/gdb/
+[4-11]: https://lldb.llvm.org/
+[4-12]: https://rr-project.org/
+[4-13]: http://www.valgrind.org/
 
 #### Documentation Generation ####
 * [Cxref][118] - Generates documentation in either LaTeX, HTML, RTF or SGML. [``GPL-2.0-only``][GPL-2.0-only]
@@ -4749,14 +4763,11 @@ Comprehensive and integrated solutions for building web application in C.
 [149]: http://www.andre-simon.de/doku/highlight/en/highlight.php
 [148]: https://logological.org/gpp
 [147]: https://www.gnu.org/software/global/
-[145]: http://cppcheck.sourceforge.net/
-[144]: https://clang.llvm.org/docs/ClangCheck.html
 [143]: https://www.flourish.org/cinclude2dot/
 [142]: https://cdecl.org/
 [141]: https://github.com/RhysU/c99sh
 [140]: https://github.com/ryanmjacobs/c
 [139]: https://biicode.github.io/biicode/
-[138]: https://github.com/google/sanitizers
 [137]: http://astyle.sourceforge.net/
 
 [136]: http://valloric.github.io/YouCompleteMe/
@@ -4781,17 +4792,6 @@ Comprehensive and integrated solutions for building web application in C.
 [120]: http://www.doxygen.nl/
 [119]: https://hplgit.github.io/doconce/doc/web/index.html
 [118]: http://www.gedanken.org.uk/software/cxref/
-
-[117]: http://www.valgrind.org/
-[116]: https://rr-project.org/
-[115]: https://lldb.llvm.org/
-[114]: https://www.gnu.org/software/gdb/
-[113]: https://www.gnu.org/software/ddd/ddd.html
-[112]: https://www.spinellis.gr/cscout/
-[111]: https://www.gnu.org/software/complexity/
-[110]: http://www.gnu.org/software/cflow/
-[109]: https://www.cprover.org/cbmc/
-[108]: https://embed.cs.utah.edu/creduce/
 
 [107]: https://github.com/swenson/vector.h
 [106]: http://troydhanson.github.io/uthash/
