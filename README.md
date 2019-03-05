@@ -236,29 +236,43 @@ Incorporated lists:
 [5-4]: https://www.gtk.org/gtk-doc/
 
 #### Editors ####
-* [Anjuta DevStudio][121] - GNOME IDE. [``GPL-2.0-only``][GPL-2.0-only]
-* [Code::Blocks][122] - Extendable, configurable IDE supporting C. [``GPL-3.0-only``][GPL-3.0-only]
-* [CodeLite][123] - Cross-platform IDE. [``GPL-2.0-only``][GPL-2.0-only]
-* [Geany][124] - Small and fast IDE. [``GPL-2.0-or-later``][GPL-2.0-or-later]
-* [KDevelop][125] - KDE IDE. [``GPL-2.0-only``][GPL-2.0-only]
-* [Anjuta DevStudio](http://anjuta.org/) - The GNOME IDE. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-* [Atom](https://atom.io/) - Hackable text editor for the 21st century. [`MIT`](https://raw.githubusercontent.com/atom/atom/master/LICENSE.md)
-* [Code::Blocks](http://www.codeblocks.org/) - Extensible, configurable IDE supporting C. [`GNU GPL3`](http://www.gnu.org/licenses/gpl.html)
-* [CodeLite](https://codelite.org/) - Cross-platform IDE. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-* [Eclipse](http://www.eclipse.org/ide/) - IDE written in Java. [`EPL`](https://directory.fsf.org/wiki/License:EPL-1.0)
-* [Geany](https://www.geany.org/) - Very small and fast IDE. [`GNU GPL2.1 or later`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-* [KDevelop](https://www.kdevelop.org/) - The KDE IDE. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-* [Qt Creator](https://www.qt.io/qt-features-libraries-apis-tools-and-ide/#ide) - Cross-platform IDE written with C++ and Qt, part of the Qt SDK. Supports Clang Code Model. [`GNU GPL3 with Qt exception`](https://github.com/qt-creator/qt-creator/blob/master/LICENSE.GPL3-EXCEPT)
-* [Visual Studio Code](https://code.visualstudio.com/) - Code editing, redefined. Visual Studio Code.
+* [Anjuta DevStudio][6-1] - GNOME IDE. [``GPL-2.0-only``][GPL-2.0-only]
+* [Atom][6-3] - Hackable text editor for the 21st century. [``MIT``][MIT]
+* [Code::Blocks][6-2] - Extendable, configurable IDE supporting C. [``GPL-3.0-only``][GPL-3.0-only]
+* [CodeLite][6-4] - Cross-platform IDE. [``GPL-2.0-only``][GPL-2.0-only]
+* [Eclipse][6-6] - IDE written in Java. [``EPL``][6-7]
+* [Geany][6-5] - Small and fast IDE. [``GPL-2.0-or-later``][GPL-2.0-or-later]
+* [KDevelop][6-8] - KDE IDE. [``GPL-2.0-only``][GPL-2.0-only]
+* [Qt Creator][6-9] - Cross-platform IDE written with C++ and Qt, part of the
+  Qt SDK. Supports Clang Code Model. [``GNU GPL3 with Qt exception``][6-10]
+* [Visual Studio Code][6-11] - Code editing, redefined. Visual Studio Code. [``MIT``][MIT]
+
+[6-1]: http://anjuta.org/
+[6-2]: http://www.codeblocks.org/
+[6-3]: https://atom.io/
+[6-4]: https://codelite.org/
+[6-5]: https://www.geany.org/
+[6-6]: http://www.eclipse.org/ide/
+[6-7]: https://directory.fsf.org/wiki/License:EPL-1.0
+[6-8]: https://www.kdevelop.org/
+[6-9]: https://www.qt.io/qt-features-libraries-apis-tools-and-ide/#ide
+[6-10]: https://github.com/qt-creator/qt-creator/blob/master/LICENSE.GPL3-EXCEPT
+[6-11]: https://github.com/Microsoft/vscode
 
 #### Microsoft Windows Environment ####
-* [Cygwin][365] - Designed to emulate a POSIX-compatible environment extensively
-  under Windows. [Various licenses, all open source][366].
-* [MinGW-w64][367] - Minimalist environment for C development on Windows with
-  64 bit support. [Various licenses, all open source][368].
-* [MSYS2][369] - Minimal SYStem 2; aims to provide support for a POSIX
+* [Cygwin][7-1] - Designed to emulate a POSIX-compatible environment extensively
+  under Windows. [Various licenses, all open source][7-2].
+* [MinGW-w64][7-3] - Minimalist environment for C development on Windows with
+  64 bit support. [Various licenses, all open source][7-4].
+* [MSYS2][7-5] - Minimal SYStem 2; aims to provide support for a POSIX
   environment on Windows, with a package manager based on Arch Linux's
   pacman. Packages have individual licenses, otherwise, as MinGW and Cygwin.
+
+[7-1]: https://cygwin.com/
+[7-2]: https://cygwin.com/licensing.html
+[7-3]: http://mingw-w64.yaxm.org/doku.php/start
+[7-4]: http://mingw.org/license
+[7-5]: http://msys2.github.io/
 
 #### Profiling ####
 * [gperftools][126] - Collection of utilities for measuring and improving
@@ -4522,11 +4536,6 @@ Comprehensive and integrated solutions for building web application in C.
 [371]: https://github.com/doches/progressbar
 [370]: https://github.com/zeromq/zproto
 
-[369]: http://msys2.github.io/
-[368]: http://mingw.org/license
-[367]: http://mingw-w64.yaxm.org/doku.php/start
-[366]: https://cygwin.com/licensing.html
-[365]: https://cygwin.com/
 
 [364]: https://kore.io/
 [363]: http://www.koanlogic.com/klone/
@@ -4784,12 +4793,6 @@ Comprehensive and integrated solutions for building web application in C.
 [128]: http://oprofile.sourceforge.net/news/
 [127]: https://www.gnu.org/software/binutils/
 [126]: https://github.com/gperftools/gperftools
-
-[125]: https://www.kdevelop.org/
-[124]: https://www.geany.org/
-[123]: https://www.codelite.org/
-[122]: http://www.codeblocks.org/
-[121]: http://anjuta.org/
 
 [120]: http://www.doxygen.nl/
 [119]: https://hplgit.github.io/doconce/doc/web/index.html
