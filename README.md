@@ -30,15 +30,19 @@ are a mess.
 --------------------------------------------------------------------------------
 
 * [AI](#ai)
+* [Argument Parsing](#argument-parsing)
 * [Calculations](#calculations)
 * [Compression](#compression)
 * [Concurrency and Parallelism](#concurrency-and-parallelism)
 * [Crypto](#crypto)
 * [Databases](#databases)
 * [Data Structures](#data-structures)
+* [Events](#events)
+* [FFI](#ffi)
 * [Game Development](#game-development)
 * [Graphics](#graphics)
 * [GUI](#gui)
+* [Hardware Oriented](#hardware-oriented)
 * [Hashing](#hashing)
 * [Image Processing and Computer Vision](#image-processing-and-computer-vision)
 * [Integrated Debugging](#integrated-debugging)
@@ -47,6 +51,7 @@ are a mess.
 * [Multimedia](#multimedia)
 * [Multiple Purpose Libraries](#multiple-purpose-libraries)
 * [Networking](#networking)
+* [OS Specifics](#os-specifics)
 * [Procedural Generation](#procedural-generation)
 * [Regex](#regex)
 * [Serialization](#serialization)
@@ -200,13 +205,19 @@ support for C.
 
 ## AI ##
 Neural nets, machine learning, and other similar things.
-
 * [Cranium][6] - Portable, header-only ANN library in C99. [``MIT``][MIT]
 * [FANN][7] - Fast Artifical Neural Network library; an implementation of neural
   networks. [``GPL-2.0-only``][GPL-2.0-only]
 * [Genann][8] - Simple ANN in C89, without additional dependencies. [``Zlib``][Zlib]
 * [KANN][9] - Two-file ANN library. [``MIT``][MIT]
 * [LibDEEP][10] - Deep learning library. [``BSD-3-Clause``][BSD-3-Clause]
+
+## Argument Parsing ##
+* [parg][410] - A single-file reimplementation of ``getopt`` with better
+  defaults. [``CC0-1.0``][CC0-1.0]
+* [argparse][411] - Command-line argument parsing library, inspired by Python's
+  argparse module. [``MIT``][MIT]
+* [docopt.c][412] - Implementation of a command-line option parser. [``MIT``][MIT]
 
 ## Calculations ##
 * [apophenia][250] - Library for statistical and scientific computing. [``GPL-2.0-only``][GPL-2.0-only]
@@ -381,9 +392,22 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [uthash][106] - Single-file hash table implementation. [``BSD-1-Clause``][BSD-1-Clause]
 * [vector.h][107] - Header library for typed lists. [``MIT``][MIT]
 
+## Events ##
+* [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
+* [libPhenom][398] - Eventing framework for building high-scalability and
+  high-performance systems. [``Apache-2.0``][Apache-2.0]
+* [libev][399] - Yet another event loop. [``BSD-2-Clause``][BSD-2-Clause]
+* [libevent][400] - Event loop replacement for network servers. [``BSD-3-Clause``][BSD-3-Clause]
+
+## FFI ##
+Foreign function interfaces, also know as binding interfaces.
+* [libffi][404] - Portable foreign-function interface library. [``MIT``][MIT]
+* [GNU Libffcall][405] - Collection of libraries for building foreign function
+  interfaces. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [dyncall][406] - Another foreign function interface library. [``MIT``][MIT]
+
 ## Game Development ##
 Engines, libraries and other helpful things specifically for making games.
-
 * [Allegro][170] - Cross-platform, game development and multimedia library. [``Zlib``][Zlib]
 * [cglm][171] - Optimized OpenGL/Graphics Math (glm) for C. [``MIT``][MIT]
 * [Chipmunk2D][172] - Fast and lightweight 2D game physics library. [``MIT``][MIT]
@@ -436,7 +460,6 @@ Access to graphical APIs or other graphic rendering libraries.
 
 ## GUI ##
 Widget toolkits, or things meant to be used in a similar way to them.
-
 * [GTK+][206] - Cross-platform widget toolkit. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [IUP][207] - Another cross-platform widget toolkit. [``MIT``][MIT]
 * [nuklear][208] - Small, C89, single-header widget toolkit. Public domain.
@@ -445,10 +468,15 @@ Widget toolkits, or things meant to be used in a similar way to them.
 * [Tk][210] - Basic widget toolkit. Part of Tcl/Tk. [``TCL``][TCL]
 * [XForms Toolkit][211] - Widget toolkit designed for the XWindow system. [``LGPL-2.1-only``][LGPL-2.1-only]
 
+## Hardware Oriented ##
+* [libusb][407] - Provides generic access to USB devices. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [libimobiledevice][408] - Cross-platform protocol library to communicate
+  with iThings. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [cpu\_features][409] - Get CPU features at runtime. [``Apache-2.0``][Apache-2.0].
+
 ## Hashing ##
 Hash function implementations for *non*-crypto purposes. Cryptographic hashes
 can be found in the Crypto section.
-
 * [CLHash][165] - Library implementing fast CLHash hashing function. Only works
   on Intel Haswell or newer. [``Apache-2.0``][Apache-2.0]
 * [HighwayHash][166] - Fast, strong, SIMD-using hash function. Also contains an
@@ -482,7 +510,6 @@ can be found in the Crypto section.
 ## Lexing and Parsing ##
 Libraries specifically for lexical analysis (or lexing) and syntactic analysis
 (or parsing).
-
 * [flex][356] - Fast lexical analyzer generator. [``BSD-2-Clause``][BSD-2-Clause]
 * [GNU Bison][357] - General-purpose parser generator that converts an
   annotated context-free grammar into a range of parsers. [``GPL-3.0-or-later``][GPL-3.0-or-later]
@@ -578,6 +605,13 @@ Audio and video processing
 * [zyre][249] - Framework for proximity-based peer-to-peer applications. [``MPL-2.0``][MPL-2.0]
 * [zproto][370] - Protocol framework for ZeroMQ. [``MIT``][MIT]
 
+## OS Specifics ##
+* [attr][401] - Commands for manipulating filesystem extended attributes. [``GPL-2.0-or-later``][GPL-2.0-or-later]
+* [Caffeine][402] - Library for building daemons and services for Linux and
+  FreeBSD systems. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [libcox][403] - Library which permits cross-platform system calls and
+  standard utilities across different operating systems. [``BSD-2-Clause``][BSD-2-Clause]
+
 ## Procedural Generation ##
 * [heman][382] - Tiny library of image utilities dealing with height maps,
   normal maps, distance fields and the like. [``MIT``][MIT]
@@ -622,6 +656,15 @@ Audio and video processing
 * [stb][299] - Range of single-file libraries. Public domain.
 * [tinyheaders][300] - Collection of header-only libraries, primarily oriented
   toward game development. [``Zlib``][Zlib]
+
+## Special Purpose ##
+* [Tulip Indicators][394] - Library of functions for technical analysis of
+  financial data. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
+* [libtrading][395] - Implementation of network protocols for communicating
+  with exchanges, dark pools and other trading venues. Supports FIX, FIX/FAST
+  and many proprietary protocols. [``BSD-2-Clause``][BSD-2-Clause]
+* [libpostal][396] - Library for parsing and normalization of street addresses
+  around the world. Powered by statistical NLP and open geo data. [``MIT``][MIT]
 
 ## Standard Libraries ##
 Implementations of the C standarts
@@ -746,17 +789,12 @@ Comprehensive and integrated solutions for building web application in C.
 # Unsorted #
 * [Glade][328] - RAD tool to enable quick development of GTK+ GUIs. [``GPL-2.0-only``][GPL-2.0-only]
 * [gumbo-parser][196] - HTML5 parsing library in C99. [``Apache-2.0``][Apache-2.0]
-* [libev][144] - Yet another event loop. [``BSD-2-Clause``][BSD-2-Clause]
-* [libevent][124] - Event loop replacement for network servers. [``BSD-3-Clause``][BSD-3-Clause]
 * [twitc][237] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
 * [gnulib][46] - Collection of common GNU code. Various licenses, all
   open source.
 * [ApeTagLibs][345] - Library for working with APEv2 tags. [``MIT``][MIT]
-* [attr][425] - Commands for manipulating filesystem extended attributes. [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [bfd][157] - Library for manipulating binary object files. Part of GNU
   binutils. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [Caffeine][496] - Library for building daemons and services for Linux and
-  FreeBSD systems. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [CommonMark][223] - Implementation of the CommonMark spec.
   [Variety of licenses, all open source][224].
 * [CRIU][440] - Checkpoint/Restore In Userspace; a software tool (with a C API)
@@ -766,27 +804,17 @@ Comprehensive and integrated solutions for building web application in C.
   another. [``AFL-2.1``][AFL-2.1] or [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [dlx][388] - Implementation of [Knuth's Algorithm X][389], with example
   solvers. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [dyncall][281] - Another foreign function interface library. [``MIT``][MIT]
 * [GNU FreeIPMI][158] - In-band and out-of-band IPMI implementation. [``GPL-3.0-only``][GPL-3.0-only]
 * [GNU gperf][351] - Perfect hash function generator, given a list of
   strings. Outputs C code. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [GNU Libffcall][162] - Collection of libraries for building foreign function
-  interfaces. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [Kitsune][355] - Efficient, general-purpose framework for dynamic software
   updating. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
 * [libCello][96] - Library introducing higher-level programming to C. [``BSD-3-Clause``][BSD-3-Clause]
 * [libcoap][136] - Implementation of the [Constrained Application Protocol][117].
   [``GPL-2.0-or-later``][GPL-2.0-or-later] or [``BSD-2-Clause``][BSD-2-Clause]
-* [libcox][373] - Library which permits cross-platform system calls and
-  standard utilities across different operating systems. [``BSD-2-Clause``][BSD-2-Clause]
-* [libffi][128] - Portable foreign-function interface library. [``MIT``][MIT]
 * [libgeohash][499] - Pure C implementation of the Geohash algorithm. [``BSD-3-Clause``][BSD-3-Clause]
 * [libgss][161] - Generic Security Service. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [libnfc][332] - Platform-independent Near-Field Communication
-  library. [``LGPL-3.0-only``][LGPL-3.0-only]
-* [libPhenom][31] - Eventing framework for building high-scalability and
-  high-performance systems. [``Apache-2.0``][Apache-2.0]
-* [libuv][56] - Cross-platform asynchronous I/O. [``MIT``][MIT]
+* [libnfc][332] - Platform-independent Near-Field Communication library. [``LGPL-3.0-only``][LGPL-3.0-only]
 * [libvldmail][3] - Your friendly email validation library. No external
   dependencies (not even regexps). [``WTFPL``][WTFPL]
 * [linenoise][504] - Small, self-contained alternative to readline and libedit. [``BSD-2-Clause``][BSD-2-Clause]
@@ -798,30 +826,32 @@ Comprehensive and integrated solutions for building web application in C.
 * [tm][543] -  Timer and Timeline Utils for C. [``MIT``][MIT]
 * [XLSX I/O][344] - Cross-platform library for reading and writing .xlsx files. [``MIT``][MIT]
 
-## Argument Parsing ##
-* [parg][274] - A single-file reimplementation of ``getopt`` with better defaults.
-  [``CC0-1.0``][CC0-1.0]
-* [argparse][413] - Command-line argument parsing library, inspired by
-  Python's argparse module. [``MIT``][MIT]
-* [docopt.c][270] - Implementation of a command-line option parser. [``MIT``][MIT]
-
-## Hardware Oriented ##
-* [libusb][306] - Provides generic access to USB devices. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
-* [libimobiledevice][354] - Cross-platform protocol library to communicate
-  with iThings. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
-* [cpu\_features][319] - Get CPU features at runtime. [``Apache-2.0``][Apache-2.0].
-
-## Special Purpose ##
-* [Tulip Indicators][449] - Library of functions for technical analysis of
-  financial data. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
-* [libtrading][455] - Implementation of network protocols for communicating
-  with exchanges, dark pools and other trading venues. Supports FIX, FIX/FAST
-  and many proprietary protocols. [``BSD-2-Clause``][BSD-2-Clause]
-* [libpostal][434] - Library for parsing and normalization of street addresses
-  around the world. Powered by statistical NLP and open geo data. [``MIT``][MIT]
 
 
+[412]: https://github.com/docopt/docopt.c
+[411]: https://github.com/cofyc/argparse
+[410]: https://github.com/jibsen/parg
 
+[409]: https://github.com/google/cpu_features
+[408]: https://github.com/libimobiledevice/libimobiledevice
+[407]: https://libusb.info/
+
+[406]: http://www.dyncall.org/
+[405]: https://gnu.org/software/libffcall/
+[404]: https://github.com/atgreen/libffi
+
+[403]: http://libcox.symisc.net/
+[402]: https://github.com/dmw/caffeine
+[401]: http://savannah.nongnu.org/projects/attr/
+
+[400]: http://libevent.org/
+[399]: http://software.schmorp.de/pkg/libev.html
+[398]: http://facebook.github.io/libphenom/index.html
+[397]: http://libuv.org
+
+[396]: https://github.com/openvenues/libpostal
+[395]: http://libtrading.org/
+[394]: https://tulipindicators.org/
 
 [393]: http://www.throwtheswitch.org/cexception
 [392]: https://github.com/esneider/debug
