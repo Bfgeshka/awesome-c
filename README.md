@@ -26,6 +26,18 @@ are a mess.
 		* [Profiling](#profiling)
 		* [Text Editor Extensions](#text-editor-extensions)
 		* [Utilities](#utilities)
+	* [Reading material](#reading-material)
+		* [Books](#books)
+			* [Reference Books](#reference-books)
+			* [Beginner Books](#beginner-books)
+			* [Intermediate Books](#intermediate-books)
+			* [Advanced Books](#advanced-books)
+		* [Articles and Other Resources](#articles-and-other-resources)
+			* [Reference](#reference)
+			* [Benchmarks](#benchmarks)
+			* [Beginner Level](#beginner-level)
+			* [Intermediate Level](#intermediate-level)
+			* [Advanced Level](#advanced-level)
 
 --------------------------------------------------------------------------------
 
@@ -113,8 +125,7 @@ Compilers and other tooling.
 #### Compilers ####
 * [GCC][18] - Provides a C compiler as part of its compiler set. Supports C11. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [Clang][19] - Compiler for LLVM. Supports C11. [``NCSA``][NCSA]
-* [PCC][20] - Venerable compiler. Supports C99. [Various licenses][21], all
-  open source.
+* [PCC][20] - Venerable compiler. Supports C99. [Various licenses][21]
 
 #### Debugging and Analysis ####
 * [C-Reduce][108] - Tool that takes a large C file with a property of interest
@@ -209,6 +220,72 @@ IDEs and text editors with good support of C specifics.
   software verifier. Currently only works with programs compiled using Clang. [``MIT``][MIT]
 * [unifdef][153] - Removes #ifdef and #if directives with their delimited text
   without touching any other part of the file. [``BSD-3-Clause``][BSD-3-Clause] or [``BSD-2-Clause``][BSD-2-Clause]
+
+### Reading Material ###
+#### Books ####
+##### Reference Books #####
+* [The C Programming Language 2E][444] - Original book on C, by its creators.
+* [C: A Reference Manual 5E][441] - Full reference book for C99.
+* [C in a Nushell 2E][442] - Concise reference book for C11.
+* [C Pocket Reference][443] - Concise reference book for C99.
+
+##### Beginner Books #####
+* [C Primer Plus 6E][445] - Complete tutorial on programming in C11.
+* [C Programming: A Modern Approach][446] - Book to learn the basics of C.
+* [Head First C][447] - 'Head-first' style book for learning C.
+* [The GNU C Programming Tutorial][463] - Beware, GNU C is not standart C.
+
+##### Intermediate Books #####
+* [21st Century C][448] - Programming book on C that touches tooling subject.
+* [Understanding and Using C Pointers][449] - In-depth book on pointers in C.
+
+##### Advanced Books #####
+* [Expert C Programming: Deep C Secrets][450] - Interesting, in-depth and
+  entertaining look at the innards of C.
+* [C Programming Wikibook][458] - Actually touches topics for all levels.
+
+#### Articles and Other Resources ####
+##### Reference #####
+* [C FAQ - comp.lang.c Frequently Asked Questions][452]
+
+##### Benchmarks #####
+* [Benchmarks of the Lockless Memory Allocator][451]
+* [Comparison of C/POSIX standard library implementations for Linux][453]
+* [Finding the best 64-bit simulation PRNG][454]
+
+##### Beginner Level #####
+* [A tutorial on pointers][455]
+* [A tutorial on portable Makefiles][456]
+* [Building C Projects][457]
+* [Introduction to \`fun' C][459]
+* [Learning C with GDB][460]
+* [POSIX Threads Programming tutorial][462]
+* [Templating in C][464]
+
+##### Intermediate Level #####
+* [memcpy vs memmove][461]
+* [8 gdb tricks you should know][465]
+* [10 C99 tricks][466]
+* [A comprehensive MPI tutorial resource][467]
+* [Diving into concurrency: trying out mutexes and atomics][468]
+* [Generic C reference counting][469]
+* [How to write portable C without complicating your build][470]
+* [Introduction to OpenMP][471] (video)
+* [OpenMP tutorial][472]
+* [MPI tutorial][473]
+* [Scalable C - Writing Large-Scale Distributed C][474]
+* [Some unknown features or tricks in C language][475]
+* [What every C programmer should know about undefined behaviour][476]
+
+##### Advanced Level #####
+* [Advanced metaprogramming in C][477]
+* [A quick tutorial on implementing and debugging malloc, free, calloc, and realloc][478]
+* [Bit twiddling hacks][479]
+* [Implementing smart pointers for the C programming language][480]
+* [Inline functions in C][481]
+* [Metaprogramming custom control structures in C][482]
+* [Some dark corners of C][483]
+* [Writing efficient C and C code optimization][484]
 
 --------------------------------------------------------------------------------
 
@@ -850,7 +927,50 @@ Comprehensive and integrated solutions for building web application in C.
 * [D-Bus][430] - Interprocess communications bus. [``AFL-2.1``][AFL-2.1] or [``GPL-2.0-or-later``][GPL-2.0-or-later]
 
 
-
+[484]: https://www.codeproject.com/Articles/6154/Writing-Efficient-C-and-C-Code-Optimization
+[483]: https://docs.google.com/presentation/d/1h49gY3TSiayLMXYmRMaAEMl05FaJ-Z6jDOWOz3EsqqQ/edit?pli=1#slide=id.p
+[482]: https://www.chiark.greenend.org.uk/~sgtatham/mp/
+[481]: http://www.greenend.org.uk/rjk/tech/inline.html
+[480]: http://snaipe.me/c/c-smart-pointers/
+[479]: https://graphics.stanford.edu/~seander/bithacks.html
+[478]: http://danluu.com/malloc-tutorial/
+[477]: http://250bpm.com/blog:56
+[476]: http://blog.llvm.org/2011/05/what-every-c-programmer-should-know.html
+[475]: https://proprogramming.org/some-unknown-features-or-tricks-in-c-language/
+[474]: https://hintjens.gitbooks.io/scalable-c/content/index.html
+[473]: https://computing.llnl.gov/tutorials/mpi/
+[472]: https://computing.llnl.gov/tutorials/openMP/
+[471]: https://www.youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG
+[470]: https://nullprogram.com/blog/2017/03/30
+[469]: https://nullprogram.com/blog/2015/02/17
+[468]: https://jvns.ca/blog/2014/12/14/fun-with-threads/
+[467]: http://mpitutorial.com/
+[466]: http://blog.noctua-software.com/c-tricks.html
+[465]: https://blogs.oracle.com/linux/8-gdb-tricks-you-should-know-v2
+[464]: http://blog.pkh.me/p/20-templating-in-c.html
+[463]: http://www.crasseux.com/books/ctut.pdf
+[462]: https://computing.llnl.gov/tutorials/pthreads/
+[461]: https://web.archive.org/web/20170620131430/https://www.tedunangst.com/flak/post/memcpy-vs-memmove
+[460]: https://www.recurse.com/blog/5-learning-c-with-gdb
+[459]: https://gist.github.com/eatonphil/21b3d6569f24ad164365
+[458]: https://en.wikibooks.org/wiki/C_Programming
+[457]: http://nethack4.org/blog/building-c.html
+[456]: http://nullprogram.com/blog/2017/08/20/
+[455]: https://pdos.csail.mit.edu/6.828/2017/readings/pointers.pdf
+[454]: http://nullprogram.com/blog/2017/09/21/
+[453]: http://www.etalabs.net/compare_libcs.html
+[452]: http://c-faq.com/
+[451]: https://locklessinc.com/benchmarks_allocator.shtml
+[450]: https://dl.acm.org/citation.cfm?id=179241
+[449]: http://shop.oreilly.com/product/0636920028000.do
+[448]: http://shop.oreilly.com/product/0636920033677.do
+[447]: http://shop.oreilly.com/product/0636920015482.do
+[446]: http://knking.com/books/c2/index.html
+[445]: https://www.pearson.com/us/higher-education/program/Prata-C-Primer-Plus-6th-Edition/PGM4399.html
+[444]: https://en.wikipedia.org/wiki/The_C_Programming_Language
+[443]: http://shop.oreilly.com/product/9780596004361.do
+[442]: http://shop.oreilly.com/product/0636920033844.do
+[441]: http://careferencemanual.com/
 
 [440]: https://github.com/alanxz/rabbitmq-c
 [439]: https://github.com/dertuxmalwieder/libvldmail
