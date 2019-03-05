@@ -264,6 +264,8 @@ Neural nets, machine learning, and other similar things.
 * [Yeppp!][274] - Fast, SIMD-optimized mathematical library. [``BSD-3-Clause``][BSD-3-Clause]
 * [tinyexpr][379] - Tiny recursive-descent parser, compiler and evaluation
   engine for simple mathematical expressions. [``BSD-3-Clause``][BSD-3-Clause]
+* [dlx][418] - Implementation of [Knuth's Algorithm X][419], with example
+  solvers. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 
 ## Compression ##
 * [blosc][25] - Fast, multi-threaded, meta-compressor library. Various licenses,
@@ -459,7 +461,6 @@ Access to graphical APIs or other graphic rendering libraries.
   native C binding. [Various licenses][204].
 
 ## GUI ##
-Widget toolkits, or things meant to be used in a similar way to them.
 * [GTK+][206] - Cross-platform widget toolkit. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [IUP][207] - Another cross-platform widget toolkit. [``MIT``][MIT]
 * [nuklear][208] - Small, C89, single-header widget toolkit. Public domain.
@@ -467,12 +468,15 @@ Widget toolkits, or things meant to be used in a similar way to them.
   with many other toolkits and OSes. [``Zlib``][Zlib]
 * [Tk][210] - Basic widget toolkit. Part of Tcl/Tk. [``TCL``][TCL]
 * [XForms Toolkit][211] - Widget toolkit designed for the XWindow system. [``LGPL-2.1-only``][LGPL-2.1-only]
+* [Glade][415] - RAD tool to enable quick development of GTK+ GUIs. [``GPL-2.0-only``][GPL-2.0-only]
 
 ## Hardware Oriented ##
 * [libusb][407] - Provides generic access to USB devices. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [libimobiledevice][408] - Cross-platform protocol library to communicate
   with iThings. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
-* [cpu\_features][409] - Get CPU features at runtime. [``Apache-2.0``][Apache-2.0].
+* [cpu\_features][409] - Get CPU features at runtime. [``Apache-2.0``][Apache-2.0]
+* [libcoap][423] - Implementation of the [Constrained Application Protocol][424].
+  [``GPL-2.0-or-later``][GPL-2.0-or-later] or [``BSD-2-Clause``][BSD-2-Clause]
 
 ## Hashing ##
 Hash function implementations for *non*-crypto purposes. Cryptographic hashes
@@ -484,6 +488,8 @@ can be found in the Crypto section.
 * [SpookyHash][167] - Fast hash function. [``BSD-3-Clause``][BSD-3-Clause]
 * [t1ha][168] - Fast Positive Hash - a portable, fast hash function. [``BSD-3-Clause``][BSD-3-Clause]
 * [xxHash][169] - Fast 32 and 64 bit hashing algorithm. [``BSD-2-Clause``][BSD-2-Clause]
+* [GNU gperf][414] - Perfect hash function generator, given a list of strings.
+  Outputs C code. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 
 ## Image Processing and Computer Vision ##
 * [ccv][5] - C-based/Cached/Core Computer Vision library; modern computer
@@ -508,8 +514,7 @@ can be found in the Crypto section.
 * [CException][393] - Implementation of exceptions. [``MIT``][MIT]
 
 ## Lexing and Parsing ##
-Libraries specifically for lexical analysis (or lexing) and syntactic analysis
-(or parsing).
+Generic lexers and parsers
 * [flex][356] - Fast lexical analyzer generator. [``BSD-2-Clause``][BSD-2-Clause]
 * [GNU Bison][357] - General-purpose parser generator that converts an
   annotated context-free grammar into a range of parsers. [``GPL-3.0-or-later``][GPL-3.0-or-later]
@@ -533,7 +538,6 @@ Libraries specifically for lexical analysis (or lexing) and syntactic analysis
 
 ## Multimedia ##
 Audio and video processing
-
 * [aubio][219] - Library for audio and music analysis. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [FFMPEG][220] - Complete, cross-platform solution to record, convert and
   stream audio and video. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
@@ -568,6 +572,8 @@ Audio and video processing
 * [qlibc][163] - Simple and powerful library, designed as a replacement for GLib
   while focusing on being small and light. [``BSD-2-Clause``][BSD-2-Clause]
 * [TBOX][164] - Multi-platform library with a large number of capabilities. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [gnulib][425] - Collection of common GNU code. Various licenses, all
+  open source.
 
 ## Networking ##
 * [asnlc][227] - Compiler of ASN.1 specifications into C source code. [``BSD-2-Clause``][BSD-2-Clause]
@@ -611,6 +617,7 @@ Audio and video processing
   FreeBSD systems. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [libcox][403] - Library which permits cross-platform system calls and
   standard utilities across different operating systems. [``BSD-2-Clause``][BSD-2-Clause]
+* [GNU FreeIPMI][422] - In-band and out-of-band IPMI implementation. [``GPL-3.0-only``][GPL-3.0-only]
 
 ## Procedural Generation ##
 * [heman][382] - Tiny library of image utilities dealing with height maps,
@@ -665,6 +672,7 @@ Audio and video processing
   and many proprietary protocols. [``BSD-2-Clause``][BSD-2-Clause]
 * [libpostal][396] - Library for parsing and normalization of street addresses
   around the world. Powered by statistical NLP and open geo data. [``MIT``][MIT]
+* [libgeohash][417] - Pure C implementation of the Geohash algorithm. [``BSD-3-Clause``][BSD-3-Clause]
 
 ## Standard Libraries ##
 Implementations of the C standarts
@@ -725,6 +733,8 @@ This includes libraries for configuration, markup and other text file types.
 * [libcmark][376] - Library for parsing the CommonMark dialect of
   Markdown. [``BSD-2-Clause``][BSD-2-Clause]
 * [Discount][377] - Simple implementation of a Markdown parser. [``BSD-3-Clause``][BSD-3-Clause]
+* [cmark][420] - Implementation of the CommonMark, Markdown dialect.
+  [Variety of licenses, all open source][421].
 
 ### XML ###
 * [Expat][332] - Stream-oriented XML parser. [MIT][MIT]
@@ -741,6 +751,8 @@ This includes libraries for configuration, markup and other text file types.
 * [libxo][339] - Allows an application to generate plain text, XML, JSON and
   HTML output using a common set of function calls. The application decides at
   runtime what output style should be produced. [``BSD-2-Clause``][BSD-2-Clause]
+* [XLSX I/O][413] - Cross-platform library for reading and writing .xlsx files. [``MIT``][MIT]
+* [gumbo-parser][416] - HTML5 parsing library in C99. [``Apache-2.0``][Apache-2.0]
 
 
 ## Testing ##
@@ -787,32 +799,17 @@ Comprehensive and integrated solutions for building web application in C.
 
 
 # Unsorted #
-* [Glade][328] - RAD tool to enable quick development of GTK+ GUIs. [``GPL-2.0-only``][GPL-2.0-only]
-* [gumbo-parser][196] - HTML5 parsing library in C99. [``Apache-2.0``][Apache-2.0]
 * [twitc][237] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
-* [gnulib][46] - Collection of common GNU code. Various licenses, all
-  open source.
 * [ApeTagLibs][345] - Library for working with APEv2 tags. [``MIT``][MIT]
 * [bfd][157] - Library for manipulating binary object files. Part of GNU
   binutils. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [CommonMark][223] - Implementation of the CommonMark spec.
-  [Variety of licenses, all open source][224].
 * [CRIU][440] - Checkpoint/Restore In Userspace; a software tool (with a C API)
   for 'freezing' a running application to disk, then restoring
   it. [``GPL-2.0-only``][GPL-2.0-only] or [``LGPL-2.1-only``][LGPL-2.1-only]
-* [D-Bus][430] - Simple way for applications to talk to one
-  another. [``AFL-2.1``][AFL-2.1] or [``GPL-2.0-or-later``][GPL-2.0-or-later]
-* [dlx][388] - Implementation of [Knuth's Algorithm X][389], with example
-  solvers. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [GNU FreeIPMI][158] - In-band and out-of-band IPMI implementation. [``GPL-3.0-only``][GPL-3.0-only]
-* [GNU gperf][351] - Perfect hash function generator, given a list of
-  strings. Outputs C code. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [D-Bus][430] - Interprocess communications bus. [``AFL-2.1``][AFL-2.1] or [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [Kitsune][355] - Efficient, general-purpose framework for dynamic software
   updating. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
 * [libCello][96] - Library introducing higher-level programming to C. [``BSD-3-Clause``][BSD-3-Clause]
-* [libcoap][136] - Implementation of the [Constrained Application Protocol][117].
-  [``GPL-2.0-or-later``][GPL-2.0-or-later] or [``BSD-2-Clause``][BSD-2-Clause]
-* [libgeohash][499] - Pure C implementation of the Geohash algorithm. [``BSD-3-Clause``][BSD-3-Clause]
 * [libgss][161] - Generic Security Service. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [libnfc][332] - Platform-independent Near-Field Communication library. [``LGPL-3.0-only``][LGPL-3.0-only]
 * [libvldmail][3] - Your friendly email validation library. No external
@@ -824,9 +821,24 @@ Comprehensive and integrated solutions for building web application in C.
 * [sort][190] - Collection of sorting routines, which type-specialize at
   compile-time with a user-defined type. [``MIT``][MIT]
 * [tm][543] -  Timer and Timeline Utils for C. [``MIT``][MIT]
-* [XLSX I/O][344] - Cross-platform library for reading and writing .xlsx files. [``MIT``][MIT]
 
 
+
+
+
+[425]: https://www.gnu.org/software/gnulib/
+[424]: http://coap.technology/
+[423]: https://github.com/obgm/libcoap
+[422]: https://gnu.org/software/freeipmi/index.html
+[421]: https://github.com/commonmark/cmark/blob/master/COPYING
+[420]: https://github.com/commonmark/cmark
+[419]: https://en.wikipedia.org/wiki/Knuth's_Algorithm_X
+[418]: https://github.com/blynn/dlx
+[417]: https://github.com/simplegeo/libgeohash
+[416]: https://github.com/google/gumbo-parser
+[415]: https://glade.gnome.org/
+[414]: https://www.gnu.org/software/gperf/
+[413]: https://brechtsanders.github.io/xlsxio/
 
 [412]: https://github.com/docopt/docopt.c
 [411]: https://github.com/cofyc/argparse
