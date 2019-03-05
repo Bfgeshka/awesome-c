@@ -143,7 +143,12 @@ Compilers and other tooling.
 #### Compilers ####
 * [GCC][18] - Provides a C compiler as part of its compiler set. Supports C11. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [Clang][19] - Compiler for LLVM. Supports C11. [``NCSA``][NCSA]
-* [PCC][20] - Venerable compiler. Supports C99. [Various licenses][21]
+* [PCC][20] - Venerable compiler. Supports C99. [``Various licenses``][21]
+* [CompCert][497] - Fully-verified C compiler. Supports almost all of C89. [`GPL2.1-or-later`][GPL-2.0-or-later]
+* [TCC][498] - Tiny C Compiler; a small, fast C compiler. Supports C99 (except
+  complex types). [``LGPL2.1``][LGPL-2.1-only]
+* [Intel SPMD][500] - Compiler for a variant of the C language, for single
+  program, multiple data programming. [``Various licenses``][499]
 
 #### Debugging and Analysis ####
 * [C-Reduce][108] - Tool that takes a large C file with a property of interest
@@ -944,6 +949,12 @@ Comprehensive and integrated solutions for building web application in C.
 * [tm][432] -  Timer and Timeline Utils for C. [``MIT``][MIT]
 * [D-Bus][430] - Interprocess communications bus. [``AFL-2.1``][AFL-2.1] or [``GPL-2.0-or-later``][GPL-2.0-or-later]
 
+
+
+[500]: http://ispc.github.io/
+[499]: https://github.com/ispc/ispc/blob/master/LICENSE.txt
+[498]: https://bellard.org/tcc/
+[497]: http://compcert.inria.fr/
 
 [496]: https://github.com/qt/qtbase/blob/5.11/LICENSE.GPL3-EXCEPT
 [495]: https://doc.qt.io/qt-5/qmake-manual.html
