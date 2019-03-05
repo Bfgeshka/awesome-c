@@ -48,6 +48,14 @@ are a mess.
 * [Source Code Collections](#source-code-collections)
 * [Standard Libraries](#standart-libraries)
 * [String Manipulation](#string-manipulation)
+* [Structured File Processing](#structured-file-processing)
+	* [CSV](#csv)
+	* [JSON](#json)
+	* [INI](#ini)
+	* [Other Filetypes](#other-filetypes)
+	* [XML](#xml)
+	* [YAML](#yaml)
+* [Testing](#testing)
 
 --------------------------------------------------------------------------------
 
@@ -590,6 +598,62 @@ Implementations of the C standarts
   functions. Public domain.
 * [utf8proc][321] - Library for processing UTF-8 data. [``MIT``][MIT]
 
+## Structured File Processing ##
+This includes libraries for configuration, markup and other text file types.
+
+### CSV ###
+* [libcsv][322] - Simple, streaming CSV parser. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+
+### JSON ###
+* [Jansson][323] - Library for encoding, decoding and manipulating JSON. [``MIT``][MIT]
+* [jfes][324] - JSON For Embedded Systems; simple JSON engine without any
+  dependencies. [``MIT``][MIT]
+* [jsmn][325] - Minimalistic JSON parser. [``MIT``][MIT]
+* [json.h][326] - Single-file non-streaming JSON parser. [``Unlicense``][Unlicense]
+* [WJElement][327] - Advanced JSON manipulation library, with support for JSON
+  Schema. Various licenses, all open source.
+* [YAJL][328] - Fast streaming JSON parser library. [``ISC``][ISC]
+
+### INI ###
+* [inih][329] - Small and simple INI file parser, good for embedded systems. [``BSD-3-Clause``][BSD-3-Clause]
+* [iniparser][330] - Parser for .ini files. [``MIT``][MIT]
+* [libconfini][331] - Yet another INI parser. [``GPL-3.0-only``][GPL-3.0-only]
+
+### XML ###
+* [Expat][332] - Stream-oriented XML parser. [MIT][MIT]
+* [libxml2][333] - Standards-compliant, portable XML parser. [MIT][MIT]
+
+### YAML ###
+* [libYAML][334] - YAML 1.1 parser and emitter. [``MIT``][MIT]
+
+### Other Filetypes ###
+* [libbson][335] - BSON utility library. [``Apache-2.0``][Apache-2.0]
+* [libconfuse][336] - Small configuration file parser library. [``ISC``][ISC]
+* [libelf][337] - Simple library for parsing ELF files. [``MIT``][MIT]
+* [libucl][338] - Universal configuration library parser. [``BSD-2-Clause``][BSD-2-Clause]
+* [libxo][339] - Allows an application to generate plain text, XML, JSON and
+  HTML output using a common set of function calls. The application decides at
+  runtime what output style should be produced. [``BSD-2-Clause``][BSD-2-Clause]
+
+
+## Testing ##
+* [CHEAT][340] - Simple unit testing framework. [``BSD-2-Clause``][BSD-2-Clause]
+* [Check][341] - Unit testing framework. [``LGPL-2.1-only``][LGPL-2.1-only]
+* [ciut][342] - A modern minimal hassle unit test framework. [``MIT``][MIT]
+* [clar][343] - Clear and simple unit testing framework. [``MIT``][MIT]
+* [CMock][344] - Mock/stub generator. [``MIT``][MIT]
+* [cmocka][345] - Unit testing framework with support for mock objects. [``Apache-2.0``][Apache-2.0]
+* [Criterion][346] - KISS, non-intrusive test framework. [``MIT``][MIT]
+* [ctest][347] - Yet another unit testing framework. [``Apache-2.0``][Apache-2.0]
+* [CUnit][348] - Another unit testing framework. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [greatest][349] - Unit testing library in one file, with no memory allocation. [``MIT``][MIT]
+* [minctest][350] - Unit testing microlibrary. [``BSD-3-Clause``][BSD-3-Clause]
+* [munit][351] - Small unit testing framework. [``MIT``][MIT]
+* [theft][352] - Property-based testing (similar to [Quickcheck][353]). [``MIT``][MIT]
+* [Unity][354] - Simple unit testing framework. [``MIT``][MIT]
+* [utest][355] - Single-header unit testing library. [``Unlicense``][Unlicense]
+
+
 -=-=-=-=-=-=-=-=-=-
 UNSORTED
 * [debug][467] - One-header library for easier 'printf debugging'. [``MIT``][MIT]
@@ -617,6 +681,41 @@ UNSORTED
 
 
 
+[355]: https://github.com/evolutional/utest
+[354]: http://www.throwtheswitch.org/unity
+[353]: https://wiki.haskell.org/Introduction_to_QuickCheck2
+[352]: https://github.com/silentbicycle/theft
+[351]: https://nemequ.github.io/munit
+[350]: https://github.com/codeplea/minctest
+[349]: https://github.com/silentbicycle/greatest
+[348]: http://cunit.sourceforge.net/
+[347]: https://github.com/bvdberg/ctest
+[346]: https://criterion.readthedocs.io/en/master
+[345]: https://cmocka.org/
+[344]: http://www.throwtheswitch.org/cmock
+[343]: https://github.com/vmg/clar
+[342]: https://github.com/yhfudev/cpp-ci-unit-test.git
+[341]: https://libcheck.github.io/check
+[340]: http://users.jyu.fi/~sapekiis/cheat
+
+[339]: https://github.com/Juniper/libxo
+[338]: https://github.com/vstakhov/libucl
+[337]: https://github.com/0intro/libelf
+[336]: https://github.com/martinh/libconfuse
+[335]: https://github.com/mongodb/libbson
+[334]: https://www.pyyaml.org/wiki/LibYAML
+[333]: http://xmlsoft.org/
+[332]: http://expat.sourceforge.net/
+[331]: https://madmurphy.github.io/libconfini/html/index.html
+[330]: https://github.com/ndevilla/iniparser
+[329]: https://github.com/benhoyt/inih
+[328]: https://lloyd.github.io/yajl/
+[327]: https://github.com/netmail-open/wjelement/
+[326]: https://github.com/sheredom/json.h
+[325]: https://zserge.com/jsmn.html
+[324]: https://github.com/NeonMercury/jfes
+[323]: http://www.digip.org/jansson/
+[322]: https://github.com/rgamble/libcsv
 
 [321]: https://github.com/JuliaLang/utf8proc
 [320]: https://github.com/sheredom/utf8.h
