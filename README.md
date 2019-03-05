@@ -46,6 +46,8 @@ are a mess.
 * [Regex](#regex)
 * [Serialization](#serialization)
 * [Source Code Collections](#source-code-collections)
+* [Standard Libraries](#standart-libraries)
+* [String Manipulation](#string-manipulation)
 
 --------------------------------------------------------------------------------
 
@@ -556,6 +558,37 @@ Audio and video processing
 * [tinyheaders][300] - Collection of header-only libraries, primarily oriented
   toward game development. [``Zlib``][Zlib]
 
+## Standard Libraries ##
+Implementations of the C standarts
+
+* [Bionic][301] - Google's standard library, developed for Android. [``BSD-3-Clause``][BSD-3-Clause]
+* [cloudlibc][302] - Standard library based on the concept of
+  [capability-based security][303]. [``BSD-2-Clause``][BSD-2-Clause]
+* [dietlibc][304] - Standard library designed for the smallest possible
+  binaries. [``GPL-2.0-only``][GPL-2.0-only]
+* [glibc][305] - The GNU C Library; an implementation of the standard library. [``LGPL-2.1-only``][LGPL-2.1-only].
+* [musl][306] - Standard library, compatible with POSIX 2008 and C11. Designed
+  for static linking. [``MIT``][MIT]
+* [PDCLib][307] - The Public Domain C Library. Implements most of C99 and some
+  of C11. [``CC0-1.0``][CC0-1.0]
+* [uClibc-ng][308] - Small C library for developing embedded systems.
+  [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+
+## String Manipulation ##
+* [bstring][309] - The Better String Library. [``BSD-3-Clause``][BSD-3-Clause]
+* [ICU][310] - International Components for Unicode; a library for Unicode
+  support. [``ICU``][ICU]
+* [levenstein.c][311] - [Levenstein distance][312] algorithm implementation. [``MIT``][MIT].
+* [libunistring][313] - Library for manipulating Unicode strings. [``LGPL-3.0-only``][LGPL-3.0-only]
+* [libgiconv][314] - Text conversion library. [``LGPL-2.1-only``][LGPL-2.1-only]
+* [librope][315] - UTF-8 rope ('heavy' string) library. [``MIT``][MIT]
+* [rapidstring][316] - Maybe the fastest string library ever. [``MIT``][MIT]
+* [SDS][317] - Simple Dynamic Strings; a library for handling strings in a
+  simpler way, but one that is compatible with normal C string functions. [``BSD-2-Clause``][BSD-2-Clause]
+* [stmr.c][318] - [Porter Stemmer][319] algorithm implementation. [``MIT``][MIT]
+* [utf8.h][320] - Single-header UTF-8 library, designed to mimic C-style string
+  functions. Public domain.
+* [utf8proc][321] - Library for processing UTF-8 data. [``MIT``][MIT]
 
 -=-=-=-=-=-=-=-=-=-
 UNSORTED
@@ -582,6 +615,31 @@ UNSORTED
   open source.
 
 
+
+
+
+[321]: https://github.com/JuliaLang/utf8proc
+[320]: https://github.com/sheredom/utf8.h
+[319]: http://tartarus.org/martin/PorterStemmer/
+[318]: https://github.com/wooorm/stmr.c
+[317]: https://github.com/antirez/sds
+[316]: https://boyerjohn.github.io/rapidstring/index.html
+[315]: https://github.com/josephg/librope
+[314]: https://gnu.org/software/libiconv/
+[313]: https://gnu.org/software/libunistring/
+[312]: https://en.wikipedia.org/wiki/Levenshtein_distance
+[311]: https://github.com/wooorm/levenshtein.c
+[310]: http://site.icu-project.org/
+[309]: http://mike.steinert.ca/bstring/
+
+[308]: https://uclibc-ng.org/
+[307]: http://pdclib.e43.eu/
+[306]: https://www.musl-libc.org/
+[305]: https://www.gnu.org/software/libc/
+[304]: https://www.fefe.de/dietlibc/
+[303]: https://en.wikipedia.org/wiki/Capability-based_security
+[302]: https://github.com/NuxiNL/cloudlibc
+[301]: https://github.com/aosp-mirror/platform_bionic
 
 [300]: https://github.com/RandyGaul/tinyheaders
 [299]: https://github.com/nothings/stb
