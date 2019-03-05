@@ -11,6 +11,9 @@ them all, and many more other resources. Consider it my personal cheat sheet and
 index for easier search instead of github stars. Also, original list categories
 are a mess.
 
+Incorporated lists:
+	* https://github.com/kozross/awesome-c
+	* https://github.com/aleksandar-todorovic/awesome-c
 
 ## Index ##
 
@@ -108,15 +111,30 @@ are a mess.
 Compilers and other tooling.
 
 #### Build Systems ####
+* [aimake][485] - Build tool designed to avoid complex configurations. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [Autoconf][486] - Extensible package of M4 macros that produce shell scripts
+  to automatically configure software source code packages. Part of the
+  Autotools. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [Automake][487] - Tool for automatically generating `Makefile.in` files
+  compliant with the GNU Coding Standards. Requires the use of Autoconf. Part of
+  the Autotools. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [Bazel][492] - Build system for various operating systems and targets. [``Apache-2.0``][Apache-2.0]
+* [Buck][493] - Build system created and used by Facebook. [``Apache-2.0``][Apache-2.0]
 * [CMake][11] - Cross-platform family of tools designed to build, package and
   test software. Written in C++11. [``BSD-3-Clause``][BSD-3-Clause]
 * [GNU Make][12] - Tool which controls the generation of executables and other
   non-source files of a program. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [GMSL][146] - GNU Make Standard Library; a collection of additional
   functionality for GNU Make. [``BSD-3-Clause``][BSD-3-Clause]
-* [Meson][13] -  Build system based on Ninja and Python. [``Apache-2.0``][Apache-2.0]
+* [Jam][488] - Build system, designed to be easier than make. Understands C
+  build rules implicitly. [``Jam License``][489]
+* [Libtool][490] - Generic library support script. Part of the Autotools. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [Meson][13] - Build system based on Ninja and Python. [``Apache-2.0``][Apache-2.0]
+* [Ninja][491] - Small, simple build system with a focus on speed. [``Apache-2.0``][Apache-2.0]
 * [Premake][14] - Generates project files for Visual Studio, Xcode and GNU Make.
   Targets suppport can be extended via modules. [``BSD-3-Clause``][BSD-3-Clause]
+* [Qbs][494] - Modern build tool for software projects. [``LGPL-3.0-only``][LGPL-3.0-only]
+* [qmake][495] - Build system included with the Qt Framework. [`GNU GPL3 with Qt Exception`][496]
 * [SCons][15] - Software construction tool based on Python. [``MIT``][MIT]
 * [xmake][16] - Cross-platform build utility based on Lua. [``Apache-2.0``][Apache-2.0]
 * [zproject][17] - Project generator and build system support tool for ZeroMQ
@@ -926,6 +944,19 @@ Comprehensive and integrated solutions for building web application in C.
 * [tm][432] -  Timer and Timeline Utils for C. [``MIT``][MIT]
 * [D-Bus][430] - Interprocess communications bus. [``AFL-2.1``][AFL-2.1] or [``GPL-2.0-or-later``][GPL-2.0-or-later]
 
+
+[496]: https://github.com/qt/qtbase/blob/5.11/LICENSE.GPL3-EXCEPT
+[495]: https://doc.qt.io/qt-5/qmake-manual.html
+[494]: http://doc.qt.io/qbs/
+[493]: https://buckbuild.com/
+[492]: https://bazel.build/
+[491]: https://github.com/ninja-build/ninja
+[490]: https://www.gnu.org/software/libtool/
+[489]: https://en.wikipedia.org/wiki/Perforce_Jam#License
+[488]: https://www.perforce.com/documentation/jam-documentation
+[487]: https://www.gnu.org/software/automake/automake.html
+[486]: https://www.gnu.org/software/autoconf/autoconf.html
+[485]: http://nethack4.org/projects/aimake/
 
 [484]: https://www.codeproject.com/Articles/6154/Writing-Efficient-C-and-C-Code-Optimization
 [483]: https://docs.google.com/presentation/d/1h49gY3TSiayLMXYmRMaAEMl05FaJ-Z6jDOWOz3EsqqQ/edit?pli=1#slide=id.p
