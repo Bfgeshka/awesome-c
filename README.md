@@ -275,61 +275,88 @@ Incorporated lists:
 [7-5]: http://msys2.github.io/
 
 #### Profiling ####
-* [gperftools][126] - Collection of utilities for measuring and improving
+* [gperftools][8-1] - Collection of utilities for measuring and improving
   performance. [``BSD-3-Clause``][BSD-3-Clause]
-* [gprof][127] - Performance analysis tool. Part of GNU binutils. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [OProfile][128] - Statistical profiler for Linux. Can profile any code
+* [gprof][8-2] - Performance analysis tool. Part of GNU binutils. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [OProfile][8-3] - Statistical profiler for Linux. Can profile any code
   (including the kernel!) with low overhead and without recompilation. [``GPL-2.0-only``][GPL-2.0-only]
-* [perf][129] - Linux kernel-based profiler with a lot of functionality. [``GPL-2.0-only``][GPL-2.0-only]
+* [perf][8-4] - Linux kernel-based profiler with a lot of functionality. [``GPL-2.0-only``][GPL-2.0-only]
+
+[8-1]: https://github.com/gperftools/gperftools
+[8-2]: https://www.gnu.org/software/binutils/
+[8-3]: http://oprofile.sourceforge.net/news/
+[8-4]: https://perf.wiki.kernel.org/index.php/Main_Page
 
 #### Text Editor Extensions ####
-* [CCompletion][130] - Notepad++ autocompletion plugin. Works with all
+* [CCompletion][9-1] - Notepad++ autocompletion plugin. Works with all
   identifiers recognized by Ctags. This is a download link. [``GPL-2.0-or-later``][GPL-2.0-or-later]
-* [CEDET][131] - Collection of Emacs Development Environment Tools; designed to
+* [CEDET][9-2] - Collection of Emacs Development Environment Tools; designed to
   provide IDE-like features to Emacs. Built-in. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [Flycheck][132] - Modern syntax checking for Emacs. For C, it can use either
+* [Flycheck][9-3] - Modern syntax checking for Emacs. For C, it can use either
   GCC or Clang as a back-end. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [Neomake][133] - Async :make and linting framework for Neovim/Vim. [``MIT``][MIT]
-* [Syntastic][134] - Syntax checking and linting for Vim. [``WTFPL``][WTFPL]
-* [YASnippet][135] - Emacs code template system, with C templates for common
+* [linter-clang][9-4] - Lint C code in Atom, using Clang. [``MIT``][MIT]
+* [linter-gcc][9-5] - Lint C code in Atom, using GCC. [``MIT``][MIT]
+* [Neomake][9-6] - Async :make and linting framework for Neovim/Vim. [``MIT``][MIT]
+* [Syntastic][9-7] - Syntax checking and linting for Vim. [``WTFPL``][WTFPL]
+* [YASnippet][9-8] - Emacs code template system, with C templates for common
   snippets. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [YouCompleteMe][136] - Code completion engine for Vim. [``GPL-3.0-only``][GPL-3.0-only]
-* [linter-clang](https://github.com/AtomLinter/linter-clang) - Lint C code in Atom, using Clang. [`MIT`](https://raw.githubusercontent.com/atom/atom/master/LICENSE.md)
-* [linter-gcc](https://github.com/hebaishi/linter-gcc) - Lint C code in Atom, using GCC. [`MIT`](https://raw.githubusercontent.com/atom/atom/master/LICENSE.md)
-* [CEDET](http://cedet.sourceforge.net/) - Collection of Emacs Development Environment Tools; designed to provide IDE-like features to Emacs. Built-in. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
-* [Flycheck](https://github.com/flycheck/flycheck) - Modern syntax checking. For C, it can use either GCC or Clang as a back-end. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
-* [Yasnippet](https://github.com/joaotavora/yasnippet) - Template system, with C templates for common code snippets. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
-* [Syntastic](https://github.com/vim-syntastic/syntastic) - Syntax checking and linting. [`Do What The Fuck You Want To license`](https://github.com/vim-syntastic/syntastic/blob/master/LICENCE)
-* [YouCompleteMe](http://valloric.github.io/YouCompleteMe/) - Code completion engine for Vim. [`GNU GPL3`](http://www.gnu.org/licenses/gpl.html)
+* [YouCompleteMe][9-9] - Code completion engine for Vim. [``GPL-3.0-only``][GPL-3.0-only]
+
+[9-1]: http://freeweb.siol.net/rmihor/NppCCompletionPlugin.zip
+[9-2]: http://cedet.sourceforge.net/
+[9-3]: https://github.com/flycheck/flycheck
+[9-4]: https://github.com/AtomLinter/linter-clang
+[9-5]: https://github.com/hebaishi/linter-gcc
+[9-6]: https://github.com/neomake/neomake
+[9-7]: https://github.com/vim-syntastic/syntastic
+[9-8]: http://joaotavora.github.io/yasnippet/
+[9-9]: http://valloric.github.io/YouCompleteMe/
 
 #### Utilities ####
-* [ccache][22] - Compiler cache designed to speed up recompilation. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [distcc][23] - Program that allows builds to be distributed among several
+* [ccache][10-1] - Compiler cache designed to speed up recompilation. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [distcc][10-2] - Program that allows builds to be distributed among several
   machines. [``GPL-2.0-or-later``][GPL-2.0-or-later]
-* [Firm][24] - Library that provides a graph-based intermediate representation,
+* [Firm][10-3] - Library that provides a graph-based intermediate representation,
   optimizations and assembly code generation suitable for use in compilers.
   Comes with an example C front-end under the same license. [``LGPL-2.1-only``][LGPL-2.1-only]
-* [Artistic Style][137] - Fast and small automatic source code formatter that
+* [Artistic Style][10-4] - Fast and small automatic source code formatter that
   supports C. [``LGPL-3.0-only``][LGPL-3.0-only]
-* [biicode][139] - Dependency manager. [``MIT``][MIT]
-* [c][140] - Compile and execute C "scripts" in one go on the command line. Also
+* [biicode][10-5] - Dependency manager. [``MIT``][MIT]
+* [c][10-6] - Compile and execute C "scripts" in one go on the command line. Also
   has shebang support. [``MIT``][MIT]
-* [c99sh][141] - Run C files using hash-bang. [``BSD-2-Clause``][BSD-2-Clause]
-* [cdecl][142] - Online service to translate C declarations into English and
+* [c99sh][10-7] - Run C files using hash-bang. [``BSD-2-Clause``][BSD-2-Clause]
+* [cdecl][10-8] - Online service to translate C declarations into English and
   vice versa. Public domain.
-* [cinclude2dot][143] - Graphs include dependencies in a project using Graphviz. [GPL-1.0-or-later][335] or [``GPL-2.0-or-later``][GPL-2.0-or-later] or [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [GNU Global][147] - Source code tagging tool. [``GPL-3.0-only``][GPL-3.0-only]
-* [GPP][148] - General-purpose preprocessor. More versatile than the C
+* [cinclude2dot][10-9] - Graphs include dependencies in a project using Graphviz. [GPL-1.0-or-later][335] or [``GPL-2.0-or-later``][GPL-2.0-or-later] or [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [GNU Global][10-10] - Source code tagging tool. [``GPL-3.0-only``][GPL-3.0-only]
+* [GPP][10-11] - General-purpose preprocessor. More versatile than the C
   preprocessor, but more flexible than m4. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
-* [Highlight][149] - Converts source code to formatted text with highlighting. [``GPL-3.0-only``][GPL-3.0-only]
-* [include-what-you-use][150] - Helps find unecessary inclusions and make
+* [Highlight][10-12] - Converts source code to formatted text with highlighting. [``GPL-3.0-only``][GPL-3.0-only]
+* [include-what-you-use][10-13] - Helps find unecessary inclusions and make
   suggestions for fixing them. Based on LLVM/Clang (and only works with it). [``NCSA``][NCSA]
-* [indent][151] - Formats C source code automatically to make it easier to
+* [indent][10-14] - Formats C source code automatically to make it easier to
   read. Also converts from one style of source to another. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [SMACK][152] - Modular software verification toolchain and a self-contained
+* [SMACK][10-15] - Modular software verification toolchain and a self-contained
   software verifier. Currently only works with programs compiled using Clang. [``MIT``][MIT]
-* [unifdef][153] - Removes #ifdef and #if directives with their delimited text
+* [unifdef][10-16] - Removes #ifdef and #if directives with their delimited text
   without touching any other part of the file. [``BSD-3-Clause``][BSD-3-Clause] or [``BSD-2-Clause``][BSD-2-Clause]
+
+[10-1]: https://ccache.samba.org/
+[10-2]: https://github.com/distcc/distcc
+[10-3]: https://pp.ipd.kit.edu/firm/
+[10-4]: http://astyle.sourceforge.net/
+[10-5]: https://biicode.github.io/biicode/
+[10-6]: https://github.com/ryanmjacobs/c
+[10-7]: https://github.com/RhysU/c99sh
+[10-8]: https://cdecl.org/
+[10-9]: https://www.flourish.org/cinclude2dot/
+[10-10]: https://www.gnu.org/software/global/
+[10-11]: https://logological.org/gpp
+[10-12]: http://www.andre-simon.de/doku/highlight/en/highlight.php
+[10-13]: https://github.com/include-what-you-use/include-what-you-use
+[10-14]: https://www.gnu.org/software/indent/
+[10-15]: https://github.com/smackers/smack
+[10-16]: http://dotat.at/prog/unifdef/
 
 ### Reading Material ###
 #### Books ####
@@ -1387,7 +1414,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [ohler55/oj](https://github.com/ohler55/oj) - Optimized JSON
 * [lastpass/lastpass-cli](https://github.com/lastpass/lastpass-cli) - LastPass command line interface tool
 * [collectd/collectd](https://github.com/collectd/collectd) - The system statistics collection daemon. Please send Pull Requests here!
-* [Kitware/CMake](https://github.com/Kitware/CMake) - Mirror of CMake upstream repository
 * [openvenues/libpostal](https://github.com/openvenues/libpostal) - A C library for parsing/normalizing street addresses around the world. Powered by statistical NLP and open geo data.
 * [sustrik/libmill](https://github.com/sustrik/libmill) - Go-style concurrency in C
 * [cleanflight/cleanflight](https://github.com/cleanflight/cleanflight) - Clean-code version of the baseflight flight controller firmware
@@ -1450,7 +1476,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [neomutt/neomutt](https://github.com/neomutt/neomutt) - :email: Teaching an Old Dog New Tricks -- IRC: #neomutt on irc.freenode.net
 * [nigels-com/glew](https://github.com/nigels-com/glew) - The OpenGL Extension Wrangler Library
 * [lexborisov/myhtml](https://github.com/lexborisov/myhtml) - Fast C/C++ HTML 5 Parser. Using threads.
-* [xmake-io/xmake](https://github.com/xmake-io/xmake) - 🔥 A cross-platform build utility based on Lua
 * [cloudwu/coroutine](https://github.com/cloudwu/coroutine) - A asymmetric coroutine library for C.
 * [citusdata/cstore_fdw](https://github.com/citusdata/cstore_fdw) - Columnar store for analytics with Postgres, developed by Citus Data. Check out the mailing list at https://groups.google.com/forum/#!forum/cstore-users or join our slack channel at https://slack.citusdata.com
 * [taviso/ctypes.sh](https://github.com/taviso/ctypes.sh) - A foreign function interface for bash.
@@ -1469,7 +1494,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [lotabout/write-a-C-interpreter](https://github.com/lotabout/write-a-C-interpreter) - Write a simple interpreter of C. Inspired by c4 and largely based on it.
 * [taf2/curb](https://github.com/taf2/curb) - Ruby bindings for libcurl
 * [TheAlgorithms/C](https://github.com/TheAlgorithms/C) - All Algorithms implemented in C
-* [premake/premake-core](https://github.com/premake/premake-core) - Premake
 * [colmap/colmap](https://github.com/colmap/colmap) - COLMAP - Structure-from-Motion and Multi-View Stereo
 * [neutrinolabs/xrdp](https://github.com/neutrinolabs/xrdp) - xrdp: an open source RDP server
 * [westes/flex](https://github.com/westes/flex) - The Fast Lexical Analyzer - scanner generator for lexing in C and C++
@@ -1565,7 +1589,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [halayli/lthread](https://github.com/halayli/lthread) - lthread, a multicore enabled coroutine library written in C
 * [cksystemsteaching/selfie](https://github.com/cksystemsteaching/selfie) - An educational software system of a tiny self-compiling C compiler, a tiny self-executing RISC-V emulator, and a tiny self-hosting RISC-V hypervisor.
 * [wesleykendall/mpitutorial](https://github.com/wesleykendall/mpitutorial) - MPI programming lessons in C and executable code examples
-* [distcc/distcc](https://github.com/distcc/distcc) - distributed builds for C, C++ and Objective C
 * [bitcoin-core/secp256k1](https://github.com/bitcoin-core/secp256k1) - Optimized C library for EC operations on curve secp256k1
 * [liballeg/allegro5](https://github.com/liballeg/allegro5) - The official Allegro 5 git repository. Pull requests welcome!
 * [cyring/CoreFreq](https://github.com/cyring/CoreFreq) - CoreFreq is a CPU monitoring software designed for the 64-bits Processors.
@@ -1668,7 +1691,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [lpsantil/rt0](https://github.com/lpsantil/rt0) - A minimal C runtime for Linux i386 & x86_64
 * [jgarzik/cpuminer](https://github.com/jgarzik/cpuminer) - CPU miner for bitcoin
 * [citusdata/pg_cron](https://github.com/citusdata/pg_cron) - Run periodic jobs in PostgreSQL
-* [ccache/ccache](https://github.com/ccache/ccache) - ccache – a fast compiler cache
 * [felixangell/mac](https://github.com/felixangell/mac) - virtual machine in c
 * [zedshaw/learn-c-the-hard-way-lectures](https://github.com/zedshaw/learn-c-the-hard-way-lectures) - All of the code from Learn C The Hard Way, each project, plus the presentation slides used in the videos.
 * [carld/micro-lisp](https://github.com/carld/micro-lisp) - 🎄A very small Lisp programming language 😀that used to be under 200 lines of C🎄
@@ -2107,7 +2129,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [ocornut/imgui_club](https://github.com/ocornut/imgui_club) - Nice things to use along dear imgui
 * [HuoLanguage/huo](https://github.com/HuoLanguage/huo) - interpreted language written in C
 * [CristianHenzel/ClipIt](https://github.com/CristianHenzel/ClipIt) - ClipIt clipboard manager for GTK+
-* [smackers/smack](https://github.com/smackers/smack) - SMACK Software Verifier and Verification Toolchain
 * [skeeto/interactive-c-demo](https://github.com/skeeto/interactive-c-demo) - Demonstration of interactive C programming
 * [Kurento/kms-core](https://github.com/Kurento/kms-core) - Core library of Kurento Media Server
 * [CANBus-Triple/CANBus-Triple](https://github.com/CANBus-Triple/CANBus-Triple) - CANBus Triple – The car hacking platform
@@ -2799,7 +2820,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [mongodb/mongo-c-driver-legacy](https://github.com/mongodb/mongo-c-driver-legacy) - C Driver for MongoDB
 * [bitcoin/secp256k1](https://github.com/bitcoin/secp256k1) - Optimized C library for EC operations on curve secp256k1
 * [olevole/cbsd](https://github.com/olevole/cbsd) - Yet one more wrapper around FreeBSD jail and bhyve. For more information please visit website
-* [jrosdahl/ccache](https://github.com/jrosdahl/ccache) - ccache - a fast compiler cache
 * [pimoroni/unicorn-hat](https://github.com/pimoroni/unicorn-hat) - C library, C example and Python wrapper for driving ws2812 pixels from the Raspberry Pi
 * [TheErk/CMake-tutorial](https://github.com/TheErk/CMake-tutorial) - CMake tutorial: beamer presentation and sample code
 * [axoltl/HubCap](https://github.com/axoltl/HubCap) - ChromeCast HubCap exploit
@@ -2969,7 +2989,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [seL4/seL4](https://github.com/seL4/seL4) - The seL4 microkernel
 * [aerospike/aerospike-server](https://github.com/aerospike/aerospike-server) - Aerospike Database Server – flash-optimized, in-memory, nosql database
 * [alibaba/tsar](https://github.com/alibaba/tsar) - Taobao System Activity Reporter
-* [tmm1/perftools.rb](https://github.com/tmm1/perftools.rb) - gperftools for ruby code
 * [pornel/pngquant](https://github.com/pornel/pngquant) - Lossy PNG compressor — pngquant command and libimagequant library
 * [GarageGames/Torque2D](https://github.com/GarageGames/Torque2D) - MIT Licensed Open Source version of Torque 2D from GarageGames
 * [kennytm/iphone-private-frameworks](https://github.com/kennytm/iphone-private-frameworks) - Headers for private frameworks or undocumented interfaces of iPhoneOS 3.x or before (4.x is not supported yet).
@@ -4385,7 +4404,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [orangeduck/ptest](https://github.com/orangeduck/ptest) - DRY Microtesting Framework for C
 * [ocaml-bytes/ocamlcc](https://github.com/ocaml-bytes/ocamlcc) - OCaml bytecode to C compiler
 * [jduck/canhazaxs](https://github.com/jduck/canhazaxs) - A tool for enumerating the access to entries in the file system of an Android device.
-* [fanf2/unifdef](https://github.com/fanf2/unifdef) - selectively remove C preprocessor conditionals
 * [bkrpub/EngineRoom](https://github.com/bkrpub/EngineRoom) - EngineRoom is a toolkit addressing basic, recurring needs when using C based languages.  The most prominent (and mature) component is LogPoints,  a logging facility designed to provide comfort to developers working on applications of all sizes. EngineRoom is primarily targeted at Objective-C developers on Mac OS X and iOS with some support for C on GNU/Linux and Solaris.
 * [bfulgham/WinCairoRequirements](https://github.com/bfulgham/WinCairoRequirements) - Source archive of the build requirements for the WinCairo port of WebKit
 * [Voluntarynet/Crypt](https://github.com/Voluntarynet/Crypt) - OSX app for drag and drop encryption
@@ -4767,33 +4785,6 @@ Comprehensive and integrated solutions for building web application in C.
 [154]: http://apr.apache.org/
 [65]: https://github.com/parallella/pal
 
-[153]: http://dotat.at/prog/unifdef/
-[152]: https://github.com/smackers/smack
-[151]: https://www.gnu.org/software/indent/
-[150]: https://github.com/include-what-you-use/include-what-you-use
-[149]: http://www.andre-simon.de/doku/highlight/en/highlight.php
-[148]: https://logological.org/gpp
-[147]: https://www.gnu.org/software/global/
-[143]: https://www.flourish.org/cinclude2dot/
-[142]: https://cdecl.org/
-[141]: https://github.com/RhysU/c99sh
-[140]: https://github.com/ryanmjacobs/c
-[139]: https://biicode.github.io/biicode/
-[137]: http://astyle.sourceforge.net/
-
-[136]: http://valloric.github.io/YouCompleteMe/
-[135]: http://joaotavora.github.io/yasnippet/
-[134]: https://github.com/vim-syntastic/syntastic
-[133]: https://github.com/neomake/neomake
-[132]: https://github.com/flycheck/flycheck
-[131]: http://cedet.sourceforge.net/
-[130]: http://freeweb.siol.net/rmihor/NppCCompletionPlugin.zip
-
-[129]: https://perf.wiki.kernel.org/index.php/Main_Page
-[128]: http://oprofile.sourceforge.net/news/
-[127]: https://www.gnu.org/software/binutils/
-[126]: https://github.com/gperftools/gperftools
-
 [120]: http://www.doxygen.nl/
 [119]: https://hplgit.github.io/doconce/doc/web/index.html
 [118]: http://www.gedanken.org.uk/software/cxref/
@@ -4884,10 +4875,6 @@ Comprehensive and integrated solutions for building web application in C.
 [27]: http://lzip.nongnu.org/clzip.html
 [26]: https://github.com/google/brotli
 [25]: http://blosc.org/pages/blosc-in-depth
-
-[24]: https://pp.ipd.kit.edu/firm/
-[23]: https://github.com/distcc/distcc
-[22]: https://ccache.samba.org/
 
 
 [10]: https://github.com/jppbsi/LibDEEP/wiki
