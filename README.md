@@ -30,6 +30,7 @@ are a mess.
 --------------------------------------------------------------------------------
 
 * [AI](#ai)
+* [Algoritm Implementations](#algoritm-implementations)
 * [Argument Parsing](#argument-parsing)
 * [Calculations](#calculations)
 * [Compression](#compression)
@@ -39,6 +40,7 @@ are a mess.
 * [Data Structures](#data-structures)
 * [Events](#events)
 * [FFI](#ffi)
+* [Flow Control and Language Extension](#flow-control-and-language-extension)
 * [Game Development](#game-development)
 * [Graphics](#graphics)
 * [GUI](#gui)
@@ -51,6 +53,12 @@ are a mess.
 * [Multimedia](#multimedia)
 * [Multiple Purpose Libraries](#multiple-purpose-libraries)
 * [Networking](#networking)
+	* [DNS](#dns)
+	* [HTTP](#http)
+	* [Mail](#mail)
+	* [Messaging](#messaging)
+	* [Other Networking](#other-networking)
+	* [Websockets](#websockets)
 * [OS Specifics](#os-specifics)
 * [Procedural Generation](#procedural-generation)
 * [Regex](#regex)
@@ -59,6 +67,7 @@ are a mess.
 * [Standard Libraries](#standart-libraries)
 * [String Manipulation](#string-manipulation)
 * [Structured File Processing](#structured-file-processing)
+	* [Binaries](#binaries)
 	* [CSV](#csv)
 	* [JSON](#json)
 	* [INI](#ini)
@@ -68,11 +77,15 @@ are a mess.
 * [Testing](#testing)
 * [TUI](#tui)
 * [Web Frameworks](#web-frameworks)
+* [Web Service APIs](#web-service-apis)
+
+--------------------------------------------------------------------------------
+
+[Uncategorized](#uncategorized)
 
 --------------------------------------------------------------------------------
 
 ## Meta ##
-
 ### Standarts ###
 * [Draft C89 standard][1]
 * [Draft C99 standard][2]
@@ -132,7 +145,6 @@ Compilers and other tooling.
 
 #### Editors ####
 IDEs and text editors with good support of C specifics.
-
 * [Anjuta DevStudio][121] - GNOME IDE. [``GPL-2.0-only``][GPL-2.0-only]
 * [Code::Blocks][122] - Extendable, configurable IDE supporting C. [``GPL-3.0-only``][GPL-3.0-only]
 * [CodeLite][123] - Cross-platform IDE. [``GPL-2.0-only``][GPL-2.0-only]
@@ -140,9 +152,6 @@ IDEs and text editors with good support of C specifics.
 * [KDevelop][125] - KDE IDE. [``GPL-2.0-only``][GPL-2.0-only]
 
 #### Microsoft Windows Environment ####
-Technologies designed to bring Windows into the 21st century with respect to
-support for C.
-
 * [Cygwin][365] - Designed to emulate a POSIX-compatible environment extensively
   under Windows. [Various licenses, all open source][366].
 * [MinGW-w64][367] - Minimalist environment for C development on Windows with
@@ -212,6 +221,12 @@ Neural nets, machine learning, and other similar things.
 * [KANN][9] - Two-file ANN library. [``MIT``][MIT]
 * [LibDEEP][10] - Deep learning library. [``BSD-3-Clause``][BSD-3-Clause]
 
+## Algoritm Implementations ##
+* [sort][434] - Collection of sorting routines, which type-specialize at
+  compile-time with a user-defined type. [``MIT``][MIT]
+* [dlx][418] - Implementation of [Knuth's Algorithm X][419], with example
+  solvers. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+
 ## Argument Parsing ##
 * [parg][410] - A single-file reimplementation of ``getopt`` with better
   defaults. [``CC0-1.0``][CC0-1.0]
@@ -264,8 +279,6 @@ Neural nets, machine learning, and other similar things.
 * [Yeppp!][274] - Fast, SIMD-optimized mathematical library. [``BSD-3-Clause``][BSD-3-Clause]
 * [tinyexpr][379] - Tiny recursive-descent parser, compiler and evaluation
   engine for simple mathematical expressions. [``BSD-3-Clause``][BSD-3-Clause]
-* [dlx][418] - Implementation of [Knuth's Algorithm X][419], with example
-  solvers. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 
 ## Compression ##
 * [blosc][25] - Fast, multi-threaded, meta-compressor library. Various licenses,
@@ -408,6 +421,12 @@ Foreign function interfaces, also know as binding interfaces.
   interfaces. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [dyncall][406] - Another foreign function interface library. [``MIT``][MIT]
 
+## Flow Control and Language Extension ##
+* [libCello][429] - Library introducing higher-level programming to C. [``BSD-3-Clause``][BSD-3-Clause]
+* [Ragel][430] - DSL for state machines that compiles to C. [``GPL-2.0-only``][GPL-2.0-only]
+* [Kitsune][431] - Efficient, general-purpose framework for dynamic software
+  updating. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
+
 ## Game Development ##
 Engines, libraries and other helpful things specifically for making games.
 * [Allegro][170] - Cross-platform, game development and multimedia library. [``Zlib``][Zlib]
@@ -477,6 +496,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [cpu\_features][409] - Get CPU features at runtime. [``Apache-2.0``][Apache-2.0]
 * [libcoap][423] - Implementation of the [Constrained Application Protocol][424].
   [``GPL-2.0-or-later``][GPL-2.0-or-later] or [``BSD-2-Clause``][BSD-2-Clause]
+* [libnfc][438] - Platform-independent Near-Field Communication library. [``LGPL-3.0-only``][LGPL-3.0-only]
 
 ## Hashing ##
 Hash function implementations for *non*-crypto purposes. Cryptographic hashes
@@ -538,6 +558,7 @@ Generic lexers and parsers
 
 ## Multimedia ##
 Audio and video processing
+* [ApeTagLibs][428] - Library for working with APEv2 tags. [``MIT``][MIT]
 * [aubio][219] - Library for audio and music analysis. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [FFMPEG][220] - Complete, cross-platform solution to record, convert and
   stream audio and video. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
@@ -576,40 +597,57 @@ Audio and video processing
   open source.
 
 ## Networking ##
-* [asnlc][227] - Compiler of ASN.1 specifications into C source code. [``BSD-2-Clause``][BSD-2-Clause]
-* [CHL][228] - C Hypertext Library - A library for writing for web in C. [``GPL-3.0-only``][GPL-3.0-only]
+### DNS ###
 * [GNU adns][229] - Advanced, easy-to-use, asynch-capable DNS client library
   and utilities. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [http-parser][230] - HTTP request/response parser. [``MIT``][MIT]
 * [ldns][231] - Library to simplify DNS programming. [``BSD-3-Clause``][BSD-3-Clause]
-* [libcurl][232] - Client-side URL transfer library, supporting a wide range of
-  formats. [``curl``][curl]
-* [LibEtPan][233] - Mail library providing an efficient network for IMAP, SMTP,
-  POP and NNTP. [``BSD-3-Clause``][BSD-3-Clause]
+
+### HTTP ###
+* [http-parser][230] - HTTP request/response parser. [``MIT``][MIT]
+* [libsagui][239] - Library for cross-platform HTTP servers. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
+* [lwan][242] - Experimental, scalable, high-performance HTTP server. [``GPL-2.0-only``][GPL-2.0-only]
+* [mongoose][243] - Embedded web server. [``GPL-2.0-only``][GPL-2.0-only]
 * [libhttpd][234] - Library to add basic web server capabilities to an
   application or embedded device. [``GPL-2.0-only``][GPL-2.0-only]
-* [libidn][235] - Implementation of the Stringprep, Punycode and IDNA
-  specifications. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [libmicrohttpd][236] - Small library that makes it easy to run an HTTP
   server as part of another application. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [libonion][237] - HTTP server library, designed to be easy to use. [``Apache-2.0``][Apache-2.0]
+
+### Mail ###
+* [LibEtPan][233] - Mail library providing an efficient network for IMAP, SMTP,
+  POP and NNTP. [``BSD-3-Clause``][BSD-3-Clause]
+* [libvldmail][439] - Email validation library. No external dependencies
+  (not even regexps). [``WTFPL``][WTFPL]
 * [libquickmail][238] - Library intended to give developers a way to send email
   from their applications. Supports multiple To/Cc/Bcc recipients and
   attachments without size limits. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [libsagui][239] - Library for cross-platform HTTP servers. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
+
+### Messaging ###
+* [NNG][245] - nanomsg-next-generation - lightweight brokerless messaging. [``MIT``][MIT]
+* [rabbitmq-c][440] - Client library for [RabbitMQ][229]. [``MIT``][MIT]
+* [zproto][370] - Protocol framework for ZeroMQ. [``MIT``][MIT]
+* [nanomsg][244] - C-based implementation of ZeroMQ. [``MIT``][MIT]
+
+### Other Networking ###
+* [asnlc][227] - Compiler of ASN.1 specifications into C source code. [``BSD-2-Clause``][BSD-2-Clause]
+* [CHL][228] - C Hypertext Library - A library for writing for web in C. [``GPL-3.0-only``][GPL-3.0-only]
+* [libcurl][232] - Client-side URL transfer library, supporting a wide range of
+  formats. [``curl``][curl]
+* [libidn][235] - Implementation of the Stringprep, Punycode and IDNA
+  specifications. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [LibVNCServer][240] - Cross-platform libraries to implement VNC server and/or
   client functionality. [``GPL-2.0-or-later``][GPL-2.0-or-later]
-* [libwebsock][241] - Easy-to-use and powerful web socket library. [``LGPL-3.0-only``][LGPL-3.0-only]
-* [lwan][242] - Experimental, scalable, high-performance HTTP server. [``GPL-2.0-only``][GPL-2.0-only]
-* [mongoose][243] - Embedded web server. [``GPL-2.0-only``][GPL-2.0-only]
-* [nanomsg][244] - C-based implementation of ZeroMQ. [``MIT``][MIT]
-* [NNG][245] - nanomsg-next-generation - lightweight brokerless messaging. [``MIT``][MIT]
 * [oSip][246] - SIP implementation without additional dependencies. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [socket99][247] - C99 wrapper for the BSD sockets API. [``ISC``][ISC]
+* [zyre][249] - Framework for proximity-based peer-to-peer applications. [``MPL-2.0``][MPL-2.0]
+* [libgss][435] - Generic Security Service. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+
+### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
   protocol, as described in RFC 6455. [``MIT``][MIT]
-* [zyre][249] - Framework for proximity-based peer-to-peer applications. [``MPL-2.0``][MPL-2.0]
-* [zproto][370] - Protocol framework for ZeroMQ. [``MIT``][MIT]
+* [libwebsock][241] - Easy-to-use and powerful web socket library. [``LGPL-3.0-only``][LGPL-3.0-only]
+
+--------------------------------------------------------------------------------
 
 ## OS Specifics ##
 * [attr][401] - Commands for manipulating filesystem extended attributes. [``GPL-2.0-or-later``][GPL-2.0-or-later]
@@ -618,6 +656,10 @@ Audio and video processing
 * [libcox][403] - Library which permits cross-platform system calls and
   standard utilities across different operating systems. [``BSD-2-Clause``][BSD-2-Clause]
 * [GNU FreeIPMI][422] - In-band and out-of-band IPMI implementation. [``GPL-3.0-only``][GPL-3.0-only]
+* [CRIU][427] - Checkpoint/Restore In Userspace; a software tool (with a C API)
+  for 'freezing' a running application to disk, then restoring it. Targeted for
+  Linux. [``GPL-2.0-only``][GPL-2.0-only] or [``LGPL-2.1-only``][LGPL-2.1-only]
+* [linenoise][433] - Small, self-contained alternative to readline and libedit. [``BSD-2-Clause``][BSD-2-Clause]
 
 ## Procedural Generation ##
 * [heman][382] - Tiny library of image utilities dealing with height maps,
@@ -647,6 +689,7 @@ Audio and video processing
 * [tpl][290] - Small binary serialization library. [``MIT``][MIT]
 * [xdr][291] - External Data Representation; a standard for data serialization.
   Standard (no license applicable).
+* [pbc][437] - Protocol buffers library. [``MIT``][MIT]
 
 ## Source Code Collections ##
 * [CCAN][292] - Modelled after Perl's CPAN, this is a big collection of code.
@@ -707,7 +750,12 @@ Implementations of the C standarts
 * [utf8proc][321] - Library for processing UTF-8 data. [``MIT``][MIT]
 
 ## Structured File Processing ##
-This includes libraries for configuration, markup and other text file types.
+Libraries for working wit hspecific filetypes
+
+### Binaries ###
+* [bfd][436] - Library for manipulating binary object files. Part of GNU
+  binutils. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [libelf][337] - Simple library for parsing ELF files. [``MIT``][MIT]
 
 ### CSV ###
 * [libcsv][322] - Simple, streaming CSV parser. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
@@ -746,7 +794,6 @@ This includes libraries for configuration, markup and other text file types.
 ### Other Filetypes ###
 * [libbson][335] - BSON utility library. [``Apache-2.0``][Apache-2.0]
 * [libconfuse][336] - Small configuration file parser library. [``ISC``][ISC]
-* [libelf][337] - Simple library for parsing ELF files. [``MIT``][MIT]
 * [libucl][338] - Universal configuration library parser. [``BSD-2-Clause``][BSD-2-Clause]
 * [libxo][339] - Allows an application to generate plain text, XML, JSON and
   HTML output using a common set of function calls. The application decides at
@@ -754,6 +801,7 @@ This includes libraries for configuration, markup and other text file types.
 * [XLSX I/O][413] - Cross-platform library for reading and writing .xlsx files. [``MIT``][MIT]
 * [gumbo-parser][416] - HTML5 parsing library in C99. [``Apache-2.0``][Apache-2.0]
 
+--------------------------------------------------------------------------------
 
 ## Testing ##
 * [CHEAT][340] - Simple unit testing framework. [``BSD-2-Clause``][BSD-2-Clause]
@@ -774,7 +822,6 @@ This includes libraries for configuration, markup and other text file types.
 
 ## TUI ##
 Textual User Interface
-
 * [progressbar][371] - Easy-to-use library for displaying text progress bars. [``BSD-3-Clause``][BSD-3-Clause]
 * [netbsd-curses][372] - Simplified and small version of ncurses, with the same
   interface. [``BSD-3-Clause``][BSD-3-Clause]
@@ -783,7 +830,6 @@ Textual User Interface
 
 ## Web Frameworks ##
 Comprehensive and integrated solutions for building web application in C.
-
 * [Cloudgizer][361] - Cloudgizer is a tool for building web applications as
   Apache modules, with emphasis on performance, small-footprint, and more
   productive and safer programming in C. [``Apache-2.0``][Apache-2.0]
@@ -796,36 +842,31 @@ Comprehensive and integrated solutions for building web application in C.
 * [WAFer][378] - Ultra-light software platform for scalable server-side and
   networking applications (think node.js for C programmers). [``GPL-2.0-only``][GPL-2.0-only]
 
+## Web Service APIs ##
+* [twitc][426] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
 
-
-# Unsorted #
-* [twitc][237] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
-* [ApeTagLibs][345] - Library for working with APEv2 tags. [``MIT``][MIT]
-* [bfd][157] - Library for manipulating binary object files. Part of GNU
-  binutils. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [CRIU][440] - Checkpoint/Restore In Userspace; a software tool (with a C API)
-  for 'freezing' a running application to disk, then restoring
-  it. [``GPL-2.0-only``][GPL-2.0-only] or [``LGPL-2.1-only``][LGPL-2.1-only]
+# Uncategorized #
+* [tm][432] -  Timer and Timeline Utils for C. [``MIT``][MIT]
 * [D-Bus][430] - Interprocess communications bus. [``AFL-2.1``][AFL-2.1] or [``GPL-2.0-or-later``][GPL-2.0-or-later]
-* [Kitsune][355] - Efficient, general-purpose framework for dynamic software
-  updating. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
-* [libCello][96] - Library introducing higher-level programming to C. [``BSD-3-Clause``][BSD-3-Clause]
-* [libgss][161] - Generic Security Service. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [libnfc][332] - Platform-independent Near-Field Communication library. [``LGPL-3.0-only``][LGPL-3.0-only]
-* [libvldmail][3] - Your friendly email validation library. No external
-  dependencies (not even regexps). [``WTFPL``][WTFPL]
-* [linenoise][504] - Small, self-contained alternative to readline and libedit. [``BSD-2-Clause``][BSD-2-Clause]
-* [pbc][236] - Protocol buffers library. [``MIT``][MIT]
-* [rabbitmq-c][228] - Client library for [RabbitMQ][229]. [``MIT``][MIT]
-* [Ragel][54] - DSL for state machines that compiles to C. [``GPL-2.0-only``][GPL-2.0-only]
-* [sort][190] - Collection of sorting routines, which type-specialize at
-  compile-time with a user-defined type. [``MIT``][MIT]
-* [tm][543] -  Timer and Timeline Utils for C. [``MIT``][MIT]
 
 
 
 
-
+[440]: https://github.com/alanxz/rabbitmq-c
+[439]: https://github.com/dertuxmalwieder/libvldmail
+[438]: https://github.com/nfc-tools/libnfc
+[437]: https://github.com/cloudwu/pbc
+[436]: http://sourceware.org/binutils/docs/bfd/
+[435]: https://gnu.org/software/gss/
+[434]: https://github.com/swenson/sort
+[433]: https://github.com/antirez/linenoise
+[432]: https://github.com/recp/tm
+[431]: http://kitsune-dsu.com/
+[430]: http://www.colm.net/open-source/ragel/
+[429]: http://libcello.org/
+[428]: https://github.com/jeremyevans/ape_tag_libs/tree/master/c
+[427]: https://criu.org/Main_Page
+[426]: https://github.com/sinemetu1/twitc
 [425]: https://www.gnu.org/software/gnulib/
 [424]: http://coap.technology/
 [423]: https://github.com/obgm/libcoap
