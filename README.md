@@ -29,6 +29,7 @@ are a mess.
 --------------------------------------------------------------------------------
 
 * [AI](#ai)
+* [Calculations](#calculations)
 * [Compression](#compression)
 * [Concurrency And Parallelism](#concurrency-and-parallelism)
 * [Crypto](#crypto)
@@ -42,6 +43,9 @@ are a mess.
 * [Multimedia](#multimedia)
 * [Multiple Purpose Libraries](#multiple-purpose-libraries)
 * [Networking](#networking)
+* [Regex](#regex)
+* [Serialization](#serialization)
+* [Source Code Collections](#source-code-collections)
 
 --------------------------------------------------------------------------------
 
@@ -177,6 +181,50 @@ Basically, if your university calls it AI, it lives here.
 * [Genann][8] - Simple ANN in C89, without additional dependencies. [``Zlib``][Zlib]
 * [KANN][9] - Two-file ANN library. [``MIT``][MIT]
 * [LibDEEP][10] - Deep learning library. [``BSD-3-Clause``][BSD-3-Clause]
+
+## Calculations ##
+* [apophenia][250] - Library for statistical and scientific computing. [``GPL-2.0-only``][GPL-2.0-only]
+* [Arb][251] - Library for arbitrary-precision interval arithmetic. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [ATLAS][252] - Automatically Tuned Linear Algebra Software. [``BSD-3-Clause``][BSD-3-Clause]
+* [clBLAS][253] - BLAS functions written in OpenCL. [``Apache-2.0``][Apache-2.0]
+* [cmathl][254] - Math library with a great variety of mathematical functions
+  with CMake build support. Seeks to be close to C89/C90 compliant for
+  portability. [``MIT``][MIT]
+* [Cuba][255] - Library for multidimensional numerical integration. [``LGPL-3.0-only``][LGPL-3.0-only]
+* [fft-c][256] - A high-performance Fourier Transform from netlib's fftpack;
+  wrapped in a user-friendly format [``MIT``][ MIT]
+* [FFTW][257] - The Fastest Fourier Transform in the West; a highly optimized
+  fast Fourier transform routine. [``GPL-2.0-or-later``][GPL-2.0-or-later]
+* [FLINT][258] - Fast Library for Number Theory; a library supporting arithmetic
+  with numbers, polynomials, power series and matrices, among others. [``GPL-2.0-or-later``][GPL-2.0-or-later]
+* [GLPK][259] - GNU Linear Programming Kit; a package designed for solving
+  large-scale linear programming, mixed integer programming and other related
+  problems. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [GMP][260] - GNU Multple Precision Arithmetic Library; a library for
+  arbitrary-precision arithmetic. [``GPL-2.0-only``][GPL-2.0-only] or [``LGPL-3.0-only``][LGPL-3.0-only]
+* [GNU MPC][261] - Library for complex number arithmetic. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
+* [GNU MPFR][262] - Library for arbitrary-precision floating-point arithmetic. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
+* [GNU MPRIA][263] - Portable mathematics library for multi-precision rational
+  interval arithmetic. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [GSL][264] - The GNU Scientific Library; a sophisticated numerical library. [``GPL-3.0-only``][GPL-3.0-only].
+* [KISS FFT][265] - Simple fast Fourier transform library. [``BSD-3-Clause``][BSD-3-Clause]
+* [LAPACKE][266] - Interface to [LAPACK][134]. [``BSD-3-Clause``][BSD-3-Clause]
+* [LibTomMath][267] - Portable, number-theoretic, multiple-precision integer
+  library. Supports algebra, digit manipulation, modular reductions, and various
+  number-theoretic routines. Public domain.
+* [LibTomPoly][268] - Polynomial-related maths library. Public domain.
+* [PARI/GP][269] - Computer algebra system for number theory; includes a
+  compiler to C. [``GPL-2.0-or-later``][GPL-2.0-or-later]
+* [PETSc][270] - Suite of data structures and routines for scalable parallel
+  solution of scientific applications modelled by partial differential
+  equations. [``BSD-2-Clause``][BSD-2-Clause]
+* [SCS][271] - Splitting Conic Solver; a numerical optimization package for
+  solving large-scale convex cone problems. [``MIT``][MIT]
+* [SLEPc][272] - Library for the solution of large, sparse eigenvalue
+  problems on parallel computers. [``LGPL-3.0-only``][LGPL-3.0-only]
+* [TomsFastMath][273] - Set of optimized maths operations (in assembly),
+  suitable for cryptographic use. Public domain.
+* [Yeppp!][274] - Fast, SIMD-optimized mathematical library. [``BSD-3-Clause``][BSD-3-Clause]
 
 ## Compression ##
 * [blosc][25] - Fast, multi-threaded, meta-compressor library. Various licenses,
@@ -412,8 +460,8 @@ Audio and video processing
 ## Multiple Purpose Libraries ##
 * [pal][65] - Optimized library for maths, parallel processing and data
   movement. [``Apache-2.0``][Apache-2.0]
-* [APR][154] - Apache Portable Runtime; another library of cross-platform utility
-  functions. [``Apache-2.0``][Apache-2.0]
+* [APR][154] - Apache Portable Runtime; another library of cross-platform
+  utility functions. [``Apache-2.0``][Apache-2.0]
 * [C Algorithms][155] - Collection of common algorithms and data structures. [``ISC``][ISC]
 * [CPL][156] - The Common Pipeline Library; a set of libraries designed to be a
   comprehensive, efficient and robust software toolkit. [``GPL-2.0-only``][GPL-2.0-only]
@@ -467,6 +515,47 @@ Audio and video processing
   protocol, as described in RFC 6455. [``MIT``][MIT]
 * [zyre][249] - Framework for proximity-based peer-to-peer applications. [``MPL-2.0``][MPL-2.0]
 
+## Regex ##
+* [Onigmo][275] - Fork of Oniguruma, supporting more advanced regexps. [``BSD-2-Clause``][BSD-2-Clause]
+* [Oniguruma][276] - Regex library supporting a wide range of encodings, and
+  incorporating many security-oriented fixes. [``BSD-2-Clause``][BSD-2-Clause]
+* [PCRE][277] - Implementation of regexes identical to that of Perl 5. [``BSD-3-Clause``][BSD-3-Clause]
+* [SLRE][278] - Super Light Regular Expression library; a small implementation
+  of a subset of Perl regex syntax. [``GPL-2.0-only``][GPL-2.0-only]
+* [TRE][279] - POSIX-compliant, feature-full regex library. [``BSD-2-Clause``][BSD-2-Clause]
+
+## Serialization ##
+* [binn][280] - Binary serialization format, meant to be compact, fast and
+  easy-to-use. [``Apache-2.0``][Apache-2.0]
+* [c-capnproto][281] - Implementation of the Cap'n Proto serialization protocol. [``MIT``][MIT]
+* [cmp][282] - Implementation of the [MessagePack][283] serialization protocol. [``MIT``][MIT]
+* [flatcc][284] - [FlatBuffers][285] compiler and library. [``Apache-2.0``][Apache-2.0]
+* [libavro][286] - Implementation of the Avro data serialization system. [``Apache-2.0``][Apache-2.0]
+* [mpack][287] - Another implementation of the [MessagePack][283] serialization
+  protocol. [``MIT``][MIT]
+* [OPIC][288] - Object Persistence in C; a revolutionary serialization
+  framework, with matching on-disk and in-memory representations. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [protobuf-c][289] - Implementation of Google Protocol Buffer. [``BSD-2-Clause``][BSD-2-Clause]
+* [tpl][290] - Small binary serialization library. [``MIT``][MIT]
+* [xdr][291] - External Data Representation; a standard for data serialization.
+  Standard (no license applicable).
+
+## Source Code Collections ##
+* [CCAN][292] - Modelled after Perl's CPAN, this is a big collection of code.
+  Various licenses, all open source.
+* [clib][293] - Something of a package manager. Comes with a
+  [bunch of libraries of its own][294]. [``MIT``][MIT]
+* [libdjb][295] - Collection of libraries doing various things. (Apparently)
+  public domain.
+* [mmx][296] - Collection of single-header libraries. Various licenses, all
+  open source.
+* [par][297] - Bunch of single-file libraries. [``MIT``][MIT]
+* [Snippets][298] - Useful code snippets and header-only libraries.
+  Public domain.
+* [stb][299] - Range of single-file libraries. Public domain.
+* [tinyheaders][300] - Collection of header-only libraries, primarily oriented
+  toward game development. [``Zlib``][Zlib]
+
 
 -=-=-=-=-=-=-=-=-=-
 UNSORTED
@@ -478,8 +567,7 @@ UNSORTED
 * [libgd][402] - Library for the dynamic creation of images by programmers. [``MIT``][MIT]
 * [libimagequant][300] - Small, portable library for high-quality conversion of
   RGBA images to 8-bit indexed colour images. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [libjpeg-turbo][193] - Faster library for reading and writing JPEG files.
-  [Various licences][194].
+* [libjpeg-turbo][193] - Faster library for reading and writing JPEG files. [Various licences][194].
 * [libpng][382] - Official PNG reference library. [``Libpng``][Libpng]
 * [libRSVG][417] - Library to render SVG files using Cairo. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [libvips][511] - Image processing library. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
@@ -490,7 +578,65 @@ UNSORTED
 * [libev][144] - Yet another event loop. [``BSD-2-Clause``][BSD-2-Clause]
 * [libevent][124] - Event loop replacement for network servers. [``BSD-3-Clause``][BSD-3-Clause]
 * [twitc][237] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
+* [gnulib][46] - Collection of common GNU code. Various licenses, all
+  open source.
 
+
+
+[300]: https://github.com/RandyGaul/tinyheaders
+[299]: https://github.com/nothings/stb
+[298]: https://github.com/DanielGibson/Snippets/
+[297]: https://github.com/prideout/par
+[296]: https://github.com/vurtun/mmx
+[295]: http://www.fefe.de/djb/
+[294]: https://github.com/clibs/clib/wiki/Packages
+[293]: https://github.com/clibs/clib
+[292]: http://ccodearchive.net/
+
+[291]: https://en.wikipedia.org/wiki/External_Data_Representation
+[290]: https://github.com/troydhanson/tpl
+[289]: https://github.com/protobuf-c/protobuf-c
+[288]: http://opic.rocks/
+[287]: https://github.com/ludocode/mpack
+[286]: http://avro.apache.org/docs/current/api/c/index.html#_introduction_to_avro_c
+[285]: https://google.github.io/flatbuffers/
+[284]: https://github.com/dvidelabs/flatcc
+[283]: https://msgpack.org/
+[282]: https://github.com/camgunz/cmp
+[281]: https://github.com/jmckaskill/c-capnproto
+[280]: https://github.com/liteserver/binn
+
+[279]: https://github.com/laurikari/tre/
+[278]: https://github.com/cesanta/slre
+[277]: http://www.pcre.org/
+[276]: https://github.com/kkos/oniguruma
+[275]: https://github.com/k-takata/Onigmo
+
+[274]: https://bitbucket.org/MDukhan/yeppp
+[273]: http://www.libtom.net/TomsFastMath/
+[272]: http://slepc.upv.es/
+[271]: https://github.com/cvxgrp/scs
+[270]: http://www.mcs.anl.gov/petsc/
+[269]: http://pari.math.u-bordeaux.fr/
+[268]: http://www.libtom.net/LibTomPoly/
+[267]: http://www.libtom.net/LibTomMath/
+[266]: http://www.netlib.org/lapack/lapacke.html
+[265]: https://sourceforge.net/projects/kissfft/
+[264]: https://www.gnu.org/software/gsl/
+[263]: https://gnu.org/software/mpria/
+[262]: http://mpfr.loria.fr/index.html
+[261]: http://www.multiprecision.org/index.php?prog=mpc&page=home
+[260]: https://gmplib.org/
+[259]: https://gnu.org/software/glpk/
+[258]: http://flintlib.org/
+[257]: http://www.fftw.org/
+[256]: https://github.com/adis300/fft-c
+[255]: http://www.feynarts.de/cuba/
+[254]: https://scientificc.github.io/cmathl/
+[253]: https://github.com/clMathLibraries/clBLAS
+[252]: http://math-atlas.sourceforge.net/
+[251]: https://github.com/fredrik-johansson/arb
+[250]: http://apophenia.info
 
 [249]: https://github.com/zeromq/zyre
 [248]: https://tatsuhiro-t.github.io/wslay/
