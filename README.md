@@ -102,43 +102,67 @@ Incorporated lists:
 
 ## Meta ##
 ### Standarts ###
-* [Draft C89 standard][1]
-* [Draft C99 standard][2]
-* [Draft C11 standard][3]
-* [Draft C18 standard][4]
+* [Draft C89 standard][1-1]
+* [Draft C99 standard][1-2]
+* [Draft C11 standard][1-3]
+* [Draft C18 standard][1-4]
+
+[1-1]: https://port70.net/~nsz/c/c89/c89-draft.html
+[1-2]: https://port70.net/~nsz/c/c99/n1256.html
+[1-3]: https://port70.net/~nsz/c/c11/n1570.html
+[1-4]: https://web.archive.org/web/20181230041359if_/http://www.open-std.org/jtc1/sc22/wg14/www/abq/c17_updated_proposed_fdis.pdf
 
 ### Tooling ###
-Compilers and other tooling.
-
 #### Build Systems ####
-* [aimake][485] - Build tool designed to avoid complex configurations. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [Autoconf][486] - Extensible package of M4 macros that produce shell scripts
+* [aimake][2-1] - Build tool designed to avoid complex configurations. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [Autoconf][2-2] - Extensible package of M4 macros that produce shell scripts
   to automatically configure software source code packages. Part of the
   Autotools. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [Automake][487] - Tool for automatically generating `Makefile.in` files
+* [Automake][2-3] - Tool for automatically generating `Makefile.in` files
   compliant with the GNU Coding Standards. Requires the use of Autoconf. Part of
   the Autotools. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [Bazel][492] - Build system for various operating systems and targets. [``Apache-2.0``][Apache-2.0]
-* [Buck][493] - Build system created and used by Facebook. [``Apache-2.0``][Apache-2.0]
-* [CMake][11] - Cross-platform family of tools designed to build, package and
+* [Bazel][2-4] - Build system for various operating systems and targets. [``Apache-2.0``][Apache-2.0]
+* [Buck][2-5] - Build system created and used by Facebook. [``Apache-2.0``][Apache-2.0]
+* [CMake][2-6] - Cross-platform family of tools designed to build, package and
   test software. Written in C++11. [``BSD-3-Clause``][BSD-3-Clause]
-* [GNU Make][12] - Tool which controls the generation of executables and other
+* [GNU Make][2-7] - Tool which controls the generation of executables and other
   non-source files of a program. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [GMSL][146] - GNU Make Standard Library; a collection of additional
+* [GMSL][2-8] - GNU Make Standard Library; a collection of additional
   functionality for GNU Make. [``BSD-3-Clause``][BSD-3-Clause]
-* [Jam][488] - Build system, designed to be easier than make. Understands C
-  build rules implicitly. [``Jam License``][489]
-* [Libtool][490] - Generic library support script. Part of the Autotools. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [Meson][13] - Build system based on Ninja and Python. [``Apache-2.0``][Apache-2.0]
-* [Ninja][491] - Small, simple build system with a focus on speed. [``Apache-2.0``][Apache-2.0]
-* [Premake][14] - Generates project files for Visual Studio, Xcode and GNU Make.
+* [Jam][2-9] - Build system, designed to be easier than make. Understands C
+  build rules implicitly. [``Jam License``][2-10]
+* [Libtool][2-11] - Generic library support script. Part of the Autotools. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [Meson][2-12] - Build system based on Ninja and Python. [``Apache-2.0``][Apache-2.0]
+* [Ninja][2-13] - Small, simple build system with a focus on speed. [``Apache-2.0``][Apache-2.0]
+* [Premake][2-14] - Generates project files for Visual Studio, Xcode and GNU Make.
   Targets suppport can be extended via modules. [``BSD-3-Clause``][BSD-3-Clause]
-* [Qbs][494] - Modern build tool for software projects. [``LGPL-3.0-only``][LGPL-3.0-only]
-* [qmake][495] - Build system included with the Qt Framework. [`GNU GPL3 with Qt Exception`][496]
-* [SCons][15] - Software construction tool based on Python. [``MIT``][MIT]
-* [xmake][16] - Cross-platform build utility based on Lua. [``Apache-2.0``][Apache-2.0]
-* [zproject][17] - Project generator and build system support tool for ZeroMQ
+* [Qbs][2-15] - Modern build tool for software projects. [``LGPL-3.0-only``][LGPL-3.0-only]
+* [qmake][2-16] - Build system included with the Qt Framework. [`GNU GPL3 with Qt Exception`][2-17]
+* [SCons][2-18] - Software construction tool based on Python. [``MIT``][MIT]
+* [xmake][2-19] - Cross-platform build utility based on Lua. [``Apache-2.0``][Apache-2.0]
+* [zproject][2-20] - Project generator and build system support tool for ZeroMQ
   project. [``MPL-2.0``][MPL-2.0]
+
+[2-1]: http://nethack4.org/projects/aimake/
+[2-2]: https://www.gnu.org/software/autoconf/autoconf.html
+[2-3]: https://www.gnu.org/software/automake/automake.html
+[2-4]: https://bazel.build/
+[2-5]: https://buckbuild.com/
+[2-6]: https://cmake.org/
+[2-7]: https://www.gnu.org/software/make/
+[2-8]: https://gmsl.sourceforge.net/
+[2-9]: https://www.perforce.com/documentation/jam-documentation
+[2-10]: https://en.wikipedia.org/wiki/Perforce_Jam#License
+[2-11]: https://www.gnu.org/software/libtool/
+[2-12]: http://mesonbuild.com/
+[2-13]: https://github.com/ninja-build/ninja
+[2-14]: https://github.com/premake/premake-core
+[2-15]: http://doc.qt.io/qbs/
+[2-16]: https://doc.qt.io/qt-5/qmake-manual.html
+[2-17]: https://github.com/qt/qtbase/blob/5.11/LICENSE.GPL3-EXCEPT
+[2-18]: https://www.scons.org/
+[2-19]: https://xmake.io/
+[2-20]: https://github.com/zeromq/zproject
 
 #### Compilers ####
 * [GCC][18] - Provides a C compiler as part of its compiler set. Supports C11. [``GPL-3.0-or-later``][GPL-3.0-or-later]
@@ -956,18 +980,6 @@ Comprehensive and integrated solutions for building web application in C.
 [498]: https://bellard.org/tcc/
 [497]: http://compcert.inria.fr/
 
-[496]: https://github.com/qt/qtbase/blob/5.11/LICENSE.GPL3-EXCEPT
-[495]: https://doc.qt.io/qt-5/qmake-manual.html
-[494]: http://doc.qt.io/qbs/
-[493]: https://buckbuild.com/
-[492]: https://bazel.build/
-[491]: https://github.com/ninja-build/ninja
-[490]: https://www.gnu.org/software/libtool/
-[489]: https://en.wikipedia.org/wiki/Perforce_Jam#License
-[488]: https://www.perforce.com/documentation/jam-documentation
-[487]: https://www.gnu.org/software/automake/automake.html
-[486]: https://www.gnu.org/software/autoconf/autoconf.html
-[485]: http://nethack4.org/projects/aimake/
 
 [484]: https://www.codeproject.com/Articles/6154/Writing-Efficient-C-and-C-Code-Optimization
 [483]: https://docs.google.com/presentation/d/1h49gY3TSiayLMXYmRMaAEMl05FaJ-Z6jDOWOz3EsqqQ/edit?pli=1#slide=id.p
@@ -1338,7 +1350,6 @@ Comprehensive and integrated solutions for building web application in C.
 [149]: http://www.andre-simon.de/doku/highlight/en/highlight.php
 [148]: https://logological.org/gpp
 [147]: https://www.gnu.org/software/global/
-[146]: https://gmsl.sourceforge.net/
 [145]: http://cppcheck.sourceforge.net/
 [144]: https://clang.llvm.org/docs/ClangCheck.html
 [143]: https://www.flourish.org/cinclude2dot/
@@ -1478,13 +1489,6 @@ Comprehensive and integrated solutions for building web application in C.
 [19]: https://clang.llvm.org/
 [18]: https://gcc.gnu.org/
 
-[17]: https://github.com/zeromq/zproject
-[16]: https://xmake.io/
-[15]: https://www.scons.org/
-[14]: https://github.com/premake/premake-core
-[13]: http://mesonbuild.com/
-[12]: https://www.gnu.org/software/make/
-[11]: https://cmake.org/
 
 [10]: https://github.com/jppbsi/LibDEEP/wiki
 [9]: https://github.com/attractivechaos/kann
@@ -1492,11 +1496,6 @@ Comprehensive and integrated solutions for building web application in C.
 [7]: http://leenissen.dk/fann/wp/
 [6]: https://github.com/100/Cranium
 [5]: http://libccv.org
-
-[4]: https://web.archive.org/web/20181230041359if_/http://www.open-std.org/jtc1/sc22/wg14/www/abq/c17_updated_proposed_fdis.pdf
-[3]: https://port70.net/~nsz/c/c11/n1570.html
-[2]: https://port70.net/~nsz/c/c99/n1256.html
-[1]: https://port70.net/~nsz/c/c89/c89-draft.html
 
 [AFL-2.1]: https://spdx.org/licenses/AFL-2.1.html
 [AGPL-3.0-only]: https://spdx.org/licenses/AGPL-3.0-only.html
