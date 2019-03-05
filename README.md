@@ -22,6 +22,7 @@ are a mess.
 		* [Debugging And Analysis](#debugging-and-analysis)
 		* [Documentation Generation](#documentation-generation)
 		* [Editors](#editors)
+		* [Microsoft Windows Environment](#microsoft-windows-environment)
 		* [Profiling](#profiling)
 		* [Text Editor Extensions](#text-editor-extensions)
 		* [Utilities](#utilities)
@@ -39,6 +40,7 @@ are a mess.
 * [Graphics](#graphics)
 * [GUI](#gui)
 * [Hashing](#hashing)
+* [Lexing And Parsing](#lexing-and-parsing)
 * [Memory Management](#memory-management)
 * [Multimedia](#multimedia)
 * [Multiple Purpose Libraries](#multiple-purpose-libraries)
@@ -56,6 +58,7 @@ are a mess.
 	* [XML](#xml)
 	* [YAML](#yaml)
 * [Testing](#testing)
+* [Web Frameworks](#web-frameworks)
 
 --------------------------------------------------------------------------------
 
@@ -126,6 +129,18 @@ IDEs and text editors with good support of C specifics.
 * [CodeLite][123] - Cross-platform IDE. [``GPL-2.0-only``][GPL-2.0-only]
 * [Geany][124] - Small and fast IDE. [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [KDevelop][125] - KDE IDE. [``GPL-2.0-only``][GPL-2.0-only]
+
+### Microsoft Windows Environment ###
+Technologies designed to bring Windows into the 21st century with respect to
+support for C.
+
+* [Cygwin][365] - Designed to emulate a POSIX-compatible environment extensively
+  under Windows. [Various licenses, all open source][366].
+* [MinGW-w64][367] - Minimalist environment for C development on Windows with
+  64 bit support. [Various licenses, all open source][368].
+* [MSYS2][369] - Minimal SYStem 2; aims to provide support for a POSIX
+  environment on Windows, with a package manager based on Arch Linux's
+  pacman. Packages have individual licenses, otherwise, as MinGW and Cygwin.
 
 #### Profiling ####
 * [gperftools][126] - Collection of utilities for measuring and improving
@@ -439,6 +454,18 @@ can be found in the Crypto section.
 * [t1ha][168] - Fast Positive Hash - a portable, fast hash function. [``BSD-3-Clause``][BSD-3-Clause]
 * [xxHash][169] - Fast 32 and 64 bit hashing algorithm. [``BSD-2-Clause``][BSD-2-Clause]
 
+## Lexing And Parsing ##
+Libraries specifically for lexical analysis (or lexing) and syntactic analysis
+(or parsing).
+
+* [flex][356] - Fast lexical analyzer generator. [``BSD-2-Clause``][BSD-2-Clause]
+* [GNU Bison][357] - General-purpose parser generator that converts an
+  annotated context-free grammar into a range of parsers. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [hammer][358] - Parser combinators for binary formats. [``GPL-2.0-only``][GPL-2.0-only]
+* [mpc][359] - Parser combinator library. [``BSD-2-Clause``][BSD-2-Clause]
+* [re2c][360] - Lexer generator, producing fast lexers, with access to its
+  internals. Public domain.
+
 ## Memory Management ##
 * [Boehm GC][212] - Garbage collection for C. Various licenses, all open source.
 * [jemalloc][213] - Malloc implementation that emphasizes avoidance of
@@ -653,6 +680,18 @@ This includes libraries for configuration, markup and other text file types.
 * [Unity][354] - Simple unit testing framework. [``MIT``][MIT]
 * [utest][355] - Single-header unit testing library. [``Unlicense``][Unlicense]
 
+## Web Frameworks ##
+Comprehensive and integrated solutions for building web application in C.
+
+* [Cloudgizer][361] - Cloudgizer is a tool for building web applications as
+  Apache modules, with emphasis on performance, small-footprint, and more
+  productive and safer programming in C. [``Apache-2.0``][Apache-2.0]
+* [facil.io][362] - Mini-framework for web applications. Includes a fast HTTP
+  and Websocket server, and also supports custom protocols. [``MIT``][MIT]
+* [KLone][363] - Fully featured, multi-platform, web application development
+  framework, targeted especially at embedded systems and appliances. [``BSD-3-Clause``][BSD-3-Clause]
+* [Kore][364] - Easy-to-use web application framework for writing scalable
+  web APIs in C. [``ISC``][ISC]
 
 -=-=-=-=-=-=-=-=-=-
 UNSORTED
@@ -677,9 +716,118 @@ UNSORTED
 * [twitc][237] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
 * [gnulib][46] - Collection of common GNU code. Various licenses, all
   open source.
+* [ApeTagLibs][345] - Library for working with APEv2 tags. [``MIT``][MIT]
+* [argparse][413] - Command-line argument parsing library, inspired by
+  Python's argparse module. [``MIT``][MIT]
+* [attr][425] - Commands for manipulating filesystem extended
+  attributes. [``GPL-2.0-or-later``][GPL-2.0-or-later]
+* [bfd][157] - Library for manipulating binary object files. Part of GNU
+  binutils. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [Caffeine][496] - Library for building daemons and services for Linux and
+  FreeBSD systems. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [CException][298] - Implementation of exceptions. [``MIT``][MIT]
+* [CommonMark][223] - Implementation of the CommonMark spec.
+  [Variety of licenses, all open source][224].
+* [cpu\_features][319] - Get CPU features at runtime. [``Apache-2.0``][Apache-2.0].
+* [CRIU][440] - Checkpoint/Restore In Userspace; a software tool (with a C API)
+  for 'freezing' a running application to disk, then restoring
+  it. [``GPL-2.0-only``][GPL-2.0-only] or [``LGPL-2.1-only``][LGPL-2.1-only]
+* [D-Bus][430] - Simple way for applications to talk to one
+  another. [``AFL-2.1``][AFL-2.1] or [``GPL-2.0-or-later``][GPL-2.0-or-later]
+* [Discount][438] - Simple implementation of a Markdown parser. [``BSD-3-Clause``][BSD-3-Clause]
+* [dlx][388] - Implementation of [Knuth's Algorithm X][389], with example
+  solvers. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [docopt.c][270] - Implementation of a command-line option parser. [``MIT``][MIT]
+* [dyncall][281] - Another foreign function interface library. [``MIT``][MIT]
+* [GNU FreeIPMI][158] - In-band and out-of-band IPMI
+  implementation. [``GPL-3.0-only``][GPL-3.0-only]
+* [GNU gperf][351] - Perfect hash function generator, given a list of
+  strings. Outputs C code. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [GNU Libffcall][162] - Collection of libraries for building foreign function
+  interfaces. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [Hoedown][405] - Fully standards-compliant, extension-supporting, UTF-8
+  aware, fast Markdown parser. [``MIT``][MIT]
+* [Kitsune][355] - Efficient, general-purpose framework for dynamic software
+  updating. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
+* [libCello][96] - Library introducing higher-level programming to
+  C. [``BSD-3-Clause``][BSD-3-Clause]
+* [libcmark][436] - Library for parsing the CommonMark dialect of
+  Markdown. [``BSD-2-Clause``][BSD-2-Clause]
+* [libcoap][136] - Implementation of the [Constrained Application Protocol][117].
+  [``GPL-2.0-or-later``][GPL-2.0-or-later] or [``BSD-2-Clause``][BSD-2-Clause]
+* [libcox][373] - Library which permits cross-platform system calls and
+  standard utilities across different operating systems.
+  [``BSD-2-Clause``][BSD-2-Clause]
+* [libffi][128] - Portable foreign-function interface library. [``MIT``][MIT]
+* [libgeohash][499] - Pure C implementation of the Geohash algorithm.
+  [``BSD-3-Clause``][BSD-3-Clause]
+* [libgss][161] - Generic Security Service.
+  [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [libimobiledevice][354] - Cross-platform protocol library to communicate
+  with iThings. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [libnfc][332] - Platform-independent Near-Field Communication
+  library. [``LGPL-3.0-only``][LGPL-3.0-only]
+* [libPhenom][31] - Eventing framework for building high-scalability and
+  high-performance systems. [``Apache-2.0``][Apache-2.0]
+* [libpostal][434] - Library for parsing and normalization of street addresses
+  around the world. Powered by statistical NLP and open geo data. [``MIT``][MIT]
+* [libtrading][455] - Implementation of network protocols for communicating
+  with exchanges, dark pools and other trading venues. Supports FIX, FIX/FAST
+  and many proprietary protocols. [``BSD-2-Clause``][BSD-2-Clause]
+* [libusb][306] - Provides generic access to USB devices.
+  [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [libuv][56] - Cross-platform asynchronous I/O. [``MIT``][MIT]
+* [libvldmail][3] - Your friendly email validation library. No external
+  dependencies (not even regexps). [``WTFPL``][WTFPL]
+* [linenoise][504] - Small, self-contained alternative to readline and
+  libedit. [``BSD-2-Clause``][BSD-2-Clause]
+* [ncurses][178] - Coloured terminal UI library. [``MIT``][MIT]
+* [netbsd-curses][494] - Simplified and small version of ncurses, with the same
+  interface. [``BSD-3-Clause``][BSD-3-Clause]
+* [nope.c][209] - Ultra-light software platform for scalable server-side and
+  networking applications (think node.js for C programmers). [``GPL-2.0-only``][GPL-2.0-only]
+* [parg][274] - A single-file reimplementation of ``getopt`` with better defaults.
+  [``CC0-1.0``][CC0-1.0]
+* [pbc][236] - Protocol buffers library. [``MIT``][MIT]
+* [progressbar][453] - Easy-to-use library for displaying text progress bars.
+  [``BSD-3-Clause``][BSD-3-Clause]
+* [rabbitmq-c][228] - Client library for [RabbitMQ][229]. [``MIT``][MIT]
+* [Ragel][54] - DSL for state machines that compiles to C. [``GPL-2.0-only``][GPL-2.0-only]
+* [sort][190] - Collection of sorting routines, which type-specialize at
+  compile-time with a user-defined type. [``MIT``][MIT]
+* [termbox][396] - Library for writing text-based interfaces. [``MIT``][MIT]
+* [tinyexpr][395] - Tiny recursive-descent parser, compiler and evaluation
+  engine for simple mathematical expressions. [``BSD-3-Clause``][BSD-3-Clause]
+* [tm][543] - ⏱ Timer and Timeline Utils for C. [``MIT``][MIT]
+* [Tulip Indicators][449] - Library of functions for technical analysis of
+  financial data. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
+* [whereami][167] - One-file library for locating the current executable on the
+  file system. [``WTFPL``][WTFPL]
+* [XLSX I/O][344] - Cross-platform library for reading and writing .xlsx
+  files. [``MIT``][MIT]
+* [zlog][437] - Reliable, pure C logging library.
+  [``LGPL-2.1-only``][LGPL-2.1-only]
+* [zproto][421] - Protocol framework for ZeroMQ. [``MIT``][MIT]
 
 
 
+
+[369]: http://msys2.github.io/
+[368]: http://mingw.org/license
+[367]: http://mingw-w64.yaxm.org/doku.php/start
+[366]: https://cygwin.com/licensing.html
+[365]: https://cygwin.com/
+
+[364]: https://kore.io/
+[363]: http://www.koanlogic.com/klone/
+[362]: http://facil.io/
+[361]: https://dasoftver.bitbucket.io/cloudgizer
+
+[360]: http://re2c.org/index.html
+[359]: https://github.com/orangeduck/mpc
+[358]: https://github.com/abiggerhammer/hammer
+[357]: https://www.gnu.org/software/bison/
+[356]: https://github.com/westes/flex
 
 [355]: https://github.com/evolutional/utest
 [354]: http://www.throwtheswitch.org/unity
