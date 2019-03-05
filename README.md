@@ -222,18 +222,20 @@ Incorporated lists:
 [4-13]: http://www.valgrind.org/
 
 #### Documentation Generation ####
-* [Cxref][118] - Generates documentation in either LaTeX, HTML, RTF or SGML. [``GPL-2.0-only``][GPL-2.0-only]
-* [DocOnce][119] - Modestly tagged markup language that can be used to generate
+* [Cxref][5-1] - Generates documentation in either LaTeX, HTML, RTF or SGML. [``GPL-2.0-only``][GPL-2.0-only]
+* [DocOnce][5-2] - Modestly tagged markup language that can be used to generate
   a range of formats. [``BSD-3-Clause``][BSD-3-Clause]
-* [Doxygen][120] - De-facto standard tool for generating documentation from
+* [Doxygen][5-3] - De-facto standard tool for generating documentation from
   annotated sources. Can generate a large range of formats. [``GPL-2.0-only``][GPL-2.0-only]
-* [Cxref](http://www.gedanken.org.uk/software/cxref/) - Generates documentation of C programs in either LaTeX, HTML, RTF or SGML. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-* [DocOnce](https://hplgit.github.io/doconce/doc/web/index.html) - Modestly-tagged markup language that can be used to generate a range of formats. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
-* [Doxygen](http://www.doxygen.nl/) - The de-facto standard tool for generating C documentation from annotated sources. Can generate a large range of formats. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-* [GTK-Doc](https://www.gtk.org/gtk-doc/) - Tool for generating C documentation from annotated sources. Has support for the Autotools. [`GNU GPL2.1 (code)`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html) or [`GNU FDL1.1`](https://www.gnu.org/licenses/old-licenses/fdl-1.1.html)
+* [GTK-Doc][5-4] - Tool for generating C documentation from annotated sources.
+  Has support for the Autotools. Various licenses.
+
+[5-1]: http://www.gedanken.org.uk/software/cxref/
+[5-2]: https://hplgit.github.io/doconce/doc/web/index.html
+[5-3]: http://www.doxygen.nl/
+[5-4]: https://www.gtk.org/gtk-doc/
 
 #### Editors ####
-IDEs and text editors with good support of C specifics.
 * [Anjuta DevStudio][121] - GNOME IDE. [``GPL-2.0-only``][GPL-2.0-only]
 * [Code::Blocks][122] - Extendable, configurable IDE supporting C. [``GPL-3.0-only``][GPL-3.0-only]
 * [CodeLite][123] - Cross-platform IDE. [``GPL-2.0-only``][GPL-2.0-only]
