@@ -490,6 +490,9 @@ Incorporated lists:
 * [EtchedPixels/FUZIX](https://github.com/EtchedPixels/FUZIX) - FuzixOS: Because Small Is Beautiful
 * [Fedjmike/mini-c](https://github.com/Fedjmike/mini-c) - Dr Strangehack, or: how to write a self-hosting C compiler in 10 hours
 * [FreddieV4/DailyProgrammerChallenges](https://github.com/FreddieV4/DailyProgrammerChallenges) - External Repo of Challenges from r/dailyprogrammer
+* [Harvey-OS/harvey](https://github.com/Harvey-OS/harvey) - A distributed operating system
+* [HarveyHunt/howm](https://github.com/HarveyHunt/howm) - A lightweight, X11 tiling window manager that behaves like vim
+* [HuoLanguage/huo](https://github.com/HuoLanguage/huo) - interpreted language written in C
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -510,6 +513,8 @@ Neural nets, machine learning, and other similar things.
 * [2hanson/DecisionTree](https://github.com/2hanson/DecisionTree) - Decision Tree
 * [Blei-Lab/lda-c](https://github.com/Blei-Lab/lda-c) - This is a C implementation of variational EM for latent Dirichlet allocation (LDA), a topic model for text or other discrete data.
 * [GHamrouni/Recommender](https://github.com/GHamrouni/Recommender) - A C library for product recommendations/suggestions using collaborative filtering (CF)
+* [H2CO3/libsprec](https://github.com/H2CO3/libsprec) - C library for speech recognition using the Google Speech API
+* [HIPS/Probabilistic-Backpropagation](https://github.com/HIPS/Probabilistic-Backpropagation) - Implementation in C and Theano of the method Probabilistic Backpropagation for scalable Bayesian inference in deep neural networks.
 
 ## Algoritm Implementations ##
 * [sort][434] - Collection of sorting routines, which type-specialize at
@@ -521,6 +526,7 @@ Neural nets, machine learning, and other similar things.
 * [BlackLight/fkmeans](https://github.com/BlackLight/fkmeans) - A tiny library in C for managing kmeans clusterization algorithm over arbitrary data sets, both by manually specifying the number k of clusters and computing it automatically using Schwarz criterion
 * [CVLearner/Mixture-of-Gaussians](https://github.com/CVLearner/Mixture-of-Gaussians) - Fit a Gaussian mixture model given a set of data
 * [Cyan4973/FiniteStateEntropy](https://github.com/Cyan4973/FiniteStateEntropy) - New generation entropy codecs : Finite State Entropy and Huff0
+* [IAIK/CJAG](https://github.com/IAIK/CJAG) - CJAG is an open-source implementation of our cache-based jamming agreement.
 
 ## Argument Parsing ##
 * [parg][410] - A single-file reimplementation of ``getopt`` with better
@@ -597,6 +603,7 @@ Neural nets, machine learning, and other similar things.
 * [Yeppp!](https://bitbucket.org/MDukhan/yeppp) - Very fast, SIMD-optimized mathematical library. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
 * [gjrand](https://sourceforge.net/projects/gjrand/) - Library of random-number generation routines. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html) or [`GNU GPLv3`](http://www.gnu.org/licenses/gpl.html)
 * [FFTW/fftw3](https://github.com/FFTW/fftw3) - This is the official repository for the FFTW Fourier transform library, version 3.x
+* [HdrHistogram/HdrHistogram_c](https://github.com/HdrHistogram/HdrHistogram_c) - C port of the HdrHistogram
 
 ## Compression ##
 * [blosc][25] - Fast, multi-threaded, meta-compressor library. Various licenses,
@@ -646,6 +653,7 @@ Neural nets, machine learning, and other similar things.
 * [Cyan4973/lz4](https://github.com/Cyan4973/lz4) - Extremely Fast Compression algorithm
 * [Cyan4973/zstd](https://github.com/Cyan4973/zstd) - Zstandard - Fast and efficient compression algorithm
 * [Dead2/zlib-ng](https://github.com/Dead2/zlib-ng) - zlib replacement with optimizations for "next generation" systems.
+* [IlyaGrebnov/libbsc](https://github.com/IlyaGrebnov/libbsc) - High performance block-sorting data compression library
 
 ## Concurrency and Parallelism ##
 * [cchan][52] - Small library for channel constructs for inter-thread
@@ -781,6 +789,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [Blosc/bcolz](https://github.com/Blosc/bcolz) - A columnar data container that can be compressed.
 * [ClickerMonkey/CDSL](https://github.com/ClickerMonkey/CDSL) - A data structure library written in C
 * [DanielWaterworth/Butterfly](https://github.com/DanielWaterworth/Butterfly) - [DEPRECATED] Butterfly is a C library that implements a very simple 'dynamic' data-type. It could be used, for example, to manipulate JSON data from C. It is distributed under LGPL.
+* [Incarnation-p-lee/libds](https://github.com/Incarnation-p-lee/libds) - unified data structure implementation lib of C
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -805,6 +814,7 @@ Foreign function interfaces, also know as binding interfaces.
 * [P99](http://p99.gforge.inria.fr/) - Suite of macros to implement advanced features like default function arguments, scope-bound resources, etc. (Requires C99) [`Q Public License`](https://tldrlegal.com/license/q-public-license-1.0-(qpl-1.0)#summary)
 * [orangeduck/Cello](https://github.com/orangeduck/Cello) - Higher level programming in C
 * [CObjectSystem/COS](https://github.com/CObjectSystem/COS) - C Object System
+* [H2CO3/Sparkling](https://github.com/H2CO3/Sparkling) - Lightweight extension language
 
 
 ## Game Development ##
@@ -853,6 +863,8 @@ Engines, libraries and other helpful things specifically for making games.
 * [SDL and SDL2](https://www.libsdl.org/) - Cross-platform development library designed to provide low-level access to audio, keyboard, mouse, joystick and graphics hardware via OpenGL. SDL2 is the most current version. [`zlib`](https://directory.fsf.org/wiki/License:Zlib)
 * [raylib](https://www.raylib.com/) - Simple and easy-to-use library to learn videogames programming. [`zlib`](https://directory.fsf.org/wiki/License:Zlib)
 * [Gigoteur/UnicornConsole](https://github.com/Gigoteur/UnicornConsole) - Unicorn Console: create quick game !
+* [HBehrens/obj2opengl](https://github.com/HBehrens/obj2opengl) - script to convert 3D models of OBJ files to C/C++ float arrays (vertices, faces, texture) compatible with OpenGL ES glDrawArrays compatible with iPhone/iPad
+* [HerculesWS/Hercules](https://github.com/HerculesWS/Hercules) - Hercules is a collaborative software development project revolving around the creation of a robust massively multiplayer online role playing game (MMORPG) server package. Written in C, the program is very versatile and provides NPCs, warps and modifications. The project is jointly managed by a group of volunteers located around the world as well as a tremendous community providing QA and support. Hercules is a continuation of the original Athena project.
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1411,6 +1423,7 @@ Comprehensive and integrated solutions for building web application in C.
 * [twitc][426] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
 * [dajobe/flickcurl](https://github.com/dajobe/flickcurl) - Flickr C API library
 * [Cotix/cReddit](https://github.com/Cotix/cReddit) - CLI Reddit client written in C. Oh, crossplatform too!
+* [HalosGhost/shaman](https://github.com/HalosGhost/shaman) - A small, native C library and utility to fetch weather
 
 [424]: http://coap.technology/
 
@@ -1420,27 +1433,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [libgit2](https://libgit2.org/) - Pure C implementation of Git. [`GNU GPL2 only, with a linking exception`](https://github.com/libgit2/libgit2/blob/master/COPYING)
 
 # Unsorted #
-* [H2CO3/Sparkling](https://github.com/H2CO3/Sparkling) - Lightweight extension language
-* [H2CO3/libsprec](https://github.com/H2CO3/libsprec) - C library for speech recognition using the Google Speech API
-* [HBehrens/obj2opengl](https://github.com/HBehrens/obj2opengl) - script to convert 3D models of OBJ files to C/C++ float arrays (vertices, faces, texture) compatible with OpenGL ES glDrawArrays compatible with iPhone/iPad
-* [HIPS/Probabilistic-Backpropagation](https://github.com/HIPS/Probabilistic-Backpropagation) - Implementation in C and Theano of the method Probabilistic Backpropagation for scalable Bayesian inference in deep neural networks.
-* [HalosGhost/shaman](https://github.com/HalosGhost/shaman) - A small, native C library and utility to fetch weather
-* [HandBrake/HandBrake](https://github.com/HandBrake/HandBrake) - Readonly Mirror of the offical HandBrake svn repository.
-* [HapCoderWei/DataStructure](https://github.com/HapCoderWei/DataStructure) - 我自己写的数据结构与算法练习程序, 仅做备忘
-* [Harha/MirageRender](https://github.com/Harha/MirageRender) - a 3D renderer written in C++
-* [Harvey-OS/harvey](https://github.com/Harvey-OS/harvey) - A distributed operating system
-* [HarveyHunt/howm](https://github.com/HarveyHunt/howm) - A lightweight, X11 tiling window manager that behaves like vim
-* [HaxeFoundation/hxcpp](https://github.com/HaxeFoundation/hxcpp) - Runtime files for c++ backend for haxe
-* [HdrHistogram/HdrHistogram_c](https://github.com/HdrHistogram/HdrHistogram_c) - C port of the HdrHistogram
-* [HerculesWS/Hercules](https://github.com/HerculesWS/Hercules) - Hercules is a collaborative software development project revolving around the creation of a robust massively multiplayer online role playing game (MMORPG) server package. Written in C, the program is very versatile and provides NPCs, warps and modifications. The project is jointly managed by a group of volunteers located around the world as well as a tremendous community providing QA and support. Hercules is a continuation of the original Athena project.
-* [Hexxeh/rpi-firmware](https://github.com/Hexxeh/rpi-firmware) - Firmware files for the Raspberry Pi
-* [Hopson97/MineCraft-One-Week-Challenge](https://github.com/Hopson97/MineCraft-One-Week-Challenge) - I challenged myself to see if I could create a voxel game (Minecraft-like) in just one week using C++ and OpenGL... So lets go!
-* [HunterHillegas/iOS-BetaBuilder](https://github.com/HunterHillegas/iOS-BetaBuilder) - MacOS X tool designed to simplify creating and distributing beta releases of iOS apps.
-* [HuoLanguage/huo](https://github.com/HuoLanguage/huo) - interpreted language written in C
-* [HypoPG/hypopg](https://github.com/HypoPG/hypopg) - Hypothetical Indexes for PostgreSQL
-* [IAIK/CJAG](https://github.com/IAIK/CJAG) - CJAG is an open-source implementation of our cache-based jamming agreement.
-* [IlyaGrebnov/libbsc](https://github.com/IlyaGrebnov/libbsc) - High performance block-sorting data compression library
-* [Incarnation-p-lee/libds](https://github.com/Incarnation-p-lee/libds) - unified data structure implementation lib of C
 * [InfiniteSearchSpace/PyCl-Convergence](https://github.com/InfiniteSearchSpace/PyCl-Convergence) - Python/OpenCl Cellular Automata design & manipulation tool
 * [IreneKnapp/modern-data](https://github.com/IreneKnapp/modern-data) - A self-describing binary data format for dependently-typed object graphs.
 * [IvanMalison/grid](https://github.com/IvanMalison/grid) - A distributed system that allows users to submit executables and data to a compute cluster.  Can withstand multiple failures without losing data.
