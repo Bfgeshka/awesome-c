@@ -217,6 +217,7 @@ Incorporated lists:
   deterministic debugging. [``BSD-2-Clause``][BSD-2-Clause]
 * [Valgrind][4-13] - Range of dynamic analysis tools, including a leak checker. [``GPL-2.0-only``][GPL-2.0-only]
 * [SVF-tools/SVF](https://github.com/SVF-tools/SVF) - Pointer Analysis and Program Dependence Analysis for C and C++ Programs
+* [agl/ctgrind](https://github.com/agl/ctgrind) - Checking that functions are constant time with Valgrind
 
 [4-1]: https://embed.cs.utah.edu/creduce/
 [4-2]: https://www.cprover.org/cbmc/
@@ -505,6 +506,8 @@ Incorporated lists:
 * [SilverRainZ/OS67](https://github.com/SilverRainZ/OS67) - An unix-like toy kernel.
 * [Visgean/Zeus](https://github.com/Visgean/Zeus) - NOT MY CODE! Zeus trojan horse - leaked in 2011, I am not the author. I have created this repository to make the access for study as easy as possible.
 * [Wilfred/babyc](https://github.com/Wilfred/babyc) - A toy C compiler
+* [adsr/mle](https://github.com/adsr/mle) - flexible terminal-based text editor (C)
+* [adtac/fssb](https://github.com/adtac/fssb) - A filesystem sandbox for Linux using syscall intercepts.
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -547,6 +550,10 @@ Neural nets, machine learning, and other similar things.
 * [Kevincav/Radix-Sort](https://github.com/Kevincav/Radix-Sort) - Radix Sort with different data types.
 * [Soryusan/Ranking_Algorithm](https://github.com/Soryusan/Ranking_Algorithm) - Ranking algorithm data collector/cruncher
 * [TheAlgorithms/C](https://github.com/TheAlgorithms/C) - All Algorithms implemented in C
+* [agl/curve25519-donna](https://github.com/agl/curve25519-donna) - Implementations of a fast Elliptic-curve Diffie-Hellman primitive
+* [ai-ku/scode](https://github.com/ai-ku/scode) - Sphere embedding (s-code) is a variation of Euclidean embedding of co-occurence data (code).
+* [aimxhaisse/des](https://github.com/aimxhaisse/des) - C implementation of Data Encryption Standard
+* [ajrisi/fsm](https://github.com/ajrisi/fsm) - A finite state machine engine in C - used as a parser for complex data structures
 
 ## Argument Parsing ##
 * [parg][410] - A single-file reimplementation of ``getopt`` with better
@@ -681,6 +688,7 @@ Neural nets, machine learning, and other similar things.
 * [Dead2/zlib-ng](https://github.com/Dead2/zlib-ng) - zlib replacement with optimizations for "next generation" systems.
 * [IlyaGrebnov/libbsc](https://github.com/IlyaGrebnov/libbsc) - High performance block-sorting data compression library
 * [RoaringBitmap/CRoaring](https://github.com/RoaringBitmap/CRoaring) - Roaring bitmaps in C (and C++)
+* [adnanozsoy/CUDA_Compression](https://github.com/adnanozsoy/CUDA_Compression) - A GPU-based LZSS compression algorithm, highly tuned for NVIDIA GPGPUs and for streaming data, leveraging the respective strengths of CPUs and GPUs together.
 
 ## Concurrency and Parallelism ##
 * [cchan][52] - Small library for channel constructs for inter-thread
@@ -794,6 +802,8 @@ protocols.
 * [Qihoo360/Atlas](https://github.com/Qihoo360/Atlas) - A high-performance and stable proxy for MySQL
 * [Softmotions/ejdb](https://github.com/Softmotions/ejdb) - EJDB — Embeddable JSON Database engine
 * [Suor/postgresql-json](https://github.com/Suor/postgresql-json) - Extract data from PostgreSQL JSON fields.
+* [aerospike/aerospike-client-c](https://github.com/aerospike/aerospike-client-c) - Aerospike C Client
+* [aerospike/aerospike-server](https://github.com/aerospike/aerospike-server) - Aerospike Database Server – flash-optimized, in-memory, nosql database
 
 ## Data Structures ##
 * [libhl][58] - Library implementing a thread-safe API to manage a range of data
@@ -827,6 +837,8 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [MichaelJWelsh/cdsa](https://github.com/MichaelJWelsh/cdsa) - A library of generic intrusive data structures and algorithms in ANSI C
 * [Tarsnap/kivaloo](https://github.com/Tarsnap/kivaloo) - Kivaloo is a collection of utilities which together form a data store associating keys of up to 255 bytes with values of up to 255 bytes.
 * [ZSShen/C-Common-Data-Structures](https://github.com/ZSShen/C-Common-Data-Structures) - Uniform C APIs for data structure manipulation
+* [agl/critbit](https://github.com/agl/critbit) - Critbit trees in C
+* [alexanderb14/cCollections](https://github.com/alexanderb14/cCollections) - lightweight dynamic data structures for C
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1094,6 +1106,7 @@ Audio and video processing
 * [Themaister/libfmsynth](https://github.com/Themaister/libfmsynth) - A C library which implements an FM synthesizer
 * [UniversalPrimer/flv-analyzer](https://github.com/UniversalPrimer/flv-analyzer) - Loads an FLV file into sane C data structures and outputs fields as human readable
 * [Vidvox/hap-qt-codec](https://github.com/Vidvox/hap-qt-codec) - A QuickTime codec for Hap video
+* [acrisci/playerctl](https://github.com/acrisci/playerctl) - 🎧 mpris command-line controller and library for spotify, vlc, audacious, bmp, cmus, and others.
 
 ## Multiple Purpose Libraries ##
 * [pal][65] - Optimized library for maths, parallel processing and data
@@ -1246,6 +1259,8 @@ Audio and video processing
 * [Microsoft/checkedc](https://github.com/Microsoft/checkedc) - Checked C is an extension to C that adds checking to detect or prevent common programming errors such as buffer overruns and out-of-bounds memory accesses.  This repo has a wiki for Checked C, sample code, the specification, and test code.
 * [Xfennec/progress](https://github.com/Xfennec/progress) - Linux tool to show progress for cp, rm, dd, ...
 * [a0rtega/pafish](https://github.com/a0rtega/pafish) - Pafish is a demonstration tool that employs several techniques to detect sandboxes and analysis environments in the same way as malware families do.
+* [adoxa/ansicon](https://github.com/adoxa/ansicon) - Process ANSI escape sequences for Windows console programs.
+* [aidenbell/getdents](https://github.com/aidenbell/getdents) - Simple tool for listing large (millions) numbers of files on Linux systems without causing memory issues. Useful for shell scripting large data stores.
 
 ## Procedural Generation ##
 * [heman][382] - Tiny library of image utilities dealing with height maps,
@@ -1294,6 +1309,7 @@ Audio and video processing
 * [xdr](https://en.wikipedia.org/wiki/External_Data_Representation) - External Data Representation; a standard for data serialization.
 * [ErikDubbelboer/c-pack](https://github.com/ErikDubbelboer/c-pack) - Simple data packing/unpacking in C
 * [Xsoda/struct](https://github.com/Xsoda/struct) - pack and unpack packet data like python struct module.
+* [acg/lwpb](https://github.com/acg/lwpb) - Lightweight Protocol Buffers for C and Python
 
 ## Source Code Collections ##
 * [CCAN][292] - Modelled after Perl's CPAN, this is a big collection of code.
@@ -1339,6 +1355,7 @@ Audio and video processing
 * [Unidata/gempak](https://github.com/Unidata/gempak) - Analysis, display, and product generation package for meteorological data.
 * [Unidata/netcdf-c](https://github.com/Unidata/netcdf-c) - Official GitHub repository for netCDF-C libraries and utilities.
 * [XenonofArcticus/DynamicTrack](https://github.com/XenonofArcticus/DynamicTrack) - Access sources of dynamically-updated data about discrete entities like GPSes, INSes, ADS-B sources.
+* [aaronstanton/sualft](https://github.com/aaronstanton/sualft) - reconstruction of irregularly sampled seismic data using the Anti-Leakage Fourier Transform (ALFT)
 
 ## Standard Libraries ##
 Implementations of the C standarts
@@ -1394,6 +1411,7 @@ Libraries for working wit hspecific filetypes
 * [bfd][436] - Library for manipulating binary object files. Part of GNU
   binutils. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [libelf][337] - Simple library for parsing ELF files. [``MIT``][MIT]
+* [abiggerhammer/hammer](https://github.com/abiggerhammer/hammer) - Parser combinators for binary formats, in C. Yes, in C. What? Don't look at me like that.
 
 ### CSV ###
 * [libcsv][322] - Simple, streaming CSV parser. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
@@ -1414,6 +1432,7 @@ Libraries for working wit hspecific filetypes
 * [WJElement](https://github.com/netmail-open/wjelement/wiki) - Advanced JSON manipulation library, with support for JSON Schema. [`LGPL, any version`](https://github.com/netmail-open/wjelement/)
 * [YAJL](https://lloyd.github.io/yajl/) - Fast C JSON streaming parser library. [`ISC`](https://directory.fsf.org/wiki/License:ISC)
 * [DaveGamble/cJSON](https://github.com/DaveGamble/cJSON) - Ultralightweight JSON parser in ANSI C
+* [akheron/jansson](https://github.com/akheron/jansson) - C library for encoding, decoding and manipulating JSON data
 
 ### INI ###
 * [inih][329] - Small and simple INI file parser, good for embedded systems. [``BSD-3-Clause``][BSD-3-Clause]
@@ -1526,6 +1545,7 @@ Comprehensive and integrated solutions for building web application in C.
 * [PromyLOPh/pianobar](https://github.com/PromyLOPh/pianobar) - Console-based pandora.com player
 * [TOTBWF/SteamCurses](https://github.com/TOTBWF/SteamCurses) - A Basic NCurses Client for Steam
 * [Yubico/yubico-c-client](https://github.com/Yubico/yubico-c-client) - Yubico C client library
+* [adobkin/libcapn](https://github.com/adobkin/libcapn) - A simple C Library for interact with the Apple Push Notification Service (APNs)
 
 [424]: http://coap.technology/
 
@@ -1537,63 +1557,14 @@ Comprehensive and integrated solutions for building web application in C.
 * [Lajnold/falloc](https://github.com/Lajnold/falloc) - falloc creates files of a user-specified size. It uses the posix_fallocate syscall for allocating the right size directly, instead of copying data like the commonly used dd tool does (which, in my opinion, feels like a hack).
 * [ThomasHabets/monotonic_clock](https://github.com/ThomasHabets/monotonic_clock) - Portable C library for getting monotonic time
 * [WhisperSystems/libsignal-protocol-c](https://github.com/WhisperSystems/libsignal-protocol-c) - Signal Protocol C Library
+* [alandekok/recli](https://github.com/alandekok/recli) - A re-imagined CLI.  Customizable syntax, help, permissions, data types.
 
 # Unsorted #
-* [a3linux/nagios-amq-perf](https://github.com/a3linux/nagios-amq-perf) - Nagiso fork patched to support post performance data to ActiveMQ
-* [a4tunado/mll](https://github.com/a4tunado/mll) - Library used for studying machine learning course at Yandex Data Analysis School.
-* [aardappel/lobster](https://github.com/aardappel/lobster) - The Lobster Programming Language
-* [aaronstanton/sualft](https://github.com/aaronstanton/sualft) - reconstruction of irregularly sampled seismic data using the Anti-Leakage Fourier Transform (ALFT)
-* [abael/amysql](https://github.com/abael/amysql) - High performance( 2.5 times to MySQLDb ) Python  Mysql Driver,   using Python native socket layer.  pure C implemented.
-* [abiggerhammer/hammer](https://github.com/abiggerhammer/hammer) - Parser combinators for binary formats, in C. Yes, in C. What? Don't look at me like that.
-* [abrasive/shairport](https://github.com/abrasive/shairport) - Airtunes emulator! Shairport is no longer maintained.
-* [acassen/keepalived](https://github.com/acassen/keepalived) - Keepalived
-* [acg/lwpb](https://github.com/acg/lwpb) - Lightweight Protocol Buffers for C and Python
-* [acl-dev/acl](https://github.com/acl-dev/acl) - One advanced C/C++ library for Linux, Mac, FreeBSD, Solaris(x86), Windows, Android, IOS
-* [acmeism/RosettaCodeData](https://github.com/acmeism/RosettaCodeData) - RosettaCode Data Project
-* [acrisci/playerctl](https://github.com/acrisci/playerctl) - 🎧 mpris command-line controller and library for spotify, vlc, audacious, bmp, cmus, and others.
-* [adafruit/adafruit-beaglebone-io-python](https://github.com/adafruit/adafruit-beaglebone-io-python) - Adafruit's BeagleBone IO Python Library
-* [adamcaudill/ccsrch](https://github.com/adamcaudill/ccsrch) - Cross-platform credit card (PAN) search tool for security assessments
-* [addy689/DataStructuresLab](https://github.com/addy689/DataStructuresLab) - Graph Traversal (BFS & DFS), Single Source Shortest Path, Minimum Spanning Tree, RB Trees, B-Trees
-* [adenine/ofxFFT_to_OSC](https://github.com/adenine/ofxFFT_to_OSC) - This is an app which uses ofxFFT to then send out OSC data relating to the music being interpreted.
-* [adnanozsoy/CUDA_Compression](https://github.com/adnanozsoy/CUDA_Compression) - A GPU-based LZSS compression algorithm, highly tuned for NVIDIA GPGPUs and for streaming data, leveraging the respective strengths of CPUs and GPUs together.
-* [adobe-flash/crossbridge](https://github.com/adobe-flash/crossbridge) - Welcome to visit the homepage!
-* [adobkin/libcapn](https://github.com/adobkin/libcapn) - A simple C Library for interact with the Apple Push Notification Service (APNs)
-* [adoxa/ansicon](https://github.com/adoxa/ansicon) - Process ANSI escape sequences for Windows console programs.
-* [adrianlopezroche/fdupes](https://github.com/adrianlopezroche/fdupes) - FDUPES is a program for identifying or deleting duplicate files residing within specified directories.
-* [adsr/mle](https://github.com/adsr/mle) - flexible terminal-based text editor (C)
-* [adtac/fssb](https://github.com/adtac/fssb) - A filesystem sandbox for Linux using syscall intercepts.
-* [aerospike/aerospike-client-c](https://github.com/aerospike/aerospike-client-c) - Aerospike C Client
-* [aerospike/aerospike-server](https://github.com/aerospike/aerospike-server) - Aerospike Database Server – flash-optimized, in-memory, nosql database
-* [agentzh/chunkin-nginx-module](https://github.com/agentzh/chunkin-nginx-module) - HTTP 1.1 chunked-encoding request body support for Nginx
-* [aggregateknowledge/postgresql-hll](https://github.com/aggregateknowledge/postgresql-hll) - PostgreSQL extension adding HyperLogLog data structures as a native data type
-* [agl/critbit](https://github.com/agl/critbit) - Critbit trees in C
-* [agl/ctgrind](https://github.com/agl/ctgrind) - Checking that functions are constant time with Valgrind
-* [agl/curve25519-donna](https://github.com/agl/curve25519-donna) - Implementations of a fast Elliptic-curve Diffie-Hellman primitive
-* [agordon/datamash](https://github.com/agordon/datamash) - mirror of GNU Datamash
-* [aharren/LibComponentLogging-Core](https://github.com/aharren/LibComponentLogging-Core) - A small logging library for Objective-C applications (Mac OS X and iPhone OS/iOS) which provides conditional logging based on log levels and log components. Additionally, different logging strategies can be used, e.g. writing log messages to a file or sending them to the system log, while using the same logging interface.
-* [ai-ku/scode](https://github.com/ai-ku/scode) - Sphere embedding (s-code) is a variation of Euclidean embedding of co-occurence data (code).
-* [aidansteele/MagicKit](https://github.com/aidansteele/MagicKit) - MagicKit is an Objective-C file identification framework based on libmagic.
-* [aidenbell/getdents](https://github.com/aidenbell/getdents) - Simple tool for listing large (millions) numbers of files on Linux systems without causing memory issues. Useful for shell scripting large data stores.
-* [aimxhaisse/des](https://github.com/aimxhaisse/des) - C implementation of Data Encryption Standard
-* [ajrisi/fsm](https://github.com/ajrisi/fsm) - A finite state machine engine in C - used as a parser for complex data structures
-* [akheron/jansson](https://github.com/akheron/jansson) - C library for encoding, decoding and manipulating JSON data
-* [akitaonrails/ObjC_Rubyfication](https://github.com/akitaonrails/ObjC_Rubyfication) - Attempt to make Objective-C more like Ruby
-* [alandekok/recli](https://github.com/alandekok/recli) - A re-imagined CLI.  Customizable syntax, help, permissions, data types.
-* [alanwoolley/CorsixTH-Android](https://github.com/alanwoolley/CorsixTH-Android) - Port of CorsixTH to Android
-* [alawrence/c_LibExifModule](https://github.com/alawrence/c_LibExifModule) - C++ framework module that wraps libexif to pull out EXIF data.
-* [alessandrofrancesconi/gimp-plugin-bimp](https://github.com/alessandrofrancesconi/gimp-plugin-bimp) - BIMP. Batch Image Manipulation Plugin for GIMP.
-* [alessio9008/PLC-to-STM32F4-communication-through-PC-as-gateway](https://github.com/alessio9008/PLC-to-STM32F4-communication-through-PC-as-gateway) - This project has been made using the STM32F4 accelerometer and a Siemens S7-300 unit. The microcontroller is programmed to send data to a PC by using a serial-port communication; these data are read from a C# program that forward them to the PLC memory. Then, the PLC unit, that recognizes the microcontroller position, moves a mechanical arm.
-* [alessio9008/Thingsquare-Contiki-O.S-Porting-STM32F4-Discovery](https://github.com/alessio9008/Thingsquare-Contiki-O.S-Porting-STM32F4-Discovery) - We have ported the Contiki Operating System to STM32F4 platform (http://www.st.com/stm32f4-discovery). We started with the work that was already done on an evaluation board based on STM32L1 platform (STEVAL-IKR001V1, http://www.st.com/web/en/catalog/tools/PF253893). The original project, called "Mist", was created by Thingsquare using Spirit1 radio transceiver (STEVAL-IKR001V8D, http://www.st.com/web/en/catalog/tools/FM116/SC1075/PF258319). We converted the system calls from the original platform to the target platform. We have adapted Spirit1 radio driver in order to work properly on STM32F4. Then, we created a Wireless Sensor Network and collected several communication and performance data.  I worked on it with Daniele Saitta.  To manage the entire work, we used IAR Embedded Workbench (http://www.iar.com/en/products/iar-embedded-workbench/arm/).
-* [alexanderb14/cCollections](https://github.com/alexanderb14/cCollections) - lightweight dynamic data structures for C
 * [alexanderchuranov/Metaresc](https://github.com/alexanderchuranov/Metaresc) - META data and RESource library for  C language
 * [alexbirkett/GPSBabel](https://github.com/alexbirkett/GPSBabel) - Free software for GPS data conversion and transfer
 * [alexfru/SmallerC](https://github.com/alexfru/SmallerC) - Simple C compiler
 * [algernon/libmongo-client](https://github.com/algernon/libmongo-client) - An obsolete library. Don't use it in new projects.
 * [ali-rantakari/peg-markdown-highlight](https://github.com/ali-rantakari/peg-markdown-highlight) - C library for Markdown syntax highlighting, using a recursive-descent parser.
-* [alibaba/ApsaraCache](https://github.com/alibaba/ApsaraCache) - ApsaraCache is a Redis branch originated from Alibaba Group.
-* [alibaba/LVS](https://github.com/alibaba/LVS) - A distribution of Linux Virtual Server with some advanced features. It introduces a new packet forwarding method - FULLNAT other than NAT/Tunneling/DirectRouting, and defense mechanism against synflooding attack - SYNPROXY.
-* [alibaba/nginx-http-concat](https://github.com/alibaba/nginx-http-concat) - A Nginx module for concatenating files in a given context: CSS and JS files usually
-* [alibaba/tengine](https://github.com/alibaba/tengine) - A distribution of Nginx with some advanced features
 * [alibaba/tsar2db](https://github.com/alibaba/tsar2db) - used to store tsar data to mysql
 * [alibashir/pacmonstr](https://github.com/alibashir/pacmonstr) - Tandem Repeat Detection for Long Read Sequence Data
 * [allinurl/goaccess](https://github.com/allinurl/goaccess) - GoAccess is a real-time web log analyzer and interactive viewer that runs in a terminal in *nix systems or through your browser.
