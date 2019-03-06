@@ -826,6 +826,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [LPD-EPFL/ASCYLIB](https://github.com/LPD-EPFL/ASCYLIB) - ASCYLIB is a concurrent-search data-structure library with over 30 implementantions of linked lists, hash tables, skip lists, and binary search trees.
 * [MichaelJWelsh/cdsa](https://github.com/MichaelJWelsh/cdsa) - A library of generic intrusive data structures and algorithms in ANSI C
 * [Tarsnap/kivaloo](https://github.com/Tarsnap/kivaloo) - Kivaloo is a collection of utilities which together form a data store associating keys of up to 255 bytes with values of up to 255 bytes.
+* [ZSShen/C-Common-Data-Structures](https://github.com/ZSShen/C-Common-Data-Structures) - Uniform C APIs for data structure manipulation
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -855,7 +856,7 @@ Foreign function interfaces, also know as binding interfaces.
 * [LuaDist/lua](https://github.com/LuaDist/lua) - The Lua programming language with CMake based build
 * [LuaDist/luajit](https://github.com/LuaDist/luajit) - LuaJIT is JIT compiler for the Lua language.
 * [LuaDist/toluapp](https://github.com/LuaDist/toluapp) - tolua++ is an extension of toLua, a tool to integrate C/Cpp code with Lua
-
+* [Zeex/subhook](https://github.com/Zeex/subhook) - Simple hooking library for C/C++ (x86 only, 32/64-bit, no dependencies)
 
 ## Game Development ##
 Engines, libraries and other helpful things specifically for making games.
@@ -913,6 +914,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [R4stl1n/cAudio](https://github.com/R4stl1n/cAudio) - 3D Audio Engine Based on Openal
 * [RandyGaul/AsciiEngine](https://github.com/RandyGaul/AsciiEngine) - Game engine written in C to create Ascii art games within the Windows console.
 * [Tangent128/luasdl2](https://github.com/Tangent128/luasdl2) - A pure C binding of SDL 2.0 for Lua 5.1, Lua 5.2, and LuaJIT.
+* [a-nikolaev/curseofwar](https://github.com/a-nikolaev/curseofwar) - A Real Time Strategy game for Linux.
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1242,6 +1244,8 @@ Audio and video processing
 * [Leandros/WindowsHModular](https://github.com/Leandros/WindowsHModular) - A modular Windows.h Header. Licensed under Public Domain & MIT.
 * [Microsoft/Windows-driver-samples](https://github.com/Microsoft/Windows-driver-samples) - This repo contains driver samples prepared for use with Microsoft Visual Studio and the Windows Driver Kit (WDK). It contains both Universal Windows Driver and desktop-only driver samples.
 * [Microsoft/checkedc](https://github.com/Microsoft/checkedc) - Checked C is an extension to C that adds checking to detect or prevent common programming errors such as buffer overruns and out-of-bounds memory accesses.  This repo has a wiki for Checked C, sample code, the specification, and test code.
+* [Xfennec/progress](https://github.com/Xfennec/progress) - Linux tool to show progress for cp, rm, dd, ...
+* [a0rtega/pafish](https://github.com/a0rtega/pafish) - Pafish is a demonstration tool that employs several techniques to detect sandboxes and analysis environments in the same way as malware families do.
 
 ## Procedural Generation ##
 * [heman][382] - Tiny library of image utilities dealing with height maps,
@@ -1289,6 +1293,7 @@ Audio and video processing
 * [protobuf-c](https://github.com/protobuf-c/protobuf-c) - Implementation of Google Protocol Buffer in C. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
 * [xdr](https://en.wikipedia.org/wiki/External_Data_Representation) - External Data Representation; a standard for data serialization.
 * [ErikDubbelboer/c-pack](https://github.com/ErikDubbelboer/c-pack) - Simple data packing/unpacking in C
+* [Xsoda/struct](https://github.com/Xsoda/struct) - pack and unpack packet data like python struct module.
 
 ## Source Code Collections ##
 * [CCAN][292] - Modelled after Perl's CPAN, this is a big collection of code.
@@ -1333,6 +1338,7 @@ Audio and video processing
 * [TulipCharts/tulipindicators](https://github.com/TulipCharts/tulipindicators) - Technical Analysis Indicator Function Library in C
 * [Unidata/gempak](https://github.com/Unidata/gempak) - Analysis, display, and product generation package for meteorological data.
 * [Unidata/netcdf-c](https://github.com/Unidata/netcdf-c) - Official GitHub repository for netCDF-C libraries and utilities.
+* [XenonofArcticus/DynamicTrack](https://github.com/XenonofArcticus/DynamicTrack) - Access sources of dynamically-updated data about discrete entities like GPSes, INSes, ADS-B sources.
 
 ## Standard Libraries ##
 Implementations of the C standarts
@@ -1519,6 +1525,7 @@ Comprehensive and integrated solutions for building web application in C.
 * [HalosGhost/shaman](https://github.com/HalosGhost/shaman) - A small, native C library and utility to fetch weather
 * [PromyLOPh/pianobar](https://github.com/PromyLOPh/pianobar) - Console-based pandora.com player
 * [TOTBWF/SteamCurses](https://github.com/TOTBWF/SteamCurses) - A Basic NCurses Client for Steam
+* [Yubico/yubico-c-client](https://github.com/Yubico/yubico-c-client) - Yubico C client library
 
 [424]: http://coap.technology/
 
@@ -1532,36 +1539,13 @@ Comprehensive and integrated solutions for building web application in C.
 * [WhisperSystems/libsignal-protocol-c](https://github.com/WhisperSystems/libsignal-protocol-c) - Signal Protocol C Library
 
 # Unsorted #
-* [XenonofArcticus/DynamicTrack](https://github.com/XenonofArcticus/DynamicTrack) - Access sources of dynamically-updated data about discrete entities like GPSes, INSes, ADS-B sources.
-* [Xfennec/progress](https://github.com/Xfennec/progress) - Linux tool to show progress for cp, rm, dd, ...
-* [Xsoda/struct](https://github.com/Xsoda/struct) - pack and unpack packet data like python struct module.
-* [Y1ran/Free-VPN-for-Coursera](https://github.com/Y1ran/Free-VPN-for-Coursera) - :key: :unlock:免费开源的科学上网工具
-* [Yalir/sfeMovie](https://github.com/Yalir/sfeMovie) - sfeMovie is a simple C++ library that lets you play movies in SFML based applications. It relies on FFmpeg to read medias and remains consistent with SFML's naming conventions. Forum at http://sfemovie.yalir.org/forum/
-* [YaroslavLitvinov/Distributed-Sort](https://github.com/YaroslavLitvinov/Distributed-Sort) - Sort data in several processes simultaneously and using zeromq for interprocess communications.
-* [Yubico/libu2f-host](https://github.com/Yubico/libu2f-host) - Yubico Universal 2nd Factor (U2F) Host C Library
-* [Yubico/yubico-c-client](https://github.com/Yubico/yubico-c-client) - Yubico C client library
-* [Yubico/yubico-pam](https://github.com/Yubico/yubico-pam) - Yubico Pluggable Authentication Module (PAM)
-* [ZBar/ZBar](https://github.com/ZBar/ZBar) - Clone of the mercurial repository http://zbar.hg.sourceforge.net:8000/hgroot/zbar/zbar
-* [ZECTBynmo/node-core-audio](https://github.com/ZECTBynmo/node-core-audio) - Bindings for PortAudio giving JavaScript access to sound card samples (mostly unmaintained)
-* [ZSShen/C-Common-Data-Structures](https://github.com/ZSShen/C-Common-Data-Structures) - Uniform C APIs for data structure manipulation
-* [Zeex/samp-plugin-crashdetect](https://github.com/Zeex/samp-plugin-crashdetect) - CrashDetect plugin for SA-MP server
-* [Zeex/sampgdk](https://github.com/Zeex/sampgdk) - Writing SA-MP gamemodes in C/C++
-* [Zeex/subhook](https://github.com/Zeex/subhook) - Simple hooking library for C/C++ (x86 only, 32/64-bit, no dependencies)
-* [ZerBea/hcxtools](https://github.com/ZerBea/hcxtools) - Portable solution for capturing wlan traffic and conversion to hashcat formats (recommended by hashcat) and to John the Ripper formats. hcx: h = hash, c = capture, convert and calculate candidates, x = different hashtypes
-* [ZhengYang/dc_fdw](https://github.com/ZhengYang/dc_fdw) - PostgreSQL - Document Collection Foreign-data Wrapper (works with 9.1 to 9.3)
-* [ZhengYang/odbc_fdw](https://github.com/ZhengYang/odbc_fdw) - PostgreSQL Foreign-data Wrapper for ODBC
-* [ZipArchive/ZipArchive](https://github.com/ZipArchive/ZipArchive) - ZipArchive is a simple utility class for zipping and unzipping files on iOS and Mac.
-* [a-nikolaev/curseofwar](https://github.com/a-nikolaev/curseofwar) - A Real Time Strategy game for Linux.
-* [a0rtega/pafish](https://github.com/a0rtega/pafish) - Pafish is a demonstration tool that employs several techniques to detect sandboxes and analysis environments in the same way as malware families do.
 * [a3linux/nagios-amq-perf](https://github.com/a3linux/nagios-amq-perf) - Nagiso fork patched to support post performance data to ActiveMQ
 * [a4tunado/mll](https://github.com/a4tunado/mll) - Library used for studying machine learning course at Yandex Data Analysis School.
 * [aardappel/lobster](https://github.com/aardappel/lobster) - The Lobster Programming Language
 * [aaronstanton/sualft](https://github.com/aaronstanton/sualft) - reconstruction of irregularly sampled seismic data using the Anti-Leakage Fourier Transform (ALFT)
 * [abael/amysql](https://github.com/abael/amysql) - High performance( 2.5 times to MySQLDb ) Python  Mysql Driver,   using Python native socket layer.  pure C implemented.
 * [abiggerhammer/hammer](https://github.com/abiggerhammer/hammer) - Parser combinators for binary formats, in C. Yes, in C. What? Don't look at me like that.
-* [abishekvashok/cmatrix](https://github.com/abishekvashok/cmatrix) - Terminal based "The Matrix" like implementation
 * [abrasive/shairport](https://github.com/abrasive/shairport) - Airtunes emulator! Shairport is no longer maintained.
-* [abstrakraft/cwiid](https://github.com/abstrakraft/cwiid) - Linux Nintendo Wiimote interface
 * [acassen/keepalived](https://github.com/acassen/keepalived) - Keepalived
 * [acg/lwpb](https://github.com/acg/lwpb) - Lightweight Protocol Buffers for C and Python
 * [acl-dev/acl](https://github.com/acl-dev/acl) - One advanced C/C++ library for Linux, Mac, FreeBSD, Solaris(x86), Windows, Android, IOS
