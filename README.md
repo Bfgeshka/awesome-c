@@ -102,7 +102,8 @@ Incorporated lists:
 
 --------------------------------------------------------------------------------
 
-[Uncategorized](#uncategorized)
+* [Uncategorized](#uncategorized)
+* [Unsorted](#unsorted)
 
 --------------------------------------------------------------------------------
 
@@ -770,6 +771,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [Achoulos/Data-Structures](https://github.com/Achoulos/Data-Structures) - Implementation of Data Structures and Sorts in C
 * [Blosc/bcolz](https://github.com/Blosc/bcolz) - A columnar data container that can be compressed.
 * [ClickerMonkey/CDSL](https://github.com/ClickerMonkey/CDSL) - A data structure library written in C
+* [DanielWaterworth/Butterfly](https://github.com/DanielWaterworth/Butterfly) - [DEPRECATED] Butterfly is a C library that implements a very simple 'dynamic' data-type. It could be used, for example, to manipulate JSON data from C. It is distributed under LGPL.
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1384,6 +1386,7 @@ Comprehensive and integrated solutions for building web application in C.
 * [kore](https://kore.io/) - Easy to use, scalable and secure web application framework for writing web APIs in C.
 * [klone](http://www.koanlogic.com/klone/) - KLone is a fully-featured, multiplatform, web application development framework.
 * [duda](http://duda.io/) - Duda I/O is an event-driven and high performant web services framework written in C. [`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
+* [DanielWaterworth/Raphters](https://github.com/DanielWaterworth/Raphters) - [DEPRECATED] A web framework for C.
 
 ## Web Service APIs ##
 * [twitc][426] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
@@ -1398,16 +1401,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [libgit2](https://libgit2.org/) - Pure C implementation of Git. [`GNU GPL2 only, with a linking exception`](https://github.com/libgit2/libgit2/blob/master/COPYING)
 
 # Unsorted #
-* [DanAnkers/garmin-ant-downloader](https://github.com/DanAnkers/garmin-ant-downloader) - Clone of and updates to "gant", a tool for downloading data off certain Garmin Edge and Forerunner devices.  "garmin-ant-downloader" is the name given to this project by Debian and Ubuntu
-* [DanielWaterworth/Butterfly](https://github.com/DanielWaterworth/Butterfly) - [DEPRECATED] Butterfly is a C library that implements a very simple 'dynamic' data-type. It could be used, for example, to manipulate JSON data from C. It is distributed under LGPL.
-* [DanielWaterworth/Raphters](https://github.com/DanielWaterworth/Raphters) - [DEPRECATED] A web framework for C.
-* [DarthMike/indielib-crossplatform](https://github.com/DarthMike/indielib-crossplatform) - Project to port IndieLib to other platforms aside from Windows and DirectX. Main focus is OpenGL ES 2.0 for mobile iOS operating system, and OpenGL desktop
-* [DaveDavenport/rofi](https://github.com/DaveDavenport/rofi) - Rofi: A window switcher, application launcher and dmenu replacement
-* [DoubleSpout/ccap](https://github.com/DoubleSpout/ccap) - node.js generate captcha using c++ library CImg without install any other lib or software
-* [DoubleSpout/ifile](https://github.com/DoubleSpout/ifile) - High performance nodejs http/https static file handler,using c++ addon and libuv lib
-* [DrKLO/Telegram](https://github.com/DrKLO/Telegram) - Telegram for Android source
-* [DragonFlyBSD/DragonFlyBSD](https://github.com/DragonFlyBSD/DragonFlyBSD) - DragonFly BSD System Source Repository (Read-Only)
-* [DreamAndDead/CSAPP-3e-Solutions](https://github.com/DreamAndDead/CSAPP-3e-Solutions) - CSAPP 3e Solutions gitbook
 * [EIPStackGroup/OpENer](https://github.com/EIPStackGroup/OpENer) - OpENer is an EtherNet/IP stack for I/O adapter devices. It supports multiple I/O and explicit connections and includes objects and services for making EtherNet/IP-compliant products as defined in the ODVA specification.
 * [ElementsProject/lightning](https://github.com/ElementsProject/lightning) - c-lightning — a Lightning Network implementation in C
 * [EnterpriseDB/mysql_fdw](https://github.com/EnterpriseDB/mysql_fdw) - PostgreSQL foreign data wrapper for MySQL
