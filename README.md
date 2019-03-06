@@ -513,6 +513,7 @@ Incorporated lists:
 * [adtac/fssb](https://github.com/adtac/fssb) - A filesystem sandbox for Linux using syscall intercepts.
 * [andreafabrizi/prism](https://github.com/andreafabrizi/prism) - PRISM is an user space stealth reverse shell backdoor, written in pure C.
 * [andwn/cave-story-md](https://github.com/andwn/cave-story-md) - A fan port of Cave Story for the Sega Mega Drive
+* [angband/angband](https://github.com/angband/angband) - A free, single-player roguelike dungeon exploration game
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -540,6 +541,7 @@ Neural nets, machine learning, and other similar things.
 * [HIPS/Probabilistic-Backpropagation](https://github.com/HIPS/Probabilistic-Backpropagation) - Implementation in C and Theano of the method Probabilistic Backpropagation for scalable Bayesian inference in deep neural networks.
 * [JulienPalard/Mine](https://github.com/JulienPalard/Mine) - Little data miner
 * [TheWeatherChannel/dClass](https://github.com/TheWeatherChannel/dClass) - Device Classification Engine
+* [antirez/shapeme](https://github.com/antirez/shapeme) - Evolve images using simulated annealing
 
 ## Algoritm Implementations ##
 * [sort][434] - Collection of sorting routines, which type-specialize at
@@ -695,6 +697,7 @@ Neural nets, machine learning, and other similar things.
 * [RoaringBitmap/CRoaring](https://github.com/RoaringBitmap/CRoaring) - Roaring bitmaps in C (and C++)
 * [adnanozsoy/CUDA_Compression](https://github.com/adnanozsoy/CUDA_Compression) - A GPU-based LZSS compression algorithm, highly tuned for NVIDIA GPGPUs and for streaming data, leveraging the respective strengths of CPUs and GPUs together.
 * [andikleen/snappy-c](https://github.com/andikleen/snappy-c) - C port of the snappy compressor
+* [antirez/smaz](https://github.com/antirez/smaz) - Small strings compression library
 
 ## Concurrency and Parallelism ##
 * [cchan][52] - Small library for channel constructs for inter-thread
@@ -810,6 +813,7 @@ protocols.
 * [Suor/postgresql-json](https://github.com/Suor/postgresql-json) - Extract data from PostgreSQL JSON fields.
 * [aerospike/aerospike-client-c](https://github.com/aerospike/aerospike-client-c) - Aerospike C Client
 * [aerospike/aerospike-server](https://github.com/aerospike/aerospike-server) - Aerospike Database Server – flash-optimized, in-memory, nosql database
+* [antirez/redis](https://github.com/antirez/redis) - Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, HyperLogLogs, Bitmaps.
 
 ## Data Structures ##
 * [libhl][58] - Library implementing a thread-safe API to manage a range of data
@@ -845,6 +849,8 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [ZSShen/C-Common-Data-Structures](https://github.com/ZSShen/C-Common-Data-Structures) - Uniform C APIs for data structure manipulation
 * [agl/critbit](https://github.com/agl/critbit) - Critbit trees in C
 * [alexanderb14/cCollections](https://github.com/alexanderb14/cCollections) - lightweight dynamic data structures for C
+* [angelortega/mpdm](https://github.com/angelortega/mpdm) - Minimum Profit Data Manager
+* [antirez/rax](https://github.com/antirez/rax) - A radix tree implementation in ANSI C
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -965,6 +971,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [Clutter](https://blogs.gnome.org/clutter/get-it/) - UI library based on OpenGL. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
 * [glfw/glfw](https://github.com/glfw/glfw) - A multi-platform library for OpenGL, OpenGL ES, Vulkan, window and input
 * [nigels-com/glew](https://github.com/nigels-com/glew) - The OpenGL Extension Wrangler Library
+* [anoek/ex-sdl-cairo-freetype-harfbuzz](https://github.com/anoek/ex-sdl-cairo-freetype-harfbuzz) - Example code which uses SDL, cairo, freetype, and harfbuzz to do ttf/otf text layout and rendering
 
 
 ## GUI ##
@@ -1003,6 +1010,8 @@ Access to graphical APIs or other graphic rendering libraries.
 * [OpenSecurityResearch/iclass_dump](https://github.com/OpenSecurityResearch/iclass_dump) - Tools to pull data from HID iClass readers
 * [Stephane-D/SGDK](https://github.com/Stephane-D/SGDK) - SGDK: A small, open and free development kit for the Sega Megadrive
 * [alonbl/pkcs11-data](https://github.com/alonbl/pkcs11-data) - PKCS#11 data object manipulator
+* [andygock/avr-uart](https://github.com/andygock/avr-uart) - AVR UART C Library
+* [anrieff/libcpuid](https://github.com/anrieff/libcpuid) - a small C library for x86 CPU detection and feature extraction
 
 ## Hashing ##
 Hash function implementations for *non*-crypto purposes. Cryptographic hashes
@@ -1048,6 +1057,8 @@ can be found in the Crypto section.
 * [MartinMittring/dcraw_exif](https://github.com/MartinMittring/dcraw_exif) - dcraw (Camera RAW format processor) from Dave Coffin with updates, additionally maintain exif data for using it with Agisoft PhotoScan
 * [Phildo/pixQL](https://github.com/Phildo/pixQL) - SQL for image processing
 * [XadillaX/byakuren](https://github.com/XadillaX/byakuren) - 🎭 A theme color extracting library implemented by C.
+* [ansilove/AnsiLove-C](https://github.com/ansilove/AnsiLove-C) - ANSi / ASCII art to PNG converter in C
+* [ansilove/ansilove](https://github.com/ansilove/ansilove) - ANSi / ASCII art to PNG converter in C
 
 ## Integrated Debugging ##
 * [whereami][390] - One-file library for locating the current executable on the
@@ -1190,6 +1201,7 @@ Audio and video processing
 * [rabbitmq-c][440] - Client library for [RabbitMQ][229]. [``MIT``][MIT]
 * [zproto][370] - Protocol framework for ZeroMQ. [``MIT``][MIT]
 * [nanomsg][244] - C-based implementation of ZeroMQ. [``MIT``][MIT]
+* [antirez/disque](https://github.com/antirez/disque) - Disque is a distributed message broker
 
 ### Other Networking ###
 * [asnlc][227] - Compiler of ASN.1 specifications into C source code. [``BSD-2-Clause``][BSD-2-Clause]
@@ -1273,6 +1285,7 @@ Audio and video processing
 * [a0rtega/pafish](https://github.com/a0rtega/pafish) - Pafish is a demonstration tool that employs several techniques to detect sandboxes and analysis environments in the same way as malware families do.
 * [adoxa/ansicon](https://github.com/adoxa/ansicon) - Process ANSI escape sequences for Windows console programs.
 * [aidenbell/getdents](https://github.com/aidenbell/getdents) - Simple tool for listing large (millions) numbers of files on Linux systems without causing memory issues. Useful for shell scripting large data stores.
+* [antirez/linenoise](https://github.com/antirez/linenoise) - A small self-contained alternative to readline and libedit
 
 ## Procedural Generation ##
 * [heman][382] - Tiny library of image utilities dealing with height maps,
@@ -1368,6 +1381,7 @@ Audio and video processing
 * [Unidata/netcdf-c](https://github.com/Unidata/netcdf-c) - Official GitHub repository for netCDF-C libraries and utilities.
 * [XenonofArcticus/DynamicTrack](https://github.com/XenonofArcticus/DynamicTrack) - Access sources of dynamically-updated data about discrete entities like GPSes, INSes, ADS-B sources.
 * [aaronstanton/sualft](https://github.com/aaronstanton/sualft) - reconstruction of irregularly sampled seismic data using the Anti-Leakage Fourier Transform (ALFT)
+* [anza/metar](https://github.com/anza/metar) - METAR data fetcher and parser
 
 ## Standard Libraries ##
 Implementations of the C standarts
@@ -1411,10 +1425,10 @@ Implementations of the C standarts
 * [libgiconv](https://www.gnu.org/software/libiconv/) - Text conversion library. [`GNU LGPL2.1 (library)`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html) or [`GNU GPL3 (*iconv* program)`](http://www.gnu.org/licenses/gpl.html)
 * [SDS](https://github.com/antirez/sds) - Simple Dynamic Strings; a library for handling C strings in a simpler way, but one that is compatible with normal C string functions. Available via [clib](https://github.com/clibs/clib). [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
 * [shoco](http://ed-von-schleck.github.io/shoco/) - Compressor for small text strings. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-* [smaz](https://github.com/antirez/smaz) - Efficient string compression library. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
 * [utf8.h](https://github.com/sheredom/utf8.h) - Single header utf8 string functions. [`Unlicense`](http://unlicense.org/)
 * [utf8proc](https://github.com/JuliaStrings/utf8proc) - Small, clean library for processing UTF-8 Unicode data. [`License`](https://github.com/JuliaStrings/utf8proc/blob/master/LICENSE.md)
 * [JuliaStrings/utf8proc](https://github.com/JuliaStrings/utf8proc) - a clean C library for processing UTF-8 Unicode data
+* [antirez/sds](https://github.com/antirez/sds) - Simple Dynamic Strings library for C
 
 ## Structured File Processing ##
 Libraries for working wit hspecific filetypes
@@ -1424,6 +1438,7 @@ Libraries for working wit hspecific filetypes
   binutils. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [libelf][337] - Simple library for parsing ELF files. [``MIT``][MIT]
 * [abiggerhammer/hammer](https://github.com/abiggerhammer/hammer) - Parser combinators for binary formats, in C. Yes, in C. What? Don't look at me like that.
+* [anjos/arithmetic_coding](https://github.com/anjos/arithmetic_coding) - Library to perform arithmetic coding and decoding of text or binary data
 
 ### CSV ###
 * [libcsv][322] - Simple, streaming CSV parser. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
@@ -1574,44 +1589,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [alandekok/recli](https://github.com/alandekok/recli) - A re-imagined CLI.  Customizable syntax, help, permissions, data types.
 
 # Unsorted #
-* [andygock/avr-uart](https://github.com/andygock/avr-uart) - AVR UART C Library
-* [andymcd/cmd-key-happy](https://github.com/andymcd/cmd-key-happy) - Swap cmd and alt keys in Terminal
-* [andysworkshop/stm32plus](https://github.com/andysworkshop/stm32plus) - The C++ library for the STM32 F0, F100, F103, F107 and F4 microcontrollers
-* [angband/angband](https://github.com/angband/angband) - A free, single-player roguelike dungeon exploration game
-* [angel2d/angel2d](https://github.com/angel2d/angel2d) - A cross-platform 2D game prototyping framework based on OpenGL and C++
-* [angelortega/mpdm](https://github.com/angelortega/mpdm) - Minimum Profit Data Manager
-* [anjos/arithmetic_coding](https://github.com/anjos/arithmetic_coding) - Library to perform arithmetic coding and decoding of text or binary data
-* [anoek/android-cairo](https://github.com/anoek/android-cairo) - Android NDK build files to build libcairo
-* [anoek/ex-sdl-cairo-freetype-harfbuzz](https://github.com/anoek/ex-sdl-cairo-freetype-harfbuzz) - Example code which uses SDL, cairo, freetype, and harfbuzz to do ttf/otf text layout and rendering
-* [anrieff/libcpuid](https://github.com/anrieff/libcpuid) - a small C library for x86 CPU detection and feature extraction
-* [ansilove/AnsiLove-C](https://github.com/ansilove/AnsiLove-C) - ANSi / ASCII art to PNG converter in C
-* [ansilove/ansilove](https://github.com/ansilove/ansilove) - ANSi / ASCII art to PNG converter in C
-* [answer-huang/dSYMTools](https://github.com/answer-huang/dSYMTools) - dSYM analyze
-* [ant-media/LibRtmp-Client-for-Android](https://github.com/ant-media/LibRtmp-Client-for-Android) - It is probably the smallest(~60KB, fat version ~300KB) rtmp client for android. It calls librtmp functions over JNI interface
-* [ant-streaming/LibRtmp-Client-for-Android](https://github.com/ant-streaming/LibRtmp-Client-for-Android) - It is probably the smallest(~60KB) rtmp client for android. It calls librtmp functions over JNI interface
-* [antelopeusersgroup/antelope_contrib](https://github.com/antelopeusersgroup/antelope_contrib) - Contributed code for the Antelope Environmental Monitoring System from BRTT, Inc. (http://www.brtt.com)
-* [antirez/disque](https://github.com/antirez/disque) - Disque is a distributed message broker
-* [antirez/dump1090](https://github.com/antirez/dump1090) - Dump1090 is a simple Mode S decoder for RTLSDR devices
-* [antirez/linenoise](https://github.com/antirez/linenoise) - A small self-contained alternative to readline and libedit
-* [antirez/load81](https://github.com/antirez/load81) - SDL based Lua programming environment for kids similar to Codea
-* [antirez/lua-cmsgpack](https://github.com/antirez/lua-cmsgpack) - A self contained Lua MessagePack C implementation.
-* [antirez/rax](https://github.com/antirez/rax) - A radix tree implementation in ANSI C
-* [antirez/redis](https://github.com/antirez/redis) - Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, HyperLogLogs, Bitmaps.
-* [antirez/sds](https://github.com/antirez/sds) - Simple Dynamic Strings library for C
-* [antirez/shapeme](https://github.com/antirez/shapeme) - Evolve images using simulated annealing
-* [antirez/smaz](https://github.com/antirez/smaz) - Small strings compression library
-* [anza/metar](https://github.com/anza/metar) - METAR data fetcher and parser
-* [apache/httpd](https://github.com/apache/httpd) - Mirror of Apache HTTP Server
-* [apache/incubator-mynewt-core](https://github.com/apache/incubator-mynewt-core) - Mirror of Apache MyNewt Core (Incubating)
-* [apache/mynewt-core](https://github.com/apache/mynewt-core) - An OS to build, deploy and securely manage billions of devices
-* [aperezdc/ngx-fancyindex](https://github.com/aperezdc/ngx-fancyindex) - Fancy indexes module for the Nginx web server
-* [apple/cups](https://github.com/apple/cups) - Official CUPS Sources
-* [apple/swift-corelibs-foundation](https://github.com/apple/swift-corelibs-foundation) - The Foundation Project, providing core utilities, internationalization, and OS independence
-* [apple/swift-corelibs-libdispatch](https://github.com/apple/swift-corelibs-libdispatch) - The libdispatch Project, (a.k.a. Grand Central Dispatch), for concurrency on multicore hardware
-* [applidium/ADZipURLProtocol](https://github.com/applidium/ADZipURLProtocol) - Open static website or access data from a zip archive
-* [applidium/Vim](https://github.com/applidium/Vim) - Port of the Vim text editor to the iOS
-* [appneta/tcpreplay](https://github.com/appneta/tcpreplay) - Pcap editing and replay tools for *NIX and Windows - Users please download source from
-* [appunite/AndroidFFmpeg](https://github.com/appunite/AndroidFFmpeg) - FFmpeg build for android random architectures with example jni
 * [aquynh/capstone](https://github.com/aquynh/capstone) - Capstone disassembly/disassembler framework: Core (Arm, Arm64, BPF, EVM, M68K, M680X, MOS65xx, Mips, PPC, Sparc, SystemZ, TMS320C64x, Web Assembly, X86, X86_64, XCore) + bindings.
 * [arachsys/containers](https://github.com/arachsys/containers) - Lightweight containers using Linux user namespaces
 * [ardagnir/athame](https://github.com/ardagnir/athame) - Full vim for readline (bash, gdb, python, etc)
