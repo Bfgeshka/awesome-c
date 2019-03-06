@@ -187,6 +187,8 @@ Incorporated lists:
 * [rui314/8cc](https://github.com/rui314/8cc) - A Small C Compiler
 * [LuaDist/tcc](https://github.com/LuaDist/tcc) - Small but fast C compiler.  Supports ANSI C, most of the new ISO C99 standard, and many GNUC extensions, including inline assembly.
 * [TinyCC/tinycc](https://github.com/TinyCC/tinycc) - Mirror from mob branch
+* [alexfru/SmallerC](https://github.com/alexfru/SmallerC) - Simple C compiler
+* [andrewchambers/c](https://github.com/andrewchambers/c) - small self hosting C compiler
 
 [3-1]: https://gcc.gnu.org/
 [3-2]: https://clang.llvm.org/
@@ -355,6 +357,7 @@ Incorporated lists:
   without touching any other part of the file. [``BSD-3-Clause``][BSD-3-Clause] or [``BSD-2-Clause``][BSD-2-Clause]
 * [mcpp](http://mcpp.sourceforge.net/) - Portable C preprocessor. [`2-clause BSD`](https://opensource.org/licenses/BSD-2-Clause)
 * [Capstone](https://github.com/aquynh/capstone) - Dissasembly/disassembler framework. [`BSD 3-clause`](https://github.com/aquynh/capstone/blob/master/LICENSE.TXT)
+* [anael-seghezzi/CToy](https://github.com/anael-seghezzi/CToy) - Interactive C coding environment
 
 [10-1]: https://ccache.samba.org/
 [10-2]: https://github.com/distcc/distcc
@@ -508,6 +511,8 @@ Incorporated lists:
 * [Wilfred/babyc](https://github.com/Wilfred/babyc) - A toy C compiler
 * [adsr/mle](https://github.com/adsr/mle) - flexible terminal-based text editor (C)
 * [adtac/fssb](https://github.com/adtac/fssb) - A filesystem sandbox for Linux using syscall intercepts.
+* [andreafabrizi/prism](https://github.com/andreafabrizi/prism) - PRISM is an user space stealth reverse shell backdoor, written in pure C.
+* [andwn/cave-story-md](https://github.com/andwn/cave-story-md) - A fan port of Cave Story for the Sega Mega Drive
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -689,6 +694,7 @@ Neural nets, machine learning, and other similar things.
 * [IlyaGrebnov/libbsc](https://github.com/IlyaGrebnov/libbsc) - High performance block-sorting data compression library
 * [RoaringBitmap/CRoaring](https://github.com/RoaringBitmap/CRoaring) - Roaring bitmaps in C (and C++)
 * [adnanozsoy/CUDA_Compression](https://github.com/adnanozsoy/CUDA_Compression) - A GPU-based LZSS compression algorithm, highly tuned for NVIDIA GPGPUs and for streaming data, leveraging the respective strengths of CPUs and GPUs together.
+* [andikleen/snappy-c](https://github.com/andikleen/snappy-c) - C port of the snappy compressor
 
 ## Concurrency and Parallelism ##
 * [cchan][52] - Small library for channel constructs for inter-thread
@@ -869,6 +875,7 @@ Foreign function interfaces, also know as binding interfaces.
 * [LuaDist/luajit](https://github.com/LuaDist/luajit) - LuaJIT is JIT compiler for the Lua language.
 * [LuaDist/toluapp](https://github.com/LuaDist/toluapp) - tolua++ is an extension of toLua, a tool to integrate C/Cpp code with Lua
 * [Zeex/subhook](https://github.com/Zeex/subhook) - Simple hooking library for C/C++ (x86 only, 32/64-bit, no dependencies)
+* [alexanderchuranov/Metaresc](https://github.com/alexanderchuranov/Metaresc) - META data and RESource library for  C language
 
 ## Game Development ##
 Engines, libraries and other helpful things specifically for making games.
@@ -927,6 +934,8 @@ Engines, libraries and other helpful things specifically for making games.
 * [RandyGaul/AsciiEngine](https://github.com/RandyGaul/AsciiEngine) - Game engine written in C to create Ascii art games within the Windows console.
 * [Tangent128/luasdl2](https://github.com/Tangent128/luasdl2) - A pure C binding of SDL 2.0 for Lua 5.1, Lua 5.2, and LuaJIT.
 * [a-nikolaev/curseofwar](https://github.com/a-nikolaev/curseofwar) - A Real Time Strategy game for Linux.
+* [ands/lightmapper](https://github.com/ands/lightmapper) - A C/C++ single-file library for drop-in lightmap baking. Just use your existing OpenGL renderer to bounce light!
+* [ands/seamoptimizer](https://github.com/ands/seamoptimizer) - A C/C++ single-file library that minimizes the hard transition errors of disjoint edges in lightmaps.
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -968,6 +977,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [XForms Toolkit][211] - Widget toolkit designed for the XWindow system. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [Glade][415] - RAD tool to enable quick development of GTK+ GUIs. [``GPL-2.0-only``][GPL-2.0-only]
 * [vurtun/nuklear](https://github.com/vurtun/nuklear) - A single-header ANSI C gui library
+* [andlabs/libui](https://github.com/andlabs/libui) - Simple and portable (but not inflexible) GUI library in C that uses the native GUI technologies of each platform it supports.
 
 ## Hardware Oriented ##
 * [libusb][407] - Provides generic access to USB devices. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
@@ -992,6 +1002,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [OpenSC/OpenSC](https://github.com/OpenSC/OpenSC) - Open source smart card tools and middleware. PKCS#11/MiniDriver/Tokend
 * [OpenSecurityResearch/iclass_dump](https://github.com/OpenSecurityResearch/iclass_dump) - Tools to pull data from HID iClass readers
 * [Stephane-D/SGDK](https://github.com/Stephane-D/SGDK) - SGDK: A small, open and free development kit for the Sega Megadrive
+* [alonbl/pkcs11-data](https://github.com/alonbl/pkcs11-data) - PKCS#11 data object manipulator
 
 ## Hashing ##
 Hash function implementations for *non*-crypto purposes. Cryptographic hashes
@@ -1107,6 +1118,7 @@ Audio and video processing
 * [UniversalPrimer/flv-analyzer](https://github.com/UniversalPrimer/flv-analyzer) - Loads an FLV file into sane C data structures and outputs fields as human readable
 * [Vidvox/hap-qt-codec](https://github.com/Vidvox/hap-qt-codec) - A QuickTime codec for Hap video
 * [acrisci/playerctl](https://github.com/acrisci/playerctl) - 🎧 mpris command-line controller and library for spotify, vlc, audacious, bmp, cmus, and others.
+* [andrewrk/libsoundio](https://github.com/andrewrk/libsoundio) - C library for cross-platform real-time audio input and output
 
 ## Multiple Purpose Libraries ##
 * [pal][65] - Optimized library for maths, parallel processing and data
@@ -1448,6 +1460,7 @@ Libraries for working wit hspecific filetypes
 * [cmark][420] - Implementation of the CommonMark, Markdown dialect.
   [Variety of licenses, all open source][421].
 * [Orc/discount](https://github.com/Orc/discount) - My C implementation of John Gruber's Markdown markup language
+* [ali-rantakari/peg-markdown-highlight](https://github.com/ali-rantakari/peg-markdown-highlight) - C library for Markdown syntax highlighting, using a recursive-descent parser.
 
 ### XML ###
 * [Expat][332] - Stream-oriented XML parser. [MIT][MIT]
@@ -1546,6 +1559,7 @@ Comprehensive and integrated solutions for building web application in C.
 * [TOTBWF/SteamCurses](https://github.com/TOTBWF/SteamCurses) - A Basic NCurses Client for Steam
 * [Yubico/yubico-c-client](https://github.com/Yubico/yubico-c-client) - Yubico C client library
 * [adobkin/libcapn](https://github.com/adobkin/libcapn) - A simple C Library for interact with the Apple Push Notification Service (APNs)
+* [andrewstone/AbqData](https://github.com/andrewstone/AbqData) - Tools to read ABQ Open Data Initiative city gov data
 
 [424]: http://coap.technology/
 
@@ -1560,34 +1574,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [alandekok/recli](https://github.com/alandekok/recli) - A re-imagined CLI.  Customizable syntax, help, permissions, data types.
 
 # Unsorted #
-* [alexanderchuranov/Metaresc](https://github.com/alexanderchuranov/Metaresc) - META data and RESource library for  C language
-* [alexbirkett/GPSBabel](https://github.com/alexbirkett/GPSBabel) - Free software for GPS data conversion and transfer
-* [alexfru/SmallerC](https://github.com/alexfru/SmallerC) - Simple C compiler
-* [algernon/libmongo-client](https://github.com/algernon/libmongo-client) - An obsolete library. Don't use it in new projects.
-* [ali-rantakari/peg-markdown-highlight](https://github.com/ali-rantakari/peg-markdown-highlight) - C library for Markdown syntax highlighting, using a recursive-descent parser.
-* [alibaba/tsar2db](https://github.com/alibaba/tsar2db) - used to store tsar data to mysql
-* [alibashir/pacmonstr](https://github.com/alibashir/pacmonstr) - Tandem Repeat Detection for Long Read Sequence Data
-* [allinurl/goaccess](https://github.com/allinurl/goaccess) - GoAccess is a real-time web log analyzer and interactive viewer that runs in a terminal in *nix systems or through your browser.
-* [allinurl/gwsocket](https://github.com/allinurl/gwsocket) - fast, standalone, language-agnostic WebSocket server RFC6455 compliant
-* [alols/xcape](https://github.com/alols/xcape) - Linux utility to configure modifier keys to act as other keys when pressed and released on their own.
-* [alonbl/pkcs11-data](https://github.com/alonbl/pkcs11-data) - PKCS#11 data object manipulator
-* [alonho/pytrace](https://github.com/alonho/pytrace) - pytrace is a fast python tracer. it records function calls, arguments and return values. can be used for debugging and profiling.
-* [amadvance/snapraid](https://github.com/amadvance/snapraid) - A backup program for disk arrays. It stores parity information of your data and it recovers from up to six disk failures
-* [amahule/CoolReader](https://github.com/amahule/CoolReader) - An Android based open e-book reader
-* [amaurigabriel/CAD](https://github.com/amaurigabriel/CAD) -  C Algorithms and Data-structures
-* [aminroosta/sqlite_modern_cpp](https://github.com/aminroosta/sqlite_modern_cpp) - The C++14 wrapper around sqlite library
-* [amitdev/lru-dict](https://github.com/amitdev/lru-dict) - A C extension of a python dict-like LRU container.
-* [anael-seghezzi/CToy](https://github.com/anael-seghezzi/CToy) - Interactive C coding environment
-* [anatoo/cons](https://github.com/anatoo/cons) - This PHP Extension import cons cell data structure from scheme.
-* [andikleen/snappy-c](https://github.com/andikleen/snappy-c) - C port of the snappy compressor
-* [andlabs/libui](https://github.com/andlabs/libui) - Simple and portable (but not inflexible) GUI library in C that uses the native GUI technologies of each platform it supports.
-* [andreafabrizi/prism](https://github.com/andreafabrizi/prism) - PRISM is an user space stealth reverse shell backdoor, written in pure C.
-* [andrewchambers/c](https://github.com/andrewchambers/c) - small self hosting C compiler
-* [andrewrk/libsoundio](https://github.com/andrewrk/libsoundio) - C library for cross-platform real-time audio input and output
-* [andrewstone/AbqData](https://github.com/andrewstone/AbqData) - Tools to read ABQ Open Data Initiative city gov data
-* [ands/lightmapper](https://github.com/ands/lightmapper) - A C/C++ single-file library for drop-in lightmap baking. Just use your existing OpenGL renderer to bounce light!
-* [ands/seamoptimizer](https://github.com/ands/seamoptimizer) - A C/C++ single-file library that minimizes the hard transition errors of disjoint edges in lightmaps.
-* [andwn/cave-story-md](https://github.com/andwn/cave-story-md) - A fan port of Cave Story for the Sega Mega Drive
 * [andygock/avr-uart](https://github.com/andygock/avr-uart) - AVR UART C Library
 * [andymcd/cmd-key-happy](https://github.com/andymcd/cmd-key-happy) - Swap cmd and alt keys in Terminal
 * [andysworkshop/stm32plus](https://github.com/andysworkshop/stm32plus) - The C++ library for the STM32 F0, F100, F103, F107 and F4 microcontrollers
@@ -1598,7 +1584,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [anoek/android-cairo](https://github.com/anoek/android-cairo) - Android NDK build files to build libcairo
 * [anoek/ex-sdl-cairo-freetype-harfbuzz](https://github.com/anoek/ex-sdl-cairo-freetype-harfbuzz) - Example code which uses SDL, cairo, freetype, and harfbuzz to do ttf/otf text layout and rendering
 * [anrieff/libcpuid](https://github.com/anrieff/libcpuid) - a small C library for x86 CPU detection and feature extraction
-* [ansiboy/ChiTuStore](https://github.com/ansiboy/ChiTuStore) - 开源的电商前端混合 APP
 * [ansilove/AnsiLove-C](https://github.com/ansilove/AnsiLove-C) - ANSi / ASCII art to PNG converter in C
 * [ansilove/ansilove](https://github.com/ansilove/ansilove) - ANSi / ASCII art to PNG converter in C
 * [answer-huang/dSYMTools](https://github.com/answer-huang/dSYMTools) - dSYM analyze
