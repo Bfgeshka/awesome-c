@@ -515,6 +515,7 @@ Neural nets, machine learning, and other similar things.
 * [GHamrouni/Recommender](https://github.com/GHamrouni/Recommender) - A C library for product recommendations/suggestions using collaborative filtering (CF)
 * [H2CO3/libsprec](https://github.com/H2CO3/libsprec) - C library for speech recognition using the Google Speech API
 * [HIPS/Probabilistic-Backpropagation](https://github.com/HIPS/Probabilistic-Backpropagation) - Implementation in C and Theano of the method Probabilistic Backpropagation for scalable Bayesian inference in deep neural networks.
+* [JulienPalard/Mine](https://github.com/JulienPalard/Mine) - Little data miner
 
 ## Algoritm Implementations ##
 * [sort][434] - Collection of sorting routines, which type-specialize at
@@ -604,6 +605,7 @@ Neural nets, machine learning, and other similar things.
 * [gjrand](https://sourceforge.net/projects/gjrand/) - Library of random-number generation routines. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html) or [`GNU GPLv3`](http://www.gnu.org/licenses/gpl.html)
 * [FFTW/fftw3](https://github.com/FFTW/fftw3) - This is the official repository for the FFTW Fourier transform library, version 3.x
 * [HdrHistogram/HdrHistogram_c](https://github.com/HdrHistogram/HdrHistogram_c) - C port of the HdrHistogram
+* [JuliaMath/openlibm](https://github.com/JuliaMath/openlibm) - High quality system independent, portable, open source libm implementation
 
 ## Compression ##
 * [blosc][25] - Fast, multi-threaded, meta-compressor library. Various licenses,
@@ -865,6 +867,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [Gigoteur/UnicornConsole](https://github.com/Gigoteur/UnicornConsole) - Unicorn Console: create quick game !
 * [HBehrens/obj2opengl](https://github.com/HBehrens/obj2opengl) - script to convert 3D models of OBJ files to C/C++ float arrays (vertices, faces, texture) compatible with OpenGL ES glDrawArrays compatible with iPhone/iPad
 * [HerculesWS/Hercules](https://github.com/HerculesWS/Hercules) - Hercules is a collaborative software development project revolving around the creation of a robust massively multiplayer online role playing game (MMORPG) server package. Written in C, the program is very versatile and provides NPCs, warps and modifications. The project is jointly managed by a group of volunteers located around the world as well as a tremendous community providing QA and support. Hercules is a continuation of the original Athena project.
+* [Kazade/kazmath](https://github.com/Kazade/kazmath) - A C math library targeted at games
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1191,6 +1194,7 @@ Audio and video processing
 * [SLRE](https://github.com/cesanta/slre) - Super Light Regular Expression library; a very small implementation of a subset of Perl regex syntax. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 * [TRE](https://github.com/laurikari/tre/) - POSIX-compliant, feature-full regex library. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
 * [sregex](https://github.com/openresty/sregex) - Non-backtracking NFA/DFA-based Perl-compatible regex engine library. [`3-clause BSD`](https://opensource.org/licenses/BSD-3-Clause)
+* [JazzCore/ctrlp-cmatcher](https://github.com/JazzCore/ctrlp-cmatcher) - CtrlP C matching extension
 
 ## Serialization ##
 * [binn][280] - Binary serialization format, meant to be compact, fast and
@@ -1297,6 +1301,7 @@ Implementations of the C standarts
 * [smaz](https://github.com/antirez/smaz) - Efficient string compression library. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
 * [utf8.h](https://github.com/sheredom/utf8.h) - Single header utf8 string functions. [`Unlicense`](http://unlicense.org/)
 * [utf8proc](https://github.com/JuliaStrings/utf8proc) - Small, clean library for processing UTF-8 Unicode data. [`License`](https://github.com/JuliaStrings/utf8proc/blob/master/LICENSE.md)
+* [JuliaStrings/utf8proc](https://github.com/JuliaStrings/utf8proc) - a clean C library for processing UTF-8 Unicode data
 
 ## Structured File Processing ##
 Libraries for working wit hspecific filetypes
@@ -1435,24 +1440,9 @@ Comprehensive and integrated solutions for building web application in C.
 * [tm][432] -  Timer and Timeline Utils for C. [``MIT``][MIT]
 * [D-Bus][430] - Interprocess communications bus. [``AFL-2.1``][AFL-2.1] or [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [libgit2](https://libgit2.org/) - Pure C implementation of Git. [`GNU GPL2 only, with a linking exception`](https://github.com/libgit2/libgit2/blob/master/COPYING)
+* [Keruspe/GPaste](https://github.com/Keruspe/GPaste) - Clipboard management system
 
 # Unsorted #
-* [JazzCore/ctrlp-cmatcher](https://github.com/JazzCore/ctrlp-cmatcher) - CtrlP C matching extension
-* [JeffreyRacine/R-Package-np](https://github.com/JeffreyRacine/R-Package-np) - R package np (Nonparametric Kernel Smoothing Methods for Mixed Data Types)
-* [JoeyDeVries/Cell](https://github.com/JoeyDeVries/Cell) - OpenGL C++ Graphics Engine
-* [JohnDMcMaster/uvscada](https://github.com/JohnDMcMaster/uvscada) - UVNet data acquisition (DAQ).  For doing process control or other monitoring.
-* [JohnWong/android-chirp](https://github.com/JohnWong/android-chirp) - Broadcast data by sound on android like Chirp
-* [JuliaLang/openlibm](https://github.com/JuliaLang/openlibm) - High quality system independent, portable, open source libm implementation
-* [JuliaLang/utf8proc](https://github.com/JuliaLang/utf8proc) - a clean C library for processing UTF-8 Unicode data
-* [JuliaMath/openlibm](https://github.com/JuliaMath/openlibm) - High quality system independent, portable, open source libm implementation
-* [JuliaStrings/utf8proc](https://github.com/JuliaStrings/utf8proc) - a clean C library for processing UTF-8 Unicode data
-* [JulienPalard/Mine](https://github.com/JulienPalard/Mine) - Little data miner
-* [Juniper/contrail-vrouter](https://github.com/Juniper/contrail-vrouter) - Contrail Virtual Router
-* [KFire-Android/kernel_omap_otter-common](https://github.com/KFire-Android/kernel_omap_otter-common) - TI Kernel Code - Amazon Kindle Fire (otter)
-* [Kalroth/cgminer-3.7.2-kalroth](https://github.com/Kalroth/cgminer-3.7.2-kalroth) - Kalroth's personal cgminer 3.7.2 branch
-* [Katharine/httpebble-counter-demo](https://github.com/Katharine/httpebble-counter-demo) - Trivial demo of httpebble's persistent data capabilities
-* [Kazade/kazmath](https://github.com/Kazade/kazmath) - A C math library targeted at games
-* [Keruspe/GPaste](https://github.com/Keruspe/GPaste) - Clipboard management system
 * [Kevincav/Radix-Sort](https://github.com/Kevincav/Radix-Sort) - Radix Sort with different data types.
 * [KhronosGroup/OpenCL-Headers](https://github.com/KhronosGroup/OpenCL-Headers) - Khronos OpenCL-Headers
 * [KingOfBrian/VocalKit](https://github.com/KingOfBrian/VocalKit) - Objective-C shim layer for Speech Recognition
