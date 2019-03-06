@@ -313,21 +313,21 @@ Incorporated lists:
 [9-9]: http://valloric.github.io/YouCompleteMe/
 
 #### Utilities ####
-* [ccache][10-1] - Compiler cache designed to speed up recompilation. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [distcc][10-2] - Program that allows builds to be distributed among several
-  machines. [``GPL-2.0-or-later``][GPL-2.0-or-later]
-* [Firm][10-3] - Library that provides a graph-based intermediate representation,
-  optimizations and assembly code generation suitable for use in compilers.
-  Comes with an example C front-end under the same license. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [Artistic Style][10-4] - Fast and small automatic source code formatter that
   supports C. [``LGPL-3.0-only``][LGPL-3.0-only]
 * [biicode][10-5] - Dependency manager. [``MIT``][MIT]
 * [c][10-6] - Compile and execute C "scripts" in one go on the command line. Also
   has shebang support. [``MIT``][MIT]
 * [c99sh][10-7] - Run C files using hash-bang. [``BSD-2-Clause``][BSD-2-Clause]
+* [ccache][10-1] - Compiler cache designed to speed up recompilation. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [cdecl][10-8] - Online service to translate C declarations into English and
   vice versa. Public domain.
 * [cinclude2dot][10-9] - Graphs include dependencies in a project using Graphviz. [GPL-1.0-or-later][335] or [``GPL-2.0-or-later``][GPL-2.0-or-later] or [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [distcc][10-2] - Program that allows builds to be distributed among several
+  machines. [``GPL-2.0-or-later``][GPL-2.0-or-later]
+* [Firm][10-3] - Library that provides a graph-based intermediate representation,
+  optimizations and assembly code generation suitable for use in compilers.
+  Comes with an example C front-end under the same license. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [GNU Global][10-10] - Source code tagging tool. [``GPL-3.0-only``][GPL-3.0-only]
 * [GPP][10-11] - General-purpose preprocessor. More versatile than the C
   preprocessor, but more flexible than m4. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
@@ -361,36 +361,47 @@ Incorporated lists:
 ### Reading Material ###
 #### Books ####
 ##### Reference Books #####
-* [The C Programming Language 2E][444] - Original book on C, by its creators.
-* [C: A Reference Manual 5E][441] - Full reference book for C99.
-* [C in a Nushell 2E][442] - Concise reference book for C11.
-* [C Pocket Reference][443] - Concise reference book for C99.
-* [SEI CERT C Coding Standard](https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard)
-* [C FAQ - comp.lang.c Frequently Asked Questions](http://c-faq.com/)
-* [Comparison of C/POSIX standard library implementations for GNU/Linux](http://www.etalabs.net/compare_libcs.html)
-* [GNU C Reference Manual](https://www.gnu.org/software/gnu-c-manual/)
-* [Robert Pike's notes on programming in C](http://www.lysator.liu.se/c/pikestyle.html)
-* [Draft ANSI C Rationale](http://port70.net/~nsz/c/c89/rationale/)
-* [Draft C99 Rationale](http://port70.net/~nsz/c/c99/C99RationaleV5.10.pdf)
+* [C in a Nushell 2E][11-1] - Concise reference book for C11.
+* [C Pocket Reference][11-2] - Concise reference book for C99.
+* [C: A Reference Manual 5E][11-3] - Full reference book for C99.
+* [SEI CERT C Coding Standard][11-4] - Coding  recommendations from CERT.
+* [The C Programming Language 2E][11-5] - Original book on C, by its creators.
+
+[11-1]: http://shop.oreilly.com/product/0636920033844.do
+[11-2]: http://shop.oreilly.com/product/9780596004361.do
+[11-3]: http://careferencemanual.com/
+[11-4]: https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard
+[11-5]: https://en.wikipedia.org/wiki/The_C_Programming_Language
 
 ##### Beginner Books #####
-* [C Primer Plus 6E][445] - Complete tutorial on programming in C11.
-* [C Programming: A Modern Approach][446] - Book to learn the basics of C.
-* [Head First C][447] - 'Head-first' style book for learning C.
-* [The GNU C Programming Tutorial][463] - Beware, GNU C is not standart C.
+* [C Primer Plus 6E][12-1] - Complete tutorial on programming in C11.
+* [C Programming: A Modern Approach][12-2] - Book to learn the basics of C.
+* [Head First C][12-3] - 'Head-first' style book for learning C.
+* [The GNU C Programming Tutorial][12-4] - Beware, GNU C is not standart C.
+
+[12-1]: https://www.pearson.com/us/higher-education/program/Prata-C-Primer-Plus-6th-Edition/PGM4399.html
+[12-2]: http://knking.com/books/c2/index.html
+[12-3]: http://shop.oreilly.com/product/0636920015482.do
+[12-4]: http://www.crasseux.com/books/ctut.pdf
 
 ##### Intermediate Books #####
-* [21st Century C][448] - Programming book on C that touches tooling subject.
-* [Understanding and Using C Pointers][449] - In-depth book on pointers in C.
+* [21st Century C][13-1] - Programming book on C that touches tooling subject.
+* [Understanding and Using C Pointers][13-2] - In-depth book on pointers in C.
+
+[13-1]: http://shop.oreilly.com/product/0636920033677.do
+[13-2]: http://shop.oreilly.com/product/0636920028000.do
 
 ##### Advanced Books #####
-* [Expert C Programming: Deep C Secrets][450] - Interesting, in-depth and
+* [Expert C Programming: Deep C Secrets][14-1] - Interesting, in-depth and
   entertaining look at the innards of C.
-* [C Programming Wikibook][458] - Actually touches topics for all levels.
+* [C Programming Wikibook][14-2] - Actually touches topics for all levels.
+
+[14-1]: https://dl.acm.org/citation.cfm?id=179241
+[14-2]: https://en.wikibooks.org/wiki/C_Programming
 
 #### Articles and Other Resources ####
 ##### Reference #####
-* [C FAQ - comp.lang.c Frequently Asked Questions][452]
+* [C FAQ - comp.lang.c Frequently Asked Questions](http://c-faq.com/)
 
 ##### Benchmarks #####
 * [Benchmarks of the Lockless Memory Allocator][451]
@@ -4449,12 +4460,11 @@ Comprehensive and integrated solutions for building web application in C.
 [466]: http://blog.noctua-software.com/c-tricks.html
 [465]: https://blogs.oracle.com/linux/8-gdb-tricks-you-should-know-v2
 [464]: http://blog.pkh.me/p/20-templating-in-c.html
-[463]: http://www.crasseux.com/books/ctut.pdf
 [462]: https://computing.llnl.gov/tutorials/pthreads/
 [461]: https://web.archive.org/web/20170620131430/https://www.tedunangst.com/flak/post/memcpy-vs-memmove
 [460]: https://www.recurse.com/blog/5-learning-c-with-gdb
 [459]: https://gist.github.com/eatonphil/21b3d6569f24ad164365
-[458]: https://en.wikibooks.org/wiki/C_Programming
+
 [457]: http://nethack4.org/blog/building-c.html
 [456]: http://nullprogram.com/blog/2017/08/20/
 [455]: https://pdos.csail.mit.edu/6.828/2017/readings/pointers.pdf
@@ -4462,16 +4472,8 @@ Comprehensive and integrated solutions for building web application in C.
 [453]: http://www.etalabs.net/compare_libcs.html
 [452]: http://c-faq.com/
 [451]: https://locklessinc.com/benchmarks_allocator.shtml
-[450]: https://dl.acm.org/citation.cfm?id=179241
-[449]: http://shop.oreilly.com/product/0636920028000.do
-[448]: http://shop.oreilly.com/product/0636920033677.do
-[447]: http://shop.oreilly.com/product/0636920015482.do
-[446]: http://knking.com/books/c2/index.html
-[445]: https://www.pearson.com/us/higher-education/program/Prata-C-Primer-Plus-6th-Edition/PGM4399.html
-[444]: https://en.wikipedia.org/wiki/The_C_Programming_Language
-[443]: http://shop.oreilly.com/product/9780596004361.do
-[442]: http://shop.oreilly.com/product/0636920033844.do
-[441]: http://careferencemanual.com/
+
+
 
 [440]: https://github.com/alanxz/rabbitmq-c
 [439]: https://github.com/dertuxmalwieder/libvldmail
