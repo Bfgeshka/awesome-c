@@ -185,6 +185,7 @@ Incorporated lists:
 * [TCC][3-6] - Tiny C Compiler; a small, fast C compiler. Supports C99 (except
   complex types). [``LGPL2.1``][LGPL-2.1-only]
 * [rui314/8cc](https://github.com/rui314/8cc) - A Small C Compiler
+* [LuaDist/tcc](https://github.com/LuaDist/tcc) - Small but fast C compiler.  Supports ANSI C, most of the new ISO C99 standard, and many GNUC extensions, including inline assembly.
 
 [3-1]: https://gcc.gnu.org/
 [3-2]: https://clang.llvm.org/
@@ -610,6 +611,7 @@ Neural nets, machine learning, and other similar things.
 * [HdrHistogram/HdrHistogram_c](https://github.com/HdrHistogram/HdrHistogram_c) - C port of the HdrHistogram
 * [JuliaMath/openlibm](https://github.com/JuliaMath/openlibm) - High quality system independent, portable, open source libm implementation
 * [KhronosGroup/OpenCL-Headers](https://github.com/KhronosGroup/OpenCL-Headers) - Khronos OpenCL-Headers
+* [Lichtso/CCWT](https://github.com/Lichtso/CCWT) - Complex Continuous Wavelet Transformation
 
 ## Compression ##
 * [blosc][25] - Fast, multi-threaded, meta-compressor library. Various licenses,
@@ -805,6 +807,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
   high-performance systems. [``Apache-2.0``][Apache-2.0]
 * [libev][399] - Yet another event loop. [``BSD-2-Clause``][BSD-2-Clause]
 * [libevent][400] - Event loop replacement for network servers. [``BSD-3-Clause``][BSD-3-Clause]
+* [Lupus/libevfibers](https://github.com/Lupus/libevfibers) - Small C fiber library that uses libev based event loop and libcoro based coroutine context switching.
 
 ## FFI ##
 Foreign function interfaces, also know as binding interfaces.
@@ -823,6 +826,9 @@ Foreign function interfaces, also know as binding interfaces.
 * [orangeduck/Cello](https://github.com/orangeduck/Cello) - Higher level programming in C
 * [CObjectSystem/COS](https://github.com/CObjectSystem/COS) - C Object System
 * [H2CO3/Sparkling](https://github.com/H2CO3/Sparkling) - Lightweight extension language
+* [LuaDist/lua](https://github.com/LuaDist/lua) - The Lua programming language with CMake based build
+* [LuaDist/luajit](https://github.com/LuaDist/luajit) - LuaJIT is JIT compiler for the Lua language.
+* [LuaDist/toluapp](https://github.com/LuaDist/toluapp) - tolua++ is an extension of toLua, a tool to integrate C/Cpp code with Lua
 
 
 ## Game Development ##
@@ -1038,6 +1044,7 @@ Audio and video processing
 * [libmpv](https://mpv.io/) - Music-playing library. Compile with ``./waf configure --disable-cplayer --enable-libmpv-shared`` to not have the music player. [`GNU GPL2.1 or later`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 * [libsoundio](http://libsound.io/) - Library for cross-platform, real-time audio input and output. Has a range of back-ends. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
 * [AVbin/AVbin](https://github.com/AVbin/AVbin) - AVbin is a C library that provides a thin, cross-platform wrapper around Libav’s video- and audio-decoding functionality, providing long-term binary compatibility for applications and languages that need it.  See also: Pyglet, a python media framework that makes extensive use of AVbin.
+* [LnxPrgr3/crossfeed](https://github.com/LnxPrgr3/crossfeed) - Headphone crossfeed filter
 
 ## Multiple Purpose Libraries ##
 * [pal][65] - Optimized library for maths, parallel processing and data
@@ -1453,29 +1460,8 @@ Comprehensive and integrated solutions for building web application in C.
 * [Lajnold/falloc](https://github.com/Lajnold/falloc) - falloc creates files of a user-specified size. It uses the posix_fallocate syscall for allocating the right size directly, instead of copying data like the commonly used dd tool does (which, in my opinion, feels like a hack).
 
 # Unsorted #
-* [Lichtso/CCWT](https://github.com/Lichtso/CCWT) - Complex Continuous Wavelet Transformation
-* [LippiOuYang/WebBench](https://github.com/LippiOuYang/WebBench) - Webbench是一个在linux下使用的非常简单的网站压测工具。它使用fork()模拟多个客户端同时访问我们设定的URL，测试网站在压力下工作的性能，最多可以模拟3万个并发连接去测试网站的负载能力。Webbench使用C语言编写, 代码实在太简洁，源码加起来不到600行。
-* [LnxPrgr3/crossfeed](https://github.com/LnxPrgr3/crossfeed) - Headphone crossfeed filter
-* [Lokaltog/candybar](https://github.com/Lokaltog/candybar) - WebKit-based status bar for tiling window managers.
-* [LongSoft/AddrInfo](https://github.com/LongSoft/AddrInfo) - Utility to find addresses of different data structures in ASUS BIOS image files and to store them in INI-formated file
-* [LongSoft/FD44Copier](https://github.com/LongSoft/FD44Copier) - Utility to copy BIOS data from one ASUS BIOS image file to another
-* [Lora-net/LoRaMac-node](https://github.com/Lora-net/LoRaMac-node) - Reference implementation and documentation of a LoRa network node.
-* [Lua-cURL/Lua-cURLv2](https://github.com/Lua-cURL/Lua-cURLv2) - Lua-cURL is aiming for a full-fledged libcurl binding (easy/multi/share interface) to the functionality of Lua
-* [Lua-cURL/Lua-cURLv3](https://github.com/Lua-cURL/Lua-cURLv3) - Lua binding to libcurl
-* [LuaDist/lpack](https://github.com/LuaDist/lpack) - A library for packing and unpacking binary data. The library adds two functions to the string library: pack and unpack.
-* [LuaDist/lua](https://github.com/LuaDist/lua) - The Lua programming language with CMake based build
-* [LuaDist/luajit](https://github.com/LuaDist/luajit) - LuaJIT is JIT compiler for the Lua language.
-* [LuaDist/tcc](https://github.com/LuaDist/tcc) - Small but fast C compiler.  Supports ANSI C, most of the new ISO C99 standard, and many GNUC extensions, including inline assembly.
-* [LuaDist/toluapp](https://github.com/LuaDist/toluapp) - tolua++ is an extension of toLua, a tool to integrate C/Cpp code with Lua
-* [LuaJIT/LuaJIT](https://github.com/LuaJIT/LuaJIT) - Mirror of the LuaJIT git repository
-* [LubosD/darling](https://github.com/LubosD/darling) - Darwin/OS X emulation layer for Linux
-* [Lupus/libevfibers](https://github.com/Lupus/libevfibers) - Small C fiber library that uses libev based event loop and libcoro based coroutine context switching.
-* [MDSplus/mdsplus](https://github.com/MDSplus/mdsplus) - The MDSplus data management system
-* [MacRuby/ControlTower](https://github.com/MacRuby/ControlTower) - Rack-based Web Application Server for MacRuby
-* [Macarse/50AH-code](https://github.com/Macarse/50AH-code) - 50 Android Hacks book source code
 * [MagerValp/AsmHeap](https://github.com/MagerValp/AsmHeap) - Heap data structure in 6502 assembler
 * [MakerLabMe/STM32_Arduino_Cores](https://github.com/MakerLabMe/STM32_Arduino_Cores) - STM M3 ARM Cores for Arduino IDE.Makes Arduino IDE supports stm32f103.
-* [Manawyrm/FMBerry](https://github.com/Manawyrm/FMBerry) - Build an open source fm radio station with your raspberry pi
 * [MarilynDafa/Bulllord-Engine](https://github.com/MarilynDafa/Bulllord-Engine) - lightspeed lightweight elegant  game engine in pure c
 * [MarlinFirmware/Marlin](https://github.com/MarlinFirmware/Marlin) - Reprap FW with look ahead. SDcard and LCD support. It works on Gen6, Ultimaker, RAMPS and Sanguinololu
 * [MartinMittring/dcraw_exif](https://github.com/MartinMittring/dcraw_exif) - dcraw (Camera RAW format processor) from Dave Coffin with updates, additionally maintain exif data for using it with Agisoft PhotoScan
