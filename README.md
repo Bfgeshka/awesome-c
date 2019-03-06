@@ -504,6 +504,7 @@ Incorporated lists:
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
 * [CoreData/cs50](https://github.com/CoreData/cs50) - CS50 Rep
 * [McNopper/OpenGL](https://github.com/McNopper/OpenGL) - OpenGL 3 and 4 with GLSL
+* [OpenGLInsights/OpenGLInsightsCode](https://github.com/OpenGLInsights/OpenGLInsightsCode) - Source code for OpenGL Insights
 
 --------------------------------------------------------------------------------
 
@@ -543,6 +544,7 @@ Neural nets, machine learning, and other similar things.
 * [argparse][411] - Command-line argument parsing library, inspired by Python's
   argparse module. [``MIT``][MIT]
 * [docopt.c][412] - Implementation of a command-line option parser. [``MIT``][MIT]
+* [PaulStoffregen/teensy_loader_cli](https://github.com/PaulStoffregen/teensy_loader_cli) - Command line Teensy Loader
 
 ## Calculations ##
 * [apophenia][250] - Library for statistical and scientific computing. [``GPL-2.0-only``][GPL-2.0-only]
@@ -617,6 +619,7 @@ Neural nets, machine learning, and other similar things.
 * [KhronosGroup/OpenCL-Headers](https://github.com/KhronosGroup/OpenCL-Headers) - Khronos OpenCL-Headers
 * [Lichtso/CCWT](https://github.com/Lichtso/CCWT) - Complex Continuous Wavelet Transformation
 * [NCrashed/bzip2](https://github.com/NCrashed/bzip2) - Bindings for bzip2 library, a freely available, patent free, high-quality data compressor.
+* [PetteriAimonen/libfixmatrix](https://github.com/PetteriAimonen/libfixmatrix) - C library for fixed point matrix, quaternion and vector calculations
 
 ## Compression ##
 * [blosc][25] - Fast, multi-threaded, meta-compressor library. Various licenses,
@@ -952,6 +955,8 @@ Access to graphical APIs or other graphic rendering libraries.
 * [Azure/azure-iot-sdk-c](https://github.com/Azure/azure-iot-sdk-c) - A C99 SDK for connecting devices to Microsoft Azure IoT services
 * [Eugnis/spectre-attack](https://github.com/Eugnis/spectre-attack) - Example of using revealed "Spectre" exploit (CVE-2017-5753 and CVE-2017-5715)
 * [FoxelSA/libfastcal](https://github.com/FoxelSA/libfastcal) - Fast calibration data access
+* [OpenSC/OpenSC](https://github.com/OpenSC/OpenSC) - Open source smart card tools and middleware. PKCS#11/MiniDriver/Tokend
+* [OpenSecurityResearch/iclass_dump](https://github.com/OpenSecurityResearch/iclass_dump) - Tools to pull data from HID iClass readers
 
 ## Hashing ##
 Hash function implementations for *non*-crypto purposes. Cryptographic hashes
@@ -970,6 +975,7 @@ can be found in the Crypto section.
 * [libcrc](https://github.com/PeterScott/murmur3) - Multi platform CRC library. [`MIT`](https://raw.githubusercontent.com/atom/atom/master/LICENSE.md)
 * [murmur](https://github.com/ispc/ispc) - C implementation of MurMur Hashing. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
 * [Cyan4973/xxHash](https://github.com/Cyan4973/xxHash) - Extremely fast non-cryptographic hash algorithm
+* [PeterScott/murmur3](https://github.com/PeterScott/murmur3) - Murmur3 hash in C
 
 ## Image Processing and Computer Vision ##
 * [ccv][5] - C-based/Cached/Core Computer Vision library; modern computer
@@ -993,6 +999,7 @@ can be found in the Crypto section.
 * [libccv](http://libccv.org) - Modern Computer Vision Library. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
 * [liuliu/ccv](https://github.com/liuliu/ccv) - C-based/Cached/Core Computer Vision Library, A Modern Computer Vision Library
 * [MartinMittring/dcraw_exif](https://github.com/MartinMittring/dcraw_exif) - dcraw (Camera RAW format processor) from Dave Coffin with updates, additionally maintain exif data for using it with Agisoft PhotoScan
+* [Phildo/pixQL](https://github.com/Phildo/pixQL) - SQL for image processing
 
 ## Integrated Debugging ##
 * [whereami][390] - One-file library for locating the current executable on the
@@ -1057,6 +1064,7 @@ Audio and video processing
 * [libsoundio](http://libsound.io/) - Library for cross-platform, real-time audio input and output. Has a range of back-ends. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
 * [AVbin/AVbin](https://github.com/AVbin/AVbin) - AVbin is a C library that provides a thin, cross-platform wrapper around Libav’s video- and audio-decoding functionality, providing long-term binary compatibility for applications and languages that need it.  See also: Pyglet, a python media framework that makes extensive use of AVbin.
 * [LnxPrgr3/crossfeed](https://github.com/LnxPrgr3/crossfeed) - Headphone crossfeed filter
+* [PaulBatchelor/Soundpipe](https://github.com/PaulBatchelor/Soundpipe) - A lightweight music DSP library.
 
 ## Multiple Purpose Libraries ##
 * [pal][65] - Optimized library for maths, parallel processing and data
@@ -1379,6 +1387,7 @@ Libraries for working wit hspecific filetypes
 * [Discount][377] - Simple implementation of a Markdown parser. [``BSD-3-Clause``][BSD-3-Clause]
 * [cmark][420] - Implementation of the CommonMark, Markdown dialect.
   [Variety of licenses, all open source][421].
+* [Orc/discount](https://github.com/Orc/discount) - My C implementation of John Gruber's Markdown markup language
 
 ### XML ###
 * [Expat][332] - Stream-oriented XML parser. [MIT][MIT]
@@ -1479,26 +1488,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [Lajnold/falloc](https://github.com/Lajnold/falloc) - falloc creates files of a user-specified size. It uses the posix_fallocate syscall for allocating the right size directly, instead of copying data like the commonly used dd tool does (which, in my opinion, feels like a hack).
 
 # Unsorted #
-* [OpenCPN/OpenCPN](https://github.com/OpenCPN/OpenCPN) - A concise ChartPlotter/Navigator. A cross-platform ship-borne GUI application supporting * GPS/GPDS Postition Input * BSB Raster Chart Display * S57 Vector ENChart Display * AIS Input Decoding * Waypoint Autopilot Navigation
-* [OpenEtherCATsociety/SOEM](https://github.com/OpenEtherCATsociety/SOEM) - Simple Open Source EtherCAT Master
-* [OpenGLInsights/OpenGLInsightsCode](https://github.com/OpenGLInsights/OpenGLInsightsCode) - Source code for OpenGL Insights
-* [OpenKinect/libfreenect](https://github.com/OpenKinect/libfreenect) - Drivers and libraries for the Xbox Kinect device on WIndows, Linux, and OS X
-* [OpenNI/OpenNI2](https://github.com/OpenNI/OpenNI2) - OpenNI2
-* [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) - An open source re-implementation of RollerCoaster Tycoon 2 🎢
-* [OpenSC/OpenSC](https://github.com/OpenSC/OpenSC) - Open source smart card tools and middleware. PKCS#11/MiniDriver/Tokend
-* [OpenSecurityResearch/iclass_dump](https://github.com/OpenSecurityResearch/iclass_dump) - Tools to pull data from HID iClass readers
-* [OpenVPN/openvpn](https://github.com/OpenVPN/openvpn) - OpenVPN  is  an open source VPN daemon
-* [Orc/discount](https://github.com/Orc/discount) - My C implementation of John Gruber's Markdown markup language
-* [Overv/OOGL](https://github.com/Overv/OOGL) - Object-oriented C++ wrapper for OpenGL.
-* [Paradoxis/PHP-Rootkit](https://github.com/Paradoxis/PHP-Rootkit) - Your interpreter isn’t safe anymore  —  The PHP module rootkit
-* [Parsely/python-pds](https://github.com/Parsely/python-pds) - Toy Implementation of Probabilistic Data Structures in Python (PyData 2013)
-* [PaulBatchelor/Soundpipe](https://github.com/PaulBatchelor/Soundpipe) - A lightweight music DSP library.
-* [PaulStoffregen/cores](https://github.com/PaulStoffregen/cores) - Teensy Core Libraries for Arduino
-* [PaulStoffregen/teensy_loader_cli](https://github.com/PaulStoffregen/teensy_loader_cli) - Command line Teensy Loader
-* [PeterScott/murmur3](https://github.com/PeterScott/murmur3) - Murmur3 hash in C
-* [PetteriAimonen/libfixmatrix](https://github.com/PetteriAimonen/libfixmatrix) - C library for fixed point matrix, quaternion and vector calculations
-* [PhilZ-cwm6/philz_touch_cwm6](https://github.com/PhilZ-cwm6/philz_touch_cwm6) - PhilZ Touch (cwm based recovery)
-* [Phildo/pixQL](https://github.com/Phildo/pixQL) - SQL for image processing
 * [Piro77/arib2ass](https://github.com/Piro77/arib2ass) - arib caption data to ass subtilte file
 * [Pithikos/C-Thread-Pool](https://github.com/Pithikos/C-Thread-Pool) - A minimal but powerful thread pool in ANSI C
 * [PolygonTek/BlueshiftEngine](https://github.com/PolygonTek/BlueshiftEngine) - Blueshift is a cross-platform 3D game engine implemented in C++. it's free, open-source, and works on Windows, macOS, iOS, and Android. The project is currently in an early stage of development.
