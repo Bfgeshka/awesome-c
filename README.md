@@ -481,6 +481,7 @@ Incorporated lists:
 
 #### Code Examples ####
 * [0intro/plan9](https://github.com/0intro/plan9) - Plan 9 from Bell Labs
+* [CTurt/Cinoop](https://github.com/CTurt/Cinoop) - Multiplatform Game Boy emulator
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -498,12 +499,16 @@ Neural nets, machine learning, and other similar things.
 * [Darknet](https://pjreddie.com/darknet/) - Open source neural network framework written in C and CUDA. It is fast, easy to install, and supports CPU and GPU computation.
 * [100/Cranium](https://github.com/100/Cranium) - 🤖   A portable, header-only, artificial neural network library written in C99
 * [2hanson/DecisionTree](https://github.com/2hanson/DecisionTree) - Decision Tree
+* [Blei-Lab/lda-c](https://github.com/Blei-Lab/lda-c) - This is a C implementation of variational EM for latent Dirichlet allocation (LDA), a topic model for text or other discrete data.
 
 ## Algoritm Implementations ##
 * [sort][434] - Collection of sorting routines, which type-specialize at
   compile-time with a user-defined type. [``MIT``][MIT]
 * [dlx][418] - Implementation of [Knuth's Algorithm X][419], with example
   solvers. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [BigZaphod/AStar](https://github.com/BigZaphod/AStar) - C Implementation of the A* Pathfinding Algorithm
+* [uastar][195] - Minimal A\* implementation. [``ZLib``][Zlib]
+* [BlackLight/fkmeans](https://github.com/BlackLight/fkmeans) - A tiny library in C for managing kmeans clusterization algorithm over arbitrary data sets, both by manually specifying the number k of clusters and computing it automatically using Schwarz criterion
 
 ## Argument Parsing ##
 * [parg][410] - A single-file reimplementation of ``getopt`` with better
@@ -624,6 +629,7 @@ Neural nets, machine learning, and other similar things.
 * [brotli](https://github.com/google/brotli) - Generic lossless compression algorithm based on LZ77, Huffman coding and 2nd order context modelling [`MIT`](https://raw.githubusercontent.com/atom/atom/master/LICENSE.md)
 * [quicklz](http://www.quicklz.com/index.php) - Fast compression library. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 * [pixz](https://github.com/vasi/pixz) - Pixz (pronounced pixie) is a parallel, indexing version of `xz`. [`2-clause BSD`](https://directory.fsf.org/wiki/License:BSD-2-Clause)
+* [Blosc/c-blosc](https://github.com/Blosc/c-blosc) - A blocking, shuffling and loss-less compression library that can be faster than `memcpy()`.
 
 ## Concurrency and Parallelism ##
 * [cchan][52] - Small library for channel constructs for inter-thread
@@ -696,6 +702,7 @@ protocols.
 * [libressl](https://www.libressl.org/) - Modernized fork of OpenSSL. [`Various Licenses`](https://cvsweb.openbsd.org/cgi-bin/cvsweb/~checkout~/src/lib/libssl/LICENSE?rev=1.12)
 * [jedisct1/libsodium](https://github.com/jedisct1/libsodium) - A modern, portable, easy to use crypto library
 * [ARMmbed/mbedtls](https://github.com/ARMmbed/mbedtls) - An open source, portable, easy to use, readable and flexible SSL library
+* [B-Con/crypto-algorithms](https://github.com/B-Con/crypto-algorithms) - Basic implementations of standard cryptography algorithms, like AES and SHA-1.
 
 ## Databases ##
 * [BerkeleyDB][83] - Library for a high-performance embedded database for
@@ -728,6 +735,7 @@ protocols.
 * [UnQLite](https://unqlite.org/) - Self-contained, serverless, zero-configuration, transactional NoSQL engine with a C interface. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
 * [Akash91/CoSQL](https://github.com/Akash91/CoSQL) - A Co-Relational Key-Value Data Store
 * [Amaury/FineDB](https://github.com/Amaury/FineDB) - High-performance nosql database. Written in C, multi-threaded, based on LightningDB and nanomsg.
+* [BohuTANG/nessDB](https://github.com/BohuTANG/nessDB) - A very fast transactional key-value, embedded database storage engine.
 
 ## Data Structures ##
 * [libhl][58] - Library implementing a thread-safe API to manage a range of data
@@ -752,6 +760,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [20centaurifux/datatypes](https://github.com/20centaurifux/datatypes) - A collection of various datatypes in C (linked lists, stack, queue, red-black tree and hash table).
 * [2ion/libqueue](https://github.com/2ion/libqueue) - C library providing persistent, named data storage queues
 * [Achoulos/Data-Structures](https://github.com/Achoulos/Data-Structures) - Implementation of Data Structures and Sorts in C
+* [Blosc/bcolz](https://github.com/Blosc/bcolz) - A columnar data container that can be compressed.
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -775,6 +784,7 @@ Foreign function interfaces, also know as binding interfaces.
 * [yasm](http://yasm.tortall.net/) - Yasm Modular Assembler Project. [`2-clause BSD`](https://directory.fsf.org/wiki/License:BSD-2-Clause)
 * [P99](http://p99.gforge.inria.fr/) - Suite of macros to implement advanced features like default function arguments, scope-bound resources, etc. (Requires C99) [`Q Public License`](https://tldrlegal.com/license/q-public-license-1.0-(qpl-1.0)#summary)
 * [orangeduck/Cello](https://github.com/orangeduck/Cello) - Higher level programming in C
+* [CObjectSystem/COS](https://github.com/CObjectSystem/COS) - C Object System
 
 
 ## Game Development ##
@@ -806,7 +816,6 @@ Engines, libraries and other helpful things specifically for making games.
   alternative to other libraries for doing all those things. Various licenses,
   all open source.
 * [Spearmint][194] - Engine designed for FPS games. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [uastar][195] - Minimal A\* implementation. [``ZLib``][Zlib]
 * [Corange](https://github.com/orangeduck/Corange) - Game engine in pure C. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
 * [Darkplaces](https://icculus.org/twilight/darkplaces/) - Modified version of the Quake2 engine. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 * [ioquake3](https://ioquake3.org/) - The Quake3 engine, freed at last. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
@@ -959,6 +968,7 @@ Generic lexers and parsers
 * [Hoard](http://hoard.org/) - A Fast, Scalable, and Memory-efficient Malloc for Linux, Windows, Mac, and Solaris. [`GNU GPL2`](http://www.gnu.org/licenses/gpl.html)
 * [nedmalloc](http://www.nedprod.com/programs/portable/nedmalloc/) - An EXTREMELY FAST portable thread caching malloc(3) implementation written in C. [`GNU GPL2`](http://www.gnu.org/licenses/gpl.html)
 * [rpmalloc](https://github.com/rampantpixels/rpmalloc) - Cross platform, lock-free memory allocator. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
+* [CCareaga/heap_allocator](https://github.com/CCareaga/heap_allocator) - A simple heap memory allocator in ~200 lines.
 
 ## Multimedia ##
 Audio and video processing
@@ -1182,6 +1192,7 @@ Audio and video processing
 * [clib](https://github.com/clibs/clib) - Something of a package manager for C. Comes with a [bunch of libraries of its own](https://github.com/clibs/clib/wiki/Packages). [`Expat`](https://directory.fsf.org/wiki/License:Expat)
 * [gnulib](https://www.gnu.org/software/gnulib/) - Collection of common GNU code.
 * [libdjb](http://www.fefe.de/djb/) - Collection of libraries doing various things. [`(Apparently) Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
+* [BurntSushi/clibs](https://github.com/BurntSushi/clibs) - A smattering of miscellaneous C libraries. Includes sane argument parsing, a thread-safe multi-producer/multi-consumer queue, and implementation of common data structures (hashmaps, vectors and linked lists).
 
 ## Special Purpose ##
 * [Tulip Indicators][394] - Library of functions for technical analysis of
@@ -1372,41 +1383,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [libgit2](https://libgit2.org/) - Pure C implementation of Git. [`GNU GPL2 only, with a linking exception`](https://github.com/libgit2/libgit2/blob/master/COPYING)
 
 # Unsorted #
-* [B-Con/crypto-algorithms](https://github.com/B-Con/crypto-algorithms) - Basic implementations of standard cryptography algorithms, like AES and SHA-1.
-* [BennyQBD/3DEngineCpp](https://github.com/BennyQBD/3DEngineCpp) - It's like the 3D Game Engine, except in C++
-* [BernardoGiordano/Checkpoint](https://github.com/BernardoGiordano/Checkpoint) - Fast and simple homebrew save manager for 3DS.
-* [BigZaphod/AStar](https://github.com/BigZaphod/AStar) - C Implementation of the A* Pathfinding Algorithm
-* [Bilibili/ijkplayer](https://github.com/Bilibili/ijkplayer) - Android/iOS video player based on FFmpeg n2.7, with MediaCodec, VideoToolbox support.
-* [Billy-Ellis/Exploit-Challenges](https://github.com/Billy-Ellis/Exploit-Challenges) - A collection of vulnerable ARM binaries for practicing exploit development
-* [BinaryAnalysisPlatform/qira](https://github.com/BinaryAnalysisPlatform/qira) - QEMU Interactive Runtime Analyser
-* [BlackBears/CCFNumberPickerView](https://github.com/BlackBears/CCFNumberPickerView) - A scaled, slick slider-type view for numerical data entry on iOS devices
-* [BlackLight/fkmeans](https://github.com/BlackLight/fkmeans) - A tiny library in C for managing kmeans clusterization algorithm over arbitrary data sets, both by manually specifying the number k of clusters and computing it automatically using Schwarz criterion
-* [Blei-Lab/lda-c](https://github.com/Blei-Lab/lda-c) - This is a C implementation of variational EM for latent Dirichlet allocation (LDA), a topic model for text or other discrete data.
-* [BlockoS/arduino-dataflash](https://github.com/BlockoS/arduino-dataflash) - Support for Atmel Dataflash for the Arduino
-* [Blosc/bcolz](https://github.com/Blosc/bcolz) - A columnar data container that can be compressed.
-* [Blosc/c-blosc](https://github.com/Blosc/c-blosc) - A blocking, shuffling and loss-less compression library that can be faster than `memcpy()`.
-* [Bob--Lee/P-Trie-Bloom-Filter](https://github.com/Bob--Lee/P-Trie-Bloom-Filter) - It's a way to solve a big data problem with P-Trie and Bloom-Filter
-* [BohuTANG/nessDB](https://github.com/BohuTANG/nessDB) - A very fast transactional key-value, embedded database storage engine.
-* [Broadcom-Switch/of-dpa](https://github.com/Broadcom-Switch/of-dpa) - OpenFlow Data Plane Abstraction
-* [BrunoAlexandreMendesMartins/CleverModels](https://github.com/BrunoAlexandreMendesMartins/CleverModels) - Tool to generate POJO´s Model Classes from JSON Feed structures
-* [BuildItNow/BIN_LuaBind](https://github.com/BuildItNow/BIN_LuaBind) - BIN_LuaBind是一个和luabind、tolua++类似的库，提供了简洁的C/C++到lua的绑定机制，但与之不同的是BIN_LuaBind比他们更安全：lua层不在直接依赖于C/C++层指针，避免野指针引起宕机。除此之外，BIN_LuaBind对Lua提供了对lua_state,user data和table的抽象类，在C++端能方便的操作lua
-* [Bumblebee-Project/Bumblebee](https://github.com/Bumblebee-Project/Bumblebee) - Bumblebee daemon and client rewritten in C
-* [BungeeProject/bungee](https://github.com/BungeeProject/bungee) - Big Unstructured Data Analytics
-* [BurntSushi/clibs](https://github.com/BurntSushi/clibs) - A smattering of miscellaneous C libraries. Includes sane argument parsing, a thread-safe multi-producer/multi-consumer queue, and implementation of common data structures (hashmaps, vectors and linked lists).
-* [ButterflyTV/LibRtmp-Client-for-Android](https://github.com/ButterflyTV/LibRtmp-Client-for-Android) - It is probably the smallest(~60KB) rtmp client for android. It calls librtmp functions over JNI interface
-* [Byzantium/Byzantium](https://github.com/Byzantium/Byzantium) - Configs and code for Project Byzantium.
-* [C0deH4cker/SimpleGameEngine](https://github.com/C0deH4cker/SimpleGameEngine) - Simple C++ game engine influenced by XNA
-* [CAIDA/corsaro](https://github.com/CAIDA/corsaro) - Corsaro is a software suite for performing large-scale analysis of trace data. It was specifically designed to be used with passive traces captured by darknets, but the overall structure is generic enough to be used with any type of passive trace data.
-* [CANBus-Triple/CANBus-Triple](https://github.com/CANBus-Triple/CANBus-Triple) - CANBus Triple – The car hacking platform
-* [CANopenNode/CANopenNode](https://github.com/CANopenNode/CANopenNode) - CANopen stack base.
-* [CCExtractor/ccextractor](https://github.com/CCExtractor/ccextractor) - CCExtractor - Official version maintained by the core team
-* [CCareaga/heap_allocator](https://github.com/CCareaga/heap_allocator) - A simple heap memory allocator in ~200 lines.
-* [CE-Programming/CEmu](https://github.com/CE-Programming/CEmu) - A developer-oriented emulator of the eZ80-based TI-84 Plus CE / TI-83 Premium CE calculators
-* [CGNS/CGNS](https://github.com/CGNS/CGNS) - The CFD General Notation System (CGNS) provides a standard for recording and recovering computer data associated with the numerical solution of fluid dynamics equations.
-* [CICM/CicmWrapper](https://github.com/CICM/CicmWrapper) - A C/TK library that aims to facilitate the creation of objects for Pure Data
-* [CObjectSystem/COS](https://github.com/CObjectSystem/COS) - C Object System
-* [CSB5/lofreq](https://github.com/CSB5/lofreq) - LoFreq Star: Sensitive variant calling from sequencing data
-* [CTurt/Cinoop](https://github.com/CTurt/Cinoop) - Multiplatform Game Boy emulator
 * [CVLearner/Mixture-of-Gaussians](https://github.com/CVLearner/Mixture-of-Gaussians) - Fit a Gaussian mixture model given a set of data
 * [CainKernel/CainCamera](https://github.com/CainKernel/CainCamera) - CainCamera is an Android Project to learn about development of beauty camera, image and short video
 * [Cairo-Dock/cairo-dock-core](https://github.com/Cairo-Dock/cairo-dock-core) - Core part of Cairo-Dock project.
