@@ -1526,16 +1526,12 @@ Comprehensive and integrated solutions for building web application in C.
 * [ThomasHabets/monotonic_clock](https://github.com/ThomasHabets/monotonic_clock) - Portable C library for getting monotonic time
 
 # Unsorted #
-* [Voluntarynet/Crypt](https://github.com/Voluntarynet/Crypt) - OSX app for drag and drop encryption
 * [WeatherGod/BWx](https://github.com/WeatherGod/BWx) - Assorted utilities for dealing with weather related data
-* [WhisperSystems/Signal-iOS](https://github.com/WhisperSystems/Signal-iOS) - Free, world-wide, private messaging and phone calls for iPhone.
-* [WhisperSystems/curve25519-java](https://github.com/WhisperSystems/curve25519-java) - Pure Java and JNI backed Curve25519 implementation.
 * [WhisperSystems/libsignal-protocol-c](https://github.com/WhisperSystems/libsignal-protocol-c) - Signal Protocol C Library
 * [Whiteknight/ParrotStore](https://github.com/Whiteknight/ParrotStore) - Storage and data persistance for Parrot VM
 * [WickrInc/wickr-crypto-c](https://github.com/WickrInc/wickr-crypto-c) - An implementation of the Wickr Secure Messaging Protocol in C
 * [Wilfred/babyc](https://github.com/Wilfred/babyc) - A toy C compiler
 * [Wind4/vlmcsd](https://github.com/Wind4/vlmcsd) - KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin)
-* [WiringPi/WiringPi-Ruby-Legacy](https://github.com/WiringPi/WiringPi-Ruby-Legacy) - Ruby gem of the Arduino wiring-like C library WiringPi
 * [WiringPi/WiringPi](https://github.com/WiringPi/WiringPi) - Gordon's Arduino wiring-like WiringPi Library for the Raspberry Pi
 * [WizardMac/ReadStat](https://github.com/WizardMac/ReadStat) - Command-line tool (+ C library) for converting SAS, Stata, and SPSS files
 * [WojciechMula/pyahocorasick](https://github.com/WojciechMula/pyahocorasick) - Python module (C extension and plain python) implementing Aho-Corasick algorithm
@@ -1583,7 +1579,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [addy689/DataStructuresLab](https://github.com/addy689/DataStructuresLab) - Graph Traversal (BFS & DFS), Single Source Shortest Path, Minimum Spanning Tree, RB Trees, B-Trees
 * [adenine/ofxFFT_to_OSC](https://github.com/adenine/ofxFFT_to_OSC) - This is an app which uses ofxFFT to then send out OSC data relating to the music being interpreted.
 * [adnanozsoy/CUDA_Compression](https://github.com/adnanozsoy/CUDA_Compression) - A GPU-based LZSS compression algorithm, highly tuned for NVIDIA GPGPUs and for streaming data, leveraging the respective strengths of CPUs and GPUs together.
-* [adob/print-stmt](https://github.com/adob/print-stmt) - Convenient print statement for C++
 * [adobe-flash/crossbridge](https://github.com/adobe-flash/crossbridge) - Welcome to visit the homepage!
 * [adobkin/libcapn](https://github.com/adobkin/libcapn) - A simple C Library for interact with the Apple Push Notification Service (APNs)
 * [adoxa/ansicon](https://github.com/adoxa/ansicon) - Process ANSI escape sequences for Windows console programs.
@@ -1605,7 +1600,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [aimxhaisse/des](https://github.com/aimxhaisse/des) - C implementation of Data Encryption Standard
 * [ajrisi/fsm](https://github.com/ajrisi/fsm) - A finite state machine engine in C - used as a parser for complex data structures
 * [akheron/jansson](https://github.com/akheron/jansson) - C library for encoding, decoding and manipulating JSON data
-* [akissa/php-couchdb](https://github.com/akissa/php-couchdb) - PHP extension for CouchDB
 * [akitaonrails/ObjC_Rubyfication](https://github.com/akitaonrails/ObjC_Rubyfication) - Attempt to make Objective-C more like Ruby
 * [alandekok/recli](https://github.com/alandekok/recli) - A re-imagined CLI.  Customizable syntax, help, permissions, data types.
 * [alanwoolley/CorsixTH-Android](https://github.com/alanwoolley/CorsixTH-Android) - Port of CorsixTH to Android
@@ -1616,7 +1610,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [alexanderb14/cCollections](https://github.com/alexanderb14/cCollections) - lightweight dynamic data structures for C
 * [alexanderchuranov/Metaresc](https://github.com/alexanderchuranov/Metaresc) - META data and RESource library for  C language
 * [alexbirkett/GPSBabel](https://github.com/alexbirkett/GPSBabel) - Free software for GPS data conversion and transfer
-* [alexbw/Netflix-Prize](https://github.com/alexbw/Netflix-Prize) - The code I used to get in the top #150 in the Netflix Prize
 * [alexfru/SmallerC](https://github.com/alexfru/SmallerC) - Simple C compiler
 * [algernon/libmongo-client](https://github.com/algernon/libmongo-client) - An obsolete library. Don't use it in new projects.
 * [ali-rantakari/peg-markdown-highlight](https://github.com/ali-rantakari/peg-markdown-highlight) - C library for Markdown syntax highlighting, using a recursive-descent parser.
@@ -1625,7 +1618,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [alibaba/nginx-http-concat](https://github.com/alibaba/nginx-http-concat) - A Nginx module for concatenating files in a given context: CSS and JS files usually
 * [alibaba/tengine](https://github.com/alibaba/tengine) - A distribution of Nginx with some advanced features
 * [alibaba/tsar2db](https://github.com/alibaba/tsar2db) - used to store tsar data to mysql
-* [alibaba/tsar](https://github.com/alibaba/tsar) - Taobao System Activity Reporter
 * [alibashir/pacmonstr](https://github.com/alibashir/pacmonstr) - Tandem Repeat Detection for Long Read Sequence Data
 * [allinurl/goaccess](https://github.com/allinurl/goaccess) - GoAccess is a real-time web log analyzer and interactive viewer that runs in a terminal in *nix systems or through your browser.
 * [allinurl/gwsocket](https://github.com/allinurl/gwsocket) - fast, standalone, language-agnostic WebSocket server RFC6455 compliant
@@ -1635,7 +1627,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [amadvance/snapraid](https://github.com/amadvance/snapraid) - A backup program for disk arrays. It stores parity information of your data and it recovers from up to six disk failures
 * [amahule/CoolReader](https://github.com/amahule/CoolReader) - An Android based open e-book reader
 * [amaurigabriel/CAD](https://github.com/amaurigabriel/CAD) -  C Algorithms and Data-structures
-* [amd/Chromium-WebCL](https://github.com/amd/Chromium-WebCL) - WebCL implementation for Chromium
 * [aminroosta/sqlite_modern_cpp](https://github.com/aminroosta/sqlite_modern_cpp) - The C++14 wrapper around sqlite library
 * [amitdev/lru-dict](https://github.com/amitdev/lru-dict) - A C extension of a python dict-like LRU container.
 * [anael-seghezzi/CToy](https://github.com/anael-seghezzi/CToy) - Interactive C coding environment
