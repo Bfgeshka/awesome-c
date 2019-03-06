@@ -13,9 +13,12 @@ are a mess.
 
 Incorporated lists:
 
-* https://github.com/kozross/awesome-c
-* https://github.com/aleksandar-todorovic/awesome-c
-* https://github.com/uhub/awesome-c
+* https://github.com/aleksandar-todorovic/awesome-c (rare updates, too vague and
+  sometimes mismatched categories, not very wide selection of content)
+* https://github.com/kozross/awesome-c (updated regularly, but has even less
+  content than one above)
+* https://github.com/uhub/awesome-c (regular updated, much more content, but
+  much more of it doesn't even belong to C list. Also, no structure at all)
 
 --------------------------------------------------------------------------------
 
