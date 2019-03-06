@@ -186,6 +186,7 @@ Incorporated lists:
   complex types). [``LGPL2.1``][LGPL-2.1-only]
 * [rui314/8cc](https://github.com/rui314/8cc) - A Small C Compiler
 * [LuaDist/tcc](https://github.com/LuaDist/tcc) - Small but fast C compiler.  Supports ANSI C, most of the new ISO C99 standard, and many GNUC extensions, including inline assembly.
+* [TinyCC/tinycc](https://github.com/TinyCC/tinycc) - Mirror from mob branch
 
 [3-1]: https://gcc.gnu.org/
 [3-2]: https://clang.llvm.org/
@@ -502,6 +503,7 @@ Incorporated lists:
 * [MoarVM/MoarVM](https://github.com/MoarVM/MoarVM) - A VM with adaptive optimization and JIT compilation, built for Rakudo Perl 6
 * [RIOT-OS/RIOT](https://github.com/RIOT-OS/RIOT) - RIOT -  The friendly OS for IoT
 * [SilverRainZ/OS67](https://github.com/SilverRainZ/OS67) - An unix-like toy kernel.
+* [Visgean/Zeus](https://github.com/Visgean/Zeus) - NOT MY CODE! Zeus trojan horse - leaked in 2011, I am not the author. I have created this repository to make the access for study as easy as possible.
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -528,6 +530,7 @@ Neural nets, machine learning, and other similar things.
 * [H2CO3/libsprec](https://github.com/H2CO3/libsprec) - C library for speech recognition using the Google Speech API
 * [HIPS/Probabilistic-Backpropagation](https://github.com/HIPS/Probabilistic-Backpropagation) - Implementation in C and Theano of the method Probabilistic Backpropagation for scalable Bayesian inference in deep neural networks.
 * [JulienPalard/Mine](https://github.com/JulienPalard/Mine) - Little data miner
+* [TheWeatherChannel/dClass](https://github.com/TheWeatherChannel/dClass) - Device Classification Engine
 
 ## Algoritm Implementations ##
 * [sort][434] - Collection of sorting routines, which type-specialize at
@@ -542,6 +545,7 @@ Neural nets, machine learning, and other similar things.
 * [IAIK/CJAG](https://github.com/IAIK/CJAG) - CJAG is an open-source implementation of our cache-based jamming agreement.
 * [Kevincav/Radix-Sort](https://github.com/Kevincav/Radix-Sort) - Radix Sort with different data types.
 * [Soryusan/Ranking_Algorithm](https://github.com/Soryusan/Ranking_Algorithm) - Ranking algorithm data collector/cruncher
+* [TheAlgorithms/C](https://github.com/TheAlgorithms/C) - All Algorithms implemented in C
 
 ## Argument Parsing ##
 * [parg][410] - A single-file reimplementation of ``getopt`` with better
@@ -1081,6 +1085,9 @@ Audio and video processing
 * [AVbin/AVbin](https://github.com/AVbin/AVbin) - AVbin is a C library that provides a thin, cross-platform wrapper around Libav’s video- and audio-decoding functionality, providing long-term binary compatibility for applications and languages that need it.  See also: Pyglet, a python media framework that makes extensive use of AVbin.
 * [LnxPrgr3/crossfeed](https://github.com/LnxPrgr3/crossfeed) - Headphone crossfeed filter
 * [PaulBatchelor/Soundpipe](https://github.com/PaulBatchelor/Soundpipe) - A lightweight music DSP library.
+* [Themaister/libfmsynth](https://github.com/Themaister/libfmsynth) - A C library which implements an FM synthesizer
+* [UniversalPrimer/flv-analyzer](https://github.com/UniversalPrimer/flv-analyzer) - Loads an FLV file into sane C data structures and outputs fields as human readable
+* [Vidvox/hap-qt-codec](https://github.com/Vidvox/hap-qt-codec) - A QuickTime codec for Hap video
 
 ## Multiple Purpose Libraries ##
 * [pal][65] - Optimized library for maths, parallel processing and data
@@ -1318,6 +1325,10 @@ Audio and video processing
 * [Netflix/dynomite](https://github.com/Netflix/dynomite) - A generic dynamo implementation for different k-v storage engines
 * [RhysU/ESIO](https://github.com/RhysU/ESIO) - The ExaScale IO (ESIO) library provides simple, high throughput input and output of structured data sets using parallel HDF5. ESIO is designed to support reading and writing turbulence simulation restart files within C, C++, and modern Fortran applications.
 * [TPSully/SRTM2STL](https://github.com/TPSully/SRTM2STL) - Create STL files from SRTM data for the purpose of creating 3D relief maps.
+* [TravisWhitaker/FermiShell](https://github.com/TravisWhitaker/FermiShell) - Retrieve, compare, calculate, analyze, graph, simulate, and experiment with chemical data.
+* [TulipCharts/tulipindicators](https://github.com/TulipCharts/tulipindicators) - Technical Analysis Indicator Function Library in C
+* [Unidata/gempak](https://github.com/Unidata/gempak) - Analysis, display, and product generation package for meteorological data.
+* [Unidata/netcdf-c](https://github.com/Unidata/netcdf-c) - Official GitHub repository for netCDF-C libraries and utilities.
 
 ## Standard Libraries ##
 Implementations of the C standarts
@@ -1414,6 +1425,7 @@ Libraries for working wit hspecific filetypes
 * [libxml2][333] - Standards-compliant, portable XML parser. [MIT][MIT]
 * [mini-xml](https://github.com/michaelrsweet/mxml) - Small XML reading and writing library. No dependencies aside from C standard library. [`GNU LGPL2.1 with static linking exception`](https://github.com/michaelrsweet/mxml/blob/master/COPYING)
 * [CastXML/CastXML](https://github.com/CastXML/CastXML) - C-family Abstract Syntax Tree XML Output
+* [TouchCode/TouchXML](https://github.com/TouchCode/TouchXML) - Official "clone" of TouchXML from TouchCode
 
 ### YAML ###
 * [libYAML][334] - YAML 1.1 parser and emitter. [``MIT``][MIT]
@@ -1511,34 +1523,9 @@ Comprehensive and integrated solutions for building web application in C.
 * [libgit2](https://libgit2.org/) - Pure C implementation of Git. [`GNU GPL2 only, with a linking exception`](https://github.com/libgit2/libgit2/blob/master/COPYING)
 * [Keruspe/GPaste](https://github.com/Keruspe/GPaste) - Clipboard management system
 * [Lajnold/falloc](https://github.com/Lajnold/falloc) - falloc creates files of a user-specified size. It uses the posix_fallocate syscall for allocating the right size directly, instead of copying data like the commonly used dd tool does (which, in my opinion, feels like a hack).
+* [ThomasHabets/monotonic_clock](https://github.com/ThomasHabets/monotonic_clock) - Portable C library for getting monotonic time
 
 # Unsorted #
-* [TerryC78/CMU_15213_DataLab](https://github.com/TerryC78/CMU_15213_DataLab) - CMU 15-213 Introduction to Computer Systems
-* [Teyras/flowly](https://github.com/Teyras/flowly) - An sFlow data analyzer focused on realtime processing
-* [TheAlgorithms/C](https://github.com/TheAlgorithms/C) - All Algorithms implemented in C
-* [TheErk/CMake-tutorial](https://github.com/TheErk/CMake-tutorial) - CMake tutorial: beamer presentation and sample code
-* [TheWeatherChannel/dClass](https://github.com/TheWeatherChannel/dClass) - Device Classification Engine
-* [Themaister/libfmsynth](https://github.com/Themaister/libfmsynth) - A C library which implements an FM synthesizer
-* [ThingPulse/esp8266-weather-station-color](https://github.com/ThingPulse/esp8266-weather-station-color) - ESP8266 Weather Station in Color using ILI9341 TFT 240x320 display
-* [ThomasAdam/tmux-cvs-archived](https://github.com/ThomasAdam/tmux-cvs-archived) - Git version of tmux (updated hourly from sourceforge CVS) -- NOW ARCHIVED!  DO NOT USE THIS!
-* [ThomasAdam/tmux](https://github.com/ThomasAdam/tmux) - Clone of the tmux Git repository.  The master branch contains the latest unreleased code. There are topic branches which may be subject to rebasing, so don't base changes off them.  DO NOT SEND me pull-requests, send patches to tmux-users mailing list instead.
-* [ThomasHabets/monotonic_clock](https://github.com/ThomasHabets/monotonic_clock) - Portable C library for getting monotonic time
-* [TimAimee/-android-source-code](https://github.com/TimAimee/-android-source-code) - 这是我自己在学习安卓期间，在网上积累下来的源码 ，欢迎交流学习，很多源码已经不能提供具体出处，对作者抱歉，如果有发现自己的代码可以发邮件给我，我会立刻标注上的。
-* [TinyCC/tinycc](https://github.com/TinyCC/tinycc) - Mirror from mob branch
-* [TouchCode/TouchXML](https://github.com/TouchCode/TouchXML) - Official "clone" of TouchXML from TouchCode
-* [TravisWhitaker/FermiShell](https://github.com/TravisWhitaker/FermiShell) - Retrieve, compare, calculate, analyze, graph, simulate, and experiment with chemical data.
-* [Tribler/self-compile-Android](https://github.com/Tribler/self-compile-Android) - Autonomous smartphone app. Capable of self-compilation, mutation, and viral spreading. World-first proof-of-principle to bypass Internet kill switches.
-* [TulipCharts/tulipindicators](https://github.com/TulipCharts/tulipindicators) - Technical Analysis Indicator Function Library in C
-* [UECIDE/UECIDE_data](https://github.com/UECIDE/UECIDE_data) - Cores, boards and compilers for UECIDE
-* [UNINETT/mod_auth_mellon](https://github.com/UNINETT/mod_auth_mellon) - An Apache module with a simple SAML 2.0 service provider
-* [UWNetworksLab/arrakis](https://github.com/UWNetworksLab/arrakis) - Arrakis public repository.
-* [Uncodin/bypass](https://github.com/Uncodin/bypass) - Skip the HTML, Bypass takes markdown and renders it directly on Android and iOS.
-* [Unidata/gempak](https://github.com/Unidata/gempak) - Analysis, display, and product generation package for meteorological data.
-* [Unidata/netcdf-c](https://github.com/Unidata/netcdf-c) - Official GitHub repository for netCDF-C libraries and utilities.
-* [UniversalPrimer/flv-analyzer](https://github.com/UniversalPrimer/flv-analyzer) - Loads an FLV file into sane C data structures and outputs fields as human readable
-* [V-E-O/PoC](https://github.com/V-E-O/PoC) - PoC of CVE/Exploit
-* [Vidvox/hap-qt-codec](https://github.com/Vidvox/hap-qt-codec) - A QuickTime codec for Hap video
-* [Visgean/Zeus](https://github.com/Visgean/Zeus) - NOT MY CODE! Zeus trojan horse - leaked in 2011, I am not the author. I have created this repository to make the access for study as easy as possible.
 * [Voluntarynet/Crypt](https://github.com/Voluntarynet/Crypt) - OSX app for drag and drop encryption
 * [WeatherGod/BWx](https://github.com/WeatherGod/BWx) - Assorted utilities for dealing with weather related data
 * [WhisperSystems/Signal-iOS](https://github.com/WhisperSystems/Signal-iOS) - Free, world-wide, private messaging and phone calls for iPhone.
