@@ -493,6 +493,8 @@ Incorporated lists:
 * [Harvey-OS/harvey](https://github.com/Harvey-OS/harvey) - A distributed operating system
 * [HarveyHunt/howm](https://github.com/HarveyHunt/howm) - A lightweight, X11 tiling window manager that behaves like vim
 * [HuoLanguage/huo](https://github.com/HuoLanguage/huo) - interpreted language written in C
+* [LIJI32/SameBoy](https://github.com/LIJI32/SameBoy) - Game Boy and Game Boy Color emulator written in C
+* [LemonBoy/bar](https://github.com/LemonBoy/bar) - A featherweight, lemon-scented, bar based on xcb
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -528,6 +530,7 @@ Neural nets, machine learning, and other similar things.
 * [CVLearner/Mixture-of-Gaussians](https://github.com/CVLearner/Mixture-of-Gaussians) - Fit a Gaussian mixture model given a set of data
 * [Cyan4973/FiniteStateEntropy](https://github.com/Cyan4973/FiniteStateEntropy) - New generation entropy codecs : Finite State Entropy and Huff0
 * [IAIK/CJAG](https://github.com/IAIK/CJAG) - CJAG is an open-source implementation of our cache-based jamming agreement.
+* [Kevincav/Radix-Sort](https://github.com/Kevincav/Radix-Sort) - Radix Sort with different data types.
 
 ## Argument Parsing ##
 * [parg][410] - A single-file reimplementation of ``getopt`` with better
@@ -606,6 +609,7 @@ Neural nets, machine learning, and other similar things.
 * [FFTW/fftw3](https://github.com/FFTW/fftw3) - This is the official repository for the FFTW Fourier transform library, version 3.x
 * [HdrHistogram/HdrHistogram_c](https://github.com/HdrHistogram/HdrHistogram_c) - C port of the HdrHistogram
 * [JuliaMath/openlibm](https://github.com/JuliaMath/openlibm) - High quality system independent, portable, open source libm implementation
+* [KhronosGroup/OpenCL-Headers](https://github.com/KhronosGroup/OpenCL-Headers) - Khronos OpenCL-Headers
 
 ## Compression ##
 * [blosc][25] - Fast, multi-threaded, meta-compressor library. Various licenses,
@@ -792,6 +796,8 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [ClickerMonkey/CDSL](https://github.com/ClickerMonkey/CDSL) - A data structure library written in C
 * [DanielWaterworth/Butterfly](https://github.com/DanielWaterworth/Butterfly) - [DEPRECATED] Butterfly is a C library that implements a very simple 'dynamic' data-type. It could be used, for example, to manipulate JSON data from C. It is distributed under LGPL.
 * [Incarnation-p-lee/libds](https://github.com/Incarnation-p-lee/libds) - unified data structure implementation lib of C
+* [Krakonos/cutils](https://github.com/Krakonos/cutils) - C utilities and data structures
+* [LPD-EPFL/ASCYLIB](https://github.com/LPD-EPFL/ASCYLIB) - ASCYLIB is a concurrent-search data-structure library with over 30 implementantions of linked lists, hash tables, skip lists, and binary search trees.
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1155,6 +1161,8 @@ Audio and video processing
 * [FreeRDP/Remmina](https://github.com/FreeRDP/Remmina) - The GTK+ Remmina Remote Desktop Client
 * [GROX13/BitTorrent](https://github.com/GROX13/BitTorrent) - BitTorrent is a protocol for the practice of peer-to-peer file sharing that is used to distribute large amounts of data over the Internet. BitTorrent is one of the most common protocols for transferring large files, and peer-to-peer networks have been estimated to collectively account for approximately 43% to 70% of all Internet traffic (depending on geographical location) as of February 2009. In November 2004, BitTorrent was responsible for 35% of all Internet traffic. As of February 2013, BitTorrent was responsible for 3.35% of all worldwide bandwidth, more than half of the 6% of total bandwidth dedicated to file sharing.
 * [JFreegman/toxic](https://github.com/JFreegman/toxic) - An ncurses-based Tox client
+* [LibVNC/libvncserver](https://github.com/LibVNC/libvncserver) - LibVNCServer/LibVNCClient are cross-platform C libraries that allow you to easily implement VNC server or client functionality in your program.
+* [Librevault/librevault](https://github.com/Librevault/librevault) - Librevault - Peer-to-peer, decentralized and open source file sync.
 
 ### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
@@ -1175,6 +1183,7 @@ Audio and video processing
   Linux. [``GPL-2.0-only``][GPL-2.0-only] or [``LGPL-2.1-only``][LGPL-2.1-only]
 * [linenoise][433] - Small, self-contained alternative to readline and libedit. [``BSD-2-Clause``][BSD-2-Clause]
 * [alsa-lib](http://www.alsa-project.org/main/index.php/Main_Page) - Userspace library to interact with ALSA. [`LGPL2.1`](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html)
+* [Leandros/WindowsHModular](https://github.com/Leandros/WindowsHModular) - A modular Windows.h Header. Licensed under Public Domain & MIT.
 
 ## Procedural Generation ##
 * [heman][382] - Tiny library of image utilities dealing with height maps,
@@ -1441,33 +1450,10 @@ Comprehensive and integrated solutions for building web application in C.
 * [D-Bus][430] - Interprocess communications bus. [``AFL-2.1``][AFL-2.1] or [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [libgit2](https://libgit2.org/) - Pure C implementation of Git. [`GNU GPL2 only, with a linking exception`](https://github.com/libgit2/libgit2/blob/master/COPYING)
 * [Keruspe/GPaste](https://github.com/Keruspe/GPaste) - Clipboard management system
+* [Lajnold/falloc](https://github.com/Lajnold/falloc) - falloc creates files of a user-specified size. It uses the posix_fallocate syscall for allocating the right size directly, instead of copying data like the commonly used dd tool does (which, in my opinion, feels like a hack).
 
 # Unsorted #
-* [Kevincav/Radix-Sort](https://github.com/Kevincav/Radix-Sort) - Radix Sort with different data types.
-* [KhronosGroup/OpenCL-Headers](https://github.com/KhronosGroup/OpenCL-Headers) - Khronos OpenCL-Headers
-* [KingOfBrian/VocalKit](https://github.com/KingOfBrian/VocalKit) - Objective-C shim layer for Speech Recognition
-* [KitSprout/QCopterFlightControl](https://github.com/KitSprout/QCopterFlightControl) - 飛控板 FlightController，使用 STM32F405R
-* [KitSprout/SmartIMU](https://github.com/KitSprout/SmartIMU) - Inertial Sensor Development Kit，STM32F412R、MPU9250、LPS22HB
-* [Krakonos/cutils](https://github.com/Krakonos/cutils) - C utilities and data structures
-* [Kreijstal/Random-C-stuff](https://github.com/Kreijstal/Random-C-stuff) - For all Random C stuff
-* [Kurento/kms-core](https://github.com/Kurento/kms-core) - Core library of Kurento Media Server
-* [L1L1/cardpeek](https://github.com/L1L1/cardpeek) - Automatically exported from code.google.com/p/cardpeek
-* [LIJI32/SameBoy](https://github.com/LIJI32/SameBoy) - Game Boy and Game Boy Color emulator written in C
-* [LPD-EPFL/ASCYLIB](https://github.com/LPD-EPFL/ASCYLIB) - ASCYLIB is a concurrent-search data-structure library with over 30 implementantions of linked lists, hash tables, skip lists, and binary search trees.
-* [Lajnold/falloc](https://github.com/Lajnold/falloc) - falloc creates files of a user-specified size. It uses the posix_fallocate syscall for allocating the right size directly, instead of copying data like the commonly used dd tool does (which, in my opinion, feels like a hack).
-* [Laurelai/decompile-dump](https://github.com/Laurelai/decompile-dump) - Partial stuxnet source decompiled with hexrays, if anyone has better decompile tools feel free to contribute better versions.
-* [Leandros/WindowsHModular](https://github.com/Leandros/WindowsHModular) - A modular Windows.h Header. Licensed under Public Domain & MIT.
-* [Learn-Algorithm/Learn-Algorithm](https://github.com/Learn-Algorithm/Learn-Algorithm) - 拖延症患者学习算法小分队
-* [Lede-Inc/cetus](https://github.com/Lede-Inc/cetus) - 专注于稳定、性能和分布式事务的MySQL数据库中间件
-* [LeechanX/Data-Structures-and-Algorithms-in-C](https://github.com/LeechanX/Data-Structures-and-Algorithms-in-C) - 所有基础数据结构和算法的纯C语言实现，如各自排序、链表、栈、队列、各种树以及应用、图算法、字符串匹配算法、回溯、并查集等，献丑了
-* [LeechanX/data_struct_and_algorithms_using_C](https://github.com/LeechanX/data_struct_and_algorithms_using_C) - 所有基础数据结构和算法的纯C语言实现，如各自排序、链表、栈、队列、各种树以及应用、图算法、字符串匹配算法、回溯、并查集等，献丑了
-* [Lejdborg/NMSSH](https://github.com/Lejdborg/NMSSH) - NMSSH is an Objective-C wrapper for libssh2, with a sweet API.
-* [LemonBoy/bar](https://github.com/LemonBoy/bar) - A featherweight, lemon-scented, bar based on xcb
-* [LemonCake/JsCoreEngineiOS](https://github.com/LemonCake/JsCoreEngineiOS) - Singleton wrapper class to process javascript in the background via JavascriptCore.
-* [LibVNC/libvncserver](https://github.com/LibVNC/libvncserver) - LibVNCServer/LibVNCClient are cross-platform C libraries that allow you to easily implement VNC server or client functionality in your program.
-* [Librevault/librevault](https://github.com/Librevault/librevault) - Librevault - Peer-to-peer, decentralized and open source file sync.
 * [Lichtso/CCWT](https://github.com/Lichtso/CCWT) - Complex Continuous Wavelet Transformation
-* [LinkLayer/cantact-fw](https://github.com/LinkLayer/cantact-fw) - Firmware source files for the CANtact tool
 * [LippiOuYang/WebBench](https://github.com/LippiOuYang/WebBench) - Webbench是一个在linux下使用的非常简单的网站压测工具。它使用fork()模拟多个客户端同时访问我们设定的URL，测试网站在压力下工作的性能，最多可以模拟3万个并发连接去测试网站的负载能力。Webbench使用C语言编写, 代码实在太简洁，源码加起来不到600行。
 * [LnxPrgr3/crossfeed](https://github.com/LnxPrgr3/crossfeed) - Headphone crossfeed filter
 * [Lokaltog/candybar](https://github.com/Lokaltog/candybar) - WebKit-based status bar for tiling window managers.
