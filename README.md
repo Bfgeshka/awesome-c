@@ -889,6 +889,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [MarilynDafa/Bulllord-Engine](https://github.com/MarilynDafa/Bulllord-Engine) - lightspeed lightweight elegant  game engine in pure c
 * [MauriceGit/Cloth_Simulation](https://github.com/MauriceGit/Cloth_Simulation) - Cloth-Visualization via particle-simulation.
 * [MauriceGit/Partikel_accelleration_on_GPU](https://github.com/MauriceGit/Partikel_accelleration_on_GPU) - Particle accelleration with OpenGL 4.3, using the compute shader to calculate particle movement on graphics hardware.
+* [Olde-Skuul/doom3do](https://github.com/Olde-Skuul/doom3do) - The complete archive for DOOM for the 3DO
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1181,6 +1182,7 @@ Audio and video processing
 * [JFreegman/toxic](https://github.com/JFreegman/toxic) - An ncurses-based Tox client
 * [LibVNC/libvncserver](https://github.com/LibVNC/libvncserver) - LibVNCServer/LibVNCClient are cross-platform C libraries that allow you to easily implement VNC server or client functionality in your program.
 * [Librevault/librevault](https://github.com/Librevault/librevault) - Librevault - Peer-to-peer, decentralized and open source file sync.
+* [Netsukuku/netsukuku](https://github.com/Netsukuku/netsukuku) - Revived C-code
 
 ### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
@@ -1287,6 +1289,7 @@ Audio and video processing
 * [Jahor/osm-tools](https://github.com/Jahor/osm-tools) - Tools to operate OpenStreetMap data
 * [JayDDee/cpuminer-opt](https://github.com/JayDDee/cpuminer-opt) - Optimized multi algo CPU miner
 * [MatthewLM/cbitcoin](https://github.com/MatthewLM/cbitcoin) - A low-level bitcoin library written in standard C.
+* [Netflix/dynomite](https://github.com/Netflix/dynomite) - A generic dynamo implementation for different k-v storage engines
 
 ## Standard Libraries ##
 Implementations of the C standarts
@@ -1307,6 +1310,7 @@ Implementations of the C standarts
 * [dietlibc](http://www.fefe.de/dietlibc/) - C standard library designed for the smallest possible binaries. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 * [glibc](http://www.gnu.org/software/libc/) - The GNU C Library; an implementation of the C standard library. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
 * [musl](http://www.musl-libc.org/) - Standard C library, compatible with POSIX 2008 and C11. Designed for static linking. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
+* [NuxiNL/cloudlibc](https://github.com/NuxiNL/cloudlibc) - CloudABI's standard C library
 
 ## String Manipulation ##
 * [bstring][309] - The Better String Library. [``BSD-3-Clause``][BSD-3-Clause]
@@ -1475,20 +1479,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [Lajnold/falloc](https://github.com/Lajnold/falloc) - falloc creates files of a user-specified size. It uses the posix_fallocate syscall for allocating the right size directly, instead of copying data like the commonly used dd tool does (which, in my opinion, feels like a hack).
 
 # Unsorted #
-* [NMSSH/NMSSH](https://github.com/NMSSH/NMSSH) - NMSSH is an Objective-C wrapper for libssh2, with a sweet API.
-* [NVIDIAGameWorks/OpenGLSamples](https://github.com/NVIDIAGameWorks/OpenGLSamples) - Cross-platform OpenGL and OpenGL ES samples (for Windows, Android, and Linux)
-* [NarrativeTeam/exifyay](https://github.com/NarrativeTeam/exifyay) - Python module for reading and writing Exif data, backed by time-tested C libraries.
-* [Netflix/dynomite](https://github.com/Netflix/dynomite) - A generic dynamo implementation for different k-v storage engines
-* [Netsukuku/netsukuku](https://github.com/Netsukuku/netsukuku) - Revived C-code
-* [NetworkBlockDevice/nbd](https://github.com/NetworkBlockDevice/nbd) - Network Block Device
-* [Noirello/PyLDAP](https://github.com/Noirello/PyLDAP) - Python 3.x module for LDAP,  using libldap2 and winldap C libraries.
-* [NordicSemiconductor/nrf51-ble-app-temp](https://github.com/NordicSemiconductor/nrf51-ble-app-temp) - Project for the nRF51822 that can send data to the nRF Temp smartphone apps.
-* [Novax/chan_datacard-huawei-e150](https://github.com/Novax/chan_datacard-huawei-e150) - Patch chan_datacard
-* [NuxiNL/cloudlibc](https://github.com/NuxiNL/cloudlibc) - CloudABI's standard C library
-* [OKCoin/rest](https://github.com/OKCoin/rest) - OKCoin Rest Api客户端示例 目前只提供C++、C# 、Java、PHP、Python
-* [ObKo/stm32-cmake](https://github.com/ObKo/stm32-cmake) - CMake for stm32 developing.
-* [OculusVR/RiftDK1](https://github.com/OculusVR/RiftDK1) - Firmware, Schematics, and Mechanicals for the Oculus Rift Development Kit 1
-* [Olde-Skuul/doom3do](https://github.com/Olde-Skuul/doom3do) - The complete archive for DOOM for the 3DO
 * [OpenCPN/OpenCPN](https://github.com/OpenCPN/OpenCPN) - A concise ChartPlotter/Navigator. A cross-platform ship-borne GUI application supporting * GPS/GPDS Postition Input * BSB Raster Chart Display * S57 Vector ENChart Display * AIS Input Decoding * Waypoint Autopilot Navigation
 * [OpenEtherCATsociety/SOEM](https://github.com/OpenEtherCATsociety/SOEM) - Simple Open Source EtherCAT Master
 * [OpenGLInsights/OpenGLInsightsCode](https://github.com/OpenGLInsights/OpenGLInsightsCode) - Source code for OpenGL Insights
