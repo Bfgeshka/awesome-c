@@ -1151,6 +1151,7 @@ Audio and video processing
 * [FreeRDP/FreeRDP](https://github.com/FreeRDP/FreeRDP) - FreeRDP is a free remote desktop protocol library and clients
 * [FreeRDP/Remmina](https://github.com/FreeRDP/Remmina) - The GTK+ Remmina Remote Desktop Client
 * [GROX13/BitTorrent](https://github.com/GROX13/BitTorrent) - BitTorrent is a protocol for the practice of peer-to-peer file sharing that is used to distribute large amounts of data over the Internet. BitTorrent is one of the most common protocols for transferring large files, and peer-to-peer networks have been estimated to collectively account for approximately 43% to 70% of all Internet traffic (depending on geographical location) as of February 2009. In November 2004, BitTorrent was responsible for 35% of all Internet traffic. As of February 2013, BitTorrent was responsible for 3.35% of all worldwide bandwidth, more than half of the 6% of total bandwidth dedicated to file sharing.
+* [JFreegman/toxic](https://github.com/JFreegman/toxic) - An ncurses-based Tox client
 
 ### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
@@ -1175,6 +1176,7 @@ Audio and video processing
 ## Procedural Generation ##
 * [heman][382] - Tiny library of image utilities dealing with height maps,
   normal maps, distance fields and the like. [``MIT``][MIT]
+* [JCash/voronoi](https://github.com/JCash/voronoi) - A C implementation for creating 2D voronoi diagrams
 
 ## Regex ##
 * [Onigmo][275] - Fork of Oniguruma, supporting more advanced regexps. [``BSD-2-Clause``][BSD-2-Clause]
@@ -1248,6 +1250,8 @@ Audio and video processing
 * [libgeohash][417] - Pure C implementation of the Geohash algorithm. [``BSD-3-Clause``][BSD-3-Clause]
 * [AaronJackson/sage-in-c](https://github.com/AaronJackson/sage-in-c) - Simple library written in C for accessing invoices and company data created by Sage Accounts 50.
 * [GuillaumeHolley/BloomFilterTrie](https://github.com/GuillaumeHolley/BloomFilterTrie) - A data structure for pan-genome storage
+* [Jahor/osm-tools](https://github.com/Jahor/osm-tools) - Tools to operate OpenStreetMap data
+* [JayDDee/cpuminer-opt](https://github.com/JayDDee/cpuminer-opt) - Optimized multi algo CPU miner
 
 ## Standard Libraries ##
 Implementations of the C standarts
@@ -1433,15 +1437,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [libgit2](https://libgit2.org/) - Pure C implementation of Git. [`GNU GPL2 only, with a linking exception`](https://github.com/libgit2/libgit2/blob/master/COPYING)
 
 # Unsorted #
-* [InfiniteSearchSpace/PyCl-Convergence](https://github.com/InfiniteSearchSpace/PyCl-Convergence) - Python/OpenCl Cellular Automata design & manipulation tool
-* [IreneKnapp/modern-data](https://github.com/IreneKnapp/modern-data) - A self-describing binary data format for dependently-typed object graphs.
-* [IvanMalison/grid](https://github.com/IvanMalison/grid) - A distributed system that allows users to submit executables and data to a compute cluster.  Can withstand multiple failures without losing data.
-* [JCash/voronoi](https://github.com/JCash/voronoi) - A C implementation for creating 2D voronoi diagrams
-* [JFreegman/toxic](https://github.com/JFreegman/toxic) - An ncurses-based Tox client
-* [JHUISI/charm](https://github.com/JHUISI/charm) - Charm: A Framework for Rapidly Prototyping Cryptosystems
-* [Jahor/osm-tools](https://github.com/Jahor/osm-tools) - Tools to operate OpenStreetMap data
-* [JakSprats/Alchemy-Database](https://github.com/JakSprats/Alchemy-Database) - Hybrid Relational-Database/NOSQL-Datastore
-* [JayDDee/cpuminer-opt](https://github.com/JayDDee/cpuminer-opt) - Optimized multi algo CPU miner
 * [JazzCore/ctrlp-cmatcher](https://github.com/JazzCore/ctrlp-cmatcher) - CtrlP C matching extension
 * [JeffreyRacine/R-Package-np](https://github.com/JeffreyRacine/R-Package-np) - R package np (Nonparametric Kernel Smoothing Methods for Mixed Data Types)
 * [JoeyDeVries/Cell](https://github.com/JoeyDeVries/Cell) - OpenGL C++ Graphics Engine
