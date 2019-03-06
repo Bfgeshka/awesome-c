@@ -545,6 +545,7 @@ Neural nets, machine learning, and other similar things.
 * [JulienPalard/Mine](https://github.com/JulienPalard/Mine) - Little data miner
 * [TheWeatherChannel/dClass](https://github.com/TheWeatherChannel/dClass) - Device Classification Engine
 * [antirez/shapeme](https://github.com/antirez/shapeme) - Evolve images using simulated annealing
+* [attractivechaos/kann](https://github.com/attractivechaos/kann) - A lightweight C library for artificial neural networks
 
 ## Algoritm Implementations ##
 * [sort][434] - Collection of sorting routines, which type-specialize at
@@ -647,6 +648,7 @@ Neural nets, machine learning, and other similar things.
 * [Lichtso/CCWT](https://github.com/Lichtso/CCWT) - Complex Continuous Wavelet Transformation
 * [NCrashed/bzip2](https://github.com/NCrashed/bzip2) - Bindings for bzip2 library, a freely available, patent free, high-quality data compressor.
 * [PetteriAimonen/libfixmatrix](https://github.com/PetteriAimonen/libfixmatrix) - C library for fixed point matrix, quaternion and vector calculations
+* [b-k/apophenia](https://github.com/b-k/apophenia) - A C library for statistical and scientific computing
 
 ## Compression ##
 * [blosc][25] - Fast, multi-threaded, meta-compressor library. Various licenses,
@@ -701,6 +703,7 @@ Neural nets, machine learning, and other similar things.
 * [adnanozsoy/CUDA_Compression](https://github.com/adnanozsoy/CUDA_Compression) - A GPU-based LZSS compression algorithm, highly tuned for NVIDIA GPGPUs and for streaming data, leveraging the respective strengths of CPUs and GPUs together.
 * [andikleen/snappy-c](https://github.com/andikleen/snappy-c) - C port of the snappy compressor
 * [antirez/smaz](https://github.com/antirez/smaz) - Small strings compression library
+* [atomicobject/heatshrink](https://github.com/atomicobject/heatshrink) - data compression library for embedded/real-time systems
 
 ## Concurrency and Parallelism ##
 * [cchan][52] - Small library for channel constructs for inter-thread
@@ -777,6 +780,8 @@ protocols.
 * [B-Con/crypto-algorithms](https://github.com/B-Con/crypto-algorithms) - Basic implementations of standard cryptography algorithms, like AES and SHA-1.
 * [CertiVox/MIRACL](https://github.com/CertiVox/MIRACL) - MIRACL Cryptographic SDK: Multiprecision Integer and Rational Arithmetic Cryptographic Library is a C software library that is widely regarded by developers as the gold standard open source SDK for elliptic curve cryptography (ECC).
 * [WickrInc/wickr-crypto-c](https://github.com/WickrInc/wickr-crypto-c) - An implementation of the Wickr Secure Messaging Protocol in C
+* [ashwinraghav/Parallel_Open_SSL](https://github.com/ashwinraghav/Parallel_Open_SSL) - Use your idle GPU to encrypt your data. Give your CPU some breathing time!
+* [awslabs/s2n](https://github.com/awslabs/s2n) - s2n : an implementation of the TLS/SSL protocols
 
 ## Databases ##
 * [BerkeleyDB][83] - Library for a high-performance embedded database for
@@ -857,6 +862,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [argv0/nbds](https://github.com/argv0/nbds) - C implementations of several scalable non-blocking data structures for x86 and x86-64.
 * [armon/libart](https://github.com/armon/libart) - Adaptive Radix Trees implemented in C
 * [arnimarj/py-pointless](https://github.com/arnimarj/py-pointless) - A fast and efficient read-only relocatable data structure for JSON like data, with C and Python APIs
+* [ashinkarov/trie](https://github.com/ashinkarov/trie) - Simple implementation of trie data structure in C
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -980,6 +986,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [glfw/glfw](https://github.com/glfw/glfw) - A multi-platform library for OpenGL, OpenGL ES, Vulkan, window and input
 * [nigels-com/glew](https://github.com/nigels-com/glew) - The OpenGL Extension Wrangler Library
 * [anoek/ex-sdl-cairo-freetype-harfbuzz](https://github.com/anoek/ex-sdl-cairo-freetype-harfbuzz) - Example code which uses SDL, cairo, freetype, and harfbuzz to do ttf/otf text layout and rendering
+* [ashima/webgl-noise](https://github.com/ashima/webgl-noise) - Procedural Noise Shader Routines compatible with WebGL
 
 
 ## GUI ##
@@ -1140,6 +1147,7 @@ Audio and video processing
 * [Vidvox/hap-qt-codec](https://github.com/Vidvox/hap-qt-codec) - A QuickTime codec for Hap video
 * [acrisci/playerctl](https://github.com/acrisci/playerctl) - 🎧 mpris command-line controller and library for spotify, vlc, audacious, bmp, cmus, and others.
 * [andrewrk/libsoundio](https://github.com/andrewrk/libsoundio) - C library for cross-platform real-time audio input and output
+* [aubio/aubio](https://github.com/aubio/aubio) - a library for audio and music analysis
 
 ## Multiple Purpose Libraries ##
 * [pal][65] - Optimized library for maths, parallel processing and data
@@ -1371,6 +1379,7 @@ Audio and video processing
 * [libdjb](http://www.fefe.de/djb/) - Collection of libraries doing various things. [`(Apparently) Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
 * [BurntSushi/clibs](https://github.com/BurntSushi/clibs) - A smattering of miscellaneous C libraries. Includes sane argument parsing, a thread-safe multi-producer/multi-consumer queue, and implementation of common data structures (hashmaps, vectors and linked lists).
 * [RandyGaul/cute_headers](https://github.com/RandyGaul/cute_headers) - Collection of cross-platform one-file C/C++ libraries with no dependencies, primarily used for games
+* [attractivechaos/klib](https://github.com/attractivechaos/klib) - A standalone and lightweight C library
 
 ## Special Purpose ##
 * [Tulip Indicators][394] - Library of functions for technical analysis of
@@ -1591,6 +1600,7 @@ Comprehensive and integrated solutions for building web application in C.
 * [Yubico/yubico-c-client](https://github.com/Yubico/yubico-c-client) - Yubico C client library
 * [adobkin/libcapn](https://github.com/adobkin/libcapn) - A simple C Library for interact with the Apple Push Notification Service (APNs)
 * [andrewstone/AbqData](https://github.com/andrewstone/AbqData) - Tools to read ABQ Open Data Initiative city gov data
+* [aws/aws-iot-device-sdk-embedded-C](https://github.com/aws/aws-iot-device-sdk-embedded-C) - SDK for connecting to AWS IoT from a device using embedded C.
 
 [424]: http://coap.technology/
 
@@ -1606,42 +1616,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [armon/statsite](https://github.com/armon/statsite) - C implementation of statsd
 
 # Unsorted #
-* [ashima/webgl-noise](https://github.com/ashima/webgl-noise) - Procedural Noise Shader Routines compatible with WebGL
-* [ashinkarov/trie](https://github.com/ashinkarov/trie) - Simple implementation of trie data structure in C
-* [ashwinraghav/Parallel_Open_SSL](https://github.com/ashwinraghav/Parallel_Open_SSL) - Use your idle GPU to encrypt your data. Give your CPU some breathing time!
-* [aspotton/xonotic-data-patches](https://github.com/aspotton/xonotic-data-patches) - A clone of xonotic-data plus additional branches
-* [asterisk/asterisk](https://github.com/asterisk/asterisk) -  Mirror of the official Asterisk(https://www.asterisk.org) Project repository No pull requests here please.  Use Gerrit:
-* [astro/collectd](https://github.com/astro/collectd) - Some personal modifications to collectd, the kick-ass data collector
-* [asynclabs/WiShield_user_contrib](https://github.com/asynclabs/WiShield_user_contrib) - WiShield library with user contributed features
-* [atduskgreg/Head-Puppet](https://github.com/atduskgreg/Head-Puppet) - Open Frameworks app for distorting a 3D model of my head based on Kinect skeleton tracking data over OSC
-* [atduskgreg/Leg-Visualization](https://github.com/atduskgreg/Leg-Visualization) - OF app to visualize leg movement data from Biomechanics and Motor Control of Human Movement by David A. Winter
-* [aterrien/forp-PHP-profiler](https://github.com/aterrien/forp-PHP-profiler) - A PHP profiler written in C. forp is a lightweight PHP extension which provides the full call stack of your script, with CPU and memory usage, in a plain PHP Array or JSON output.
-* [atg/chocolat-public](https://github.com/atg/chocolat-public) - Public bug tracker for the private chocolat project
-* [atheme/atheme](https://github.com/atheme/atheme) - Atheme IRC Services
-* [atheme/charybdis](https://github.com/atheme/charybdis) - an extremely scalable ircd with some cooperation with the ratbox and ircu guys
-* [atks/vt](https://github.com/atks/vt) - A tool set for short variant discovery in genetic sequence data.
-* [atmatthewat/mdc-encode-decode](https://github.com/atmatthewat/mdc-encode-decode) - Software modem for a specific data burst format
-* [atomicobject/heatshrink](https://github.com/atomicobject/heatshrink) - data compression library for embedded/real-time systems
-* [atris/JDBC_FDW](https://github.com/atris/JDBC_FDW) - FDW that wraps JDBC for PostgreSQL.It can be used to connect and fetch data from any data source that supports JDBC
-* [attractivechaos/kann](https://github.com/attractivechaos/kann) - A lightweight C library for artificial neural networks
-* [attractivechaos/klib](https://github.com/attractivechaos/klib) - A standalone and lightweight C library
-* [aubio/aubio](https://github.com/aubio/aubio) - a library for audio and music analysis
-* [audiohacked/OpenCorsairLink](https://github.com/audiohacked/OpenCorsairLink) - Linux and Mac OS support for the CorsairLink Devices
-* [augustl/halt](https://github.com/augustl/halt) - OS where everything is immutable! (Experimental)
-* [aurelian/ruby-stemmer](https://github.com/aurelian/ruby-stemmer) - Expose libstemmer_c to Ruby
-* [autosportlabs/RaceCapture-Pro_firmware](https://github.com/autosportlabs/RaceCapture-Pro_firmware) - Firmware for RaceCapture-Pro Data Acquisition, control and Telemetry system for motorsports
-* [avilleret/laser_drawer](https://github.com/avilleret/laser_drawer) - laser_driver is a pure-data patch to control a Laser projector with a sound card
-* [awesomeWM/awesome](https://github.com/awesomeWM/awesome) - awesome window manager
-* [aws/amazon-cognito-identity-js](https://github.com/aws/amazon-cognito-identity-js) - Amazon Cognito Identity SDK for JavaScript
-* [aws/aws-iot-device-sdk-embedded-C](https://github.com/aws/aws-iot-device-sdk-embedded-C) - SDK for connecting to AWS IoT from a device using embedded C.
-* [awslabs/s2n](https://github.com/awslabs/s2n) - s2n : an implementation of the TLS/SSL protocols
-* [axiak/pybloomfiltermmap](https://github.com/axiak/pybloomfiltermmap) - Fast Python Bloom Filter using Mmap
-* [axoltl/HubCap](https://github.com/axoltl/HubCap) - ChromeCast HubCap exploit
-* [b-k/21st-Century-Examples](https://github.com/b-k/21st-Century-Examples) - Examples for _21st Century C_ by Ben Klemens
-* [b-k/apophenia](https://github.com/b-k/apophenia) - A C library for statistical and scientific computing
-* [b4n/ctags](https://github.com/b4n/ctags) - Git mirror of Exuberant CTags SVN (http://ctags.sourceforge.net/), with additional feature branches
-* [b4winckler/macvim](https://github.com/b4winckler/macvim) - Vim - the text editor - for Mac OS X
-* [b4winckler/vim](https://github.com/b4winckler/vim) - Mirror of the Vim Mercurial repository
 * [babelouest/ulfius](https://github.com/babelouest/ulfius) - Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. Can stream large amount of data, integrate JSON data with Jansson, and create websocket services
 * [bagder/c-ares](https://github.com/bagder/c-ares) - c-ares is a C library for asynchronous DNS requests
 * [bagder/curl](https://github.com/bagder/curl) - Curl is a tool and libcurl is a library for transferring data with URL syntax, supporting FTP, FTPS, HTTP, HTTPS, GOPHER, TFTP, SCP, SFTP, TELNET, DICT, LDAP, LDAPS, FILE, IMAP, SMTP, POP3, RTSP and RTMP. libcurl offers a myriad of powerful features
