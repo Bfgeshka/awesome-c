@@ -358,6 +358,7 @@ Incorporated lists:
 * [mcpp](http://mcpp.sourceforge.net/) - Portable C preprocessor. [`2-clause BSD`](https://opensource.org/licenses/BSD-2-Clause)
 * [Capstone](https://github.com/aquynh/capstone) - Dissasembly/disassembler framework. [`BSD 3-clause`](https://github.com/aquynh/capstone/blob/master/LICENSE.TXT)
 * [anael-seghezzi/CToy](https://github.com/anael-seghezzi/CToy) - Interactive C coding environment
+* [aquynh/capstone](https://github.com/aquynh/capstone) - Capstone disassembly/disassembler framework: Core (Arm, Arm64, BPF, EVM, M68K, M680X, MOS65xx, Mips, PPC, Sparc, SystemZ, TMS320C64x, Web Assembly, X86, X86_64, XCore) + bindings.
 
 [10-1]: https://ccache.samba.org/
 [10-2]: https://github.com/distcc/distcc
@@ -469,6 +470,7 @@ Incorporated lists:
 * [The lost art of C structure packing](http://www.catb.org/esr/structure-packing/)
 * [What a C programmer should know about memory](http://marek.vavrusa.com/memory/)
 * [What every C programmer should know about undefined behaviour](http://blog.llvm.org/2011/05/what-every-c-programmer-should-know.html)
+* [arjun024/hide-data-in-ptr](https://github.com/arjun024/hide-data-in-ptr) - how to hide data inside pointers
 
 ##### Advanced Level #####
 * [Advanced metaprogramming in C][477]
@@ -514,6 +516,7 @@ Incorporated lists:
 * [andreafabrizi/prism](https://github.com/andreafabrizi/prism) - PRISM is an user space stealth reverse shell backdoor, written in pure C.
 * [andwn/cave-story-md](https://github.com/andwn/cave-story-md) - A fan port of Cave Story for the Sega Mega Drive
 * [angband/angband](https://github.com/angband/angband) - A free, single-player roguelike dungeon exploration game
+* [arjun024/mkernel](https://github.com/arjun024/mkernel) - a minimalistic kernel
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -851,6 +854,9 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [alexanderb14/cCollections](https://github.com/alexanderb14/cCollections) - lightweight dynamic data structures for C
 * [angelortega/mpdm](https://github.com/angelortega/mpdm) - Minimum Profit Data Manager
 * [antirez/rax](https://github.com/antirez/rax) - A radix tree implementation in ANSI C
+* [argv0/nbds](https://github.com/argv0/nbds) - C implementations of several scalable non-blocking data structures for x86 and x86-64.
+* [armon/libart](https://github.com/armon/libart) - Adaptive Radix Trees implemented in C
+* [arnimarj/py-pointless](https://github.com/arnimarj/py-pointless) - A fast and efficient read-only relocatable data structure for JSON like data, with C and Python APIs
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -866,6 +872,7 @@ Foreign function interfaces, also know as binding interfaces.
 * [GNU Libffcall][405] - Collection of libraries for building foreign function
   interfaces. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [dyncall][406] - Another foreign function interface library. [``MIT``][MIT]
+* [atgreen/libffi](https://github.com/atgreen/libffi) - A portable foreign-function interface library.
 
 ## Flow Control and Language Extension ##
 * [libCello][429] - Library introducing higher-level programming to C. [``BSD-3-Clause``][BSD-3-Clause]
@@ -882,6 +889,7 @@ Foreign function interfaces, also know as binding interfaces.
 * [LuaDist/toluapp](https://github.com/LuaDist/toluapp) - tolua++ is an extension of toLua, a tool to integrate C/Cpp code with Lua
 * [Zeex/subhook](https://github.com/Zeex/subhook) - Simple hooking library for C/C++ (x86 only, 32/64-bit, no dependencies)
 * [alexanderchuranov/Metaresc](https://github.com/alexanderchuranov/Metaresc) - META data and RESource library for  C language
+* [arnaudbrejeon/cspec](https://github.com/arnaudbrejeon/cspec) - Behavior driven development in C
 
 ## Game Development ##
 Engines, libraries and other helpful things specifically for making games.
@@ -1070,6 +1078,8 @@ can be found in the Crypto section.
 * [0xmalloc/c-log](https://github.com/0xmalloc/c-log) - a fast ,stable and thread-safe log lib(logger) for C/C++ language
 * [Celtoys/Remotery](https://github.com/Celtoys/Remotery) - Single C file, Realtime CPU/GPU Profiler with Remote Web Viewer
 * [HardySimpson/zlog](https://github.com/HardySimpson/zlog) - A reliable, high-performance, thread safe, flexsible, clear-model, pure C logging library.
+* [armink/CmBacktrace](https://github.com/armink/CmBacktrace) - Advanced fault backtrace library for ARM Cortex-M series MCU | ARM Cortex-M 系列 MCU 错误追踪库
+* [armink/EasyLogger](https://github.com/armink/EasyLogger) - A ultra-lightweight(ROM<1.6K, RAM<0.3k), high-performance C/C++ log library. | 一款超轻量级(ROM<1.6K, RAM<0.3k)、高性能的 C/C++ 日志库
 
 ## Lexing and Parsing ##
 Generic lexers and parsers
@@ -1258,6 +1268,8 @@ Audio and video processing
 * [Librevault/librevault](https://github.com/Librevault/librevault) - Librevault - Peer-to-peer, decentralized and open source file sync.
 * [Netsukuku/netsukuku](https://github.com/Netsukuku/netsukuku) - Revived C-code
 * [Tox/toxic](https://github.com/Tox/toxic) - CLI Tox client
+* [armon/bloomd](https://github.com/armon/bloomd) - C network daemon for bloom filters
+* [armon/hlld](https://github.com/armon/hlld) - C network daemon for HyperLogLogs
 
 ### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
@@ -1286,6 +1298,8 @@ Audio and video processing
 * [adoxa/ansicon](https://github.com/adoxa/ansicon) - Process ANSI escape sequences for Windows console programs.
 * [aidenbell/getdents](https://github.com/aidenbell/getdents) - Simple tool for listing large (millions) numbers of files on Linux systems without causing memory issues. Useful for shell scripting large data stores.
 * [antirez/linenoise](https://github.com/antirez/linenoise) - A small self-contained alternative to readline and libedit
+* [ardagnir/athame](https://github.com/ardagnir/athame) - Full vim for readline (bash, gdb, python, etc)
+* [asamy/ksm](https://github.com/asamy/ksm) - A really simple and lightweight x64 hypervisor written in C.  Supports VMFUNC, EPTP switching, #VE EPT Violation, VT-x nesting and IDT shadowing.  VMFUNC backward compatibility also supported.
 
 ## Procedural Generation ##
 * [heman][382] - Tiny library of image utilities dealing with height maps,
@@ -1460,6 +1474,7 @@ Libraries for working wit hspecific filetypes
 * [YAJL](https://lloyd.github.io/yajl/) - Fast C JSON streaming parser library. [`ISC`](https://directory.fsf.org/wiki/License:ISC)
 * [DaveGamble/cJSON](https://github.com/DaveGamble/cJSON) - Ultralightweight JSON parser in ANSI C
 * [akheron/jansson](https://github.com/akheron/jansson) - C library for encoding, decoding and manipulating JSON data
+* [armink/struct2json](https://github.com/armink/struct2json) - A fast convert library between the JSON and C structure. Implement structure serialization and deserialization for C. | C 结构体与 JSON 快速互转库，快速实现 C 结构体的序列化及反序列化
 
 ### INI ###
 * [inih][329] - Small and simple INI file parser, good for embedded systems. [``BSD-3-Clause``][BSD-3-Clause]
@@ -1504,6 +1519,7 @@ Libraries for working wit hspecific filetypes
 * [libucl](https://github.com/vstakhov/libucl) - Universal configuration library parser. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
 * [StefanKarpinski/odb](https://github.com/StefanKarpinski/odb) - ODB: On-Disk Binary Data Tool
 * [WizardMac/ReadStat](https://github.com/WizardMac/ReadStat) - Command-line tool (+ C library) for converting SAS, Stata, and SPSS files
+* [arrbee/diff-match-patch-c](https://github.com/arrbee/diff-match-patch-c) - C language port of google-diff-match-patch library
 
 --------------------------------------------------------------------------------
 
@@ -1587,32 +1603,9 @@ Comprehensive and integrated solutions for building web application in C.
 * [ThomasHabets/monotonic_clock](https://github.com/ThomasHabets/monotonic_clock) - Portable C library for getting monotonic time
 * [WhisperSystems/libsignal-protocol-c](https://github.com/WhisperSystems/libsignal-protocol-c) - Signal Protocol C Library
 * [alandekok/recli](https://github.com/alandekok/recli) - A re-imagined CLI.  Customizable syntax, help, permissions, data types.
+* [armon/statsite](https://github.com/armon/statsite) - C implementation of statsd
 
 # Unsorted #
-* [aquynh/capstone](https://github.com/aquynh/capstone) - Capstone disassembly/disassembler framework: Core (Arm, Arm64, BPF, EVM, M68K, M680X, MOS65xx, Mips, PPC, Sparc, SystemZ, TMS320C64x, Web Assembly, X86, X86_64, XCore) + bindings.
-* [arachsys/containers](https://github.com/arachsys/containers) - Lightweight containers using Linux user namespaces
-* [ardagnir/athame](https://github.com/ardagnir/athame) - Full vim for readline (bash, gdb, python, etc)
-* [argv0/nbds](https://github.com/argv0/nbds) - C implementations of several scalable non-blocking data structures for x86 and x86-64.
-* [arjun024/hide-data-in-ptr](https://github.com/arjun024/hide-data-in-ptr) - how to hide data inside pointers
-* [arjun024/mkernel](https://github.com/arjun024/mkernel) - a minimalistic kernel
-* [armbrustlab/SEAStAR](https://github.com/armbrustlab/SEAStAR) - SEAStAR is a package of tools supporting the construction of complete analysis pipelines for next-generation (Illumina®, SOLiD™) sequencing data generated from environmental samples.
-* [armink/CmBacktrace](https://github.com/armink/CmBacktrace) - Advanced fault backtrace library for ARM Cortex-M series MCU | ARM Cortex-M 系列 MCU 错误追踪库
-* [armink/EasyDataManager](https://github.com/armink/EasyDataManager) - A c language advanced framework of data manager. Support static data and dynamic data. Supply easy and simple interface for app.
-* [armink/EasyLogger](https://github.com/armink/EasyLogger) - A ultra-lightweight(ROM<1.6K, RAM<0.3k), high-performance C/C++ log library. | 一款超轻量级(ROM<1.6K, RAM<0.3k)、高性能的 C/C++ 日志库
-* [armink/struct2json](https://github.com/armink/struct2json) - A fast convert library between the JSON and C structure. Implement structure serialization and deserialization for C. | C 结构体与 JSON 快速互转库，快速实现 C 结构体的序列化及反序列化
-* [armon/bloomd](https://github.com/armon/bloomd) - C network daemon for bloom filters
-* [armon/hlld](https://github.com/armon/hlld) - C network daemon for HyperLogLogs
-* [armon/libart](https://github.com/armon/libart) - Adaptive Radix Trees implemented in C
-* [armon/statsite](https://github.com/armon/statsite) - C implementation of statsd
-* [arnaudbrejeon/cspec](https://github.com/arnaudbrejeon/cspec) - Behavior driven development in C
-* [arnimarj/py-pointless](https://github.com/arnimarj/py-pointless) - A fast and efficient read-only relocatable data structure for JSON like data, with C and Python APIs
-* [arrbee/diff-match-patch-c](https://github.com/arrbee/diff-match-patch-c) - C language port of google-diff-match-patch library
-* [arut/nginx-rtmp-module](https://github.com/arut/nginx-rtmp-module) - NGINX-based Media Streaming Server
-* [as0ler/iphone-dataprotection](https://github.com/as0ler/iphone-dataprotection) - Some useful tools for a iOS Forensics.
-* [asadzia/Algorithms-and-Data-Structures](https://github.com/asadzia/Algorithms-and-Data-Structures) - A list of implementations of various algorithms and data structures.
-* [asamy/ksm](https://github.com/asamy/ksm) - A really simple and lightweight x64 hypervisor written in C.  Supports VMFUNC, EPTP switching, #VE EPT Violation, VT-x nesting and IDT shadowing.  VMFUNC backward compatibility also supported.
-* [asanchez1987/jobcomp-elasticsearch](https://github.com/asanchez1987/jobcomp-elasticsearch) - SLURM jobcomp plugin to index data into an elasticsearch server
-* [aseveryn/NLPIR-2013](https://github.com/aseveryn/NLPIR-2013) - Source code and data used in the NLPIR course (Sprint, 2013)
 * [ashima/webgl-noise](https://github.com/ashima/webgl-noise) - Procedural Noise Shader Routines compatible with WebGL
 * [ashinkarov/trie](https://github.com/ashinkarov/trie) - Simple implementation of trie data structure in C
 * [ashwinraghav/Parallel_Open_SSL](https://github.com/ashwinraghav/Parallel_Open_SSL) - Use your idle GPU to encrypt your data. Give your CPU some breathing time!
@@ -1624,7 +1617,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [atduskgreg/Leg-Visualization](https://github.com/atduskgreg/Leg-Visualization) - OF app to visualize leg movement data from Biomechanics and Motor Control of Human Movement by David A. Winter
 * [aterrien/forp-PHP-profiler](https://github.com/aterrien/forp-PHP-profiler) - A PHP profiler written in C. forp is a lightweight PHP extension which provides the full call stack of your script, with CPU and memory usage, in a plain PHP Array or JSON output.
 * [atg/chocolat-public](https://github.com/atg/chocolat-public) - Public bug tracker for the private chocolat project
-* [atgreen/libffi](https://github.com/atgreen/libffi) - A portable foreign-function interface library.
 * [atheme/atheme](https://github.com/atheme/atheme) - Atheme IRC Services
 * [atheme/charybdis](https://github.com/atheme/charybdis) - an extremely scalable ircd with some cooperation with the ratbox and ircu guys
 * [atks/vt](https://github.com/atks/vt) - A tool set for short variant discovery in genetic sequence data.
