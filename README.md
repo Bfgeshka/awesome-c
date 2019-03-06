@@ -485,6 +485,8 @@ Incorporated lists:
 * [CTurt/Cinoop](https://github.com/CTurt/Cinoop) - Multiplatform Game Boy emulator
 * [ChibiOS/ChibiOS](https://github.com/ChibiOS/ChibiOS) - Read only mirror of SVN ChibiOS repository. Official forum http://forum.chibios.org  Bugtracker http://sourceforge.net/projects/chibios
 * [EtchedPixels/FUZIX](https://github.com/EtchedPixels/FUZIX) - FuzixOS: Because Small Is Beautiful
+* [Fedjmike/mini-c](https://github.com/Fedjmike/mini-c) - Dr Strangehack, or: how to write a self-hosting C compiler in 10 hours
+* [FreddieV4/DailyProgrammerChallenges](https://github.com/FreddieV4/DailyProgrammerChallenges) - External Repo of Challenges from r/dailyprogrammer
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -906,6 +908,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [AdysTech/raspy-weather](https://github.com/AdysTech/raspy-weather) - A set of C libraries to gather Temperature and Humidity data from generic DHT11 sensor, store it in a round-robin database and show it in a PHP page.
 * [Azure/azure-iot-sdk-c](https://github.com/Azure/azure-iot-sdk-c) - A C99 SDK for connecting devices to Microsoft Azure IoT services
 * [Eugnis/spectre-attack](https://github.com/Eugnis/spectre-attack) - Example of using revealed "Spectre" exploit (CVE-2017-5753 and CVE-2017-5715)
+* [FoxelSA/libfastcal](https://github.com/FoxelSA/libfastcal) - Fast calibration data access
 
 ## Hashing ##
 Hash function implementations for *non*-crypto purposes. Cryptographic hashes
@@ -1126,6 +1129,8 @@ Audio and video processing
 * [51Degrees/Device-Detection](https://github.com/51Degrees/Device-Detection) - THE Fastest and most Accurate device detection for C / PHP / Perl / Python and Node.js - professionally maintained device data
 * [uriparser](https://uriparser.github.io) - Strictly RFC 3986-compliant URI parsing and handling library. [``BSD-3-Clause``][BSD-3-Clause]
 * [ElementsProject/lightning](https://github.com/ElementsProject/lightning) - c-lightning — a Lightning Network implementation in C
+* [FreeRDP/FreeRDP](https://github.com/FreeRDP/FreeRDP) - FreeRDP is a free remote desktop protocol library and clients
+* [FreeRDP/Remmina](https://github.com/FreeRDP/Remmina) - The GTK+ Remmina Remote Desktop Client
 
 ### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
@@ -1406,22 +1411,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [libgit2](https://libgit2.org/) - Pure C implementation of Git. [`GNU GPL2 only, with a linking exception`](https://github.com/libgit2/libgit2/blob/master/COPYING)
 
 # Unsorted #
-* [FauxFaux/PuTTYTray](https://github.com/FauxFaux/PuTTYTray) - A continuation of Barry Haanstra (haanstra.eu)'s PuTTYTray
-* [Fazecast/jSerialComm](https://github.com/Fazecast/jSerialComm) - Platform-independent serial port access for Java
-* [Fedjmike/mini-c](https://github.com/Fedjmike/mini-c) - Dr Strangehack, or: how to write a self-hosting C compiler in 10 hours
-* [FedoraScientific/scientific_spin_tests](https://github.com/FedoraScientific/scientific_spin_tests) - Test scripts and data for Fedora Scientific Spin
-* [FliPPeh/cNBT](https://github.com/FliPPeh/cNBT) - An NBT file parser and manipulator library
-* [FoxelSA/libfastcal](https://github.com/FoxelSA/libfastcal) - Fast calibration data access
-* [Frans-Willem/EspLightNode](https://github.com/Frans-Willem/EspLightNode) - ESP8266 firmware to receive lighting data over TPM2, Art-Net and drive a WS2801 addressable LED strip.
-* [Frans-Willem/LEDMatrixHUB75](https://github.com/Frans-Willem/LEDMatrixHUB75) - Driver for a LED Matrix of 9 32x16 RGB HUB75 panels, using an STM32F4 Discovery board as low-level driver, and an Atheros AR9331 based WiFi router running OpenWRT as Art-Net data receiver.
-* [FreddieV4/DailyProgrammerChallenges](https://github.com/FreddieV4/DailyProgrammerChallenges) - External Repo of Challenges from r/dailyprogrammer
-* [FreeApophis/TrueCrypt](https://github.com/FreeApophis/TrueCrypt) - This repository applies all Versions of the Original TrueCrypt Source Files in order
-* [FreeRADIUS/freeradius-server](https://github.com/FreeRADIUS/freeradius-server) - FreeRADIUS - A multi-protocol policy server.
-* [FreeRDP/FreeRDP](https://github.com/FreeRDP/FreeRDP) - FreeRDP is a free remote desktop protocol library and clients
-* [FreeRDP/Remmina](https://github.com/FreeRDP/Remmina) - The GTK+ Remmina Remote Desktop Client
-* [FreedomBen/rtl8188ce-linux-driver](https://github.com/FreedomBen/rtl8188ce-linux-driver) - This modified version of the RealTek WiFi driver fixes some issues with RealTek cards on Linux.
-* [FrictionalGames/HPL1Engine](https://github.com/FrictionalGames/HPL1Engine) - A real time 3D engine.
-* [FuruyamaTakeshi/DLNA](https://github.com/FuruyamaTakeshi/DLNA) - DLNA  sample code using CyberLink Objective-C Wrapper. This sample can browse contents from DMS and play content at DMR.
 * [GHamrouni/Recommender](https://github.com/GHamrouni/Recommender) - A C library for product recommendations/suggestions using collaborative filtering (CF)
 * [GNOME/evolution-data-server](https://github.com/GNOME/evolution-data-server) - evolution-data-server
 * [GNOME/libgda](https://github.com/GNOME/libgda) - Libgda is a (relatively small) database access library:
@@ -1431,7 +1420,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [GeoffMontee/tds_fdw](https://github.com/GeoffMontee/tds_fdw) - A PostgreSQL foreign data wrapper to connect to TDS databases (Sybase and Microsoft SQL Server)
 * [Gigoteur/UnicornConsole](https://github.com/Gigoteur/UnicornConsole) - Unicorn Console: create quick game !
 * [Gnucash/gnucash](https://github.com/Gnucash/gnucash) - Public Mirror of code.gnucash.org/gnucash
-* [GrahamDumpleton/mod_wsgi](https://github.com/GrahamDumpleton/mod_wsgi) - Source code for Apache/mod_wsgi.
 * [GuillaumeHolley/BloomFilterTrie](https://github.com/GuillaumeHolley/BloomFilterTrie) - A data structure for pan-genome storage
 * [H2CO3/Sparkling](https://github.com/H2CO3/Sparkling) - Lightweight extension language
 * [H2CO3/libsprec](https://github.com/H2CO3/libsprec) - C library for speech recognition using the Google Speech API
