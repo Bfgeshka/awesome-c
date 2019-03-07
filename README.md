@@ -537,6 +537,8 @@ Incorporated lists:
 * [chneukirchen/cwm](https://github.com/chneukirchen/cwm) - portable version of OpenBSD's cwm(1) window manager
 * [cirosantilli/cpp-cheat](https://github.com/cirosantilli/cpp-cheat) - C, C++, POSIX and Linux system programming minimal examples. Asserts used wherever possible. Hello worlds for cool third party libraries and build systems. Cheatsheets, tutorials and mini-projects.
 * [cksystemsteaching/selfie](https://github.com/cksystemsteaching/selfie) - An educational software system of a tiny self-compiling C compiler, a tiny self-executing RISC-V emulator, and a tiny self-hosting RISC-V hypervisor.
+* [cmus/cmus](https://github.com/cmus/cmus) - Small, fast and powerful console music player for Unix-like operating systems.
+* [collectd/collectd](https://github.com/collectd/collectd) - The system statistics collection daemon. Please send Pull Requests here!
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -567,6 +569,8 @@ Neural nets, machine learning, and other similar things.
 * [antirez/shapeme](https://github.com/antirez/shapeme) - Evolve images using simulated annealing
 * [attractivechaos/kann](https://github.com/attractivechaos/kann) - A lightweight C library for artificial neural networks
 * [cjac/cmusphinx](https://github.com/cjac/cmusphinx) - CMU Sphinx - Speech Recognition Toolkit
+* [cmusphinx/pocketsphinx](https://github.com/cmusphinx/pocketsphinx) - PocketSphinx is a lightweight speech recognition engine, specifically tuned for handheld and mobile devices, though it works equally well on the desktop
+* [codeplea/genann](https://github.com/codeplea/genann) - simple neural network library in ANSI C
 
 ## Algoritm Implementations ##
 * [sort][434] - Collection of sorting routines, which type-specialize at
@@ -598,6 +602,7 @@ Neural nets, machine learning, and other similar things.
 * [PaulStoffregen/teensy_loader_cli](https://github.com/PaulStoffregen/teensy_loader_cli) - Command line Teensy Loader
 * [clibs/flag](https://github.com/clibs/flag) - Go-style flag parsing for C
 * [clibs/commander](https://github.com/clibs/commander) - Commander option parser ported to C - simple API, auto-generated --help
+* [cofyc/argparse](https://github.com/cofyc/argparse) - Command-line arguments parsing library.
 
 ## Calculations ##
 * [apophenia][250] - Library for statistical and scientific computing. [``GPL-2.0-only``][GPL-2.0-only]
@@ -911,6 +916,8 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [chriso/bitset](https://github.com/chriso/bitset) - A compressed bitset with supporting data structures and algorithms
 * [chucknthem/Data-structures-algorithms](https://github.com/chucknthem/Data-structures-algorithms) - Collection of Data structures, algorithms and interesting bits of code.
 * [clibs/list](https://github.com/clibs/list) - C doubly linked list
+* [codeprepper/data-structures](https://github.com/codeprepper/data-structures) - arrays, linked lists, stacks and queues
+* [coderaven/B-Tree](https://github.com/coderaven/B-Tree) - B-Tree Implementation in C. A project in Data Structures.
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -945,6 +952,7 @@ Foreign function interfaces, also know as binding interfaces.
 * [alexanderchuranov/Metaresc](https://github.com/alexanderchuranov/Metaresc) - META data and RESource library for  C language
 * [arnaudbrejeon/cspec](https://github.com/arnaudbrejeon/cspec) - Behavior driven development in C
 * [cioc/functionalC](https://github.com/cioc/functionalC) - Not because it is good, but because we can...
+* [comex/substitute](https://github.com/comex/substitute) - A free runtime modification library.
 
 ## Game Development ##
 Engines, libraries and other helpful things specifically for making games.
@@ -1010,6 +1018,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [ccore/ccore_rewrite](https://github.com/ccore/ccore_rewrite) - A cross platform low level game development library
 * [chocolate-doom/chocolate-doom](https://github.com/chocolate-doom/chocolate-doom) - Chocolate Doom is a Doom source port that is minimalist and historically accurate.
 * [cloudwu/skynet](https://github.com/cloudwu/skynet) - A lightweight online game framework
+* [cocos2d/cocos2d-frame](https://github.com/cocos2d/cocos2d-frame) - Player and "stub" for cocos2d
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1211,6 +1220,8 @@ Audio and video processing
 * [acrisci/playerctl](https://github.com/acrisci/playerctl) - 🎧 mpris command-line controller and library for spotify, vlc, audacious, bmp, cmus, and others.
 * [andrewrk/libsoundio](https://github.com/andrewrk/libsoundio) - C library for cross-platform real-time audio input and output
 * [aubio/aubio](https://github.com/aubio/aubio) - a library for audio and music analysis
+* [cmatsuoka/libxmp](https://github.com/cmatsuoka/libxmp) - Libxmp is a library that renders module files to PCM data.
+* [cnlohr/colorchord](https://github.com/cnlohr/colorchord) - Chromatic Sound to Light Conversion System
 
 ## Multiple Purpose Libraries ##
 * [pal][65] - Optimized library for maths, parallel processing and data
@@ -1592,6 +1603,8 @@ Libraries for working wit hspecific filetypes
   [Variety of licenses, all open source][421].
 * [Orc/discount](https://github.com/Orc/discount) - My C implementation of John Gruber's Markdown markup language
 * [ali-rantakari/peg-markdown-highlight](https://github.com/ali-rantakari/peg-markdown-highlight) - C library for Markdown syntax highlighting, using a recursive-descent parser.
+* [commonmark/cmark](https://github.com/commonmark/cmark) - CommonMark parsing and rendering library and program in C
+* [commonsguy/cwac-anddown](https://github.com/commonsguy/cwac-anddown) - CWAC AndDown: Markdown Utility Library
 
 ### XML ###
 * [Expat][332] - Stream-oriented XML parser. [MIT][MIT]
@@ -1723,35 +1736,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [cloudyourcar/minmea](https://github.com/cloudyourcar/minmea) - a lightweight GPS NMEA 0183 parser library in pure C
 
 # Unsorted #
-* [cmatsuoka/libxmp](https://github.com/cmatsuoka/libxmp) - Libxmp is a library that renders module files to PCM data.
-* [cmus/cmus](https://github.com/cmus/cmus) - Small, fast and powerful console music player for Unix-like operating systems.
-* [cmusphinx/pocketsphinx](https://github.com/cmusphinx/pocketsphinx) - PocketSphinx is a lightweight speech recognition engine, specifically tuned for handheld and mobile devices, though it works equally well on the desktop
-* [cni/pdr](https://github.com/cni/pdr) - CNI Peripheral Data Reader (PDR)
-* [cnlohr/channel3](https://github.com/cnlohr/channel3) - ESP8266 Analog Broadcast Television Interface
-* [cnlohr/colorchord](https://github.com/cnlohr/colorchord) - Chromatic Sound to Light Conversion System
-* [cnlohr/wificompositer](https://github.com/cnlohr/wificompositer) - Various tools I used to collect and composite data from a wifi device into an image.
-* [cockpit-project/cockpit](https://github.com/cockpit-project/cockpit) - There's code a goin' on
-* [cocos2d/cocos2d-frame](https://github.com/cocos2d/cocos2d-frame) - Player and "stub" for cocos2d
-* [codahale/bcrypt-ruby](https://github.com/codahale/bcrypt-ruby) - bcrypt-ruby is a Ruby binding for the OpenBSD bcrypt() password hashing algorithm, allowing you to easily store a secure hash of your users' passwords.
-* [code-mancers/rbkit](https://github.com/code-mancers/rbkit) - A new profiler for Ruby. With a GUI
-* [codebox/bitmeteros](https://github.com/codebox/bitmeteros) - BitMeter OS - a cross-platform bandwidth monitor
-* [codeman38/zvbi2raw](https://github.com/codeman38/zvbi2raw) - A quick-and-dirty tool for capturing vertical blanking interval data using libzvbi
-* [codeplea/genann](https://github.com/codeplea/genann) - simple neural network library in ANSI C
-* [codeprepper/data-structures](https://github.com/codeprepper/data-structures) - arrays, linked lists, stacks and queues
-* [coderaven/B-Tree](https://github.com/coderaven/B-Tree) - B-Tree Implementation in C. A project in Data Structures.
-* [codinghead/nmea-module](https://github.com/codinghead/nmea-module) - Module to enable decoding of NMEA data from GPS receivers.
-* [cofyc/argparse](https://github.com/cofyc/argparse) - Command-line arguments parsing library.
-* [cofyc/dnscrypt-wrapper](https://github.com/cofyc/dnscrypt-wrapper) - This is dnscrypt wrapper (server-side dnscrypt proxy), which helps to add dnscrypt support to any name resolver.
-* [coins11/data-structures-and-algorithms](https://github.com/coins11/data-structures-and-algorithms) - Data Structures and Algorithms
-* [colindean/optar](https://github.com/colindean/optar) - OPTical ARchiver - highly compressed 2D barcode for paper or film archiving of digital data
-* [collectd/collectd](https://github.com/collectd/collectd) - The system statistics collection daemon. Please send Pull Requests here!
-* [colmap/colmap](https://github.com/colmap/colmap) - COLMAP - Structure-from-Motion and Multi-View Stereo
-* [comex/data](https://github.com/comex/data) - the green eyed monster
-* [comex/frash](https://github.com/comex/frash) - yeah I'm getting tired of the long description
-* [comex/substitute](https://github.com/comex/substitute) - A free runtime modification library.
-* [commoncrawl/commoncrawl](https://github.com/commoncrawl/commoncrawl) - CommonCrawl Project Repository
-* [commonmark/cmark](https://github.com/commonmark/cmark) - CommonMark parsing and rendering library and program in C
-* [commonsguy/cwac-anddown](https://github.com/commonsguy/cwac-anddown) - CWAC AndDown: Markdown Utility Library
 * [compiler-dept/speck](https://github.com/compiler-dept/speck) - A small unit testing framework for C
 * [conch/disco](https://github.com/conch/disco) - Automatic perspective DIStortion COrrection using accelerometer data
 * [concurrencykit/ck](https://github.com/concurrencykit/ck) - Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures designed to aid in the research, design and implementation of high performance concurrent systems developed in C99+.
