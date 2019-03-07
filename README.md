@@ -517,6 +517,7 @@ Incorporated lists:
 * [andwn/cave-story-md](https://github.com/andwn/cave-story-md) - A fan port of Cave Story for the Sega Mega Drive
 * [angband/angband](https://github.com/angband/angband) - A free, single-player roguelike dungeon exploration game
 * [arjun024/mkernel](https://github.com/arjun024/mkernel) - a minimalistic kernel
+* [begeekmyfriend/leetcode](https://github.com/begeekmyfriend/leetcode) - LeetCode in pure C
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -742,6 +743,7 @@ Neural nets, machine learning, and other similar things.
 * [TinyCThread](https://tinycthread.github.io/) - Portable, small implementation of the C11 threads API. [`zlib`](https://directory.fsf.org/wiki/License:Zlib)
 * [cf4ocl](https://fakenmc.github.io/cf4ocl/) - The C Framework for OpenCL; a cross-platform object-oriented framework for developing and benchmarking  [OpenCL](https://www.khronos.org/opencl/) projects. [`GNU LGPL3 (library)`](http://www.gnu.org/licenses/lgpl.html) or [`GNU GPL3 (project code)`](http://www.gnu.org/licenses/gpl.html)
 * [Pithikos/C-Thread-Pool](https://github.com/Pithikos/C-Thread-Pool) - A minimal but powerful thread pool in ANSI C
+* [baruch/libwire](https://github.com/baruch/libwire) - User space threading (aka coroutines) library for C resembling GoLang and goroutines
 
 ## Crypto ##
 Mostly library implementations of well-known cryptographic algorithms or
@@ -822,6 +824,7 @@ protocols.
 * [aerospike/aerospike-client-c](https://github.com/aerospike/aerospike-client-c) - Aerospike C Client
 * [aerospike/aerospike-server](https://github.com/aerospike/aerospike-server) - Aerospike Database Server – flash-optimized, in-memory, nosql database
 * [antirez/redis](https://github.com/antirez/redis) - Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, HyperLogLogs, Bitmaps.
+* [bcmpinc/dagdb](https://github.com/bcmpinc/dagdb) - small database for storing semi-structured data
 
 ## Data Structures ##
 * [libhl][58] - Library implementing a thread-safe API to manage a range of data
@@ -863,6 +866,8 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [armon/libart](https://github.com/armon/libart) - Adaptive Radix Trees implemented in C
 * [arnimarj/py-pointless](https://github.com/arnimarj/py-pointless) - A fast and efficient read-only relocatable data structure for JSON like data, with C and Python APIs
 * [ashinkarov/trie](https://github.com/ashinkarov/trie) - Simple implementation of trie data structure in C
+* [bcopeland/em_misc](https://github.com/bcopeland/em_misc) - external memory data structure playground
+* [begeekmyfriend/bplustree](https://github.com/begeekmyfriend/bplustree) - A minimal but extreme fast B+ tree indexing structure demo for billions of key-value storage
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1047,6 +1052,7 @@ can be found in the Crypto section.
 * [Cyan4973/xxHash](https://github.com/Cyan4973/xxHash) - Extremely fast non-cryptographic hash algorithm
 * [PeterScott/murmur3](https://github.com/PeterScott/murmur3) - Murmur3 hash in C
 * [RJ/ketama](https://github.com/RJ/ketama) - C library for consistent hashing, and langauge bindings
+* [begeekmyfriend/CuckooFilter](https://github.com/begeekmyfriend/CuckooFilter) - Substitute for bloom filter.
 
 ## Image Processing and Computer Vision ##
 * [ccv][5] - C-based/Cached/Core Computer Vision library; modern computer
@@ -1099,6 +1105,7 @@ Generic lexers and parsers
   internals. Public domain.
 * [MatzeB/cparser](https://github.com/MatzeB/cparser) - C99 parser and frontend for libfirm
 * [XVilka/cparse](https://github.com/XVilka/cparse) - Parser of C-syntax data definitions, C-syntax function definitions
+* [bbu/simple-interpreter](https://github.com/bbu/simple-interpreter) - A hackable and extensible lexer, parser and interpreter for a minimalistic, imperative, C-like language.
 
 ## Memory Management ##
 * [Boehm GC][212] - Garbage collection for C. Various licenses, all open source.
@@ -1192,6 +1199,7 @@ Audio and video processing
 * [GNU adns][229] - Advanced, easy-to-use, asynch-capable DNS client library
   and utilities. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [ldns][231] - Library to simplify DNS programming. [``BSD-3-Clause``][BSD-3-Clause]
+* [bagder/c-ares](https://github.com/bagder/c-ares) - c-ares is a C library for asynchronous DNS requests
 
 ### HTTP ###
 * [http-parser][230] - HTTP request/response parser. [``MIT``][MIT]
@@ -1278,6 +1286,7 @@ Audio and video processing
 * [Tox/toxic](https://github.com/Tox/toxic) - CLI Tox client
 * [armon/bloomd](https://github.com/armon/bloomd) - C network daemon for bloom filters
 * [armon/hlld](https://github.com/armon/hlld) - C network daemon for HyperLogLogs
+* [bagder/spindly](https://github.com/bagder/spindly) - a portable C library for SPDY transport (DEAD project!)
 
 ### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
@@ -1405,6 +1414,7 @@ Audio and video processing
 * [XenonofArcticus/DynamicTrack](https://github.com/XenonofArcticus/DynamicTrack) - Access sources of dynamically-updated data about discrete entities like GPSes, INSes, ADS-B sources.
 * [aaronstanton/sualft](https://github.com/aaronstanton/sualft) - reconstruction of irregularly sampled seismic data using the Anti-Leakage Fourier Transform (ALFT)
 * [anza/metar](https://github.com/anza/metar) - METAR data fetcher and parser
+* [bauerca/gridfloat](https://github.com/bauerca/gridfloat) - Slice and dice USGS elevation data from the command line.
 
 ## Standard Libraries ##
 Implementations of the C standarts
@@ -1462,6 +1472,7 @@ Libraries for working wit hspecific filetypes
 * [libelf][337] - Simple library for parsing ELF files. [``MIT``][MIT]
 * [abiggerhammer/hammer](https://github.com/abiggerhammer/hammer) - Parser combinators for binary formats, in C. Yes, in C. What? Don't look at me like that.
 * [anjos/arithmetic_coding](https://github.com/anjos/arithmetic_coding) - Library to perform arithmetic coding and decoding of text or binary data
+* [beave/barnyard2-extra](https://github.com/beave/barnyard2-extra) - Barnyard2 with "Extra Data" support and other enhancements.
 
 ### CSV ###
 * [libcsv][322] - Simple, streaming CSV parser. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
@@ -1489,6 +1500,7 @@ Libraries for working wit hspecific filetypes
 * [inih][329] - Small and simple INI file parser, good for embedded systems. [``BSD-3-Clause``][BSD-3-Clause]
 * [iniparser][330] - Parser for .ini files. [``MIT``][MIT]
 * [libconfini][331] - Yet another INI parser. [``GPL-3.0-only``][GPL-3.0-only]
+* [benhoyt/inih](https://github.com/benhoyt/inih) - Simple .INI file parser in C, good for embedded systems
 
 ### Markdown ###
 * [Hoedown][375] - Fully standards-compliant, extension-supporting, UTF-8
@@ -1569,6 +1581,7 @@ Textual User Interface
   interface. [``BSD-3-Clause``][BSD-3-Clause]
 * [ncurses][373] - Coloured terminal UI library. [``MIT``][MIT]
 * [termbox][374] - Library for writing text-based interfaces. [``MIT``][MIT]
+* [bartobri/bmenu](https://github.com/bartobri/bmenu) - A generic terminal menu written in C.
 
 ## Web Frameworks ##
 Comprehensive and integrated solutions for building web application in C.
@@ -1589,6 +1602,7 @@ Comprehensive and integrated solutions for building web application in C.
 * [klone](http://www.koanlogic.com/klone/) - KLone is a fully-featured, multiplatform, web application development framework.
 * [duda](http://duda.io/) - Duda I/O is an event-driven and high performant web services framework written in C. [`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
 * [DanielWaterworth/Raphters](https://github.com/DanielWaterworth/Raphters) - [DEPRECATED] A web framework for C.
+* [babelouest/ulfius](https://github.com/babelouest/ulfius) - Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. Can stream large amount of data, integrate JSON data with Jansson, and create websocket services
 
 ## Web Service APIs ##
 * [twitc][426] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
@@ -1616,46 +1630,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [armon/statsite](https://github.com/armon/statsite) - C implementation of statsd
 
 # Unsorted #
-* [babelouest/ulfius](https://github.com/babelouest/ulfius) - Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. Can stream large amount of data, integrate JSON data with Jansson, and create websocket services
-* [bagder/c-ares](https://github.com/bagder/c-ares) - c-ares is a C library for asynchronous DNS requests
-* [bagder/curl](https://github.com/bagder/curl) - Curl is a tool and libcurl is a library for transferring data with URL syntax, supporting FTP, FTPS, HTTP, HTTPS, GOPHER, TFTP, SCP, SFTP, TELNET, DICT, LDAP, LDAPS, FILE, IMAP, SMTP, POP3, RTSP and RTMP. libcurl offers a myriad of powerful features
-* [bagder/spindly](https://github.com/bagder/spindly) - a portable C library for SPDY transport (DEAD project!)
-* [bahbka/pebble-my-data](https://github.com/bahbka/pebble-my-data) - Pebble watches application to show only your own data, prepared on your own server.
-* [baiduwearable/duband](https://github.com/baiduwearable/duband) - duband1.0 对应的公版版本为 1.0
-* [baina/biyifei](https://github.com/baina/biyifei) - The general flight data cloud acceleration system design
-* [baiwei0427/PIAS](https://github.com/baiwei0427/PIAS) - Information-Agnostic Flow Scheduling for Commodity Data Centers
-* [baiwei0427/XPath](https://github.com/baiwei0427/XPath) - Explicit Path Control in Commodity Data Centers
-* [balabit/syslog-ng](https://github.com/balabit/syslog-ng) - syslog-ng is an enhanced log daemon, supporting a wide range of input and output methods: syslog, unstructured text, queueing, SQL & NoSQL.
-* [balde/balde](https://github.com/balde/balde) - A microframework for C based on GLib and bad intentions.
-* [bananita/MBFaker](https://github.com/bananita/MBFaker) - Objective-C fake data generator
-* [bang590/JSPatch](https://github.com/bang590/JSPatch) - JSPatch bridge Objective-C and Javascript using the Objective-C runtime. You can call any Objective-C class and method in JavaScript by just including a small engine. JSPatch is generally used to hotfix iOS App.
-* [banister/binding_of_caller](https://github.com/banister/binding_of_caller) - Retrieve the binding of a method's caller in MRI 1.9.2+
-* [barankurtulusozan/Algorithms-and-Data-Structures](https://github.com/barankurtulusozan/Algorithms-and-Data-Structures) - Introduction To Algorithms and Data Structures
-* [bartobri/bmenu](https://github.com/bartobri/bmenu) - A generic terminal menu written in C.
-* [baruch/libwire](https://github.com/baruch/libwire) - User space threading (aka coroutines) library for C resembling GoLang and goroutines
-* [baskerville/bspwm](https://github.com/baskerville/bspwm) - A tiling window manager based on binary space partitioning
-* [baskerville/sxhkd](https://github.com/baskerville/sxhkd) - Simple X hotkey daemon
-* [bauerca/gridfloat](https://github.com/bauerca/gridfloat) - Slice and dice USGS elevation data from the command line.
-* [baupetit/VisuScaterredData](https://github.com/baupetit/VisuScaterredData) - projet de visualisation
-* [bbu/simple-interpreter](https://github.com/bbu/simple-interpreter) - A hackable and extensible lexer, parser and interpreter for a minimalistic, imperative, C-like language.
-* [bcmpinc/dagdb](https://github.com/bcmpinc/dagdb) - small database for storing semi-structured data
-* [bcopeland/em_misc](https://github.com/bcopeland/em_misc) - external memory data structure playground
-* [beaups/SamsungCID](https://github.com/beaups/SamsungCID) - Change the CID in Samsung eMMC
-* [beave/barnyard2-extra](https://github.com/beave/barnyard2-extra) - Barnyard2 with "Extra Data" support and other enhancements.
-* [beave/nfdump-1.6.10p1-sagan](https://github.com/beave/nfdump-1.6.10p1-sagan) - Modified version of Nfdump which allows Sagan to analyze netflow data in real time
-* [bedops/bedops](https://github.com/bedops/bedops) - :microscope: BEDOPS: high-performance genomic feature operations
-* [begeekmyfriend/CuckooFilter](https://github.com/begeekmyfriend/CuckooFilter) - Substitute for bloom filter.
-* [begeekmyfriend/bplustree](https://github.com/begeekmyfriend/bplustree) - A minimal but extreme fast B+ tree indexing structure demo for billions of key-value storage
-* [begeekmyfriend/leetcode](https://github.com/begeekmyfriend/leetcode) - LeetCode in pure C
-* [belangeo/pyo](https://github.com/belangeo/pyo) - Python DSP module - ajaxsoundstudio.com
-* [bellbind/node-v4l2camera](https://github.com/bellbind/node-v4l2camera) - node module for capturing an image from USB(UVC) webcam on linux.
-* [benblazak/ergodox-firmware](https://github.com/benblazak/ergodox-firmware) - firmware for the ergoDOX keyboard
-* [bendmorris/pybioclim](https://github.com/bendmorris/pybioclim) - A Python interface to BIOCLIM climate data. Data files included in package.
-* [benhoyt/inih](https://github.com/benhoyt/inih) - Simple .INI file parser in C, good for embedded systems
-* [benhoyt/scandir](https://github.com/benhoyt/scandir) - Better directory iterator and faster os.walk(), now in the Python 3.5 stdlib
-* [benmills/robotskirt](https://github.com/benmills/robotskirt) - A node wrapper for the awesome C markdown parser, sundown.
-* [benoitc/http-parser](https://github.com/benoitc/http-parser) - HTTP request/response parser for python in C
-* [beoran/chipmunk](https://github.com/beoran/chipmunk) - Bindings to Chipmunk 5.3.4 with extra features for use with Ruby 1.8.x and 1.9.x. Version 5.4.3.4 released on rubygems. Just a gem install chipmunk should work, even on windows! -- Developers wanted to take over this project!!!
 * [bettio/AtomVM](https://github.com/bettio/AtomVM) - Tiny Erlang VM
 * [bfulgham/WinCairoRequirements](https://github.com/bfulgham/WinCairoRequirements) - Source archive of the build requirements for the WinCairo port of WebKit
 * [bg111/asterisk-chan-dongle](https://github.com/bg111/asterisk-chan-dongle) - Automatically exported from code.google.com/p/asterisk-chan-dongle
