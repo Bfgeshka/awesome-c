@@ -359,6 +359,7 @@ Incorporated lists:
 * [Capstone](https://github.com/aquynh/capstone) - Dissasembly/disassembler framework. [`BSD 3-clause`](https://github.com/aquynh/capstone/blob/master/LICENSE.TXT)
 * [anael-seghezzi/CToy](https://github.com/anael-seghezzi/CToy) - Interactive C coding environment
 * [aquynh/capstone](https://github.com/aquynh/capstone) - Capstone disassembly/disassembler framework: Core (Arm, Arm64, BPF, EVM, M68K, M680X, MOS65xx, Mips, PPC, Sparc, SystemZ, TMS320C64x, Web Assembly, X86, X86_64, XCore) + bindings.
+* [buserror/simavr](https://github.com/buserror/simavr) - simavr is a lean, mean and hackable AVR simulator for linux & OSX
 
 [10-1]: https://ccache.samba.org/
 [10-2]: https://github.com/distcc/distcc
@@ -519,6 +520,9 @@ Incorporated lists:
 * [arjun024/mkernel](https://github.com/arjun024/mkernel) - a minimalistic kernel
 * [begeekmyfriend/leetcode](https://github.com/begeekmyfriend/leetcode) - LeetCode in pure C
 * [bl0ckeduser/new-bpf-tools](https://github.com/bl0ckeduser/new-bpf-tools) - subset-of-C compiler targeting 32-bit x86
+* [bovine/datapipe](https://github.com/bovine/datapipe) - Network TCP port forwarding
+* [brenns10/lsh](https://github.com/brenns10/lsh) - Simple shell implementation.  Tutorial here ->
+* [brho/plan9](https://github.com/brho/plan9) - UC Berkeley release of Plan 9 under the GPLv2
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -873,6 +877,8 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [ashinkarov/trie](https://github.com/ashinkarov/trie) - Simple implementation of trie data structure in C
 * [bcopeland/em_misc](https://github.com/bcopeland/em_misc) - external memory data structure playground
 * [begeekmyfriend/bplustree](https://github.com/begeekmyfriend/bplustree) - A minimal but extreme fast B+ tree indexing structure demo for billions of key-value storage
+* [bpudream/pat](https://github.com/bpudream/pat) - Data Structure (中国大学MOOC-陈越、何钦铭-数据结构)
+* [breckinloggins/ngtemplate](https://github.com/breckinloggins/ngtemplate) - ngtemplate - A template engine written in C designed to be syntax-compatible with Google CTemplate
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -966,6 +972,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [a-nikolaev/curseofwar](https://github.com/a-nikolaev/curseofwar) - A Real Time Strategy game for Linux.
 * [ands/lightmapper](https://github.com/ands/lightmapper) - A C/C++ single-file library for drop-in lightmap baking. Just use your existing OpenGL renderer to bounce light!
 * [ands/seamoptimizer](https://github.com/ands/seamoptimizer) - A C/C++ single-file library that minimizes the hard transition errors of disjoint edges in lightmaps.
+* [cadwallion/spinel](https://github.com/cadwallion/spinel) - A free and open source game engine using mruby and C/C++
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1088,6 +1095,8 @@ can be found in the Crypto section.
 * [ansilove/AnsiLove-C](https://github.com/ansilove/AnsiLove-C) - ANSi / ASCII art to PNG converter in C
 * [ansilove/ansilove](https://github.com/ansilove/ansilove) - ANSi / ASCII art to PNG converter in C
 * [bluesmoon/pngtocss](https://github.com/bluesmoon/pngtocss) - Read in a gradient from a png file and spit out CSS for it
+* [brendangregg/Dump2PNG](https://github.com/brendangregg/Dump2PNG) - Visualize file data as a PNG
+* [buaazp/zimg](https://github.com/buaazp/zimg) - A lightweight and high performance image storage and processing system.
 
 ## Integrated Debugging ##
 * [whereami][390] - One-file library for locating the current executable on the
@@ -1114,6 +1123,7 @@ Generic lexers and parsers
 * [MatzeB/cparser](https://github.com/MatzeB/cparser) - C99 parser and frontend for libfirm
 * [XVilka/cparse](https://github.com/XVilka/cparse) - Parser of C-syntax data definitions, C-syntax function definitions
 * [bbu/simple-interpreter](https://github.com/bbu/simple-interpreter) - A hackable and extensible lexer, parser and interpreter for a minimalistic, imperative, C-like language.
+* [burtonsamograd/sxc](https://github.com/burtonsamograd/sxc) - sxc is an 'S-Expression C' transpiler for generating C code using macros written in Common Lisp
 
 ## Memory Management ##
 * [Boehm GC][212] - Garbage collection for C. Various licenses, all open source.
@@ -1296,6 +1306,7 @@ Audio and video processing
 * [armon/hlld](https://github.com/armon/hlld) - C network daemon for HyperLogLogs
 * [bagder/spindly](https://github.com/bagder/spindly) - a portable C library for SPDY transport (DEAD project!)
 * [boazsegev/c-server-tools](https://github.com/boazsegev/c-server-tools) - Write network services in C using dynamic protocols such as HTTP and Websockets
+* [c9s/r3](https://github.com/c9s/r3) - libr3 is a high-performance path dispatching library. It compiles your route paths into a prefix tree (trie). By using the constructed prefix trie in the start-up time, you may dispatch your routes with efficiency
 
 ### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
@@ -1398,6 +1409,7 @@ Audio and video processing
 * [BurntSushi/clibs](https://github.com/BurntSushi/clibs) - A smattering of miscellaneous C libraries. Includes sane argument parsing, a thread-safe multi-producer/multi-consumer queue, and implementation of common data structures (hashmaps, vectors and linked lists).
 * [RandyGaul/cute_headers](https://github.com/RandyGaul/cute_headers) - Collection of cross-platform one-file C/C++ libraries with no dependencies, primarily used for games
 * [attractivechaos/klib](https://github.com/attractivechaos/klib) - A standalone and lightweight C library
+* [breckinloggins/libuseful](https://github.com/breckinloggins/libuseful) - A collection of useful data structures, algorithms, and utilities for C programming
 
 ## Special Purpose ##
 * [Tulip Indicators][394] - Library of functions for technical analysis of
@@ -1583,6 +1595,7 @@ Libraries for working wit hspecific filetypes
 * [zorgnax/libtap](https://github.com/zorgnax/libtap) - Write tests in C
 * [Snaipe/Criterion](https://github.com/Snaipe/Criterion) - A cross-platform C and C++ unit testing framework for the 21th century
 * [ThrowTheSwitch/Unity](https://github.com/ThrowTheSwitch/Unity) - Simple Unit Testing for C
+* [bvdberg/ctest](https://github.com/bvdberg/ctest) - ctest is a unit test framework for software written in C.
 
 ## TUI ##
 Textual User Interface
@@ -1640,42 +1653,9 @@ Comprehensive and integrated solutions for building web application in C.
 * [WhisperSystems/libsignal-protocol-c](https://github.com/WhisperSystems/libsignal-protocol-c) - Signal Protocol C Library
 * [alandekok/recli](https://github.com/alandekok/recli) - A re-imagined CLI.  Customizable syntax, help, permissions, data types.
 * [armon/statsite](https://github.com/armon/statsite) - C implementation of statsd
+* [bus1/dbus-broker](https://github.com/bus1/dbus-broker) - Linux D-Bus Message Broker
 
 # Unsorted #
-* [bovine/datapipe](https://github.com/bovine/datapipe) - Network TCP port forwarding
-* [bpudream/pat](https://github.com/bpudream/pat) - Data Structure (中国大学MOOC-陈越、何钦铭-数据结构)
-* [brackeen/glfm](https://github.com/brackeen/glfm) - OpenGL ES and input for iOS, tvOS, Android, and WebGL
-* [brandenburg/sched-trace-tools](https://github.com/brandenburg/sched-trace-tools) - Some tools for working with LITMUS^RT sched_trace data.
-* [breckinloggins/libuseful](https://github.com/breckinloggins/libuseful) - A collection of useful data structures, algorithms, and utilities for C programming
-* [breckinloggins/ngtemplate](https://github.com/breckinloggins/ngtemplate) - ngtemplate - A template engine written in C designed to be syntax-compatible with Google CTemplate
-* [brendan-rius/c-jwt-cracker](https://github.com/brendan-rius/c-jwt-cracker) - JWT brute force cracker written in C
-* [brendangregg/Dump2PNG](https://github.com/brendangregg/Dump2PNG) - Visualize file data as a PNG
-* [brenns10/lsh](https://github.com/brenns10/lsh) - Simple shell implementation.  Tutorial here ->
-* [brg-liuwei/ngx_kafka_module](https://github.com/brg-liuwei/ngx_kafka_module) - nginx kafka module, send post log data to kafka cluster
-* [brho/plan9](https://github.com/brho/plan9) - UC Berkeley release of Plan 9 under the GPLv2
-* [brianmario/bzip2-ruby](https://github.com/brianmario/bzip2-ruby) - Original libbz2 ruby C bindings from Guy Decoux, with some new love
-* [brianmario/escape_utils](https://github.com/brianmario/escape_utils) - Faster string escaping routines for your ruby apps
-* [brianmario/yajl-ruby](https://github.com/brianmario/yajl-ruby) - A streaming JSON parsing and encoding library for Ruby (C bindings to yajl)
-* [brong/cyrus-imapd](https://github.com/brong/cyrus-imapd) - My git clone of the Cyrus CVS repository
-* [browndeer/coprthr](https://github.com/browndeer/coprthr) - The CO-PRocessing THReads (COPRTHR) SDK - latest release is v1.6.1 (Freewill)
-* [bruceg/sqldjbdns](https://github.com/bruceg/sqldjbdns) - An authoritative DNS server that pulls its data directly from a set of SQL tables
-* [bryansum/ijam](https://github.com/bryansum/ijam) - A collaborative music application for the iPhone utilizing Pure Data.
-* [bryansum/pdlib](https://github.com/bryansum/pdlib) - An open source port of Pure Data to the iPhone
-* [bsdphk/Ntimed](https://github.com/bsdphk/Ntimed) - Network time synchronization software, NTPD replacement.
-* [bsmulders/CaptureTheData](https://github.com/bsmulders/CaptureTheData) - Vehicle data logging, parsing and analysis using C, PHP, JavaScript (Ext JS 4)
-* [buaazp/zimg](https://github.com/buaazp/zimg) - A lightweight and high performance image storage and processing system.
-* [bumptech/stud](https://github.com/bumptech/stud) - The Scalable TLS Unwrapping Daemon
-* [burke/monkeysupport](https://github.com/burke/monkeysupport) - [abandoned] C extensions monkeypatching ActiveSupport for improved perfomance
-* [burtonsamograd/sxc](https://github.com/burtonsamograd/sxc) - sxc is an 'S-Expression C' transpiler for generating C code using macros written in Common Lisp
-* [bus1/dbus-broker](https://github.com/bus1/dbus-broker) - Linux D-Bus Message Broker
-* [buserror/simavr](https://github.com/buserror/simavr) - simavr is a lean, mean and hackable AVR simulator for linux & OSX
-* [bvdberg/ctest](https://github.com/bvdberg/ctest) - ctest is a unit test framework for software written in C.
-* [bwalex/tc-play](https://github.com/bwalex/tc-play) - Free and simple TrueCrypt Implementation based on dm-crypt
-* [bwhite/hadoopy](https://github.com/bwhite/hadoopy) - Python MapReduce library written in Cython. Visit us in #hadoopy on freenode.  See the link below for documentation and tutorials.
-* [bwlewis/lazy.frame](https://github.com/bwlewis/lazy.frame) - Lazy person's file-backed data frame
-* [c9s/Pux](https://github.com/c9s/Pux) - A High Performance PHP Router. PHP Router re-design
-* [c9s/r3](https://github.com/c9s/r3) - libr3 is a high-performance path dispatching library. It compiles your route paths into a prefix tree (trie). By using the constructed prefix trie in the start-up time, you may dispatch your routes with efficiency
-* [cadwallion/spinel](https://github.com/cadwallion/spinel) - A free and open source game engine using mruby and C/C++
 * [cahirwpz/amigaos-cross-toolchain](https://github.com/cahirwpz/amigaos-cross-toolchain) - AmigaOS cross compiler for Linux / MacOSX / Windows
 * [caisah/Sedgewick-algorithms-in-c-exercises-and-examples](https://github.com/caisah/Sedgewick-algorithms-in-c-exercises-and-examples) - Examples and exercises from Algorithms in C, Parts 1-4: Fundamentals, Data Structures, Sorting, Searching by Robert Sedgewick book
 * [caisonglu/cachemaster](https://github.com/caisonglu/cachemaster) - Cachemaster is similar to VMTOUCH, but with more functions. Such as kick page cache, warmup/readahead data, lock data in mem, stat page cache, stat page cache in realtime mode, by file or directory~ Personally, I think the most usefule function is real-time-statistic of page cache. You can see the page cache thrashing when kernel do page reclaiming.
