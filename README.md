@@ -113,17 +113,17 @@ Incorporated lists:
 ## Meta ##
 ### Standarts ###
 <details>
-	<summary>Click to expand</summary>
+  <summary>Click to expand</summary>
 
-	* [Draft C89 standard][1-1]
-	* [Draft C99 standard][1-2]
-	* [Draft C11 standard][1-3]
-	* [Draft C18 standard][1-4]
+  * [Draft C89 standard][1-1]
+  * [Draft C99 standard][1-2]
+  * [Draft C11 standard][1-3]
+  * [Draft C18 standard][1-4]
 
-	[1-1]: https://port70.net/~nsz/c/c89/c89-draft.html
-	[1-2]: https://port70.net/~nsz/c/c99/n1256.html
-	[1-3]: https://port70.net/~nsz/c/c11/n1570.html
-	[1-4]: https://web.archive.org/web/20181230041359if_/http://www.open-std.org/jtc1/sc22/wg14/www/abq/c17_updated_proposed_fdis.pdf
+  [1-1]: https://port70.net/~nsz/c/c89/c89-draft.html
+  [1-2]: https://port70.net/~nsz/c/c99/n1256.html
+  [1-3]: https://port70.net/~nsz/c/c11/n1570.html
+  [1-4]: https://web.archive.org/web/20181230041359if_/http://www.open-std.org/jtc1/sc22/wg14/www/abq/c17_updated_proposed_fdis.pdf
 </details>
 
 ### Tooling ###
