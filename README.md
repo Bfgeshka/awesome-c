@@ -536,6 +536,7 @@ Incorporated lists:
 * [chelyaev/ffmpeg-tutorial](https://github.com/chelyaev/ffmpeg-tutorial) - A set of tutorials that demonstrates how to write a video player based on FFmpeg
 * [chneukirchen/cwm](https://github.com/chneukirchen/cwm) - portable version of OpenBSD's cwm(1) window manager
 * [cirosantilli/cpp-cheat](https://github.com/cirosantilli/cpp-cheat) - C, C++, POSIX and Linux system programming minimal examples. Asserts used wherever possible. Hello worlds for cool third party libraries and build systems. Cheatsheets, tutorials and mini-projects.
+* [cksystemsteaching/selfie](https://github.com/cksystemsteaching/selfie) - An educational software system of a tiny self-compiling C compiler, a tiny self-executing RISC-V emulator, and a tiny self-hosting RISC-V hypervisor.
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -565,6 +566,7 @@ Neural nets, machine learning, and other similar things.
 * [TheWeatherChannel/dClass](https://github.com/TheWeatherChannel/dClass) - Device Classification Engine
 * [antirez/shapeme](https://github.com/antirez/shapeme) - Evolve images using simulated annealing
 * [attractivechaos/kann](https://github.com/attractivechaos/kann) - A lightweight C library for artificial neural networks
+* [cjac/cmusphinx](https://github.com/cjac/cmusphinx) - CMU Sphinx - Speech Recognition Toolkit
 
 ## Algoritm Implementations ##
 * [sort][434] - Collection of sorting routines, which type-specialize at
@@ -595,6 +597,7 @@ Neural nets, machine learning, and other similar things.
 * [docopt.c][412] - Implementation of a command-line option parser. [``MIT``][MIT]
 * [PaulStoffregen/teensy_loader_cli](https://github.com/PaulStoffregen/teensy_loader_cli) - Command line Teensy Loader
 * [clibs/flag](https://github.com/clibs/flag) - Go-style flag parsing for C
+* [clibs/commander](https://github.com/clibs/commander) - Commander option parser ported to C - simple API, auto-generated --help
 
 ## Calculations ##
 * [apophenia][250] - Library for statistical and scientific computing. [``GPL-2.0-only``][GPL-2.0-only]
@@ -672,6 +675,8 @@ Neural nets, machine learning, and other similar things.
 * [PetteriAimonen/libfixmatrix](https://github.com/PetteriAimonen/libfixmatrix) - C library for fixed point matrix, quaternion and vector calculations
 * [b-k/apophenia](https://github.com/b-k/apophenia) - A C library for statistical and scientific computing
 * [canonizer/libgpuvm](https://github.com/canonizer/libgpuvm) - library which simplifies host-GPU data transfer using userspace pagefault handling
+* [clMathLibraries/clBLAS](https://github.com/clMathLibraries/clBLAS) - a software library containing BLAS functions written in OpenCL
+* [clMathLibraries/clRNG](https://github.com/clMathLibraries/clRNG) - an OpenCL based software library containing random number generation functions
 
 ## Compression ##
 * [blosc][25] - Fast, multi-threaded, meta-compressor library. Various licenses,
@@ -769,6 +774,7 @@ Neural nets, machine learning, and other similar things.
 * [baruch/libwire](https://github.com/baruch/libwire) - User space threading (aka coroutines) library for C resembling GoLang and goroutines
 * [bjoernknafla/amp](https://github.com/bjoernknafla/amp) - C portable low-level assemblies for parallelism and threading
 * [bjoernknafla/peak](https://github.com/bjoernknafla/peak) - Parallelism exploration assembly kit. C toolkit to experiment with task- and data-parallelism.
+* [cloudwu/coroutine](https://github.com/cloudwu/coroutine) - A asymmetric coroutine library for C.
 
 ## Crypto ##
 Mostly library implementations of well-known cryptographic algorithms or
@@ -811,6 +817,7 @@ protocols.
 * [awslabs/s2n](https://github.com/awslabs/s2n) - s2n : an implementation of the TLS/SSL protocols
 * [bitcoin-core/secp256k1](https://github.com/bitcoin-core/secp256k1) - Optimized C library for EC operations on curve secp256k1
 * [bitcoin/secp256k1](https://github.com/bitcoin/secp256k1) - Optimized C library for EC operations on curve secp256k1
+* [cloudflare/keyless](https://github.com/cloudflare/keyless) - CloudFlare's Keyless SSL Server Reference Implementation
 
 ## Databases ##
 * [BerkeleyDB][83] - Library for a high-performance embedded database for
@@ -852,6 +859,7 @@ protocols.
 * [aerospike/aerospike-server](https://github.com/aerospike/aerospike-server) - Aerospike Database Server – flash-optimized, in-memory, nosql database
 * [antirez/redis](https://github.com/antirez/redis) - Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, HyperLogLogs, Bitmaps.
 * [bcmpinc/dagdb](https://github.com/bcmpinc/dagdb) - small database for storing semi-structured data
+* [cloudwu/lua-db](https://github.com/cloudwu/lua-db) - A database shared data among multi-states .
 
 ## Data Structures ##
 * [libhl][58] - Library implementing a thread-safe API to manage a range of data
@@ -902,6 +910,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [chrismoos/hash-ring](https://github.com/chrismoos/hash-ring) - C hash ring library
 * [chriso/bitset](https://github.com/chriso/bitset) - A compressed bitset with supporting data structures and algorithms
 * [chucknthem/Data-structures-algorithms](https://github.com/chucknthem/Data-structures-algorithms) - Collection of Data structures, algorithms and interesting bits of code.
+* [clibs/list](https://github.com/clibs/list) - C doubly linked list
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1000,6 +1009,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [ccore/ccore](https://github.com/ccore/ccore) - A cross platform low level game development library
 * [ccore/ccore_rewrite](https://github.com/ccore/ccore_rewrite) - A cross platform low level game development library
 * [chocolate-doom/chocolate-doom](https://github.com/chocolate-doom/chocolate-doom) - Chocolate Doom is a Doom source port that is minimalist and historically accurate.
+* [cloudwu/skynet](https://github.com/cloudwu/skynet) - A lightweight online game framework
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1094,6 +1104,7 @@ can be found in the Crypto section.
 * [RJ/ketama](https://github.com/RJ/ketama) - C library for consistent hashing, and langauge bindings
 * [begeekmyfriend/CuckooFilter](https://github.com/begeekmyfriend/CuckooFilter) - Substitute for bloom filter.
 * [bitly/dablooms](https://github.com/bitly/dablooms) - scaling, counting, bloom filter library
+* [clibs/hash](https://github.com/clibs/hash) - C hash implementation based on khash
 
 ## Image Processing and Computer Vision ##
 * [ccv][5] - C-based/Cached/Core Computer Vision library; modern computer
@@ -1258,6 +1269,7 @@ Audio and video processing
   server as part of another application. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [libonion][237] - HTTP server library, designed to be easy to use. [``Apache-2.0``][Apache-2.0]
 * [nodejs/http-parser](https://github.com/nodejs/http-parser) - http request/response parser for c
+* [civetweb/civetweb](https://github.com/civetweb/civetweb) - Embedded C/C++ web server
 
 ### Mail ###
 * [LibEtPan][233] - Mail library providing an efficient network for IMAP, SMTP,
@@ -1339,6 +1351,7 @@ Audio and video processing
 * [cesanta/fossa](https://github.com/cesanta/fossa) - Async non-blocking multi-protocol networking library for C/C++
 * [chmduquesne/xmppipe](https://github.com/chmduquesne/xmppipe) - This program allows to pipe data through an xmpp tunnel
 * [chokepoint/CryptHook](https://github.com/chokepoint/CryptHook) - TCP/UDP symmetric encryption tunnel wrapper
+* [clibs/dumpasn1](https://github.com/clibs/dumpasn1) - Display the contents of ASN.1 encoded data
 
 ### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
@@ -1420,6 +1433,9 @@ Audio and video processing
 * [Xsoda/struct](https://github.com/Xsoda/struct) - pack and unpack packet data like python struct module.
 * [acg/lwpb](https://github.com/acg/lwpb) - Lightweight Protocol Buffers for C and Python
 * [camgunz/cmp](https://github.com/camgunz/cmp) - An implementation of the MessagePack serialization format in C / msgpack.org[C]
+* [cloudwu/atomdict](https://github.com/cloudwu/atomdict) - A data structure for data exchange between multi lua states.
+* [cloudwu/pbc](https://github.com/cloudwu/pbc) - A protocol buffers library for C
+* [cloudwu/sproto](https://github.com/cloudwu/sproto) - Yet another protocol library like google protocol buffers , but simple and fast.
 
 ## Source Code Collections ##
 * [CCAN][292] - Modelled after Perl's CPAN, this is a big collection of code.
@@ -1445,6 +1461,7 @@ Audio and video processing
 * [attractivechaos/klib](https://github.com/attractivechaos/klib) - A standalone and lightweight C library
 * [breckinloggins/libuseful](https://github.com/breckinloggins/libuseful) - A collection of useful data structures, algorithms, and utilities for C programming
 * [chadjoan/C-Survival-Kit](https://github.com/chadjoan/C-Survival-Kit) - A set of useful functions, data structures, and macros aimed at allowing more expressive and reliable C code.  Portability targets are OpenVMS and Linux.
+* [clibs/clib](https://github.com/clibs/clib) - C package manager-ish
 
 ## Special Purpose ##
 * [Tulip Indicators][394] - Library of functions for technical analysis of
@@ -1557,6 +1574,7 @@ Libraries for working wit hspecific filetypes
 * [akheron/jansson](https://github.com/akheron/jansson) - C library for encoding, decoding and manipulating JSON data
 * [armink/struct2json](https://github.com/armink/struct2json) - A fast convert library between the JSON and C structure. Implement structure serialization and deserialization for C. | C 结构体与 JSON 快速互转库，快速实现 C 结构体的序列化及反序列化
 * [cesanta/frozen](https://github.com/cesanta/frozen) - JSON parser and generator for C/C++ with scanf/printf like interface. Targeting embedded systems.
+* [cloudflare/lua-resty-json](https://github.com/cloudflare/lua-resty-json) - json lib for lua and C
 
 ### INI ###
 * [inih][329] - Small and simple INI file parser, good for embedded systems. [``BSD-3-Clause``][BSD-3-Clause]
@@ -1603,6 +1621,7 @@ Libraries for working wit hspecific filetypes
 * [StefanKarpinski/odb](https://github.com/StefanKarpinski/odb) - ODB: On-Disk Binary Data Tool
 * [WizardMac/ReadStat](https://github.com/WizardMac/ReadStat) - Command-line tool (+ C library) for converting SAS, Stata, and SPSS files
 * [arrbee/diff-match-patch-c](https://github.com/arrbee/diff-match-patch-c) - C language port of google-diff-match-patch library
+* [clarkgrubb/data-tools](https://github.com/clarkgrubb/data-tools) - File format conversion tools
 
 --------------------------------------------------------------------------------
 
@@ -1636,6 +1655,7 @@ Libraries for working wit hspecific filetypes
 * [Snaipe/Criterion](https://github.com/Snaipe/Criterion) - A cross-platform C and C++ unit testing framework for the 21th century
 * [ThrowTheSwitch/Unity](https://github.com/ThrowTheSwitch/Unity) - Simple Unit Testing for C
 * [bvdberg/ctest](https://github.com/bvdberg/ctest) - ctest is a unit test framework for software written in C.
+* [clear-code/cutter](https://github.com/clear-code/cutter) - An easy to write and debug unit testing framework for C and C++.
 
 ## TUI ##
 Textual User Interface
@@ -1700,42 +1720,9 @@ Comprehensive and integrated solutions for building web application in C.
 * [bus1/dbus-broker](https://github.com/bus1/dbus-broker) - Linux D-Bus Message Broker
 * [cesanta/mjs](https://github.com/cesanta/mjs) - Embedded JavaScript engine for C/C++
 * [cgaebel/pipe](https://github.com/cgaebel/pipe) - A simple thread-safe FIFO in C.
+* [cloudyourcar/minmea](https://github.com/cloudyourcar/minmea) - a lightweight GPS NMEA 0183 parser library in pure C
 
 # Unsorted #
-* [citusdata/cstore_fdw](https://github.com/citusdata/cstore_fdw) - Columnar store for analytics with Postgres, developed by Citus Data. Check out the mailing list at https://groups.google.com/forum/#!forum/cstore-users or join our slack channel at https://slack.citusdata.com
-* [citusdata/pg_shard](https://github.com/citusdata/pg_shard) - PostgreSQL extension to scale out real-time reads and writes. Check out the mailing list at https://groups.google.com/group/pg_shard-users or read the docs at http://citusdata.com/docs/pg-shard
-* [civetweb/civetweb](https://github.com/civetweb/civetweb) - Embedded C/C++ web server
-* [cjac/cmusphinx](https://github.com/cjac/cmusphinx) - CMU Sphinx - Speech Recognition Toolkit
-* [cksystemsteaching/selfie](https://github.com/cksystemsteaching/selfie) - An educational software system of a tiny self-compiling C compiler, a tiny self-executing RISC-V emulator, and a tiny self-hosting RISC-V hypervisor.
-* [clMathLibraries/clBLAS](https://github.com/clMathLibraries/clBLAS) - a software library containing BLAS functions written in OpenCL
-* [clMathLibraries/clRNG](https://github.com/clMathLibraries/clRNG) - an OpenCL based software library containing random number generation functions
-* [clarkds/Benchmark-Results](https://github.com/clarkds/Benchmark-Results) - this is benchmarking data for arm cortex A8 and A9's
-* [clarkgrubb/data-tools](https://github.com/clarkgrubb/data-tools) - File format conversion tools
-* [clawoo/AsteroidsCocos2D-x](https://github.com/clawoo/AsteroidsCocos2D-x) - An Asteroids game implemented in Cocos2D-x
-* [cleanflight/cleanflight](https://github.com/cleanflight/cleanflight) - Clean-code version of the baseflight flight controller firmware
-* [clear-code/cutter](https://github.com/clear-code/cutter) - An easy to write and debug unit testing framework for C and C++.
-* [clibs/clib](https://github.com/clibs/clib) - C package manager-ish
-* [clibs/commander](https://github.com/clibs/commander) - Commander option parser ported to C - simple API, auto-generated --help
-* [clibs/dumpasn1](https://github.com/clibs/dumpasn1) - Display the contents of ASN.1 encoded data
-* [clibs/hash](https://github.com/clibs/hash) - C hash implementation based on khash
-* [clibs/list](https://github.com/clibs/list) - C doubly linked list
-* [closeio/ciso8601](https://github.com/closeio/ciso8601) - Fast ISO8601 date time parser for Python written in C
-* [cloudflare/cloudflare-blog](https://github.com/cloudflare/cloudflare-blog) - Cloudflare Blog code samples
-* [cloudflare/keyless](https://github.com/cloudflare/keyless) - CloudFlare's Keyless SSL Server Reference Implementation
-* [cloudflare/lua-resty-json](https://github.com/cloudflare/lua-resty-json) - json lib for lua and C
-* [cloudflare/lua-upstream-cache-nginx-module](https://github.com/cloudflare/lua-upstream-cache-nginx-module) - Nginx module for ngx_lua to provide Lua API to inspect upstream http cache meta-data
-* [cloudius-systems/osv](https://github.com/cloudius-systems/osv) - OSv, a new operating system for the cloud.
-* [cloudozer/ling](https://github.com/cloudozer/ling) - Erlang on Xen
-* [cloudwu/atomdict](https://github.com/cloudwu/atomdict) - A data structure for data exchange between multi lua states.
-* [cloudwu/coroutine](https://github.com/cloudwu/coroutine) - A asymmetric coroutine library for C.
-* [cloudwu/lua-db](https://github.com/cloudwu/lua-db) - A database shared data among multi-states .
-* [cloudwu/mptun](https://github.com/cloudwu/mptun) - Multi-path Tunnel
-* [cloudwu/pbc](https://github.com/cloudwu/pbc) - A protocol buffers library for C
-* [cloudwu/skynet](https://github.com/cloudwu/skynet) - A lightweight online game framework
-* [cloudwu/sproto](https://github.com/cloudwu/sproto) - Yet another protocol library like google protocol buffers , but simple and fast.
-* [cloudyourcar/minmea](https://github.com/cloudyourcar/minmea) - a lightweight GPS NMEA 0183 parser library in pure C
-* [clowwindy/ChinaDNS](https://github.com/clowwindy/ChinaDNS) - Protect yourself against DNS poisoning in China.
-* [clowwindy/ShadowVPN](https://github.com/clowwindy/ShadowVPN) - Removed according to regulations.
 * [cmatsuoka/libxmp](https://github.com/cmatsuoka/libxmp) - Libxmp is a library that renders module files to PCM data.
 * [cmus/cmus](https://github.com/cmus/cmus) - Small, fast and powerful console music player for Unix-like operating systems.
 * [cmusphinx/pocketsphinx](https://github.com/cmusphinx/pocketsphinx) - PocketSphinx is a lightweight speech recognition engine, specifically tuned for handheld and mobile devices, though it works equally well on the desktop
