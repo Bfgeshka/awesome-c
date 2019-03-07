@@ -518,6 +518,7 @@ Incorporated lists:
 * [angband/angband](https://github.com/angband/angband) - A free, single-player roguelike dungeon exploration game
 * [arjun024/mkernel](https://github.com/arjun024/mkernel) - a minimalistic kernel
 * [begeekmyfriend/leetcode](https://github.com/begeekmyfriend/leetcode) - LeetCode in pure C
+* [bl0ckeduser/new-bpf-tools](https://github.com/bl0ckeduser/new-bpf-tools) - subset-of-C compiler targeting 32-bit x86
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -744,6 +745,8 @@ Neural nets, machine learning, and other similar things.
 * [cf4ocl](https://fakenmc.github.io/cf4ocl/) - The C Framework for OpenCL; a cross-platform object-oriented framework for developing and benchmarking  [OpenCL](https://www.khronos.org/opencl/) projects. [`GNU LGPL3 (library)`](http://www.gnu.org/licenses/lgpl.html) or [`GNU GPL3 (project code)`](http://www.gnu.org/licenses/gpl.html)
 * [Pithikos/C-Thread-Pool](https://github.com/Pithikos/C-Thread-Pool) - A minimal but powerful thread pool in ANSI C
 * [baruch/libwire](https://github.com/baruch/libwire) - User space threading (aka coroutines) library for C resembling GoLang and goroutines
+* [bjoernknafla/amp](https://github.com/bjoernknafla/amp) - C portable low-level assemblies for parallelism and threading
+* [bjoernknafla/peak](https://github.com/bjoernknafla/peak) - Parallelism exploration assembly kit. C toolkit to experiment with task- and data-parallelism.
 
 ## Crypto ##
 Mostly library implementations of well-known cryptographic algorithms or
@@ -784,6 +787,8 @@ protocols.
 * [WickrInc/wickr-crypto-c](https://github.com/WickrInc/wickr-crypto-c) - An implementation of the Wickr Secure Messaging Protocol in C
 * [ashwinraghav/Parallel_Open_SSL](https://github.com/ashwinraghav/Parallel_Open_SSL) - Use your idle GPU to encrypt your data. Give your CPU some breathing time!
 * [awslabs/s2n](https://github.com/awslabs/s2n) - s2n : an implementation of the TLS/SSL protocols
+* [bitcoin-core/secp256k1](https://github.com/bitcoin-core/secp256k1) - Optimized C library for EC operations on curve secp256k1
+* [bitcoin/secp256k1](https://github.com/bitcoin/secp256k1) - Optimized C library for EC operations on curve secp256k1
 
 ## Databases ##
 * [BerkeleyDB][83] - Library for a high-performance embedded database for
@@ -992,6 +997,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [nigels-com/glew](https://github.com/nigels-com/glew) - The OpenGL Extension Wrangler Library
 * [anoek/ex-sdl-cairo-freetype-harfbuzz](https://github.com/anoek/ex-sdl-cairo-freetype-harfbuzz) - Example code which uses SDL, cairo, freetype, and harfbuzz to do ttf/otf text layout and rendering
 * [ashima/webgl-noise](https://github.com/ashima/webgl-noise) - Procedural Noise Shader Routines compatible with WebGL
+* [blodow/realtime_urdf_filter](https://github.com/blodow/realtime_urdf_filter) - ROS package that can filter geometry defined in URDF models from Kinect depth images. Can also preprocess data for the OpenNI tracker, to remove backgrounds, robots etc.
 
 
 ## GUI ##
@@ -1053,6 +1059,7 @@ can be found in the Crypto section.
 * [PeterScott/murmur3](https://github.com/PeterScott/murmur3) - Murmur3 hash in C
 * [RJ/ketama](https://github.com/RJ/ketama) - C library for consistent hashing, and langauge bindings
 * [begeekmyfriend/CuckooFilter](https://github.com/begeekmyfriend/CuckooFilter) - Substitute for bloom filter.
+* [bitly/dablooms](https://github.com/bitly/dablooms) - scaling, counting, bloom filter library
 
 ## Image Processing and Computer Vision ##
 * [ccv][5] - C-based/Cached/Core Computer Vision library; modern computer
@@ -1080,6 +1087,7 @@ can be found in the Crypto section.
 * [XadillaX/byakuren](https://github.com/XadillaX/byakuren) - 🎭 A theme color extracting library implemented by C.
 * [ansilove/AnsiLove-C](https://github.com/ansilove/AnsiLove-C) - ANSi / ASCII art to PNG converter in C
 * [ansilove/ansilove](https://github.com/ansilove/ansilove) - ANSi / ASCII art to PNG converter in C
+* [bluesmoon/pngtocss](https://github.com/bluesmoon/pngtocss) - Read in a gradient from a png file and spit out CSS for it
 
 ## Integrated Debugging ##
 * [whereami][390] - One-file library for locating the current executable on the
@@ -1287,6 +1295,7 @@ Audio and video processing
 * [armon/bloomd](https://github.com/armon/bloomd) - C network daemon for bloom filters
 * [armon/hlld](https://github.com/armon/hlld) - C network daemon for HyperLogLogs
 * [bagder/spindly](https://github.com/bagder/spindly) - a portable C library for SPDY transport (DEAD project!)
+* [boazsegev/c-server-tools](https://github.com/boazsegev/c-server-tools) - Write network services in C using dynamic protocols such as HTTP and Websockets
 
 ### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
@@ -1462,6 +1471,7 @@ Implementations of the C standarts
 * [utf8proc](https://github.com/JuliaStrings/utf8proc) - Small, clean library for processing UTF-8 Unicode data. [`License`](https://github.com/JuliaStrings/utf8proc/blob/master/LICENSE.md)
 * [JuliaStrings/utf8proc](https://github.com/JuliaStrings/utf8proc) - a clean C library for processing UTF-8 Unicode data
 * [antirez/sds](https://github.com/antirez/sds) - Simple Dynamic Strings library for C
+* [boyerjohn/rapidstring](https://github.com/boyerjohn/rapidstring) - Maybe the fastest string library ever.
 
 ## Structured File Processing ##
 Libraries for working wit hspecific filetypes
@@ -1603,6 +1613,8 @@ Comprehensive and integrated solutions for building web application in C.
 * [duda](http://duda.io/) - Duda I/O is an event-driven and high performant web services framework written in C. [`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
 * [DanielWaterworth/Raphters](https://github.com/DanielWaterworth/Raphters) - [DEPRECATED] A web framework for C.
 * [babelouest/ulfius](https://github.com/babelouest/ulfius) - Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. Can stream large amount of data, integrate JSON data with Jansson, and create websocket services
+* [bitly/simplehttp](https://github.com/bitly/simplehttp) - a family of libraries and daemons for building scalable web infrastructure
+* [boazsegev/facil.io](https://github.com/boazsegev/facil.io) - Your high performance web application C framework
 
 ## Web Service APIs ##
 * [twitc][426] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
@@ -1630,54 +1642,7 @@ Comprehensive and integrated solutions for building web application in C.
 * [armon/statsite](https://github.com/armon/statsite) - C implementation of statsd
 
 # Unsorted #
-* [bettio/AtomVM](https://github.com/bettio/AtomVM) - Tiny Erlang VM
-* [bfulgham/WinCairoRequirements](https://github.com/bfulgham/WinCairoRequirements) - Source archive of the build requirements for the WinCairo port of WebKit
-* [bg111/asterisk-chan-dongle](https://github.com/bg111/asterisk-chan-dongle) - Automatically exported from code.google.com/p/asterisk-chan-dongle
-* [bgamari/data-logger](https://github.com/bgamari/data-logger) - An autonomous data logging firmware for the MC HCK development board
-* [bianster/mysqlfs](https://github.com/bianster/mysqlfs) - MySQLfs is Linux userspace filesystem which stores data in a MySQL database. It uses FUSE to interface with the kernel.
-* [bigclean/structure](https://github.com/bigclean/structure) - Several languages of data structure practice
-* [billhsu/cashew](https://github.com/billhsu/cashew) - Freestyle 3D sketching app.
-* [billiob/terminology](https://github.com/billiob/terminology) - The best terminal emulator based on the Enlightenment Foundation Libraries
-* [billvb/cfe](https://github.com/billvb/cfe) - This framework is used as the basis for the flight software for satellite data systems and instruments, but can be used on other embedded systems.
-* [binaryage/asepsis](https://github.com/binaryage/asepsis) - a solution for .DS_Store pollution
-* [binchewer/power_fixer](https://github.com/binchewer/power_fixer) - OSX command line utility that attempts to restore pre-Mavericks power button behavior. Written in C.
-* [bindecy/HugeDirtyCowPOC](https://github.com/bindecy/HugeDirtyCowPOC) - A POC for the Huge Dirty Cow vulnerability (CVE-2017-1000405)
-* [bingmann/disk-filltest](https://github.com/bingmann/disk-filltest) - Simple program to detect bad disks by filling them with random data.
-* [biomood/LuaSerial](https://github.com/biomood/LuaSerial) - A Lua library in C for sending/receving data from Arduino
-* [bitcoin-core/secp256k1](https://github.com/bitcoin-core/secp256k1) - Optimized C library for EC operations on curve secp256k1
-* [bitcoin/secp256k1](https://github.com/bitcoin/secp256k1) - Optimized C library for EC operations on curve secp256k1
-* [bitcraze/crazyflie-firmware](https://github.com/bitcraze/crazyflie-firmware) - The main firmware for the Crazyflie Nano Quadcopter.
-* [bither/bither-android-lib](https://github.com/bither/bither-android-lib) - Bither Android Library
-* [bitlbee/bitlbee-facebook](https://github.com/bitlbee/bitlbee-facebook) - Facebook protocol plugin for BitlBee
-* [bitlbee/bitlbee-steam](https://github.com/bitlbee/bitlbee-steam) - Steam protocol plugin for BitlBee
-* [bitlbee/bitlbee](https://github.com/bitlbee/bitlbee) - An IRC to other chat networks gateway :bee:
-* [bitly/dablooms](https://github.com/bitly/dablooms) - scaling, counting, bloom filter library
-* [bitly/simplehttp](https://github.com/bitly/simplehttp) - a family of libraries and daemons for building scalable web infrastructure
-* [bitrig/bitrig](https://github.com/bitrig/bitrig) - Bitrig base system repository.
-* [bjoernknafla/amp](https://github.com/bjoernknafla/amp) - C portable low-level assemblies for parallelism and threading
-* [bjoernknafla/peak](https://github.com/bjoernknafla/peak) - Parallelism exploration assembly kit. C toolkit to experiment with task- and data-parallelism.
-* [bkrpub/EngineRoom](https://github.com/bkrpub/EngineRoom) - EngineRoom is a toolkit addressing basic, recurring needs when using C based languages.  The most prominent (and mature) component is LogPoints,  a logging facility designed to provide comfort to developers working on applications of all sizes. EngineRoom is primarily targeted at Objective-C developers on Mac OS X and iOS with some support for C on GNU/Linux and Solaris.
-* [bl0b/tinyap](https://github.com/bl0b/tinyap) - One build to parse them all. A GLR-like parsing engine where the grammar is actually data. And you can augment the grammar at runtime. Also provides a framework to walk the resulting ASTs. C API and commandline frontend available.
-* [bl0ckeduser/new-bpf-tools](https://github.com/bl0ckeduser/new-bpf-tools) - subset-of-C compiler targeting 32-bit x86
-* [blacksmithlabs/NetworkRecorder](https://github.com/blacksmithlabs/NetworkRecorder) - An app to record targeted network traffic data of other apps using iptables.
-* [blankwall/MacDBG](https://github.com/blankwall/MacDBG) - Simple easy to use C and python debugging framework for OSX
-* [blechschmidt/massdns](https://github.com/blechschmidt/massdns) - A high-performance DNS stub resolver for bulk lookups in C
-* [blitz/xplot](https://github.com/blitz/xplot) - Plot tcptrace data
-* [blodow/realtime_urdf_filter](https://github.com/blodow/realtime_urdf_filter) - ROS package that can filter geometry defined in URDF models from Kinect depth images. Can also preprocess data for the OpenNI tracker, to remove backgrounds, robots etc.
-* [bloomberg/comdb2](https://github.com/bloomberg/comdb2) - Bloomberg's distributed RDBMS
-* [blucia0a/CTraps-gcc](https://github.com/blucia0a/CTraps-gcc) - Last Writer Slicing: data provenance tracking for concurrent program debugging & analysis
-* [bluesmoon/pngtocss](https://github.com/bluesmoon/pngtocss) - Read in a gradient from a png file and spit out CSS for it
-* [boazsegev/c-server-tools](https://github.com/boazsegev/c-server-tools) - Write network services in C using dynamic protocols such as HTTP and Websockets
-* [boazsegev/facil.io](https://github.com/boazsegev/facil.io) - Your high performance web application C framework
-* [boazsegev/iodine](https://github.com/boazsegev/iodine) - Iodine - HTTP / Websocket Server & EventMachine alternative for Ruby MRI - a kqueue/epoll C extension
-* [bodgit/graphite-amqp-tools](https://github.com/bodgit/graphite-amqp-tools) - A set of tools for getting Graphite data in and out of AMQP message brokers
-* [bonemurmurer/simplebonjour](https://github.com/bonemurmurer/simplebonjour) - pure-data external providing simple bonjour service name discovery and port resolution
-* [bonzini/qboot](https://github.com/bonzini/qboot) - Minimal x86 firmware for booting Linux kernels
-* [boothj5/profanity](https://github.com/boothj5/profanity) - Ncurses based XMPP client
-* [borgbackup/borg](https://github.com/borgbackup/borg) - Deduplicating archiver with compression and authenticated encryption.
-* [borland667/btier](https://github.com/borland667/btier) - Btier is a tiered storage that automatically moves frequently accessible data to fast(er) device.
 * [bovine/datapipe](https://github.com/bovine/datapipe) - Network TCP port forwarding
-* [boyerjohn/rapidstring](https://github.com/boyerjohn/rapidstring) - Maybe the fastest string library ever.
 * [bpudream/pat](https://github.com/bpudream/pat) - Data Structure (中国大学MOOC-陈越、何钦铭-数据结构)
 * [brackeen/glfm](https://github.com/brackeen/glfm) - OpenGL ES and input for iOS, tvOS, Android, and WebGL
 * [brandenburg/sched-trace-tools](https://github.com/brandenburg/sched-trace-tools) - Some tools for working with LITMUS^RT sched_trace data.
