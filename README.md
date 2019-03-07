@@ -534,6 +534,8 @@ Incorporated lists:
 * [carld/micro-lisp](https://github.com/carld/micro-lisp) - 🎄A very small Lisp programming language 😀that used to be under 200 lines of C🎄
 * [ccpalettes/the-c-programming-language-second-edition-solutions](https://github.com/ccpalettes/the-c-programming-language-second-edition-solutions) - Solutions for all exercises in the book "The C Programming Language - Second Edition"(referred to as K&R, after its authors' initials) by Brian W. Kernighan and Dennis M. Ritchie.
 * [chelyaev/ffmpeg-tutorial](https://github.com/chelyaev/ffmpeg-tutorial) - A set of tutorials that demonstrates how to write a video player based on FFmpeg
+* [chneukirchen/cwm](https://github.com/chneukirchen/cwm) - portable version of OpenBSD's cwm(1) window manager
+* [cirosantilli/cpp-cheat](https://github.com/cirosantilli/cpp-cheat) - C, C++, POSIX and Linux system programming minimal examples. Asserts used wherever possible. Hello worlds for cool third party libraries and build systems. Cheatsheets, tutorials and mini-projects.
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -583,6 +585,7 @@ Neural nets, machine learning, and other similar things.
 * [aimxhaisse/des](https://github.com/aimxhaisse/des) - C implementation of Data Encryption Standard
 * [ajrisi/fsm](https://github.com/ajrisi/fsm) - A finite state machine engine in C - used as a parser for complex data structures
 * [chaoslawful/ccard-lib](https://github.com/chaoslawful/ccard-lib) - C library for estimating cardinality in streams for which it is infeasible to store all events in memory
+* [citiususc/BigBWA](https://github.com/citiususc/BigBWA) - Approaching the Burrows-Wheeler Aligner to Big Data Technologies
 
 ## Argument Parsing ##
 * [parg][410] - A single-file reimplementation of ``getopt`` with better
@@ -591,6 +594,7 @@ Neural nets, machine learning, and other similar things.
   argparse module. [``MIT``][MIT]
 * [docopt.c][412] - Implementation of a command-line option parser. [``MIT``][MIT]
 * [PaulStoffregen/teensy_loader_cli](https://github.com/PaulStoffregen/teensy_loader_cli) - Command line Teensy Loader
+* [clibs/flag](https://github.com/clibs/flag) - Go-style flag parsing for C
 
 ## Calculations ##
 * [apophenia][250] - Library for statistical and scientific computing. [``GPL-2.0-only``][GPL-2.0-only]
@@ -896,6 +900,8 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [cengek/CKDatastruct](https://github.com/cengek/CKDatastruct) - The using of data structure in C from our class
 * [cbgbt/DataStructures](https://github.com/cbgbt/DataStructures) - A data structures library written in C.
 * [chrismoos/hash-ring](https://github.com/chrismoos/hash-ring) - C hash ring library
+* [chriso/bitset](https://github.com/chriso/bitset) - A compressed bitset with supporting data structures and algorithms
+* [chucknthem/Data-structures-algorithms](https://github.com/chucknthem/Data-structures-algorithms) - Collection of Data structures, algorithms and interesting bits of code.
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -929,6 +935,7 @@ Foreign function interfaces, also know as binding interfaces.
 * [Zeex/subhook](https://github.com/Zeex/subhook) - Simple hooking library for C/C++ (x86 only, 32/64-bit, no dependencies)
 * [alexanderchuranov/Metaresc](https://github.com/alexanderchuranov/Metaresc) - META data and RESource library for  C language
 * [arnaudbrejeon/cspec](https://github.com/arnaudbrejeon/cspec) - Behavior driven development in C
+* [cioc/functionalC](https://github.com/cioc/functionalC) - Not because it is good, but because we can...
 
 ## Game Development ##
 Engines, libraries and other helpful things specifically for making games.
@@ -992,6 +999,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [cadwallion/spinel](https://github.com/cadwallion/spinel) - A free and open source game engine using mruby and C/C++
 * [ccore/ccore](https://github.com/ccore/ccore) - A cross platform low level game development library
 * [ccore/ccore_rewrite](https://github.com/ccore/ccore_rewrite) - A cross platform low level game development library
+* [chocolate-doom/chocolate-doom](https://github.com/chocolate-doom/chocolate-doom) - Chocolate Doom is a Doom source port that is minimalist and historically accurate.
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1230,6 +1238,7 @@ Audio and video processing
 * [qlibc](http://wolkykim.github.io/qlibc/) - Simple and powerful C library, designed as a replacement for GLib while focusing on being small and light. [`qLib license`](https://github.com/wolkykim/qlibc/blob/master/LICENSE) (similar to [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD))
 * [stb](https://github.com/nothings/stb) - Range of single-file libraries for C. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
 * [libsrt](https://faragon.github.io/libsrt.html) - Safe Real-Time library for C. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
+* [chutsu/cog](https://github.com/chutsu/cog) - C common library containing common data structures, sorting algorithms and utility functions
 
 ## Networking ##
 ### DNS ###
@@ -1265,6 +1274,7 @@ Audio and video processing
 * [zproto][370] - Protocol framework for ZeroMQ. [``MIT``][MIT]
 * [nanomsg][244] - C-based implementation of ZeroMQ. [``MIT``][MIT]
 * [antirez/disque](https://github.com/antirez/disque) - Disque is a distributed message broker
+* [circonus-labs/fq](https://github.com/circonus-labs/fq) - F@#$*&%Q (Message queue that is fast, brokered, in C and gets out of your way)
 
 ### Other Networking ###
 * [asnlc][227] - Compiler of ASN.1 specifications into C source code. [``BSD-2-Clause``][BSD-2-Clause]
@@ -1327,6 +1337,8 @@ Audio and video processing
 * [boazsegev/c-server-tools](https://github.com/boazsegev/c-server-tools) - Write network services in C using dynamic protocols such as HTTP and Websockets
 * [c9s/r3](https://github.com/c9s/r3) - libr3 is a high-performance path dispatching library. It compiles your route paths into a prefix tree (trie). By using the constructed prefix trie in the start-up time, you may dispatch your routes with efficiency
 * [cesanta/fossa](https://github.com/cesanta/fossa) - Async non-blocking multi-protocol networking library for C/C++
+* [chmduquesne/xmppipe](https://github.com/chmduquesne/xmppipe) - This program allows to pipe data through an xmpp tunnel
+* [chokepoint/CryptHook](https://github.com/chokepoint/CryptHook) - TCP/UDP symmetric encryption tunnel wrapper
 
 ### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
@@ -1509,6 +1521,8 @@ Implementations of the C standarts
 * [antirez/sds](https://github.com/antirez/sds) - Simple Dynamic Strings library for C
 * [boyerjohn/rapidstring](https://github.com/boyerjohn/rapidstring) - Maybe the fastest string library ever.
 * [clibs/buffer](https://github.com/clibs/buffer) - Tiny C string library
+* [cloudwu/cstring](https://github.com/cloudwu/cstring) - A simple C string lib
+* [chrisjmccormick/word2vec_commented](https://github.com/chrisjmccormick/word2vec_commented) - Commented (but unaltered) version of original word2vec C implementation.
 
 ## Structured File Processing ##
 Libraries for working wit hspecific filetypes
@@ -1688,42 +1702,8 @@ Comprehensive and integrated solutions for building web application in C.
 * [cgaebel/pipe](https://github.com/cgaebel/pipe) - A simple thread-safe FIFO in C.
 
 # Unsorted #
-* [chenlonggang/Adaptive-CSA](https://github.com/chenlonggang/Adaptive-CSA) - Adaptive CSA, is data-aware,can select the best coding-method for each block
-* [chentao0707/QrCodeScan](https://github.com/chentao0707/QrCodeScan) - Android手机客户端二维码扫描
-* [cherokee/webserver](https://github.com/cherokee/webserver) - Cherokee Web Server
-* [chitika/cberl](https://github.com/chitika/cberl) - NIF based Erlang bindings for Couchbase
-* [chmduquesne/sharebox-fs](https://github.com/chmduquesne/sharebox-fs) - C rewrite of sharebox
-* [chmduquesne/xmppipe](https://github.com/chmduquesne/xmppipe) - This program allows to pipe data through an xmpp tunnel
-* [chneukirchen/cwm](https://github.com/chneukirchen/cwm) - portable version of OpenBSD's cwm(1) window manager
-* [chneukirchen/rdd](https://github.com/chneukirchen/rdd) - random data dumper
-* [chneukirchen/rs](https://github.com/chneukirchen/rs) - rs(1) — reshape a data array (from OpenBSD)
-* [chobits/ngx_http_proxy_connect_module](https://github.com/chobits/ngx_http_proxy_connect_module) - A forward proxy module for CONNECT request handling
-* [chocolate-doom/chocolate-doom](https://github.com/chocolate-doom/chocolate-doom) - Chocolate Doom is a Doom source port that is minimalist and historically accurate.
-* [chokepoint/CryptHook](https://github.com/chokepoint/CryptHook) - TCP/UDP symmetric encryption tunnel wrapper
-* [chokepoint/azazel](https://github.com/chokepoint/azazel) - Azazel is a userland rootkit based off of the original LD_PRELOAD technique from Jynx rootkit.  It is more robust and has additional features, and focuses heavily around anti-debugging and anti-detection.
-* [chrisforbes/libaof](https://github.com/chrisforbes/libaof) - Age Of Empires Data Format Parsers
-* [chrisjmccormick/word2vec_commented](https://github.com/chrisjmccormick/word2vec_commented) - Commented (but unaltered) version of original word2vec C implementation.
-* [chriso/bitset](https://github.com/chriso/bitset) - A compressed bitset with supporting data structures and algorithms
-* [chronomex/1600bpi-tape](https://github.com/chronomex/1600bpi-tape) - Tool to recover data from analog recordings of 1970s data tape
-* [chucknthem/Data-structures-algorithms](https://github.com/chucknthem/Data-structures-algorithms) - Collection of Data structures, algorithms and interesting bits of code.
-* [chutsu/cog](https://github.com/chutsu/cog) - C common library containing common data structures, sorting algorithms and utility functions
-* [cinder/Cinder-Kinect](https://github.com/cinder/Cinder-Kinect) - Kinect support for Cinder
-* [cinder/Cinder](https://github.com/cinder/Cinder) - Cinder is a community-developed, free and open source library for professional-quality creative coding in C++.
-* [cioc/functionalC](https://github.com/cioc/functionalC) - Not because it is good, but because we can...
-* [circonus-labs/fq](https://github.com/circonus-labs/fq) - F@#$*&%Q (Message queue that is fast, brokered, in C and gets out of your way)
-* [cirosantilli/cpp-cheat](https://github.com/cirosantilli/cpp-cheat) - C, C++, POSIX and Linux system programming minimal examples. Asserts used wherever possible. Hello worlds for cool third party libraries and build systems. Cheatsheets, tutorials and mini-projects.
-* [cirosantilli/linux-kernel-module-cheat](https://github.com/cirosantilli/linux-kernel-module-cheat) - The perfect emulation setup to study and modify the Linux kernel, kernel modules, QEMU and gem5. Highly automated. Thoroughly documented. GDB and KGDB just work. Powered by Buildroot. "Tested" in Ubuntu 18.04 host, x86 and ARM guests with kernel v4.18.
-* [cisco-system-traffic-generator/trex-core](https://github.com/cisco-system-traffic-generator/trex-core) - trex-core site
-* [cisco/thor](https://github.com/cisco/thor) - Thor Video Codec
-* [citiususc/BigBWA](https://github.com/citiususc/BigBWA) - Approaching the Burrows-Wheeler Aligner to Big Data Technologies
-* [citra-emu/citra](https://github.com/citra-emu/citra) - A Nintendo 3DS Emulator
-* [citusdata/citus](https://github.com/citusdata/citus) - Scalable PostgreSQL for multi-tenant and real-time analytics workloads
 * [citusdata/cstore_fdw](https://github.com/citusdata/cstore_fdw) - Columnar store for analytics with Postgres, developed by Citus Data. Check out the mailing list at https://groups.google.com/forum/#!forum/cstore-users or join our slack channel at https://slack.citusdata.com
-* [citusdata/json_fdw](https://github.com/citusdata/json_fdw) - PostgreSQL extension which implements a Foreign Data Wrapper (FDW) for JSON files.
-* [citusdata/mongo_fdw](https://github.com/citusdata/mongo_fdw) - PostgreSQL foreign data wrapper for MongoDB
-* [citusdata/pg_cron](https://github.com/citusdata/pg_cron) - Run periodic jobs in PostgreSQL
 * [citusdata/pg_shard](https://github.com/citusdata/pg_shard) - PostgreSQL extension to scale out real-time reads and writes. Check out the mailing list at https://groups.google.com/group/pg_shard-users or read the docs at http://citusdata.com/docs/pg-shard
-* [citusdata/postgres_vectorization_test](https://github.com/citusdata/postgres_vectorization_test) - Vectorized executor to speed up PostgreSQL
 * [civetweb/civetweb](https://github.com/civetweb/civetweb) - Embedded C/C++ web server
 * [cjac/cmusphinx](https://github.com/cjac/cmusphinx) - CMU Sphinx - Speech Recognition Toolkit
 * [cksystemsteaching/selfie](https://github.com/cksystemsteaching/selfie) - An educational software system of a tiny self-compiling C compiler, a tiny self-executing RISC-V emulator, and a tiny self-hosting RISC-V hypervisor.
@@ -1737,7 +1717,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [clibs/clib](https://github.com/clibs/clib) - C package manager-ish
 * [clibs/commander](https://github.com/clibs/commander) - Commander option parser ported to C - simple API, auto-generated --help
 * [clibs/dumpasn1](https://github.com/clibs/dumpasn1) - Display the contents of ASN.1 encoded data
-* [clibs/flag](https://github.com/clibs/flag) - Go-style flag parsing for C
 * [clibs/hash](https://github.com/clibs/hash) - C hash implementation based on khash
 * [clibs/list](https://github.com/clibs/list) - C doubly linked list
 * [closeio/ciso8601](https://github.com/closeio/ciso8601) - Fast ISO8601 date time parser for Python written in C
@@ -1749,7 +1728,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [cloudozer/ling](https://github.com/cloudozer/ling) - Erlang on Xen
 * [cloudwu/atomdict](https://github.com/cloudwu/atomdict) - A data structure for data exchange between multi lua states.
 * [cloudwu/coroutine](https://github.com/cloudwu/coroutine) - A asymmetric coroutine library for C.
-* [cloudwu/cstring](https://github.com/cloudwu/cstring) - A simple C string lib
 * [cloudwu/lua-db](https://github.com/cloudwu/lua-db) - A database shared data among multi-states .
 * [cloudwu/mptun](https://github.com/cloudwu/mptun) - Multi-path Tunnel
 * [cloudwu/pbc](https://github.com/cloudwu/pbc) - A protocol buffers library for C
