@@ -111,8 +111,10 @@ Incorporated lists:
 --------------------------------------------------------------------------------
 
 ## Meta ##
+### Standarts ###
 <details>
-	<summary>### Standarts ###</summary>
+	<summary>Click to expand</summary>
+
 	* [Draft C89 standard][1-1]
 	* [Draft C99 standard][1-2]
 	* [Draft C11 standard][1-3]
