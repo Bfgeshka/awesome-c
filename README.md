@@ -111,16 +111,18 @@ Incorporated lists:
 --------------------------------------------------------------------------------
 
 ## Meta ##
-### Standarts ###
-* [Draft C89 standard][1-1]
-* [Draft C99 standard][1-2]
-* [Draft C11 standard][1-3]
-* [Draft C18 standard][1-4]
+<details>
+	<summary>### Standarts ###</summary>
+	* [Draft C89 standard][1-1]
+	* [Draft C99 standard][1-2]
+	* [Draft C11 standard][1-3]
+	* [Draft C18 standard][1-4]
 
-[1-1]: https://port70.net/~nsz/c/c89/c89-draft.html
-[1-2]: https://port70.net/~nsz/c/c99/n1256.html
-[1-3]: https://port70.net/~nsz/c/c11/n1570.html
-[1-4]: https://web.archive.org/web/20181230041359if_/http://www.open-std.org/jtc1/sc22/wg14/www/abq/c17_updated_proposed_fdis.pdf
+	[1-1]: https://port70.net/~nsz/c/c89/c89-draft.html
+	[1-2]: https://port70.net/~nsz/c/c99/n1256.html
+	[1-3]: https://port70.net/~nsz/c/c11/n1570.html
+	[1-4]: https://web.archive.org/web/20181230041359if_/http://www.open-std.org/jtc1/sc22/wg14/www/abq/c17_updated_proposed_fdis.pdf
+</details>
 
 ### Tooling ###
 #### Build Systems ####
@@ -189,6 +191,7 @@ Incorporated lists:
 * [TinyCC/tinycc](https://github.com/TinyCC/tinycc) - Mirror from mob branch
 * [alexfru/SmallerC](https://github.com/alexfru/SmallerC) - Simple C compiler
 * [andrewchambers/c](https://github.com/andrewchambers/c) - small self hosting C compiler
+* [cc65/cc65](https://github.com/cc65/cc65) - cc65 - a freeware C compiler for 6502 based systems —
 
 [3-1]: https://gcc.gnu.org/
 [3-2]: https://clang.llvm.org/
@@ -523,6 +526,7 @@ Incorporated lists:
 * [bovine/datapipe](https://github.com/bovine/datapipe) - Network TCP port forwarding
 * [brenns10/lsh](https://github.com/brenns10/lsh) - Simple shell implementation.  Tutorial here ->
 * [brho/plan9](https://github.com/brho/plan9) - UC Berkeley release of Plan 9 under the GPLv2
+* [caisah/Sedgewick-algorithms-in-c-exercises-and-examples](https://github.com/caisah/Sedgewick-algorithms-in-c-exercises-and-examples) - Examples and exercises from Algorithms in C, Parts 1-4: Fundamentals, Data Structures, Sorting, Searching by Robert Sedgewick book
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -710,6 +714,7 @@ Neural nets, machine learning, and other similar things.
 * [andikleen/snappy-c](https://github.com/andikleen/snappy-c) - C port of the snappy compressor
 * [antirez/smaz](https://github.com/antirez/smaz) - Small strings compression library
 * [atomicobject/heatshrink](https://github.com/atomicobject/heatshrink) - data compression library for embedded/real-time systems
+* [centaurean/density](https://github.com/centaurean/density) - Superfast compression library
 
 ## Concurrency and Parallelism ##
 * [cchan][52] - Small library for channel constructs for inter-thread
@@ -879,6 +884,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [begeekmyfriend/bplustree](https://github.com/begeekmyfriend/bplustree) - A minimal but extreme fast B+ tree indexing structure demo for billions of key-value storage
 * [bpudream/pat](https://github.com/bpudream/pat) - Data Structure (中国大学MOOC-陈越、何钦铭-数据结构)
 * [breckinloggins/ngtemplate](https://github.com/breckinloggins/ngtemplate) - ngtemplate - A template engine written in C designed to be syntax-compatible with Google CTemplate
+* [cengek/CKDatastruct](https://github.com/cengek/CKDatastruct) - The using of data structure in C from our class
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1358,6 +1364,7 @@ Audio and video processing
 * [sregex](https://github.com/openresty/sregex) - Non-backtracking NFA/DFA-based Perl-compatible regex engine library. [`3-clause BSD`](https://opensource.org/licenses/BSD-3-Clause)
 * [JazzCore/ctrlp-cmatcher](https://github.com/JazzCore/ctrlp-cmatcher) - CtrlP C matching extension
 * [Maxime2/dataparksearch](https://github.com/Maxime2/dataparksearch) - An open source, feature rich search engine.
+* [cesanta/slre](https://github.com/cesanta/slre) - Super Light Regexp engine for C/C++
 
 ## Serialization ##
 * [binn][280] - Binary serialization format, meant to be compact, fast and
@@ -1386,6 +1393,7 @@ Audio and video processing
 * [ErikDubbelboer/c-pack](https://github.com/ErikDubbelboer/c-pack) - Simple data packing/unpacking in C
 * [Xsoda/struct](https://github.com/Xsoda/struct) - pack and unpack packet data like python struct module.
 * [acg/lwpb](https://github.com/acg/lwpb) - Lightweight Protocol Buffers for C and Python
+* [camgunz/cmp](https://github.com/camgunz/cmp) - An implementation of the MessagePack serialization format in C / msgpack.org[C]
 
 ## Source Code Collections ##
 * [CCAN][292] - Modelled after Perl's CPAN, this is a big collection of code.
@@ -1484,6 +1492,7 @@ Implementations of the C standarts
 * [JuliaStrings/utf8proc](https://github.com/JuliaStrings/utf8proc) - a clean C library for processing UTF-8 Unicode data
 * [antirez/sds](https://github.com/antirez/sds) - Simple Dynamic Strings library for C
 * [boyerjohn/rapidstring](https://github.com/boyerjohn/rapidstring) - Maybe the fastest string library ever.
+* [clibs/buffer](https://github.com/clibs/buffer) - Tiny C string library
 
 ## Structured File Processing ##
 Libraries for working wit hspecific filetypes
@@ -1517,6 +1526,7 @@ Libraries for working wit hspecific filetypes
 * [DaveGamble/cJSON](https://github.com/DaveGamble/cJSON) - Ultralightweight JSON parser in ANSI C
 * [akheron/jansson](https://github.com/akheron/jansson) - C library for encoding, decoding and manipulating JSON data
 * [armink/struct2json](https://github.com/armink/struct2json) - A fast convert library between the JSON and C structure. Implement structure serialization and deserialization for C. | C 结构体与 JSON 快速互转库，快速实现 C 结构体的序列化及反序列化
+* [cesanta/frozen](https://github.com/cesanta/frozen) - JSON parser and generator for C/C++ with scanf/printf like interface. Targeting embedded systems.
 
 ### INI ###
 * [inih][329] - Small and simple INI file parser, good for embedded systems. [``BSD-3-Clause``][BSD-3-Clause]
@@ -1654,54 +1664,36 @@ Comprehensive and integrated solutions for building web application in C.
 * [alandekok/recli](https://github.com/alandekok/recli) - A re-imagined CLI.  Customizable syntax, help, permissions, data types.
 * [armon/statsite](https://github.com/armon/statsite) - C implementation of statsd
 * [bus1/dbus-broker](https://github.com/bus1/dbus-broker) - Linux D-Bus Message Broker
+* [cesanta/mjs](https://github.com/cesanta/mjs) - Embedded JavaScript engine for C/C++
+* [cgaebel/pipe](https://github.com/cgaebel/pipe) - A simple thread-safe FIFO in C.
 
 # Unsorted #
-* [cahirwpz/amigaos-cross-toolchain](https://github.com/cahirwpz/amigaos-cross-toolchain) - AmigaOS cross compiler for Linux / MacOSX / Windows
-* [caisah/Sedgewick-algorithms-in-c-exercises-and-examples](https://github.com/caisah/Sedgewick-algorithms-in-c-exercises-and-examples) - Examples and exercises from Algorithms in C, Parts 1-4: Fundamentals, Data Structures, Sorting, Searching by Robert Sedgewick book
-* [caisonglu/cachemaster](https://github.com/caisonglu/cachemaster) - Cachemaster is similar to VMTOUCH, but with more functions. Such as kick page cache, warmup/readahead data, lock data in mem, stat page cache, stat page cache in realtime mode, by file or directory~ Personally, I think the most usefule function is real-time-statistic of page cache. You can see the page cache thrashing when kernel do page reclaiming.
-* [caius/fio](https://github.com/caius/fio) - Mirror of git://brick.kernel.dk/data/git/fio.git
-* [calleerlandsson/pick](https://github.com/calleerlandsson/pick) - A fuzzy search tool for the command-line
-* [calvinwilliams/cocker](https://github.com/calvinwilliams/cocker) - Container Engine
-* [calvinwilliams/tcpdaemon](https://github.com/calvinwilliams/tcpdaemon) - Tcpdaemon is similar to the xinetd TCP daemon, which is under the particular process model of TCP connection management, docking with the customer communication data protocol layer and application processing module on runtime or compile linking, construct TCP server quickly.
-* [camgunz/cmp](https://github.com/camgunz/cmp) - An implementation of the MessagePack serialization format in C / msgpack.org[C]
-* [canboat/canboat](https://github.com/canboat/canboat) - CAN Boat provides NMEA 2000 and NMEA 0183 utilities. It contains a NMEA 2000 PGN decoder, can read and write N2K messages.
 * [canonizer/libgpuvm](https://github.com/canonizer/libgpuvm) - library which simplifies host-GPU data transfer using userspace pagefault handling
 * [caomaocao/micro-camera](https://github.com/caomaocao/micro-camera) - The mircocamera driven by a STM32 chip and its PC client. The microcamera captures a photo and then converts it to JPEG or BMP formet.     Finally , the camera sent image  data to PC by 485 serial-ports
 * [careermonk/DataStructuresAndAlgorithmsMadeEasy](https://github.com/careermonk/DataStructuresAndAlgorithmsMadeEasy) - Data Structures And Algorithms Made Easy
 * [carld/micro-lisp](https://github.com/carld/micro-lisp) - 🎄A very small Lisp programming language 😀that used to be under 200 lines of C🎄
 * [carlj/CJAMacros](https://github.com/carlj/CJAMacros) - Macro collection for daily usage
-* [carljv/Will_it_Python](https://github.com/carljv/Will_it_Python) - Translating R Data Analyses to Python
 * [carlosgs/Cyclone-PCB-Factory](https://github.com/carlosgs/Cyclone-PCB-Factory) - Cyclone (Circuit Cloner) is a CNC mill intended for PCB manufacturing.
 * [carp-lang/Carp](https://github.com/carp-lang/Carp) - A statically typed lisp, without a GC, for high performance applications
-* [caseyscarborough/keylogger](https://github.com/caseyscarborough/keylogger) - A no-frills keylogger for Mac OS X.
 * [catalinii/minisatip](https://github.com/catalinii/minisatip) - minisatip is an SATIP server for linux using local DVB-S2, DVB-C, DVB-T or ATSC cards
 * [cbgbt/DataStructures](https://github.com/cbgbt/DataStructures) - A data structures library written in C.
 * [cbsd/cbsd](https://github.com/cbsd/cbsd) - Yet one more wrapper around jail, bhyve and XEN on FreeBSD platform. For more information please visit website
 * [cbsheng/tinyhttpd](https://github.com/cbsheng/tinyhttpd) - tinyhttpd的详细注释版，十分适合入门者学习的一个项目
 * [cbuchner1/CudaMiner](https://github.com/cbuchner1/CudaMiner) - a CUDA accelerated litecoin mining application based on pooler's CPU miner
 * [cbuchner1/ccminer](https://github.com/cbuchner1/ccminer) - Christian Buchner's & Christian H.'s CUDA miner project
-* [cc65/cc65](https://github.com/cc65/cc65) - cc65 - a freeware C compiler for 6502 based systems —
 * [ccore/ccore](https://github.com/ccore/ccore) - A cross platform low level game development library
 * [ccore/ccore_rewrite](https://github.com/ccore/ccore_rewrite) - A cross platform low level game development library
 * [ccpalettes/the-c-programming-language-second-edition-solutions](https://github.com/ccpalettes/the-c-programming-language-second-edition-solutions) - Solutions for all exercises in the book "The C Programming Language - Second Edition"(referred to as K&R, after its authors' initials) by Brian W. Kernighan and Dennis M. Ritchie.
 * [ccxvii/mujs](https://github.com/ccxvii/mujs) - An embeddable Javascript interpreter in C.
 * [cdkamat/hammerspace](https://github.com/cdkamat/hammerspace) - Senior Year (BE Computer Engg.) Undergraduate project - Data Deduplication for the TUX 3 Linux File System
-* [celery/librabbitmq](https://github.com/celery/librabbitmq) - Python bindings to librabbitmq-c
 * [celluloid-player/celluloid](https://github.com/celluloid-player/celluloid) - A simple GTK+ frontend for mpv
-* [celluloid/nio4r](https://github.com/celluloid/nio4r) - New IO for Ruby
-* [cengek/CKDatastruct](https://github.com/cengek/CKDatastruct) - The using of data structure in C from our class
-* [centaurean/density](https://github.com/centaurean/density) - Superfast compression library
 * [ceph/ceph-client](https://github.com/ceph/ceph-client) - Ceph kernel client
 * [cesanta/fossa](https://github.com/cesanta/fossa) - Async non-blocking multi-protocol networking library for C/C++
-* [cesanta/frozen](https://github.com/cesanta/frozen) - JSON parser and generator for C/C++ with scanf/printf like interface. Targeting embedded systems.
-* [cesanta/mjs](https://github.com/cesanta/mjs) - Embedded JavaScript engine for C/C++
 * [cesanta/mongoose-os](https://github.com/cesanta/mongoose-os) - Mongoose OS - an IoT Firmware Development Framework. Supported microcontrollers: ESP32, ESP8266, CC3220, CC3200, STM32F4, STM32L4, STM32F7. Amazon AWS IoT, Microsoft Azure, Google IoT Core integrated. Code in C or JavaScript.
 * [cesanta/mongoose](https://github.com/cesanta/mongoose) - Embedded web server for C/C++
-* [cesanta/slre](https://github.com/cesanta/slre) - Super Light Regexp engine for C/C++
 * [cesanta/smart.js](https://github.com/cesanta/smart.js) - Embedded Javascript engine for C/C++ with networking, file, database and device interfaces
 * [cesanta/v7](https://github.com/cesanta/v7) - Embedded JavaScript engine for C/C++
 * [cfengine/core](https://github.com/cfengine/core) - CFEngine Community
-* [cgaebel/pipe](https://github.com/cgaebel/pipe) - A simple thread-safe FIFO in C.
 * [cgdb/cgdb](https://github.com/cgdb/cgdb) - Console front-end to the GNU debugger
 * [chadjoan/C-Survival-Kit](https://github.com/chadjoan/C-Survival-Kit) - A set of useful functions, data structures, and macros aimed at allowing more expressive and reliable C code.  Portability targets are OpenVMS and Linux.
 * [chadjoan/sleep-waffle](https://github.com/chadjoan/sleep-waffle) - A reimplementation of the Zeo Raw Data Library with less restrictive (Boost) licensing and written in C with a non-threaded polling-event model.  And a silly name.
@@ -1765,7 +1757,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [clawoo/AsteroidsCocos2D-x](https://github.com/clawoo/AsteroidsCocos2D-x) - An Asteroids game implemented in Cocos2D-x
 * [cleanflight/cleanflight](https://github.com/cleanflight/cleanflight) - Clean-code version of the baseflight flight controller firmware
 * [clear-code/cutter](https://github.com/clear-code/cutter) - An easy to write and debug unit testing framework for C and C++.
-* [clibs/buffer](https://github.com/clibs/buffer) - Tiny C string library
 * [clibs/clib](https://github.com/clibs/clib) - C package manager-ish
 * [clibs/commander](https://github.com/clibs/commander) - Commander option parser ported to C - simple API, auto-generated --help
 * [clibs/dumpasn1](https://github.com/clibs/dumpasn1) - Display the contents of ASN.1 encoded data
