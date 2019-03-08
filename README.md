@@ -539,6 +539,7 @@ Incorporated lists:
 * [cksystemsteaching/selfie](https://github.com/cksystemsteaching/selfie) - An educational software system of a tiny self-compiling C compiler, a tiny self-executing RISC-V emulator, and a tiny self-hosting RISC-V hypervisor.
 * [cmus/cmus](https://github.com/cmus/cmus) - Small, fast and powerful console music player for Unix-like operating systems.
 * [collectd/collectd](https://github.com/collectd/collectd) - The system statistics collection daemon. Please send Pull Requests here!
+* [conghui/algorithms-in-c](https://github.com/conghui/algorithms-in-c) - Exercise of the book Algorithms In C, Part 1-4, Fundamentals, Data Strcuture, Sorting, Searching, written by  Robert Sedgewick
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -592,6 +593,7 @@ Neural nets, machine learning, and other similar things.
 * [ajrisi/fsm](https://github.com/ajrisi/fsm) - A finite state machine engine in C - used as a parser for complex data structures
 * [chaoslawful/ccard-lib](https://github.com/chaoslawful/ccard-lib) - C library for estimating cardinality in streams for which it is infeasible to store all events in memory
 * [citiususc/BigBWA](https://github.com/citiususc/BigBWA) - Approaching the Burrows-Wheeler Aligner to Big Data Technologies
+* [coolwanglu/quantile-alg](https://github.com/coolwanglu/quantile-alg) - Algorithms for finding quantiles of a data stream
 
 ## Argument Parsing ##
 * [parg][410] - A single-file reimplementation of ``getopt`` with better
@@ -780,6 +782,7 @@ Neural nets, machine learning, and other similar things.
 * [bjoernknafla/amp](https://github.com/bjoernknafla/amp) - C portable low-level assemblies for parallelism and threading
 * [bjoernknafla/peak](https://github.com/bjoernknafla/peak) - Parallelism exploration assembly kit. C toolkit to experiment with task- and data-parallelism.
 * [cloudwu/coroutine](https://github.com/cloudwu/coroutine) - A asymmetric coroutine library for C.
+* [concurrencykit/ck](https://github.com/concurrencykit/ck) - Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures designed to aid in the research, design and implementation of high performance concurrent systems developed in C99+.
 
 ## Crypto ##
 Mostly library implementations of well-known cryptographic algorithms or
@@ -918,6 +921,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [clibs/list](https://github.com/clibs/list) - C doubly linked list
 * [codeprepper/data-structures](https://github.com/codeprepper/data-structures) - arrays, linked lists, stacks and queues
 * [coderaven/B-Tree](https://github.com/coderaven/B-Tree) - B-Tree Implementation in C. A project in Data Structures.
+* [corks/corc.ds](https://github.com/corks/corc.ds) - A data structure library written in C.
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1091,6 +1095,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [alonbl/pkcs11-data](https://github.com/alonbl/pkcs11-data) - PKCS#11 data object manipulator
 * [andygock/avr-uart](https://github.com/andygock/avr-uart) - AVR UART C Library
 * [anrieff/libcpuid](https://github.com/anrieff/libcpuid) - a small C library for x86 CPU detection and feature extraction
+* [coocox/cox](https://github.com/coocox/cox) - CoX is an peripherals library with a unified standard interface specially for ARM Cortex M.
 
 ## Hashing ##
 Hash function implementations for *non*-crypto purposes. Cryptographic hashes
@@ -1114,6 +1119,7 @@ can be found in the Crypto section.
 * [begeekmyfriend/CuckooFilter](https://github.com/begeekmyfriend/CuckooFilter) - Substitute for bloom filter.
 * [bitly/dablooms](https://github.com/bitly/dablooms) - scaling, counting, bloom filter library
 * [clibs/hash](https://github.com/clibs/hash) - C hash implementation based on khash
+* [cr-marcstevens/sha1collisiondetection](https://github.com/cr-marcstevens/sha1collisiondetection) - Library and command line tool to detect SHA-1 collision in a file
 
 ## Image Processing and Computer Vision ##
 * [ccv][5] - C-based/Cached/Core Computer Vision library; modern computer
@@ -1261,6 +1267,7 @@ Audio and video processing
 * [stb](https://github.com/nothings/stb) - Range of single-file libraries for C. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
 * [libsrt](https://faragon.github.io/libsrt.html) - Safe Real-Time library for C. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
 * [chutsu/cog](https://github.com/chutsu/cog) - C common library containing common data structures, sorting algorithms and utility functions
+* [cs50/libcs50](https://github.com/cs50/libcs50) - CS50 Library for C
 
 ## Networking ##
 ### DNS ###
@@ -1669,6 +1676,7 @@ Libraries for working wit hspecific filetypes
 * [ThrowTheSwitch/Unity](https://github.com/ThrowTheSwitch/Unity) - Simple Unit Testing for C
 * [bvdberg/ctest](https://github.com/bvdberg/ctest) - ctest is a unit test framework for software written in C.
 * [clear-code/cutter](https://github.com/clear-code/cutter) - An easy to write and debug unit testing framework for C and C++.
+* [compiler-dept/speck](https://github.com/compiler-dept/speck) - A small unit testing framework for C
 
 ## TUI ##
 Textual User Interface
@@ -1705,6 +1713,7 @@ Comprehensive and integrated solutions for building web application in C.
 * [cesanta/mongoose](https://github.com/cesanta/mongoose) - Embedded web server for C/C++
 * [cesanta/smart.js](https://github.com/cesanta/smart.js) - Embedded Javascript engine for C/C++ with networking, file, database and device interfaces
 * [cesanta/v7](https://github.com/cesanta/v7) - Embedded JavaScript engine for C/C++
+* [criticalstack/libevhtp](https://github.com/criticalstack/libevhtp) - Create extremely-fast and secure embedded HTTP servers with ease.
 
 ## Web Service APIs ##
 * [twitc][426] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
@@ -1734,51 +1743,16 @@ Comprehensive and integrated solutions for building web application in C.
 * [cesanta/mjs](https://github.com/cesanta/mjs) - Embedded JavaScript engine for C/C++
 * [cgaebel/pipe](https://github.com/cgaebel/pipe) - A simple thread-safe FIFO in C.
 * [cloudyourcar/minmea](https://github.com/cloudyourcar/minmea) - a lightweight GPS NMEA 0183 parser library in pure C
+* [couchbase/libcouchbase](https://github.com/couchbase/libcouchbase) - The couchbase client for C.
 
 # Unsorted #
-* [compiler-dept/speck](https://github.com/compiler-dept/speck) - A small unit testing framework for C
-* [conch/disco](https://github.com/conch/disco) - Automatic perspective DIStortion COrrection using accelerometer data
-* [concurrencykit/ck](https://github.com/concurrencykit/ck) - Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures designed to aid in the research, design and implementation of high performance concurrent systems developed in C99+.
-* [confluentinc/bottledwater-pg](https://github.com/confluentinc/bottledwater-pg) - Change data capture from PostgreSQL into Kafka
-* [confluentinc/confluent-kafka-python](https://github.com/confluentinc/confluent-kafka-python) - Confluent's Apache Kafka Python client
-* [conformal/cyphertite](https://github.com/conformal/cyphertite) - A high-security scalable solution for online backups.
-* [conghui/algorithms-in-c](https://github.com/conghui/algorithms-in-c) - Exercise of the book Algorithms In C, Part 1-4, Fundamentals, Data Strcuture, Sorting, Searching, written by  Robert Sedgewick
-* [contiki-ng/contiki-ng](https://github.com/contiki-ng/contiki-ng) - Contiki-NG: The OS for Next Generation IoT Devices
-* [contiki-os/contiki](https://github.com/contiki-os/contiki) - The official git repository for Contiki, the open source OS for the Internet of Things
-* [coocox/cox](https://github.com/coocox/cox) - CoX is an peripherals library with a unified standard interface specially for ARM Cortex M.
-* [coolstar/RecordMyScreen](https://github.com/coolstar/RecordMyScreen) - Record the display even on non-jailbroken iPhones.
-* [coolwanglu/quantile-alg](https://github.com/coolwanglu/quantile-alg) - Algorithms for finding quantiles of a data stream
-* [coolwanglu/vim.js](https://github.com/coolwanglu/vim.js) - JavaScript port of Vim
-* [cooperative-computing-lab/cctools](https://github.com/cooperative-computing-lab/cctools) - The Cooperative Computing Tools (cctools) enable large scale distributed computations to harness hundreds to thousands of machines from clusters, clouds, and grids.
-* [coova/coova-chilli](https://github.com/coova/coova-chilli) - CoovaChilli is an open-source software access controller for captive portal hotspots.
-* [coreboot/coreboot](https://github.com/coreboot/coreboot) - github mirror of coreboot.org's master repository
-* [coreutils/coreutils](https://github.com/coreutils/coreutils) - upstream mirror
-* [corks/corc.ds](https://github.com/corks/corc.ds) - A data structure library written in C.
-* [cornet/ccze](https://github.com/cornet/ccze) - ccze
-* [cornetp/eagle-owl](https://github.com/cornetp/eagle-owl) - Data acquisition from an OWL CM160 +USB device on linux platforms
-* [corosync/corosync](https://github.com/corosync/corosync) - The Corosync Cluster Engine
-* [corporateshark/Android-NDK-Game-Development-Cookbook](https://github.com/corporateshark/Android-NDK-Game-Development-Cookbook) - Android NDK Game Development Cookbook
-* [cos120/captcha_crack](https://github.com/cos120/captcha_crack) - 选字验证码破解，试验过网易和极验，破解率99
-* [coturn/coturn](https://github.com/coturn/coturn) - coturn TURN server project
-* [couchbase/Android-Couchbase](https://github.com/couchbase/Android-Couchbase) - The android build for humans.
-* [couchbase/couchbase-lite-android](https://github.com/couchbase/couchbase-lite-android) - Lightweight, embedded, syncable NoSQL database engine for Android.
-* [couchbase/couchbase-ruby-client](https://github.com/couchbase/couchbase-ruby-client) - Couchbase Ruby client library (official) built atop libcouchbase
-* [couchbase/libcouchbase](https://github.com/couchbase/libcouchbase) - The couchbase client for C.
-* [couchbaselabs/Android-Couchbase](https://github.com/couchbaselabs/Android-Couchbase) - The android build for humans.
-* [couchbaselabs/couchstore](https://github.com/couchbaselabs/couchstore) - couchbase storage file library
-* [cr-marcstevens/sha1collisiondetection](https://github.com/cr-marcstevens/sha1collisiondetection) - Library and command line tool to detect SHA-1 collision in a file
-* [crash-utility/crash](https://github.com/crash-utility/crash) - Linux kernel crash utility
-* [crass/lessfs](https://github.com/crass/lessfs) - lessfs - An inline data deduplicating filesystem
-* [creaceed/CeedMath](https://github.com/creaceed/CeedMath) - Computer graphics math library for Mac & iOS
 * [credativ/informix_fdw](https://github.com/credativ/informix_fdw) - Foreign Data Wrapper for Informix Databases
-* [criticalstack/libevhtp](https://github.com/criticalstack/libevhtp) - Create extremely-fast and secure embedded HTTP servers with ease.
 * [crmulliner/adbi](https://github.com/crmulliner/adbi) - Android Dynamic Binary Instrumentation Toolkit
 * [crocodella/MongooseWrapper](https://github.com/crocodella/MongooseWrapper) - An Objective-C Mongoose wrapper emulating Java servlets
 * [crosg/idCreator](https://github.com/crosg/idCreator) - 这是一个id生成器，主要为互联网的各种业务生成id（也就是数据库主键）。该id生成器生成的id主要被用来做数据路由之用。和Albianj2配合，可以快速而简单的搭建完整的分布式业务系统！
 * [crosslife/OpenBird](https://github.com/crosslife/OpenBird) - Flappy Bird in cocos2dx
 * [crozone/SpectrePoC](https://github.com/crozone/SpectrePoC) - Proof of concept code for the Spectre CPU exploit.
 * [cs3157/recitations](https://github.com/cs3157/recitations) - Recitation notes for cs3157, the C systems programming course with a narrative
-* [cs50/libcs50](https://github.com/cs50/libcs50) - CS50 Library for C
 * [csete/gpredict](https://github.com/csete/gpredict) - Gpredict satellite tracking application
 * [csound/csound](https://github.com/csound/csound) - Main repository for Csound
 * [cstack/db_tutorial](https://github.com/cstack/db_tutorial) - Writing a sqlite clone from scratch in C
