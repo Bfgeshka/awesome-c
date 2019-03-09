@@ -540,6 +540,8 @@ Incorporated lists:
 * [cmus/cmus](https://github.com/cmus/cmus) - Small, fast and powerful console music player for Unix-like operating systems.
 * [collectd/collectd](https://github.com/collectd/collectd) - The system statistics collection daemon. Please send Pull Requests here!
 * [conghui/algorithms-in-c](https://github.com/conghui/algorithms-in-c) - Exercise of the book Algorithms In C, Part 1-4, Fundamentals, Data Strcuture, Sorting, Searching, written by  Robert Sedgewick
+* [cstack/db_tutorial](https://github.com/cstack/db_tutorial) - Writing a sqlite clone from scratch in C
+* [darius/ichbins](https://github.com/darius/ichbins) - A tiny self-hosting Lisp-to-C compiler
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -547,6 +549,7 @@ Incorporated lists:
 * [McNopper/OpenGL](https://github.com/McNopper/OpenGL) - OpenGL 3 and 4 with GLSL
 * [OpenGLInsights/OpenGLInsightsCode](https://github.com/OpenGLInsights/OpenGLInsightsCode) - Source code for OpenGL Insights
 * [RPISEC/MBE](https://github.com/RPISEC/MBE) - Course materials for Modern Binary Exploitation by RPISEC
+* [cs3157/recitations](https://github.com/cs3157/recitations) - Recitation notes for cs3157, the C systems programming course with a narrative
 
 --------------------------------------------------------------------------------
 
@@ -572,6 +575,7 @@ Neural nets, machine learning, and other similar things.
 * [cjac/cmusphinx](https://github.com/cjac/cmusphinx) - CMU Sphinx - Speech Recognition Toolkit
 * [cmusphinx/pocketsphinx](https://github.com/cmusphinx/pocketsphinx) - PocketSphinx is a lightweight speech recognition engine, specifically tuned for handheld and mobile devices, though it works equally well on the desktop
 * [codeplea/genann](https://github.com/codeplea/genann) - simple neural network library in ANSI C
+* [dake/openVP](https://github.com/dake/openVP) - Voice Print Recognition in C language.
 
 ## Algoritm Implementations ##
 * [sort][434] - Collection of sorting routines, which type-specialize at
@@ -594,6 +598,8 @@ Neural nets, machine learning, and other similar things.
 * [chaoslawful/ccard-lib](https://github.com/chaoslawful/ccard-lib) - C library for estimating cardinality in streams for which it is infeasible to store all events in memory
 * [citiususc/BigBWA](https://github.com/citiususc/BigBWA) - Approaching the Burrows-Wheeler Aligner to Big Data Technologies
 * [coolwanglu/quantile-alg](https://github.com/coolwanglu/quantile-alg) - Algorithms for finding quantiles of a data stream
+* [cvxgrp/scs](https://github.com/cvxgrp/scs) - C package that solves convex cone problems via operator splitting
+* [davidreynolds/algorithms](https://github.com/davidreynolds/algorithms) - A repository of assorted algorithms and data structures.
 
 ## Argument Parsing ##
 * [parg][410] - A single-file reimplementation of ``getopt`` with better
@@ -783,6 +789,7 @@ Neural nets, machine learning, and other similar things.
 * [bjoernknafla/peak](https://github.com/bjoernknafla/peak) - Parallelism exploration assembly kit. C toolkit to experiment with task- and data-parallelism.
 * [cloudwu/coroutine](https://github.com/cloudwu/coroutine) - A asymmetric coroutine library for C.
 * [concurrencykit/ck](https://github.com/concurrencykit/ck) - Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures designed to aid in the research, design and implementation of high performance concurrent systems developed in C99+.
+* [cudpp/cudpp](https://github.com/cudpp/cudpp) - CUDA Data Parallel Primitives Library
 
 ## Crypto ##
 Mostly library implementations of well-known cryptographic algorithms or
@@ -826,6 +833,8 @@ protocols.
 * [bitcoin-core/secp256k1](https://github.com/bitcoin-core/secp256k1) - Optimized C library for EC operations on curve secp256k1
 * [bitcoin/secp256k1](https://github.com/bitcoin/secp256k1) - Optimized C library for EC operations on curve secp256k1
 * [cloudflare/keyless](https://github.com/cloudflare/keyless) - CloudFlare's Keyless SSL Server Reference Implementation
+* [ctz/cifra](https://github.com/ctz/cifra) - A collection of cryptographic primitives targeted at embedded use.
+* [cyassl/cyassl](https://github.com/cyassl/cyassl) - Please use wolfSSL now instead: https://github.com/wolfSSL/wolfssl . CyaSSL is a small, fast, portable implementation of TLS/SSL for embedded devices to the cloud.
 
 ## Databases ##
 * [BerkeleyDB][83] - Library for a high-performance embedded database for
@@ -922,6 +931,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [codeprepper/data-structures](https://github.com/codeprepper/data-structures) - arrays, linked lists, stacks and queues
 * [coderaven/B-Tree](https://github.com/coderaven/B-Tree) - B-Tree Implementation in C. A project in Data Structures.
 * [corks/corc.ds](https://github.com/corks/corc.ds) - A data structure library written in C.
+* [cstavish/c_data_structs](https://github.com/cstavish/c_data_structs) - singly/doubly linked list and hash table implementations...more to come
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1023,6 +1033,9 @@ Engines, libraries and other helpful things specifically for making games.
 * [chocolate-doom/chocolate-doom](https://github.com/chocolate-doom/chocolate-doom) - Chocolate Doom is a Doom source port that is minimalist and historically accurate.
 * [cloudwu/skynet](https://github.com/cloudwu/skynet) - A lightweight online game framework
 * [cocos2d/cocos2d-frame](https://github.com/cocos2d/cocos2d-frame) - Player and "stub" for cocos2d
+* [cxong/cdogs-sdl](https://github.com/cxong/cdogs-sdl) - Classic overhead run-and-gun game
+* [dalerank/caesaria-game](https://github.com/dalerank/caesaria-game) - Caesar III (Open source remake)
+* [dariomanesku/cmft](https://github.com/dariomanesku/cmft) - Cross-platform open-source command-line cubemap filtering tool.
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1150,6 +1163,7 @@ can be found in the Crypto section.
 * [bluesmoon/pngtocss](https://github.com/bluesmoon/pngtocss) - Read in a gradient from a png file and spit out CSS for it
 * [brendangregg/Dump2PNG](https://github.com/brendangregg/Dump2PNG) - Visualize file data as a PNG
 * [buaazp/zimg](https://github.com/buaazp/zimg) - A lightweight and high performance image storage and processing system.
+* [dbohdan/s2png](https://github.com/dbohdan/s2png) - Store data of any kind inside PNG images.
 
 ## Integrated Debugging ##
 * [whereami][390] - One-file library for locating the current executable on the
@@ -1163,6 +1177,7 @@ can be found in the Crypto section.
 * [HardySimpson/zlog](https://github.com/HardySimpson/zlog) - A reliable, high-performance, thread safe, flexsible, clear-model, pure C logging library.
 * [armink/CmBacktrace](https://github.com/armink/CmBacktrace) - Advanced fault backtrace library for ARM Cortex-M series MCU | ARM Cortex-M 系列 MCU 错误追踪库
 * [armink/EasyLogger](https://github.com/armink/EasyLogger) - A ultra-lightweight(ROM<1.6K, RAM<0.3k), high-performance C/C++ log library. | 一款超轻量级(ROM<1.6K, RAM<0.3k)、高性能的 C/C++ 日志库
+* [cyrus-and/prof](https://github.com/cyrus-and/prof) - Self-contained C/C++ profiler library for Linux
 
 ## Lexing and Parsing ##
 Generic lexers and parsers
@@ -1228,6 +1243,7 @@ Audio and video processing
 * [aubio/aubio](https://github.com/aubio/aubio) - a library for audio and music analysis
 * [cmatsuoka/libxmp](https://github.com/cmatsuoka/libxmp) - Libxmp is a library that renders module files to PCM data.
 * [cnlohr/colorchord](https://github.com/cnlohr/colorchord) - Chromatic Sound to Light Conversion System
+* [csound/csound](https://github.com/csound/csound) - Main repository for Csound
 
 ## Multiple Purpose Libraries ##
 * [pal][65] - Optimized library for maths, parallel processing and data
@@ -1714,6 +1730,7 @@ Comprehensive and integrated solutions for building web application in C.
 * [cesanta/smart.js](https://github.com/cesanta/smart.js) - Embedded Javascript engine for C/C++ with networking, file, database and device interfaces
 * [cesanta/v7](https://github.com/cesanta/v7) - Embedded JavaScript engine for C/C++
 * [criticalstack/libevhtp](https://github.com/criticalstack/libevhtp) - Create extremely-fast and secure embedded HTTP servers with ease.
+* [danielwaterworth/Raphters](https://github.com/danielwaterworth/Raphters) - [DEPRECATED] A web framework for C.
 
 ## Web Service APIs ##
 * [twitc][426] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
@@ -1744,58 +1761,15 @@ Comprehensive and integrated solutions for building web application in C.
 * [cgaebel/pipe](https://github.com/cgaebel/pipe) - A simple thread-safe FIFO in C.
 * [cloudyourcar/minmea](https://github.com/cloudyourcar/minmea) - a lightweight GPS NMEA 0183 parser library in pure C
 * [couchbase/libcouchbase](https://github.com/couchbase/libcouchbase) - The couchbase client for C.
+* [cxong/tinydir](https://github.com/cxong/tinydir) - Lightweight, portable and easy to integrate C directory and file reader
 
 # Unsorted #
-* [credativ/informix_fdw](https://github.com/credativ/informix_fdw) - Foreign Data Wrapper for Informix Databases
-* [crmulliner/adbi](https://github.com/crmulliner/adbi) - Android Dynamic Binary Instrumentation Toolkit
-* [crocodella/MongooseWrapper](https://github.com/crocodella/MongooseWrapper) - An Objective-C Mongoose wrapper emulating Java servlets
-* [crosg/idCreator](https://github.com/crosg/idCreator) - 这是一个id生成器，主要为互联网的各种业务生成id（也就是数据库主键）。该id生成器生成的id主要被用来做数据路由之用。和Albianj2配合，可以快速而简单的搭建完整的分布式业务系统！
-* [crosslife/OpenBird](https://github.com/crosslife/OpenBird) - Flappy Bird in cocos2dx
-* [crozone/SpectrePoC](https://github.com/crozone/SpectrePoC) - Proof of concept code for the Spectre CPU exploit.
-* [cs3157/recitations](https://github.com/cs3157/recitations) - Recitation notes for cs3157, the C systems programming course with a narrative
-* [csete/gpredict](https://github.com/csete/gpredict) - Gpredict satellite tracking application
-* [csound/csound](https://github.com/csound/csound) - Main repository for Csound
-* [cstack/db_tutorial](https://github.com/cstack/db_tutorial) - Writing a sqlite clone from scratch in C
-* [cstavish/c_data_structs](https://github.com/cstavish/c_data_structs) - singly/doubly linked list and hash table implementations...more to come
-* [ctz/cifra](https://github.com/ctz/cifra) - A collection of cryptographic primitives targeted at embedded use.
-* [cuber/ngx_http_google_filter_module](https://github.com/cuber/ngx_http_google_filter_module) - Nginx Module for Google Mirror
-* [cuberite/cuberite](https://github.com/cuberite/cuberite) - A performant C++ Minecraft compatible game server
-* [cuckoobox/cuckoomon](https://github.com/cuckoobox/cuckoomon) - Cuckoo Sandbox Monitor Component
-* [cuckoosandbox/cuckoomon](https://github.com/cuckoosandbox/cuckoomon) - DEPRECATED - replaced with "monitor"
-* [cucumber/cucumber](https://github.com/cucumber/cucumber) - Cucumber monorepo - polyglot home for Cucumber building blocks
-* [cudpp/cudpp](https://github.com/cudpp/cudpp) - CUDA Data Parallel Primitives Library
-* [cundong/SmartAppUpdates](https://github.com/cundong/SmartAppUpdates) - Android应用增量更新
-* [cvmfs/cvmfs](https://github.com/cvmfs/cvmfs) - The CernVM File System
-* [cvxgrp/scs](https://github.com/cvxgrp/scs) - C package that solves convex cone problems via operator splitting
-* [cvxopt/cvxopt](https://github.com/cvxopt/cvxopt) - CVXOPT -- Python Software for Convex Optimization
-* [cxong/cdogs-sdl](https://github.com/cxong/cdogs-sdl) - Classic overhead run-and-gun game
-* [cxong/tinydir](https://github.com/cxong/tinydir) - Lightweight, portable and easy to integrate C directory and file reader
-* [cyassl/cyassl](https://github.com/cyassl/cyassl) - Please use wolfSSL now instead: https://github.com/wolfSSL/wolfssl . CyaSSL is a small, fast, portable implementation of TLS/SSL for embedded devices to the cloud.
-* [cybergarage/mupnp](https://github.com/cybergarage/mupnp) - mUPnP for C is a development package for UPnP™ developers. CyberLink controls these protocols automatically, and supports to create your devices and control points quickly.
-* [cybergarage/mupnpc](https://github.com/cybergarage/mupnpc) - mUPnP for C is a development package for UPnP™ developers. CyberLink controls these protocols automatically, and supports to create your devices and control points quickly.
-* [cypresssemiconductorco/PSoC-4-BLE](https://github.com/cypresssemiconductorco/PSoC-4-BLE) - PSoC 4 BLE is an easy-to-use, ARM® Cortex™-M0 based, single-chip solution which integrates programmable analog front ends, programmable digital peripherals, CapSense® technology for touch-sensing, and a Bluetooth® LE (Low Energy) or Bluetooth Smart radio.
-* [cyring/CoreFreq](https://github.com/cyring/CoreFreq) - CoreFreq is a CPU monitoring software designed for the 64-bits Processors.
-* [cyrus-and/prof](https://github.com/cyrus-and/prof) - Self-contained C/C++ profiler library for Linux
-* [cyrusimap/cyrus-imapd](https://github.com/cyrusimap/cyrus-imapd) - Cyrus IMAP is an email, contacts and calendar server
-* [czarrar/cwas-paper](https://github.com/czarrar/cwas-paper) - Scripts to analyze data and generate figures for the CWAS paper
-* [cznic/cc](https://github.com/cznic/cc) - Package CC is a C99 compiler front end.
-* [cztomczak/cef2go](https://github.com/cztomczak/cef2go) - Go lang bindings for the Chromium Embedded Framework (CEF)
-* [dake/openVP](https://github.com/dake/openVP) - Voice Print Recognition in C language.
-* [dalerank/caesaria-game](https://github.com/dalerank/caesaria-game) - Caesar III (Open source remake)
-* [dalibo/hypopg](https://github.com/dalibo/hypopg) - Hypothetical Indexes for PostgreSQL
 * [damellis/attiny](https://github.com/damellis/attiny) - ATtiny microcontroller support for the Arduino IDE
 * [damiannz/ofxPd_damians](https://github.com/damiannz/ofxPd_damians) - Pure Data addon for openFrameworks
 * [danghvu/mod_dumpost](https://github.com/danghvu/mod_dumpost) - Small and lightweight Apache module to log POST data of a HTTP request
-* [danielfrg/word2vec](https://github.com/danielfrg/word2vec) - Python interface to Google word2vec
-* [danielwaterworth/Raphters](https://github.com/danielwaterworth/Raphters) - [DEPRECATED] A web framework for C.
-* [danomatika/PdParty](https://github.com/danomatika/PdParty) - (work-in-progress) Run your Pure Data patches on iOS with native GUIs emulated
 * [danomatika/ofxPd](https://github.com/danomatika/ofxPd) - (maintained) a Pure Data addon for OpenFrameworks using libpd
 * [daoluan/decode-memcached](https://github.com/daoluan/decode-memcached) - memcached 源码剖析注释
-* [dariomanesku/cmftStudio](https://github.com/dariomanesku/cmftStudio) - cmftStudio - GUI counterpart for:
-* [dariomanesku/cmft](https://github.com/dariomanesku/cmft) - Cross-platform open-source command-line cubemap filtering tool.
-* [darius/ichbins](https://github.com/darius/ichbins) - A tiny self-hosting Lisp-to-C compiler
 * [darkk/redsocks](https://github.com/darkk/redsocks) - transparent redirector of any TCP connection to proxy
-* [darkstalker/dbc_browser](https://github.com/darkstalker/dbc_browser) - quick and dirty web DBC browser for WoW spell data
 * [darktable-org/darktable](https://github.com/darktable-org/darktable) - darktable main repository
 * [darthstroyer/005tools](https://github.com/darthstroyer/005tools) - Open-source software for extracting save data from Nintendo DS, DSi and 3DS game cards
 * [darwin-on-arm/xnu](https://github.com/darwin-on-arm/xnu) - Porting the Darwin kernel to the AArch64/ARMv7/ARMv6-A architectures.
@@ -1807,13 +1781,10 @@ Comprehensive and integrated solutions for building web application in C.
 * [davidfstr/rdiscount](https://github.com/davidfstr/rdiscount) - Discount (For Ruby) Implementation of John Gruber's Markdown
 * [davidh-ssec/polar2grid](https://github.com/davidh-ssec/polar2grid) - Tools for reading, remapping, and writing satellite instrument data.
 * [davidmoreno/onion](https://github.com/davidmoreno/onion) - C library to create simple HTTP servers and Web Applications.
-* [davidreynolds/algorithms](https://github.com/davidreynolds/algorithms) - A repository of assorted algorithms and data structures.
 * [davidsblog/rCPU](https://github.com/davidsblog/rCPU) - Remote CPU monitoring webserver
 * [davisp/python-spidermonkey](https://github.com/davisp/python-spidermonkey) - Python/JavaScript bridge module, making use of Mozilla's spidermonkey JavaScript implementation.
 * [dawnbreaks/mysql2redis](https://github.com/dawnbreaks/mysql2redis) -    A high performance mysql udf  to sync the newly modified/inserted data from mysql to redis cache.
-* [dbalmain/ferret](https://github.com/dbalmain/ferret) - Ferret: the extensible information retrieval library for ruby.
 * [dbartolini/crown](https://github.com/dbartolini/crown) - The flexible game engine.
-* [dbohdan/s2png](https://github.com/dbohdan/s2png) - Store data of any kind inside PNG images.
 * [dbro/csvquote](https://github.com/dbro/csvquote) - Enables common unix utlities like cut, awk, wc, head to work correctly with csv data containing delimiters and newlines
 * [dcjones/quip](https://github.com/dcjones/quip) - Compressing next-generation sequencing data with extreme prejudice.
 * [dcreager/libcork](https://github.com/dcreager/libcork) - A simple, easily embeddable cross-platform C library
