@@ -932,6 +932,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [coderaven/B-Tree](https://github.com/coderaven/B-Tree) - B-Tree Implementation in C. A project in Data Structures.
 * [corks/corc.ds](https://github.com/corks/corc.ds) - A data structure library written in C.
 * [cstavish/c_data_structs](https://github.com/cstavish/c_data_structs) - singly/doubly linked list and hash table implementations...more to come
+* [davidar/c-hashtable](https://github.com/davidar/c-hashtable) - Git mirror of the hash table data structure in C by Christopher Clark
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1731,6 +1732,7 @@ Comprehensive and integrated solutions for building web application in C.
 * [cesanta/v7](https://github.com/cesanta/v7) - Embedded JavaScript engine for C/C++
 * [criticalstack/libevhtp](https://github.com/criticalstack/libevhtp) - Create extremely-fast and secure embedded HTTP servers with ease.
 * [danielwaterworth/Raphters](https://github.com/danielwaterworth/Raphters) - [DEPRECATED] A web framework for C.
+* [davidmoreno/onion](https://github.com/davidmoreno/onion) - C library to create simple HTTP servers and Web Applications.
 
 ## Web Service APIs ##
 * [twitc][426] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
@@ -1764,23 +1766,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [cxong/tinydir](https://github.com/cxong/tinydir) - Lightweight, portable and easy to integrate C directory and file reader
 
 # Unsorted #
-* [damellis/attiny](https://github.com/damellis/attiny) - ATtiny microcontroller support for the Arduino IDE
-* [damiannz/ofxPd_damians](https://github.com/damiannz/ofxPd_damians) - Pure Data addon for openFrameworks
-* [danghvu/mod_dumpost](https://github.com/danghvu/mod_dumpost) - Small and lightweight Apache module to log POST data of a HTTP request
-* [danomatika/ofxPd](https://github.com/danomatika/ofxPd) - (maintained) a Pure Data addon for OpenFrameworks using libpd
-* [daoluan/decode-memcached](https://github.com/daoluan/decode-memcached) - memcached 源码剖析注释
-* [darkk/redsocks](https://github.com/darkk/redsocks) - transparent redirector of any TCP connection to proxy
-* [darktable-org/darktable](https://github.com/darktable-org/darktable) - darktable main repository
-* [darthstroyer/005tools](https://github.com/darthstroyer/005tools) - Open-source software for extracting save data from Nintendo DS, DSi and 3DS game cards
-* [darwin-on-arm/xnu](https://github.com/darwin-on-arm/xnu) - Porting the Darwin kernel to the AArch64/ARMv7/ARMv6-A architectures.
-* [dasuxullebt/tddp](https://github.com/dasuxullebt/tddp) - Trivial Data Deduplication
-* [dave-andersen/cudapts](https://github.com/dave-andersen/cudapts) - An Nvidia-based miner for the Protoshares (PTS) cryptocurrency
-* [daveho/EasySandbox](https://github.com/daveho/EasySandbox) - really simple sandboxing of untrusted C programs using Linux SECCOMP
-* [davidar/c-hashtable](https://github.com/davidar/c-hashtable) - Git mirror of the hash table data structure in C by Christopher Clark
-* [davidcranor/Thinner-Client](https://github.com/davidcranor/Thinner-Client) - This project implements an STM32F based thin client which can send and receive data over serial, read a PS/2 keyboard, and display the contents of a 480x240 framebuffer on an NTSC television.
-* [davidfstr/rdiscount](https://github.com/davidfstr/rdiscount) - Discount (For Ruby) Implementation of John Gruber's Markdown
-* [davidh-ssec/polar2grid](https://github.com/davidh-ssec/polar2grid) - Tools for reading, remapping, and writing satellite instrument data.
-* [davidmoreno/onion](https://github.com/davidmoreno/onion) - C library to create simple HTTP servers and Web Applications.
 * [davidsblog/rCPU](https://github.com/davidsblog/rCPU) - Remote CPU monitoring webserver
 * [davisp/python-spidermonkey](https://github.com/davisp/python-spidermonkey) - Python/JavaScript bridge module, making use of Mozilla's spidermonkey JavaScript implementation.
 * [dawnbreaks/mysql2redis](https://github.com/dawnbreaks/mysql2redis) -    A high performance mysql udf  to sync the newly modified/inserted data from mysql to redis cache.
@@ -1793,9 +1778,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [deactivated/collectd-write-zmq](https://github.com/deactivated/collectd-write-zmq) - a collectd plugin that writes data via zeromq
 * [deadbits/InsecureProgramming](https://github.com/deadbits/InsecureProgramming) - mirror of gera's insecure programming examples | http://community.coresecurity.com/~gera/InsecureProgramming/
 * [deanmao/node-chimera](https://github.com/deanmao/node-chimera) - A new kind of headless webkit integration for nodejs; a great alternative to phantomjs.
-* [debrouxl/tilp-libticables](https://github.com/debrouxl/tilp-libticables) - TILP (formerly GtkTiLink) can transfer data between Texas Instruments scientific calculators and a computer. It works with all link cables (parallel, serial, Black/Gray/Silver/Direct Link) and it supports the TI-Z80 series (73..86), the TI-68k series (89, 92+, V200, 89T) and the Nspire series (Nspire Clickpad / Touchpad / CX, both CAS and non-CAS)
-* [debrouxl/tilp-linkguide](https://github.com/debrouxl/tilp-linkguide) - TILP (formerly GtkTiLink) can transfer data between Texas Instruments scientific calculators and a computer. It works with all link cables (parallel, serial, Black/Gray/Silver/Direct Link) and it supports the TI-Z80 series (73..86), the TI-68k series (89, 92+, V200, 89T) and the Nspire series (Nspire Clickpad / Touchpad / CX, both CAS and non-CAS)
-* [debrouxl/tilp](https://github.com/debrouxl/tilp) - TILP (formerly GtkTiLink) can transfer data between Texas Instruments scientific calculators and a computer. It works with all link cables (parallel, serial, Black/Gray/Silver/Direct Link) and it supports the TI-Z80 series (73..86), the TI-68k series (89, 92+, V200, 89T) and the Nspire series (Nspire Clickpad / Touchpad / CX, both CAS and non-CAS)
 * [deep011/redis-cluster-tool](https://github.com/deep011/redis-cluster-tool) - A convenient and useful tool for redis cluster.
 * [deepwater82/bismark_data_transmit](https://github.com/deepwater82/bismark_data_transmit) - data transmit using cURL
 * [defuse/crackstation-hashdb](https://github.com/defuse/crackstation-hashdb) - CrackStation.net's Lookup Table Implementation.
