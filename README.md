@@ -542,6 +542,8 @@ Incorporated lists:
 * [conghui/algorithms-in-c](https://github.com/conghui/algorithms-in-c) - Exercise of the book Algorithms In C, Part 1-4, Fundamentals, Data Strcuture, Sorting, Searching, written by  Robert Sedgewick
 * [cstack/db_tutorial](https://github.com/cstack/db_tutorial) - Writing a sqlite clone from scratch in C
 * [darius/ichbins](https://github.com/darius/ichbins) - A tiny self-hosting Lisp-to-C compiler
+* [deadbits/InsecureProgramming](https://github.com/deadbits/InsecureProgramming) - mirror of gera's insecure programming examples | http://community.coresecurity.com/~gera/InsecureProgramming/
+* [dimkr/szl](https://github.com/dimkr/szl) - A lightweight, embeddable scripting language
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -600,6 +602,7 @@ Neural nets, machine learning, and other similar things.
 * [coolwanglu/quantile-alg](https://github.com/coolwanglu/quantile-alg) - Algorithms for finding quantiles of a data stream
 * [cvxgrp/scs](https://github.com/cvxgrp/scs) - C package that solves convex cone problems via operator splitting
 * [davidreynolds/algorithms](https://github.com/davidreynolds/algorithms) - A repository of assorted algorithms and data structures.
+* [dhuertas/AES](https://github.com/dhuertas/AES) - AES algorithm implementation in C
 
 ## Argument Parsing ##
 * [parg][410] - A single-file reimplementation of ``getopt`` with better
@@ -933,6 +936,8 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [corks/corc.ds](https://github.com/corks/corc.ds) - A data structure library written in C.
 * [cstavish/c_data_structs](https://github.com/cstavish/c_data_structs) - singly/doubly linked list and hash table implementations...more to come
 * [davidar/c-hashtable](https://github.com/davidar/c-hashtable) - Git mirror of the hash table data structure in C by Christopher Clark
+* [dhbikoff/Generic-C-Library](https://github.com/dhbikoff/Generic-C-Library) - A library of generic data structures in C
+* [dgvncsz0f/lift](https://github.com/dgvncsz0f/lift) - Implementation of some data structures in C
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1165,6 +1170,7 @@ can be found in the Crypto section.
 * [brendangregg/Dump2PNG](https://github.com/brendangregg/Dump2PNG) - Visualize file data as a PNG
 * [buaazp/zimg](https://github.com/buaazp/zimg) - A lightweight and high performance image storage and processing system.
 * [dbohdan/s2png](https://github.com/dbohdan/s2png) - Store data of any kind inside PNG images.
+* [derekmolloy/boneCV](https://github.com/derekmolloy/boneCV) - Beaglebone Webcam and OpenCV Examples Repository
 
 ## Integrated Debugging ##
 * [whereami][390] - One-file library for locating the current executable on the
@@ -1193,6 +1199,7 @@ Generic lexers and parsers
 * [XVilka/cparse](https://github.com/XVilka/cparse) - Parser of C-syntax data definitions, C-syntax function definitions
 * [bbu/simple-interpreter](https://github.com/bbu/simple-interpreter) - A hackable and extensible lexer, parser and interpreter for a minimalistic, imperative, C-like language.
 * [burtonsamograd/sxc](https://github.com/burtonsamograd/sxc) - sxc is an 'S-Expression C' transpiler for generating C code using macros written in Common Lisp
+* [dcreager/libpush](https://github.com/dcreager/libpush) - An arrow-based parser combinator library for C
 
 ## Memory Management ##
 * [Boehm GC][212] - Garbage collection for C. Various licenses, all open source.
@@ -1285,6 +1292,7 @@ Audio and video processing
 * [libsrt](https://faragon.github.io/libsrt.html) - Safe Real-Time library for C. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
 * [chutsu/cog](https://github.com/chutsu/cog) - C common library containing common data structures, sorting algorithms and utility functions
 * [cs50/libcs50](https://github.com/cs50/libcs50) - CS50 Library for C
+* [dcreager/libcork](https://github.com/dcreager/libcork) - A simple, easily embeddable cross-platform C library
 
 ## Networking ##
 ### DNS ###
@@ -1314,6 +1322,7 @@ Audio and video processing
 * [libquickmail][238] - Library intended to give developers a way to send email
   from their applications. Supports multiple To/Cc/Bcc recipients and
   attachments without size limits. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [dinhviethoa/libetpan](https://github.com/dinhviethoa/libetpan) - Mail Framework for C Language
 
 ### Messaging ###
 * [NNG][245] - nanomsg-next-generation - lightweight brokerless messaging. [``MIT``][MIT]
@@ -1387,6 +1396,7 @@ Audio and video processing
 * [chmduquesne/xmppipe](https://github.com/chmduquesne/xmppipe) - This program allows to pipe data through an xmpp tunnel
 * [chokepoint/CryptHook](https://github.com/chokepoint/CryptHook) - TCP/UDP symmetric encryption tunnel wrapper
 * [clibs/dumpasn1](https://github.com/clibs/dumpasn1) - Display the contents of ASN.1 encoded data
+* [deltachat/deltachat-core](https://github.com/deltachat/deltachat-core) - Delta.Chat C-Library with e2e chat-over-email functionality & Python bindings
 
 ### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
@@ -1766,42 +1776,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [cxong/tinydir](https://github.com/cxong/tinydir) - Lightweight, portable and easy to integrate C directory and file reader
 
 # Unsorted #
-* [davidsblog/rCPU](https://github.com/davidsblog/rCPU) - Remote CPU monitoring webserver
-* [davisp/python-spidermonkey](https://github.com/davisp/python-spidermonkey) - Python/JavaScript bridge module, making use of Mozilla's spidermonkey JavaScript implementation.
-* [dawnbreaks/mysql2redis](https://github.com/dawnbreaks/mysql2redis) -    A high performance mysql udf  to sync the newly modified/inserted data from mysql to redis cache.
-* [dbartolini/crown](https://github.com/dbartolini/crown) - The flexible game engine.
-* [dbro/csvquote](https://github.com/dbro/csvquote) - Enables common unix utlities like cut, awk, wc, head to work correctly with csv data containing delimiters and newlines
-* [dcjones/quip](https://github.com/dcjones/quip) - Compressing next-generation sequencing data with extreme prejudice.
-* [dcreager/libcork](https://github.com/dcreager/libcork) - A simple, easily embeddable cross-platform C library
-* [dcreager/libpush](https://github.com/dcreager/libpush) - An arrow-based parser combinator library for C
-* [dcshi/Mysync](https://github.com/dcshi/Mysync) - Mysync is an MySQL binlog Parser. With it, you can sync mysql data to any other servers, such as redis, mc, sphinx and so on
-* [deactivated/collectd-write-zmq](https://github.com/deactivated/collectd-write-zmq) - a collectd plugin that writes data via zeromq
-* [deadbits/InsecureProgramming](https://github.com/deadbits/InsecureProgramming) - mirror of gera's insecure programming examples | http://community.coresecurity.com/~gera/InsecureProgramming/
-* [deanmao/node-chimera](https://github.com/deanmao/node-chimera) - A new kind of headless webkit integration for nodejs; a great alternative to phantomjs.
-* [deep011/redis-cluster-tool](https://github.com/deep011/redis-cluster-tool) - A convenient and useful tool for redis cluster.
-* [deepwater82/bismark_data_transmit](https://github.com/deepwater82/bismark_data_transmit) - data transmit using cURL
-* [defuse/crackstation-hashdb](https://github.com/defuse/crackstation-hashdb) - CrackStation.net's Lookup Table Implementation.
-* [defuse/swatd](https://github.com/defuse/swatd) - Run a script when one or more sensors fail.
-* [deltachat/deltachat-core](https://github.com/deltachat/deltachat-core) - Delta.Chat C-Library with e2e chat-over-email functionality & Python bindings
-* [demerphq/Data-Undump](https://github.com/demerphq/Data-Undump) - Perl extension for securely and quickly deserializing simple Data::Dumper dumps
-* [demorest/guppi_daq](https://github.com/demorest/guppi_daq) - Data acquisition software primarily for the GUPPI pulsar backend.
-* [demorest/psrfits_utils](https://github.com/demorest/psrfits_utils) - Utility library for working with search- and fold-mode PSRFITS pulsar data files.
-* [derekmolloy/boneCV](https://github.com/derekmolloy/boneCV) - Beaglebone Webcam and OpenCV Examples Repository
-* [derpston/linux-rpi-audi-dis](https://github.com/derpston/linux-rpi-audi-dis) - Linux kernel module for sending data to the DIS LCD in an Audi car from a Raspberry Pi.
-* [devsisters/libquic](https://github.com/devsisters/libquic) - QUIC, a multiplexed stream transport over UDP
-* [dewoods/greenplum-json-formatter](https://github.com/dewoods/greenplum-json-formatter) - Greenplum extension for reading and writing JSON data
-* [dfm/acor](https://github.com/dfm/acor) - Estimate the autocorrelation time of time-series data very quickly
-* [dgvncsz0f/lift](https://github.com/dgvncsz0f/lift) - Implementation of some data structures in C
-* [dhbikoff/Generic-C-Library](https://github.com/dhbikoff/Generic-C-Library) - A library of generic data structures in C
-* [dhoerl/PhotoScrollerNetwork](https://github.com/dhoerl/PhotoScrollerNetwork) - Awesomely fast enhanced version of Apple's PhotoScroller, also pulls images from network.
-* [dhoerl/htmlcxx](https://github.com/dhoerl/htmlcxx) - a simple non-validating css1 and html parser written in C++ tuned for iOS and Mac
-* [dhuertas/AES](https://github.com/dhuertas/AES) - AES algorithm implementation in C
-* [dianping/camel](https://github.com/dianping/camel) - camel: soft load balance(slb) middle ware - control nginx servers by portal and api.
-* [diegocr/netcat](https://github.com/diegocr/netcat) - NetCat for Windows
-* [digidotcom/xbee_ansic_library](https://github.com/digidotcom/xbee_ansic_library) - A collection of portable ANSI C code for communicating with Digi International's XBee wireless radio modules in API mode.
-* [dimkr/szl](https://github.com/dimkr/szl) - A lightweight, embeddable scripting language
-* [dinhviethoa/libetpan](https://github.com/dinhviethoa/libetpan) - Mail Framework for C Language
-* [diwu/CCB-X-Reader](https://github.com/diwu/CCB-X-Reader) - This C++ class helps processing CocosBuilder(ccb) files for your Cocos2d-X project.
 * [dizballanze/hashtable](https://github.com/dizballanze/hashtable) - Async hash table server in C
 * [djcb/mu](https://github.com/djcb/mu) - maildir indexer/searcher + emacs mail client + guile bindings
 * [djhworld/gomeboycolor](https://github.com/djhworld/gomeboycolor) - Gameboy Color emulator
