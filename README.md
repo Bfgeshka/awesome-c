@@ -194,6 +194,7 @@ Incorporated lists:
 * [alexfru/SmallerC](https://github.com/alexfru/SmallerC) - Simple C compiler
 * [andrewchambers/c](https://github.com/andrewchambers/c) - small self hosting C compiler
 * [cc65/cc65](https://github.com/cc65/cc65) - cc65 - a freeware C compiler for 6502 based systems —
+* [drh/lcc](https://github.com/drh/lcc) - The lcc retargetable ANSI C compiler
 
 [3-1]: https://gcc.gnu.org/
 [3-2]: https://clang.llvm.org/
@@ -545,6 +546,7 @@ Incorporated lists:
 * [deadbits/InsecureProgramming](https://github.com/deadbits/InsecureProgramming) - mirror of gera's insecure programming examples | http://community.coresecurity.com/~gera/InsecureProgramming/
 * [dimkr/szl](https://github.com/dimkr/szl) - A lightweight, embeddable scripting language
 * [dogriffiths/HeadFirstC](https://github.com/dogriffiths/HeadFirstC) - Source code for the book Head First C, by O'Reilly Media
+* [drh/cii](https://github.com/drh/cii) - C Interfaces and Implementations
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -604,6 +606,7 @@ Neural nets, machine learning, and other similar things.
 * [cvxgrp/scs](https://github.com/cvxgrp/scs) - C package that solves convex cone problems via operator splitting
 * [davidreynolds/algorithms](https://github.com/davidreynolds/algorithms) - A repository of assorted algorithms and data structures.
 * [dhuertas/AES](https://github.com/dhuertas/AES) - AES algorithm implementation in C
+* [duckythescientist/obfuscatedLife](https://github.com/duckythescientist/obfuscatedLife) - Conway's Game of Life in 9 lines of C
 
 ## Argument Parsing ##
 * [parg][410] - A single-file reimplementation of ``getopt`` with better
@@ -882,7 +885,7 @@ protocols.
 * [bcmpinc/dagdb](https://github.com/bcmpinc/dagdb) - small database for storing semi-structured data
 * [cloudwu/lua-db](https://github.com/cloudwu/lua-db) - A database shared data among multi-states .
 
-## Data Structures ##
+## Data Structures and Types ##
 * [libhl][58] - Library implementing a thread-safe API to manage a range of data
   structures. Also provides some supporting functions and structures for
   concurrent and lockfree programming. [``LGPL-3.0-only``][LGPL-3.0-only]
@@ -940,6 +943,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [dhbikoff/Generic-C-Library](https://github.com/dhbikoff/Generic-C-Library) - A library of generic data structures in C
 * [dgvncsz0f/lift](https://github.com/dgvncsz0f/lift) - Implementation of some data structures in C
 * [dminor/skip-quadtree](https://github.com/dminor/skip-quadtree) - Implementation of the skip quadtree and compressed quadtree data structures.
+* [douglascrockford/DEC64](https://github.com/douglascrockford/DEC64) - Decimal floating point
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -975,6 +979,7 @@ Foreign function interfaces, also know as binding interfaces.
 * [arnaudbrejeon/cspec](https://github.com/arnaudbrejeon/cspec) - Behavior driven development in C
 * [cioc/functionalC](https://github.com/cioc/functionalC) - Not because it is good, but because we can...
 * [comex/substitute](https://github.com/comex/substitute) - A free runtime modification library.
+* [dyu/ffi-overhead](https://github.com/dyu/ffi-overhead) - comparing the c ffi (foreign function interface) overhead on various programming languages
 
 ## Game Development ##
 Engines, libraries and other helpful things specifically for making games.
@@ -1254,6 +1259,7 @@ Audio and video processing
 * [cmatsuoka/libxmp](https://github.com/cmatsuoka/libxmp) - Libxmp is a library that renders module files to PCM data.
 * [cnlohr/colorchord](https://github.com/cnlohr/colorchord) - Chromatic Sound to Light Conversion System
 * [csound/csound](https://github.com/csound/csound) - Main repository for Csound
+* [dxjia/ffmpeg-commands-executor-library](https://github.com/dxjia/ffmpeg-commands-executor-library) - execute ffmpeg commands through a jni shared library.
 
 ## Multiple Purpose Libraries ##
 * [pal][65] - Optimized library for maths, parallel processing and data
@@ -1429,6 +1435,7 @@ Audio and video processing
 * [antirez/linenoise](https://github.com/antirez/linenoise) - A small self-contained alternative to readline and libedit
 * [ardagnir/athame](https://github.com/ardagnir/athame) - Full vim for readline (bash, gdb, python, etc)
 * [asamy/ksm](https://github.com/asamy/ksm) - A really simple and lightweight x64 hypervisor written in C.  Supports VMFUNC, EPTP switching, #VE EPT Violation, VT-x nesting and IDT shadowing.  VMFUNC backward compatibility also supported.
+* [dtrace4linux/linux](https://github.com/dtrace4linux/linux) - dtrace for linux - kernel driver and userland tools
 
 ## Procedural Generation ##
 * [heman][382] - Tiny library of image utilities dealing with height maps,
@@ -1483,6 +1490,7 @@ Audio and video processing
 * [cloudwu/atomdict](https://github.com/cloudwu/atomdict) - A data structure for data exchange between multi lua states.
 * [cloudwu/pbc](https://github.com/cloudwu/pbc) - A protocol buffers library for C
 * [cloudwu/sproto](https://github.com/cloudwu/sproto) - Yet another protocol library like google protocol buffers , but simple and fast.
+* [dryman/opic](https://github.com/dryman/opic) - Fast serialization framework for C
 
 ## Source Code Collections ##
 * [CCAN][292] - Modelled after Perl's CPAN, this is a big collection of code.
@@ -1779,35 +1787,10 @@ Comprehensive and integrated solutions for building web application in C.
 * [cxong/tinydir](https://github.com/cxong/tinydir) - Lightweight, portable and easy to integrate C directory and file reader
 * [dmw/caffeine](https://github.com/dmw/caffeine) - C Application Framework
 * [douban/greenify](https://github.com/douban/greenify) - Make blocking C library work with gevent
+* [droe/sslsplit](https://github.com/droe/sslsplit) - Transparent SSL/TLS interception
+* [drvink/epanos](https://github.com/drvink/epanos) - ElectroPaint Automatic No-source Object reaSsembler (a MIPS to C decompiler)
 
 # Unsorted #
-* [douban/beansdb](https://github.com/douban/beansdb) - Yet anonther distributed key-value storage system from Douban Inc.
-* [dougbradbury/cslim](https://github.com/dougbradbury/cslim) - Fitnesse Slim implementation in C
-* [douglascrockford/DEC64](https://github.com/douglascrockford/DEC64) - Decimal floating point
-* [dpage/redis_fdw](https://github.com/dpage/redis_fdw) - A PostgreSQL foreign data wrapper for Redis
-* [dpfau/quagga](https://github.com/dpfau/quagga) - Library for automated ROI extraction from calcium imaging data
-* [dpryan79/MethIndelRealigner](https://github.com/dpryan79/MethIndelRealigner) - A local realigner around InDels for MethylSeq data
-* [draco2003/freebsd-database-riak](https://github.com/draco2003/freebsd-database-riak) - FreeBSD port for riak support
-* [dreamsxin/cphalcon7](https://github.com/dreamsxin/cphalcon7) - Phalcon7 - Web framework for PHP7.x 高性能PHP7框架
-* [drh/cii](https://github.com/drh/cii) - C Interfaces and Implementations
-* [drh/lcc](https://github.com/drh/lcc) - The lcc retargetable ANSI C compiler
-* [droe/sslsplit](https://github.com/droe/sslsplit) - Transparent SSL/TLS interception
-* [dropbox/miniutf](https://github.com/dropbox/miniutf) - A C++ library for basic Unicode manipulation.
-* [drotiro/postpic](https://github.com/drotiro/postpic) - PostPic is an extension for the open source dbms PostgreSQL that enables image processing inside the database, like PostGIS does for spatial data. It adds the new 'image' type to the SQL, and several functions to process images and to extract their attributes.
-* [drvink/epanos](https://github.com/drvink/epanos) - ElectroPaint Automatic No-source Object reaSsembler (a MIPS to C decompiler)
-* [dryman/opic](https://github.com/dryman/opic) - Fast serialization framework for C
-* [dtb/algorithms-and-data-structures](https://github.com/dtb/algorithms-and-data-structures) - Wherein I fill in the gaps in my programming knowledge
-* [dtrace4linux/linux](https://github.com/dtrace4linux/linux) - dtrace for linux - kernel driver and userland tools
-* [duckythescientist/obfuscatedLife](https://github.com/duckythescientist/obfuscatedLife) - Conway's Game of Life in 9 lines of C
-* [dunst-project/dunst](https://github.com/dunst-project/dunst) - Lightweight and customizable notification daemon
-* [dutc/generators](https://github.com/dutc/generators) - Generators for Stream Data Processing, or Generator Showcase Showdown
-* [dvidelabs/flatcc](https://github.com/dvidelabs/flatcc) - FlatBuffers Compiler and Library in C for C
-* [dvorka/hstr](https://github.com/dvorka/hstr) - Bash and zsh shell history suggest box - easily view, navigate, search and manage your command history.
-* [dxjia/ffmpeg-commands-executor-library](https://github.com/dxjia/ffmpeg-commands-executor-library) - execute ffmpeg commands through a jni shared library.
-* [dxjia/ffmpeg-compile-shared-library-for-android](https://github.com/dxjia/ffmpeg-compile-shared-library-for-android) - 移植ffmpeg到android，编译可用于jni调用的so库.
-* [dynup/kpatch](https://github.com/dynup/kpatch) - kpatch - dynamic kernel patching
-* [dyu/ffi-overhead](https://github.com/dyu/ffi-overhead) - comparing the c ffi (foreign function interface) overhead on various programming languages
-* [eaccelerator/eaccelerator](https://github.com/eaccelerator/eaccelerator) - eAccelerator PHP opcode cache
 * [eam/libcrange](https://github.com/eam/libcrange) - Range parsing library for managing sets of hostnames, ips, clusters, roles and other operational data.
 * [earthquake/chw00t](https://github.com/earthquake/chw00t) - chw00t - Unices chroot breaking tool
 * [easydatawarehousing/easy2oracle](https://github.com/easydatawarehousing/easy2oracle) - Easy-To-Oracle is a data integration tool. It can pull data from databases like Microsoft SQL Server, MySQL, Sybase, SQLite, Presto (Hadoop) and Excel directly into your Oracle 10g/11g/12c database
