@@ -717,6 +717,8 @@ Neural nets, machine learning, and other similar things.
 * [fredrik-johansson/arb](https://github.com/fredrik-johansson/arb) - C library for arbitrary-precision interval arithmetic
 * [freshcode/MFMathLib](https://github.com/freshcode/MFMathLib) - A mathematical library providing basic math operations on data types from 8-bits to 1024-bits with overflow/underflow tracking.
 * [google/clspv](https://github.com/google/clspv) - Clspv is a prototype compiler for a subset of OpenCL C to Vulkan compute shaders
+* [imneme/pcg-c-basic](https://github.com/imneme/pcg-c-basic) - PCG — Minimal C Implementation
+* [imneme/pcg-c](https://github.com/imneme/pcg-c) - PCG — C Implementation
 
 ## Compression ##
 * [blosc][25] - Fast, multi-threaded, meta-compressor library. Various licenses,
@@ -988,6 +990,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [hyPiRion/c-rrb](https://github.com/hyPiRion/c-rrb) - RRB-tree implemented as a library in C.
 * [hyPiRion/persistencia](https://github.com/hyPiRion/persistencia) - Repository with implementations to understand persistent data structures.
 * [hyPiRion/roulette-tree](https://github.com/hyPiRion/roulette-tree) - Data structure for efficient fitness-proportionate selection.
+* [igorsobreira/iclib](https://github.com/igorsobreira/iclib) - Library with useful C data structures
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1146,6 +1149,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [blodow/realtime_urdf_filter](https://github.com/blodow/realtime_urdf_filter) - ROS package that can filter geometry defined in URDF models from Kinect depth images. Can also preprocess data for the OpenNI tracker, to remove backgrounds, robots etc.
 * [grz0zrg/fbg](https://github.com/grz0zrg/fbg) - Lightweight C 2D graphics API agnostic library with parallelism support
 * [grimfang4/sdl-gpu](https://github.com/grimfang4/sdl-gpu) - A library for high-performance, modern 2D graphics with SDL written in C.
+* [ileben/ShivaVG](https://github.com/ileben/ShivaVG) - OpenGL based ANSI C implementation of the OpenVG standard.
 
 ## GUI ##
 * [GTK+][206] - Cross-platform widget toolkit. [``LGPL-2.1-only``][LGPL-2.1-only]
@@ -1330,6 +1334,7 @@ Audio and video processing
 * [csound/csound](https://github.com/csound/csound) - Main repository for Csound
 * [dxjia/ffmpeg-commands-executor-library](https://github.com/dxjia/ffmpeg-commands-executor-library) - execute ffmpeg commands through a jni shared library.
 * [erikd/libsndfile](https://github.com/erikd/libsndfile) - A C library for reading and writing sound files containing sampled audio data..
+* [imankulov/wav2rtp](https://github.com/imankulov/wav2rtp) - wav2rtp is a simple tool intended to convert speech data from wav files to RTP data stream
 
 ## Multiple Purpose Libraries ##
 * [pal][65] - Optimized library for maths, parallel processing and data
@@ -1484,6 +1489,8 @@ Audio and video processing
 * [deltachat/deltachat-core](https://github.com/deltachat/deltachat-core) - Delta.Chat C-Library with e2e chat-over-email functionality & Python bindings
 * [fastos/fastsocket](https://github.com/fastos/fastsocket) - Fastsocket is a highly scalable socket and its underlying networking implementation of Linux kernel. With the straight linear scalability, Fastsocket can provide extremely good performance in multicore machines. In addition, it is very easy to use and maintain. As a result, it has been deployed in the production environment of SINA.
 * [felipec/msn-pecan](https://github.com/felipec/msn-pecan) - MSN Messenger library in C
+* [iem-projects/pd-iemrtp](https://github.com/iem-projects/pd-iemrtp) - RTP support for Pure Data
+* [igraph/igraph](https://github.com/igraph/igraph) - Library for the analysis of networks
 
 ### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
@@ -1907,27 +1914,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [htacg/tidy-html5](https://github.com/htacg/tidy-html5) - The granddaddy of HTML tools, with support for modern standards
 
 # Unsorted #
-* [ideawu/c1000k](https://github.com/ideawu/c1000k) - A tool to test if you OS supports 1 million connections(c1000k)
-* [ideawu/icomet](https://github.com/ideawu/icomet) - A C1000K comet/push server built with C++, for web and mobile app
-* [iem-projects/pd-iemrtp](https://github.com/iem-projects/pd-iemrtp) - RTP support for Pure Data
-* [ifsnop/reader_network](https://github.com/ifsnop/reader_network) - A package of utilities to record and work with multicast radar data in ASTERIX format. (radar as in air navigation surveillance).
-* [igorsobreira/iclib](https://github.com/igorsobreira/iclib) - Library with useful C data structures
-* [igraph/igraph](https://github.com/igraph/igraph) - Library for the analysis of networks
-* [igrr/esp32-cam-demo](https://github.com/igrr/esp32-cam-demo) - Demo for working with a camera on ESP32
-* [igrr/esptool-ck](https://github.com/igrr/esptool-ck) - ESP8266 build/flash helper tool by Christian Klippel
-* [iiordanov/remote-desktop-clients](https://github.com/iiordanov/remote-desktop-clients) - VNC, RDP, SPICE, and oVirt/RHEV/Proxmox Clients for Android and Blackberry 10
-* [ileben/ShivaVG](https://github.com/ileben/ShivaVG) - OpenGL based ANSI C implementation of the OpenVG standard.
-* [illumos/illumos-gate](https://github.com/illumos/illumos-gate) - Community developed and maintained version of the OS/Net consolidation
-* [imankulov/wav2rtp](https://github.com/imankulov/wav2rtp) - wav2rtp is a simple tool intended to convert speech data from wav files to RTP data stream
-* [imatix/zguide](https://github.com/imatix/zguide) - Learning and Using ØMQ
-* [immobiliare/sfs](https://github.com/immobiliare/sfs) - Asynchronous Filesystem Replication
-* [imneme/pcg-c-basic](https://github.com/imneme/pcg-c-basic) - PCG — Minimal C Implementation
-* [imneme/pcg-c](https://github.com/imneme/pcg-c) - PCG — C Implementation
-* [indrajithi/Audio-Visualizer](https://github.com/indrajithi/Audio-Visualizer) - Audio Visualizer in C++ using OpenGL
-* [indutny/bud](https://github.com/indutny/bud) - Bud - The TLS Terminator
-* [infincia/Cardrand](https://github.com/infincia/Cardrand) - This is a simple demonstration of two things, pulling random entropy out of a hardware smart card, and feeding that data into the Linux kernel pool using an ioctl call. Makes it possible for any Linux system to have a real hardware random number generator
-* [infofarmer/hashtypes](https://github.com/infofarmer/hashtypes) - sha1, md5 and other data types for PostgreSQL
-* [innoying/iOS-DataProtection](https://github.com/innoying/iOS-DataProtection) - Tools to manipulate and use iOS data protection features.
 * [inspirit/CaptureDevice](https://github.com/inspirit/CaptureDevice) - Adobe Air Native Extension for video capturing from cameras
 * [intel-iot-devkit/how-to-code-samples](https://github.com/intel-iot-devkit/how-to-code-samples) - These applications are code sample exercises using the Intel IoT Developer Kit, Intel Edison board or Intel IoT Gateway, sensors, actuators, cloud platforms, and APIs.
 * [intel-iot-devkit/mraa](https://github.com/intel-iot-devkit/mraa) - Linux Library for low speed IO Communication in C with bindings for C++, Python, Node.js & Java. Supports generic io platforms, as well as Intel Edison, Intel Joule, Raspberry Pi and many more.
