@@ -548,6 +548,7 @@ Incorporated lists:
 * [dogriffiths/HeadFirstC](https://github.com/dogriffiths/HeadFirstC) - Source code for the book Head First C, by O'Reilly Media
 * [drh/cii](https://github.com/drh/cii) - C Interfaces and Implementations
 * [eatnumber1/goal](https://github.com/eatnumber1/goal) - g()()()()('al') → "gooooal"
+* [espruino/Espruino](https://github.com/espruino/Espruino) - The Espruino JavaScript interpreter - Official Repo
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -582,6 +583,7 @@ Neural nets, machine learning, and other similar things.
 * [cmusphinx/pocketsphinx](https://github.com/cmusphinx/pocketsphinx) - PocketSphinx is a lightweight speech recognition engine, specifically tuned for handheld and mobile devices, though it works equally well on the desktop
 * [codeplea/genann](https://github.com/codeplea/genann) - simple neural network library in ANSI C
 * [dake/openVP](https://github.com/dake/openVP) - Voice Print Recognition in C language.
+* [encog/encog-c](https://github.com/encog/encog-c) - The Encog project for C/C++
 
 ## Algoritm Implementations ##
 * [sort][434] - Collection of sorting routines, which type-specialize at
@@ -698,6 +700,7 @@ Neural nets, machine learning, and other similar things.
 * [canonizer/libgpuvm](https://github.com/canonizer/libgpuvm) - library which simplifies host-GPU data transfer using userspace pagefault handling
 * [clMathLibraries/clBLAS](https://github.com/clMathLibraries/clBLAS) - a software library containing BLAS functions written in OpenCL
 * [clMathLibraries/clRNG](https://github.com/clMathLibraries/clRNG) - an OpenCL based software library containing random number generation functions
+* [emrainey/OpenCL-Environment](https://github.com/emrainey/OpenCL-Environment) - A series of utilities aimed at making OpenCL easier to use. Includes clCompiler which generates both binary outputs and precompiled headers which can be used in conjunction with clEnvironment. clQuery allows you to print all known information about a OpenCL data type. clPid, clYUV clImgFilter are all examples of how to use the utilities to create a compile time kernel make it a dependency in you makefiles and then use the clEnvironment to call your kernel.
 
 ## Compression ##
 * [blosc][25] - Fast, multi-threaded, meta-compressor library. Various licenses,
@@ -798,6 +801,7 @@ Neural nets, machine learning, and other similar things.
 * [cloudwu/coroutine](https://github.com/cloudwu/coroutine) - A asymmetric coroutine library for C.
 * [concurrencykit/ck](https://github.com/concurrencykit/ck) - Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures designed to aid in the research, design and implementation of high performance concurrent systems developed in C99+.
 * [cudpp/cudpp](https://github.com/cudpp/cudpp) - CUDA Data Parallel Primitives Library
+* [etmc/lemon](https://github.com/etmc/lemon) - Lemon is an MPI parallel I/O library that is intended to allow for efficient parallel I/O of both binary and metadata on massively parallel architectures. Data is stored in the SciDAC Lattice QCD Interchange Message Encapsulation format, that allows for storing large blocks of binary data and corresponding metadata in the same file.
 
 ## Crypto ##
 Mostly library implementations of well-known cryptographic algorithms or
@@ -947,6 +951,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [dgvncsz0f/lift](https://github.com/dgvncsz0f/lift) - Implementation of some data structures in C
 * [dminor/skip-quadtree](https://github.com/dminor/skip-quadtree) - Implementation of the skip quadtree and compressed quadtree data structures.
 * [douglascrockford/DEC64](https://github.com/douglascrockford/DEC64) - Decimal floating point
+* [esheldon/meds](https://github.com/esheldon/meds) - Python and C libraries to work with Multi Epoch Data Structures
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -963,6 +968,7 @@ Foreign function interfaces, also know as binding interfaces.
   interfaces. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [dyncall][406] - Another foreign function interface library. [``MIT``][MIT]
 * [atgreen/libffi](https://github.com/atgreen/libffi) - A portable foreign-function interface library.
+* [dyu/ffi-overhead](https://github.com/dyu/ffi-overhead) - comparing the c ffi (foreign function interface) overhead on various programming languages
 
 ## Flow Control and Language Extension ##
 * [libCello][429] - Library introducing higher-level programming to C. [``BSD-3-Clause``][BSD-3-Clause]
@@ -982,7 +988,8 @@ Foreign function interfaces, also know as binding interfaces.
 * [arnaudbrejeon/cspec](https://github.com/arnaudbrejeon/cspec) - Behavior driven development in C
 * [cioc/functionalC](https://github.com/cioc/functionalC) - Not because it is good, but because we can...
 * [comex/substitute](https://github.com/comex/substitute) - A free runtime modification library.
-* [dyu/ffi-overhead](https://github.com/dyu/ffi-overhead) - comparing the c ffi (foreign function interface) overhead on various programming languages
+* [elua/elua](https://github.com/elua/elua) - eLua Project on GitHub
+* [eudoxia0/magma](https://github.com/eudoxia0/magma) - Extending C with cmacro
 
 ## Game Development ##
 Engines, libraries and other helpful things specifically for making games.
@@ -1055,6 +1062,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [ebassi/graphene](https://github.com/ebassi/graphene) - A thin layer of graphic data types
 * [eduard-permyakov/permafrost-engine](https://github.com/eduard-permyakov/permafrost-engine) - An OpenGL 3.3 RTS game engine written in C
 * [ejoy/ejoy2d](https://github.com/ejoy/ejoy2d) - A 2D Graphics Engine for Mobile Game
+* [etlegacy/etlegacy](https://github.com/etlegacy/etlegacy) - ET: Legacy is based on the source code of the Wolfenstein: Enemy Territory which was released under the GPLv3 license. The main goal of this project is to fix bugs, remove old dependencies and make it playable on all major operating systems while still remaining compatible with the ET 2.60b version and as many of its mods as possible.
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1199,6 +1207,7 @@ can be found in the Crypto section.
 * [armink/CmBacktrace](https://github.com/armink/CmBacktrace) - Advanced fault backtrace library for ARM Cortex-M series MCU | ARM Cortex-M 系列 MCU 错误追踪库
 * [armink/EasyLogger](https://github.com/armink/EasyLogger) - A ultra-lightweight(ROM<1.6K, RAM<0.3k), high-performance C/C++ log library. | 一款超轻量级(ROM<1.6K, RAM<0.3k)、高性能的 C/C++ 日志库
 * [cyrus-and/prof](https://github.com/cyrus-and/prof) - Self-contained C/C++ profiler library for Linux
+* [esneider/debug](https://github.com/esneider/debug) - Debugging like a sir (in C)
 
 ## Lexing and Parsing ##
 Generic lexers and parsers
@@ -1267,6 +1276,7 @@ Audio and video processing
 * [cnlohr/colorchord](https://github.com/cnlohr/colorchord) - Chromatic Sound to Light Conversion System
 * [csound/csound](https://github.com/csound/csound) - Main repository for Csound
 * [dxjia/ffmpeg-commands-executor-library](https://github.com/dxjia/ffmpeg-commands-executor-library) - execute ffmpeg commands through a jni shared library.
+* [erikd/libsndfile](https://github.com/erikd/libsndfile) - A C library for reading and writing sound files containing sampled audio data..
 
 ## Multiple Purpose Libraries ##
 * [pal][65] - Optimized library for maths, parallel processing and data
@@ -1524,6 +1534,7 @@ Audio and video processing
 * [breckinloggins/libuseful](https://github.com/breckinloggins/libuseful) - A collection of useful data structures, algorithms, and utilities for C programming
 * [chadjoan/C-Survival-Kit](https://github.com/chadjoan/C-Survival-Kit) - A set of useful functions, data structures, and macros aimed at allowing more expressive and reliable C code.  Portability targets are OpenVMS and Linux.
 * [clibs/clib](https://github.com/clibs/clib) - C package manager-ish
+* [erimatnor/libckit](https://github.com/erimatnor/libckit) - A kit of C-based utilities and data structures.
 
 ## Special Purpose ##
 * [Tulip Indicators][394] - Library of functions for technical analysis of
@@ -1551,6 +1562,8 @@ Audio and video processing
 * [anza/metar](https://github.com/anza/metar) - METAR data fetcher and parser
 * [bauerca/gridfloat](https://github.com/bauerca/gridfloat) - Slice and dice USGS elevation data from the command line.
 * [cbuchner1/CudaMiner](https://github.com/cbuchner1/CudaMiner) - a CUDA accelerated litecoin mining application based on pooler's CPU miner
+* [ericmandel/funtools](https://github.com/ericmandel/funtools) - A "minimal buy-in" FITS library and utility package for astronomical data analysis
+* [evanmiller/ProjCL](https://github.com/evanmiller/ProjCL) - Crazy-fast map projections and geodesic calculations
 
 ## Standard Libraries ##
 Implementations of the C standarts
@@ -1637,6 +1650,7 @@ Libraries for working wit hspecific filetypes
 * [armink/struct2json](https://github.com/armink/struct2json) - A fast convert library between the JSON and C structure. Implement structure serialization and deserialization for C. | C 结构体与 JSON 快速互转库，快速实现 C 结构体的序列化及反序列化
 * [cesanta/frozen](https://github.com/cesanta/frozen) - JSON parser and generator for C/C++ with scanf/printf like interface. Targeting embedded systems.
 * [cloudflare/lua-resty-json](https://github.com/cloudflare/lua-resty-json) - json lib for lua and C
+* [esnme/ultrajson](https://github.com/esnme/ultrajson) - Ultra fast JSON decoder and encoder written in C with Python bindings
 
 ### INI ###
 * [inih][329] - Small and simple INI file parser, good for embedded systems. [``BSD-3-Clause``][BSD-3-Clause]
@@ -1761,6 +1775,7 @@ Comprehensive and integrated solutions for building web application in C.
 * [criticalstack/libevhtp](https://github.com/criticalstack/libevhtp) - Create extremely-fast and secure embedded HTTP servers with ease.
 * [danielwaterworth/Raphters](https://github.com/danielwaterworth/Raphters) - [DEPRECATED] A web framework for C.
 * [davidmoreno/onion](https://github.com/davidmoreno/onion) - C library to create simple HTTP servers and Web Applications.
+* [embedthis/appweb](https://github.com/embedthis/appweb) - Appweb Embedded Web Server
 
 ## Web Service APIs ##
 * [twitc][426] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
@@ -1799,46 +1814,9 @@ Comprehensive and integrated solutions for building web application in C.
 * [eam/libcrange](https://github.com/eam/libcrange) - Range parsing library for managing sets of hostnames, ips, clusters, roles and other operational data.
 * [editorconfig/editorconfig-core-c](https://github.com/editorconfig/editorconfig-core-c) - EditorConfig core library written in C (for use by plugins supporting EditorConfig parsing)
 * [ellson/graphviz](https://github.com/ellson/graphviz) - Graph Visualization Tools
+* [elvismt/slope](https://github.com/elvismt/slope) - A library to create charts from raw data using cairo. Can be shown in GtkDrawingArea
 
 # Unsorted #
-* [elua/elua](https://github.com/elua/elua) - eLua Project on GitHub
-* [elvismt/slope](https://github.com/elvismt/slope) - A library to create charts from raw data using cairo. Can be shown in GtkDrawingArea
-* [emacsattic/doxymacs](https://github.com/emacsattic/doxymacs) - Code to efficiently read/write XML data with Elisp --- IN ATTIC BECAUSE: import problems
-* [embedthis/appweb](https://github.com/embedthis/appweb) - Appweb Embedded Web Server
-* [embox/embox](https://github.com/embox/embox) - Modular and configurable OS kernel for embedded applications
-* [emeau/itrace](https://github.com/emeau/itrace) - hook objc_msgSend to trace Objective-C method callz
-* [emgram769/lighthouse](https://github.com/emgram769/lighthouse) - A simple scriptable popup dialog to run on X.
-* [emptyhua/baidu_pcs_cli](https://github.com/emptyhua/baidu_pcs_cli) - 百度个人云存储API命令行工具
-* [emrainey/OpenCL-Environment](https://github.com/emrainey/OpenCL-Environment) - A series of utilities aimed at making OpenCL easier to use. Includes clCompiler which generates both binary outputs and precompiled headers which can be used in conjunction with clEnvironment. clQuery allows you to print all known information about a OpenCL data type. clPid, clYUV clImgFilter are all examples of how to use the utilities to create a compile time kernel make it a dependency in you makefiles and then use the clEnvironment to call your kernel.
-* [emsec/ChameleonMini](https://github.com/emsec/ChameleonMini) - The ChameleonMini is a versatile contactless smartcard emulator compliant to NFC. To support our project, buy it here: https://shop.kasper.it. For further information see the Getting Started Page https://rawgit.com/emsec/ChameleonMini/master/Doc/Doxygen/html/_page__getting_started.html or the Wiki tab above.
-* [encog/encog-c](https://github.com/encog/encog-c) - The Encog project for C/C++
-* [energinet/datalogger-client](https://github.com/energinet/datalogger-client) - Energinet Datalogger
-* [energinet/datalogger-server](https://github.com/energinet/datalogger-server) - rpserver.cgi
-* [eos-org/datastructures](https://github.com/eos-org/datastructures) - PHP extensions for classes supporting common datastructures
-* [epico/libibuspinyin-compat](https://github.com/epico/libibuspinyin-compat) - compatible files for ibus-pinyin and libpinyin integration.
-* [ericfischer/datamaps](https://github.com/ericfischer/datamaps) - Indexes points and lines and generates map tiles to display them
-* [ericfischer/geotools](https://github.com/ericfischer/geotools) - Tools for working with geographic data
-* [ericmandel/funtools](https://github.com/ericmandel/funtools) - A "minimal buy-in" FITS library and utility package for astronomical data analysis
-* [erikd/libsndfile](https://github.com/erikd/libsndfile) - A C library for reading and writing sound files containing sampled audio data..
-* [erikfrey/bashreduce](https://github.com/erikfrey/bashreduce) - mapreduce in bash
-* [erikkaashoek/Comskip](https://github.com/erikkaashoek/Comskip) - A free commercial detector
-* [eriksvedang/Carp](https://github.com/eriksvedang/Carp) - a statically typed lisp, without a GC, for high performance applications
-* [erimatnor/libckit](https://github.com/erimatnor/libckit) - A kit of C-based utilities and data structures.
-* [esden/ppm_to_spektrum_encoder](https://github.com/esden/ppm_to_spektrum_encoder) - An atmega based board converting standard servo data to spektrum satellite serial protocol for use with Paparazzi
-* [esheldon/meds](https://github.com/esheldon/meds) - Python and C libraries to work with Multi Epoch Data Structures
-* [esneider/debug](https://github.com/esneider/debug) - Debugging like a sir (in C)
-* [esnme/ultrajson](https://github.com/esnme/ultrajson) - Ultra fast JSON decoder and encoder written in C with Python bindings
-* [esnme/ultramysql](https://github.com/esnme/ultramysql) - A fast MySQL driver written in pure C/C++ for Python. Compatible with gevent through monkey patching.
-* [espruino/Espruino](https://github.com/espruino/Espruino) - The Espruino JavaScript interpreter - Official Repo
-* [ethz-asl/asctec_mav_framework](https://github.com/ethz-asl/asctec_mav_framework) - Framework for data aquisition and position control to be used with the highlevel processor of Ascending Technologies helicopters
-* [etlegacy/etlegacy](https://github.com/etlegacy/etlegacy) - ET: Legacy is based on the source code of the Wolfenstein: Enemy Territory which was released under the GPLv3 license. The main goal of this project is to fix bugs, remove old dependencies and make it playable on all major operating systems while still remaining compatible with the ET 2.60b version and as many of its mods as possible.
-* [etmc/lemon](https://github.com/etmc/lemon) - Lemon is an MPI parallel I/O library that is intended to allow for efficient parallel I/O of both binary and metadata on massively parallel architectures. Data is stored in the SciDAC Lattice QCD Interchange Message Encapsulation format, that allows for storing large blocks of binary data and corresponding metadata in the same file.
-* [etolabo/kumofs](https://github.com/etolabo/kumofs) - kumofs is a scalable and highly available distributed key-value store.
-* [eudoxia0/magma](https://github.com/eudoxia0/magma) - Extending C with cmacro
-* [evan/memcached](https://github.com/evan/memcached) - A Ruby interface to the libmemcached C client
-* [evanmiller/ProjCL](https://github.com/evanmiller/ProjCL) - Crazy-fast map projections and geodesic calculations
-* [evanmiller/nginx_circle_gif](https://github.com/evanmiller/nginx_circle_gif) - Serve 68,000 round corners per second
-* [everettjf/AppleTrace](https://github.com/everettjf/AppleTrace) - Objective C message tracing tool for iOS/macOS
 * [eweitnauer/minstreamer](https://github.com/eweitnauer/minstreamer) - Simple audio (n to n) and video (1 to n) streaming in C using libgstreamer.
 * [examplecode/mproxy](https://github.com/examplecode/mproxy) - c 语言实现的一个最小的http代理，支持翻墙
 * [exosite-garage/arduino_http_post](https://github.com/exosite-garage/arduino_http_post) - Demo of Arduino hardware sending data to the cloud.  It is a simple web based monitoring example for Arduino - really easy to put values captured by Arduino online .
