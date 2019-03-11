@@ -552,6 +552,8 @@ Incorporated lists:
 * [fabianishere/brainfuck](https://github.com/fabianishere/brainfuck) - Brainfuck interpreter written in C
 * [feeley/gambit](https://github.com/feeley/gambit) - Gambit is an efficient implementation of the Scheme programming language.
 * [felixangell/mac](https://github.com/felixangell/mac) - virtual machine in c
+* [fragglet/yoctolisp](https://github.com/fragglet/yoctolisp) - Tiny Scheme-like Lisp interpreter written in a weekend
+* [freddiev4/DailyProgrammerChallenges](https://github.com/freddiev4/DailyProgrammerChallenges) - External Repo of Challenges from r/dailyprogrammer
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -704,6 +706,8 @@ Neural nets, machine learning, and other similar things.
 * [clMathLibraries/clBLAS](https://github.com/clMathLibraries/clBLAS) - a software library containing BLAS functions written in OpenCL
 * [clMathLibraries/clRNG](https://github.com/clMathLibraries/clRNG) - an OpenCL based software library containing random number generation functions
 * [emrainey/OpenCL-Environment](https://github.com/emrainey/OpenCL-Environment) - A series of utilities aimed at making OpenCL easier to use. Includes clCompiler which generates both binary outputs and precompiled headers which can be used in conjunction with clEnvironment. clQuery allows you to print all known information about a OpenCL data type. clPid, clYUV clImgFilter are all examples of how to use the utilities to create a compile time kernel make it a dependency in you makefiles and then use the clEnvironment to call your kernel.
+* [fredrik-johansson/arb](https://github.com/fredrik-johansson/arb) - C library for arbitrary-precision interval arithmetic
+* [freshcode/MFMathLib](https://github.com/freshcode/MFMathLib) - A mathematical library providing basic math operations on data types from 8-bits to 1024-bits with overflow/underflow tracking.
 
 ## Compression ##
 * [blosc][25] - Fast, multi-threaded, meta-compressor library. Various licenses,
@@ -957,6 +961,10 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [douglascrockford/DEC64](https://github.com/douglascrockford/DEC64) - Decimal floating point
 * [esheldon/meds](https://github.com/esheldon/meds) - Python and C libraries to work with Multi Epoch Data Structures
 * [fmela/libdict](https://github.com/fmela/libdict) - C library of key-value data structures with an object-oriented interface.
+* [fragglet/c-algorithms](https://github.com/fragglet/c-algorithms) - A library of common data structures and algorithms written in C.
+* [freels/ruby_trie](https://github.com/freels/ruby_trie) - Native C implementation of a trie data structure.
+* [fritz0705/libf](https://github.com/fritz0705/libf) - Library to make programming simpler and cleaner (and slower, because I was too lazy to implement usable data structures)
+* [fubarwrangler/datastruct](https://github.com/fubarwrangler/datastruct) - A silly project to code some data structures to help brush up on my C
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1073,6 +1081,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [felselva/mathc](https://github.com/felselva/mathc) - Pure C math library for 2D and 3D programming.
 * [floooh/chips](https://github.com/floooh/chips) - 8-bit chip and system emulators in standalone C headers
 * [fogleman/Craft](https://github.com/fogleman/Craft) - A simple Minecraft clone written in C using modern OpenGL (shaders).
+* [gabomdq/SDL_GameControllerDB](https://github.com/gabomdq/SDL_GameControllerDB) - A community sourced database of game controller mappings to be used with SDL2 Game Controller functionality
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1524,6 +1533,7 @@ Audio and video processing
 * [cloudwu/pbc](https://github.com/cloudwu/pbc) - A protocol buffers library for C
 * [cloudwu/sproto](https://github.com/cloudwu/sproto) - Yet another protocol library like google protocol buffers , but simple and fast.
 * [dryman/opic](https://github.com/dryman/opic) - Fast serialization framework for C
+* [fredrikbk/libpack](https://github.com/fredrikbk/libpack) - Library that packs/serializes or unpacks/deserializes user-defined data layouts. The data layouts are specified using datatypes similar to MPI Datatypes. The library compiles the datatypes into efficient vectorized pack/unpack code at commit time using an LLVM-based online compiler.
 
 ## Source Code Collections ##
 * [CCAN][292] - Modelled after Perl's CPAN, this is a big collection of code.
@@ -1633,6 +1643,7 @@ Implementations of the C standarts
 * [cloudwu/cstring](https://github.com/cloudwu/cstring) - A simple C string lib
 * [chrisjmccormick/word2vec_commented](https://github.com/chrisjmccormick/word2vec_commented) - Commented (but unaltered) version of original word2vec C implementation.
 * [flori/amatch](https://github.com/flori/amatch) - Approximate String Matching library
+* [fontforge/libuninameslist](https://github.com/fontforge/libuninameslist) - A library with a large (sparse) array mapping each unicode code point to the annotation data for it provided in http://www.unicode.org/Public/UNIDATA/NamesList.txt
 
 ## Structured File Processing ##
 Libraries for working wit hspecific filetypes
@@ -1644,6 +1655,7 @@ Libraries for working wit hspecific filetypes
 * [abiggerhammer/hammer](https://github.com/abiggerhammer/hammer) - Parser combinators for binary formats, in C. Yes, in C. What? Don't look at me like that.
 * [anjos/arithmetic_coding](https://github.com/anjos/arithmetic_coding) - Library to perform arithmetic coding and decoding of text or binary data
 * [beave/barnyard2-extra](https://github.com/beave/barnyard2-extra) - Barnyard2 with "Extra Data" support and other enhancements.
+* [fuzxxl/memf](https://github.com/fuzxxl/memf) - Portable scanf/printf-like functions to marshal binary data
 
 ### CSV ###
 * [libcsv][322] - Simple, streaming CSV parser. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
@@ -1835,48 +1847,10 @@ Comprehensive and integrated solutions for building web application in C.
 * [editorconfig/editorconfig-core-c](https://github.com/editorconfig/editorconfig-core-c) - EditorConfig core library written in C (for use by plugins supporting EditorConfig parsing)
 * [ellson/graphviz](https://github.com/ellson/graphviz) - Graph Visualization Tools
 * [elvismt/slope](https://github.com/elvismt/slope) - A library to create charts from raw data using cairo. Can be shown in GtkDrawingArea
+* [fomy/destor](https://github.com/fomy/destor) - An experimental platform for chunk-level data deduplication. Key words: DDFS, Sparse Index, Extreme Binning, SiLo, Sample Index, BLC; CBR, CFL, CAP, HAR; ASM, OPT; GC, Cumulus
+* [freefoote/gpscorrelate](https://github.com/freefoote/gpscorrelate) - Abandoned C program to match GPS tracks to photographs, and store the matches in the EXIF data in the photographs.
 
 # Unsorted #
-* [fomy/destor](https://github.com/fomy/destor) - An experimental platform for chunk-level data deduplication. Key words: DDFS, Sparse Index, Extreme Binning, SiLo, Sample Index, BLC; CBR, CFL, CAP, HAR; ASM, OPT; GC, Cumulus
-* [fontforge/fontforge](https://github.com/fontforge/fontforge) - Free (libre) font editor for Windows, Mac OS X and GNU+Linux
-* [fontforge/libuninameslist](https://github.com/fontforge/libuninameslist) - A library with a large (sparse) array mapping each unicode code point to the annotation data for it provided in http://www.unicode.org/Public/UNIDATA/NamesList.txt
-* [foool/Z-code](https://github.com/foool/Z-code) - A family of XOR erasure codes with optimal repair bandwidth for a single data node failure
-* [forhappy/cpy-leveldb](https://github.com/forhappy/cpy-leveldb) - python bingding for leveldb using c api
-* [fragglet/c-algorithms](https://github.com/fragglet/c-algorithms) - A library of common data structures and algorithms written in C.
-* [fragglet/yoctolisp](https://github.com/fragglet/yoctolisp) - Tiny Scheme-like Lisp interpreter written in a weekend
-* [franckverrot/git_fdw](https://github.com/franckverrot/git_fdw) - PostgreSQL Git Foreign Data Wrapper
-* [franckverrot/holycorn](https://github.com/franckverrot/holycorn) - PostgreSQL multi-purpose Ruby data wrapper
-* [franko/regress-pro](https://github.com/franko/regress-pro) - Spectroscopic Ellipsometry and Reflectometry data analysis
-* [freaklabs/chibiArduino](https://github.com/freaklabs/chibiArduino) - A lightweight 802.15.4 wireless protocol stack for Arduino
-* [freddiev4/DailyProgrammerChallenges](https://github.com/freddiev4/DailyProgrammerChallenges) - External Repo of Challenges from r/dailyprogrammer
-* [fredrik-johansson/arb](https://github.com/fredrik-johansson/arb) - C library for arbitrary-precision interval arithmetic
-* [fredrikbk/libpack](https://github.com/fredrikbk/libpack) - Library that packs/serializes or unpacks/deserializes user-defined data layouts. The data layouts are specified using datatypes similar to MPI Datatypes. The library compiles the datatypes into efficient vectorized pack/unpack code at commit time using an LLVM-based online compiler.
-* [freebsd/crochet](https://github.com/freebsd/crochet) - Build FreeBSD images for RaspberryPi, BeagleBone, PandaBoard, and others.
-* [freebsd/freebsd](https://github.com/freebsd/freebsd) - FreeBSD src tree
-* [freebsd/pkg](https://github.com/freebsd/pkg) - Package management tool for FreeBSD. Help at #pkgng on Freenode or pkg@FreeBSD.org
-* [freefoote/gpscorrelate](https://github.com/freefoote/gpscorrelate) - Abandoned C program to match GPS tracks to photographs, and store the matches in the EXIF data in the photographs.
-* [freels/ruby_trie](https://github.com/freels/ruby_trie) - Native C implementation of a trie data structure.
-* [freifunk-gluon/gluon](https://github.com/freifunk-gluon/gluon) - a modular framework for creating OpenWrt-based firmwares for wireless mesh nodes
-* [freshcode/MFMathLib](https://github.com/freshcode/MFMathLib) - A mathematical library providing basic math operations on data types from 8-bits to 1024-bits with overflow/underflow tracking.
-* [freshplanet/ANE-Chartboost](https://github.com/freshplanet/ANE-Chartboost) - Air Native Extension for Chartboost (iOS + Android)
-* [frida/frida-core](https://github.com/frida/frida-core) - Frida core library intended for static linking into bindings
-* [fritz0705/libf](https://github.com/fritz0705/libf) - Library to make programming simpler and cleaner (and slower, because I was too lazy to implement usable data structures)
-* [frobware/cmd-key-happy](https://github.com/frobware/cmd-key-happy) - Swap cmd and alt keys in Terminal (useful when running emacs over ssh)
-* [frodosens/fsnet](https://github.com/frodosens/fsnet) - 一个c+ruby支持分布式部署开源的网络游戏库
-* [fubarwrangler/datastruct](https://github.com/fubarwrangler/datastruct) - A silly project to code some data structures to help brush up on my C
-* [fukuchi/libqrencode](https://github.com/fukuchi/libqrencode) - QR Code encoding library
-* [fusijie/Airplane_3.0](https://github.com/fusijie/Airplane_3.0) - Wechat Airplane C++ version, powered by Cocos2d-x 3.0 stable version.
-* [fuzxxl/memf](https://github.com/fuzxxl/memf) - Portable scanf/printf-like functions to marshal binary data
-* [fw42/nfportscan](https://github.com/fw42/nfportscan) - Tool for analyzing Cisco netflow data in order to automatically detect portscans
-* [fygrave/moloch_zmq](https://github.com/fygrave/moloch_zmq) - ZMQ data explort plugin for Moloch
-* [gabomdq/SDL_GameControllerDB](https://github.com/gabomdq/SDL_GameControllerDB) - A community sourced database of game controller mappings to be used with SDL2 Game Controller functionality
-* [gabriel/yajl-objc](https://github.com/gabriel/yajl-objc) - Objective-C bindings for YAJL (Yet Another JSON Library) C library
-* [galkahana/PDF-Writer](https://github.com/galkahana/PDF-Writer) - High performance library for creating, modiyfing and parsing PDF files in C++
-* [gallir/concurrencia](https://github.com/gallir/concurrencia) - Códigos fuente del libro "Principios y algoritmos de concurrencia"
-* [gallir/concurrencia_source_samples](https://github.com/gallir/concurrencia_source_samples) - Códigos fuente del libro "Principios y algoritmos de concurrencia"
-* [gamefreak/Athena](https://github.com/gamefreak/Athena) - Data editor for Xsera, Antares, and Ares
-* [gamelinux/passivedns](https://github.com/gamelinux/passivedns) - A network sniffer that logs all DNS server replies for use in a passive DNS setup
-* [gameoverhack/ofxOpenNI](https://github.com/gameoverhack/ofxOpenNI) - Wrapper for OpenNI, NITE and SensorKinect
 * [ganglia/monitor-core](https://github.com/ganglia/monitor-core) - Ganglia Monitoring core
 * [garrynewman/GWEN](https://github.com/garrynewman/GWEN) - GWEN - GUI Without Extravagant Nonsense
 * [garthz/pdwiringPi](https://github.com/garthz/pdwiringPi) - Pure Data (pd) external for hardware I/O on a Raspberry Pi using wiringPi.
