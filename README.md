@@ -369,6 +369,7 @@ Incorporated lists:
 * [aquynh/capstone](https://github.com/aquynh/capstone) - Capstone disassembly/disassembler framework: Core (Arm, Arm64, BPF, EVM, M68K, M680X, MOS65xx, Mips, PPC, Sparc, SystemZ, TMS320C64x, Web Assembly, X86, X86_64, XCore) + bindings.
 * [buserror/simavr](https://github.com/buserror/simavr) - simavr is a lean, mean and hackable AVR simulator for linux & OSX
 * [ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher) - A code-searching tool similar to ack, but faster.
+* [jacob-carlborg/dstep](https://github.com/jacob-carlborg/dstep) - A tool for converting C and Objective-C headers to D modules
 
 [10-1]: https://ccache.samba.org/
 [10-2]: https://github.com/distcc/distcc
@@ -561,6 +562,9 @@ Incorporated lists:
 * [hellerve/e](https://github.com/hellerve/e) - A dead simple editor
 * [hoxnox/rawsock_recv_example](https://github.com/hoxnox/rawsock_recv_example) - SOCK_RAW IPPROTO_UDP socket data transmission example
 * [i3/i3](https://github.com/i3/i3) - A better tiling and dynamic window manager
+* [intellectualheaven/ceed](https://github.com/intellectualheaven/ceed) - A tiny x86 compiler with ELF and PE target
+* [irssi/irssi](https://github.com/irssi/irssi) - The client of the future
+* [island-org/island](https://github.com/island-org/island) - Lightweight and low-level creative coding toolkits in C.
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -597,6 +601,7 @@ Neural nets, machine learning, and other similar things.
 * [dake/openVP](https://github.com/dake/openVP) - Voice Print Recognition in C language.
 * [encog/encog-c](https://github.com/encog/encog-c) - The Encog project for C/C++
 * [glouw/tinn](https://github.com/glouw/tinn) - The tiny neural network library
+* [iunderstand/SWE](https://github.com/iunderstand/SWE) - SWE Toolkit. Learning Semantic Word Embeddings based on Ordinal Knowledge Constraints. A general framework to incorporate semantic knowledge into the popular data-driven learning process of word vectors. Applications including word similarity, sentence completion, etc. ACL-2015 long paper, Beijing, China
 
 ## Algoritm Implementations ##
 * [sort][434] - Collection of sorting routines, which type-specialize at
@@ -991,6 +996,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [hyPiRion/persistencia](https://github.com/hyPiRion/persistencia) - Repository with implementations to understand persistent data structures.
 * [hyPiRion/roulette-tree](https://github.com/hyPiRion/roulette-tree) - Data structure for efficient fitness-proportionate selection.
 * [igorsobreira/iclib](https://github.com/igorsobreira/iclib) - Library with useful C data structures
+* [jaimz/core_ds](https://github.com/jaimz/core_ds) - Simple C data structure library
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1115,6 +1121,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [id-Software/Quake-2](https://github.com/id-Software/Quake-2) - Quake 2 GPL Source Release
 * [id-Software/Quake-III-Arena](https://github.com/id-Software/Quake-III-Arena) - Quake III Arena GPL Source Release
 * [id-Software/Quake](https://github.com/id-Software/Quake) - Quake GPL Source Release
+* [jarikomppa/soloud](https://github.com/jarikomppa/soloud) - Free, easy, portable audio engine for games
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1192,6 +1199,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [coocox/cox](https://github.com/coocox/cox) - CoX is an peripherals library with a unified standard interface specially for ARM Cortex M.
 * [edorfaus/TEMPered](https://github.com/edorfaus/TEMPered) - C library and program for reading the TEMPer family of thermometer and hygrometer devices.
 * [google/cpu_features](https://github.com/google/cpu_features) - A cross platform C99 library to get cpu features at runtime.
+* [jackmitch/libsoc](https://github.com/jackmitch/libsoc) - libsoc: C library for interfacing with common SoC peripherals through generic kernel interfaces
 
 ## Hashing ##
 Hash function implementations for *non*-crypto purposes. Cryptographic hashes
@@ -1299,6 +1307,7 @@ Generic lexers and parsers
 * [nedmalloc](http://www.nedprod.com/programs/portable/nedmalloc/) - An EXTREMELY FAST portable thread caching malloc(3) implementation written in C. [`GNU GPL2`](http://www.gnu.org/licenses/gpl.html)
 * [rpmalloc](https://github.com/rampantpixels/rpmalloc) - Cross platform, lock-free memory allocator. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
 * [CCareaga/heap_allocator](https://github.com/CCareaga/heap_allocator) - A simple heap memory allocator in ~200 lines.
+* [ivmai/bdwgc](https://github.com/ivmai/bdwgc) - The Boehm-Demers-Weiser conservative C/C++ Garbage Collector (libgc, bdwgc, boehm-gc)
 
 ## Multimedia ##
 Audio and video processing
@@ -1491,6 +1500,7 @@ Audio and video processing
 * [felipec/msn-pecan](https://github.com/felipec/msn-pecan) - MSN Messenger library in C
 * [iem-projects/pd-iemrtp](https://github.com/iem-projects/pd-iemrtp) - RTP support for Pure Data
 * [igraph/igraph](https://github.com/igraph/igraph) - Library for the analysis of networks
+* [irungentoo/toxcore](https://github.com/irungentoo/toxcore) - The future of online communications.
 
 ### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
@@ -1865,6 +1875,7 @@ Comprehensive and integrated solutions for building web application in C.
 * [haiwen/ccnet](https://github.com/haiwen/ccnet) - Ccnet is a framework for writing networked applications in C.
 * [haywire/haywire](https://github.com/haywire/haywire) - Haywire is an asynchronous HTTP server framework written in C that's built using the event loop based libuv platform layer that node.js is built on top of.
 * [iafonov/cosmonaut](https://github.com/iafonov/cosmonaut) - Fast web server & micro framework implemented in C. Just for fun.
+* [it4e/CHL](https://github.com/it4e/CHL) - C Hypertext Library - A library for writing web applications in C
 
 ## Web Service APIs ##
 * [twitc][426] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
@@ -1914,40 +1925,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [htacg/tidy-html5](https://github.com/htacg/tidy-html5) - The granddaddy of HTML tools, with support for modern standards
 
 # Unsorted #
-* [inspirit/CaptureDevice](https://github.com/inspirit/CaptureDevice) - Adobe Air Native Extension for video capturing from cameras
-* [intel-iot-devkit/how-to-code-samples](https://github.com/intel-iot-devkit/how-to-code-samples) - These applications are code sample exercises using the Intel IoT Developer Kit, Intel Edison board or Intel IoT Gateway, sensors, actuators, cloud platforms, and APIs.
-* [intel-iot-devkit/mraa](https://github.com/intel-iot-devkit/mraa) - Linux Library for low speed IO Communication in C with bindings for C++, Python, Node.js & Java. Supports generic io platforms, as well as Intel Edison, Intel Joule, Raspberry Pi and many more.
-* [intel/cc-oci-runtime](https://github.com/intel/cc-oci-runtime) - OCI (Open Containers Initiative) compatible runtime for Intel® Architecture
-* [intel/intel-cmt-cat](https://github.com/intel/intel-cmt-cat) - User space software for Intel(R) Resource Director Technology
-* [intellectualheaven/ceed](https://github.com/intellectualheaven/ceed) - A tiny x86 compiler with ELF and PE target
-* [io7m/coreland-lua-ada-load](https://github.com/io7m/coreland-lua-ada-load) - Load data from Lua into Ada data structures
-* [ioerror/tlsdate](https://github.com/ioerror/tlsdate) - secure parasitic rdate replacement
-* [ionescu007/SpecuCheck](https://github.com/ionescu007/SpecuCheck) - SpecuCheck is a Windows utility for checking the state of the software mitigations and hardware against  CVE-2017-5754 (Meltdown), CVE-2017-5715 (Spectre v2), CVE-2018-3260 (Foreshadow), and CVE-2018-3639 (Spectre v4)
-* [ipa320/cob_extern](https://github.com/ipa320/cob_extern) - The cob_extern stack contains third party libraries needed for operating Care-O-bot. The packages are downloaded from the manufactorers website and not changed in any way.
-* [ircmaxell/php-ndata](https://github.com/ircmaxell/php-ndata) - NData PECL extension for dealing with native data types
-* [irssi/irssi](https://github.com/irssi/irssi) - The client of the future
-* [irtimmer/moonlight-embedded](https://github.com/irtimmer/moonlight-embedded) - Gamestream client for embedded systems
-* [irungentoo/toxcore](https://github.com/irungentoo/toxcore) - The future of online communications.
-* [irvined1982/loguino](https://github.com/irvined1982/loguino) - Logiuno, an arduino based data aquisition tool
-* [iscsi-osx/iSCSIInitiator](https://github.com/iscsi-osx/iSCSIInitiator) - iSCSI Initiator for macOS
-* [isislab/CSAW-CTF-2016-Quals](https://github.com/isislab/CSAW-CTF-2016-Quals) - Repo for CSAW CTF 2016 Quals challenges
-* [iskra/jsonx](https://github.com/iskra/jsonx) - JSONX is an Erlang library for efficient decode and encode JSON, written in C.
-* [island-org/island](https://github.com/island-org/island) - Lightweight and low-level creative coding toolkits in C.
-* [isti757/DataNetwork](https://github.com/isti757/DataNetwork) - Data network project. This was a project at Saarland University of the Course Data Networks. The project implements some ideas of OSI protocol stack. The code runs using the CNET network simulator  (http://www.csse.uwa.edu.au/cnet/), however the project is easily separable and can run on real networks as well.  Please see the design folder for tex file and generate a pdf with the entire desciption of the project.  The project is written in C and is portable.
-* [it4e/CHL](https://github.com/it4e/CHL) - C Hypertext Library - A library for writing web applications in C
-* [itkz/librtmp](https://github.com/itkz/librtmp) - RTMP server and client written by C
-* [itod/panthro](https://github.com/itod/panthro) - A implementation of XPath 3.0 in Objective-C/Cocoa
-* [iunderstand/SWE](https://github.com/iunderstand/SWE) - SWE Toolkit. Learning Semantic Word Embeddings based on Ordinal Knowledge Constraints. A general framework to incorporate semantic knowledge into the popular data-driven learning process of word vectors. Applications including word similarity, sentence completion, etc. ACL-2015 long paper, Beijing, China
-* [ivansafrin/CS3113](https://github.com/ivansafrin/CS3113) - NYU CS3113 [Intro To Game Programming]
-* [ivmai/bdwgc](https://github.com/ivmai/bdwgc) - The Boehm-Demers-Weiser conservative C/C++ Garbage Collector (libgc, bdwgc, boehm-gc)
-* [ixty/xarch_shellcode](https://github.com/ixty/xarch_shellcode) - Cross Architecture Shellcode in C
-* [jabberd2/jabberd2](https://github.com/jabberd2/jabberd2) - JabberD XMPP Server
-* [jackeylu/mysql2redis](https://github.com/jackeylu/mysql2redis) - A UDF(user defined functions) plugin for MySQL, which can be used for pushing data to Redis
-* [jackmitch/libsoc](https://github.com/jackmitch/libsoc) - libsoc: C library for interfacing with common SoC peripherals through generic kernel interfaces
-* [jacob-carlborg/dstep](https://github.com/jacob-carlborg/dstep) - A tool for converting C and Objective-C headers to D modules
-* [jacobdufault/cquery](https://github.com/jacobdufault/cquery) - Low-latency language server supporting multi-million line C++ code-bases, powered by libclang. Works in any editor with language server support (vscode, emacs, vim, etc).
-* [jagt/clumsy](https://github.com/jagt/clumsy) - clumsy makes your network condition on Windows significantly worse, but in a controlled and interactive manner.
-* [jaimz/core_ds](https://github.com/jaimz/core_ds) - Simple C data structure library
 * [jakogut/tinyflock](https://github.com/jakogut/tinyflock) - A simple, high-performance, threaded, and interactive flocking demo written in C with GLFW.
 * [jakogut/tinyvm](https://github.com/jakogut/tinyvm) - TinyVM is a small, fast, lightweight virtual machine written in pure ANSI C.
 * [jalvesaq/VimCom](https://github.com/jalvesaq/VimCom) - *Deprecated* package used to intermediate the communication between Vim and R
@@ -1958,7 +1935,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [jangaraj/Zabbix-Docker-Monitoring](https://github.com/jangaraj/Zabbix-Docker-Monitoring) - :whale: Monitoring of Docker containers (LXC/systemd Docker supported) - Zabbix template and Zabbix C module
 * [japeq/bencode-tools](https://github.com/japeq/bencode-tools) - bencode-tools is a collection of tools for manipulating bencoded data.
 * [jaredly/codetalker](https://github.com/jaredly/codetalker) - A succinct, pythonic parser + translator solution
-* [jarikomppa/soloud](https://github.com/jarikomppa/soloud) - Free, easy, portable audio engine for games
 * [jarun/dslib](https://github.com/jarun/dslib) - A library of handy data structures
 * [jaseg/matelight](https://github.com/jaseg/matelight) - Show text and gifs on mate crates. Uses C code orchestrated from Python via ctypes.
 * [jashmenn/apriori](https://github.com/jashmenn/apriori) - A ruby/c extension to Christian Borgelt's apriori item-set implementation
