@@ -547,6 +547,7 @@ Incorporated lists:
 * [dimkr/szl](https://github.com/dimkr/szl) - A lightweight, embeddable scripting language
 * [dogriffiths/HeadFirstC](https://github.com/dogriffiths/HeadFirstC) - Source code for the book Head First C, by O'Reilly Media
 * [drh/cii](https://github.com/drh/cii) - C Interfaces and Implementations
+* [eatnumber1/goal](https://github.com/eatnumber1/goal) - g()()()()('al') → "gooooal"
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -842,6 +843,7 @@ protocols.
 * [cloudflare/keyless](https://github.com/cloudflare/keyless) - CloudFlare's Keyless SSL Server Reference Implementation
 * [ctz/cifra](https://github.com/ctz/cifra) - A collection of cryptographic primitives targeted at embedded use.
 * [cyassl/cyassl](https://github.com/cyassl/cyassl) - Please use wolfSSL now instead: https://github.com/wolfSSL/wolfssl . CyaSSL is a small, fast, portable implementation of TLS/SSL for embedded devices to the cloud.
+* [eduardsui/tlse](https://github.com/eduardsui/tlse) - Single C file TLS 1.2/1.3 implementation, using tomcrypt as crypto library
 
 ## Databases ##
 * [BerkeleyDB][83] - Library for a high-performance embedded database for
@@ -884,6 +886,7 @@ protocols.
 * [antirez/redis](https://github.com/antirez/redis) - Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, HyperLogLogs, Bitmaps.
 * [bcmpinc/dagdb](https://github.com/bcmpinc/dagdb) - small database for storing semi-structured data
 * [cloudwu/lua-db](https://github.com/cloudwu/lua-db) - A database shared data among multi-states .
+* [edussx/database](https://github.com/edussx/database) - B+tree database
 
 ## Data Structures and Types ##
 * [libhl][58] - Library implementing a thread-safe API to manage a range of data
@@ -1049,6 +1052,9 @@ Engines, libraries and other helpful things specifically for making games.
 * [cxong/cdogs-sdl](https://github.com/cxong/cdogs-sdl) - Classic overhead run-and-gun game
 * [dalerank/caesaria-game](https://github.com/dalerank/caesaria-game) - Caesar III (Open source remake)
 * [dariomanesku/cmft](https://github.com/dariomanesku/cmft) - Cross-platform open-source command-line cubemap filtering tool.
+* [ebassi/graphene](https://github.com/ebassi/graphene) - A thin layer of graphic data types
+* [eduard-permyakov/permafrost-engine](https://github.com/eduard-permyakov/permafrost-engine) - An OpenGL 3.3 RTS game engine written in C
+* [ejoy/ejoy2d](https://github.com/ejoy/ejoy2d) - A 2D Graphics Engine for Mobile Game
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1122,6 +1128,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [andygock/avr-uart](https://github.com/andygock/avr-uart) - AVR UART C Library
 * [anrieff/libcpuid](https://github.com/anrieff/libcpuid) - a small C library for x86 CPU detection and feature extraction
 * [coocox/cox](https://github.com/coocox/cox) - CoX is an peripherals library with a unified standard interface specially for ARM Cortex M.
+* [edorfaus/TEMPered](https://github.com/edorfaus/TEMPered) - C library and program for reading the TEMPer family of thermometer and hygrometer devices.
 
 ## Hashing ##
 Hash function implementations for *non*-crypto purposes. Cryptographic hashes
@@ -1789,32 +1796,11 @@ Comprehensive and integrated solutions for building web application in C.
 * [douban/greenify](https://github.com/douban/greenify) - Make blocking C library work with gevent
 * [droe/sslsplit](https://github.com/droe/sslsplit) - Transparent SSL/TLS interception
 * [drvink/epanos](https://github.com/drvink/epanos) - ElectroPaint Automatic No-source Object reaSsembler (a MIPS to C decompiler)
+* [eam/libcrange](https://github.com/eam/libcrange) - Range parsing library for managing sets of hostnames, ips, clusters, roles and other operational data.
+* [editorconfig/editorconfig-core-c](https://github.com/editorconfig/editorconfig-core-c) - EditorConfig core library written in C (for use by plugins supporting EditorConfig parsing)
+* [ellson/graphviz](https://github.com/ellson/graphviz) - Graph Visualization Tools
 
 # Unsorted #
-* [eam/libcrange](https://github.com/eam/libcrange) - Range parsing library for managing sets of hostnames, ips, clusters, roles and other operational data.
-* [earthquake/chw00t](https://github.com/earthquake/chw00t) - chw00t - Unices chroot breaking tool
-* [easydatawarehousing/easy2oracle](https://github.com/easydatawarehousing/easy2oracle) - Easy-To-Oracle is a data integration tool. It can pull data from databases like Microsoft SQL Server, MySQL, Sybase, SQLite, Presto (Hadoop) and Excel directly into your Oracle 10g/11g/12c database
-* [eatnumber1/goal](https://github.com/eatnumber1/goal) - g()()()()('al') → "gooooal"
-* [ebassi/graphene](https://github.com/ebassi/graphene) - A thin layer of graphic data types
-* [eclipse/paho.mqtt.c](https://github.com/eclipse/paho.mqtt.c) - paho.mqtt.c
-* [eclipse/paho.mqtt.embedded-c](https://github.com/eclipse/paho.mqtt.embedded-c) - paho.mqtt.embedded-c
-* [eclipse/wakaama](https://github.com/eclipse/wakaama) - Eclipse Wakaama (formerly liblwm2m) is an implementation of the Open Mobile Alliance's LightWeight M2M protocol (LWM2M).
-* [edenhill/librdkafka](https://github.com/edenhill/librdkafka) - The Apache Kafka C/C++ library
-* [editorconfig/editorconfig-core-c](https://github.com/editorconfig/editorconfig-core-c) - EditorConfig core library written in C (for use by plugins supporting EditorConfig parsing)
-* [edoko/AIR-Kernel_ICS](https://github.com/edoko/AIR-Kernel_ICS) - AIR Kernel for ICS (r_data / edoko)
-* [edorfaus/TEMPered](https://github.com/edorfaus/TEMPered) - C library and program for reading the TEMPer family of thermometer and hygrometer devices.
-* [eduard-permyakov/permafrost-engine](https://github.com/eduard-permyakov/permafrost-engine) - An OpenGL 3.3 RTS game engine written in C
-* [eduardsui/tlse](https://github.com/eduardsui/tlse) - Single C file TLS 1.2/1.3 implementation, using tomcrypt as crypto library
-* [edussx/database](https://github.com/edussx/database) - B+tree database
-* [eeertekin/bbcp](https://github.com/eeertekin/bbcp) - Securely and quickly copy data from source to target.
-* [efelix/lua-cjson](https://github.com/efelix/lua-cjson) - Fast JSON parsing and encoding support for Lua
-* [eggheads/eggdrop](https://github.com/eggheads/eggdrop) - The Eggdrop IRC Bot
-* [einsteinx2/libSub](https://github.com/einsteinx2/libSub) - Internal library used by iSub, encapsulates the data model and audio engine. Licensed under the GPL3.
-* [ejoy/ejoy2d](https://github.com/ejoy/ejoy2d) - A 2D Graphics Engine for Mobile Game
-* [ejurgensen/forked-daapd](https://github.com/ejurgensen/forked-daapd) - Linux/FreeBSD DAAP (iTunes) and MPD media server with support for AirPlay devices (multiroom), Apple Remote (and compatibles), Chromecast, Spotify and internet radio.
-* [eleme/corvus](https://github.com/eleme/corvus) - A fast and lightweight Redis Cluster Proxy for Redis 3.0
-* [elliotwoods/ARDrone-GStreamer-test](https://github.com/elliotwoods/ARDrone-GStreamer-test) - Test of reading video data from ARDrone using GStreamer (cross-platform code, win32 project)
-* [ellson/graphviz](https://github.com/ellson/graphviz) - Graph Visualization Tools
 * [elua/elua](https://github.com/elua/elua) - eLua Project on GitHub
 * [elvismt/slope](https://github.com/elvismt/slope) - A library to create charts from raw data using cairo. Can be shown in GtkDrawingArea
 * [emacsattic/doxymacs](https://github.com/emacsattic/doxymacs) - Code to efficiently read/write XML data with Elisp --- IN ATTIC BECAUSE: import problems
@@ -1822,11 +1808,9 @@ Comprehensive and integrated solutions for building web application in C.
 * [embox/embox](https://github.com/embox/embox) - Modular and configurable OS kernel for embedded applications
 * [emeau/itrace](https://github.com/emeau/itrace) - hook objc_msgSend to trace Objective-C method callz
 * [emgram769/lighthouse](https://github.com/emgram769/lighthouse) - A simple scriptable popup dialog to run on X.
-* [emilk/wfc](https://github.com/emilk/wfc) - A C++ port of Wave Function Collapse Tiling
 * [emptyhua/baidu_pcs_cli](https://github.com/emptyhua/baidu_pcs_cli) - 百度个人云存储API命令行工具
 * [emrainey/OpenCL-Environment](https://github.com/emrainey/OpenCL-Environment) - A series of utilities aimed at making OpenCL easier to use. Includes clCompiler which generates both binary outputs and precompiled headers which can be used in conjunction with clEnvironment. clQuery allows you to print all known information about a OpenCL data type. clPid, clYUV clImgFilter are all examples of how to use the utilities to create a compile time kernel make it a dependency in you makefiles and then use the clEnvironment to call your kernel.
 * [emsec/ChameleonMini](https://github.com/emsec/ChameleonMini) - The ChameleonMini is a versatile contactless smartcard emulator compliant to NFC. To support our project, buy it here: https://shop.kasper.it. For further information see the Getting Started Page https://rawgit.com/emsec/ChameleonMini/master/Doc/Doxygen/html/_page__getting_started.html or the Wiki tab above.
-* [emweb/wt](https://github.com/emweb/wt) - Wt, C++ Web Toolkit
 * [encog/encog-c](https://github.com/encog/encog-c) - The Encog project for C/C++
 * [energinet/datalogger-client](https://github.com/energinet/datalogger-client) - Energinet Datalogger
 * [energinet/datalogger-server](https://github.com/energinet/datalogger-server) - rpserver.cgi
