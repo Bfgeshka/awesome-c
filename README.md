@@ -157,6 +157,7 @@ Incorporated lists:
 * [zproject][2-20] - Project generator and build system support tool for ZeroMQ
   project. [``MPL-2.0``][MPL-2.0]
 * [tup](http://gittup.org/tup/index.html) - Very fast, file-based, cross-platform build system. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+* [gittup/tup](https://github.com/gittup/tup) - Tup is a file-based build system.
 
 [2-1]: http://nethack4.org/projects/aimake/
 [2-2]: https://www.gnu.org/software/autoconf/autoconf.html
@@ -590,6 +591,7 @@ Neural nets, machine learning, and other similar things.
 * [codeplea/genann](https://github.com/codeplea/genann) - simple neural network library in ANSI C
 * [dake/openVP](https://github.com/dake/openVP) - Voice Print Recognition in C language.
 * [encog/encog-c](https://github.com/encog/encog-c) - The Encog project for C/C++
+* [glouw/tinn](https://github.com/glouw/tinn) - The tiny neural network library
 
 ## Algoritm Implementations ##
 * [sort][434] - Collection of sorting routines, which type-specialize at
@@ -709,6 +711,7 @@ Neural nets, machine learning, and other similar things.
 * [emrainey/OpenCL-Environment](https://github.com/emrainey/OpenCL-Environment) - A series of utilities aimed at making OpenCL easier to use. Includes clCompiler which generates both binary outputs and precompiled headers which can be used in conjunction with clEnvironment. clQuery allows you to print all known information about a OpenCL data type. clPid, clYUV clImgFilter are all examples of how to use the utilities to create a compile time kernel make it a dependency in you makefiles and then use the clEnvironment to call your kernel.
 * [fredrik-johansson/arb](https://github.com/fredrik-johansson/arb) - C library for arbitrary-precision interval arithmetic
 * [freshcode/MFMathLib](https://github.com/freshcode/MFMathLib) - A mathematical library providing basic math operations on data types from 8-bits to 1024-bits with overflow/underflow tracking.
+* [google/clspv](https://github.com/google/clspv) - Clspv is a prototype compiler for a subset of OpenCL C to Vulkan compute shaders
 
 ## Compression ##
 * [blosc][25] - Fast, multi-threaded, meta-compressor library. Various licenses,
@@ -901,6 +904,7 @@ protocols.
 * [cloudwu/lua-db](https://github.com/cloudwu/lua-db) - A database shared data among multi-states .
 * [edussx/database](https://github.com/edussx/database) - B+tree database
 * [fictorial/logstore](https://github.com/fictorial/logstore) - experimental data storage engine for arbitrary data for POSIX systems with spinning hard disks
+* [grahamking/Key-Value-Polyglot](https://github.com/grahamking/Key-Value-Polyglot) - A basic key-value store, repeated in C, Go, Python (basic, gevent, and diesel), Ruby (event machine), Java, Scala, Haskell, and NodeJS.
 
 ## Data Structures and Types ##
 * [libhl][58] - Library implementing a thread-safe API to manage a range of data
@@ -968,6 +972,9 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [fritz0705/libf](https://github.com/fritz0705/libf) - Library to make programming simpler and cleaner (and slower, because I was too lazy to implement usable data structures)
 * [fubarwrangler/datastruct](https://github.com/fubarwrangler/datastruct) - A silly project to code some data structures to help brush up on my C
 * [ghostrong/algorithm](https://github.com/ghostrong/algorithm) - Data Structure and Algorithms
+* [gnudennis/ds_c](https://github.com/gnudennis/ds_c) - Data Structure In C
+* [graphitemaster/libintrusive](https://github.com/graphitemaster/libintrusive) - Intrusive data structures for C
+* [grundprinzip/bitcompressedvector](https://github.com/grundprinzip/bitcompressedvector) - Provide a container for integral data types that applies light-weight bit compression
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1007,6 +1014,7 @@ Foreign function interfaces, also know as binding interfaces.
 * [comex/substitute](https://github.com/comex/substitute) - A free runtime modification library.
 * [elua/elua](https://github.com/elua/elua) - eLua Project on GitHub
 * [eudoxia0/magma](https://github.com/eudoxia0/magma) - Extending C with cmacro
+* [graphitemaster/lambdapp](https://github.com/graphitemaster/lambdapp) - Anonymous functions in C
 
 ## Game Development ##
 Engines, libraries and other helpful things specifically for making games.
@@ -1118,7 +1126,8 @@ Access to graphical APIs or other graphic rendering libraries.
 * [anoek/ex-sdl-cairo-freetype-harfbuzz](https://github.com/anoek/ex-sdl-cairo-freetype-harfbuzz) - Example code which uses SDL, cairo, freetype, and harfbuzz to do ttf/otf text layout and rendering
 * [ashima/webgl-noise](https://github.com/ashima/webgl-noise) - Procedural Noise Shader Routines compatible with WebGL
 * [blodow/realtime_urdf_filter](https://github.com/blodow/realtime_urdf_filter) - ROS package that can filter geometry defined in URDF models from Kinect depth images. Can also preprocess data for the OpenNI tracker, to remove backgrounds, robots etc.
-
+* [grz0zrg/fbg](https://github.com/grz0zrg/fbg) - Lightweight C 2D graphics API agnostic library with parallelism support
+* [grimfang4/sdl-gpu](https://github.com/grimfang4/sdl-gpu) - A library for high-performance, modern 2D graphics with SDL written in C.
 
 ## GUI ##
 * [GTK+][206] - Cross-platform widget toolkit. [``LGPL-2.1-only``][LGPL-2.1-only]
@@ -1160,6 +1169,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [anrieff/libcpuid](https://github.com/anrieff/libcpuid) - a small C library for x86 CPU detection and feature extraction
 * [coocox/cox](https://github.com/coocox/cox) - CoX is an peripherals library with a unified standard interface specially for ARM Cortex M.
 * [edorfaus/TEMPered](https://github.com/edorfaus/TEMPered) - C library and program for reading the TEMPer family of thermometer and hygrometer devices.
+* [google/cpu_features](https://github.com/google/cpu_features) - A cross platform C99 library to get cpu features at runtime.
 
 ## Hashing ##
 Hash function implementations for *non*-crypto purposes. Cryptographic hashes
@@ -1216,6 +1226,7 @@ can be found in the Crypto section.
 * [buaazp/zimg](https://github.com/buaazp/zimg) - A lightweight and high performance image storage and processing system.
 * [dbohdan/s2png](https://github.com/dbohdan/s2png) - Store data of any kind inside PNG images.
 * [derekmolloy/boneCV](https://github.com/derekmolloy/boneCV) - Beaglebone Webcam and OpenCV Examples Repository
+* [ginsweater/gif-h](https://github.com/ginsweater/gif-h) - Simple C++ one-header library for the creation of animated GIFs from image data.
 
 ## Integrated Debugging ##
 * [whereami][390] - One-file library for locating the current executable on the
@@ -1343,6 +1354,7 @@ Audio and video processing
 * [cs50/libcs50](https://github.com/cs50/libcs50) - CS50 Library for C
 * [dcreager/libcork](https://github.com/dcreager/libcork) - A simple, easily embeddable cross-platform C library
 * [faragon/libsrt](https://github.com/faragon/libsrt) - libsrt is a C library for writing fast and safe C code, faster. It provides string, vector, bit set, set, map, hash set, and hash map handling. Suitable for soft and hard real-time. Allows both heap and stack allocation.  *BETA* (API still can change: suggestions are welcome)
+* [gregvirgin/libcork](https://github.com/gregvirgin/libcork) - A simple, easily embeddable cross-platform C library
 
 ## Networking ##
 ### DNS ###
@@ -1539,6 +1551,8 @@ Audio and video processing
 * [cloudwu/sproto](https://github.com/cloudwu/sproto) - Yet another protocol library like google protocol buffers , but simple and fast.
 * [dryman/opic](https://github.com/dryman/opic) - Fast serialization framework for C
 * [fredrikbk/libpack](https://github.com/fredrikbk/libpack) - Library that packs/serializes or unpacks/deserializes user-defined data layouts. The data layouts are specified using datatypes similar to MPI Datatypes. The library compiles the datatypes into efficient vectorized pack/unpack code at commit time using an LLVM-based online compiler.
+* [google/upb](https://github.com/google/upb) - a small protobuf implementation in C
+* [greghaynes/Afproto](https://github.com/greghaynes/Afproto) - Serial data framing protocol
 
 ## Source Code Collections ##
 * [CCAN][292] - Modelled after Perl's CPAN, this is a big collection of code.
@@ -1567,6 +1581,8 @@ Audio and video processing
 * [clibs/clib](https://github.com/clibs/clib) - C package manager-ish
 * [erimatnor/libckit](https://github.com/erimatnor/libckit) - A kit of C-based utilities and data structures.
 * [floooh/sokol](https://github.com/floooh/sokol) - minimal cross-platform standalone C headers
+* [gingerBill/gb](https://github.com/gingerBill/gb) - gb single-file public domain libraries for C & C++
+* [gozfree/libraries](https://github.com/gozfree/libraries) - Basic libraries all written in c by gozfree, including network, event, config, log, hash, ipc, rpc, mem,  and so on
 
 ## Special Purpose ##
 * [Tulip Indicators][394] - Library of functions for technical analysis of
@@ -1855,75 +1871,9 @@ Comprehensive and integrated solutions for building web application in C.
 * [elvismt/slope](https://github.com/elvismt/slope) - A library to create charts from raw data using cairo. Can be shown in GtkDrawingArea
 * [fomy/destor](https://github.com/fomy/destor) - An experimental platform for chunk-level data deduplication. Key words: DDFS, Sparse Index, Extreme Binning, SiLo, Sample Index, BLC; CBR, CFL, CAP, HAR; ASM, OPT; GC, Cumulus
 * [freefoote/gpscorrelate](https://github.com/freefoote/gpscorrelate) - Abandoned C program to match GPS tracks to photographs, and store the matches in the EXIF data in the photographs.
+* [graphitemaster/incbin](https://github.com/graphitemaster/incbin) - Include binary files in C/C++
 
 # Unsorted #
-* [gilbo/cork](https://github.com/gilbo/cork) - 3D Boolean / CSG Library
-* [giltene/wrk2](https://github.com/giltene/wrk2) - A constant throughput, correct latency recording variant of wrk
-* [ging/licode](https://github.com/ging/licode) - Open Source Communication Provider based on WebRTC and Cloud technologies
-* [gingerBill/gb](https://github.com/gingerBill/gb) - gb single-file public domain libraries for C & C++
-* [ginsweater/gif-h](https://github.com/ginsweater/gif-h) - Simple C++ one-header library for the creation of animated GIFs from image data.
-* [git-mirror/nginx](https://github.com/git-mirror/nginx) - A mirror of the nginx SVN repository.
-* [git/git](https://github.com/git/git) - Git Source Code Mirror - This is a publish-only repository and all pull requests are ignored. Please follow Documentation/SubmittingPatches procedure for any of your improvements.
-* [githole/Live-Coder](https://github.com/githole/Live-Coder) - Live Coder is a realtime GLSL editor/viewer mainly for demosceners.
-* [github/brubeck](https://github.com/github/brubeck) - A Statsd-compatible metrics aggregator
-* [gittup/tup](https://github.com/gittup/tup) - Tup is a file-based build system.
-* [gjedeer/tuntox](https://github.com/gjedeer/tuntox) - Tunnel TCP connections over the Tox protocol
-* [gkaindl/ambi-tv](https://github.com/gkaindl/ambi-tv) - a flexible ambilight clone for embedded linux
-* [gleicon/leveldb_engine](https://github.com/gleicon/leveldb_engine) - memcached leveldb engine - stores data on leveldb
-* [gleu/sqlite_fdw](https://github.com/gleu/sqlite_fdw) - Foreign Data Wrapper for sqlite
-* [glock45/iOS-Hierarchy-Viewer](https://github.com/glock45/iOS-Hierarchy-Viewer) - iOS Hierarchy viewer - View and Coredata debugging made easy
-* [glouw/tinn](https://github.com/glouw/tinn) - The tiny neural network library
-* [gluster/glusterfs](https://github.com/gluster/glusterfs) - Gluster Filesystem - (this is only a public mirror)
-* [glyptodon/guacamole-server](https://github.com/glyptodon/guacamole-server) - The server-side, native components that form the Guacamole proxy.
-* [gnea/grbl](https://github.com/gnea/grbl) - An open source, embedded, high performance g-code-parser and CNC milling controller written in optimized C that will run on a straight Arduino
-* [gnemoug/data_structure](https://github.com/gnemoug/data_structure) - 关于各种数据结构和算法的一些收录
-* [gnome-mpv/gnome-mpv](https://github.com/gnome-mpv/gnome-mpv) - A simple GTK+ frontend for mpv
-* [gnosek/nginx-upstream-fair](https://github.com/gnosek/nginx-upstream-fair) - The fair load balancer module for nginx
-* [gnu-mcu-eclipse/eclipse-plugins](https://github.com/gnu-mcu-eclipse/eclipse-plugins) - The GNU MCU Eclipse plug-ins for ARM & RISC-V C/C++ developers
-* [gnudennis/ds_c](https://github.com/gnudennis/ds_c) - Data Structure In C
-* [go-vgo/robotgo](https://github.com/go-vgo/robotgo) - RobotGo, Go Native cross-platform GUI automation
-* [gogotanc/DataStructures](https://github.com/gogotanc/DataStructures) - Data Structures and Algorithm Analysis in C
-* [goj/coreutils](https://github.com/goj/coreutils) - fork of GNU coreutils package
-* [gokhankici/orc_fdw](https://github.com/gokhankici/orc_fdw) - PostgreSQL extension which implements a Foreign Data Wrapper (FDW) for ORC files.
-* [golang-ui/nuklear](https://github.com/golang-ui/nuklear) - This project provides Go bindings for nuklear.h — a small ANSI C GUI library.
-* [google/capsicum-linux](https://github.com/google/capsicum-linux) - Linux kernel with Capsicum support
-* [google/clspv](https://github.com/google/clspv) - Clspv is a prototype compiler for a subset of OpenCL C to Vulkan compute shaders
-* [google/cpu_features](https://github.com/google/cpu_features) - A cross platform C99 library to get cpu features at runtime.
-* [google/cronutils](https://github.com/google/cronutils) - utilities to assist running batch processing jobs
-* [google/eddystone](https://github.com/google/eddystone) - Specification for Eddystone, an open beacon format from Google
-* [google/google-ctf](https://github.com/google/google-ctf) - Google CTF
-* [google/honggfuzz](https://github.com/google/honggfuzz) - Security oriented fuzzer with powerful analysis options. Supports evolutionary, feedback-driven fuzzing based on code coverage (software- and hardware-based)
-* [google/ios-webkit-debug-proxy](https://github.com/google/ios-webkit-debug-proxy) - A DevTools proxy (WebKit Remote Debugging Protocol) for iOS devices (Safari Remote Web Inspector).
-* [google/ktsan](https://github.com/google/ktsan) - ThreadSanitizer for Linux kernel, a fast data race detector
-* [google/latency-benchmark](https://github.com/google/latency-benchmark) - Tests web browser input latency and jank
-* [google/snappy-start](https://github.com/google/snappy-start) - Tool for launching a Linux process from a snapshot
-* [google/upb](https://github.com/google/upb) - a small protobuf implementation in C
-* [gopro/cineform-sdk](https://github.com/gopro/cineform-sdk) - The GoPro® CineForm video codec SDK.
-* [gosexy/canvas](https://github.com/gosexy/canvas) - Image manipulation library based on ImageMagick's MagickWand, for Go.
-* [gosu/gosu](https://github.com/gosu/gosu) - 2D game development library for Ruby and C++
-* [gozfree/libraries](https://github.com/gozfree/libraries) - Basic libraries all written in c by gozfree, including network, event, config, log, hash, ipc, rpc, mem,  and so on
-* [gparmer/Composite](https://github.com/gparmer/Composite) - A component-based OS
-* [grahamedgecombe/nginx-ct](https://github.com/grahamedgecombe/nginx-ct) - Certificate Transparency module for nginx.
-* [grahamking/Key-Value-Polyglot](https://github.com/grahamking/Key-Value-Polyglot) - A basic key-value store, repeated in C, Go, Python (basic, gevent, and diesel), Ruby (event machine), Java, Scala, Haskell, and NodeJS.
-* [graphitemaster/gmqcc](https://github.com/graphitemaster/gmqcc) - An Improved Quake C Compiler
-* [graphitemaster/incbin](https://github.com/graphitemaster/incbin) - Include binary files in C/C++
-* [graphitemaster/lambdapp](https://github.com/graphitemaster/lambdapp) - Anonymous functions in C
-* [graphitemaster/libintrusive](https://github.com/graphitemaster/libintrusive) - Intrusive data structures for C
-* [grbl/grbl](https://github.com/grbl/grbl) - An open source, embedded, high performance g-code-parser and CNC milling controller written in optimized C that will run on a straight Arduino
-* [greghaynes/Afproto](https://github.com/greghaynes/Afproto) - Serial data framing protocol
-* [gregvirgin/libcork](https://github.com/gregvirgin/libcork) - A simple, easily embeddable cross-platform C library
-* [greiman/ChibiOS-Arduino](https://github.com/greiman/ChibiOS-Arduino) - ChibiOS/RT 3.0.3 for Arduino AVR, Due, and Teensy 3.x
-* [grimfang4/sdl-gpu](https://github.com/grimfang4/sdl-gpu) - A library for high-performance, modern 2D graphics with SDL written in C.
-* [grizzlin/sylvanas](https://github.com/grizzlin/sylvanas) - Data Aggregation Girl.
-* [grobian/carbon-c-relay](https://github.com/grobian/carbon-c-relay) - Enhanced C implementation of Carbon relay, aggregator and rewriter
-* [groonga/groonga](https://github.com/groonga/groonga) - An embeddable fulltext search engine. Groonga is the successor project to Senna.
-* [grpc/grpc](https://github.com/grpc/grpc) - The C based gRPC (C++, Node.js, Python, Ruby, Objective-C, PHP, C#)
-* [grrrwaaa/maxcpp](https://github.com/grrrwaaa/maxcpp) - C++ templates for Max/MSP objects
-* [grundprinzip/bitcompressedvector](https://github.com/grundprinzip/bitcompressedvector) - Provide a container for integral data types that applies light-weight bit compression
-* [grz0zrg/fbg](https://github.com/grz0zrg/fbg) - Lightweight C 2D graphics API agnostic library with parallelism support
-* [gsliepen/tinc](https://github.com/gsliepen/tinc) - a VPN daemon
-* [guardianproject/libsqlfs](https://github.com/guardianproject/libsqlfs) - a library that implements a POSIX style filesystem on top of an SQLite database
-* [guaxiao/renderer.gua](https://github.com/guaxiao/renderer.gua) - Software 3D Renderer in C++ on Windows, OSX and Linux or other popular flavors of Unix that SDL supports
 * [guedes/ldap_fdw](https://github.com/guedes/ldap_fdw) - A LDAP Foreign Data Wrapper for PostgreSQL
 * [guilleiguaran/xv6](https://github.com/guilleiguaran/xv6) - mirror of the source code of the Xv6 operating system
 * [guillermocalvo/exceptions4c](https://github.com/guillermocalvo/exceptions4c) - :bomb: An exception handling framework for C
