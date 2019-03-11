@@ -560,6 +560,7 @@ Incorporated lists:
 * [haldean/x6502](https://github.com/haldean/x6502) - Yet another 6502 emulator that one day dreams of being an Atari 2600.
 * [hellerve/e](https://github.com/hellerve/e) - A dead simple editor
 * [hoxnox/rawsock_recv_example](https://github.com/hoxnox/rawsock_recv_example) - SOCK_RAW IPPROTO_UDP socket data transmission example
+* [i3/i3](https://github.com/i3/i3) - A better tiling and dynamic window manager
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -984,6 +985,9 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [grundprinzip/bitcompressedvector](https://github.com/grundprinzip/bitcompressedvector) - Provide a container for integral data types that applies light-weight bit compression
 * [hacatu/haclib](https://github.com/hacatu/haclib) - A utility library providing data types C should have been made with such as vectors and sequences, mostly as macros.
 * [harnold/generic-c](https://github.com/harnold/generic-c) - A library of generic data structures and algorithms for C, in the spirit of the STL
+* [hyPiRion/c-rrb](https://github.com/hyPiRion/c-rrb) - RRB-tree implemented as a library in C.
+* [hyPiRion/persistencia](https://github.com/hyPiRion/persistencia) - Repository with implementations to understand persistent data structures.
+* [hyPiRion/roulette-tree](https://github.com/hyPiRion/roulette-tree) - Data structure for efficient fitness-proportionate selection.
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1104,6 +1108,10 @@ Engines, libraries and other helpful things specifically for making games.
 * [fogleman/Craft](https://github.com/fogleman/Craft) - A simple Minecraft clone written in C using modern OpenGL (shaders).
 * [gabomdq/SDL_GameControllerDB](https://github.com/gabomdq/SDL_GameControllerDB) - A community sourced database of game controller mappings to be used with SDL2 Game Controller functionality
 * [geon/gloss](https://github.com/geon/gloss) - A bidirectional path tracer written in C.
+* [id-Software/DOOM](https://github.com/id-Software/DOOM) - DOOM Open Source Release
+* [id-Software/Quake-2](https://github.com/id-Software/Quake-2) - Quake 2 GPL Source Release
+* [id-Software/Quake-III-Arena](https://github.com/id-Software/Quake-III-Arena) - Quake III Arena GPL Source Release
+* [id-Software/Quake](https://github.com/id-Software/Quake) - Quake GPL Source Release
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1389,6 +1397,7 @@ Audio and video processing
 * [civetweb/civetweb](https://github.com/civetweb/civetweb) - Embedded C/C++ web server
 * [h2o/h2o](https://github.com/h2o/h2o) - H2O - the optimized HTTP/1, HTTP/2 server
 * [h2o/picohttpparser](https://github.com/h2o/picohttpparser) - tiny HTTP parser written in C (used in HTTP::Parser::XS et al.)
+* [iafonov/multipart-parser-c](https://github.com/iafonov/multipart-parser-c) - Http multipart parser implemented in C
 
 ### Mail ###
 * [LibEtPan][233] - Mail library providing an efficient network for IMAP, SMTP,
@@ -1768,6 +1777,7 @@ Libraries for working wit hspecific filetypes
 * [clarkgrubb/data-tools](https://github.com/clarkgrubb/data-tools) - File format conversion tools
 * [fileability/self-ml](https://github.com/fileability/self-ml) - A human data language
 * [hach-que/configd](https://github.com/hach-que/configd) - Generates configuration files in /etc based on YAML data and XSLT transformations.
+* [hyperrealm/libconfig](https://github.com/hyperrealm/libconfig) - C/C++ library for processing configuration files
 
 --------------------------------------------------------------------------------
 
@@ -1813,6 +1823,7 @@ Textual User Interface
 * [termbox][374] - Library for writing text-based interfaces. [``MIT``][MIT]
 * [bartobri/bmenu](https://github.com/bartobri/bmenu) - A generic terminal menu written in C.
 * [doches/progressbar](https://github.com/doches/progressbar) - An easy-to-use C library for displaying text progress bars.
+* [hpjansson/chafa](https://github.com/hpjansson/chafa) - 📺🗿 Terminal graphics for the 21st century.
 
 ## Web Frameworks ##
 Comprehensive and integrated solutions for building web application in C.
@@ -1846,6 +1857,7 @@ Comprehensive and integrated solutions for building web application in C.
 * [embedthis/appweb](https://github.com/embedthis/appweb) - Appweb Embedded Web Server
 * [haiwen/ccnet](https://github.com/haiwen/ccnet) - Ccnet is a framework for writing networked applications in C.
 * [haywire/haywire](https://github.com/haywire/haywire) - Haywire is an asynchronous HTTP server framework written in C that's built using the event loop based libuv platform layer that node.js is built on top of.
+* [iafonov/cosmonaut](https://github.com/iafonov/cosmonaut) - Fast web server & micro framework implemented in C. Just for fun.
 
 ## Web Service APIs ##
 * [twitc][426] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
@@ -1890,46 +1902,11 @@ Comprehensive and integrated solutions for building web application in C.
 * [graphitemaster/incbin](https://github.com/graphitemaster/incbin) - Include binary files in C/C++
 * [h2non/semver.c](https://github.com/h2non/semver.c) - semantic version parser and serializer written in ANSI C
 * [hmng/jsonrpc-c](https://github.com/hmng/jsonrpc-c) - JSON-RPC in C (server only for now)
+* [hroptatyr/dateutils](https://github.com/hroptatyr/dateutils) - nifty command line date and time utilities; fast date calculations and conversion in the shell
+* [hroptatyr/uterus](https://github.com/hroptatyr/uterus) - universal tick encoder library to efficiently transport huge amounts of tick data
+* [htacg/tidy-html5](https://github.com/htacg/tidy-html5) - The granddaddy of HTML tools, with support for modern standards
 
 # Unsorted #
-* [hpc/scr](https://github.com/hpc/scr) - SCR caches checkpoint data in storage on the compute nodes of a Linux cluster to provide a fast, scalable checkpoint / restart capability for MPI codes.
-* [hpjansson/chafa](https://github.com/hpjansson/chafa) - 📺🗿 Terminal graphics for the 21st century.
-* [hpricot/hpricot](https://github.com/hpricot/hpricot) - Hpricot has ended. Please consider an alternative like nokogiri.
-* [hroptatyr/dateutils](https://github.com/hroptatyr/dateutils) - nifty command line date and time utilities; fast date calculations and conversion in the shell
-* [hroptatyr/gandalf](https://github.com/hroptatyr/gandalf) - serve time series from rolled-out text data, part of the army of unserding services
-* [hroptatyr/glod](https://github.com/hroptatyr/glod) - Grokking lots of data
-* [hroptatyr/uterus](https://github.com/hroptatyr/uterus) - universal tick encoder library to efficiently transport huge amounts of tick data
-* [hrydgard/native](https://github.com/hrydgard/native) - NOTE: DEPRECATED! No longer used in PPSSPP! Various C++ utility code: OpenGL ES, JSON, etc, portable to Android.
-* [htacg/tidy-html5](https://github.com/htacg/tidy-html5) - The granddaddy of HTML tools, with support for modern standards
-* [huacnlee/rucaptcha](https://github.com/huacnlee/rucaptcha) - This is a Captcha gem for Rails Application. No dependencies. No ImageMagick, No RMagick.
-* [huangz1990/annotated_redis_source](https://github.com/huangz1990/annotated_redis_source) - 带有详细注释的 Redis 2.6 源码
-* [huangz1990/redis-3.0-annotated](https://github.com/huangz1990/redis-3.0-annotated) - 带有详细注释的 Redis 3.0 代码（annotated Redis 3.0 source code）。
-* [hughsie/fwupd](https://github.com/hughsie/fwupd) - A simple daemon to allow session software to update firmware
-* [hugsy/proxenet](https://github.com/hugsy/proxenet) - The REAL^WONLY Hacker-Friendly proxy for web application pentests.
-* [hvdieren/swan](https://github.com/hvdieren/swan) - Data-flow driven work-stealing scheduler
-* [hyPiRion/c-rrb](https://github.com/hyPiRion/c-rrb) - RRB-tree implemented as a library in C.
-* [hyPiRion/persistencia](https://github.com/hyPiRion/persistencia) - Repository with implementations to understand persistent data structures.
-* [hyPiRion/roulette-tree](https://github.com/hyPiRion/roulette-tree) - Data structure for efficient fitness-proportionate selection.
-* [hyperic/sigar](https://github.com/hyperic/sigar) - System Information Gatherer And Reporter
-* [hyperrealm/libconfig](https://github.com/hyperrealm/libconfig) - C/C++ library for processing configuration files
-* [hzeller/gmrender-resurrect](https://github.com/hzeller/gmrender-resurrect) - Resource efficient UPnP/DLNA renderer, optimal for Raspberry Pi, CuBox or a general MediaServer. Fork of GMediaRenderer to add some features to make it usable.
-* [i-rinat/apulse](https://github.com/i-rinat/apulse) - PulseAudio emulation for ALSA
-* [i-rinat/freshplayerplugin](https://github.com/i-rinat/freshplayerplugin) - ppapi2npapi compatibility layer
-* [i-saint/DynamicPatcher](https://github.com/i-saint/DynamicPatcher) - Runtime C++ Editing
-* [i3/i3](https://github.com/i3/i3) - A better tiling and dynamic window manager
-* [iMoreApps/ffmpeg-avplayer-for-ios](https://github.com/iMoreApps/ffmpeg-avplayer-for-ios) - A tiny but powerful video player framework for iOS developers.
-* [iTyran/SushiCrush](https://github.com/iTyran/SushiCrush) - SushiCrush
-* [iafonov/cosmonaut](https://github.com/iafonov/cosmonaut) - Fast web server & micro framework implemented in C. Just for fun.
-* [iafonov/multipart-parser-c](https://github.com/iafonov/multipart-parser-c) - Http multipart parser implemented in C
-* [ibarwick/firebird_fdw](https://github.com/ibarwick/firebird_fdw) - A PostgreSQL foreign data wrapper (FDW) for Firebird
-* [ibc/em-udns](https://github.com/ibc/em-udns) - An async DNS resolver for EventMachine based on udns C library
-* [ice799/memprof](https://github.com/ice799/memprof) - A Ruby gem for memory profiling
-* [id-Software/DOOM-iOS](https://github.com/id-Software/DOOM-iOS) - DOOM Classic for iOS Source Release
-* [id-Software/DOOM](https://github.com/id-Software/DOOM) - DOOM Open Source Release
-* [id-Software/Quake-2](https://github.com/id-Software/Quake-2) - Quake 2 GPL Source Release
-* [id-Software/Quake-III-Arena](https://github.com/id-Software/Quake-III-Arena) - Quake III Arena GPL Source Release
-* [id-Software/Quake](https://github.com/id-Software/Quake) - Quake GPL Source Release
-* [id-Software/Wolf3D-iOS](https://github.com/id-Software/Wolf3D-iOS) - Wolfenstein 3D for iOS Source Release
 * [ideawu/c1000k](https://github.com/ideawu/c1000k) - A tool to test if you OS supports 1 million connections(c1000k)
 * [ideawu/icomet](https://github.com/ideawu/icomet) - A C1000K comet/push server built with C++, for web and mobile app
 * [iem-projects/pd-iemrtp](https://github.com/iem-projects/pd-iemrtp) - RTP support for Pure Data
