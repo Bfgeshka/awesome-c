@@ -550,6 +550,8 @@ Incorporated lists:
 * [eatnumber1/goal](https://github.com/eatnumber1/goal) - g()()()()('al') → "gooooal"
 * [espruino/Espruino](https://github.com/espruino/Espruino) - The Espruino JavaScript interpreter - Official Repo
 * [fabianishere/brainfuck](https://github.com/fabianishere/brainfuck) - Brainfuck interpreter written in C
+* [feeley/gambit](https://github.com/feeley/gambit) - Gambit is an efficient implementation of the Scheme programming language.
+* [felixangell/mac](https://github.com/felixangell/mac) - virtual machine in c
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -892,6 +894,7 @@ protocols.
 * [bcmpinc/dagdb](https://github.com/bcmpinc/dagdb) - small database for storing semi-structured data
 * [cloudwu/lua-db](https://github.com/cloudwu/lua-db) - A database shared data among multi-states .
 * [edussx/database](https://github.com/edussx/database) - B+tree database
+* [fictorial/logstore](https://github.com/fictorial/logstore) - experimental data storage engine for arbitrary data for POSIX systems with spinning hard disks
 
 ## Data Structures and Types ##
 * [libhl][58] - Library implementing a thread-safe API to manage a range of data
@@ -961,6 +964,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [libev][399] - Yet another event loop. [``BSD-2-Clause``][BSD-2-Clause]
 * [libevent][400] - Event loop replacement for network servers. [``BSD-3-Clause``][BSD-3-Clause]
 * [Lupus/libevfibers](https://github.com/Lupus/libevfibers) - Small C fiber library that uses libev based event loop and libcoro based coroutine context switching.
+* [facebook/libphenom](https://github.com/facebook/libphenom) - An eventing framework for building high performance and high scalability systems in C.
 
 ## FFI ##
 Foreign function interfaces, also know as binding interfaces.
@@ -1065,6 +1069,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [ejoy/ejoy2d](https://github.com/ejoy/ejoy2d) - A 2D Graphics Engine for Mobile Game
 * [etlegacy/etlegacy](https://github.com/etlegacy/etlegacy) - ET: Legacy is based on the source code of the Wolfenstein: Enemy Territory which was released under the GPLv3 license. The main goal of this project is to fix bugs, remove old dependencies and make it playable on all major operating systems while still remaining compatible with the ET 2.60b version and as many of its mods as possible.
 * [fabiensanglard/chocolate_duke3D](https://github.com/fabiensanglard/chocolate_duke3D) - chocolate Duke Nukem,3D
+* [felselva/mathc](https://github.com/felselva/mathc) - Pure C math library for 2D and 3D programming.
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1210,6 +1215,7 @@ can be found in the Crypto section.
 * [armink/EasyLogger](https://github.com/armink/EasyLogger) - A ultra-lightweight(ROM<1.6K, RAM<0.3k), high-performance C/C++ log library. | 一款超轻量级(ROM<1.6K, RAM<0.3k)、高性能的 C/C++ 日志库
 * [cyrus-and/prof](https://github.com/cyrus-and/prof) - Self-contained C/C++ profiler library for Linux
 * [esneider/debug](https://github.com/esneider/debug) - Debugging like a sir (in C)
+* [facebook/liblogfaf](https://github.com/facebook/liblogfaf) - A library that logs messages using non-blocking UDP datagrams.
 
 ## Lexing and Parsing ##
 Generic lexers and parsers
@@ -1320,6 +1326,7 @@ Audio and video processing
 * [chutsu/cog](https://github.com/chutsu/cog) - C common library containing common data structures, sorting algorithms and utility functions
 * [cs50/libcs50](https://github.com/cs50/libcs50) - CS50 Library for C
 * [dcreager/libcork](https://github.com/dcreager/libcork) - A simple, easily embeddable cross-platform C library
+* [faragon/libsrt](https://github.com/faragon/libsrt) - libsrt is a C library for writing fast and safe C code, faster. It provides string, vector, bit set, set, map, hash set, and hash map handling. Suitable for soft and hard real-time. Allows both heap and stack allocation.  *BETA* (API still can change: suggestions are welcome)
 
 ## Networking ##
 ### DNS ###
@@ -1327,6 +1334,7 @@ Audio and video processing
   and utilities. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [ldns][231] - Library to simplify DNS programming. [``BSD-3-Clause``][BSD-3-Clause]
 * [bagder/c-ares](https://github.com/bagder/c-ares) - c-ares is a C library for asynchronous DNS requests
+* [farsightsec/dnstable](https://github.com/farsightsec/dnstable) - encoding format, library, and utilities for passive DNS data
 
 ### HTTP ###
 * [http-parser][230] - HTTP request/response parser. [``MIT``][MIT]
@@ -1424,6 +1432,8 @@ Audio and video processing
 * [chokepoint/CryptHook](https://github.com/chokepoint/CryptHook) - TCP/UDP symmetric encryption tunnel wrapper
 * [clibs/dumpasn1](https://github.com/clibs/dumpasn1) - Display the contents of ASN.1 encoded data
 * [deltachat/deltachat-core](https://github.com/deltachat/deltachat-core) - Delta.Chat C-Library with e2e chat-over-email functionality & Python bindings
+* [fastos/fastsocket](https://github.com/fastos/fastsocket) - Fastsocket is a highly scalable socket and its underlying networking implementation of Linux kernel. With the straight linear scalability, Fastsocket can provide extremely good performance in multicore machines. In addition, it is very easy to use and maintain. As a result, it has been deployed in the production environment of SINA.
+* [felipec/msn-pecan](https://github.com/felipec/msn-pecan) - MSN Messenger library in C
 
 ### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
@@ -1455,6 +1465,7 @@ Audio and video processing
 * [ardagnir/athame](https://github.com/ardagnir/athame) - Full vim for readline (bash, gdb, python, etc)
 * [asamy/ksm](https://github.com/asamy/ksm) - A really simple and lightweight x64 hypervisor written in C.  Supports VMFUNC, EPTP switching, #VE EPT Violation, VT-x nesting and IDT shadowing.  VMFUNC backward compatibility also supported.
 * [dtrace4linux/linux](https://github.com/dtrace4linux/linux) - dtrace for linux - kernel driver and userland tools
+* [fancycode/MemoryModule](https://github.com/fancycode/MemoryModule) - Library to load a DLL from memory.
 
 ## Procedural Generation ##
 * [heman][382] - Tiny library of image utilities dealing with height maps,
@@ -1819,34 +1830,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [elvismt/slope](https://github.com/elvismt/slope) - A library to create charts from raw data using cairo. Can be shown in GtkDrawingArea
 
 # Unsorted #
-* [facebook/360-Capture-SDK](https://github.com/facebook/360-Capture-SDK) - A developer focused sample SDK that allows game and virtual Reality devs to be able to easily and quickly integrate 360 photo/video capture capability into their game apps.
-* [facebook/css-layout](https://github.com/facebook/css-layout) - A subset of CSS (specifically flex-box) re-implemented as a stand alone project for use primarily on mobile. Used by react-native
-* [facebook/fishhook](https://github.com/facebook/fishhook) - A library that enables dynamically rebinding symbols in Mach-O binaries running on iOS.
-* [facebook/flashcache](https://github.com/facebook/flashcache) - A general purpose, write-back block cache for Linux.
-* [facebook/liblogfaf](https://github.com/facebook/liblogfaf) - A library that logs messages using non-blocking UDP datagrams.
-* [facebook/libphenom](https://github.com/facebook/libphenom) - An eventing framework for building high performance and high scalability systems in C.
-* [facebook/watchman](https://github.com/facebook/watchman) - Watches files and records, or triggers actions, when they change.
-* [facebookresearch/SparseConvNet](https://github.com/facebookresearch/SparseConvNet) - Submanifold sparse convolutional networks
-* [falconindy/expac](https://github.com/falconindy/expac) - alpm data extraction utility
-* [falkTX/Cadence](https://github.com/falkTX/Cadence) - Collection of tools useful for audio production
-* [fanchy/fflib](https://github.com/fanchy/fflib) - FFLib is a lightweight c++ framework.FFlib is mainly designed for game server developing. But some components in FFLib is in common use. For example socket&net module, log module, thread&lock, tools for performance & memory leak check.用于分布式程序的c++类库，封装了socket、rpc、lua、CQRS框架、算法等组件，适于SNS、WEBGAME、MMO后台程序， about C++,linux socket,lua,rpc,broker,cqrs,timer,log libary
-* [fancycode/MemoryModule](https://github.com/fancycode/MemoryModule) - Library to load a DLL from memory.
-* [fanglingsu/vimb](https://github.com/fanglingsu/vimb) - Vimb - the vim like browser is a webkit based web browser that behaves like the vimperator plugin for the firefox and usage paradigms from the great editor vim. The goal of vimb is to build a completely keyboard-driven, efficient and pleasurable browsing-experience.
-* [faragon/libsrt](https://github.com/faragon/libsrt) - libsrt is a C library for writing fast and safe C code, faster. It provides string, vector, bit set, set, map, hash set, and hash map handling. Suitable for soft and hard real-time. Allows both heap and stack allocation.  *BETA* (API still can change: suggestions are welcome)
-* [farsightsec/dnstable](https://github.com/farsightsec/dnstable) - encoding format, library, and utilities for passive DNS data
-* [fastos/fastsocket](https://github.com/fastos/fastsocket) - Fastsocket is a highly scalable socket and its underlying networking implementation of Linux kernel. With the straight linear scalability, Fastsocket can provide extremely good performance in multicore machines. In addition, it is very easy to use and maintain. As a result, it has been deployed in the production environment of SINA.
-* [fcitx/fcitx](https://github.com/fcitx/fcitx) - A Flexible Input Method Framework
-* [feeley/gambit](https://github.com/feeley/gambit) - Gambit is an efficient implementation of the Scheme programming language.
-* [felipec/msn-pecan](https://github.com/felipec/msn-pecan) - MSN Messenger library in C
-* [felis/Arduino_Camera_Control](https://github.com/felis/Arduino_Camera_Control) - PTP, Camera-specific layers to work with Arduino USB Host Shield
-* [felixangell/mac](https://github.com/felixangell/mac) - virtual machine in c
-* [felselva/mathc](https://github.com/felselva/mathc) - Pure C math library for 2D and 3D programming.
-* [ferreiradaselva/mathc](https://github.com/ferreiradaselva/mathc) - Pure C math library for 2D and 3D programming
-* [ffi/ffi](https://github.com/ffi/ffi) - Ruby FFI
-* [fi01/CVE-2015-3636](https://github.com/fi01/CVE-2015-3636) - PoC code for 32 bit Android OS
-* [fictorial/logstore](https://github.com/fictorial/logstore) - experimental data storage engine for arbitrary data for POSIX systems with spinning hard disks
-* [fileability/Ingredients](https://github.com/fileability/Ingredients) - A Cocoa documentation viewer.
-* [fileability/chocolat-public](https://github.com/fileability/chocolat-public) - Public bug tracker for the private chocolat project
 * [fileability/self-ml](https://github.com/fileability/self-ml) - A human data language
 * [firmianay/CTF-All-In-One](https://github.com/firmianay/CTF-All-In-One) - 一本 CTF 书
 * [fiveruns/memcache-client](https://github.com/fiveruns/memcache-client) - Seattle.rb's memcache-client 1.5.0 with fixes
