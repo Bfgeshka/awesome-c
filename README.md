@@ -557,6 +557,9 @@ Incorporated lists:
 * [fragglet/yoctolisp](https://github.com/fragglet/yoctolisp) - Tiny Scheme-like Lisp interpreter written in a weekend
 * [freddiev4/DailyProgrammerChallenges](https://github.com/freddiev4/DailyProgrammerChallenges) - External Repo of Challenges from r/dailyprogrammer
 * [guilleiguaran/xv6](https://github.com/guilleiguaran/xv6) - mirror of the source code of the Xv6 operating system
+* [haldean/x6502](https://github.com/haldean/x6502) - Yet another 6502 emulator that one day dreams of being an Atari 2600.
+* [hellerve/e](https://github.com/hellerve/e) - A dead simple editor
+* [hoxnox/rawsock_recv_example](https://github.com/hoxnox/rawsock_recv_example) - SOCK_RAW IPPROTO_UDP socket data transmission example
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -815,6 +818,8 @@ Neural nets, machine learning, and other similar things.
 * [cudpp/cudpp](https://github.com/cudpp/cudpp) - CUDA Data Parallel Primitives Library
 * [etmc/lemon](https://github.com/etmc/lemon) - Lemon is an MPI parallel I/O library that is intended to allow for efficient parallel I/O of both binary and metadata on massively parallel architectures. Data is stored in the SciDAC Lattice QCD Interchange Message Encapsulation format, that allows for storing large blocks of binary data and corresponding metadata in the same file.
 * [geertj/cgreenlet](https://github.com/geertj/cgreenlet) - Coroutines for C/C++
+* [halayli/lthread](https://github.com/halayli/lthread) - lthread, a multicore enabled coroutine library written in C
+* [hnes/libaco](https://github.com/hnes/libaco) - A blazing fast and lightweight C asymmetric coroutine library  💎 ⛅🚀⛅🌞
 
 ## Crypto ##
 Mostly library implementations of well-known cryptographic algorithms or
@@ -978,6 +983,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [graphitemaster/libintrusive](https://github.com/graphitemaster/libintrusive) - Intrusive data structures for C
 * [grundprinzip/bitcompressedvector](https://github.com/grundprinzip/bitcompressedvector) - Provide a container for integral data types that applies light-weight bit compression
 * [hacatu/haclib](https://github.com/hacatu/haclib) - A utility library providing data types C should have been made with such as vectors and sequences, mostly as macros.
+* [harnold/generic-c](https://github.com/harnold/generic-c) - A library of generic data structures and algorithms for C, in the spirit of the STL
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1359,6 +1365,7 @@ Audio and video processing
 * [dcreager/libcork](https://github.com/dcreager/libcork) - A simple, easily embeddable cross-platform C library
 * [faragon/libsrt](https://github.com/faragon/libsrt) - libsrt is a C library for writing fast and safe C code, faster. It provides string, vector, bit set, set, map, hash set, and hash map handling. Suitable for soft and hard real-time. Allows both heap and stack allocation.  *BETA* (API still can change: suggestions are welcome)
 * [gregvirgin/libcork](https://github.com/gregvirgin/libcork) - A simple, easily embeddable cross-platform C library
+* [happyfish100/libfastcommon](https://github.com/happyfish100/libfastcommon) - c common functions library extracted from my open source project FastDFS. this library is very simple and stable.  functions including: string, logger, chain, hash, socket, ini file reader, base64 encode / decode, url encode / decode, fast timer, skiplist, object pool etc. detail info please see the c header files.
 
 ## Networking ##
 ### DNS ###
@@ -1838,6 +1845,7 @@ Comprehensive and integrated solutions for building web application in C.
 * [davidmoreno/onion](https://github.com/davidmoreno/onion) - C library to create simple HTTP servers and Web Applications.
 * [embedthis/appweb](https://github.com/embedthis/appweb) - Appweb Embedded Web Server
 * [haiwen/ccnet](https://github.com/haiwen/ccnet) - Ccnet is a framework for writing networked applications in C.
+* [haywire/haywire](https://github.com/haywire/haywire) - Haywire is an asynchronous HTTP server framework written in C that's built using the event loop based libuv platform layer that node.js is built on top of.
 
 ## Web Service APIs ##
 * [twitc][426] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
@@ -1881,51 +1889,9 @@ Comprehensive and integrated solutions for building web application in C.
 * [freefoote/gpscorrelate](https://github.com/freefoote/gpscorrelate) - Abandoned C program to match GPS tracks to photographs, and store the matches in the EXIF data in the photographs.
 * [graphitemaster/incbin](https://github.com/graphitemaster/incbin) - Include binary files in C/C++
 * [h2non/semver.c](https://github.com/h2non/semver.c) - semantic version parser and serializer written in ANSI C
+* [hmng/jsonrpc-c](https://github.com/hmng/jsonrpc-c) - JSON-RPC in C (server only for now)
 
 # Unsorted #
-* [halayli/lthread](https://github.com/halayli/lthread) - lthread, a multicore enabled coroutine library written in C
-* [haldean/x6502](https://github.com/haldean/x6502) - Yet another 6502 emulator that one day dreams of being an Atari 2600.
-* [halfninja/android-ffmpeg-x264](https://github.com/halfninja/android-ffmpeg-x264) - INACTIVE, UNSUPPORTED - Android Videokit - basic FFMPEG+X264 build for Android. Pull requests gratefully accepted.
-* [hanzz/libtransport](https://github.com/hanzz/libtransport) - Create C++ transports easily
-* [happyfish100/fastdfs](https://github.com/happyfish100/fastdfs) - FastDFS is an open source high performance distributed file system (DFS). It's major functions include: file storing, file syncing and file accessing, and design for high capacity and load balance.
-* [happyfish100/fastdht](https://github.com/happyfish100/fastdht) - FastDHT is a high performance distributed hash table (DHT) which based key value pairs. It can store mass key value pairs such as filename mapping, session data and user related data.
-* [happyfish100/libfastcommon](https://github.com/happyfish100/libfastcommon) - c common functions library extracted from my open source project FastDFS. this library is very simple and stable.  functions including: string, logger, chain, hash, socket, ini file reader, base64 encode / decode, url encode / decode, fast timer, skiplist, object pool etc. detail info please see the c header files.
-* [happykevins/cocos2dx-ext](https://github.com/happykevins/cocos2dx-ext) - Extensions for Cocos2dx: Dynamic Font Management, HTML Widget, Powerful Asset Management...
-* [happypeter/tata](https://github.com/happypeter/tata) - tinylion data
-* [haproxy/haproxy](https://github.com/haproxy/haproxy) - Mirror of haproxy repository
-* [harbour/core](https://github.com/harbour/core) - Portable, xBase compatible programming language and environment
-* [harnold/generic-c](https://github.com/harnold/generic-c) - A library of generic data structures and algorithms for C, in the spirit of the STL
-* [hashcat/hashcat](https://github.com/hashcat/hashcat) - World's fastest and most advanced password recovery utility
-* [haskell-crypto/cryptonite](https://github.com/haskell-crypto/cryptonite) - lowlevel set of cryptographic primitives for haskell
-* [havlenapetr/FFMpeg](https://github.com/havlenapetr/FFMpeg) - this is port of ffmpeg for android (this is app, but in future i will do android lib from it and then system will be able to convert videos automatically)
-* [haywire/haywire](https://github.com/haywire/haywire) - Haywire is an asynchronous HTTP server framework written in C that's built using the event loop based libuv platform layer that node.js is built on top of.
-* [hcarty/ocaml-hdf](https://github.com/hcarty/ocaml-hdf) - Library for reading/writing HDF4 data and reading NetCDF data
-* [hdevalence/wordgen](https://github.com/hdevalence/wordgen) - let's play with google ngrams data
-* [hdm/juniper-cve-2015-7755](https://github.com/hdm/juniper-cve-2015-7755) - Notes, binaries, and related information from analysis of the CVE-2015-7755 & CVE-2015-7756 issues within Juniper ScreenOS
-* [heewa/pipestats](https://github.com/heewa/pipestats) - Stats about data being piped.
-* [heimir-sverrisson/jdbc2_fdw](https://github.com/heimir-sverrisson/jdbc2_fdw) - JDBC Foreign Data Wrapper for PostgreSQL
-* [hellerve/e](https://github.com/hellerve/e) - A dead simple editor
-* [henrypp/chrlauncher](https://github.com/henrypp/chrlauncher) - Small and very fast portable launcher and updater for Chromium.
-* [hexchat/hexchat](https://github.com/hexchat/hexchat) - GTK+ IRC client -
-* [hfiref0x/CVE-2015-1701](https://github.com/hfiref0x/CVE-2015-1701) - Win32k LPE vulnerability used in APT attack
-* [hfiref0x/TDL](https://github.com/hfiref0x/TDL) - Driver loader for bypassing Windows x64 Driver Signature Enforcement
-* [hfiref0x/UACME](https://github.com/hfiref0x/UACME) - Defeating Windows User Account Control
-* [hfiref0x/UPGDSED](https://github.com/hfiref0x/UPGDSED) - Universal PatchGuard and Driver Signature Enforcement Disable
-* [hfiref0x/VBoxHardenedLoader](https://github.com/hfiref0x/VBoxHardenedLoader) - VirtualBox VM detection mitigation loader
-* [hfiref0x/WinObjEx64](https://github.com/hfiref0x/WinObjEx64) - Windows Object Explorer 64-bit
-* [hhetter/smbtatools](https://github.com/hhetter/smbtatools) - Tools to query the SMB traffic analyzer data base
-* [hibara/AttacheCase](https://github.com/hibara/AttacheCase) - file/folder encryption software for Windows ( C++Builder2010 Project Files )
-* [hillegass/BNRPersistence](https://github.com/hillegass/BNRPersistence) - A set of classes which use Tokyo Cabinet to save and load Objective-C objects
-* [hishamhm/htop](https://github.com/hishamhm/htop) - htop is an interactive text-mode process viewer for Unix systems. It aims to be a better 'top'.
-* [hit9/todo.c](https://github.com/hit9/todo.c) - Command line lightweight todo tool with readable storage , written in C.
-* [hmng/jsonrpc-c](https://github.com/hmng/jsonrpc-c) - JSON-RPC in C (server only for now)
-* [hnes/libaco](https://github.com/hnes/libaco) - A blazing fast and lightweight C asymmetric coroutine library  💎 ⛅🚀⛅🌞
-* [holmium/dnsforwarder](https://github.com/holmium/dnsforwarder) - Just a DNS utility.
-* [horchi/linux-p4d](https://github.com/horchi/linux-p4d) - Deamon which fetch sensor data of the 'Lambdatronic s3200' and store to a MySQL database
-* [hoxnox/rawsock_recv_example](https://github.com/hoxnox/rawsock_recv_example) - SOCK_RAW IPPROTO_UDP socket data transmission example
-* [hoytech/vmtouch](https://github.com/hoytech/vmtouch) - Portable file system cache diagnostics and control
-* [hp09d/SAE-Baja-Data-Acquisition](https://github.com/hp09d/SAE-Baja-Data-Acquisition) - Senior Design project year 2014-2015
-* [hpc/dtcmp](https://github.com/hpc/dtcmp) - Datatype Compare (DTCMP) Library for sorting and ranking distributed data using MPI
 * [hpc/scr](https://github.com/hpc/scr) - SCR caches checkpoint data in storage on the compute nodes of a Linux cluster to provide a fast, scalable checkpoint / restart capability for MPI codes.
 * [hpjansson/chafa](https://github.com/hpjansson/chafa) - 📺🗿 Terminal graphics for the 21st century.
 * [hpricot/hpricot](https://github.com/hpricot/hpricot) - Hpricot has ended. Please consider an alternative like nokogiri.
