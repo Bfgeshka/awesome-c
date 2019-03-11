@@ -367,6 +367,7 @@ Incorporated lists:
 * [anael-seghezzi/CToy](https://github.com/anael-seghezzi/CToy) - Interactive C coding environment
 * [aquynh/capstone](https://github.com/aquynh/capstone) - Capstone disassembly/disassembler framework: Core (Arm, Arm64, BPF, EVM, M68K, M680X, MOS65xx, Mips, PPC, Sparc, SystemZ, TMS320C64x, Web Assembly, X86, X86_64, XCore) + bindings.
 * [buserror/simavr](https://github.com/buserror/simavr) - simavr is a lean, mean and hackable AVR simulator for linux & OSX
+* [ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher) - A code-searching tool similar to ack, but faster.
 
 [10-1]: https://ccache.samba.org/
 [10-2]: https://github.com/distcc/distcc
@@ -809,6 +810,7 @@ Neural nets, machine learning, and other similar things.
 * [concurrencykit/ck](https://github.com/concurrencykit/ck) - Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures designed to aid in the research, design and implementation of high performance concurrent systems developed in C99+.
 * [cudpp/cudpp](https://github.com/cudpp/cudpp) - CUDA Data Parallel Primitives Library
 * [etmc/lemon](https://github.com/etmc/lemon) - Lemon is an MPI parallel I/O library that is intended to allow for efficient parallel I/O of both binary and metadata on massively parallel architectures. Data is stored in the SciDAC Lattice QCD Interchange Message Encapsulation format, that allows for storing large blocks of binary data and corresponding metadata in the same file.
+* [geertj/cgreenlet](https://github.com/geertj/cgreenlet) - Coroutines for C/C++
 
 ## Crypto ##
 Mostly library implementations of well-known cryptographic algorithms or
@@ -965,6 +967,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [freels/ruby_trie](https://github.com/freels/ruby_trie) - Native C implementation of a trie data structure.
 * [fritz0705/libf](https://github.com/fritz0705/libf) - Library to make programming simpler and cleaner (and slower, because I was too lazy to implement usable data structures)
 * [fubarwrangler/datastruct](https://github.com/fubarwrangler/datastruct) - A silly project to code some data structures to help brush up on my C
+* [ghostrong/algorithm](https://github.com/ghostrong/algorithm) - Data Structure and Algorithms
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1082,6 +1085,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [floooh/chips](https://github.com/floooh/chips) - 8-bit chip and system emulators in standalone C headers
 * [fogleman/Craft](https://github.com/fogleman/Craft) - A simple Minecraft clone written in C using modern OpenGL (shaders).
 * [gabomdq/SDL_GameControllerDB](https://github.com/gabomdq/SDL_GameControllerDB) - A community sourced database of game controller mappings to be used with SDL2 Game Controller functionality
+* [geon/gloss](https://github.com/geon/gloss) - A bidirectional path tracer written in C.
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1478,6 +1482,7 @@ Audio and video processing
 * [asamy/ksm](https://github.com/asamy/ksm) - A really simple and lightweight x64 hypervisor written in C.  Supports VMFUNC, EPTP switching, #VE EPT Violation, VT-x nesting and IDT shadowing.  VMFUNC backward compatibility also supported.
 * [dtrace4linux/linux](https://github.com/dtrace4linux/linux) - dtrace for linux - kernel driver and userland tools
 * [fancycode/MemoryModule](https://github.com/fancycode/MemoryModule) - Library to load a DLL from memory.
+* [gentilkiwi/kekeo](https://github.com/gentilkiwi/kekeo) - A little toolbox to play with Microsoft Kerberos in C
 
 ## Procedural Generation ##
 * [heman][382] - Tiny library of image utilities dealing with height maps,
@@ -1591,6 +1596,7 @@ Audio and video processing
 * [cbuchner1/CudaMiner](https://github.com/cbuchner1/CudaMiner) - a CUDA accelerated litecoin mining application based on pooler's CPU miner
 * [ericmandel/funtools](https://github.com/ericmandel/funtools) - A "minimal buy-in" FITS library and utility package for astronomical data analysis
 * [evanmiller/ProjCL](https://github.com/evanmiller/ProjCL) - Crazy-fast map projections and geodesic calculations
+* [geocommons/geocoder](https://github.com/geocommons/geocoder) - Modular Street Address Geocoder
 
 ## Standard Libraries ##
 Implementations of the C standarts
@@ -1851,31 +1857,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [freefoote/gpscorrelate](https://github.com/freefoote/gpscorrelate) - Abandoned C program to match GPS tracks to photographs, and store the matches in the EXIF data in the photographs.
 
 # Unsorted #
-* [ganglia/monitor-core](https://github.com/ganglia/monitor-core) - Ganglia Monitoring core
-* [garrynewman/GWEN](https://github.com/garrynewman/GWEN) - GWEN - GUI Without Extravagant Nonsense
-* [garthz/pdwiringPi](https://github.com/garthz/pdwiringPi) - Pure Data (pd) external for hardware I/O on a Raspberry Pi using wiringPi.
-* [gbishop/cython-hidapi](https://github.com/gbishop/cython-hidapi) - Python wrapper for the hidapi (not active, use one of the forks)
-* [gcesarmza/curl-android-ios](https://github.com/gcesarmza/curl-android-ios) - Static libcurl to be used in Android and iOS apps. Build scripts included. No Android source required
-* [gdbinit/ExtractMachO](https://github.com/gdbinit/ExtractMachO) - IDA plugin to extract Mach-O binaries located in the disassembly or data
-* [gdbinit/onyx-the-black-cat](https://github.com/gdbinit/onyx-the-black-cat) - Kernel extension to disable anti-debug tricks and other useful XNU "features"
-* [ge-ne/bibtool](https://github.com/ge-ne/bibtool) - BibTool is a tool for manipulating BibTeX data bases. BibTeX provides a mean to integrate citations into LaTeX documents. BibTool allows the manipulation of BibTeX files which goes beyond the possibilities -- and intentions -- of BibTeX.
-* [geany/geany](https://github.com/geany/geany) - A fast and lightweight IDE
-* [geertj/cgreenlet](https://github.com/geertj/cgreenlet) - Coroutines for C/C++
-* [gentilkiwi/kekeo](https://github.com/gentilkiwi/kekeo) - A little toolbox to play with Microsoft Kerberos in C
-* [gentilkiwi/mimikatz](https://github.com/gentilkiwi/mimikatz) - A little tool to play with Windows security
-* [gentoo/eudev](https://github.com/gentoo/eudev) - Repository for eudev development
-* [geocommons/geocoder](https://github.com/geocommons/geocoder) - Modular Street Address Geocoder
-* [geoffgarside/cocoagit](https://github.com/geoffgarside/cocoagit) - An Objective-C/Foundation implementation of the Git version control software.
-* [geon/gloss](https://github.com/geon/gloss) - A bidirectional path tracer written in C.
-* [ggasoftware/indigo](https://github.com/ggasoftware/indigo) - Indigo: a cheminformatics toolkit. Bingo: RDBMS data cartridge for Oracle, MS SQL Server, and PostgreSQL
-* [ggobi/ggobi](https://github.com/ggobi/ggobi) - High dimensional data vis
-* [ggounot/BnfData](https://github.com/ggounot/BnfData) - Android Application: Auteurs et œuvres
-* [ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher) - A code-searching tool similar to ack, but faster.
-* [ghosert/VimProject](https://github.com/ghosert/VimProject) - All about my vim projects
-* [ghostrong/algorithm](https://github.com/ghostrong/algorithm) - Data Structure and Algorithms
-* [ghughes/fruitstrap](https://github.com/ghughes/fruitstrap) - Install and debug iPhone apps from the command line, without using Xcode
-* [gianlucabertani/Objective-Zip](https://github.com/gianlucabertani/Objective-Zip) - An object-oriented friendly wrapper library for ZLib and MiniZip, in Objective-C for iOS and OS X
-* [gibranfp/Sampled-MinHashing](https://github.com/gibranfp/Sampled-MinHashing) - MinHash-based clustering for binary and weighted dyadic data (e.g. bag of words).
 * [gilbo/cork](https://github.com/gilbo/cork) - 3D Boolean / CSG Library
 * [giltene/wrk2](https://github.com/giltene/wrk2) - A constant throughput, correct latency recording variant of wrk
 * [ging/licode](https://github.com/ging/licode) - Open Source Communication Provider based on WebRTC and Cloud technologies
