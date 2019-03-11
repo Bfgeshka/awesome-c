@@ -956,6 +956,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [dminor/skip-quadtree](https://github.com/dminor/skip-quadtree) - Implementation of the skip quadtree and compressed quadtree data structures.
 * [douglascrockford/DEC64](https://github.com/douglascrockford/DEC64) - Decimal floating point
 * [esheldon/meds](https://github.com/esheldon/meds) - Python and C libraries to work with Multi Epoch Data Structures
+* [fmela/libdict](https://github.com/fmela/libdict) - C library of key-value data structures with an object-oriented interface.
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1070,6 +1071,8 @@ Engines, libraries and other helpful things specifically for making games.
 * [etlegacy/etlegacy](https://github.com/etlegacy/etlegacy) - ET: Legacy is based on the source code of the Wolfenstein: Enemy Territory which was released under the GPLv3 license. The main goal of this project is to fix bugs, remove old dependencies and make it playable on all major operating systems while still remaining compatible with the ET 2.60b version and as many of its mods as possible.
 * [fabiensanglard/chocolate_duke3D](https://github.com/fabiensanglard/chocolate_duke3D) - chocolate Duke Nukem,3D
 * [felselva/mathc](https://github.com/felselva/mathc) - Pure C math library for 2D and 3D programming.
+* [floooh/chips](https://github.com/floooh/chips) - 8-bit chip and system emulators in standalone C headers
+* [fogleman/Craft](https://github.com/fogleman/Craft) - A simple Minecraft clone written in C using modern OpenGL (shaders).
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1548,6 +1551,7 @@ Audio and video processing
 * [chadjoan/C-Survival-Kit](https://github.com/chadjoan/C-Survival-Kit) - A set of useful functions, data structures, and macros aimed at allowing more expressive and reliable C code.  Portability targets are OpenVMS and Linux.
 * [clibs/clib](https://github.com/clibs/clib) - C package manager-ish
 * [erimatnor/libckit](https://github.com/erimatnor/libckit) - A kit of C-based utilities and data structures.
+* [floooh/sokol](https://github.com/floooh/sokol) - minimal cross-platform standalone C headers
 
 ## Special Purpose ##
 * [Tulip Indicators][394] - Library of functions for technical analysis of
@@ -1628,6 +1632,7 @@ Implementations of the C standarts
 * [clibs/buffer](https://github.com/clibs/buffer) - Tiny C string library
 * [cloudwu/cstring](https://github.com/cloudwu/cstring) - A simple C string lib
 * [chrisjmccormick/word2vec_commented](https://github.com/chrisjmccormick/word2vec_commented) - Commented (but unaltered) version of original word2vec C implementation.
+* [flori/amatch](https://github.com/flori/amatch) - Approximate String Matching library
 
 ## Structured File Processing ##
 Libraries for working wit hspecific filetypes
@@ -1683,6 +1688,7 @@ Libraries for working wit hspecific filetypes
 * [ali-rantakari/peg-markdown-highlight](https://github.com/ali-rantakari/peg-markdown-highlight) - C library for Markdown syntax highlighting, using a recursive-descent parser.
 * [commonmark/cmark](https://github.com/commonmark/cmark) - CommonMark parsing and rendering library and program in C
 * [commonsguy/cwac-anddown](https://github.com/commonsguy/cwac-anddown) - CWAC AndDown: Markdown Utility Library
+* [fletcher/MultiMarkdown-4](https://github.com/fletcher/MultiMarkdown-4) - C implementation of MultiMarkdown; almost complete rewrite of MMD 3 (which was aka "peg-multimarkdown").
 
 ### XML ###
 * [Expat][332] - Stream-oriented XML parser. [MIT][MIT]
@@ -1713,6 +1719,7 @@ Libraries for working wit hspecific filetypes
 * [WizardMac/ReadStat](https://github.com/WizardMac/ReadStat) - Command-line tool (+ C library) for converting SAS, Stata, and SPSS files
 * [arrbee/diff-match-patch-c](https://github.com/arrbee/diff-match-patch-c) - C language port of google-diff-match-patch library
 * [clarkgrubb/data-tools](https://github.com/clarkgrubb/data-tools) - File format conversion tools
+* [fileability/self-ml](https://github.com/fileability/self-ml) - A human data language
 
 --------------------------------------------------------------------------------
 
@@ -1830,22 +1837,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [elvismt/slope](https://github.com/elvismt/slope) - A library to create charts from raw data using cairo. Can be shown in GtkDrawingArea
 
 # Unsorted #
-* [fileability/self-ml](https://github.com/fileability/self-ml) - A human data language
-* [firmianay/CTF-All-In-One](https://github.com/firmianay/CTF-All-In-One) - 一本 CTF 书
-* [fiveruns/memcache-client](https://github.com/fiveruns/memcache-client) - Seattle.rb's memcache-client 1.5.0 with fixes
-* [fjz13/Cocos2d-x-ParticleEditor-for-Windows](https://github.com/fjz13/Cocos2d-x-ParticleEditor-for-Windows) - A FREE WINDOWS cocos2d particle editor Upgraded to Cocos2dx 2.12，and support saving texture into plist。  Welcome any suggestions,or join me.  Jack Fu(傅建钊） fjz13@live.cn QQ:2722937652  http://weibo.com/u/1847201447
-* [fletcher/MultiMarkdown-4](https://github.com/fletcher/MultiMarkdown-4) - C implementation of MultiMarkdown; almost complete rewrite of MMD 3 (which was aka "peg-multimarkdown").
-* [flightcrank/ratio-boost](https://github.com/flightcrank/ratio-boost) - This program spoofs or fakes the amount of data torrent clients report to private torrent trackers in order to maintain a good ratio of data uploads to downloads, which they require.
-* [floooh/chips](https://github.com/floooh/chips) - 8-bit chip and system emulators in standalone C headers
-* [floooh/sokol](https://github.com/floooh/sokol) - minimal cross-platform standalone C headers
-* [flori/amatch](https://github.com/flori/amatch) - Approximate String Matching library
-* [fluent/fluent-bit](https://github.com/fluent/fluent-bit) - Fast and Lightweight Log processor and forwarder for Linux, BSD and OSX
-* [fluent/nginx-fluentd-module](https://github.com/fluent/nginx-fluentd-module) - Nginx module for Fluentd data collector
-* [fmahnke/orxCraft](https://github.com/fmahnke/orxCraft) - Experimental data configuration editor for the Orx/Scroll game engine. C++
-* [fmela/libdict](https://github.com/fmela/libdict) - C library of key-value data structures with an object-oriented interface.
-* [fnordware/AdobeWebM](https://github.com/fnordware/AdobeWebM) - WebM plug-ins for Adobe programs
-* [fogleman/Craft](https://github.com/fogleman/Craft) - A simple Minecraft clone written in C using modern OpenGL (shaders).
-* [foldedtoad/PebblePointer](https://github.com/foldedtoad/PebblePointer) - Sending Pebble Watch accelerometer data to an Android app -- See wiki
 * [fomy/destor](https://github.com/fomy/destor) - An experimental platform for chunk-level data deduplication. Key words: DDFS, Sparse Index, Extreme Binning, SiLo, Sample Index, BLC; CBR, CFL, CAP, HAR; ASM, OPT; GC, Cumulus
 * [fontforge/fontforge](https://github.com/fontforge/fontforge) - Free (libre) font editor for Windows, Mac OS X and GNU+Linux
 * [fontforge/libuninameslist](https://github.com/fontforge/libuninameslist) - A library with a large (sparse) array mapping each unicode code point to the annotation data for it provided in http://www.unicode.org/Public/UNIDATA/NamesList.txt
