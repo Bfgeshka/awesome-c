@@ -556,6 +556,7 @@ Incorporated lists:
 * [felixangell/mac](https://github.com/felixangell/mac) - virtual machine in c
 * [fragglet/yoctolisp](https://github.com/fragglet/yoctolisp) - Tiny Scheme-like Lisp interpreter written in a weekend
 * [freddiev4/DailyProgrammerChallenges](https://github.com/freddiev4/DailyProgrammerChallenges) - External Repo of Challenges from r/dailyprogrammer
+* [guilleiguaran/xv6](https://github.com/guilleiguaran/xv6) - mirror of the source code of the Xv6 operating system
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -860,6 +861,7 @@ protocols.
 * [ctz/cifra](https://github.com/ctz/cifra) - A collection of cryptographic primitives targeted at embedded use.
 * [cyassl/cyassl](https://github.com/cyassl/cyassl) - Please use wolfSSL now instead: https://github.com/wolfSSL/wolfssl . CyaSSL is a small, fast, portable implementation of TLS/SSL for embedded devices to the cloud.
 * [eduardsui/tlse](https://github.com/eduardsui/tlse) - Single C file TLS 1.2/1.3 implementation, using tomcrypt as crypto library
+* [h2o/picotls](https://github.com/h2o/picotls) - TLS 1.3 implementation in C (master supports RFC8446 as well as draft-26, -27, -28)
 
 ## Databases ##
 * [BerkeleyDB][83] - Library for a high-performance embedded database for
@@ -975,6 +977,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [gnudennis/ds_c](https://github.com/gnudennis/ds_c) - Data Structure In C
 * [graphitemaster/libintrusive](https://github.com/graphitemaster/libintrusive) - Intrusive data structures for C
 * [grundprinzip/bitcompressedvector](https://github.com/grundprinzip/bitcompressedvector) - Provide a container for integral data types that applies light-weight bit compression
+* [hacatu/haclib](https://github.com/hacatu/haclib) - A utility library providing data types C should have been made with such as vectors and sequences, mostly as macros.
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1015,6 +1018,7 @@ Foreign function interfaces, also know as binding interfaces.
 * [elua/elua](https://github.com/elua/elua) - eLua Project on GitHub
 * [eudoxia0/magma](https://github.com/eudoxia0/magma) - Extending C with cmacro
 * [graphitemaster/lambdapp](https://github.com/graphitemaster/lambdapp) - Anonymous functions in C
+* [guillermocalvo/exceptions4c](https://github.com/guillermocalvo/exceptions4c) - :bomb: An exception handling framework for C
 
 ## Game Development ##
 Engines, libraries and other helpful things specifically for making games.
@@ -1376,6 +1380,8 @@ Audio and video processing
 * [libonion][237] - HTTP server library, designed to be easy to use. [``Apache-2.0``][Apache-2.0]
 * [nodejs/http-parser](https://github.com/nodejs/http-parser) - http request/response parser for c
 * [civetweb/civetweb](https://github.com/civetweb/civetweb) - Embedded C/C++ web server
+* [h2o/h2o](https://github.com/h2o/h2o) - H2O - the optimized HTTP/1, HTTP/2 server
+* [h2o/picohttpparser](https://github.com/h2o/picohttpparser) - tiny HTTP parser written in C (used in HTTP::Parser::XS et al.)
 
 ### Mail ###
 * [LibEtPan][233] - Mail library providing an efficient network for IMAP, SMTP,
@@ -1754,6 +1760,7 @@ Libraries for working wit hspecific filetypes
 * [arrbee/diff-match-patch-c](https://github.com/arrbee/diff-match-patch-c) - C language port of google-diff-match-patch library
 * [clarkgrubb/data-tools](https://github.com/clarkgrubb/data-tools) - File format conversion tools
 * [fileability/self-ml](https://github.com/fileability/self-ml) - A human data language
+* [hach-que/configd](https://github.com/hach-que/configd) - Generates configuration files in /etc based on YAML data and XSLT transformations.
 
 --------------------------------------------------------------------------------
 
@@ -1830,6 +1837,7 @@ Comprehensive and integrated solutions for building web application in C.
 * [danielwaterworth/Raphters](https://github.com/danielwaterworth/Raphters) - [DEPRECATED] A web framework for C.
 * [davidmoreno/onion](https://github.com/davidmoreno/onion) - C library to create simple HTTP servers and Web Applications.
 * [embedthis/appweb](https://github.com/embedthis/appweb) - Appweb Embedded Web Server
+* [haiwen/ccnet](https://github.com/haiwen/ccnet) - Ccnet is a framework for writing networked applications in C.
 
 ## Web Service APIs ##
 * [twitc][426] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
@@ -1872,32 +1880,9 @@ Comprehensive and integrated solutions for building web application in C.
 * [fomy/destor](https://github.com/fomy/destor) - An experimental platform for chunk-level data deduplication. Key words: DDFS, Sparse Index, Extreme Binning, SiLo, Sample Index, BLC; CBR, CFL, CAP, HAR; ASM, OPT; GC, Cumulus
 * [freefoote/gpscorrelate](https://github.com/freefoote/gpscorrelate) - Abandoned C program to match GPS tracks to photographs, and store the matches in the EXIF data in the photographs.
 * [graphitemaster/incbin](https://github.com/graphitemaster/incbin) - Include binary files in C/C++
+* [h2non/semver.c](https://github.com/h2non/semver.c) - semantic version parser and serializer written in ANSI C
 
 # Unsorted #
-* [guedes/ldap_fdw](https://github.com/guedes/ldap_fdw) - A LDAP Foreign Data Wrapper for PostgreSQL
-* [guilleiguaran/xv6](https://github.com/guilleiguaran/xv6) - mirror of the source code of the Xv6 operating system
-* [guillermocalvo/exceptions4c](https://github.com/guillermocalvo/exceptions4c) - :bomb: An exception handling framework for C
-* [guodong/dbd](https://github.com/guodong/dbd) - Distributed block device, used for cloud computing environment or big data storage base.
-* [guokr/gkseg](https://github.com/guokr/gkseg) - Yet another Chinese word segmentation package based on character-based tagging heuristics and CRF algorithm
-* [guomeizhou/data_structure](https://github.com/guomeizhou/data_structure) - 数据结构
-* [gurnec/HashCheck](https://github.com/gurnec/HashCheck) - HashCheck Shell Extension for Windows with added SHA2, SHA3, and multithreading; originally from code.kliu.org
-* [gwaldron/osgearth](https://github.com/gwaldron/osgearth) - A free open source C++ geospatial toolkit.
-* [gwik/ffmpeg-ruby](https://github.com/gwik/ffmpeg-ruby) - Ruby interface to the ffmpeg C library. It is able to extract images from videos but do not allow to encode full video.
-* [h2non/semver.c](https://github.com/h2non/semver.c) - semantic version parser and serializer written in ANSI C
-* [h2o/h2o](https://github.com/h2o/h2o) - H2O - the optimized HTTP/1, HTTP/2 server
-* [h2o/picohttpparser](https://github.com/h2o/picohttpparser) - tiny HTTP parser written in C (used in HTTP::Parser::XS et al.)
-* [h2o/picotls](https://github.com/h2o/picotls) - TLS 1.3 implementation in C (master supports RFC8446 as well as draft-26, -27, -28)
-* [h5md/VMD-h5mdplugin](https://github.com/h5md/VMD-h5mdplugin) - This plugin enables VMD to display data stored in h5 files that are structured according to the H5MD specifications (http://nongnu.org/h5md/)
-* [haad/proxychains](https://github.com/haad/proxychains) - proxychains - a tool that forces any TCP connection made by any given application to follow through proxy like TOR or any other SOCKS4, SOCKS5 or HTTP(S) proxy.  Supported auth-types: "user/pass" for SOCKS4/5, "basic" for HTTP.
-* [haakonnessjoen/MAC-Telnet](https://github.com/haakonnessjoen/MAC-Telnet) - Open source MAC Telnet client and server for connecting to Microtik RouterOS routers and Posix machines via MAC address.
-* [hacatu/haclib](https://github.com/hacatu/haclib) - A utility library providing data types C should have been made with such as vectors and sequences, mostly as macros.
-* [hach-que/configd](https://github.com/hach-que/configd) - Generates configuration files in /etc based on YAML data and XSLT transformations.
-* [hackedteam/core-linux](https://github.com/hackedteam/core-linux) - RCS Agent for Linux
-* [hackgnar/ble_ctf](https://github.com/hackgnar/ble_ctf) - A Bluetooth low energy capture the flag
-* [hackingtype1/cgm-pebble](https://github.com/hackingtype1/cgm-pebble) - pebble watch-face or app to display cgm data
-* [haf/System.Data.SQLite](https://github.com/haf/System.Data.SQLite) - A mirror to the official https://system.data.sqlite.org site which uses Fossil for their SCM, and configured to be buildable on mono.
-* [haiwen/ccnet](https://github.com/haiwen/ccnet) - Ccnet is a framework for writing networked applications in C.
-* [haiwen/seafile](https://github.com/haiwen/seafile) - Open source cloud storage with file encryption and group sharing, and emphasis on reliability and high performance.
 * [halayli/lthread](https://github.com/halayli/lthread) - lthread, a multicore enabled coroutine library written in C
 * [haldean/x6502](https://github.com/haldean/x6502) - Yet another 6502 emulator that one day dreams of being an Atari 2600.
 * [halfninja/android-ffmpeg-x264](https://github.com/halfninja/android-ffmpeg-x264) - INACTIVE, UNSUPPORTED - Android Videokit - basic FFMPEG+X264 build for Android. Pull requests gratefully accepted.
