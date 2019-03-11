@@ -574,6 +574,8 @@ Incorporated lists:
 * [jbangert/trapcc](https://github.com/jbangert/trapcc) - Computing with traps
 * [jeff-1amstudios/restful-doom](https://github.com/jeff-1amstudios/restful-doom) - HTTP+JSON API hosted inside the 1993 DOOM engine!
 * [jelathro/C](https://github.com/jelathro/C) - C Programming Projects
+* [jnz/q3vm](https://github.com/jnz/q3vm) - Q3VM - Embeddable bytecode virtual machine/interpreter for C-language input
+* [jordansissel/xdotool](https://github.com/jordansissel/xdotool) - fake keyboard/mouse input, window management, and more
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -637,6 +639,8 @@ Neural nets, machine learning, and other similar things.
 * [davidreynolds/algorithms](https://github.com/davidreynolds/algorithms) - A repository of assorted algorithms and data structures.
 * [dhuertas/AES](https://github.com/dhuertas/AES) - AES algorithm implementation in C
 * [duckythescientist/obfuscatedLife](https://github.com/duckythescientist/obfuscatedLife) - Conway's Game of Life in 9 lines of C
+* [jmcejuela/Levenshtein-MySQL-UDF](https://github.com/jmcejuela/Levenshtein-MySQL-UDF) - General Levenshtein algorithm and k-bounded levenshtein distance in linear time and constant space. Implementation in C as a MySQL UDF
+* [jobovy/extreme-deconvolution](https://github.com/jobovy/extreme-deconvolution) - Density estimation using Gaussian mixtures in the presence of noisy, heterogeneous and incomplete data
 
 ## Argument Parsing ##
 * [parg][410] - A single-file reimplementation of ``getopt`` with better
@@ -837,6 +841,7 @@ Neural nets, machine learning, and other similar things.
 * [geertj/cgreenlet](https://github.com/geertj/cgreenlet) - Coroutines for C/C++
 * [halayli/lthread](https://github.com/halayli/lthread) - lthread, a multicore enabled coroutine library written in C
 * [hnes/libaco](https://github.com/hnes/libaco) - A blazing fast and lightweight C asymmetric coroutine library  💎 ⛅🚀⛅🌞
+* [jtsiomb/c11threads](https://github.com/jtsiomb/c11threads) - Trivial C11 threads.h implementation over POSIX threads.
 
 ## Crypto ##
 Mostly library implementations of well-known cryptographic algorithms or
@@ -1008,6 +1013,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [igorsobreira/iclib](https://github.com/igorsobreira/iclib) - Library with useful C data structures
 * [jaimz/core_ds](https://github.com/jaimz/core_ds) - Simple C data structure library
 * [jarun/dslib](https://github.com/jarun/dslib) - A library of handy data structures
+* [johnj/llds](https://github.com/johnj/llds) - Low-Level Data Structure - efficient data structures, and fast data access in the 2.6/3.0 kernel
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1026,6 +1032,7 @@ Foreign function interfaces, also know as binding interfaces.
 * [dyncall][406] - Another foreign function interface library. [``MIT``][MIT]
 * [atgreen/libffi](https://github.com/atgreen/libffi) - A portable foreign-function interface library.
 * [dyu/ffi-overhead](https://github.com/dyu/ffi-overhead) - comparing the c ffi (foreign function interface) overhead on various programming languages
+* [jmckaskill/luaffi](https://github.com/jmckaskill/luaffi) - Standalone FFI library for calling C functions from lua. Compatible with the luajit FFI interface.
 
 ## Flow Control and Language Extension ##
 * [libCello][429] - Library introducing higher-level programming to C. [``BSD-3-Clause``][BSD-3-Clause]
@@ -1211,6 +1218,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [edorfaus/TEMPered](https://github.com/edorfaus/TEMPered) - C library and program for reading the TEMPer family of thermometer and hygrometer devices.
 * [google/cpu_features](https://github.com/google/cpu_features) - A cross platform C99 library to get cpu features at runtime.
 * [jackmitch/libsoc](https://github.com/jackmitch/libsoc) - libsoc: C library for interfacing with common SoC peripherals through generic kernel interfaces
+* [joan2937/pigpio](https://github.com/joan2937/pigpio) - pigpio is a C library for the Raspberry which allows control of the General Purpose Input Outputs (GPIO).
 
 ## Hashing ##
 Hash function implementations for *non*-crypto purposes. Cryptographic hashes
@@ -1815,6 +1823,7 @@ Libraries for working wit hspecific filetypes
 * [hach-que/configd](https://github.com/hach-que/configd) - Generates configuration files in /etc based on YAML data and XSLT transformations.
 * [hyperrealm/libconfig](https://github.com/hyperrealm/libconfig) - C/C++ library for processing configuration files
 * [jedwing/CHMLib](https://github.com/jedwing/CHMLib) - Library for reading Microsoft ITSS/CHM format files.
+* [jmcnamara/libxlsxwriter](https://github.com/jmcnamara/libxlsxwriter) - A C library for creating Excel XLSX files.
 
 --------------------------------------------------------------------------------
 
@@ -1850,6 +1859,7 @@ Libraries for working wit hspecific filetypes
 * [bvdberg/ctest](https://github.com/bvdberg/ctest) - ctest is a unit test framework for software written in C.
 * [clear-code/cutter](https://github.com/clear-code/cutter) - An easy to write and debug unit testing framework for C and C++.
 * [compiler-dept/speck](https://github.com/compiler-dept/speck) - A small unit testing framework for C
+* [joewalnes/tinytest](https://github.com/joewalnes/tinytest) - A tiny unit-testing framework for C
 
 ## TUI ##
 Textual User Interface
@@ -1946,28 +1956,8 @@ Comprehensive and integrated solutions for building web application in C.
 * [jkff/scrunch](https://github.com/jkff/scrunch) - Stream cruncher - data stream algorithms
 
 # Unsorted #
-* [jkramer/shell-fm](https://github.com/jkramer/shell-fm) - Lightweight console-based radio player for Last.FM radio streams.
-* [jlamarche/iOS-OpenGLES-Stuff](https://github.com/jlamarche/iOS-OpenGLES-Stuff) - Various scripts, utils, and code examples for OpenGL ES programming for iOS
-* [jlapeyre/PDL-IO-Matlab](https://github.com/jlapeyre/PDL-IO-Matlab) - Reading and writing matlab format data files for the perl data language.
-* [jlblancoc/suitesparse-metis-for-windows](https://github.com/jlblancoc/suitesparse-metis-for-windows) - CMake scripts for painless usage of SuiteSparse+METIS from Visual Studio and the rest of Windows/Linux/OSX IDEs supported by CMake
-* [jllodra/ncdump-json](https://github.com/jllodra/ncdump-json) - Modified ncdump to output data in json format
-* [jmasters/gbt-pipeline](https://github.com/jmasters/gbt-pipeline) - The Green Bank Telescope data analysis pipeline
-* [jmcejuela/Levenshtein-MySQL-UDF](https://github.com/jmcejuela/Levenshtein-MySQL-UDF) - General Levenshtein algorithm and k-bounded levenshtein distance in linear time and constant space. Implementation in C as a MySQL UDF
-* [jmckaskill/luaffi](https://github.com/jmckaskill/luaffi) - Standalone FFI library for calling C functions from lua. Compatible with the luajit FFI interface.
-* [jmcnamara/libxlsxwriter](https://github.com/jmcnamara/libxlsxwriter) - A C library for creating Excel XLSX files.
-* [jnz/q3vm](https://github.com/jnz/q3vm) - Q3VM - Embeddable bytecode virtual machine/interpreter for C-language input
-* [joan2937/pigpio](https://github.com/joan2937/pigpio) - pigpio is a C library for the Raspberry which allows control of the General Purpose Input Outputs (GPIO).
-* [jobovy/extreme-deconvolution](https://github.com/jobovy/extreme-deconvolution) - Density estimation using Gaussian mixtures in the presence of noisy, heterogeneous and incomplete data
-* [joewalnes/tinytest](https://github.com/joewalnes/tinytest) - A tiny unit-testing framework for C
-* [johnj/llds](https://github.com/johnj/llds) - Low-Level Data Structure - efficient data structures, and fast data access in the 2.6/3.0 kernel
-* [johnkerl/miller](https://github.com/johnkerl/miller) - Miller is like sed, awk, cut, join, and sort for name-indexed data such as CSV
-* [jonas/tig](https://github.com/jonas/tig) - Text-mode interface for git
-* [jonashaag/bjoern](https://github.com/jonashaag/bjoern) - A screamingly fast Python 2/3 WSGI server written in C.
 * [jonls/redshift](https://github.com/jonls/redshift) - Redshift adjusts the color temperature of your screen according to your surroundings. This may help your eyes hurt less if you are working in front of the screen at night.
-* [jonmarimba/OpenCV-iOS](https://github.com/jonmarimba/OpenCV-iOS) - OpenCV Xcode project for iOS build
 * [jonpe960/ufsm](https://github.com/jonpe960/ufsm) - UML Statechart library in C and XMI importer
-* [jonstewart/foremost](https://github.com/jonstewart/foremost) - Foremost is a console program to recover files based on their headers, footers, and internal data structures. c.f., http://foremost.sourceforge.net/
-* [jordansissel/xdotool](https://github.com/jordansissel/xdotool) - fake keyboard/mouse input, window management, and more
 * [jorisvink/kore](https://github.com/jorisvink/kore) - An easy to use, scalable and secure web application framework for writing web APIs in C. || This is a read-only mirror, please see https://kore.io/mail and https://kore.io/source for information on how to contribute via the mailing lists.
 * [josephg/librope](https://github.com/josephg/librope) - UTF-8 rope library for C
 * [joshdk/libmap](https://github.com/joshdk/libmap) - A map (data structure) library written in c
@@ -1996,7 +1986,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [jstjohn/SimSeq](https://github.com/jstjohn/SimSeq) - An illumina paired-end and mate-pair short read simulator. This project attempts to model as many of the quirks that exist in Illumina data as possible. Some of these quirks include the potential for chimeric reads, and non-biotinylated fragment pull down in mate-pair libraries . Additionally the program provides the ability to model both site and base specific error, and scripts are provided to train this error model on real datasets. My hope in creating this program is to generate as realistic data as possible to assist in assessing the accuracy of genome assembly tools.
 * [jsvennevid/filearchive](https://github.com/jsvennevid/filearchive) - File archive library allowing for easy creation and access to data stored inside a container through a simple API.
 * [jtauber/cleese](https://github.com/jtauber/cleese) - an operating system in Python
-* [jtsiomb/c11threads](https://github.com/jtsiomb/c11threads) - Trivial C11 threads.h implementation over POSIX threads.
 * [jtsiomb/kdtree](https://github.com/jtsiomb/kdtree) - A simple C library for working with KD-Trees
 * [juanmirocks/Levenshtein-MySQL-UDF](https://github.com/juanmirocks/Levenshtein-MySQL-UDF) - General Levenshtein algorithm and k-bounded levenshtein distance in linear time and constant space. Implementation in C as a MySQL UDF
 * [juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders) - C, C++ headers and C# classes for icon fonts: Font Awesome, Fork Awesome, Material Design, Material Design icons, Kenney game icons and Ionicons
