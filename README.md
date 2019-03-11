@@ -544,6 +544,7 @@ Incorporated lists:
 * [darius/ichbins](https://github.com/darius/ichbins) - A tiny self-hosting Lisp-to-C compiler
 * [deadbits/InsecureProgramming](https://github.com/deadbits/InsecureProgramming) - mirror of gera's insecure programming examples | http://community.coresecurity.com/~gera/InsecureProgramming/
 * [dimkr/szl](https://github.com/dimkr/szl) - A lightweight, embeddable scripting language
+* [dogriffiths/HeadFirstC](https://github.com/dogriffiths/HeadFirstC) - Source code for the book Head First C, by O'Reilly Media
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -938,6 +939,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [davidar/c-hashtable](https://github.com/davidar/c-hashtable) - Git mirror of the hash table data structure in C by Christopher Clark
 * [dhbikoff/Generic-C-Library](https://github.com/dhbikoff/Generic-C-Library) - A library of generic data structures in C
 * [dgvncsz0f/lift](https://github.com/dgvncsz0f/lift) - Implementation of some data structures in C
+* [dminor/skip-quadtree](https://github.com/dminor/skip-quadtree) - Implementation of the skip quadtree and compressed quadtree data structures.
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1713,6 +1715,7 @@ Textual User Interface
 * [ncurses][373] - Coloured terminal UI library. [``MIT``][MIT]
 * [termbox][374] - Library for writing text-based interfaces. [``MIT``][MIT]
 * [bartobri/bmenu](https://github.com/bartobri/bmenu) - A generic terminal menu written in C.
+* [doches/progressbar](https://github.com/doches/progressbar) - An easy-to-use C library for displaying text progress bars.
 
 ## Web Frameworks ##
 Comprehensive and integrated solutions for building web application in C.
@@ -1774,31 +1777,13 @@ Comprehensive and integrated solutions for building web application in C.
 * [cloudyourcar/minmea](https://github.com/cloudyourcar/minmea) - a lightweight GPS NMEA 0183 parser library in pure C
 * [couchbase/libcouchbase](https://github.com/couchbase/libcouchbase) - The couchbase client for C.
 * [cxong/tinydir](https://github.com/cxong/tinydir) - Lightweight, portable and easy to integrate C directory and file reader
+* [dmw/caffeine](https://github.com/dmw/caffeine) - C Application Framework
+* [douban/greenify](https://github.com/douban/greenify) - Make blocking C library work with gevent
 
 # Unsorted #
-* [dizballanze/hashtable](https://github.com/dizballanze/hashtable) - Async hash table server in C
-* [djcb/mu](https://github.com/djcb/mu) - maildir indexer/searcher + emacs mail client + guile bindings
-* [djhworld/gomeboycolor](https://github.com/djhworld/gomeboycolor) - Gameboy Color emulator
-* [dlundquist/sniproxy](https://github.com/dlundquist/sniproxy) - Proxies incoming HTTP and TLS connections based on the hostname contained in the initial request of the TCP session.
-* [dmage/co2mon](https://github.com/dmage/co2mon) - CLI for MasterKit CO2 Monitor
-* [dminor/skip-quadtree](https://github.com/dminor/skip-quadtree) - Implementation of the skip quadtree and compressed quadtree data structures.
-* [dmw/caffeine](https://github.com/dmw/caffeine) - C Application Framework
-* [doches/progressbar](https://github.com/doches/progressbar) - An easy-to-use C library for displaying text progress bars.
-* [docileninja/ctf_import](https://github.com/docileninja/ctf_import) - Run basic functions from stripped binaries cross platform
-* [docopt/docopt.c](https://github.com/docopt/docopt.c) - C-code generator for docopt language.
-* [dogriffiths/HeadFirstC](https://github.com/dogriffiths/HeadFirstC) - Source code for the book Head First C, by O'Reilly Media
-* [dokan-dev/dokany](https://github.com/dokan-dev/dokany) - User mode file system library for windows with FUSE Wrapper
-* [dolaameng/pysax](https://github.com/dolaameng/pysax) - python implementation of SAX (Symbolic Aggregate Approximation) for time series data
-* [domoran/DriveDOORS](https://github.com/domoran/DriveDOORS) - An efficient data Interface to IBM Rational DOORS
-* [dorimanx/exfat-nofuse](https://github.com/dorimanx/exfat-nofuse) - Android ARM Linux non-fuse read/write kernel driver for exFat and VFat Android file systems
-* [dosgo/ngrok-c](https://github.com/dosgo/ngrok-c) - ngrok client for c language,Due to the use of GO ngrok language development, porting to embedded devices some inconvenience, such as openwrt, so use C language rewrite a client. Very mini, the need to support polarssl library.
 * [douban/beansdb](https://github.com/douban/beansdb) - Yet anonther distributed key-value storage system from Douban Inc.
-* [douban/greenify](https://github.com/douban/greenify) - Make blocking C library work with gevent
 * [dougbradbury/cslim](https://github.com/dougbradbury/cslim) - Fitnesse Slim implementation in C
 * [douglascrockford/DEC64](https://github.com/douglascrockford/DEC64) - Decimal floating point
-* [douglascrockford/JSMin](https://github.com/douglascrockford/JSMin) - JavaScript Minification Filter
-* [douzzer/megaqueue](https://github.com/douzzer/megaqueue) - lightweight high performance streaming data kernel
-* [dovecot/core](https://github.com/dovecot/core) - Dovecot mail server
 * [dpage/redis_fdw](https://github.com/dpage/redis_fdw) - A PostgreSQL foreign data wrapper for Redis
 * [dpfau/quagga](https://github.com/dpfau/quagga) - Library for automated ROI extraction from calcium imaging data
 * [dpryan79/MethIndelRealigner](https://github.com/dpryan79/MethIndelRealigner) - A local realigner around InDels for MethylSeq data
