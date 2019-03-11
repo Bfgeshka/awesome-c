@@ -158,6 +158,7 @@ Incorporated lists:
   project. [``MPL-2.0``][MPL-2.0]
 * [tup](http://gittup.org/tup/index.html) - Very fast, file-based, cross-platform build system. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 * [gittup/tup](https://github.com/gittup/tup) - Tup is a file-based build system.
+* [jamplus/jamplus](https://github.com/jamplus/jamplus) - Jamplus is a generic code and data build system derived from the original Perforce version of Jam
 
 [2-1]: http://nethack4.org/projects/aimake/
 [2-2]: https://www.gnu.org/software/autoconf/autoconf.html
@@ -370,6 +371,7 @@ Incorporated lists:
 * [buserror/simavr](https://github.com/buserror/simavr) - simavr is a lean, mean and hackable AVR simulator for linux & OSX
 * [ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher) - A code-searching tool similar to ack, but faster.
 * [jacob-carlborg/dstep](https://github.com/jacob-carlborg/dstep) - A tool for converting C and Objective-C headers to D modules
+* [jbremer/darm](https://github.com/jbremer/darm) - A light-weight and efficient disassembler written in C for the ARMv7 instruction set.
 
 [10-1]: https://ccache.samba.org/
 [10-2]: https://github.com/distcc/distcc
@@ -565,6 +567,11 @@ Incorporated lists:
 * [intellectualheaven/ceed](https://github.com/intellectualheaven/ceed) - A tiny x86 compiler with ELF and PE target
 * [irssi/irssi](https://github.com/irssi/irssi) - The client of the future
 * [island-org/island](https://github.com/island-org/island) - Lightweight and low-level creative coding toolkits in C.
+* [jakogut/tinyflock](https://github.com/jakogut/tinyflock) - A simple, high-performance, threaded, and interactive flocking demo written in C with GLFW.
+* [jakogut/tinyvm](https://github.com/jakogut/tinyvm) - TinyVM is a small, fast, lightweight virtual machine written in pure ANSI C.
+* [janet-lang/janet](https://github.com/janet-lang/janet) - A dynamic language and bytecode vm
+* [jbangert/trapcc](https://github.com/jbangert/trapcc) - Computing with traps
+* [jeff-1amstudios/restful-doom](https://github.com/jeff-1amstudios/restful-doom) - HTTP+JSON API hosted inside the 1993 DOOM engine!
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -875,6 +882,7 @@ protocols.
 * [cyassl/cyassl](https://github.com/cyassl/cyassl) - Please use wolfSSL now instead: https://github.com/wolfSSL/wolfssl . CyaSSL is a small, fast, portable implementation of TLS/SSL for embedded devices to the cloud.
 * [eduardsui/tlse](https://github.com/eduardsui/tlse) - Single C file TLS 1.2/1.3 implementation, using tomcrypt as crypto library
 * [h2o/picotls](https://github.com/h2o/picotls) - TLS 1.3 implementation in C (master supports RFC8446 as well as draft-26, -27, -28)
+* [jedisct1/libhydrogen](https://github.com/jedisct1/libhydrogen) - A lightweight, secure, easy-to-use crypto library suitable for constrained environments.
 
 ## Databases ##
 * [BerkeleyDB][83] - Library for a high-performance embedded database for
@@ -997,6 +1005,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [hyPiRion/roulette-tree](https://github.com/hyPiRion/roulette-tree) - Data structure for efficient fitness-proportionate selection.
 * [igorsobreira/iclib](https://github.com/igorsobreira/iclib) - Library with useful C data structures
 * [jaimz/core_ds](https://github.com/jaimz/core_ds) - Simple C data structure library
+* [jarun/dslib](https://github.com/jarun/dslib) - A library of handy data structures
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1257,6 +1266,7 @@ can be found in the Crypto section.
 * [dbohdan/s2png](https://github.com/dbohdan/s2png) - Store data of any kind inside PNG images.
 * [derekmolloy/boneCV](https://github.com/derekmolloy/boneCV) - Beaglebone Webcam and OpenCV Examples Repository
 * [ginsweater/gif-h](https://github.com/ginsweater/gif-h) - Simple C++ one-header library for the creation of animated GIFs from image data.
+* [jcupitt/libvips](https://github.com/jcupitt/libvips) - A fast image processing library with low memory needs.
 
 ## Integrated Debugging ##
 * [whereami][390] - One-file library for locating the current executable on the
@@ -1501,6 +1511,7 @@ Audio and video processing
 * [iem-projects/pd-iemrtp](https://github.com/iem-projects/pd-iemrtp) - RTP support for Pure Data
 * [igraph/igraph](https://github.com/igraph/igraph) - Library for the analysis of networks
 * [irungentoo/toxcore](https://github.com/irungentoo/toxcore) - The future of online communications.
+* [japeq/bencode-tools](https://github.com/japeq/bencode-tools) - bencode-tools is a collection of tools for manipulating bencoded data.
 
 ### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
@@ -1705,6 +1716,7 @@ Implementations of the C standarts
 * [chrisjmccormick/word2vec_commented](https://github.com/chrisjmccormick/word2vec_commented) - Commented (but unaltered) version of original word2vec C implementation.
 * [flori/amatch](https://github.com/flori/amatch) - Approximate String Matching library
 * [fontforge/libuninameslist](https://github.com/fontforge/libuninameslist) - A library with a large (sparse) array mapping each unicode code point to the annotation data for it provided in http://www.unicode.org/Public/UNIDATA/NamesList.txt
+* [jasonmaclafferty/String](https://github.com/jasonmaclafferty/String) - A dynamic string data type implementation for C.
 
 ## Structured File Processing ##
 Libraries for working wit hspecific filetypes
@@ -1795,6 +1807,7 @@ Libraries for working wit hspecific filetypes
 * [fileability/self-ml](https://github.com/fileability/self-ml) - A human data language
 * [hach-que/configd](https://github.com/hach-que/configd) - Generates configuration files in /etc based on YAML data and XSLT transformations.
 * [hyperrealm/libconfig](https://github.com/hyperrealm/libconfig) - C/C++ library for processing configuration files
+* [jedwing/CHMLib](https://github.com/jedwing/CHMLib) - Library for reading Microsoft ITSS/CHM format files.
 
 --------------------------------------------------------------------------------
 
@@ -1925,49 +1938,8 @@ Comprehensive and integrated solutions for building web application in C.
 * [htacg/tidy-html5](https://github.com/htacg/tidy-html5) - The granddaddy of HTML tools, with support for modern standards
 
 # Unsorted #
-* [jakogut/tinyflock](https://github.com/jakogut/tinyflock) - A simple, high-performance, threaded, and interactive flocking demo written in C with GLFW.
-* [jakogut/tinyvm](https://github.com/jakogut/tinyvm) - TinyVM is a small, fast, lightweight virtual machine written in pure ANSI C.
-* [jalvesaq/VimCom](https://github.com/jalvesaq/VimCom) - *Deprecated* package used to intermediate the communication between Vim and R
-* [jalvesaq/colorout](https://github.com/jalvesaq/colorout) - Colorize R output on terminal emulators
-* [jamezilla/ats](https://github.com/jamezilla/ats) - ATS is a spectral modeling system based on a sinusoidal plus critical-band noise decomposition. Psychoacoustic processing informs the system's sinusoidal tracking and noise modeling algorithms. Perceptual Audio Coding (PAC) techniques such as Signal-to-Mask Ratio (SMR) evaluation are used to achieve perceptually accurate sinusoidal tracking. SMR values are also used as a psychoacoustic metric to determine the perceptual relevance of partials during analysis data postprocessing. The system's noise component is modeled using Bark-scale frequency warping and sub-band noise energy evaluation. Noise energy at the sub-bands is then distributed on a frame-by-frame basis among the partials resulting in a compact hybrid representation based on noise modulated sinusoidal trajectories.
-* [jamplus/jamplus](https://github.com/jamplus/jamplus) - Jamplus is a generic code and data build system derived from the original Perforce version of Jam
-* [janet-lang/janet](https://github.com/janet-lang/janet) - A dynamic language and bytecode vm
-* [jangaraj/Zabbix-Docker-Monitoring](https://github.com/jangaraj/Zabbix-Docker-Monitoring) - :whale: Monitoring of Docker containers (LXC/systemd Docker supported) - Zabbix template and Zabbix C module
-* [japeq/bencode-tools](https://github.com/japeq/bencode-tools) - bencode-tools is a collection of tools for manipulating bencoded data.
-* [jaredly/codetalker](https://github.com/jaredly/codetalker) - A succinct, pythonic parser + translator solution
-* [jarun/dslib](https://github.com/jarun/dslib) - A library of handy data structures
-* [jaseg/matelight](https://github.com/jaseg/matelight) - Show text and gifs on mate crates. Uses C code orchestrated from Python via ctypes.
-* [jashmenn/apriori](https://github.com/jashmenn/apriori) - A ruby/c extension to Christian Borgelt's apriori item-set implementation
-* [jasonmaclafferty/String](https://github.com/jasonmaclafferty/String) - A dynamic string data type implementation for C.
-* [jasonmc/forked-daapd](https://github.com/jasonmc/forked-daapd) - A re-write of the firefly media server (mt-daapd). It's released under GPLv2+. Please note that this git repository is a mirror of the official one at git://git.debian.org/~jblache/forked-daapd.git
-* [jb55/hearthstone-cardxml](https://github.com/jb55/hearthstone-cardxml) - Hearthstone xml card data extractor
-* [jbaiter/jpegtran-cffi](https://github.com/jbaiter/jpegtran-cffi) - Fast, (mostly) lossless JPEG transformations with Python
-* [jbangert/trapcc](https://github.com/jbangert/trapcc) - Computing with traps
-* [jbenjore/Clone-Data](https://github.com/jbenjore/Clone-Data) - Simple and fast data cloning
-* [jbenjore/Internals-GraphArenas](https://github.com/jbenjore/Internals-GraphArenas) - Chart a map of where perl locates data
-* [jberthold/packman](https://github.com/jberthold/packman) - Evaluation-orthogonal serialisation of Haskell data, as a library
-* [jbremer/darm](https://github.com/jbremer/darm) - A light-weight and efficient disassembler written in C for the ARMv7 instruction set.
-* [jbruchon/jdupes](https://github.com/jbruchon/jdupes) - A powerful duplicate file finder and an enhanced fork of 'fdupes'.
-* [jbuchbinder/statsd-c](https://github.com/jbuchbinder/statsd-c) - C port of Etsy's statsd
-* [jbush001/NyuziProcessor](https://github.com/jbush001/NyuziProcessor) - GPGPU processor core, implemented in SystemVerilog.
-* [jcline/fuse-google-drive](https://github.com/jcline/fuse-google-drive) - A fuse filesystem wrapper for Google Drive.
-* [jcloudpub/speedy](https://github.com/jcloudpub/speedy) - a distributed docker image storage
-* [jcupitt/libvips](https://github.com/jcupitt/libvips) - A fast image processing library with low memory needs.
-* [jdduke/three_cpp](https://github.com/jdduke/three_cpp) - A port of three.js to C++
-* [jdp/ephemeron](https://github.com/jdp/ephemeron) - where transient data makes itself useful
-* [jduck/asus-cmd](https://github.com/jduck/asus-cmd) - ASUS Router infosvr UDP Broadcast root Command Execution
-* [jduck/canhazaxs](https://github.com/jduck/canhazaxs) - A tool for enumerating the access to entries in the file system of an Android device.
-* [jduck/challack](https://github.com/jduck/challack) - Proof-of-concept exploit code for CVE-2016-5696
-* [jech/polipo](https://github.com/jech/polipo) - The Polipo caching HTTP proxy
-* [jedisct1/Pincaster](https://github.com/jedisct1/Pincaster) - A fast persistent nosql database with a HTTP/JSON interface, not only for geographical data.
-* [jedisct1/dnscrypt-proxy](https://github.com/jedisct1/dnscrypt-proxy) - A tool for securing communications between a client and a DNS resolver
-* [jedisct1/libhydrogen](https://github.com/jedisct1/libhydrogen) - A lightweight, secure, easy-to-use crypto library suitable for constrained environments.
-* [jedwing/CHMLib](https://github.com/jedwing/CHMLib) - Library for reading Microsoft ITSS/CHM format files.
-* [jeff-1amstudios/restful-doom](https://github.com/jeff-1amstudios/restful-doom) - HTTP+JSON API hosted inside the 1993 DOOM engine!
 * [jelathro/C](https://github.com/jelathro/C) - C Programming Projects
 * [jenswilly/AVR-enc28j60-pachube](https://github.com/jenswilly/AVR-enc28j60-pachube) - AVR Libc-based project for ATmega328/-168 sending data to Pachube using an ENC28J60 with the Tuxgraphics TCP library.
-* [jeremy-w/objc-zmq](https://github.com/jeremy-w/objc-zmq) - Objective-C binding for ZeroMQ.
-* [jeroenooms/curl](https://github.com/jeroenooms/curl) - A Modern and Flexible Web Client for R
 * [jeromekelleher/msprime](https://github.com/jeromekelleher/msprime) - A reimplementation of Hudson's classical ms simulator for modern data sets.
 * [jgamblin/Mirai-Source-Code](https://github.com/jgamblin/Mirai-Source-Code) - Leaked Mirai Source Code for Research/IoC Development Purposes
 * [jgarzik/cpuminer](https://github.com/jgarzik/cpuminer) - CPU miner for bitcoin
