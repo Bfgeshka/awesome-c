@@ -601,6 +601,8 @@ Incorporated lists:
 * [n64dev/cen64](https://github.com/n64dev/cen64) - Cycle-Accurate Nintendo 64 Emulator
 * [ndreynolds/flathead](https://github.com/ndreynolds/flathead) - A toy JavaScript interpreter written in C
 * [nesbox/tic.computer](https://github.com/nesbox/tic.computer) - 🐛 Public TIC-80 issues tracker
+* [nickbjohnson4224/rhombus](https://github.com/nickbjohnson4224/rhombus) - a hobby operating system written in C
+* [nickdesaulniers/bf_interpreter_jit_compiler](https://github.com/nickdesaulniers/bf_interpreter_jit_compiler) - Teach myself about interpreters, JITs, and compilers using the Brainfuck language as the toy language
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -1229,6 +1231,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [martincohen/Punity](https://github.com/martincohen/Punity) - A tiny game engine in C.
 * [mupen64plus/mupen64plus-core](https://github.com/mupen64plus/mupen64plus-core) - Core module of the Mupen64Plus project
 * [naev/naev](https://github.com/naev/naev) - Naev is a 2d action/rpg space game that combines elements from the action, rpg and simulation genres.
+* [nikki93/cgame](https://github.com/nikki93/cgame) - some ideas involving games and C
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1320,6 +1323,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [libopencm3/libopencm3](https://github.com/libopencm3/libopencm3) - Open Source ARM cortex m microcontroller library
 * [libusb/libusb](https://github.com/libusb/libusb) - A cross-platform library to access USB devices
 * [micronucleus/micronucleus](https://github.com/micronucleus/micronucleus) - ATTiny usb bootloader with a strong emphasis on bootloader compactness.
+* [nfc-tools/libnfc](https://github.com/nfc-tools/libnfc) - Platform independent Near Field Communication (NFC) library
 
 ## Hashing ##
 Hash function implementations for *non*-crypto purposes. Cryptographic hashes
@@ -1647,6 +1651,7 @@ Audio and video processing
 * [nanomsg/nanomsg](https://github.com/nanomsg/nanomsg) - nanomsg library
 * [neilalexander/sigmavpn](https://github.com/neilalexander/sigmavpn) - Light-weight, secure and modular VPN solution which makes use of NaCl encryption (also available for Android using jnacl in "sigmavpn-android")
 * [neutrinolabs/xrdp](https://github.com/neutrinolabs/xrdp) - xrdp: an open source RDP server
+* [nicolasff/river](https://github.com/nicolasff/river) - A simple “comet” server in C, streaming data to web clients
 
 ### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
@@ -1781,6 +1786,8 @@ Audio and video processing
 * [mattiasgustavsson/libs](https://github.com/mattiasgustavsson/libs) - Single-file public domain libraries for C/C++
 * [matteobertozzi/carthage](https://github.com/matteobertozzi/carthage) - Pure C Data Structure and Utils
 * [napsy/libhelper](https://github.com/napsy/libhelper) - General functions and data structures for C
+* [niklasfrykholm/nflibs](https://github.com/niklasfrykholm/nflibs) - A collection of interoperable minimalistic C libraries
+* [nothings/stb](https://github.com/nothings/stb) - stb single-file public domain libraries for C/C++
 
 ## Special Purpose ##
 * [Tulip Indicators][394] - Library of functions for technical analysis of
@@ -1886,6 +1893,7 @@ Libraries for working wit hspecific filetypes
 * [anjos/arithmetic_coding](https://github.com/anjos/arithmetic_coding) - Library to perform arithmetic coding and decoding of text or binary data
 * [beave/barnyard2-extra](https://github.com/beave/barnyard2-extra) - Barnyard2 with "Extra Data" support and other enhancements.
 * [fuzxxl/memf](https://github.com/fuzxxl/memf) - Portable scanf/printf-like functions to marshal binary data
+* [nicklockwood/FastCoding](https://github.com/nicklockwood/FastCoding) - A faster and more flexible binary file format replacement for NSCoding, Property Lists and JSON
 
 ### CSV ###
 * [libcsv][322] - Simple, streaming CSV parser. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
@@ -2136,27 +2144,8 @@ Comprehensive and integrated solutions for building web application in C.
 * [mongrel2/mongrel2](https://github.com/mongrel2/mongrel2) - The Mongrel2 Web Server Project
 
 # Unsorted #
-* [newaetech/chipwhisperer](https://github.com/newaetech/chipwhisperer) - ChipWhisperer - the complete open-source toolchain for side-channel power analysis and glitching attacks
-* [nfc-tools/libnfc](https://github.com/nfc-tools/libnfc) - Platform independent Near Field Communication (NFC) library
-* [nfs-ganesha/nfs-ganesha](https://github.com/nfs-ganesha/nfs-ganesha) - NFS-Ganesha is an NFSv3,v4,v4.1 fileserver that runs in user mode on most UNIX/Linux systems
-* [nginx/nginx-releases](https://github.com/nginx/nginx-releases) - * NOTE: This repository has been retired *. Complete (unofficial) history of nginx releases.  Please note that this repository is unofficial and pull requests have no chance of being merged. The proper way to submit changes to nginx is via the nginx development mailing list, see http://nginx.org/en/docs/contributing_changes.html.
-* [ngircd/ngircd](https://github.com/ngircd/ngircd) - Free, portable and lightweight Internet Relay Chat server
-* [ngtcp2/ngtcp2](https://github.com/ngtcp2/ngtcp2) - ngtcp2 project is an effort to implement IETF QUIC protocol
-* [ngwese/AF_MacTypeUtil](https://github.com/ngwese/AF_MacTypeUtil) - Utility functions for interacting with Mac OS X Carbon data types.
-* [nickbjohnson4224/rhombus](https://github.com/nickbjohnson4224/rhombus) - a hobby operating system written in C
-* [nickdesaulniers/bf_interpreter_jit_compiler](https://github.com/nickdesaulniers/bf_interpreter_jit_compiler) - Teach myself about interpreters, JITs, and compilers using the Brainfuck language as the toy language
-* [nicklockwood/FastCoding](https://github.com/nicklockwood/FastCoding) - A faster and more flexible binary file format replacement for NSCoding, Property Lists and JSON
-* [nicknassar/cosby](https://github.com/nicknassar/cosby) - A TI99/4a data cassette interface software modem and practical example of signal processing with the infamous FFT
-* [nicolasff/river](https://github.com/nicolasff/river) - A simple “comet” server in C, streaming data to web clients
-* [nicolasff/webdis](https://github.com/nicolasff/webdis) - A Redis HTTP interface with JSON output
-* [niftylight/niftyled](https://github.com/niftylight/niftyled) - library designed to provide an abstract interface for LED/lighting hardware to easily control it using pixel data.
 * [nightscout/cgm-pebble-splitscreen](https://github.com/nightscout/cgm-pebble-splitscreen) - Pebble app to view data from two nightscout servers .
-* [nigma/pywt](https://github.com/nigma/pywt) - We're moving. Please visit https://github.com/PyWavelets
 * [nikhilm/uvbook](https://github.com/nikhilm/uvbook) - An Introduction to libuv
-* [nikki93/cgame](https://github.com/nikki93/cgame) - some ideas involving games and C
-* [niklasfrykholm/nflibs](https://github.com/niklasfrykholm/nflibs) - A collection of interoperable minimalistic C libraries
-* [nil-zhang/php-beanstalk](https://github.com/nil-zhang/php-beanstalk) - A php c extension beanstalkd client, multi-server support, high performance, using libbeanstalkclient.
-* [ninia/jep](https://github.com/ninia/jep) - Embed Python in Java
 * [nitrogenlogic/cliserver](https://github.com/nitrogenlogic/cliserver) - A sample libevent-based network socket server that presents a simple command line interface to multiple connecting clients.
 * [nitrogenlogic/kinradar](https://github.com/nitrogenlogic/kinradar) - Displays a pseudocolor ASCII-art radar-like view of Kinect depth data.
 * [njh/mqtt-sn-tools](https://github.com/njh/mqtt-sn-tools) - Command line tools written in C for the MQTT-SN (MQTT For Sensor Networks) protocol
@@ -2168,11 +2157,8 @@ Comprehensive and integrated solutions for building web application in C.
 * [noporpoise/madcrowlib](https://github.com/noporpoise/madcrowlib) - Common C data structure macros
 * [noporpoise/seq_file](https://github.com/noporpoise/seq_file) - Library for Reading Bioinformatic Sequence Data in C
 * [notandy/ympd](https://github.com/notandy/ympd) - Standalone MPD Web GUI written in C, utilizing Websockets and Bootstrap/JS
-* [nothings/stb](https://github.com/nothings/stb) - stb single-file public domain libraries for C/C++
 * [notro/fbtft](https://github.com/notro/fbtft) - Linux Framebuffer drivers for small TFT LCD display modules
-* [notsecure/uTox](https://github.com/notsecure/uTox) - Lightweight Tox client
 * [npmccallum/deo](https://github.com/npmccallum/deo) - A service for binding data to networks
-* [nrj/objective-curl](https://github.com/nrj/objective-curl) - Curl bindings for Objective-C.
 * [nsf/termbox](https://github.com/nsf/termbox) - Library for writing text-based user interfaces
 * [nspire-emus/firebird](https://github.com/nspire-emus/firebird) - Third-party multi-platform emulator of the ARM-based TI-Nspire™ calculators
 * [nst/BatteryChart](https://github.com/nst/BatteryChart) - Drawing iPhone Battery Charge / Discharge
