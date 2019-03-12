@@ -198,6 +198,7 @@ Incorporated lists:
 * [cc65/cc65](https://github.com/cc65/cc65) - cc65 - a freeware C compiler for 6502 based systems —
 * [drh/lcc](https://github.com/drh/lcc) - The lcc retargetable ANSI C compiler
 * [jserv/amacc](https://github.com/jserv/amacc) - Small C Compiler generating ELF executable for Arm architecture
+* [larmel/lacc](https://github.com/larmel/lacc) - A simple, self-hosting C compiler
 
 [3-1]: https://gcc.gnu.org/
 [3-2]: https://clang.llvm.org/
@@ -652,6 +653,9 @@ Neural nets, machine learning, and other similar things.
 * [kljensen/Gemoda](https://github.com/kljensen/Gemoda) - A generic motif discovery algorithm for sequential data
 * [kokke/tiny-AES-c](https://github.com/kokke/tiny-AES-c) - Small portable AES128/192/256 in C
 * [kokke/tiny-AES128-C](https://github.com/kokke/tiny-AES128-C) - Small portable AES128/192/256 in C
+* [kroitor/gjk.c](https://github.com/kroitor/gjk.c) - Gilbert-Johnson-Keerthi (GJK) collision detection algorithm in 200 lines of clean plain C
+* [kurtisthompson/Algorithms](https://github.com/kurtisthompson/Algorithms) - Random assortment of Interesting data structures and/or algorithms and academic work
+* [lacker/ikalman](https://github.com/lacker/ikalman) - An iPhone-friendly Kalman filter written in C.
 
 ## Argument Parsing ##
 * [parg][410] - A single-file reimplementation of ``getopt`` with better
@@ -806,6 +810,7 @@ Neural nets, machine learning, and other similar things.
 * [atomicobject/heatshrink](https://github.com/atomicobject/heatshrink) - data compression library for embedded/real-time systems
 * [centaurean/density](https://github.com/centaurean/density) - Superfast compression library
 * [kiyo-masui/bitshuffle](https://github.com/kiyo-masui/bitshuffle) - Filter for improving compression of typed binary data.
+* [kuba--/zip](https://github.com/kuba--/zip) - A portable, simple zip library written in C
 
 ## Concurrency and Parallelism ##
 * [cchan][52] - Small library for channel constructs for inter-thread
@@ -1033,6 +1038,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [jtsiomb/kdtree](https://github.com/jtsiomb/kdtree) - A simple C library for working with KD-Trees
 * [jsvennevid/filearchive](https://github.com/jsvennevid/filearchive) - File archive library allowing for easy creation and access to data stored inside a container through a simple API.
 * [jvirkki/libbloom](https://github.com/jvirkki/libbloom) - A simple and small bloom filter implementation in plain C.
+* [ksheedlo/kmdata](https://github.com/ksheedlo/kmdata) - Data structures for C programmers, by C programmers.
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1995,53 +2001,9 @@ Comprehensive and integrated solutions for building web application in C.
 * [jkff/scrunch](https://github.com/jkff/scrunch) - Stream cruncher - data stream algorithms
 * [jonpe960/ufsm](https://github.com/jonpe960/ufsm) - UML Statechart library in C and XMI importer
 * [juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders) - C, C++ headers and C# classes for icon fonts: Font Awesome, Fork Awesome, Material Design, Material Design icons, Kenney game icons and Ionicons
+* [kosma/minmea](https://github.com/kosma/minmea) - a lightweight GPS NMEA 0183 parser library in pure C
 
 # Unsorted #
-* [koron/cmigemo](https://github.com/koron/cmigemo) - C/Migemo
-* [kosma/minmea](https://github.com/kosma/minmea) - a lightweight GPS NMEA 0183 parser library in pure C
-* [kovidgoyal/html5-parser](https://github.com/kovidgoyal/html5-parser) - Fast C based HTML 5 parsing for python
-* [kovidgoyal/kitty](https://github.com/kovidgoyal/kitty) - A cross-platform, fast, feature full, GPU based terminal emulator
-* [kozyraki/phoenix](https://github.com/kozyraki/phoenix) - an API and runtime environment for data processing with MapReduce for shared-memory multi-core & multiprocessor systems.
-* [kr/beanstalkd](https://github.com/kr/beanstalkd) - Beanstalk is a simple, fast work queue.
-* [krakjoe/SIMD](https://github.com/krakjoe/SIMD) - Simple Instructions, Multiple Data
-* [krakjoe/apcu](https://github.com/krakjoe/apcu) - APCu - APC User Cache
-* [krakjoe/phpdbg](https://github.com/krakjoe/phpdbg) - The Interactive PHP Debugger
-* [krakjoe/pthreads](https://github.com/krakjoe/pthreads) - Threading for PHP - Share Nothing, Do Everything :)
-* [krallin/tini](https://github.com/krallin/tini) - A tiny but valid `init` for containers
-* [krieger-od/whdd](https://github.com/krieger-od/whdd) - HDD diagnostic and data recovery tool for Linux
-* [kripken/BananaBread](https://github.com/kripken/BananaBread) - BananaBread is a C++ 3D game engine that runs on the web using JavaScript+WebGL+HTML
-* [kripken/emscripten](https://github.com/kripken/emscripten) - Emscripten: An LLVM-to-JavaScript Compiler
-* [kripken/lua.vm.js](https://github.com/kripken/lua.vm.js) - The Lua VM, on the Web
-* [kristapsdz/acme-client](https://github.com/kristapsdz/acme-client) - secure ACME client
-* [kroitor/gjk.c](https://github.com/kroitor/gjk.c) - Gilbert-Johnson-Keerthi (GJK) collision detection algorithm in 200 lines of clean plain C
-* [kroki/XProbes](https://github.com/kroki/XProbes) - Explicit probes (XProbes) - static user space probes with natural data access.
-* [kronihias/dbap](https://github.com/kronihias/dbap) - Distance Based Amplitude Panning externals for Pure Data
-* [kronihias/espeak](https://github.com/kronihias/espeak) - pure data external to synthesize text to an array with espeak library
-* [kronihias/smpte-](https://github.com/kronihias/smpte-) - Pure Data/Max (flext) external for generating or decoding ltc audio timecode.
-* [krutin/psoc_data_acquisition](https://github.com/krutin/psoc_data_acquisition) - Data Acquisition using usbuart of Cypress PSoC. Developed using Tinychip Axios 1.0
-* [kscz/n_stress](https://github.com/kscz/n_stress) - Linux network stress tester - attempts to send and receive data over a network as fast as possible and confirm integrity of the data
-* [ksheedlo/kmdata](https://github.com/ksheedlo/kmdata) - Data structures for C programmers, by C programmers.
-* [ktap/ktap](https://github.com/ktap/ktap) - A lightweight script-based dynamic tracing tool for Linux
-* [kuba--/zip](https://github.com/kuba--/zip) - A portable, simple zip library written in C
-* [kurtisthompson/Algorithms](https://github.com/kurtisthompson/Algorithms) - Random assortment of Interesting data structures and/or algorithms and academic work
-* [kwgoodman/bottleneck](https://github.com/kwgoodman/bottleneck) - Fast NumPy array functions written in C
-* [kyle-github/libplctag](https://github.com/kyle-github/libplctag) - This library provides a portable and simple API for accessing PLC data over Ethernet and serial links.
-* [kylemcdonald/ofxCcv](https://github.com/kylemcdonald/ofxCcv) - libccv addon for openFrameworks
-* [lacker/ikalman](https://github.com/lacker/ikalman) - An iPhone-friendly Kalman filter written in C.
-* [laijs/userspace-rcu](https://github.com/laijs/userspace-rcu) - Laijs-maintained  Userspace-RCU tree for concurrent data struct(cds) changes
-* [lalongooo/VideoCompressor](https://github.com/lalongooo/VideoCompressor) - Video compressor based in the Telegram for Android app source code.
-* [larmel/lacc](https://github.com/larmel/lacc) - A simple, self-hosting C compiler
-* [larsbrinkhoff/httptunnel](https://github.com/larsbrinkhoff/httptunnel) - Creates a bidirectional virtual data path tunnelled in HTTP requests.
-* [laruence/taint](https://github.com/laruence/taint) - Taint is a PHP extension, used for detecting XSS codes
-* [laruence/yac](https://github.com/laruence/yac) - A fast shared memory user data cache for PHP
-* [laruence/yaconf](https://github.com/laruence/yaconf) - A PHP Persistent Configurations Container
-* [laruence/yaf](https://github.com/laruence/yaf) - Fast php framework written in c, built in php extension
-* [laruence/yar](https://github.com/laruence/yar) - Light, concurrent RPC framework for PHP & C
-* [lastpass/lastpass-cli](https://github.com/lastpass/lastpass-cli) - LastPass command line interface tool
-* [laurenz/oracle_fdw](https://github.com/laurenz/oracle_fdw) - PostgreSQL extension that provides a Foreign Data Wrapper for easy and efficient access to Oracle databases, including pushdown of WHERE conditions as well as comprehensive EXPLAIN and ANALYZE support.
-* [laverdet/node-fibers](https://github.com/laverdet/node-fibers) - Fiber/coroutine support for v8 and node.
-* [lavoiesl/osx-cpu-temp](https://github.com/lavoiesl/osx-cpu-temp) - Outputs current CPU temperature for OSX
-* [lawrancej/CompilerKit](https://github.com/lawrancej/CompilerKit) - Compiler construction library in C.
 * [lbrito1/cstuff](https://github.com/lbrito1/cstuff) - Algorithms & data structures in C
 * [lc-soft/LCUI](https://github.com/lc-soft/LCUI) - A small C library for building user interfaces with C, XML and CSS.
 * [lcastelli/chdb](https://github.com/lcastelli/chdb) - A fast read-only memory mapped hash-table for PHP
