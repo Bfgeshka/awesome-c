@@ -599,6 +599,8 @@ Incorporated lists:
 * [mortdeus/legacy-cc](https://github.com/mortdeus/legacy-cc) - The earliest versions of the very first c compiler known to exist in the wild written by the late legend himself dmr.
 * [mruby/mruby](https://github.com/mruby/mruby) - Lightweight Ruby
 * [n64dev/cen64](https://github.com/n64dev/cen64) - Cycle-Accurate Nintendo 64 Emulator
+* [ndreynolds/flathead](https://github.com/ndreynolds/flathead) - A toy JavaScript interpreter written in C
+* [nesbox/tic.computer](https://github.com/nesbox/tic.computer) - 🐛 Public TIC-80 issues tracker
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -1089,6 +1091,8 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [michaeltyson/TPCircularBuffer](https://github.com/michaeltyson/TPCircularBuffer) - A simple, fast circular buffer implementation
 * [mikedlowis/data-structures](https://github.com/mikedlowis/data-structures) - A collection of data structures implemented in C to be included in multiple projects.
 * [mrnugget/data_structures](https://github.com/mrnugget/data_structures) - Implementations of common data structures in C
+* [naraing/dsLib](https://github.com/naraing/dsLib) - An algorithm library with core data-sttructures and common algortihm implementations on those data structures
+* [natehardison/data-structures](https://github.com/natehardison/data-structures) - A bunch of data structure implementations, just for fun.
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1432,6 +1436,7 @@ Generic lexers and parsers
 * [ivmai/bdwgc](https://github.com/ivmai/bdwgc) - The Boehm-Demers-Weiser conservative C/C++ Garbage Collector (libgc, bdwgc, boehm-gc)
 * [mulle-nat/mulle-allocator](https://github.com/mulle-nat/mulle-allocator) - 🔄 Flexible C memory allocation scheme with leak checking
 * [munificent/mark-sweep](https://github.com/munificent/mark-sweep) - A simple mark-sweep garbage collector in C
+* [ned14/nedmalloc](https://github.com/ned14/nedmalloc) - An EXTREMELY FAST portable thread caching malloc implementation written in C for multiple threads without lock contention based on dlmalloc. Optimised for x86 and x64. Compatible with C++. Can patch itself into existing binaries on Windows.
 
 ## Multimedia ##
 Audio and video processing
@@ -1640,6 +1645,8 @@ Audio and video processing
 * [lsalzman/enet](https://github.com/lsalzman/enet) - ENet reliable UDP networking library
 * [mopemope/meinheld](https://github.com/mopemope/meinheld) - meinheld is a high performance asynchronous WSGI Web Server (based on picoev)
 * [nanomsg/nanomsg](https://github.com/nanomsg/nanomsg) - nanomsg library
+* [neilalexander/sigmavpn](https://github.com/neilalexander/sigmavpn) - Light-weight, secure and modular VPN solution which makes use of NaCl encryption (also available for Android using jnacl in "sigmavpn-android")
+* [neutrinolabs/xrdp](https://github.com/neutrinolabs/xrdp) - xrdp: an open source RDP server
 
 ### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
@@ -1773,6 +1780,7 @@ Audio and video processing
 * [mackron/dr_libs](https://github.com/mackron/dr_libs) - A collection of public domain single-file libraries for C/C++.
 * [mattiasgustavsson/libs](https://github.com/mattiasgustavsson/libs) - Single-file public domain libraries for C/C++
 * [matteobertozzi/carthage](https://github.com/matteobertozzi/carthage) - Pure C Data Structure and Utils
+* [napsy/libhelper](https://github.com/napsy/libhelper) - General functions and data structures for C
 
 ## Special Purpose ##
 * [Tulip Indicators][394] - Library of functions for technical analysis of
@@ -1808,6 +1816,8 @@ Audio and video processing
 * [libtrading/libtrading](https://github.com/libtrading/libtrading) - Libtrading, an ultra low-latency trading connectivity library for C and C++.
 * [lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) - Ip2region is a offline IP location library with accuracy rate of 99.9% and 0.0x millseconds searching performance. DB file is less then 5Mb with all ip address stored. binding for Java,PHP,C,Python,Nodejs,Golang,C#,lua. Binary,B-tree,Memory searching algorithm
 * [maxmind/geoip-api-c](https://github.com/maxmind/geoip-api-c) - GeoIP Legacy C API
+* [navit-gps/navit](https://github.com/navit-gps/navit) - The open source (GPL v2) turn-by-turn navigation software for many OS
+* [nayuki/QR-Code-generator](https://github.com/nayuki/QR-Code-generator) - High-quality QR Code generator library in Java, JavaScript, Python, C++, C.
 
 ## Standard Libraries ##
 Implementations of the C standarts
@@ -1908,6 +1918,7 @@ Libraries for working wit hspecific filetypes
 * [kevinbirch/kanabo](https://github.com/kevinbirch/kanabo) - query JSON/YAML data with JSONPath
 * [lloyd/yajl](https://github.com/lloyd/yajl) - A fast streaming JSON parsing library in C.
 * [mysqludf/lib_mysqludf_json](https://github.com/mysqludf/lib_mysqludf_json) - A UDF library of functions to map relational data to the JSON format.
+* [netmail-open/wjelement](https://github.com/netmail-open/wjelement) - advanced, flexible JSON manipulation in C
 
 ### INI ###
 * [inih][329] - Small and simple INI file parser, good for embedded systems. [``BSD-3-Clause``][BSD-3-Clause]
@@ -2125,31 +2136,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [mongrel2/mongrel2](https://github.com/mongrel2/mongrel2) - The Mongrel2 Web Server Project
 
 # Unsorted #
-* [napsy/libhelper](https://github.com/napsy/libhelper) - General functions and data structures for C
-* [naraing/dsLib](https://github.com/naraing/dsLib) - An algorithm library with core data-sttructures and common algortihm implementations on those data structures
-* [nasa/XPlaneConnect](https://github.com/nasa/XPlaneConnect) - The X-Plane Communications Toolbox is a research tool used to interact with the X-Plane flight simulator
-* [nashvail/Data-Structures](https://github.com/nashvail/Data-Structures) - Includes implementation of common data structures along with specific algorithmic operations.
-* [nategri/nematoduino](https://github.com/nategri/nematoduino) - Arduino UNO-compatible robotic simulation of the C. elegans nematode
-* [natehardison/data-structures](https://github.com/natehardison/data-structures) - A bunch of data structure implementations, just for fun.
-* [nathanleclaire/algorithms_and_data_structures](https://github.com/nathanleclaire/algorithms_and_data_structures) - Want to learn more fundamentals of Comp Sci and get some practice writing C, C++, and Java.
-* [navit-gps/navit](https://github.com/navit-gps/navit) - The open source (GPL v2) turn-by-turn navigation software for many OS
-* [nayuki/QR-Code-generator](https://github.com/nayuki/QR-Code-generator) - High-quality QR Code generator library in Java, JavaScript, Python, C++, C.
-* [nbs-system/naxsi](https://github.com/nbs-system/naxsi) - NAXSI is an open-source, high performance, low rules maintenance WAF for NGINX
-* [nbs-system/snuffleupagus](https://github.com/nbs-system/snuffleupagus) - Security module for php7 - Killing bugclasses and virtual-patching the rest!
-* [ncbi/osiris](https://github.com/ncbi/osiris) - OSIRIS is a public domain quality assurance software package that facilitates the assessment of multiplex short tandem repeat (STR) DNA profiles based on laboratory-specific protocols.  OSIRIS evaluates the raw electrophoresis data contained in .fsa or .hid files using an independently derived mathematically-based sizing algorithm.  OSIRIS currently supports ABI capillary analytical platforms and numerous commercially available marker kits including all CODIS-compliant kits as well as those favored by biomedical laboratories.
-* [nccgroup/Cyber-Defence](https://github.com/nccgroup/Cyber-Defence) - Information released publicly by NCC Group's Cyber Defence team
-* [ndreynolds/flathead](https://github.com/ndreynolds/flathead) - A toy JavaScript interpreter written in C
-* [nebneuron/clique-top](https://github.com/nebneuron/clique-top) - Topological data analysis tools for cross correlation matrices
-* [nec-postgres/tdeforpg](https://github.com/nec-postgres/tdeforpg) - PostgreSQL Transparent Data Encryption tool development
-* [ned14/nedmalloc](https://github.com/ned14/nedmalloc) - An EXTREMELY FAST portable thread caching malloc implementation written in C for multiple threads without lock contention based on dlmalloc. Optimised for x86 and x64. Compatible with C++. Can patch itself into existing binaries on Windows.
-* [neilalexander/sigmavpn](https://github.com/neilalexander/sigmavpn) - Light-weight, secure and modular VPN solution which makes use of NaCl encryption (also available for Android using jnacl in "sigmavpn-android")
-* [neiljpeterson/Data-Structures-II-Assignments-COSC-3100](https://github.com/neiljpeterson/Data-Structures-II-Assignments-COSC-3100) - Just a repo for me to share homework with classmates. Nothing interesting here.
-* [nelhage/reptyr](https://github.com/nelhage/reptyr) - Reparent a running program to a new terminal
-* [nesbox/tic.computer](https://github.com/nesbox/tic.computer) - 🐛 Public TIC-80 issues tracker
-* [netmail-open/wjelement](https://github.com/netmail-open/wjelement) - advanced, flexible JSON manipulation in C
-* [netsniff-ng/netsniff-ng](https://github.com/netsniff-ng/netsniff-ng) - A Swiss army knife for your daily Linux network plumbing.
-* [neurodroid/cryptonite](https://github.com/neurodroid/cryptonite) - EncFS and TrueCrypt on Android
-* [neutrinolabs/xrdp](https://github.com/neutrinolabs/xrdp) - xrdp: an open source RDP server
 * [newaetech/chipwhisperer](https://github.com/newaetech/chipwhisperer) - ChipWhisperer - the complete open-source toolchain for side-channel power analysis and glitching attacks
 * [nfc-tools/libnfc](https://github.com/nfc-tools/libnfc) - Platform independent Near Field Communication (NFC) library
 * [nfs-ganesha/nfs-ganesha](https://github.com/nfs-ganesha/nfs-ganesha) - NFS-Ganesha is an NFSv3,v4,v4.1 fileserver that runs in user mode on most UNIX/Linux systems
