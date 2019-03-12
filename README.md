@@ -660,6 +660,7 @@ Neural nets, machine learning, and other similar things.
 * [kurtisthompson/Algorithms](https://github.com/kurtisthompson/Algorithms) - Random assortment of Interesting data structures and/or algorithms and academic work
 * [lacker/ikalman](https://github.com/lacker/ikalman) - An iPhone-friendly Kalman filter written in C.
 * [leecarraher/CardinalityShiftClustering](https://github.com/leecarraher/CardinalityShiftClustering) - MOVED -- https://github.com/wilseypa/rphash -- Ongoing research into communication minimizing parallel data clustering for an LSH accelerated random projection mean-shift algorithm.
+* [licstar/compare](https://github.com/licstar/compare) - compare embedding
 
 ## Argument Parsing ##
 * [parg][410] - A single-file reimplementation of ``getopt`` with better
@@ -757,6 +758,8 @@ Neural nets, machine learning, and other similar things.
 * [imneme/pcg-c-basic](https://github.com/imneme/pcg-c-basic) - PCG — Minimal C Implementation
 * [imneme/pcg-c](https://github.com/imneme/pcg-c) - PCG — C Implementation
 * [karrenberg/wfvopencl](https://github.com/karrenberg/wfvopencl) - IMPORTANT NOTICE: This implementation is long outdated. The latest wfvopencl will be made publicly available with the new libwfv implementation. WFVOpenCL is an OpenCL driver for CPUs on the basis of LLVM. This driver employs Whole-Function Vectorization (WFV) in addition to multi-threading to fully exploit the available data-parallelism by executing as many kernel instances in parallel as possible.
+* [libtom/libtommath](https://github.com/libtom/libtommath) - LibTomMath is a free open source portable number theoretic multiple-precision integer library written entirely in C.
+* [libtom/tomsfastmath](https://github.com/libtom/tomsfastmath) - TomsFastMath is a fast public domain, open source, large integer arithmetic library written in portable ISO C.
 
 ## Compression ##
 * [blosc][25] - Fast, multi-threaded, meta-compressor library. Various licenses,
@@ -1058,6 +1061,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [Lupus/libevfibers](https://github.com/Lupus/libevfibers) - Small C fiber library that uses libev based event loop and libcoro based coroutine context switching.
 * [facebook/libphenom](https://github.com/facebook/libphenom) - An eventing framework for building high performance and high scalability systems in C.
 * [joyent/libuv](https://github.com/joyent/libuv) - Go to
+* [libuv/libuv](https://github.com/libuv/libuv) - Cross-platform asychronous I/O
 
 ## FFI ##
 Foreign function interfaces, also know as binding interfaces.
@@ -1178,6 +1182,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [keendreams/keen](https://github.com/keendreams/keen) - Keen Dreams on Greenlight!
 * [libgdx/fbx-conv](https://github.com/libgdx/fbx-conv) - Command line utility using the FBX SDK to convert FBX/Collada/Obj files to a custom text/binary format for static, keyframed and skinned meshes.
 * [liballeg/allegro5](https://github.com/liballeg/allegro5) - The official Allegro 5 git repository. Pull requests welcome!
+* [linleyh/liberation-circuit](https://github.com/linleyh/liberation-circuit) - Trapped in a hostile computer system, you must make a way out - RTS/coding game
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1228,6 +1233,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [vurtun/nuklear](https://github.com/vurtun/nuklear) - A single-header ANSI C gui library
 * [andlabs/libui](https://github.com/andlabs/libui) - Simple and portable (but not inflexible) GUI library in C that uses the native GUI technologies of each platform it supports.
 * [lc-soft/LCUI](https://github.com/lc-soft/LCUI) - A small C library for building user interfaces with C, XML and CSS.
+* [littlevgl/lvgl](https://github.com/littlevgl/lvgl) - Graphics library to create an embedded GUI with easy-to-use graphical elements, beautiful visual effects and low memory footprint. It offers anti-aliasing, opacity, and animations using only one frame buffer.
 
 ## Hardware Oriented ##
 * [libusb][407] - Provides generic access to USB devices. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
@@ -1263,6 +1269,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [leaflabs/libmaple](https://github.com/leaflabs/libmaple) - [INACTIVE] C and C++ library for STM32 ARM Cortex-M3 development boards.
 * [libimobiledevice/libimobiledevice](https://github.com/libimobiledevice/libimobiledevice) - A cross-platform protocol library to communicate with iOS devices
 * [libopencm3/libopencm3](https://github.com/libopencm3/libopencm3) - Open Source ARM cortex m microcontroller library
+* [libusb/libusb](https://github.com/libusb/libusb) - A cross-platform library to access USB devices
 
 ## Hashing ##
 Hash function implementations for *non*-crypto purposes. Cryptographic hashes
@@ -1733,6 +1740,8 @@ Audio and video processing
 * [geocommons/geocoder](https://github.com/geocommons/geocoder) - Modular Street Address Geocoder
 * [jgarzik/cpuminer](https://github.com/jgarzik/cpuminer) - CPU miner for bitcoin
 * [jgarzik/picocoin](https://github.com/jgarzik/picocoin) - A bitcoin library in C, SPV wallet & more.
+* [libtrading/libtrading](https://github.com/libtrading/libtrading) - Libtrading, an ultra low-latency trading connectivity library for C and C++.
+* [lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) - Ip2region is a offline IP location library with accuracy rate of 99.9% and 0.0x millseconds searching performance. DB file is less then 5Mb with all ip address stored. binding for Java,PHP,C,Python,Nodejs,Golang,C#,lua. Binary,B-tree,Memory searching algorithm
 
 ## Standard Libraries ##
 Implementations of the C standarts
@@ -1830,6 +1839,7 @@ Libraries for working wit hspecific filetypes
 * [keenerd/jshon](https://github.com/keenerd/jshon) - Jshon is a JSON parser designed for maximum convenience within the shell.
 * [kgabis/parson](https://github.com/kgabis/parson) - Lightweight JSON library written in C.
 * [kevinbirch/kanabo](https://github.com/kevinbirch/kanabo) - query JSON/YAML data with JSONPath
+* [lloyd/yajl](https://github.com/lloyd/yajl) - A fast streaming JSON parsing library in C.
 
 ### INI ###
 * [inih][329] - Small and simple INI file parser, good for embedded systems. [``BSD-3-Clause``][BSD-3-Clause]
@@ -2033,44 +2043,14 @@ Comprehensive and integrated solutions for building web application in C.
 * [libical/libical](https://github.com/libical/libical) - Libical is an Open Source implementation of the iCalendar protocols and protocol data units.
 
 # Unsorted #
-* [libtom/libtommath](https://github.com/libtom/libtommath) - LibTomMath is a free open source portable number theoretic multiple-precision integer library written entirely in C.
-* [libtom/tomsfastmath](https://github.com/libtom/tomsfastmath) - TomsFastMath is a fast public domain, open source, large integer arithmetic library written in portable ISO C.
-* [libtrading/libtrading](https://github.com/libtrading/libtrading) - Libtrading, an ultra low-latency trading connectivity library for C and C++.
-* [libusb/libusb](https://github.com/libusb/libusb) - A cross-platform library to access USB devices
-* [libuv/libuv](https://github.com/libuv/libuv) - Cross-platform asychronous I/O
-* [lichuang/qnode](https://github.com/lichuang/qnode) - qnode(cute node) - C + Lua + Actor Model = Erlang-like system
-* [licstar/compare](https://github.com/licstar/compare) - compare embedding
-* [lidaof/methylQA](https://github.com/lidaof/methylQA) - methylation sequence data quality assessment tool
-* [limccn/Cocoa-Charts](https://github.com/limccn/Cocoa-Charts) - Open-source iPhone/iPad graph/chart framework includes line chart,stick chart,candlestick chart,pie chart,spider-web chart etc. Based on iOS graph SDK, Using native Objective-c Codes
-* [limingth/NCCL](https://github.com/limingth/NCCL) - New Concept C Language
-* [limpkin/mooltipass](https://github.com/limpkin/mooltipass) - Github repository dedicated to the mooltipass project
-* [lincomatic/Colorduino](https://github.com/lincomatic/Colorduino) - Colorduino Interface Library for Arduino
-* [linkedin/datacl](https://github.com/linkedin/datacl) - A collection of efficient utilities for a data scientist.
-* [linklayer/cantact-fw](https://github.com/linklayer/cantact-fw) - Firmware source files for the CANtact tool
-* [linleyh/liberation-circuit](https://github.com/linleyh/liberation-circuit) - Trapped in a hostile computer system, you must make a way out - RTS/coding game
-* [linux-can/can-utils](https://github.com/linux-can/can-utils) - Linux-CAN / SocketCAN user space applications
-* [linux-nvme/nvme-cli](https://github.com/linux-nvme/nvme-cli) - NVMe management command line interface.
-* [linux-rdma/rdma-core](https://github.com/linux-rdma/rdma-core) - RDMA core userspace libraries and daemons
-* [linux-test-project/ltp](https://github.com/linux-test-project/ltp) - Linux Test Project
-* [linuxmint/Cinnamon](https://github.com/linuxmint/Cinnamon) - A Linux Desktop featuring a traditional layout, built from modern technology and introducing brand new innovative features.
-* [linuxmint/nemo](https://github.com/linuxmint/nemo) - File browser for Cinnamon
-* [linyiqun/Redis-Code](https://github.com/linyiqun/Redis-Code) - redis键值数据库源码分析
-* [lioncash/ExtractData](https://github.com/lioncash/ExtractData) - An extraction tool for visual novels. Originally developed by Yuu.
-* [lionsoul2014/friso](https://github.com/lionsoul2014/friso) - High performance chinese tokenizer with both GBK and UTF-8 charset support developed by ANSI C
-* [lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) - Ip2region is a offline IP location library with accuracy rate of 99.9% and 0.0x millseconds searching performance. DB file is less then 5Mb with all ip address stored. binding for Java,PHP,C,Python,Nodejs,Golang,C#,lua. Binary,B-tree,Memory searching algorithm
-* [lip6-lisp/data-plane](https://github.com/lip6-lisp/data-plane) - OpenLISP data plane
-* [litehelpers/Cordova-sqlite-storage](https://github.com/litehelpers/Cordova-sqlite-storage) - A Cordova/PhoneGap plugin to open and use sqlite databases on Android/iOS/Windows Universal(8.1)/Amazon Fire-OS/WP(7/8) with HTML5/Web SQL API
-* [littlevgl/lvgl](https://github.com/littlevgl/lvgl) - Graphics library to create an embedded GUI with easy-to-use graphical elements, beautiful visual effects and low memory footprint. It offers anti-aliasing, opacity, and animations using only one frame buffer.
 * [liudf0716/apfree_wifidog](https://github.com/liudf0716/apfree_wifidog) - Apfree WiFidog is an  efficient captive portal solution for wireless router which with embeded linux(LEDE/Openwrt) system.
 * [liudf0716/xkcptun](https://github.com/liudf0716/xkcptun) - xkcptun is kcp tunnel for OpenWRT&LEDE, implemented in c language
 * [liuliu/ndqi](https://github.com/liuliu/ndqi) - Non-structural Data Query Interface
 * [liuluheng/levmu](https://github.com/liuluheng/levmu) - Based on redis protocol, storing data in leveldb, using muduo for communication
 * [livioso/datastructures-in-C](https://github.com/livioso/datastructures-in-C) - Implementation of a some data structures in C for educational purposes. For example featuring a trie implementation in C (inspired by DAS84 "a bit of C") or a XOR linked list.
 * [liyuming1978/NativeLibCompression](https://github.com/liyuming1978/NativeLibCompression) - The native library compression sdk is given to solve the apk size problem. It is easy to integrate and will get max 50% size decreasing. Not only sdk, a Java tool for package is provided to convert normal apk to compressed apk.  MIT Licence, you can use any where
-* [ljianhui/Data-Structure](https://github.com/ljianhui/Data-Structure) - 这个库的内容大多为数据结构及其具体实现代码，还包含一些基本的算法！
 * [ljmocic/PJISP](https://github.com/ljmocic/PJISP) - Programming Languages and Data Structures
 * [lkarsten/libvmod-cookie](https://github.com/lkarsten/libvmod-cookie) - A Varnish module for simpler use of the cookie header.
-* [lloyd/yajl](https://github.com/lloyd/yajl) - A fast streaming JSON parsing library in C.
 * [llvm-mirror/compiler-rt](https://github.com/llvm-mirror/compiler-rt) - Mirror of official compiler-rt git repository located at http://llvm.org/git/compiler-rt.  Updated every five minutes.
 * [lneto/luadata](https://github.com/lneto/luadata) - Lua data library
 * [locasto/libdisorder](https://github.com/locasto/libdisorder) - A simple C library for entropy measurement of byte streams and other data.
