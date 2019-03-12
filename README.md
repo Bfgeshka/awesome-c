@@ -593,6 +593,8 @@ Incorporated lists:
 * [marcobambini/gravity](https://github.com/marcobambini/gravity) - Gravity Programming Language
 * [mbedmicro/mbed](https://github.com/mbedmicro/mbed) - mbed libraries and tools
 * [mgba-emu/mgba](https://github.com/mgba-emu/mgba) - mGBA Game Boy Advance Emulator
+* [mil/foo-wm](https://github.com/mil/foo-wm) - A minimal window manager that organizes windows in a tree data structure, provides a socket to send commands to, and nothing more.
+* [minix3/minix](https://github.com/minix3/minix) - MINIX 3 (mirror)
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -829,6 +831,7 @@ Neural nets, machine learning, and other similar things.
 * [libarchive/libarchive](https://github.com/libarchive/libarchive) - Multi-format archive and compression library
 * [lz4/lz4](https://github.com/lz4/lz4) - Extremely Fast Compression algorithm
 * [madler/zlib](https://github.com/madler/zlib) - A massively spiffy yet delicately unobtrusive compression library.
+* [mist64/pucrunch](https://github.com/mist64/pucrunch) - pucrunch, an Optimizing Hybrid LZ77 RLE Data Compression Program for C64/C128/VIC-20/Plus4
 
 ## Concurrency and Parallelism ##
 * [cchan][52] - Small library for channel constructs for inter-thread
@@ -932,6 +935,8 @@ protocols.
 * [libressl-portable/portable](https://github.com/libressl-portable/portable) - LibreSSL Portable itself. This includes the build scaffold and compatibility layer that builds portable LibreSSL from the OpenBSD source code.
 * [libtom/libtomcrypt](https://github.com/libtom/libtomcrypt) - LibTomCrypt is a fairly comprehensive, modular and portable cryptographic toolkit that provides developers with a vast array of well known published block ciphers, one-way hash functions, chaining modes, pseudo-random number generators, public key cryptography and a plethora of other routines.
 * [maciejczyzewski/retter](https://github.com/maciejczyzewski/retter) - A collection of hash functions, ciphers, tools, libraries, and materials related to cryptography. :closed_lock_with_key:
+* [mikeryan/crackle](https://github.com/mikeryan/crackle) - Crack and decrypt BLE encryption
+* [miracl/MIRACL](https://github.com/miracl/MIRACL) - MIRACL Cryptographic SDK: Multiprecision Integer and Rational Arithmetic Cryptographic Library is a C software library that is widely regarded by developers as the gold standard open source SDK for elliptic curve cryptography (ECC).
 
 ## Databases ##
 * [BerkeleyDB][83] - Library for a high-performance embedded database for
@@ -982,6 +987,7 @@ protocols.
 * [maciejczyzewski/hashbase](https://github.com/maciejczyzewski/hashbase) - A fast, efficient on-disk/in-memory database with many different kind of data structures. :floppy_disk:
 * [maxmind/libmaxminddb](https://github.com/maxmind/libmaxminddb) - C library for the MaxMind DB file format
 * [mfragkoulis/PiCO_QL](https://github.com/mfragkoulis/PiCO_QL) - SQL query interface to C++ collections and C data structures. Also configurable as a loadable Linux kernel module and an extension to Valgrind tools.
+* [mongodb/mongo-c-driver-legacy](https://github.com/mongodb/mongo-c-driver-legacy) - C Driver for MongoDB
 
 ## Data Structures and Types ##
 * [libhl][58] - Library implementing a thread-safe API to manage a range of data
@@ -1070,6 +1076,8 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [livioso/datastructures-in-C](https://github.com/livioso/datastructures-in-C) - Implementation of a some data structures in C for educational purposes. For example featuring a trie implementation in C (inspired by DAS84 "a bit of C") or a XOR linked list.
 * [malbrain/Btree-source-code](https://github.com/malbrain/Btree-source-code) - A working project for High-concurrency B-tree source code in C
 * [marekweb/datastructs-c](https://github.com/marekweb/datastructs-c) - Arraylist and Hashtable implementation in C
+* [michaeltyson/TPCircularBuffer](https://github.com/michaeltyson/TPCircularBuffer) - A simple, fast circular buffer implementation
+* [mikedlowis/data-structures](https://github.com/mikedlowis/data-structures) - A collection of data structures implemented in C to be included in multiple projects.
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1243,6 +1251,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [libretro/common-shaders](https://github.com/libretro/common-shaders) - Collection of commonly used Cg shaders. These shaders are usable by either HLSL and/or Cg runtime compilers. The cg2glsl script will translate most of these into GLSL shaders.
 * [memononen/nanovg](https://github.com/memononen/nanovg) - Antialiased 2D vector drawing library on top of OpenGL for UI and visualizations.
 * [micahpearlman/MonkVG](https://github.com/micahpearlman/MonkVG) - MonkVG is an OpenVG 1.1 like vector graphics API implementation optimized for game use currently using an OpenGL ES backend that should be compatible with any HW that supports OpenGL ES 2.0 which includes most iOS and Android devices.
+* [minusinf/opengl_dataviewer](https://github.com/minusinf/opengl_dataviewer) - A simple OpenGL xyzw dataviewer
 
 ## GUI ##
 * [GTK+][206] - Cross-platform widget toolkit. [``LGPL-2.1-only``][LGPL-2.1-only]
@@ -1293,6 +1302,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [libimobiledevice/libimobiledevice](https://github.com/libimobiledevice/libimobiledevice) - A cross-platform protocol library to communicate with iOS devices
 * [libopencm3/libopencm3](https://github.com/libopencm3/libopencm3) - Open Source ARM cortex m microcontroller library
 * [libusb/libusb](https://github.com/libusb/libusb) - A cross-platform library to access USB devices
+* [micronucleus/micronucleus](https://github.com/micronucleus/micronucleus) - ATTiny usb bootloader with a strong emphasis on bootloader compactness.
 
 ## Hashing ##
 Hash function implementations for *non*-crypto purposes. Cryptographic hashes
@@ -2088,43 +2098,11 @@ Comprehensive and integrated solutions for building web application in C.
 * [mhroth/tinyosc](https://github.com/mhroth/tinyosc) - A minimal Open Sound Control (OSC) library written in vanilla C.
 
 # Unsorted #
-* [michaeldv/pit](https://github.com/michaeldv/pit) - The project manager from hell (integrates with Git)
-* [michaeltyson/TPCircularBuffer](https://github.com/michaeltyson/TPCircularBuffer) - A simple, fast circular buffer implementation
-* [microbuilder/LPC1114CodeBase](https://github.com/microbuilder/LPC1114CodeBase) - Open Source SW Library for NXP's LPC1114 ARM Cortex M0 MCU
-* [microbuilder/LPC11U_LPC13U_CodeBase](https://github.com/microbuilder/LPC11U_LPC13U_CodeBase) - Open source code base for ARM Cortex M3 LPC1347 or Cortex M0 LPC11U37/LPC11U24 MCUs
-* [microbuilder/LPC1343CodeBase](https://github.com/microbuilder/LPC1343CodeBase) - Generic GCC-based library for the ARM Cortex-M3 LPC1343
-* [microbuilder/LPC810_CodeBase](https://github.com/microbuilder/LPC810_CodeBase) - Open source code base for the ARM Cortex M0+ LPC810 family from NXP
-* [micronucleus/micronucleus](https://github.com/micronucleus/micronucleus) - ATTiny usb bootloader with a strong emphasis on bootloader compactness.
-* [micropython/micropython](https://github.com/micropython/micropython) - MicroPython - a lean and efficient Python implementation for microcontrollers and constrained systems
-* [mid-kid/CakesForeveryWan](https://github.com/mid-kid/CakesForeveryWan) - A CFW for the 3DS.
-* [miezuit/php-base85](https://github.com/miezuit/php-base85) - A PHP extension to encode/decode data with base85.
-* [mikebmcl/N3888_RefImpl](https://github.com/mikebmcl/N3888_RefImpl) - Reference Implementations of ISO C++ P0267
-* [mikedlowis/data-structures](https://github.com/mikedlowis/data-structures) - A collection of data structures implemented in C to be included in multiple projects.
-* [mikelhernaez/qvz](https://github.com/mikelhernaez/qvz) - A Lossy compressor for Quality Scores in Genomic Data
-* [mikeryan/crackle](https://github.com/mikeryan/crackle) - Crack and decrypt BLE encryption
-* [mikewest/nginx-static-etags](https://github.com/mikewest/nginx-static-etags) - Nginx doesn't generate etags for static content.  I'd like it to.  Let's see if I can remember some C from college.
-* [mil/foo-wm](https://github.com/mil/foo-wm) - A minimal window manager that organizes windows in a tree data structure, provides a socket to send commands to, and nothing more.
-* [mindboards/ev3sources](https://github.com/mindboards/ev3sources) - LEGO MINDSTORMS EV3 source code
-* [mingzhao/dm-cache](https://github.com/mingzhao/dm-cache) - Generic block-level cache utility based on Linux device mapper framework
-* [minix3/minix](https://github.com/minix3/minix) - MINIX 3 (mirror)
-* [mintomic/mintomic](https://github.com/mintomic/mintomic) - [deprecated] For native C atomics, see Turf instead
-* [minusinf/opengl_dataviewer](https://github.com/minusinf/opengl_dataviewer) - A simple OpenGL xyzw dataviewer
-* [miohtama/python-Levenshtein](https://github.com/miohtama/python-Levenshtein) - The Levenshtein Python C extension module contains functions for fast computation of Levenshtein distance and string similarity
-* [miracl/MIRACL](https://github.com/miracl/MIRACL) - MIRACL Cryptographic SDK: Multiprecision Integer and Rational Arithmetic Cryptographic Library is a C software library that is widely regarded by developers as the gold standard open source SDK for elliptic curve cryptography (ECC).
-* [mirek/CoreSQLite3](https://github.com/mirek/CoreSQLite3) - Core SQLite3 for iOS and OSX. Fast. Clean. Powerful...
-* [mirek/CoreWebSocket](https://github.com/mirek/CoreWebSocket) - Web Socket Server and Client Library for iOS and OSX. Follows Core Foundation API style.
-* [mirek/YAML.framework](https://github.com/mirek/YAML.framework) - Proper YAML support for Objective-C. Based on recommended libyaml.
 * [mischasan/aho-corasick](https://github.com/mischasan/aho-corasick) - A-C implementation in "C". Tight-packed (interleaved) state-transition matrix -- as fast as it gets, as small as it gets.
-* [mist64/hvdos](https://github.com/mist64/hvdos) - hvdos, a simple DOS emulator based on the OS X Hypervisor.framework
-* [mist64/pucrunch](https://github.com/mist64/pucrunch) - pucrunch, an Optimizing Hybrid LZ77 RLE Data Compression Program for C64/C128/VIC-20/Plus4
-* [mist64/xhyve](https://github.com/mist64/xhyve) - xhyve, a lightweight OS X virtualization solution
 * [mit-carbon/Flat-Combining](https://github.com/mit-carbon/Flat-Combining) - Traditional data-structure designs, whether lock-based or lock-free, provide parallelism via fine grained synchronization among threads. Flat Combining is a new, efficient synchronization paradigm based on coarse locking.
 * [mjg59/mei-amt-check](https://github.com/mjg59/mei-amt-check) - Check whether AMT is enabled and provisioned under Linux
 * [mjording/ttyrec](https://github.com/mjording/ttyrec) - ttyrec is a tty recorder. Recorded data can be played back with the included ttyplay command. ttyrec is just a derivative of script command for recording timing information with microsecond accuracy as well. It can record emacs -nw, vi, lynx, or any programs running on tty.
 * [mklong/libngx](https://github.com/mklong/libngx) - static library about nginx core data structure include array,buf,hash,list,queue ,tree,string and memory pool
-* [mkoppanen/php-zmq](https://github.com/mkoppanen/php-zmq) - ZeroMQ for PHP
-* [mkorenkov/ipad_charge](https://github.com/mkorenkov/ipad_charge) - charge Apple devices under Ubuntu Linux
-* [mkottman/AndroLua](https://github.com/mkottman/AndroLua) - Lua and LuaJava ported to Android
 * [mkottman/acpi_call](https://github.com/mkottman/acpi_call) - A linux kernel module that enables calls to ACPI methods through /proc/acpi/call. Now with support for Integer, String and Buffer parameters.
 * [mlaurijsse/linux-mpu9150](https://github.com/mlaurijsse/linux-mpu9150) - 9-axis data fusion for Linux-based systems using the InvenSense MPU-9150 IMU
 * [mlin/ocaml-bgzf](https://github.com/mlin/ocaml-bgzf) - OCaml library for BGZF, a gunzip-compatible format allowing random access to the uncompressed data
@@ -2133,23 +2111,14 @@ Comprehensive and integrated solutions for building web application in C.
 * [mm2/Little-CMS](https://github.com/mm2/Little-CMS) - A free, open source, CMM engine. It provides fast transforms between ICC profiles.
 * [mmadry/st-hmp](https://github.com/mmadry/st-hmp) - Implementation of the Spatio-Temporal Hierarchical Matching Pursuit (ST-HMP) descriptor presented in the paper: M. Madry, L. Bo, D. Kragic, D. Fox, "ST-HMP: Unsupervised Spatio-Temporal Feature Learning for Tactile Data". In ICRA, 2014 (Download: http://www.nada.kth.se/~madry/publications/madry2014ICRA.pdf).
 * [mmb/vmod_dgram](https://github.com/mmb/vmod_dgram) - Varnish VMOD to send data over UDP from VCL.
-* [mmin18/WaxPatch](https://github.com/mmin18/WaxPatch) - Dynamically load a lua script to change the behavior of your iOS application.
-* [mnacos/pg51g](https://github.com/mnacos/pg51g) - a data diff toolkit for PostgreSQL
 * [moai/moai-beta](https://github.com/moai/moai-beta) - WARNING: This repository has been deprecated. Please update and submit all pull requests to moai-dev
-* [mobile-web-messaging/MQTTKit](https://github.com/mobile-web-messaging/MQTTKit) - MQTT Objective-C client for iOS
-* [mobius3/tweeny](https://github.com/mobius3/tweeny) - A modern C++ tweening library
 * [moc-/datastructure](https://github.com/moc-/datastructure) - exercise of datastructure
 * [mofaph/csapp](https://github.com/mofaph/csapp) - Computer Systems: A Programmer's Perspective
 * [mofarrell/p2pvc](https://github.com/mofarrell/p2pvc) - A point to point color terminal video chat.
 * [mogenson/USBTempLogger](https://github.com/mogenson/USBTempLogger) - A two component USB temperature data logger made from a PIC16F1455
 * [moinakg/pcompress](https://github.com/moinakg/pcompress) - A Parallelized Data Deduplication and Compression utility
-* [moneymanagerex/moneymanagerex](https://github.com/moneymanagerex/moneymanagerex) - Money Manager Ex is an easy to use, money management application built with wxWidgets
-* [mongodb/libbson](https://github.com/mongodb/libbson) - ARCHIVED - libbson has moved to https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson
-* [mongodb/mongo-c-driver-legacy](https://github.com/mongodb/mongo-c-driver-legacy) - C Driver for MongoDB
 * [mongodb/mongo-c-driver](https://github.com/mongodb/mongo-c-driver) - A high-performance MongoDB driver for C
 * [mongrel2/mongrel2](https://github.com/mongrel2/mongrel2) - The Mongrel2 Web Server Project
-* [monitoringartist/Zabbix-Docker-Monitoring](https://github.com/monitoringartist/Zabbix-Docker-Monitoring) - :whale: Monitoring of Docker containers (LXC/systemd Docker supported) - Zabbix template and Zabbix C module
-* [monitoringartist/zabbix-docker-monitoring](https://github.com/monitoringartist/zabbix-docker-monitoring) - :whale: Docker/Kubernetes/Mesos/Marathon/Chronos/LXC/LXD/Swarm container monitoring - Docker image, Zabbix template and C module
 * [monkey/duda](https://github.com/monkey/duda) - Duda I/O is an event-driven and high performant web services framework which exposes a friendly C API
 * [monkey/monkey](https://github.com/monkey/monkey) - Monkey HTTP Server
 * [mono/libgdiplus](https://github.com/mono/libgdiplus) - C-based implementation of the GDI+ API
