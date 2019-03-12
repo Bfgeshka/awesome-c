@@ -597,6 +597,8 @@ Incorporated lists:
 * [minix3/minix](https://github.com/minix3/minix) - MINIX 3 (mirror)
 * [muennich/sxiv](https://github.com/muennich/sxiv) - Simple X Image Viewer
 * [mortdeus/legacy-cc](https://github.com/mortdeus/legacy-cc) - The earliest versions of the very first c compiler known to exist in the wild written by the late legend himself dmr.
+* [mruby/mruby](https://github.com/mruby/mruby) - Lightweight Ruby
+* [n64dev/cen64](https://github.com/n64dev/cen64) - Cycle-Accurate Nintendo 64 Emulator
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -674,6 +676,7 @@ Neural nets, machine learning, and other similar things.
 * [licstar/compare](https://github.com/licstar/compare) - compare embedding
 * [mischasan/aho-corasick](https://github.com/mischasan/aho-corasick) - A-C implementation in "C". Tight-packed (interleaved) state-transition matrix -- as fast as it gets, as small as it gets.
 * [mmadry/st-hmp](https://github.com/mmadry/st-hmp) - Implementation of the Spatio-Temporal Hierarchical Matching Pursuit (ST-HMP) descriptor presented in the paper: M. Madry, L. Bo, D. Kragic, D. Fox, "ST-HMP: Unsupervised Spatio-Temporal Feature Learning for Tactile Data". In ICRA, 2014 (Download: http://www.nada.kth.se/~madry/publications/madry2014ICRA.pdf).
+* [msteinbeck/tinyspline](https://github.com/msteinbeck/tinyspline) - ANSI C library for NURBS, B-Splines, and Bézier curves with interfaces for C++, C#, D, Java, Lua, Octave, PHP, Python, R, and Ruby
 
 ## Argument Parsing ##
 * [parg][410] - A single-file reimplementation of ``getopt`` with better
@@ -1085,6 +1088,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [marekweb/datastructs-c](https://github.com/marekweb/datastructs-c) - Arraylist and Hashtable implementation in C
 * [michaeltyson/TPCircularBuffer](https://github.com/michaeltyson/TPCircularBuffer) - A simple, fast circular buffer implementation
 * [mikedlowis/data-structures](https://github.com/mikedlowis/data-structures) - A collection of data structures implemented in C to be included in multiple projects.
+* [mrnugget/data_structures](https://github.com/mrnugget/data_structures) - Implementations of common data structures in C
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1219,6 +1223,8 @@ Engines, libraries and other helpful things specifically for making games.
 * [linleyh/liberation-circuit](https://github.com/linleyh/liberation-circuit) - Trapped in a hostile computer system, you must make a way out - RTS/coding game
 * [mainroach/crabby](https://github.com/mainroach/crabby) - A texture compression algorithm for sprite sheets that allows decompression on the GPU during rendering.
 * [martincohen/Punity](https://github.com/martincohen/Punity) - A tiny game engine in C.
+* [mupen64plus/mupen64plus-core](https://github.com/mupen64plus/mupen64plus-core) - Core module of the Mupen64Plus project
+* [naev/naev](https://github.com/naev/naev) - Naev is a 2d action/rpg space game that combines elements from the action, rpg and simulation genres.
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1424,6 +1430,8 @@ Generic lexers and parsers
 * [rpmalloc](https://github.com/rampantpixels/rpmalloc) - Cross platform, lock-free memory allocator. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
 * [CCareaga/heap_allocator](https://github.com/CCareaga/heap_allocator) - A simple heap memory allocator in ~200 lines.
 * [ivmai/bdwgc](https://github.com/ivmai/bdwgc) - The Boehm-Demers-Weiser conservative C/C++ Garbage Collector (libgc, bdwgc, boehm-gc)
+* [mulle-nat/mulle-allocator](https://github.com/mulle-nat/mulle-allocator) - 🔄 Flexible C memory allocation scheme with leak checking
+* [munificent/mark-sweep](https://github.com/munificent/mark-sweep) - A simple mark-sweep garbage collector in C
 
 ## Multimedia ##
 Audio and video processing
@@ -1631,6 +1639,7 @@ Audio and video processing
 * [libssh2/libssh2](https://github.com/libssh2/libssh2) - the SSH library
 * [lsalzman/enet](https://github.com/lsalzman/enet) - ENet reliable UDP networking library
 * [mopemope/meinheld](https://github.com/mopemope/meinheld) - meinheld is a high performance asynchronous WSGI Web Server (based on picoev)
+* [nanomsg/nanomsg](https://github.com/nanomsg/nanomsg) - nanomsg library
 
 ### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
@@ -1692,6 +1701,7 @@ Audio and video processing
 * [k-takata/Onigmo](https://github.com/k-takata/Onigmo) - Onigmo is a regular expressions library forked from Oniguruma.
 * [kkos/oniguruma](https://github.com/kkos/oniguruma) - regular expression library
 * [mbornet-hl/hl](https://github.com/mbornet-hl/hl) - Highlight (colorize) text data using regular expressions
+* [mptre/pick](https://github.com/mptre/pick) - A fuzzy search tool for the command-line
 
 ## Serialization ##
 * [binn][280] - Binary serialization format, meant to be compact, fast and
@@ -1729,6 +1739,7 @@ Audio and video processing
 * [google/upb](https://github.com/google/upb) - a small protobuf implementation in C
 * [greghaynes/Afproto](https://github.com/greghaynes/Afproto) - Serial data framing protocol
 * [ludocode/mpack](https://github.com/ludocode/mpack) - MPack - A C encoder/decoder for the MessagePack serialization format / msgpack.org[C]
+* [nanopb/nanopb](https://github.com/nanopb/nanopb) - Protocol Buffers with small code size
 
 ## Source Code Collections ##
 * [CCAN][292] - Modelled after Perl's CPAN, this is a big collection of code.
@@ -1896,6 +1907,7 @@ Libraries for working wit hspecific filetypes
 * [kgabis/parson](https://github.com/kgabis/parson) - Lightweight JSON library written in C.
 * [kevinbirch/kanabo](https://github.com/kevinbirch/kanabo) - query JSON/YAML data with JSONPath
 * [lloyd/yajl](https://github.com/lloyd/yajl) - A fast streaming JSON parsing library in C.
+* [mysqludf/lib_mysqludf_json](https://github.com/mysqludf/lib_mysqludf_json) - A UDF library of functions to map relational data to the JSON format.
 
 ### INI ###
 * [inih][329] - Small and simple INI file parser, good for embedded systems. [``BSD-3-Clause``][BSD-3-Clause]
@@ -1957,6 +1969,7 @@ Libraries for working wit hspecific filetypes
 * [jwerle/fs.c](https://github.com/jwerle/fs.c) - File system API much like Node's fs module
 * [libharu/libharu](https://github.com/libharu/libharu) - libharu - free PDF library
 * [martinh/libconfuse](https://github.com/martinh/libconfuse) - Small configuration file parser library for C.
+* [mw55309/c_fast5](https://github.com/mw55309/c_fast5) - C code to extract data from fast5 files
 
 --------------------------------------------------------------------------------
 
@@ -2112,47 +2125,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [mongrel2/mongrel2](https://github.com/mongrel2/mongrel2) - The Mongrel2 Web Server Project
 
 # Unsorted #
-* [moyix/panda](https://github.com/moyix/panda) - Platform for Architecture-Neutral Dynamic Analysis
-* [mozilla-services/lua_sandbox](https://github.com/mozilla-services/lua_sandbox) - Generic Lua sandbox for dynamic data analysis
-* [mpc-hc/mpc-hc](https://github.com/mpc-hc/mpc-hc) - MPC-HC's main repository.  For support use our Trac: https://trac.mpc-hc.org/
-* [mptre/pick](https://github.com/mptre/pick) - A fuzzy search tool for the command-line
-* [mpx/lua-cjson](https://github.com/mpx/lua-cjson) - Lua CJSON is a fast JSON encoding/parsing module for Lua
-* [mreiferson/php-wkhtmltox](https://github.com/mreiferson/php-wkhtmltox) - PHP bindings for libwkhtmltox
-* [mridgers/clink](https://github.com/mridgers/clink) - Bash's powerful command line editing in cmd.exe
-* [mrkn/ruby-odbc](https://github.com/mrkn/ruby-odbc) - Extension library to use ODBC data sources from Ruby.
-* [mrnugget/data_structures](https://github.com/mrnugget/data_structures) - Implementations of common data structures in C
-* [mruby/mruby](https://github.com/mruby/mruby) - Lightweight Ruby
-* [msanders/autopy](https://github.com/msanders/autopy) - A simple, cross-platform GUI automation toolkit for Python.
-* [msettles/rSFFreader](https://github.com/msettles/rSFFreader) - R packages for flow gram based sequence data Roche 454 and Ion Torrent
-* [msgpack/msgpack-objectivec](https://github.com/msgpack/msgpack-objectivec) - MessagePack serializer implementation for Objective-C / msgpack.org[Objective-C]
-* [msgpack/msgpack-ruby](https://github.com/msgpack/msgpack-ruby) - MessagePack implementation for Ruby / msgpack.org[Ruby]
-* [msteinbeck/tinyspline](https://github.com/msteinbeck/tinyspline) - ANSI C library for NURBS, B-Splines, and Bézier curves with interfaces for C++, C#, D, Java, Lua, Octave, PHP, Python, R, and Ruby
-* [mstiehr-dev/data_dedup](https://github.com/mstiehr-dev/data_dedup) - designed to store a lot of (likely redundant) data for backup purpose. Restore specific files as well.
-* [msysgit/msysgit](https://github.com/msysgit/msysgit) - msysGit has been superseded by Git for Windows 2.x
-* [mtoyoda/sl](https://github.com/mtoyoda/sl) - SL(1): Cure your bad habit of mistyping
-* [mubix/post-exploitation](https://github.com/mubix/post-exploitation) - Post Exploitation Collection
-* [mulle-nat/mulle-allocator](https://github.com/mulle-nat/mulle-allocator) - 🔄 Flexible C memory allocation scheme with leak checking
-* [multipath-tcp/mptcp](https://github.com/multipath-tcp/mptcp) - Linux Kernel implementation of MultiPath TCP
-* [multiwii/baseflight](https://github.com/multiwii/baseflight) - 32 bit fork of the MultiWii RC flight controller firmware
-* [munificent/mark-sweep](https://github.com/munificent/mark-sweep) - A simple mark-sweep garbage collector in C
-* [munificent/wren](https://github.com/munificent/wren) - The Wren Programming Language
-* [mupen64plus/mupen64plus-core](https://github.com/mupen64plus/mupen64plus-core) - Core module of the Mupen64Plus project
-* [muvarov/daq-odp](https://github.com/muvarov/daq-odp) - OpenDataPlane.org (ODP) Data Acquisition module for Snort.
-* [mvp/uhubctl](https://github.com/mvp/uhubctl) - uhubctl - USB hub per-port power control
-* [mw55309/c_fast5](https://github.com/mw55309/c_fast5) - C code to extract data from fast5 files
-* [mwarning/KadNode](https://github.com/mwarning/KadNode) - P2P DNS with content key, crypto key and PKI support. DynDNS alternative.
-* [myafer/OpenSSLApplication](https://github.com/myafer/OpenSSLApplication) - iOS Object-C OC swift RSA加密
-* [mysqludf/lib_mysqludf_json](https://github.com/mysqludf/lib_mysqludf_json) - A UDF library of functions to map relational data to the JSON format.
-* [mzhaom/trunk](https://github.com/mzhaom/trunk) - Make bazel an out of box solution for C++/Java developers
-* [n1ckfg/recKinect](https://github.com/n1ckfg/recKinect) - Utility for recording raw Kinect data; much faster than Processing but binary output must be remapped
-* [n64dev/cen64](https://github.com/n64dev/cen64) - Cycle-Accurate Nintendo 64 Emulator
-* [naelstrof/maim](https://github.com/naelstrof/maim) - maim (make image) takes screenshots of your desktop. It has options to take only a region, and relies on slop to query for regions. maim is supposed to be an improved scrot.
-* [naelstrof/slop](https://github.com/naelstrof/slop) - slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout.
-* [naemon/naemon-core](https://github.com/naemon/naemon-core) - Networks, Applications and Event Monitor
-* [naev/naev](https://github.com/naev/naev) - Naev is a 2d action/rpg space game that combines elements from the action, rpg and simulation genres.
-* [naftaliharris/lazysort](https://github.com/naftaliharris/lazysort) - A partially and lazily sorted list data structure for Python
-* [nanomsg/nanomsg](https://github.com/nanomsg/nanomsg) - nanomsg library
-* [nanopb/nanopb](https://github.com/nanopb/nanopb) - Protocol Buffers with small code size
 * [napsy/libhelper](https://github.com/napsy/libhelper) - General functions and data structures for C
 * [naraing/dsLib](https://github.com/naraing/dsLib) - An algorithm library with core data-sttructures and common algortihm implementations on those data structures
 * [nasa/XPlaneConnect](https://github.com/nasa/XPlaneConnect) - The X-Plane Communications Toolbox is a research tool used to interact with the X-Plane flight simulator
