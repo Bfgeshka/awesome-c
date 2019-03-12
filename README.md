@@ -591,6 +591,7 @@ Incorporated lists:
 * [lotabout/write-a-C-interpreter](https://github.com/lotabout/write-a-C-interpreter) - Write a simple interpreter of C. Inspired by c4 and largely based on it.
 * [lpsantil/rt0](https://github.com/lpsantil/rt0) - A minimal C runtime for Linux i386 & x86_64
 * [marcobambini/gravity](https://github.com/marcobambini/gravity) - Gravity Programming Language
+* [mbedmicro/mbed](https://github.com/mbedmicro/mbed) - mbed libraries and tools
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -877,6 +878,8 @@ Neural nets, machine learning, and other similar things.
 * [hnes/libaco](https://github.com/hnes/libaco) - A blazing fast and lightweight C asymmetric coroutine library  💎 ⛅🚀⛅🌞
 * [jtsiomb/c11threads](https://github.com/jtsiomb/c11threads) - Trivial C11 threads.h implementation over POSIX threads.
 * [kev009/Concurrency-Kit](https://github.com/kev009/Concurrency-Kit) - Concurrency primitives and lock-less data structures
+* [matianfu/FUNK](https://github.com/matianfu/FUNK) - a c continuation library inspired by Adam Dunkel's ProtoThread.
+* [mbrossard/threadpool](https://github.com/mbrossard/threadpool) - A simple C Thread pool implementation
 
 ## Crypto ##
 Mostly library implementations of well-known cryptographic algorithms or
@@ -976,6 +979,7 @@ protocols.
 * [kbranigan/pow](https://github.com/kbranigan/pow) - C datastore/cache for MySQL data
 * [lfittl/libpg_query](https://github.com/lfittl/libpg_query) - C library for accessing the PostgreSQL parser outside of the server environment
 * [maciejczyzewski/hashbase](https://github.com/maciejczyzewski/hashbase) - A fast, efficient on-disk/in-memory database with many different kind of data structures. :floppy_disk:
+* [maxmind/libmaxminddb](https://github.com/maxmind/libmaxminddb) - C library for the MaxMind DB file format
 
 ## Data Structures and Types ##
 * [libhl][58] - Library implementing a thread-safe API to manage a range of data
@@ -1197,6 +1201,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [liballeg/allegro5](https://github.com/liballeg/allegro5) - The official Allegro 5 git repository. Pull requests welcome!
 * [linleyh/liberation-circuit](https://github.com/linleyh/liberation-circuit) - Trapped in a hostile computer system, you must make a way out - RTS/coding game
 * [mainroach/crabby](https://github.com/mainroach/crabby) - A texture compression algorithm for sprite sheets that allows decompression on the GPU during rendering.
+* [martincohen/Punity](https://github.com/martincohen/Punity) - A tiny game engine in C.
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1309,6 +1314,7 @@ can be found in the Crypto section.
 * [clibs/hash](https://github.com/clibs/hash) - C hash implementation based on khash
 * [cr-marcstevens/sha1collisiondetection](https://github.com/cr-marcstevens/sha1collisiondetection) - Library and command line tool to detect SHA-1 collision in a file
 * [lemire/clhash](https://github.com/lemire/clhash) - C library implementing the ridiculously fast CLHash  hashing function
+* [mattsta/crcspeed](https://github.com/mattsta/crcspeed) - This make CRC be fast.  Included implementations: CRC-64-Jones and CRC-16-CCITT
 
 ## Image Processing and Computer Vision ##
 * [ccv][5] - C-based/Cached/Core Computer Vision library; modern computer
@@ -1507,6 +1513,7 @@ Audio and video processing
 * [h2o/picohttpparser](https://github.com/h2o/picohttpparser) - tiny HTTP parser written in C (used in HTTP::Parser::XS et al.)
 * [iafonov/multipart-parser-c](https://github.com/iafonov/multipart-parser-c) - Http multipart parser implemented in C
 * [joyent/http-parser](https://github.com/joyent/http-parser) - http request/response parser for c
+* [zyearn/zaver](https://github.com/zyearn/zaver) - Yet another fast and efficient HTTP server
 
 ### Mail ###
 * [LibEtPan][233] - Mail library providing an efficient network for IMAP, SMTP,
@@ -1634,6 +1641,7 @@ Audio and video processing
 * [fancycode/MemoryModule](https://github.com/fancycode/MemoryModule) - Library to load a DLL from memory.
 * [gentilkiwi/kekeo](https://github.com/gentilkiwi/kekeo) - A little toolbox to play with Microsoft Kerberos in C
 * [jimon/osx_app_in_plain_c](https://github.com/jimon/osx_app_in_plain_c) - A simple showcase how to create a simple OS X app in plain C without any Objective-C
+* [martinezjavier/ldd3](https://github.com/martinezjavier/ldd3) - Linux Device Drivers 3 examples updated to work in recent kernels
 
 ## Procedural Generation ##
 * [heman][382] - Tiny library of image utilities dealing with height maps,
@@ -1658,6 +1666,7 @@ Audio and video processing
 * [cesanta/slre](https://github.com/cesanta/slre) - Super Light Regexp engine for C/C++
 * [k-takata/Onigmo](https://github.com/k-takata/Onigmo) - Onigmo is a regular expressions library forked from Oniguruma.
 * [kkos/oniguruma](https://github.com/kkos/oniguruma) - regular expression library
+* [mbornet-hl/hl](https://github.com/mbornet-hl/hl) - Highlight (colorize) text data using regular expressions
 
 ## Serialization ##
 * [binn][280] - Binary serialization format, meant to be compact, fast and
@@ -1726,6 +1735,8 @@ Audio and video processing
 * [gingerBill/gb](https://github.com/gingerBill/gb) - gb single-file public domain libraries for C & C++
 * [gozfree/libraries](https://github.com/gozfree/libraries) - Basic libraries all written in c by gozfree, including network, event, config, log, hash, ipc, rpc, mem,  and so on
 * [mackron/dr_libs](https://github.com/mackron/dr_libs) - A collection of public domain single-file libraries for C/C++.
+* [mattiasgustavsson/libs](https://github.com/mattiasgustavsson/libs) - Single-file public domain libraries for C/C++
+* [matteobertozzi/carthage](https://github.com/matteobertozzi/carthage) - Pure C Data Structure and Utils
 
 ## Special Purpose ##
 * [Tulip Indicators][394] - Library of functions for technical analysis of
@@ -1760,6 +1771,7 @@ Audio and video processing
 * [jgarzik/picocoin](https://github.com/jgarzik/picocoin) - A bitcoin library in C, SPV wallet & more.
 * [libtrading/libtrading](https://github.com/libtrading/libtrading) - Libtrading, an ultra low-latency trading connectivity library for C and C++.
 * [lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) - Ip2region is a offline IP location library with accuracy rate of 99.9% and 0.0x millseconds searching performance. DB file is less then 5Mb with all ip address stored. binding for Java,PHP,C,Python,Nodejs,Golang,C#,lua. Binary,B-tree,Memory searching algorithm
+* [maxmind/geoip-api-c](https://github.com/maxmind/geoip-api-c) - GeoIP Legacy C API
 
 ## Standard Libraries ##
 Implementations of the C standarts
@@ -1781,6 +1793,7 @@ Implementations of the C standarts
 * [glibc](http://www.gnu.org/software/libc/) - The GNU C Library; an implementation of the C standard library. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
 * [musl](http://www.musl-libc.org/) - Standard C library, compatible with POSIX 2008 and C11. Designed for static linking. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
 * [NuxiNL/cloudlibc](https://github.com/NuxiNL/cloudlibc) - CloudABI's standard C library
+* [marssaxman/startc](https://github.com/marssaxman/startc) - minimal freestanding C library for bare-metal i386 development
 
 ## String Manipulation ##
 * [bstring][309] - The Better String Library. [``BSD-3-Clause``][BSD-3-Clause]
@@ -1918,6 +1931,7 @@ Libraries for working wit hspecific filetypes
 * [jmcnamara/libxlsxwriter](https://github.com/jmcnamara/libxlsxwriter) - A C library for creating Excel XLSX files.
 * [jwerle/fs.c](https://github.com/jwerle/fs.c) - File system API much like Node's fs module
 * [libharu/libharu](https://github.com/libharu/libharu) - libharu - free PDF library
+* [martinh/libconfuse](https://github.com/martinh/libconfuse) - Small configuration file parser library for C.
 
 --------------------------------------------------------------------------------
 
@@ -1956,6 +1970,8 @@ Libraries for working wit hspecific filetypes
 * [joewalnes/tinytest](https://github.com/joewalnes/tinytest) - A tiny unit-testing framework for C
 * [libcheck/check](https://github.com/libcheck/check) - A unit testing framework for C
 * [lpabon/cmockery2](https://github.com/lpabon/cmockery2) - Reviving cmockery unit test framework from Google
+* [mcandre/qc](https://github.com/mcandre/qc) - qc - A C port of the QuickCheck unit test framework
+* [mchochlov/Gnucash](https://github.com/mchochlov/Gnucash) - Data model unit testing - GSoC 2011
 
 ## TUI ##
 Textual User Interface
@@ -2067,48 +2083,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [luohaha/CSpider](https://github.com/luohaha/CSpider) - A scalable and convenient crawler framework in C:).
 
 # Unsorted #
-* [mariokonrad/grib](https://github.com/mariokonrad/grib) - GRIB data access
-* [mariusae/heapster](https://github.com/mariusae/heapster) - production heap profiling for the JVM.  compatible with google-perftools.
-* [markjasonanderson/wiegand-linux](https://github.com/markjasonanderson/wiegand-linux) - Linux driver for reading wiegand data from GPIO. Tested  for ARM 9G20 (linux stamp)
-* [marssaxman/startc](https://github.com/marssaxman/startc) - minimal freestanding C library for bare-metal i386 development
-* [martanne/vis](https://github.com/martanne/vis) - A vi-like editor based on Plan 9's structural regular expressions
-* [martincohen/Punity](https://github.com/martincohen/Punity) - A tiny game engine in C.
-* [martinezjavier/ldd3](https://github.com/martinezjavier/ldd3) - Linux Device Drivers 3 examples updated to work in recent kernels
-* [martinh/libconfuse](https://github.com/martinh/libconfuse) - Small configuration file parser library for C.
-* [masterzen/nginx-upload-progress-module](https://github.com/masterzen/nginx-upload-progress-module) - Nginx module implementing an upload progress system, that monitors RFC1867 POST uploads as they are transmitted to upstream servers.
-* [mate-desktop/caja](https://github.com/mate-desktop/caja) - Caja, the file manager for the MATE desktop
-* [matianfu/FUNK](https://github.com/matianfu/FUNK) - a c continuation library inspired by Adam Dunkel's ProtoThread.
-* [matildah/fastcat](https://github.com/matildah/fastcat) - netcat-like thing that uses the linux syscall splice(2) to avoid overhead from copying data from kernelspace/userspace
-* [matricks/teeworlds](https://github.com/matricks/teeworlds) - A retro multiplayer shooter
-* [matsumoto-r/ngx_mruby](https://github.com/matsumoto-r/ngx_mruby) - ngx_mruby - A Fast and Memory-Efficient Web Server Extension Mechanism Using Scripting Language mruby for nginx
-* [mattbornski/cdf](https://github.com/mattbornski/cdf) - A Python package which handles files in NASA Common Data Format
-* [mattconnolly/ZipArchive](https://github.com/mattconnolly/ZipArchive) - zip archive processing for Cocoa - iPhone and OS X
-* [matteobertozzi/blog-code](https://github.com/matteobertozzi/blog-code) - Blog Code
-* [matteobertozzi/carthage](https://github.com/matteobertozzi/carthage) - Pure C Data Structure and Utils
-* [mattfoster/matlab-interpolation-toolkit](https://github.com/mattfoster/matlab-interpolation-toolkit) - A matlab toolkit for interpolating scattered data in interesting ways.
-* [mattgodbolt/zindex](https://github.com/mattgodbolt/zindex) - Create an index on a compressed text file
-* [matthijskooijman/arduino-lmic](https://github.com/matthijskooijman/arduino-lmic) - LoraWAN-in-C library, adapted to run under the Arduino environment
-* [mattiasgustavsson/libs](https://github.com/mattiasgustavsson/libs) - Single-file public domain libraries for C/C++
-* [mattjr/structured](https://github.com/mattjr/structured) - Tools for the Generation and Visualization of Large-scale Three-dimensional Reconstructions from Image Data.
-* [mattn/go-sqlite3](https://github.com/mattn/go-sqlite3) - sqlite3 driver for go that using database/sql
-* [mattsta/crcspeed](https://github.com/mattsta/crcspeed) - This make CRC be fast.  Included implementations: CRC-64-Jones and CRC-16-CCITT
-* [mattt/MsgPackSerialization](https://github.com/mattt/MsgPackSerialization) - MsgPack Serialization for Objective-C
-* [matz/streem](https://github.com/matz/streem) - prototype of stream based programming language
-* [maximeh/tesla](https://github.com/maximeh/tesla) - Grab data from an OWL-CM160 and generate graph using RRD
-* [maxmind/geoip-api-c](https://github.com/maxmind/geoip-api-c) - GeoIP Legacy C API
-* [maxmind/libmaxminddb](https://github.com/maxmind/libmaxminddb) - C library for the MaxMind DB file format
-* [mback2k/wireshark-amf](https://github.com/mback2k/wireshark-amf) - Wireshark dissector for the Action Message Format data protocol and representation
-* [mbebenita/Broadway](https://github.com/mbebenita/Broadway) - A JavaScript H.264 decoder.
-* [mbeddr/mbeddr.core](https://github.com/mbeddr/mbeddr.core) - The mbeddr core. An extensible C
-* [mbedmicro/CMSIS-DAP](https://github.com/mbedmicro/CMSIS-DAP) - Interface Firmware providing USB CMSIS-DAP for debugging, USB MSD for programming, USB Serial for communication.
-* [mbedmicro/mbed](https://github.com/mbedmicro/mbed) - mbed libraries and tools
-* [mbornet-hl/hl](https://github.com/mbornet-hl/hl) - Highlight (colorize) text data using regular expressions
-* [mbrazeau/Morphy](https://github.com/mbrazeau/Morphy) - Phylogenetic analysis of morphological data
-* [mbrossard/threadpool](https://github.com/mbrossard/threadpool) - A simple C Thread pool implementation
-* [mbykov/diglossa.data](https://github.com/mbykov/diglossa.data) - texts for diglossa.org
-* [mcandre/qc](https://github.com/mcandre/qc) - qc - A C port of the QuickCheck unit test framework
-* [mchck/mchck](https://github.com/mchck/mchck) - MC HCK, the small and cheap microcontroller board!
-* [mchochlov/Gnucash](https://github.com/mchochlov/Gnucash) - Data model unit testing - GSoC 2011
 * [mclap/tdsproxy](https://github.com/mclap/tdsproxy) - tabular data stream (TDS) proxy server
 * [mcxiaoke/dsaac](https://github.com/mcxiaoke/dsaac) - Learn Data Structures and Algorithm Analysis in C
 * [mdaines/viz.js](https://github.com/mdaines/viz.js) - A hack to put GraphViz on the web.
@@ -3218,7 +3192,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [zsummer/zsummerX](https://github.com/zsummer/zsummerX) - zsummerX is a cross-platform C++ high performance lightweight network library. via IOCP/EPOLL/SELECT.
 * [zupet/LuaTinker](https://github.com/zupet/LuaTinker) - LUA to C++ Binding Library
 * [zwdzwd/biscuit](https://github.com/zwdzwd/biscuit) - a little tool for bisulfite data
-* [zyearn/zaver](https://github.com/zyearn/zaver) - Yet another fast and efficient HTTP server
 
 
 
