@@ -197,6 +197,7 @@ Incorporated lists:
 * [andrewchambers/c](https://github.com/andrewchambers/c) - small self hosting C compiler
 * [cc65/cc65](https://github.com/cc65/cc65) - cc65 - a freeware C compiler for 6502 based systems —
 * [drh/lcc](https://github.com/drh/lcc) - The lcc retargetable ANSI C compiler
+* [jserv/amacc](https://github.com/jserv/amacc) - Small C Compiler generating ELF executable for Arm architecture
 
 [3-1]: https://gcc.gnu.org/
 [3-2]: https://clang.llvm.org/
@@ -641,6 +642,7 @@ Neural nets, machine learning, and other similar things.
 * [duckythescientist/obfuscatedLife](https://github.com/duckythescientist/obfuscatedLife) - Conway's Game of Life in 9 lines of C
 * [jmcejuela/Levenshtein-MySQL-UDF](https://github.com/jmcejuela/Levenshtein-MySQL-UDF) - General Levenshtein algorithm and k-bounded levenshtein distance in linear time and constant space. Implementation in C as a MySQL UDF
 * [jobovy/extreme-deconvolution](https://github.com/jobovy/extreme-deconvolution) - Density estimation using Gaussian mixtures in the presence of noisy, heterogeneous and incomplete data
+* [jrd730/WordFinder](https://github.com/jrd730/WordFinder) - a data structure that specializes in rapidly finding valid anagrams of strings
 
 ## Argument Parsing ##
 * [parg][410] - A single-file reimplementation of ``getopt`` with better
@@ -1014,6 +1016,9 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [jaimz/core_ds](https://github.com/jaimz/core_ds) - Simple C data structure library
 * [jarun/dslib](https://github.com/jarun/dslib) - A library of handy data structures
 * [johnj/llds](https://github.com/johnj/llds) - Low-Level Data Structure - efficient data structures, and fast data access in the 2.6/3.0 kernel
+* [joshdk/libmap](https://github.com/joshdk/libmap) - A map (data structure) library written in c
+* [jtsiomb/kdtree](https://github.com/jtsiomb/kdtree) - A simple C library for working with KD-Trees
+* [jsvennevid/filearchive](https://github.com/jsvennevid/filearchive) - File archive library allowing for easy creation and access to data stored inside a container through a simple API.
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1023,6 +1028,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [libevent][400] - Event loop replacement for network servers. [``BSD-3-Clause``][BSD-3-Clause]
 * [Lupus/libevfibers](https://github.com/Lupus/libevfibers) - Small C fiber library that uses libev based event loop and libcoro based coroutine context switching.
 * [facebook/libphenom](https://github.com/facebook/libphenom) - An eventing framework for building high performance and high scalability systems in C.
+* [joyent/libuv](https://github.com/joyent/libuv) - Go to
 
 ## FFI ##
 Foreign function interfaces, also know as binding interfaces.
@@ -1175,6 +1181,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [grz0zrg/fbg](https://github.com/grz0zrg/fbg) - Lightweight C 2D graphics API agnostic library with parallelism support
 * [grimfang4/sdl-gpu](https://github.com/grimfang4/sdl-gpu) - A library for high-performance, modern 2D graphics with SDL written in C.
 * [ileben/ShivaVG](https://github.com/ileben/ShivaVG) - OpenGL based ANSI C implementation of the OpenVG standard.
+* [jpbruyere/vkvg](https://github.com/jpbruyere/vkvg) - Vulkan vector drawing, try to stay close to cairo api
 
 ## GUI ##
 * [GTK+][206] - Cross-platform widget toolkit. [``LGPL-2.1-only``][LGPL-2.1-only]
@@ -1432,6 +1439,7 @@ Audio and video processing
 * [h2o/h2o](https://github.com/h2o/h2o) - H2O - the optimized HTTP/1, HTTP/2 server
 * [h2o/picohttpparser](https://github.com/h2o/picohttpparser) - tiny HTTP parser written in C (used in HTTP::Parser::XS et al.)
 * [iafonov/multipart-parser-c](https://github.com/iafonov/multipart-parser-c) - Http multipart parser implemented in C
+* [joyent/http-parser](https://github.com/joyent/http-parser) - http request/response parser for c
 
 ### Mail ###
 * [LibEtPan][233] - Mail library providing an efficient network for IMAP, SMTP,
@@ -1730,6 +1738,7 @@ Implementations of the C standarts
 * [flori/amatch](https://github.com/flori/amatch) - Approximate String Matching library
 * [fontforge/libuninameslist](https://github.com/fontforge/libuninameslist) - A library with a large (sparse) array mapping each unicode code point to the annotation data for it provided in http://www.unicode.org/Public/UNIDATA/NamesList.txt
 * [jasonmaclafferty/String](https://github.com/jasonmaclafferty/String) - A dynamic string data type implementation for C.
+* [josephg/librope](https://github.com/josephg/librope) - UTF-8 rope library for C
 
 ## Structured File Processing ##
 Libraries for working wit hspecific filetypes
@@ -1767,6 +1776,7 @@ Libraries for working wit hspecific filetypes
 * [cesanta/frozen](https://github.com/cesanta/frozen) - JSON parser and generator for C/C++ with scanf/printf like interface. Targeting embedded systems.
 * [cloudflare/lua-resty-json](https://github.com/cloudflare/lua-resty-json) - json lib for lua and C
 * [esnme/ultrajson](https://github.com/esnme/ultrajson) - Ultra fast JSON decoder and encoder written in C with Python bindings
+* [json-c/json-c](https://github.com/json-c/json-c) - https://github.com/json-c/json-c is the official code repository for json-c.  See the wiki for release tarballs for download.  API docs at http://json-c.github.io/json-c/
 
 ### INI ###
 * [inih][329] - Small and simple INI file parser, good for embedded systems. [``BSD-3-Clause``][BSD-3-Clause]
@@ -1906,6 +1916,7 @@ Comprehensive and integrated solutions for building web application in C.
 * [haywire/haywire](https://github.com/haywire/haywire) - Haywire is an asynchronous HTTP server framework written in C that's built using the event loop based libuv platform layer that node.js is built on top of.
 * [iafonov/cosmonaut](https://github.com/iafonov/cosmonaut) - Fast web server & micro framework implemented in C. Just for fun.
 * [it4e/CHL](https://github.com/it4e/CHL) - C Hypertext Library - A library for writing web applications in C
+* [jorisvink/kore](https://github.com/jorisvink/kore) - An easy to use, scalable and secure web application framework for writing web APIs in C. || This is a read-only mirror, please see https://kore.io/mail and https://kore.io/source for information on how to contribute via the mailing lists.
 
 ## Web Service APIs ##
 * [twitc][426] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
@@ -1954,40 +1965,9 @@ Comprehensive and integrated solutions for building web application in C.
 * [hroptatyr/uterus](https://github.com/hroptatyr/uterus) - universal tick encoder library to efficiently transport huge amounts of tick data
 * [htacg/tidy-html5](https://github.com/htacg/tidy-html5) - The granddaddy of HTML tools, with support for modern standards
 * [jkff/scrunch](https://github.com/jkff/scrunch) - Stream cruncher - data stream algorithms
+* [jonpe960/ufsm](https://github.com/jonpe960/ufsm) - UML Statechart library in C and XMI importer
 
 # Unsorted #
-* [jonls/redshift](https://github.com/jonls/redshift) - Redshift adjusts the color temperature of your screen according to your surroundings. This may help your eyes hurt less if you are working in front of the screen at night.
-* [jonpe960/ufsm](https://github.com/jonpe960/ufsm) - UML Statechart library in C and XMI importer
-* [jorisvink/kore](https://github.com/jorisvink/kore) - An easy to use, scalable and secure web application framework for writing web APIs in C. || This is a read-only mirror, please see https://kore.io/mail and https://kore.io/source for information on how to contribute via the mailing lists.
-* [josephg/librope](https://github.com/josephg/librope) - UTF-8 rope library for C
-* [joshdk/libmap](https://github.com/joshdk/libmap) - A map (data structure) library written in c
-* [jourlin/WebCrawler](https://github.com/jourlin/WebCrawler) - An academic open source and open data web crawler
-* [joyent/http-parser](https://github.com/joyent/http-parser) - http request/response parser for c
-* [joyent/illumos-kvm-cmd](https://github.com/joyent/illumos-kvm-cmd) - qemu-kvm for illumos-kvm
-* [joyent/libuv](https://github.com/joyent/libuv) - Go to
-* [joyent/smartos-live](https://github.com/joyent/smartos-live) - For more information, please see http://smartos.org/  For any questions that aren't answered there, please join the SmartOS discussion list: http://smartos.org/smartos-mailing-list/
-* [joyent/v8plus](https://github.com/joyent/v8plus) - Node.js native add-ons in C
-* [jp9000/OBS](https://github.com/jp9000/OBS) - Open Broadcaster Software
-* [jp9000/obs-studio](https://github.com/jp9000/obs-studio) - OBS
-* [jpbruyere/vkvg](https://github.com/jpbruyere/vkvg) - Vulkan vector drawing, try to stay close to cairo api
-* [jpiper/pyDNase](https://github.com/jpiper/pyDNase) - Python module for the easy handling and analysis of DNase-seq data
-* [jpmens/mqtt-chronos](https://github.com/jpmens/mqtt-chronos) - Periodically submit time/date-related data to an MQTT broker
-* [jpmens/powerdns-datacheck](https://github.com/jpmens/powerdns-datacheck) - MySQL UDF to check data in PowerDNS tables
-* [jpountz/lz4-java](https://github.com/jpountz/lz4-java) - LZ4 compression for Java
-* [jpr5/ngrep](https://github.com/jpr5/ngrep) - ngrep strives to provide most of GNU grep's common features, applying them to the network layer. ngrep is a pcap-aware tool that will allow you to specify extended regular expressions to match against data payloads of packets.
-* [jrd730/WordFinder](https://github.com/jrd730/WordFinder) - a data structure that specializes in rapidly finding valid anagrams of strings
-* [jrfoell/campfire-libpurple](https://github.com/jrfoell/campfire-libpurple) - A Campfire protocol plugin for libpurple (Pidgin)
-* [jrudolph/java-direct-data-store](https://github.com/jrudolph/java-direct-data-store) - An experiment to dump Java objects into a memory-mapped data store accessible without (de)serialization
-* [jserv/amacc](https://github.com/jserv/amacc) - Small C Compiler generating ELF executable for Arm architecture
-* [jserv/facebooc](https://github.com/jserv/facebooc) - Yet another Facebook clone written in C
-* [json-c/json-c](https://github.com/json-c/json-c) - https://github.com/json-c/json-c is the official code repository for json-c.  See the wiki for release tarballs for download.  API docs at http://json-c.github.io/json-c/
-* [jssjr/collectd-write_graphite](https://github.com/jssjr/collectd-write_graphite) - Graphite output plugin for collectd
-* [jstasiak/asterisk-chan-dongle](https://github.com/jstasiak/asterisk-chan-dongle) - Mirror of SVN-based "asterisk's huawei 3g dongle channel driver" project with my Asterisk 10 and 11 compatibility patches (asterisk10 and asterisk11 branches)
-* [jstjohn/SimSeq](https://github.com/jstjohn/SimSeq) - An illumina paired-end and mate-pair short read simulator. This project attempts to model as many of the quirks that exist in Illumina data as possible. Some of these quirks include the potential for chimeric reads, and non-biotinylated fragment pull down in mate-pair libraries . Additionally the program provides the ability to model both site and base specific error, and scripts are provided to train this error model on real datasets. My hope in creating this program is to generate as realistic data as possible to assist in assessing the accuracy of genome assembly tools.
-* [jsvennevid/filearchive](https://github.com/jsvennevid/filearchive) - File archive library allowing for easy creation and access to data stored inside a container through a simple API.
-* [jtauber/cleese](https://github.com/jtauber/cleese) - an operating system in Python
-* [jtsiomb/kdtree](https://github.com/jtsiomb/kdtree) - A simple C library for working with KD-Trees
-* [juanmirocks/Levenshtein-MySQL-UDF](https://github.com/juanmirocks/Levenshtein-MySQL-UDF) - General Levenshtein algorithm and k-bounded levenshtein distance in linear time and constant space. Implementation in C as a MySQL UDF
 * [juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders) - C, C++ headers and C# classes for icon fonts: Font Awesome, Fork Awesome, Material Design, Material Design icons, Kenney game icons and Ionicons
 * [julycoding/The-Art-Of-Programming-By-July](https://github.com/julycoding/The-Art-Of-Programming-By-July) - 此为《编程之法：面试和算法心得》一书2014年6月老版本的原型，最新完整纸质版于2015年9月上市！
 * [justinmeza/lci](https://github.com/justinmeza/lci) - A LOLCODE interpreter written in C.
