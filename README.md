@@ -581,6 +581,7 @@ Incorporated lists:
 * [kev009/cii](https://github.com/kev009/cii) - libcii ported to Autotools/libtool - D. R. Hanson's C Interfaces and Implementations
 * [kevinlawler/kona](https://github.com/kevinlawler/kona) - Open-source implementation of the K programming language
 * [kframework/c-semantics](https://github.com/kframework/c-semantics) - Semantics of C in K
+* [klange/toaruos](https://github.com/klange/toaruos) - A completely-from-scratch hobby operating system: bootloader, kernel, drivers, C library, and userspace including a composited graphical UI, dynamic linker, syntax-highlighting text editor, network stack, etc.
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -618,6 +619,7 @@ Neural nets, machine learning, and other similar things.
 * [encog/encog-c](https://github.com/encog/encog-c) - The Encog project for C/C++
 * [glouw/tinn](https://github.com/glouw/tinn) - The tiny neural network library
 * [iunderstand/SWE](https://github.com/iunderstand/SWE) - SWE Toolkit. Learning Semantic Word Embeddings based on Ordinal Knowledge Constraints. A general framework to incorporate semantic knowledge into the popular data-driven learning process of word vectors. Applications including word similarity, sentence completion, etc. ACL-2015 long paper, Beijing, China
+* [knossos-project/knossos](https://github.com/knossos-project/knossos) - KNOSSOS is a software tool for the visualization and annotation of 3D image data and was developed for the rapid reconstruction of neural morphology and connectivity.
 
 ## Algoritm Implementations ##
 * [sort][434] - Collection of sorting routines, which type-specialize at
@@ -647,6 +649,9 @@ Neural nets, machine learning, and other similar things.
 * [jmcejuela/Levenshtein-MySQL-UDF](https://github.com/jmcejuela/Levenshtein-MySQL-UDF) - General Levenshtein algorithm and k-bounded levenshtein distance in linear time and constant space. Implementation in C as a MySQL UDF
 * [jobovy/extreme-deconvolution](https://github.com/jobovy/extreme-deconvolution) - Density estimation using Gaussian mixtures in the presence of noisy, heterogeneous and incomplete data
 * [jrd730/WordFinder](https://github.com/jrd730/WordFinder) - a data structure that specializes in rapidly finding valid anagrams of strings
+* [kljensen/Gemoda](https://github.com/kljensen/Gemoda) - A generic motif discovery algorithm for sequential data
+* [kokke/tiny-AES-c](https://github.com/kokke/tiny-AES-c) - Small portable AES128/192/256 in C
+* [kokke/tiny-AES128-C](https://github.com/kokke/tiny-AES128-C) - Small portable AES128/192/256 in C
 
 ## Argument Parsing ##
 * [parg][410] - A single-file reimplementation of ``getopt`` with better
@@ -800,6 +805,7 @@ Neural nets, machine learning, and other similar things.
 * [antirez/smaz](https://github.com/antirez/smaz) - Small strings compression library
 * [atomicobject/heatshrink](https://github.com/atomicobject/heatshrink) - data compression library for embedded/real-time systems
 * [centaurean/density](https://github.com/centaurean/density) - Superfast compression library
+* [kiyo-masui/bitshuffle](https://github.com/kiyo-masui/bitshuffle) - Filter for improving compression of typed binary data.
 
 ## Concurrency and Parallelism ##
 * [cchan][52] - Small library for channel constructs for inter-thread
@@ -1294,7 +1300,7 @@ can be found in the Crypto section.
 * [ginsweater/gif-h](https://github.com/ginsweater/gif-h) - Simple C++ one-header library for the creation of animated GIFs from image data.
 * [jcupitt/libvips](https://github.com/jcupitt/libvips) - A fast image processing library with low memory needs.
 
-## Integrated Debugging ##
+## Integrated Debugging and Logging ##
 * [whereami][390] - One-file library for locating the current executable on the
   file system. [``WTFPL``][WTFPL]
 * [zlog][391] - Reliable, pure C logging library. [``LGPL-2.1-only``][LGPL-2.1-only]
@@ -1309,6 +1315,7 @@ can be found in the Crypto section.
 * [cyrus-and/prof](https://github.com/cyrus-and/prof) - Self-contained C/C++ profiler library for Linux
 * [esneider/debug](https://github.com/esneider/debug) - Debugging like a sir (in C)
 * [facebook/liblogfaf](https://github.com/facebook/liblogfaf) - A library that logs messages using non-blocking UDP datagrams.
+* [kmcallister/embedded-breakpoints](https://github.com/kmcallister/embedded-breakpoints) - Embed GDB breakpoints in C source code
 
 ## Lexing and Parsing ##
 Generic lexers and parsers
@@ -1324,6 +1331,7 @@ Generic lexers and parsers
 * [bbu/simple-interpreter](https://github.com/bbu/simple-interpreter) - A hackable and extensible lexer, parser and interpreter for a minimalistic, imperative, C-like language.
 * [burtonsamograd/sxc](https://github.com/burtonsamograd/sxc) - sxc is an 'S-Expression C' transpiler for generating C code using macros written in Common Lisp
 * [dcreager/libpush](https://github.com/dcreager/libpush) - An arrow-based parser combinator library for C
+* [kmussel/Moment](https://github.com/kmussel/Moment) - Natural Language Date Parser Using Lex/Yacc/C
 
 ## Memory Management ##
 * [Boehm GC][212] - Garbage collection for C. Various licenses, all open source.
@@ -1425,6 +1433,7 @@ Audio and video processing
 * [faragon/libsrt](https://github.com/faragon/libsrt) - libsrt is a C library for writing fast and safe C code, faster. It provides string, vector, bit set, set, map, hash set, and hash map handling. Suitable for soft and hard real-time. Allows both heap and stack allocation.  *BETA* (API still can change: suggestions are welcome)
 * [gregvirgin/libcork](https://github.com/gregvirgin/libcork) - A simple, easily embeddable cross-platform C library
 * [happyfish100/libfastcommon](https://github.com/happyfish100/libfastcommon) - c common functions library extracted from my open source project FastDFS. this library is very simple and stable.  functions including: string, logger, chain, hash, socket, ini file reader, base64 encode / decode, url encode / decode, fast timer, skiplist, object pool etc. detail info please see the c header files.
+* [koanlogic/libu](https://github.com/koanlogic/libu) - LibU is a multiplatform utility library written in C, with APIs for handling memory allocation, networking and URI parsing, string manipulation, debugging, and logging in a very compact way, plus many other miscellaneous tasks
 
 ## Networking ##
 ### DNS ###
@@ -1580,7 +1589,7 @@ Audio and video processing
   normal maps, distance fields and the like. [``MIT``][MIT]
 * [JCash/voronoi](https://github.com/JCash/voronoi) - A C implementation for creating 2D voronoi diagrams
 
-## Regex ##
+## Regex and Search ##
 * [Onigmo][275] - Fork of Oniguruma, supporting more advanced regexps. [``BSD-2-Clause``][BSD-2-Clause]
 * [Oniguruma][276] - Regex library supporting a wide range of encodings, and
   incorporating many security-oriented fixes. [``BSD-2-Clause``][BSD-2-Clause]
@@ -1597,6 +1606,7 @@ Audio and video processing
 * [Maxime2/dataparksearch](https://github.com/Maxime2/dataparksearch) - An open source, feature rich search engine.
 * [cesanta/slre](https://github.com/cesanta/slre) - Super Light Regexp engine for C/C++
 * [k-takata/Onigmo](https://github.com/k-takata/Onigmo) - Onigmo is a regular expressions library forked from Oniguruma.
+* [kkos/oniguruma](https://github.com/kkos/oniguruma) - regular expression library
 
 ## Serialization ##
 * [binn][280] - Binary serialization format, meant to be compact, fast and
@@ -1987,29 +1997,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders) - C, C++ headers and C# classes for icon fonts: Font Awesome, Fork Awesome, Material Design, Material Design icons, Kenney game icons and Ionicons
 
 # Unsorted #
-* [kiibohd/controller](https://github.com/kiibohd/controller) - Kiibohd Controller
-* [kinect-team-3/unifying-sensor-api](https://github.com/kinect-team-3/unifying-sensor-api) - Sensor API for data transport
-* [kineme/KinectTools](https://github.com/kineme/KinectTools) - Quartz Composer plugin that retrieves color and depth image data from the Xbox Kinect.
-* [kitsune-dsu/kitsune-core](https://github.com/kitsune-dsu/kitsune-core) - Kitsune runtime, driver, ktcc, xfgen, documentation, and test suite.
-* [kivy/python-for-android](https://github.com/kivy/python-for-android) - Turn your Python application into an Android APK - Build your own python and extension
-* [kiyo-masui/bitshuffle](https://github.com/kiyo-masui/bitshuffle) - Filter for improving compression of typed binary data.
-* [kklis/proxy](https://github.com/kklis/proxy) - TCP proxy in ANSI C
-* [kkos/oniguruma](https://github.com/kkos/oniguruma) - regular expression library
-* [klange/nyancat](https://github.com/klange/nyancat) - Nyancat in your terminal, rendered through ANSI escape sequences. This is the source for the Debian package `nyancat`.
-* [klange/toaruos](https://github.com/klange/toaruos) - A completely-from-scratch hobby operating system: bootloader, kernel, drivers, C library, and userspace including a composited graphical UI, dynamic linker, syntax-highlighting text editor, network stack, etc.
-* [kljensen/Gemoda](https://github.com/kljensen/Gemoda) - A generic motif discovery algorithm for sequential data
-* [kmcallister/embedded-breakpoints](https://github.com/kmcallister/embedded-breakpoints) - Embed GDB breakpoints in C source code
-* [kmike/datrie](https://github.com/kmike/datrie) - Fast, efficiently stored Trie for Python. Uses libdatrie.
-* [kmussel/Moment](https://github.com/kmussel/Moment) - Natural Language Date Parser Using Lex/Yacc/C
-* [knopwob/dunst](https://github.com/knopwob/dunst) - lightweight and customizable notification daemon
-* [knossos-project/knossos](https://github.com/knossos-project/knossos) - KNOSSOS is a software tool for the visualization and annotation of 3D image data and was developed for the rapid reconstruction of neural morphology and connectivity.
-* [ko1/allocation_tracer](https://github.com/ko1/allocation_tracer) - Add ObjectSpace::AllocationTracer module.
-* [koanlogic/libu](https://github.com/koanlogic/libu) - LibU is a multiplatform utility library written in C, with APIs for handling memory allocation, networking and URI parsing, string manipulation, debugging, and logging in a very compact way, plus many other miscellaneous tasks
-* [kohler/gifsicle](https://github.com/kohler/gifsicle) - Gifsicle is a suite of programs for manipulating GIF images and animations.
-* [kohsuke/com4j](https://github.com/kohsuke/com4j) - Type-safe Java/COM binding
-* [kokke/tiny-AES-c](https://github.com/kokke/tiny-AES-c) - Small portable AES128/192/256 in C
-* [kokke/tiny-AES128-C](https://github.com/kokke/tiny-AES128-C) - Small portable AES128/192/256 in C
-* [korczis/foremost](https://github.com/korczis/foremost) - Foremost is a console program to recover files based on their headers, footers, and internal data structures. This process is commonly referred to as data carving. Foremost can work on image files, such as those generated by dd, Safeback, Encase, etc, or directly on a drive. The headers and footers can be specified by a configuration file or you can use command line switches to specify built-in file types. These built-in types look at the data structures of a given file format allowing for a more reliable and faster recovery.  Originally developed by the United States Air Force Office of Special Investigations and The Center for Information Systems Security Studies and Research , foremost has been opened to the general public. We welcome any comments, suggestions, patches, or feedback you have on this program. Please direct all correspondence to namikus@users.sf.net.
 * [koron/cmigemo](https://github.com/koron/cmigemo) - C/Migemo
 * [kosma/minmea](https://github.com/kosma/minmea) - a lightweight GPS NMEA 0183 parser library in pure C
 * [kovidgoyal/html5-parser](https://github.com/kovidgoyal/html5-parser) - Fast C based HTML 5 parsing for python
