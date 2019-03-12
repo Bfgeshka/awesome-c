@@ -327,6 +327,7 @@ Incorporated lists:
 * [YASnippet][9-8] - Emacs code template system, with C templates for common
   snippets. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [YouCompleteMe][9-9] - Code completion engine for Vim. [``GPL-3.0-only``][GPL-3.0-only]
+* [lvzixun/Clang-Complete](https://github.com/lvzixun/Clang-Complete) - a auto complete plugin for sublimetext3
 
 [9-1]: http://freeweb.siol.net/rmihor/NppCCompletionPlugin.zip
 [9-2]: http://cedet.sourceforge.net/
@@ -586,6 +587,8 @@ Incorporated lists:
 * [klange/toaruos](https://github.com/klange/toaruos) - A completely-from-scratch hobby operating system: bootloader, kernel, drivers, C library, and userspace including a composited graphical UI, dynamic linker, syntax-highlighting text editor, network stack, etc.
 * [lbrito1/cstuff](https://github.com/lbrito1/cstuff) - Algorithms & data structures in C
 * [lennylxx/leetcode](https://github.com/lennylxx/leetcode) - Pure C solution for LeetCode
+* [lotabout/write-a-C-interpreter](https://github.com/lotabout/write-a-C-interpreter) - Write a simple interpreter of C. Inspired by c4 and largely based on it.
+* [lpsantil/rt0](https://github.com/lpsantil/rt0) - A minimal C runtime for Linux i386 & x86_64
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -820,6 +823,7 @@ Neural nets, machine learning, and other similar things.
 * [kuba--/zip](https://github.com/kuba--/zip) - A portable, simple zip library written in C
 * [lemire/simdcomp](https://github.com/lemire/simdcomp) - A simple C library for compressing lists of integers using binary packing
 * [libarchive/libarchive](https://github.com/libarchive/libarchive) - Multi-format archive and compression library
+* [lz4/lz4](https://github.com/lz4/lz4) - Extremely Fast Compression algorithm
 
 ## Concurrency and Parallelism ##
 * [cchan][52] - Small library for channel constructs for inter-thread
@@ -1051,6 +1055,8 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [jsvennevid/filearchive](https://github.com/jsvennevid/filearchive) - File archive library allowing for easy creation and access to data stored inside a container through a simple API.
 * [jvirkki/libbloom](https://github.com/jvirkki/libbloom) - A simple and small bloom filter implementation in plain C.
 * [ksheedlo/kmdata](https://github.com/ksheedlo/kmdata) - Data structures for C programmers, by C programmers.
+* [louiswins/RB-Tree](https://github.com/louiswins/RB-Tree) - An implementation of the Red-Black Tree data structure.
+* [livioso/datastructures-in-C](https://github.com/livioso/datastructures-in-C) - Implementation of a some data structures in C for educational purposes. For example featuring a trie implementation in C (inspired by DAS84 "a bit of C") or a XOR linked list.
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1584,6 +1590,7 @@ Audio and video processing
 * [irungentoo/toxcore](https://github.com/irungentoo/toxcore) - The future of online communications.
 * [japeq/bencode-tools](https://github.com/japeq/bencode-tools) - bencode-tools is a collection of tools for manipulating bencoded data.
 * [libssh2/libssh2](https://github.com/libssh2/libssh2) - the SSH library
+* [lsalzman/enet](https://github.com/lsalzman/enet) - ENet reliable UDP networking library
 
 ### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
@@ -1678,6 +1685,7 @@ Audio and video processing
 * [fredrikbk/libpack](https://github.com/fredrikbk/libpack) - Library that packs/serializes or unpacks/deserializes user-defined data layouts. The data layouts are specified using datatypes similar to MPI Datatypes. The library compiles the datatypes into efficient vectorized pack/unpack code at commit time using an LLVM-based online compiler.
 * [google/upb](https://github.com/google/upb) - a small protobuf implementation in C
 * [greghaynes/Afproto](https://github.com/greghaynes/Afproto) - Serial data framing protocol
+* [ludocode/mpack](https://github.com/ludocode/mpack) - MPack - A C encoder/decoder for the MessagePack serialization format / msgpack.org[C]
 
 ## Source Code Collections ##
 * [CCAN][292] - Modelled after Perl's CPAN, this is a big collection of code.
@@ -1937,6 +1945,7 @@ Libraries for working wit hspecific filetypes
 * [compiler-dept/speck](https://github.com/compiler-dept/speck) - A small unit testing framework for C
 * [joewalnes/tinytest](https://github.com/joewalnes/tinytest) - A tiny unit-testing framework for C
 * [libcheck/check](https://github.com/libcheck/check) - A unit testing framework for C
+* [lpabon/cmockery2](https://github.com/lpabon/cmockery2) - Reviving cmockery unit test framework from Google
 
 ## TUI ##
 Textual User Interface
@@ -2041,53 +2050,13 @@ Comprehensive and integrated solutions for building web application in C.
 * [lexborisov/myhtml](https://github.com/lexborisov/myhtml) - Fast C/C++ HTML 5 Parser. Using threads.
 * [libgit2/libgit2](https://github.com/libgit2/libgit2) - The Library
 * [libical/libical](https://github.com/libical/libical) - Libical is an Open Source implementation of the iCalendar protocols and protocol data units.
+* [lopter/lightsd](https://github.com/lopter/lightsd) - A daemon with a JSON-RPC API to control your light bulbs
+* [locasto/libdisorder](https://github.com/locasto/libdisorder) - A simple C library for entropy measurement of byte streams and other data.
+* [lucasb-eyer/heatmap](https://github.com/lucasb-eyer/heatmap) - High performance C heatmap generation library. Supposed to be wrapped by higher-level languages.
+* [luke-jr/bfgminer](https://github.com/luke-jr/bfgminer) - Modular ASIC/FPGA miner written in C, featuring overclocking, monitoring, fan speed control and remote interface capabilities.
+* [luohaha/CSpider](https://github.com/luohaha/CSpider) - A scalable and convenient crawler framework in C:).
 
 # Unsorted #
-* [liudf0716/apfree_wifidog](https://github.com/liudf0716/apfree_wifidog) - Apfree WiFidog is an  efficient captive portal solution for wireless router which with embeded linux(LEDE/Openwrt) system.
-* [liudf0716/xkcptun](https://github.com/liudf0716/xkcptun) - xkcptun is kcp tunnel for OpenWRT&LEDE, implemented in c language
-* [liuliu/ndqi](https://github.com/liuliu/ndqi) - Non-structural Data Query Interface
-* [liuluheng/levmu](https://github.com/liuluheng/levmu) - Based on redis protocol, storing data in leveldb, using muduo for communication
-* [livioso/datastructures-in-C](https://github.com/livioso/datastructures-in-C) - Implementation of a some data structures in C for educational purposes. For example featuring a trie implementation in C (inspired by DAS84 "a bit of C") or a XOR linked list.
-* [liyuming1978/NativeLibCompression](https://github.com/liyuming1978/NativeLibCompression) - The native library compression sdk is given to solve the apk size problem. It is easy to integrate and will get max 50% size decreasing. Not only sdk, a Java tool for package is provided to convert normal apk to compressed apk.  MIT Licence, you can use any where
-* [ljmocic/PJISP](https://github.com/ljmocic/PJISP) - Programming Languages and Data Structures
-* [lkarsten/libvmod-cookie](https://github.com/lkarsten/libvmod-cookie) - A Varnish module for simpler use of the cookie header.
-* [llvm-mirror/compiler-rt](https://github.com/llvm-mirror/compiler-rt) - Mirror of official compiler-rt git repository located at http://llvm.org/git/compiler-rt.  Updated every five minutes.
-* [lneto/luadata](https://github.com/lneto/luadata) - Lua data library
-* [locasto/libdisorder](https://github.com/locasto/libdisorder) - A simple C library for entropy measurement of byte streams and other data.
-* [lopter/lightsd](https://github.com/lopter/lightsd) - A daemon with a JSON-RPC API to control your light bulbs
-* [lotabout/write-a-C-interpreter](https://github.com/lotabout/write-a-C-interpreter) - Write a simple interpreter of C. Inspired by c4 and largely based on it.
-* [louiswins/RB-Tree](https://github.com/louiswins/RB-Tree) - An implementation of the Red-Black Tree data structure.
-* [lp/ObjCHiredis](https://github.com/lp/ObjCHiredis) - Hiredis with Objective-C Interface
-* [lp/pdtest](https://github.com/lp/pdtest) - Pure Data testing external
-* [lp/puredis](https://github.com/lp/puredis) - Pure-Data Redis External
-* [lpabon/cmockery2](https://github.com/lpabon/cmockery2) - Reviving cmockery unit test framework from Google
-* [lpan/viw](https://github.com/lpan/viw) - VI Worsened, a lightweight and fun VI clone.
-* [lpereira/lwan](https://github.com/lpereira/lwan) - Experimental, scalable, high performance HTTP server
-* [lpsantil/rt0](https://github.com/lpsantil/rt0) - A minimal C runtime for Linux i386 & x86_64
-* [lqez/npk](https://github.com/lqez/npk) - neat package system written in C
-* [lqs/crabdb](https://github.com/lqs/crabdb) - CrabDB - a fast, flexible and space-effective database.
-* [lsalzman/enet](https://github.com/lsalzman/enet) - ENet reliable UDP networking library
-* [lthiery/SPI-Py](https://github.com/lthiery/SPI-Py) - Hardware SPI as a C Extension for Python
-* [lua/lua](https://github.com/lua/lua) - Unofficial git history of Lua releases
-* [luarpro/BitmapDataQRCodeScanner](https://github.com/luarpro/BitmapDataQRCodeScanner) - Flash AIR Native Extension:  QRCode reader/decoder which accept BitmapData, therefore you can design your own scanner UI, adding overlay image, without launch  fullscreen native Camera UI
-* [lubyk/lubyk](https://github.com/lubyk/lubyk) - Open source patcher for multimedia projects: glue all this midi, DMX, neural networks, opengl stuff into a fast C++ core with Lua scriptable objects.
-* [lucasb-eyer/heatmap](https://github.com/lucasb-eyer/heatmap) - High performance C heatmap generation library. Supposed to be wrapped by higher-level languages.
-* [lucasjones/cpuminer-multi](https://github.com/lucasjones/cpuminer-multi) - Multi-algo CPUMiner & Reference Cryptonote Miner (JSON-RPC 2.0)
-* [ludocode/mpack](https://github.com/ludocode/mpack) - MPack - A C encoder/decoder for the MessagePack serialization format / msgpack.org[C]
-* [luke-jr/bfgminer](https://github.com/luke-jr/bfgminer) - Modular ASIC/FPGA miner written in C, featuring overclocking, monitoring, fan speed control and remote interface capabilities.
-* [lukeredpath/libPusher](https://github.com/lukeredpath/libPusher) - An Objective-C interface to Pusher (pusherapp.com)
-* [lukeweber/webrtc-jingle-client](https://github.com/lukeweber/webrtc-jingle-client) - Webrtc audio + jingle protocol brought to IOS and Android.
-* [lumpyzhu/nmscc](https://github.com/lumpyzhu/nmscc) - nmscc is a library of C++14 components designed for for scientific computation.
-* [luohaha/CSpider](https://github.com/luohaha/CSpider) - A scalable and convenient crawler framework in C:).
-* [lvzixun/Clang-Complete](https://github.com/lvzixun/Clang-Complete) - a auto complete plugin for sublimetext3
-* [lwfinger/rtl8188eu](https://github.com/lwfinger/rtl8188eu) - Repository for stand-alone RTL8188EU driver.
-* [lwfinger/rtlwifi_new](https://github.com/lwfinger/rtlwifi_new) - A repo for the newest Realtek rtlwifi codes.
-* [lxc/lxc](https://github.com/lxc/lxc) - LXC - Linux Containers
-* [lxc/lxcfs](https://github.com/lxc/lxcfs) - FUSE filesystem for LXC
-* [lyda/tz](https://github.com/lyda/tz) - Historical archive of the zoneinfo project.  Generated from the original data with the tz-history-scripts.
-* [lyjdamzwf/chaos](https://github.com/lyjdamzwf/chaos) - c++ 网络事件库
-* [lyosha/ctags-go](https://github.com/lyosha/ctags-go) - Go support for exuberant ctags
-* [lz4/lz4](https://github.com/lz4/lz4) - Extremely Fast Compression algorithm
 * [m-schmoock/lcpp](https://github.com/m-schmoock/lcpp) - A Lua C PreProcessor
 * [m0nad/Diamorphine](https://github.com/m0nad/Diamorphine) - LKM rootkit for Linux Kernels 2.6.x/3.x/4.x (x86 and x86_64)
 * [m0wfo/cups](https://github.com/m0wfo/cups) - Ruby bridge to CUPS API
