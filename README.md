@@ -577,6 +577,10 @@ Incorporated lists:
 * [jelathro/C](https://github.com/jelathro/C) - C Programming Projects
 * [jnz/q3vm](https://github.com/jnz/q3vm) - Q3VM - Embeddable bytecode virtual machine/interpreter for C-language input
 * [jordansissel/xdotool](https://github.com/jordansissel/xdotool) - fake keyboard/mouse input, window management, and more
+* [justinmeza/lci](https://github.com/justinmeza/lci) - A LOLCODE interpreter written in C.
+* [kev009/cii](https://github.com/kev009/cii) - libcii ported to Autotools/libtool - D. R. Hanson's C Interfaces and Implementations
+* [kevinlawler/kona](https://github.com/kevinlawler/kona) - Open-source implementation of the K programming language
+* [kframework/c-semantics](https://github.com/kframework/c-semantics) - Semantics of C in K
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -739,6 +743,7 @@ Neural nets, machine learning, and other similar things.
 * [google/clspv](https://github.com/google/clspv) - Clspv is a prototype compiler for a subset of OpenCL C to Vulkan compute shaders
 * [imneme/pcg-c-basic](https://github.com/imneme/pcg-c-basic) - PCG — Minimal C Implementation
 * [imneme/pcg-c](https://github.com/imneme/pcg-c) - PCG — C Implementation
+* [karrenberg/wfvopencl](https://github.com/karrenberg/wfvopencl) - IMPORTANT NOTICE: This implementation is long outdated. The latest wfvopencl will be made publicly available with the new libwfv implementation. WFVOpenCL is an OpenCL driver for CPUs on the basis of LLVM. This driver employs Whole-Function Vectorization (WFV) in addition to multi-threading to fully exploit the available data-parallelism by executing as many kernel instances in parallel as possible.
 
 ## Compression ##
 * [blosc][25] - Fast, multi-threaded, meta-compressor library. Various licenses,
@@ -844,6 +849,7 @@ Neural nets, machine learning, and other similar things.
 * [halayli/lthread](https://github.com/halayli/lthread) - lthread, a multicore enabled coroutine library written in C
 * [hnes/libaco](https://github.com/hnes/libaco) - A blazing fast and lightweight C asymmetric coroutine library  💎 ⛅🚀⛅🌞
 * [jtsiomb/c11threads](https://github.com/jtsiomb/c11threads) - Trivial C11 threads.h implementation over POSIX threads.
+* [kev009/Concurrency-Kit](https://github.com/kev009/Concurrency-Kit) - Concurrency primitives and lock-less data structures
 
 ## Crypto ##
 Mostly library implementations of well-known cryptographic algorithms or
@@ -937,6 +943,7 @@ protocols.
 * [edussx/database](https://github.com/edussx/database) - B+tree database
 * [fictorial/logstore](https://github.com/fictorial/logstore) - experimental data storage engine for arbitrary data for POSIX systems with spinning hard disks
 * [grahamking/Key-Value-Polyglot](https://github.com/grahamking/Key-Value-Polyglot) - A basic key-value store, repeated in C, Go, Python (basic, gevent, and diesel), Ruby (event machine), Java, Scala, Haskell, and NodeJS.
+* [kbranigan/pow](https://github.com/kbranigan/pow) - C datastore/cache for MySQL data
 
 ## Data Structures and Types ##
 * [libhl][58] - Library implementing a thread-safe API to manage a range of data
@@ -1019,6 +1026,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [joshdk/libmap](https://github.com/joshdk/libmap) - A map (data structure) library written in c
 * [jtsiomb/kdtree](https://github.com/jtsiomb/kdtree) - A simple C library for working with KD-Trees
 * [jsvennevid/filearchive](https://github.com/jsvennevid/filearchive) - File archive library allowing for easy creation and access to data stored inside a container through a simple API.
+* [jvirkki/libbloom](https://github.com/jvirkki/libbloom) - A simple and small bloom filter implementation in plain C.
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1146,6 +1154,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [id-Software/Quake-III-Arena](https://github.com/id-Software/Quake-III-Arena) - Quake III Arena GPL Source Release
 * [id-Software/Quake](https://github.com/id-Software/Quake) - Quake GPL Source Release
 * [jarikomppa/soloud](https://github.com/jarikomppa/soloud) - Free, easy, portable audio engine for games
+* [keendreams/keen](https://github.com/keendreams/keen) - Keen Dreams on Greenlight!
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1371,6 +1380,7 @@ Audio and video processing
 * [dxjia/ffmpeg-commands-executor-library](https://github.com/dxjia/ffmpeg-commands-executor-library) - execute ffmpeg commands through a jni shared library.
 * [erikd/libsndfile](https://github.com/erikd/libsndfile) - A C library for reading and writing sound files containing sampled audio data..
 * [imankulov/wav2rtp](https://github.com/imankulov/wav2rtp) - wav2rtp is a simple tool intended to convert speech data from wav files to RTP data stream
+* [kfish/libfishsound](https://github.com/kfish/libfishsound) - A simple programming interface for decoding and encoding audio data using Xiph.org codecs (FLAC, Speex and Vorbis)
 
 ## Multiple Purpose Libraries ##
 * [pal][65] - Optimized library for maths, parallel processing and data
@@ -1586,6 +1596,7 @@ Audio and video processing
 * [JazzCore/ctrlp-cmatcher](https://github.com/JazzCore/ctrlp-cmatcher) - CtrlP C matching extension
 * [Maxime2/dataparksearch](https://github.com/Maxime2/dataparksearch) - An open source, feature rich search engine.
 * [cesanta/slre](https://github.com/cesanta/slre) - Super Light Regexp engine for C/C++
+* [k-takata/Onigmo](https://github.com/k-takata/Onigmo) - Onigmo is a regular expressions library forked from Oniguruma.
 
 ## Serialization ##
 * [binn][280] - Binary serialization format, meant to be compact, fast and
@@ -1740,7 +1751,7 @@ Implementations of the C standarts
 * [jasonmaclafferty/String](https://github.com/jasonmaclafferty/String) - A dynamic string data type implementation for C.
 * [josephg/librope](https://github.com/josephg/librope) - UTF-8 rope library for C
 
-## Structured File Processing ##
+## Working With Files ##
 Libraries for working wit hspecific filetypes
 
 ### Binaries ###
@@ -1777,6 +1788,10 @@ Libraries for working wit hspecific filetypes
 * [cloudflare/lua-resty-json](https://github.com/cloudflare/lua-resty-json) - json lib for lua and C
 * [esnme/ultrajson](https://github.com/esnme/ultrajson) - Ultra fast JSON decoder and encoder written in C with Python bindings
 * [json-c/json-c](https://github.com/json-c/json-c) - https://github.com/json-c/json-c is the official code repository for json-c.  See the wiki for release tarballs for download.  API docs at http://json-c.github.io/json-c/
+* [kbranigan/cJSON](https://github.com/kbranigan/cJSON) - I did not write this code, but I like it.
+* [keenerd/jshon](https://github.com/keenerd/jshon) - Jshon is a JSON parser designed for maximum convenience within the shell.
+* [kgabis/parson](https://github.com/kgabis/parson) - Lightweight JSON library written in C.
+* [kevinbirch/kanabo](https://github.com/kevinbirch/kanabo) - query JSON/YAML data with JSONPath
 
 ### INI ###
 * [inih][329] - Small and simple INI file parser, good for embedded systems. [``BSD-3-Clause``][BSD-3-Clause]
@@ -1834,6 +1849,7 @@ Libraries for working wit hspecific filetypes
 * [hyperrealm/libconfig](https://github.com/hyperrealm/libconfig) - C/C++ library for processing configuration files
 * [jedwing/CHMLib](https://github.com/jedwing/CHMLib) - Library for reading Microsoft ITSS/CHM format files.
 * [jmcnamara/libxlsxwriter](https://github.com/jmcnamara/libxlsxwriter) - A C library for creating Excel XLSX files.
+* [jwerle/fs.c](https://github.com/jwerle/fs.c) - File system API much like Node's fs module
 
 --------------------------------------------------------------------------------
 
@@ -1881,6 +1897,7 @@ Textual User Interface
 * [bartobri/bmenu](https://github.com/bartobri/bmenu) - A generic terminal menu written in C.
 * [doches/progressbar](https://github.com/doches/progressbar) - An easy-to-use C library for displaying text progress bars.
 * [hpjansson/chafa](https://github.com/hpjansson/chafa) - 📺🗿 Terminal graphics for the 21st century.
+* [jwerle/progress.c](https://github.com/jwerle/progress.c) - Progress display lib for c
 
 ## Web Frameworks ##
 Comprehensive and integrated solutions for building web application in C.
@@ -1917,6 +1934,7 @@ Comprehensive and integrated solutions for building web application in C.
 * [iafonov/cosmonaut](https://github.com/iafonov/cosmonaut) - Fast web server & micro framework implemented in C. Just for fun.
 * [it4e/CHL](https://github.com/it4e/CHL) - C Hypertext Library - A library for writing web applications in C
 * [jorisvink/kore](https://github.com/jorisvink/kore) - An easy to use, scalable and secure web application framework for writing web APIs in C. || This is a read-only mirror, please see https://kore.io/mail and https://kore.io/source for information on how to contribute via the mailing lists.
+* [kellabyte/Haywire](https://github.com/kellabyte/Haywire) - Haywire is an asynchronous HTTP server framework written in C that's built using the event loop based libuv platform layer that node.js is built on top of.
 
 ## Web Service APIs ##
 * [twitc][426] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
@@ -1966,62 +1984,9 @@ Comprehensive and integrated solutions for building web application in C.
 * [htacg/tidy-html5](https://github.com/htacg/tidy-html5) - The granddaddy of HTML tools, with support for modern standards
 * [jkff/scrunch](https://github.com/jkff/scrunch) - Stream cruncher - data stream algorithms
 * [jonpe960/ufsm](https://github.com/jonpe960/ufsm) - UML Statechart library in C and XMI importer
+* [juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders) - C, C++ headers and C# classes for icon fonts: Font Awesome, Fork Awesome, Material Design, Material Design icons, Kenney game icons and Ionicons
 
 # Unsorted #
-* [juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders) - C, C++ headers and C# classes for icon fonts: Font Awesome, Fork Awesome, Material Design, Material Design icons, Kenney game icons and Ionicons
-* [julycoding/The-Art-Of-Programming-By-July](https://github.com/julycoding/The-Art-Of-Programming-By-July) - 此为《编程之法：面试和算法心得》一书2014年6月老版本的原型，最新完整纸质版于2015年9月上市！
-* [justinmeza/lci](https://github.com/justinmeza/lci) - A LOLCODE interpreter written in C.
-* [justjkk/gtfs2pgrouting](https://github.com/justjkk/gtfs2pgrouting) - Import GTFS data into Postgresql database for use by pgrouting
-* [juuso/keychaindump](https://github.com/juuso/keychaindump) - A proof-of-concept tool for reading OS X keychain passwords
-* [jvimal/perfiso_10g](https://github.com/jvimal/perfiso_10g) - Network Performance Isolation for Data Centres.   WIP: stay tuned!
-* [jvirkki/libbloom](https://github.com/jvirkki/libbloom) - A simple and small bloom filter implementation in plain C.
-* [jvirtanen/dada](https://github.com/jvirtanen/dada) - Generate tabular text data
-* [jwasham/practice-c](https://github.com/jwasham/practice-c) - Part of my daily plan for studying C.
-* [jwerle/fs.c](https://github.com/jwerle/fs.c) - File system API much like Node's fs module
-* [jwerle/progress.c](https://github.com/jwerle/progress.c) - Progress display lib for c
-* [jwiegley/git-scripts](https://github.com/jwiegley/git-scripts) - A bunch of random scripts I've either written, downloaded or clipped from #git.
-* [jwilberding/bcp](https://github.com/jwilberding/bcp) - Broadcast Copy
-* [jwise/ndfslave](https://github.com/jwise/ndfslave) - Tools to pull data off of a NAND flash chip using a Digilent Nexys-2 board.
-* [jwmatthys/kalman-pd](https://github.com/jwmatthys/kalman-pd) - Simple control rate Kalman filter for Pure Data
-* [jwr/msp430_usi_i2c](https://github.com/jwr/msp430_usi_i2c) - I2C for the MSP430 using the USI module
-* [jyr/MNPP](https://github.com/jyr/MNPP) - Mac + Nginx + Percona + PHP a high performance web server in a one-click installer
-* [k-takata/Onigmo](https://github.com/k-takata/Onigmo) - Onigmo is a regular expressions library forked from Oniguruma.
-* [k7f/PureData](https://github.com/k7f/PureData) - branching clone of git://pure-data.git.sourceforge.net/gitroot/pure-data/pure-data
-* [kablaa/CTF-Workshop](https://github.com/kablaa/CTF-Workshop) - Challenges for Binary Exploitation Workshop
-* [kafka399/TwsMongo](https://github.com/kafka399/TwsMongo) - TwsMongo is an example of integration between Mongodb and InteractiveBrokers.com API v.9.66 written in C++. The goal of this application to save high frequency data in Mongodb database.
-* [kaitanie/ruby-cernlib](https://github.com/kaitanie/ruby-cernlib) - Ruby interface to the legacy CERNLIB data analysis libraries
-* [kanoi/cgminer-binaries](https://github.com/kanoi/cgminer-binaries) - cgminer binary downloads for AntMiner, Fedora 18 x86_64, RPi ARM_32, Xubuntu 11.04 x86_64
-* [karelia/CurlHandle](https://github.com/karelia/CurlHandle) - Cocoa Class wrapping libcurl
-* [karelzak/mutt-kz](https://github.com/karelzak/mutt-kz) - mutt with notmuch support and another improvements...
-* [karlstav/cava](https://github.com/karlstav/cava) - Console-based Audio Visualizer for Alsa
-* [karrenberg/wfvopencl](https://github.com/karrenberg/wfvopencl) - IMPORTANT NOTICE: This implementation is long outdated. The latest wfvopencl will be made publicly available with the new libwfv implementation. WFVOpenCL is an OpenCL driver for CPUs on the basis of LLVM. This driver employs Whole-Function Vectorization (WFV) in addition to multi-threading to fully exploit the available data-parallelism by executing as many kernel instances in parallel as possible.
-* [karthick18/inception](https://github.com/karthick18/inception) - Inception movie explained programmatically
-* [kavu/cocoa-go](https://github.com/kavu/cocoa-go) - A simple PoC example of calling Go from Cocoa and vice versa.
-* [kazuho/picogc](https://github.com/kazuho/picogc) - a tiny, portable, precise, mark-and-sweep GC in C++
-* [kbranigan/cJSON](https://github.com/kbranigan/cJSON) - I did not write this code, but I like it.
-* [kbranigan/pow](https://github.com/kbranigan/pow) - C datastore/cache for MySQL data
-* [kbranigan/tubes](https://github.com/kbranigan/tubes) - A series of programs intended for manipulating and handling various data
-* [kdeforche/wt](https://github.com/kdeforche/wt) - Wt, C++ Web Toolkit
-* [keendreams/keen](https://github.com/keendreams/keen) - Keen Dreams on Greenlight!
-* [keenerd/jshon](https://github.com/keenerd/jshon) - Jshon is a JSON parser designed for maximum convenience within the shell.
-* [keenlabs/KeenClient-iOS](https://github.com/keenlabs/KeenClient-iOS) - Official iOS client for the Keen IO API. Build analytics features directly into your iOS apps.
-* [keeshux/basic-blockchain-programming](https://github.com/keeshux/basic-blockchain-programming) - Sample code from my blog series "Basic blockchain programming".
-* [kehribar/usbSerial_benchmark](https://github.com/kehribar/usbSerial_benchmark) - Usb serial data transfer speed calculator & integrity checker
-* [kehribar/xmega_ov7670](https://github.com/kehribar/xmega_ov7670) - OV7670 image sensor data capture with Atxmega32E5 without using external FIFO
-* [kellabyte/Haywire](https://github.com/kellabyte/Haywire) - Haywire is an asynchronous HTTP server framework written in C that's built using the event loop based libuv platform layer that node.js is built on top of.
-* [kelly/node-i2c](https://github.com/kelly/node-i2c) - Node.js native bindings for i2c-dev. Plays well with Raspberry Pi and Beaglebone.
-* [kennytm/iphone-private-frameworks](https://github.com/kennytm/iphone-private-frameworks) - Headers for private frameworks or undocumented interfaces of iPhoneOS 3.x or before (4.x is not supported yet).
-* [ketoo/NoahGameFrame](https://github.com/ketoo/NoahGameFrame) - A fast, scalable, distributed game server framework for C++, include actor library, network library,can be used as a  real time multiplayer game engine ( MMO RPG ), which support C#/Lua script/ Unity3d, and plan to support Cocos2dx, FlashAir client access.
-* [kev009/Concurrency-Kit](https://github.com/kev009/Concurrency-Kit) - Concurrency primitives and lock-less data structures
-* [kev009/cii](https://github.com/kev009/cii) - libcii ported to Autotools/libtool - D. R. Hanson's C Interfaces and Implementations
-* [kev009/craftd](https://github.com/kev009/craftd) - kev009 development repo.  Canonical repo @ craftd/craftd (see project URL)
-* [kevinbirch/kanabo](https://github.com/kevinbirch/kanabo) - query JSON/YAML data with JSONPath
-* [kevinlawler/kona](https://github.com/kevinlawler/kona) - Open-source implementation of the K programming language
-* [kevsmith/erlz](https://github.com/kevsmith/erlz) - Erlang wrapper for the fastlz (LZO-like) data compression library
-* [kfish/libfishsound](https://github.com/kfish/libfishsound) - A simple programming interface for decoding and encoding audio data using Xiph.org codecs (FLAC, Speex and Vorbis)
-* [kframework/c-semantics](https://github.com/kframework/c-semantics) - Semantics of C in K
-* [kgabis/parson](https://github.com/kgabis/parson) - Lightweight JSON library written in C.
-* [kholia/dedrop](https://github.com/kholia/dedrop) - Looking inside the (Drop) box. Security Analysis of Dropbox. Updated WOOT '13 paper and other goodies.
 * [kiibohd/controller](https://github.com/kiibohd/controller) - Kiibohd Controller
 * [kinect-team-3/unifying-sensor-api](https://github.com/kinect-team-3/unifying-sensor-api) - Sensor API for data transport
 * [kineme/KinectTools](https://github.com/kineme/KinectTools) - Quartz Composer plugin that retrieves color and depth image data from the Xbox Kinect.
