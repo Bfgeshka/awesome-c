@@ -605,6 +605,8 @@ Incorporated lists:
 * [nickdesaulniers/bf_interpreter_jit_compiler](https://github.com/nickdesaulniers/bf_interpreter_jit_compiler) - Teach myself about interpreters, JITs, and compilers using the Brainfuck language as the toy language
 * [paladin-t/my_basic](https://github.com/paladin-t/my_basic) - Lightweight BASIC interpreter written in standard C in dual files. Aimed to be embeddable, extendable and portable.
 * [philburk/pforth](https://github.com/philburk/pforth) - Portable Forth in C
+* [pikelang/Pike](https://github.com/pikelang/Pike) - Pike is a dynamic programming language with a syntax similar to Java and C. It is simple to learn, does not require long compilation passes and has powerful built-in data types allowing simple and really fast data manipulation.
+* [pkieltyka/stash](https://github.com/pkieltyka/stash) - Steganography application that hides data within a bitmap image
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -902,6 +904,7 @@ Neural nets, machine learning, and other similar things.
 * [mbrossard/threadpool](https://github.com/mbrossard/threadpool) - A simple C Thread pool implementation
 * [mit-carbon/Flat-Combining](https://github.com/mit-carbon/Flat-Combining) - Traditional data-structure designs, whether lock-based or lock-free, provide parallelism via fine grained synchronization among threads. Flat Combining is a new, efficient synchronization paradigm based on coarse locking.
 * [oneoo/alilua-coevent-module](https://github.com/oneoo/alilua-coevent-module) - epoll base coroutine module
+* [python-greenlet/greenlet](https://github.com/python-greenlet/greenlet) - Lightweight in-process concurrent programming
 
 ## Crypto ##
 Mostly library implementations of well-known cryptographic algorithms or
@@ -956,6 +959,7 @@ protocols.
 * [mikeryan/crackle](https://github.com/mikeryan/crackle) - Crack and decrypt BLE encryption
 * [miracl/MIRACL](https://github.com/miracl/MIRACL) - MIRACL Cryptographic SDK: Multiprecision Integer and Rational Arithmetic Cryptographic Library is a C software library that is widely regarded by developers as the gold standard open source SDK for elliptic curve cryptography (ECC).
 * [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) - C library for quantum-resistant cryptographic algorithms.
+* [pornin/CTTK](https://github.com/pornin/CTTK) - Constant-Time Toolkit
 
 ## Databases ##
 * [BerkeleyDB][83] - Library for a high-performance embedded database for
@@ -1008,6 +1012,7 @@ protocols.
 * [mfragkoulis/PiCO_QL](https://github.com/mfragkoulis/PiCO_QL) - SQL query interface to C++ collections and C data structures. Also configurable as a loadable Linux kernel module and an extension to Valgrind tools.
 * [mongodb/mongo-c-driver-legacy](https://github.com/mongodb/mongo-c-driver-legacy) - C Driver for MongoDB
 * [mongodb/mongo-c-driver](https://github.com/mongodb/mongo-c-driver) - A high-performance MongoDB driver for C
+* [pmwkaa/sophia](https://github.com/pmwkaa/sophia) - modern emeddable key-value database
 
 ## Data Structures and Types ##
 * [libhl][58] - Library implementing a thread-safe API to manage a range of data
@@ -1109,6 +1114,10 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [pcostesi/c-data-structures](https://github.com/pcostesi/c-data-structures) - Simple Data Structures
 * [petewarden/c_hashmap](https://github.com/petewarden/c_hashmap) - A simple string hashmap in C
 * [pforemski/libpjf](https://github.com/pforemski/libpjf) - A C library of data structures with tools (based on libasn)
+* [pi8027/libdatastruct](https://github.com/pi8027/libdatastruct) - libdatastruct is an ANSI C library for abstract data types.
+* [pseudomuto/c-data-structures](https://github.com/pseudomuto/c-data-structures) - A simple library of data structures for C
+* [questor/ringbuffer](https://github.com/questor/ringbuffer) - simple ringbuffer with possibility to get all data and/or only updates
+* [r-medina/ll](https://github.com/r-medina/ll) - Thread safe linked list data structure for C
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1370,6 +1379,7 @@ can be found in the Crypto section.
 * [cr-marcstevens/sha1collisiondetection](https://github.com/cr-marcstevens/sha1collisiondetection) - Library and command line tool to detect SHA-1 collision in a file
 * [lemire/clhash](https://github.com/lemire/clhash) - C library implementing the ridiculously fast CLHash  hashing function
 * [mattsta/crcspeed](https://github.com/mattsta/crcspeed) - This make CRC be fast.  Included implementations: CRC-64-Jones and CRC-16-CCITT
+* [plashchynski/str2hex](https://github.com/plashchynski/str2hex) - Data formats convertion utility
 
 ## Image Processing and Computer Vision ##
 * [ccv][5] - C-based/Cached/Core Computer Vision library; modern computer
@@ -1406,6 +1416,8 @@ can be found in the Crypto section.
 * [jcupitt/libvips](https://github.com/jcupitt/libvips) - A fast image processing library with low memory needs.
 * [mozilla/mozjpeg](https://github.com/mozilla/mozjpeg) - Improved JPEG encoder.
 * [openslide/openslide](https://github.com/openslide/openslide) - C library for reading virtual slide images
+* [pornel/giflossy](https://github.com/pornel/giflossy) - Lossy GIF compressor
+* [pornel/pngquant](https://github.com/pornel/pngquant) - Lossy PNG compressor — pngquant command and libimagequant library
 
 ## Integrated Debugging and Logging ##
 * [whereami][390] - One-file library for locating the current executable on the
@@ -1466,6 +1478,7 @@ Generic lexers and parsers
 * [munificent/mark-sweep](https://github.com/munificent/mark-sweep) - A simple mark-sweep garbage collector in C
 * [ned14/nedmalloc](https://github.com/ned14/nedmalloc) - An EXTREMELY FAST portable thread caching malloc implementation written in C for multiple threads without lock contention based on dlmalloc. Optimised for x86 and x64. Compatible with C++. Can patch itself into existing binaries on Windows.
 * [orangeduck/tgc](https://github.com/orangeduck/tgc) - A Tiny Garbage Collector for C
+* [priitj/whitedb](https://github.com/priitj/whitedb) - WhiteDB memory database
 
 ## Multimedia ##
 Audio and video processing
@@ -1744,6 +1757,7 @@ Audio and video processing
 * [mbornet-hl/hl](https://github.com/mbornet-hl/hl) - Highlight (colorize) text data using regular expressions
 * [mptre/pick](https://github.com/mptre/pick) - A fuzzy search tool for the command-line
 * [openresty/sregex](https://github.com/openresty/sregex) - A non-backtracking NFA/DFA-based Perl-compatible regex engine matching on large data streams
+* [plusvic/yara](https://github.com/plusvic/yara) - The pattern matching swiss knife
 
 ## Serialization ##
 * [binn][280] - Binary serialization format, meant to be compact, fast and
@@ -1818,6 +1832,7 @@ Audio and video processing
 * [napsy/libhelper](https://github.com/napsy/libhelper) - General functions and data structures for C
 * [niklasfrykholm/nflibs](https://github.com/niklasfrykholm/nflibs) - A collection of interoperable minimalistic C libraries
 * [nothings/stb](https://github.com/nothings/stb) - stb single-file public domain libraries for C/C++
+* [prideout/par](https://github.com/prideout/par) - single-file C libraries from Philip Allan Rideout
 
 ## Special Purpose ##
 * [Tulip Indicators][394] - Library of functions for technical analysis of
@@ -1846,6 +1861,7 @@ Audio and video processing
 * [libtrading/libtrading](https://github.com/libtrading/libtrading) - Libtrading, an ultra low-latency trading connectivity library for C and C++.
 * [nayuki/QR-Code-generator](https://github.com/nayuki/QR-Code-generator) - High-quality QR Code generator library in Java, JavaScript, Python, C++, C.
 * [noporpoise/seq_file](https://github.com/noporpoise/seq_file) - Library for Reading Bioinformatic Sequence Data in C
+* [qiq/Czech-morphology](https://github.com/qiq/Czech-morphology) - Czech morphology library, using data files compatible with PDT 2.0
 
 ## Geography ##
 Geodata, street maps, navigation and so on
@@ -1863,6 +1879,7 @@ Geodata, street maps, navigation and so on
 * [navit-gps/navit](https://github.com/navit-gps/navit) - The open source (GPL v2) turn-by-turn navigation software for many OS
 * [lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) - Ip2region is a offline IP location library with accuracy rate of 99.9% and 0.0x millseconds searching performance. DB file is less then 5Mb with all ip address stored. binding for Java,PHP,C,Python,Nodejs,Golang,C#,lua. Binary,B-tree,Memory searching algorithm
 * [openvenues/libpostal](https://github.com/openvenues/libpostal) - A C library for parsing/normalizing street addresses around the world. Powered by statistical NLP and open geo data.
+* [propublica/simple-tiles](https://github.com/propublica/simple-tiles) - Simple tile generation for maps.
 
 ## Standard Libraries ##
 Implementations of the C standarts
@@ -1967,6 +1984,7 @@ Libraries for working wit hspecific filetypes
 * [mysqludf/lib_mysqludf_json](https://github.com/mysqludf/lib_mysqludf_json) - A UDF library of functions to map relational data to the JSON format.
 * [netmail-open/wjelement](https://github.com/netmail-open/wjelement) - advanced, flexible JSON manipulation in C
 * [orangeduck/json2c](https://github.com/orangeduck/json2c) - Convert JSON to C data literals
+* [quartzjer/js0n](https://github.com/quartzjer/js0n) - Flexible Zero-Footprint JSON Parser in C
 
 ### INI ###
 * [inih][329] - Small and simple INI file parser, good for embedded systems. [``BSD-3-Clause``][BSD-3-Clause]
@@ -2071,6 +2089,7 @@ Libraries for working wit hspecific filetypes
 * [mchochlov/Gnucash](https://github.com/mchochlov/Gnucash) - Data model unit testing - GSoC 2011
 * [mortie/snow](https://github.com/mortie/snow) - A testing library for C.
 * [orangeduck/ptest](https://github.com/orangeduck/ptest) - DRY Microtesting Framework for C
+* [pozorvlak/libtap](https://github.com/pozorvlak/libtap) - Testing library for C, implementing the Test Anything Protocol. Written by Nik Clayton.
 
 ## TUI ##
 Textual User Interface
@@ -2193,96 +2212,18 @@ Comprehensive and integrated solutions for building web application in C.
 * [openglsuperbible/sb7code](https://github.com/openglsuperbible/sb7code) - Source code and supporting material for the 7th Edition of OpenGL SuperBible
 * [orlp/ed25519](https://github.com/orlp/ed25519) - Portable C implementation of Ed25519, a high-speed high-security public-key signature system.
 * [parallella/pal](https://github.com/parallella/pal) - An optimized C library for math, parallel processing and data movement
-
-# Unsorted #
-* [php/php-src](https://github.com/php/php-src) - The PHP Interpreter
-* [pi-hole/FTL](https://github.com/pi-hole/FTL) - The Pi-hole FTL engine
-* [pi8027/libdatastruct](https://github.com/pi8027/libdatastruct) - libdatastruct is an ANSI C library for abstract data types.
-* [pikelang/Pike](https://github.com/pikelang/Pike) - Pike is a dynamic programming language with a syntax similar to Java and C. It is simple to learn, does not require long compilation passes and has powerful built-in data types allowing simple and really fast data manipulation.
-* [pimoroni/unicorn-hat](https://github.com/pimoroni/unicorn-hat) - C library, C example and Python wrapper for driving ws2812 pixels from the Raspberry Pi
-* [pipelinedb/pipelinedb](https://github.com/pipelinedb/pipelinedb) - The Streaming SQL Database
-* [pixelnerve/BlockOpenNI](https://github.com/pixelnerve/BlockOpenNI) - A c++ wrapper for OpenNI.
-* [pjotrp/biolib](https://github.com/pjotrp/biolib) - BioLib brings together a set of opensource libraries written in C/C++ and makes them available for all Bio* languages
-* [pkieltyka/stash](https://github.com/pkieltyka/stash) - Steganography application that hides data within a bitmap image
-* [pkmital/StickFigureOSC](https://github.com/pkmital/StickFigureOSC) - Streams PrimeSense NITE's Skeleton Data via OSC (XCode Project)
-* [pkmital/pkmColorBlobTracker](https://github.com/pkmital/pkmColorBlobTracker) - track overhead using color and map tracked points to a new geometry using a homography transformation and calibration routine - some example test videos are provided in the bin/data directory of an overhead capture.  The tracking transformation is useful for when you need a defined metric space of your tracking parameters, or need to account for different user heights in tracking their paths in a space.
 * [pkrumins/bithacks.h](https://github.com/pkrumins/bithacks.h) - bithacks.h is a C header file containing useful bit manipulation macros
-* [pkrumins/node-base64](https://github.com/pkrumins/node-base64) - A base64 encoding and decoding C++ module for node.js that actually works! (node now has it's own base64 encoding, see docs!)
-* [pkrumins/node-png](https://github.com/pkrumins/node-png) - A nodejs C++ module that given a buffer with RGB or RGBA values creates a PNG image (in memory).
-* [planetbeing/iphonelinux](https://github.com/planetbeing/iphonelinux) - Port Linux to the iPhone
-* [planetbeing/xpwn](https://github.com/planetbeing/xpwn) - A cross-platform custom NOR firmware loader and custom IPSW generator for the iPhone
-* [plashchynski/str2hex](https://github.com/plashchynski/str2hex) - Data formats convertion utility
-* [plusvic/yara](https://github.com/plusvic/yara) - The pattern matching swiss knife
-* [pmq20/ruby-compiler](https://github.com/pmq20/ruby-compiler) - Ahead-of-time (AOT) Compiler designed for Ruby, that just works.
-* [pmwkaa/sophia](https://github.com/pmwkaa/sophia) - modern emeddable key-value database
-* [pn2200/g3data](https://github.com/pn2200/g3data) - Grab graph data, a program for extracting data from graphs
-* [pocoproject/poco](https://github.com/pocoproject/poco) - The POCO C++ Libraries are powerful cross-platform C++ libraries for building network- and internet-based applications that run on desktop, server, mobile, IoT, and embedded systems.
-* [pod2g/sendrawpdu](https://github.com/pod2g/sendrawpdu) - CLI tool to send raw SMS PDU data to the iPhone 4 baseband
-* [popoffka/i3lock](https://github.com/popoffka/i3lock) - i3lock is a simple screen locker like slock. This repo contains a patched version of i3lock which displays additional data on the lock screen, such as current time (like this: http://nn.lv/3y1s).
-* [pornel/dssim](https://github.com/pornel/dssim) - Image similarity comparison simulating human perception (multiscale SSIM in C)
-* [pornel/giflossy](https://github.com/pornel/giflossy) - Lossy GIF compressor
-* [pornel/pngquant](https://github.com/pornel/pngquant) - Lossy PNG compressor — pngquant command and libimagequant library
-* [pornin/CTTK](https://github.com/pornin/CTTK) - Constant-Time Toolkit
-* [postgis/postgis](https://github.com/postgis/postgis) - PostGIS spatial database extension to PostgreSQL
-* [postgres/postgres](https://github.com/postgres/postgres) - Mirror of the official PostgreSQL GIT repository. Note that this is just a *mirror* - we don't work with pull requests on github. To contribute, please see http://wiki.postgresql.org/wiki/Submitting_a_Patch
+* [preshing/CompareIntegerMaps](https://github.com/preshing/CompareIntegerMaps) - Generates benchmark data for two different data structures, then renders some graphs.
 * [posva/catimg](https://github.com/posva/catimg) - :squirrel: Insanely fast image printing in your terminal
 * [powturbo/TurboRLE](https://github.com/powturbo/TurboRLE) - Fastest Run Length Encoding
-* [pozorvlak/libtap](https://github.com/pozorvlak/libtap) - Testing library for C, implementing the Test Anything Protocol. Written by Nik Clayton.
-* [pramsey/pgsql-ogr-fdw](https://github.com/pramsey/pgsql-ogr-fdw) - PostgreSQL foreign data wrapper for OGR
-* [preshing/CompareIntegerMaps](https://github.com/preshing/CompareIntegerMaps) - Generates benchmark data for two different data structures, then renders some graphs.
-* [prideout/par](https://github.com/prideout/par) - single-file C libraries from Philip Allan Rideout
-* [priitj/whitedb](https://github.com/priitj/whitedb) - WhiteDB memory database
-* [pritambaral/hostapd-rtl871xdrv](https://github.com/pritambaral/hostapd-rtl871xdrv) - Hostapd driver for RTL8188{C|CU|CUS} wifi chips.
-* [probablycorey/seriously](https://github.com/probablycorey/seriously) - The Objective-C HTTP library that Apple should have created, seriously.
-* [probablycorey/wax](https://github.com/probablycorey/wax) - Wax is now being maintained by alibaba
-* [processhacker/processhacker](https://github.com/processhacker/processhacker) - A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware.
-* [processhacker2/processhacker2](https://github.com/processhacker2/processhacker2) - A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware.
-* [processhacker2/processhacker](https://github.com/processhacker2/processhacker) - A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware.
-* [processone/oneteam](https://github.com/processone/oneteam) - OneTeam XMPP multi-platform client. This is a Mozilla / XUL based platform, developed mostly in Javascript and C++ XPCOM.
-* [proftpd/proftpd](https://github.com/proftpd/proftpd) - ProFTPD source code
-* [programmingthomas/ObjectiveGumbo](https://github.com/programmingthomas/ObjectiveGumbo) - An Objective-C wrapper with utility functions around Gumbo for easy HTML5 parsing in Cocoa and Cocoa Touch
-* [project-imas/security-check](https://github.com/project-imas/security-check) - Application level, attached debug detect and jailbreak checking
-* [projectNe10/Ne10](https://github.com/projectNe10/Ne10) - An open optimized software library project for the ARM® Architecture
-* [proot-me/PRoot](https://github.com/proot-me/PRoot) - chroot, mount --bind, and binfmt_misc without privilege/setup for Linux
-* [propublica/simple-tiles](https://github.com/propublica/simple-tiles) - Simple tile generation for maps.
-* [psankar/simplefs](https://github.com/psankar/simplefs) - A simple, kernel-space, on-disk filesystem from the scratch
-* [pseudomuto/c-data-structures](https://github.com/pseudomuto/c-data-structures) - A simple library of data structures for C
-* [psgroove/psgroove](https://github.com/psgroove/psgroove) - PSGroove
-* [psobot/ipsumcrypt](https://github.com/psobot/ipsumcrypt) - A small C program to embed binary data into the whitespace between words.
-* [psychs/cocoaoniguruma](https://github.com/psychs/cocoaoniguruma) - Objective-C binding of Oniguruma regular expression engine
 * [pudongqi/My_Compiler](https://github.com/pudongqi/My_Compiler) - An open-source projects about how to develop a compiler
-* [puffnfresh/toggle-osx-shadows](https://github.com/puffnfresh/toggle-osx-shadows) - Tiny tool to toggle window shadows on OS X
-* [pure-data/pure-data](https://github.com/pure-data/pure-data) - Pure Data - tracking Miller's SourceForge git repository (also used by libpd)
-* [pusher/libPusher](https://github.com/pusher/libPusher) - An Objective-C interface to Pusher | owner=@TomKemp
-* [pvaret/rtl8192cu-fixes](https://github.com/pvaret/rtl8192cu-fixes) - Realtek 8192 chipset driver, ported to kernel 3.11.
-* [pyca/pynacl](https://github.com/pyca/pynacl) - Python binding to the Networking and Cryptography (NaCl) library
-* [pygame/pygame](https://github.com/pygame/pygame) - pygame (the library) is a Free and Open Source python programming language library for making multimedia applications like games built on top of the excellent SDL library. C, Python, Native, OpenGL.
 * [pyknite/catwm](https://github.com/pyknite/catwm) - catwm is a very simple tiling window manager
-* [pysam-developers/pysam](https://github.com/pysam-developers/pysam) - Pysam is a Python module for reading and manipulating SAM/BAM/VCF/BCF files. It's a lightweight wrapper of the htslib C-API, the same one that powers samtools, bcftools, and tabix.
-* [python-greenlet/greenlet](https://github.com/python-greenlet/greenlet) - Lightweight in-process concurrent programming
-* [q3k/gm_datapack](https://github.com/q3k/gm_datapack) - A binary Lua module for Garry's Mod to tell when a datapack is created.
-* [qayshp/TestDisk](https://github.com/qayshp/TestDisk) - TestDisk is powerful free data recovery software!
-* [qemu/qemu](https://github.com/qemu/qemu) - Official QEMU mirror
-* [qianshanhai/fastwiki](https://github.com/qianshanhai/fastwiki) - Fast offline data reader
-* [qiq/Czech-morphology](https://github.com/qiq/Czech-morphology) - Czech morphology library, using data files compatible with PDT 2.0
-* [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) - keyboard controller firmware for Atmel AVR and ARM USB families
-* [qris/iptables](https://github.com/qris/iptables) - Modified iptables binary for firewall data gathering via JSON
-* [quantcast/qfs](https://github.com/quantcast/qfs) - Quantcast File System
-* [quartzjer/js0n](https://github.com/quartzjer/js0n) - Flexible Zero-Footprint JSON Parser in C
-* [qubodup/freedink-data](https://github.com/qubodup/freedink-data) - freedink-data sound additions. see http://www.freedink.org/ (not my project)
-* [questor/ringbuffer](https://github.com/questor/ringbuffer) - simple ringbuffer with possibility to get all data and/or only updates
-* [r-medina/ll](https://github.com/r-medina/ll) - Thread safe linked list data structure for C
-* [r03ert0/CoactivationMap.app](https://github.com/r03ert0/CoactivationMap.app) - Interactive viewer for the Brain Coactivation Map data
+
+# Unsorted #
 * [r0nk/corvus](https://github.com/r0nk/corvus) - Genetic BF programming
-* [rabbitmq/rabbitmq-c](https://github.com/rabbitmq/rabbitmq-c) - The official rabbitmq-c sources have moved to:
-* [rackerlabs/boot.rackspace.com](https://github.com/rackerlabs/boot.rackspace.com) - Multiple Operating System Installer via iPXE
 * [radare/radare2](https://github.com/radare/radare2) - unix-like reverse engineering framework and commandline tools security
 * [radareorg/r2con](https://github.com/radareorg/r2con) - Radare Congress Stuff
 * [radarsat1/plhm](https://github.com/radarsat1/plhm) - A library and command-line front-end for acquiring data from Polhemus motion tracking devices.
-* [radfordneal/LDPC-codes](https://github.com/radfordneal/LDPC-codes) - Software for Low Density Parity Check codes
-* [radif/SIPHON-SIP-Client-that-actually-compiles](https://github.com/radif/SIPHON-SIP-Client-that-actually-compiles) - SIPHON SIP VOIP Client that actually compiles and runs on ios5 non-jailbroken phones. Works on the device and simulator! (GPL). Here is the original repository: http://code.google.com/p/siphon/
-* [radiofreejohn/cfastread](https://github.com/radiofreejohn/cfastread) - Implementation of the Spritz reading method for command line files
-* [rafael-santiago/pig](https://github.com/rafael-santiago/pig) - A Linux packet crafting tool
 * [rahpaere/dc](https://github.com/rahpaere/dc) - Power grid data collector.
 * [rainkid/dataserv](https://github.com/rainkid/dataserv) - dataserv
 * [rajatkhanduja/Benchmarks](https://github.com/rajatkhanduja/Benchmarks) - Some programs to test the performance of two (or more) methods to achieve the same thing. It could be two (or more) data structures or two (or more) algorithms to solve the same problem
