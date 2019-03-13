@@ -612,6 +612,9 @@ Incorporated lists:
 * [regehr/ub-canaries](https://github.com/regehr/ub-canaries) - collection of C/C++ programs that try to get compilers to exploit undefined behavior
 * [rcr/rirc](https://github.com/rcr/rirc) - A terminal IRC client in C
 * [rebol/rebol](https://github.com/rebol/rebol) - Source code for the Rebol interpreter
+* [reicast/reicast-emulator](https://github.com/reicast/reicast-emulator) - Reicast is a multiplatform Sega Dreamcast emulator
+* [robm/dzen](https://github.com/robm/dzen) - Dzen is a general purpose messaging, notification and menuing program for X11.
+* [riolet/rix](https://github.com/riolet/rix) - Rix language combines the power of C language and the convenience of a high level language
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -692,6 +695,7 @@ Neural nets, machine learning, and other similar things.
 * [msteinbeck/tinyspline](https://github.com/msteinbeck/tinyspline) - ANSI C library for NURBS, B-Splines, and Bézier curves with interfaces for C++, C#, D, Java, Lua, Octave, PHP, Python, R, and Ruby
 * [oap/ekf-angles](https://github.com/oap/ekf-angles) - Extended Kalman Filter for Accelerometer and Gyro data
 * [ntamas/plfit](https://github.com/ntamas/plfit) - Fitting power-law distributions to empirical data, according to the method of Clauset, Shalizi and Newman
+* [richarddurbin/pbwt](https://github.com/richarddurbin/pbwt) - Implementation of Positional Burrows-Wheeler Transform for genetic data
 
 ## Argument Parsing ##
 * [parg][410] - A single-file reimplementation of ``getopt`` with better
@@ -855,6 +859,8 @@ Neural nets, machine learning, and other similar things.
 * [madler/zlib](https://github.com/madler/zlib) - A massively spiffy yet delicately unobtrusive compression library.
 * [mist64/pucrunch](https://github.com/mist64/pucrunch) - pucrunch, an Optimizing Hybrid LZ77 RLE Data Compression Program for C64/C128/VIC-20/Plus4
 * [moinakg/pcompress](https://github.com/moinakg/pcompress) - A Parallelized Data Deduplication and Compression utility
+* [richgel999/miniz](https://github.com/richgel999/miniz) - miniz: Single C source file zlib-replacement library, originally from code.google.com/p/miniz
+* [richox/comprox](https://github.com/richox/comprox) - An experimental lossless data compression program with high compression ratio.
 
 ## Concurrency and Parallelism ##
 * [cchan][52] - Small library for channel constructs for inter-thread
@@ -1126,6 +1132,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [questor/ringbuffer](https://github.com/questor/ringbuffer) - simple ringbuffer with possibility to get all data and/or only updates
 * [r-medina/ll](https://github.com/r-medina/ll) - Thread safe linked list data structure for C
 * [razpeitia/data-structures](https://github.com/razpeitia/data-structures) - Stack, Queue, Binary Tree
+* [rgantt/compsci.c](https://github.com/rgantt/compsci.c) - data structures, algorithms, and musings in C
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1589,6 +1596,7 @@ Audio and video processing
 * [ldns][231] - Library to simplify DNS programming. [``BSD-3-Clause``][BSD-3-Clause]
 * [bagder/c-ares](https://github.com/bagder/c-ares) - c-ares is a C library for asynchronous DNS requests
 * [farsightsec/dnstable](https://github.com/farsightsec/dnstable) - encoding format, library, and utilities for passive DNS data
+* [res0nat0r/tsunami-udp](https://github.com/res0nat0r/tsunami-udp) -  A fast user-space file transfer protocol that uses TCP control and UDP data for transfer over very high speed long distance networks (≥ 1 Gbps and even 10 GE), designed to provide more throughput than possible with TCP over the same networks.
 
 ### HTTP ###
 * [http-parser][230] - HTTP request/response parser. [``MIT``][MIT]
@@ -1812,6 +1820,7 @@ Audio and video processing
 * [greghaynes/Afproto](https://github.com/greghaynes/Afproto) - Serial data framing protocol
 * [ludocode/mpack](https://github.com/ludocode/mpack) - MPack - A C encoder/decoder for the MessagePack serialization format / msgpack.org[C]
 * [nanopb/nanopb](https://github.com/nanopb/nanopb) - Protocol Buffers with small code size
+* [rfk/tnetstring](https://github.com/rfk/tnetstring) - data serialization using typed netstrings
 
 ## Source Code Collections ##
 * [CCAN][292] - Modelled after Perl's CPAN, this is a big collection of code.
@@ -1849,6 +1858,7 @@ Audio and video processing
 * [niklasfrykholm/nflibs](https://github.com/niklasfrykholm/nflibs) - A collection of interoperable minimalistic C libraries
 * [nothings/stb](https://github.com/nothings/stb) - stb single-file public domain libraries for C/C++
 * [prideout/par](https://github.com/prideout/par) - single-file C libraries from Philip Allan Rideout
+* [rmitton/rjm](https://github.com/rmitton/rjm) - Various single-file C libraries.
 
 ## Special Purpose ##
 * [Tulip Indicators][394] - Library of functions for technical analysis of
@@ -2161,6 +2171,8 @@ Comprehensive and integrated solutions for building web application in C.
 * [kellabyte/Haywire](https://github.com/kellabyte/Haywire) - Haywire is an asynchronous HTTP server framework written in C that's built using the event loop based libuv platform layer that node.js is built on top of.
 * [monkey/duda](https://github.com/monkey/duda) - Duda I/O is an event-driven and high performant web services framework which exposes a friendly C API
 * [oneoo/alilua](https://github.com/oneoo/alilua) - epoll/kqueue+lua based web server
+* [riolet/WAFer](https://github.com/riolet/WAFer) - WAFer is a C language-based software platform for scalable server-side and networking applications. Think node.js for C programmers.
+* [riolet/nope.c](https://github.com/riolet/nope.c) - nope.c is a C language-based software platform for scalable server-side and networking applications. Think node.js for C programmers.
 
 ## Web Service APIs ##
 * [twitc][426] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
@@ -2237,40 +2249,16 @@ Comprehensive and integrated solutions for building web application in C.
 * [powturbo/TurboRLE](https://github.com/powturbo/TurboRLE) - Fastest Run Length Encoding
 * [pudongqi/My_Compiler](https://github.com/pudongqi/My_Compiler) - An open-source projects about how to develop a compiler
 * [pyknite/catwm](https://github.com/pyknite/catwm) - catwm is a very simple tiling window manager
-
-# Unsorted #
-* [redxu/sihook](https://github.com/redxu/sihook) - source insight 3.X tabs plugin in c language
-* [reicast/reicast-emulator](https://github.com/reicast/reicast-emulator) - Reicast is a multiplatform Sega Dreamcast emulator
-* [res0nat0r/tsunami-udp](https://github.com/res0nat0r/tsunami-udp) -  A fast user-space file transfer protocol that uses TCP control and UDP data for transfer over very high speed long distance networks (≥ 1 Gbps and even 10 GE), designed to provide more throughput than possible with TCP over the same networks.
-* [retme7/CVE-2014-4322_poc](https://github.com/retme7/CVE-2014-4322_poc) - Gain privileges:system -> root,as a part of  https://github.com/retme7/CVE-2014-7911_poc
 * [retuxx/tinyspline](https://github.com/retuxx/tinyspline) - ANSI C library for NURBS, B-Splines, and Bézier curves with wrappers for C++11, C#, Java, Lua, PHP, Python, and Ruby
 * [reverbrain/eblob](https://github.com/reverbrain/eblob) - Eblob is an append-only low-level IO library, which saves data in blob files. Created as low-level backend for elliptics
 * [reverbrain/smack](https://github.com/reverbrain/smack) - Low-level IO storage which packs data into sorted (zlib/bzip2/snappy compressed) blobs
-* [rfjakob/cshatag](https://github.com/rfjakob/cshatag) - Detect silent data corruption under Linux using checksums in extended attributes
-* [rfk/tnetstring](https://github.com/rfk/tnetstring) - data serialization using typed netstrings
-* [rgantt/compsci.c](https://github.com/rgantt/compsci.c) - data structures, algorithms, and musings in C
-* [rgerganov/footswitch](https://github.com/rgerganov/footswitch) - Command-line utility for PCsensor foot switch
-* [rhomobile/rhodes](https://github.com/rhomobile/rhodes) - The Rhodes framework is a platform for building locally executing, device-optimized mobile applications for all major smartphone devices.
-* [ricardo-rendoncepeda/mtl2opengl](https://github.com/ricardo-rendoncepeda/mtl2opengl) - A perl script for converting .obj and .mtl data files into arrays compatible with OpenGL ES on iOS devices
-* [richarddurbin/pbwt](https://github.com/richarddurbin/pbwt) - Implementation of Positional Burrows-Wheeler Transform for genetic data
-* [richgel999/miniz](https://github.com/richgel999/miniz) - miniz: Single C source file zlib-replacement library, originally from code.google.com/p/miniz
-* [richox/comprox](https://github.com/richox/comprox) - An experimental lossless data compression program with high compression ratio.
-* [ridiculousfish/cdecl-blocks](https://github.com/ridiculousfish/cdecl-blocks) - The venerable cdecl, with Apple blocks support
-* [riolet/WAFer](https://github.com/riolet/WAFer) - WAFer is a C language-based software platform for scalable server-side and networking applications. Think node.js for C programmers.
-* [riolet/nope.c](https://github.com/riolet/nope.c) - nope.c is a C language-based software platform for scalable server-side and networking applications. Think node.js for C programmers.
-* [riolet/rix](https://github.com/riolet/rix) - Rix language combines the power of C language and the convenience of a high level language
+
+# Unsorted #
 * [rjsikarwar/gpu_compression](https://github.com/rjsikarwar/gpu_compression) - Nine Light weight Schemes to Compress and Decompress the data of Database Using GPU and also a planer
 * [rmagick-temp/rmagick](https://github.com/rmagick-temp/rmagick) - An interface to the ImageMagick and GraphicsMagick image processing libraries.
 * [rmccullagh/como-lang-ng](https://github.com/rmccullagh/como-lang-ng) - A programming language prototype implemented in C with an AST, Compiler, and  Virtual Machine \@TODO Garbage Collection
-* [rmitton/rjm](https://github.com/rmitton/rjm) - Various single-file C libraries.
-* [rmtheis/tess-two](https://github.com/rmtheis/tess-two) - Fork of Tesseract Tools for Android.
-* [rnorris/viking](https://github.com/rnorris/viking) - Viking is a free/open source program to manage GPS data (including GPX and KML files). You can import and plot tracks, routes and waypoints, show OpenStreetMaps (OSM), Bing Aerial and other maps, generate Mapnik maps, geotag images, make new tracks, routes and waypoints, see real-time GPS position, etc.  It is written mostly in C with the GTK+ 2 toolkit and some C++.
-* [robertdavidgraham/cve-2015-5477](https://github.com/robertdavidgraham/cve-2015-5477) - PoC exploit for CVE-2015-5477 BIND9 TKEY assertion failure
-* [robertdavidgraham/heartleech](https://github.com/robertdavidgraham/heartleech) - Demonstrates the "heartbleed" problem using full OpenSSL stack
-* [robertdavidgraham/isowall](https://github.com/robertdavidgraham/isowall) - This is a mini-firewall that completely isolates a target device from the local network.
 * [robertdavidgraham/masscan](https://github.com/robertdavidgraham/masscan) - TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes.
 * [robertdavidgraham/robdns](https://github.com/robertdavidgraham/robdns) - A fast DNS server based on C10M principles
-* [robm/dzen](https://github.com/robm/dzen) - Dzen is a general purpose messaging, notification and menuing program for X11.
 * [robmccoll/graphdb-testing](https://github.com/robmccoll/graphdb-testing) - Benchmarking various graph databases, engines, datastructures, and data stores.
 * [roboterclubaachen/xpcc](https://github.com/roboterclubaachen/xpcc) - The C++ microcontroller framework xpcc for AVR and Cortex-M
 * [robotmedia/RMStore](https://github.com/robotmedia/RMStore) - A lightweight iOS library for In-App Purchases
