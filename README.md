@@ -1095,6 +1095,8 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [mrnugget/data_structures](https://github.com/mrnugget/data_structures) - Implementations of common data structures in C
 * [naraing/dsLib](https://github.com/naraing/dsLib) - An algorithm library with core data-sttructures and common algortihm implementations on those data structures
 * [natehardison/data-structures](https://github.com/natehardison/data-structures) - A bunch of data structure implementations, just for fun.
+* [noporpoise/BitArray](https://github.com/noporpoise/BitArray) - C bit array structs and methods
+* [noporpoise/madcrowlib](https://github.com/noporpoise/madcrowlib) - Common C data structure macros
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1106,6 +1108,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [facebook/libphenom](https://github.com/facebook/libphenom) - An eventing framework for building high performance and high scalability systems in C.
 * [joyent/libuv](https://github.com/joyent/libuv) - Go to
 * [libuv/libuv](https://github.com/libuv/libuv) - Cross-platform asychronous I/O
+* [nmathewson/Libevent](https://github.com/nmathewson/Libevent) - Nick's public libevent repository.  The official repository is at         git://levent.git.sourceforge.net/gitroot/levent/libevent
 
 ## FFI ##
 Foreign function interfaces, also know as binding interfaces.
@@ -1402,6 +1405,7 @@ can be found in the Crypto section.
 * [esneider/debug](https://github.com/esneider/debug) - Debugging like a sir (in C)
 * [facebook/liblogfaf](https://github.com/facebook/liblogfaf) - A library that logs messages using non-blocking UDP datagrams.
 * [kmcallister/embedded-breakpoints](https://github.com/kmcallister/embedded-breakpoints) - Embed GDB breakpoints in C source code
+* [ntpeters/SimpleLogger](https://github.com/ntpeters/SimpleLogger) - Basic logger for C and C++ projects
 
 ## Lexing and Parsing ##
 Generic lexers and parsers
@@ -1825,6 +1829,7 @@ Audio and video processing
 * [maxmind/geoip-api-c](https://github.com/maxmind/geoip-api-c) - GeoIP Legacy C API
 * [navit-gps/navit](https://github.com/navit-gps/navit) - The open source (GPL v2) turn-by-turn navigation software for many OS
 * [nayuki/QR-Code-generator](https://github.com/nayuki/QR-Code-generator) - High-quality QR Code generator library in Java, JavaScript, Python, C++, C.
+* [noporpoise/seq_file](https://github.com/noporpoise/seq_file) - Library for Reading Bioinformatic Sequence Data in C
 
 ## Standard Libraries ##
 Implementations of the C standarts
@@ -2042,6 +2047,7 @@ Textual User Interface
 * [doches/progressbar](https://github.com/doches/progressbar) - An easy-to-use C library for displaying text progress bars.
 * [hpjansson/chafa](https://github.com/hpjansson/chafa) - 📺🗿 Terminal graphics for the 21st century.
 * [jwerle/progress.c](https://github.com/jwerle/progress.c) - Progress display lib for c
+* [nsf/termbox](https://github.com/nsf/termbox) - Library for writing text-based user interfaces
 
 ## Web Frameworks ##
 Comprehensive and integrated solutions for building web application in C.
@@ -2142,34 +2148,12 @@ Comprehensive and integrated solutions for building web application in C.
 * [luohaha/CSpider](https://github.com/luohaha/CSpider) - A scalable and convenient crawler framework in C:).
 * [mhroth/tinyosc](https://github.com/mhroth/tinyosc) - A minimal Open Sound Control (OSC) library written in vanilla C.
 * [mongrel2/mongrel2](https://github.com/mongrel2/mongrel2) - The Mongrel2 Web Server Project
-
-# Unsorted #
-* [nightscout/cgm-pebble-splitscreen](https://github.com/nightscout/cgm-pebble-splitscreen) - Pebble app to view data from two nightscout servers .
 * [nikhilm/uvbook](https://github.com/nikhilm/uvbook) - An Introduction to libuv
 * [nitrogenlogic/cliserver](https://github.com/nitrogenlogic/cliserver) - A sample libevent-based network socket server that presents a simple command line interface to multiple connecting clients.
-* [nitrogenlogic/kinradar](https://github.com/nitrogenlogic/kinradar) - Displays a pseudocolor ASCII-art radar-like view of Kinect depth data.
-* [njh/mqtt-sn-tools](https://github.com/njh/mqtt-sn-tools) - Command line tools written in C for the MQTT-SN (MQTT For Sensor Networks) protocol
 * [nlsandler/write_a_c_compiler](https://github.com/nlsandler/write_a_c_compiler) - Test suite to help you write your own C compiler
-* [nmathewson/Libevent](https://github.com/nmathewson/Libevent) - Nick's public libevent repository.  The official repository is at         git://levent.git.sourceforge.net/gitroot/levent/libevent
-* [nodemcu/nodemcu-firmware](https://github.com/nodemcu/nodemcu-firmware) - lua based interactive firmware for mcu like esp8266
-* [nohbdy/libtorchlight2](https://github.com/nohbdy/libtorchlight2) - Library and tools for extracting data from the PAK archives used in the game 'Torchlight 2'
-* [noporpoise/BitArray](https://github.com/noporpoise/BitArray) - C bit array structs and methods
-* [noporpoise/madcrowlib](https://github.com/noporpoise/madcrowlib) - Common C data structure macros
-* [noporpoise/seq_file](https://github.com/noporpoise/seq_file) - Library for Reading Bioinformatic Sequence Data in C
-* [notandy/ympd](https://github.com/notandy/ympd) - Standalone MPD Web GUI written in C, utilizing Websockets and Bootstrap/JS
-* [notro/fbtft](https://github.com/notro/fbtft) - Linux Framebuffer drivers for small TFT LCD display modules
-* [npmccallum/deo](https://github.com/npmccallum/deo) - A service for binding data to networks
-* [nsf/termbox](https://github.com/nsf/termbox) - Library for writing text-based user interfaces
-* [nspire-emus/firebird](https://github.com/nspire-emus/firebird) - Third-party multi-platform emulator of the ARM-based TI-Nspire™ calculators
-* [nst/BatteryChart](https://github.com/nst/BatteryChart) - Drawing iPhone Battery Charge / Discharge
+
+# Unsorted #
 * [ntamas/plfit](https://github.com/ntamas/plfit) - Fitting power-law distributions to empirical data, according to the method of Clauset, Shalizi and Newman
-* [ntpeters/SimpleLogger](https://github.com/ntpeters/SimpleLogger) - Basic logger for C and C++ projects
-* [ntruchsess/arduino_uip](https://github.com/ntruchsess/arduino_uip) - UIPEthernet: A plugin-replacement of the stock Arduino Ethernet library for ENC28J60 shields and breakout boards. Full support for persistent (streaming) TCP-connections and UDP (Client and Server each), ARP, ICMP, DHCP and DNS. Build around Adam Dunkels uIP Stack.
-* [nuko-yokohama/neo4j_fdw](https://github.com/nuko-yokohama/neo4j_fdw) - Graph Database Foreign Data Wrapper for PostgreSQL
-* [numpy/numpy](https://github.com/numpy/numpy) - Numpy main repository
-* [nurupo/vlc-pause-click-plugin](https://github.com/nurupo/vlc-pause-click-plugin) - Plugin for VLC that pauses/plays video on mouse click
-* [nviennot/tmate](https://github.com/nviennot/tmate) - Instant Terminal Sharing
-* [oNaiPs/droidVncServer](https://github.com/oNaiPs/droidVncServer) - VNC server for Android devices.
 * [oap/ekf-angles](https://github.com/oap/ekf-angles) - Extended Kalman Filter for Accelerometer and Gyro data
 * [obdev/v-usb](https://github.com/obdev/v-usb) - A Firmware-Only USB implementation for Atmel's AVR Microcontrollers
 * [obgm/libcoap](https://github.com/obgm/libcoap) - A CoAP (RFC 7252) implementation in C
@@ -2183,7 +2167,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [offensive-security/kali-nethunter](https://github.com/offensive-security/kali-nethunter) - Kali Linux NetHunter
 * [oggy/looksee](https://github.com/oggy/looksee) - Supercharged method introspection in IRB
 * [ohler55/oj](https://github.com/ohler55/oj) - Optimized JSON
-* [ohler55/ox](https://github.com/ohler55/ox) - Ruby Optimized XML Parser
 * [okamstudio/godot](https://github.com/okamstudio/godot) - Godot Game Engine
 * [okbob/plpgsql_check](https://github.com/okbob/plpgsql_check) - plpgsql_check is next generation of plpgsql_lint. It allows to check source code by explicit call plpgsql_check_function.
 * [okbob/pspg](https://github.com/okbob/pspg) - Unix pager designed for work with tables. Designed for PostgreSQL, but MySQL is supported too.
