@@ -1256,6 +1256,8 @@ Foreign function interfaces, also know as binding interfaces.
 * [skeeto/interactive-c-demo](https://github.com/skeeto/interactive-c-demo) - Demonstration of interactive C programming
 * [symisc/PH7](https://github.com/symisc/PH7) - An Embedded Implementation of PHP (C Library)
 * [yasm/yasm](https://github.com/yasm/yasm) - Yasm Assembler mainline development tree
+* [zserge/partcl](https://github.com/zserge/partcl) - ParTcl - a micro Tcl implementation
+* [cesanta/mjs](https://github.com/cesanta/mjs) - Embedded JavaScript engine for C/C++
 
 ## Game Development ##
 Engines, libraries and other helpful things specifically for making games.
@@ -1708,6 +1710,7 @@ Audio and video processing
 * [saprykin/plibsys](https://github.com/saprykin/plibsys) - Highly portable C system library: threads and synchronization primitives, sockets (TCP, UDP, SCTP), IPv4 and IPv6, IPC, hash functions (MD5, SHA-1, SHA-2, SHA-3, GOST), binary trees (RB, AVL) and more. Native code performance.
 * [tboox/tbox](https://github.com/tboox/tbox) - 🎁 A glib-like multi-platform c library
 * [waruqi/tbox](https://github.com/waruqi/tbox) - A glib-like multi-platform c library
+* [zpl-c/zpl](https://github.com/zpl-c/zpl) - 📐 Your C99 Powerkit
 
 ## Networking ##
 ### DNS ###
@@ -1903,6 +1906,7 @@ Audio and video processing
 * [tinyalsa/tinyalsa](https://github.com/tinyalsa/tinyalsa) - Tiny library to interface with ALSA in the Linux kernel
 * [warmcat/libwebsockets](https://github.com/warmcat/libwebsockets) - canonical libwebsockets.org websocket library
 * [wengkai/ACLLib](https://github.com/wengkai/ACLLib) - ACLLib is a bunch of C functions covers Win32API and provides simpler API to beginners for programming Windows GUI applications. It compiles with MinGW and MS Visual Studio Express
+* [Keruspe/GPaste](https://github.com/Keruspe/GPaste) - Clipboard management system
 
 ## Procedural Generation ##
 * [heman][382] - Tiny library of image utilities dealing with height maps,
@@ -2307,6 +2311,7 @@ Textual User Interface
 * [hpjansson/chafa](https://github.com/hpjansson/chafa) - 📺🗿 Terminal graphics for the 21st century.
 * [jwerle/progress.c](https://github.com/jwerle/progress.c) - Progress display lib for c
 * [nsf/termbox](https://github.com/nsf/termbox) - Library for writing text-based user interfaces
+* [alandekok/recli](https://github.com/alandekok/recli) - A re-imagined CLI.  Customizable syntax, help, permissions, data types.
 
 ## Web Frameworks ##
 Comprehensive and integrated solutions for building web application in C.
@@ -2363,22 +2368,26 @@ Comprehensive and integrated solutions for building web application in C.
 
 [424]: http://coap.technology/
 
+# Interprocess Communication #
+* [D-Bus][430] - Interprocess communications bus. [``AFL-2.1``][AFL-2.1] or [``GPL-2.0-or-later``][GPL-2.0-or-later]
+* [WhisperSystems/libsignal-protocol-c](https://github.com/WhisperSystems/libsignal-protocol-c) - Signal Protocol C Library
+* [bus1/dbus-broker](https://github.com/bus1/dbus-broker) - Linux D-Bus Message Broker
+* [hmng/jsonrpc-c](https://github.com/hmng/jsonrpc-c) - JSON-RPC in C (server only for now)
+
+# I/O #
+* [Lajnold/falloc](https://github.com/Lajnold/falloc) - falloc creates files of a user-specified size. It uses the posix_fallocate syscall for allocating the right size directly, instead of copying data like the commonly used dd tool does (which, in my opinion, feels like a hack).
+* [cgaebel/pipe](https://github.com/cgaebel/pipe) - A simple thread-safe FIFO in C.
+* [cxong/tinydir](https://github.com/cxong/tinydir) - Lightweight, portable and easy to integrate C directory and file reader
+
 # Uncategorized #
 * [tm][432] -  Timer and Timeline Utils for C. [``MIT``][MIT]
-* [D-Bus][430] - Interprocess communications bus. [``AFL-2.1``][AFL-2.1] or [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [libgit2](https://libgit2.org/) - Pure C implementation of Git. [`GNU GPL2 only, with a linking exception`](https://github.com/libgit2/libgit2/blob/master/COPYING)
-* [Keruspe/GPaste](https://github.com/Keruspe/GPaste) - Clipboard management system
-* [Lajnold/falloc](https://github.com/Lajnold/falloc) - falloc creates files of a user-specified size. It uses the posix_fallocate syscall for allocating the right size directly, instead of copying data like the commonly used dd tool does (which, in my opinion, feels like a hack).
 * [ThomasHabets/monotonic_clock](https://github.com/ThomasHabets/monotonic_clock) - Portable C library for getting monotonic time
-* [WhisperSystems/libsignal-protocol-c](https://github.com/WhisperSystems/libsignal-protocol-c) - Signal Protocol C Library
-* [alandekok/recli](https://github.com/alandekok/recli) - A re-imagined CLI.  Customizable syntax, help, permissions, data types.
+
+# Unsorted #
 * [armon/statsite](https://github.com/armon/statsite) - C implementation of statsd
-* [bus1/dbus-broker](https://github.com/bus1/dbus-broker) - Linux D-Bus Message Broker
-* [cesanta/mjs](https://github.com/cesanta/mjs) - Embedded JavaScript engine for C/C++
-* [cgaebel/pipe](https://github.com/cgaebel/pipe) - A simple thread-safe FIFO in C.
 * [cloudyourcar/minmea](https://github.com/cloudyourcar/minmea) - a lightweight GPS NMEA 0183 parser library in pure C
 * [couchbase/libcouchbase](https://github.com/couchbase/libcouchbase) - The couchbase client for C.
-* [cxong/tinydir](https://github.com/cxong/tinydir) - Lightweight, portable and easy to integrate C directory and file reader
 * [dmw/caffeine](https://github.com/dmw/caffeine) - C Application Framework
 * [douban/greenify](https://github.com/douban/greenify) - Make blocking C library work with gevent
 * [droe/sslsplit](https://github.com/droe/sslsplit) - Transparent SSL/TLS interception
@@ -2391,7 +2400,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [freefoote/gpscorrelate](https://github.com/freefoote/gpscorrelate) - Abandoned C program to match GPS tracks to photographs, and store the matches in the EXIF data in the photographs.
 * [graphitemaster/incbin](https://github.com/graphitemaster/incbin) - Include binary files in C/C++
 * [h2non/semver.c](https://github.com/h2non/semver.c) - semantic version parser and serializer written in ANSI C
-* [hmng/jsonrpc-c](https://github.com/hmng/jsonrpc-c) - JSON-RPC in C (server only for now)
 * [hroptatyr/dateutils](https://github.com/hroptatyr/dateutils) - nifty command line date and time utilities; fast date calculations and conversion in the shell
 * [hroptatyr/uterus](https://github.com/hroptatyr/uterus) - universal tick encoder library to efficiently transport huge amounts of tick data
 * [htacg/tidy-html5](https://github.com/htacg/tidy-html5) - The granddaddy of HTML tools, with support for modern standards
@@ -2456,17 +2464,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [xnko/libapi](https://github.com/xnko/libapi) - libapi is a cross platform high performance io library written in c. It provides ability to write event driven servers and applications with continous code
 * [xroche/coffeecatch](https://github.com/xroche/coffeecatch) - CoffeeCatch, a tiny native POSIX signal catcher (especially useful for JNI code on Android/Dalvik)
 * [zammitjames/dataparksearch](https://github.com/zammitjames/dataparksearch) - Full featured web search engine
-
-# Unsorted #
-* [zenovich/runkit](https://github.com/zenovich/runkit) - Runkit that works!
-* [zhaojh329/libumqtt](https://github.com/zhaojh329/libumqtt) - A Lightweight and fully asynchronous MQTT 3.1.1 client C library based on libubox for Embedded Linux. Support QoS 0, 1 and 2. Support ssl.
-* [zhengshuxin/acl](https://github.com/zhengshuxin/acl) - One advanced C/C++ library for Linux/Mac/FreeBSD/Solaris(x86)/Windows/Android/IOS
-* [zhicheng/db](https://github.com/zhicheng/db) - A New DBM in Pure C
-* [zmap/zmap](https://github.com/zmap/zmap) - ZMap Internet Scanner
-* [zpl-c/zpl](https://github.com/zpl-c/zpl) - 📐 Your C99 Powerkit
-* [zsaleeba/picoc](https://github.com/zsaleeba/picoc) - A very small C interpreter
-* [zserge/partcl](https://github.com/zserge/partcl) - ParTcl - a micro Tcl implementation
-* [zwdzwd/biscuit](https://github.com/zwdzwd/biscuit) - a little tool for bisulfite data
 
 [484]: https://www.codeproject.com/Articles/6154/Writing-Efficient-C-and-C-Code-Optimization
 [483]: https://docs.google.com/presentation/d/1h49gY3TSiayLMXYmRMaAEMl05FaJ-Z6jDOWOz3EsqqQ/edit?pli=1#slide=id.p
