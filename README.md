@@ -623,6 +623,7 @@ Incorporated lists:
 * [rswier/swieros](https://github.com/rswier/swieros) - A tiny hand crafted CPU emulator, C compiler, and Operating System
 * [rui314/minilisp](https://github.com/rui314/minilisp) - A readable lisp in less than 1k lines of C
 * [seL4/seL4](https://github.com/seL4/seL4) - The seL4 microkernel
+* [stevedekorte/io](https://github.com/stevedekorte/io) - Io programming language
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -927,6 +928,8 @@ Neural nets, machine learning, and other similar things.
 * [oneoo/alilua-coevent-module](https://github.com/oneoo/alilua-coevent-module) - epoll base coroutine module
 * [python-greenlet/greenlet](https://github.com/python-greenlet/greenlet) - Lightweight in-process concurrent programming
 * [ramonza/libcoro](https://github.com/ramonza/libcoro) - Lightweight C coroutines (derived from http://software.schmorp.de/pkg/libcoro.html)
+* [sustrik/libdill](https://github.com/sustrik/libdill) - Structured concurrency in C
+* [sustrik/libmill](https://github.com/sustrik/libmill) - Go-style concurrency in C
 
 ## Crypto ##
 Mostly library implementations of well-known cryptographic algorithms or
@@ -1037,6 +1040,8 @@ protocols.
 * [pmwkaa/sophia](https://github.com/pmwkaa/sophia) - modern emeddable key-value database
 * [redis/hiredis](https://github.com/redis/hiredis) - Minimalistic C client for Redis >= 1.2
 * [seppo0010/rlite](https://github.com/seppo0010/rlite) - self-contained, serverless, zero-configuration, transactional redis-compatible database engine. rlite is to Redis what SQLite is to SQL.
+* [sqlcipher/sqlcipher](https://github.com/sqlcipher/sqlcipher) - SQLCipher is an SQLite extension that provides 256 bit AES encryption of database files.
+* [stevedekorte/skipdb](https://github.com/stevedekorte/skipdb) - C based ordered key-value ACID DB using skiplist datastructure.
 
 ## Data Structures and Types ##
 * [libhl][58] - Library implementing a thread-safe API to manage a range of data
@@ -1149,6 +1154,12 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [ryandotsmith/queue_lkls](https://github.com/ryandotsmith/queue_lkls) - A lock-free, non-blocking queue data structure.
 * [sebnow/data_structures](https://github.com/sebnow/data_structures) - A collection of data structures, written in C.
 * [siganakis/tny](https://github.com/siganakis/tny) - Tiny data structures that pack a punch!
+* [smtlaissezfaire/c_type_sizes](https://github.com/smtlaissezfaire/c_type_sizes) - show the sizes of C data types
+* [srdja/Collections-C](https://github.com/srdja/Collections-C) - A library of generic data structures.
+* [starnight/simple-data-structure](https://github.com/starnight/simple-data-structure) - Simple Data Structure library
+* [steven-schronk/C-Data-Structures](https://github.com/steven-schronk/C-Data-Structures) - Collection of basic data structures in C.
+* [wasabiz/xrope](https://github.com/wasabiz/xrope) - rope data structure
+* [stevedekorte/basekit](https://github.com/stevedekorte/basekit) - C based OO portable data structure library
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1263,7 +1274,6 @@ Engines, libraries and other helpful things specifically for making games.
 * [ccore/ccore_rewrite](https://github.com/ccore/ccore_rewrite) - A cross platform low level game development library
 * [chocolate-doom/chocolate-doom](https://github.com/chocolate-doom/chocolate-doom) - Chocolate Doom is a Doom source port that is minimalist and historically accurate.
 * [cloudwu/skynet](https://github.com/cloudwu/skynet) - A lightweight online game framework
-* [cocos2d/cocos2d-frame](https://github.com/cocos2d/cocos2d-frame) - Player and "stub" for cocos2d
 * [cxong/cdogs-sdl](https://github.com/cxong/cdogs-sdl) - Classic overhead run-and-gun game
 * [dalerank/caesaria-game](https://github.com/dalerank/caesaria-game) - Caesar III (Open source remake)
 * [dariomanesku/cmft](https://github.com/dariomanesku/cmft) - Cross-platform open-source command-line cubemap filtering tool.
@@ -1301,6 +1311,8 @@ Engines, libraries and other helpful things specifically for making games.
 * [septag/darkhammer](https://github.com/septag/darkhammer) - darkHAMMER is a lightweight, open-source, multiplatform game engine. written in C (C99) language, supports python and C# bindings and lua scripts. Runs on windows and linux
 * [slembcke/Chipmunk2D](https://github.com/slembcke/Chipmunk2D) - A fast and lightweight 2D game physics library.
 * [smistad/GPU-Marching-Cubes](https://github.com/smistad/GPU-Marching-Cubes) - A GPU implementation of the Marching Cubes algorithm for extracting surfaces from volumes using OpenCL and OpenGL
+* [sp4cerat/RLE-based-Voxel-Raycasting](https://github.com/sp4cerat/RLE-based-Voxel-Raycasting) - CUDA based Voxel Raycasting - Paper: Efficient, High-Quality, GPU-Based Visualization of Voxelized Surface Data
+* [stepmania/stepmania](https://github.com/stepmania/stepmania) - Advanced rhythm game for Windows, Linux and OS X. Designed for both home and arcade use.
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1574,6 +1586,7 @@ Audio and video processing
 * [mltframework/mlt](https://github.com/mltframework/mlt) - MLT Multimedia Framework
 * [sahib/glyr](https://github.com/sahib/glyr) - Glyr is a music related metadata searchengine, both with commandline interface and C API
 * [simonyiszk/csdr](https://github.com/simonyiszk/csdr) - A simple DSP library and command-line tool for Software Defined Radio.
+* [strands-project/data_compression](https://github.com/strands-project/data_compression) - Video encoding for 8 bit RGB images, 16 bit grayscale depth images and possibly more.
 
 ## Multiple Purpose Libraries ##
 * [pal][65] - Optimized library for maths, parallel processing and data
@@ -1756,6 +1769,7 @@ Audio and video processing
 * [sch3m4/libntoh](https://github.com/sch3m4/libntoh) - User-friendly C Library to perform TCP streams reassembly and IPv4/6 defragmentation
 * [seanmiddleditch/libtelnet](https://github.com/seanmiddleditch/libtelnet) - Simple RFC-complient TELNET implementation as a C library.
 * [shadeslayer/libnice](https://github.com/shadeslayer/libnice) - Libnice is an implementation of the IETF's Interactive Connectivity Establishment (ICE) standard (RFC 5245) and the Session Traversal Utilities for NAT (STUN) standard (RFC 5389).  It provides a GLib-based library, libnice and a Glib-free library, libstun as well as GStreamer elements.  ICE is useful for applications that want to establish peer-to-peer UDP data streams. It automates the process of traversing NATs and provides security against some attacks. It also allows applications to create reliable streams using a TCP over UDP layer.  Existing standards that use ICE include Session Initiation Protocol (SIP) and XMPP Jingle.
+* [sustrik/msg_control](https://github.com/sustrik/msg_control) - Helper functions for dealing with socket ancillary data
 
 ### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
@@ -2310,74 +2324,35 @@ Comprehensive and integrated solutions for building web application in C.
 * [signalapp/libsignal-protocol-c](https://github.com/signalapp/libsignal-protocol-c) - Signal Protocol C Library
 * [sharvil/flingfd](https://github.com/sharvil/flingfd) - A tiny library to send file descriptors across processes
 * [sheredom/process.h](https://github.com/sheredom/process.h) - A simple one header solution to launching processes and interacting with them for C and C++.
+* [slim-curve/slim-curve](https://github.com/slim-curve/slim-curve) - SLIM Curve: a package for exponential curve fitting of combined spectral lifetime image data
+* [studio-ousia/mprpc](https://github.com/studio-ousia/mprpc) - A fast MessagePack RPC library
 
 # Unsorted #
-* [shinh/maloader](https://github.com/shinh/maloader) - mach-o loader for linux
-* [sipcapture/hepipe](https://github.com/sipcapture/hepipe) - HEP-PIPE: Pipe arbitrary data (logs, events, cdrs, etc) to HEP server (HOMER)
-* [skarnet/s6](https://github.com/skarnet/s6) - The s6 supervision suite.
 * [skx/simple.vm](https://github.com/skx/simple.vm) - Simple virtual machine which inteprets bytecode.
 * [slash-lang/slash](https://github.com/slash-lang/slash) - A new language for the web
-* [slim-curve/slim-curve](https://github.com/slim-curve/slim-curve) - SLIM Curve: a package for exponential curve fitting of combined spectral lifetime image data
-* [smealum/ctrulib](https://github.com/smealum/ctrulib) - C library for writing user mode arm11 code for the 3DS (CTR)
-* [smira/memcached_functions_mysql](https://github.com/smira/memcached_functions_mysql) - Memcached functions for MySQL as UDF, tailored for usage in replication and pushing data to MemcacheQ
-* [smithlabcode/methpipe](https://github.com/smithlabcode/methpipe) - A pipeline for analyzing DNA methylation data from bisulfite sequencing.
-* [smtlaissezfaire/c_type_sizes](https://github.com/smtlaissezfaire/c_type_sizes) - show the sizes of C data types
 * [snavely/bundler_sfm](https://github.com/snavely/bundler_sfm) - Bundler Structure from Motion Toolkit
-* [snielsen/DeathToDSStore](https://github.com/snielsen/DeathToDSStore) - .DS_Store is an abomination and must be stopped.
 * [sounos/hidbase](https://github.com/sounos/hidbase) - Distributed Data Storage System
-* [soveran/clac](https://github.com/soveran/clac) - Command-line, stack-based calculator with postfix notation
-* [sp4cerat/RLE-based-Voxel-Raycasting](https://github.com/sp4cerat/RLE-based-Voxel-Raycasting) - CUDA based Voxel Raycasting - Paper: Efficient, High-Quality, GPU-Based Visualization of Voxelized Surface Data
 * [spark/core-common-lib](https://github.com/spark/core-common-lib) - Common library for projects that use the Spark Core with the CC3000
-* [spark/firmware](https://github.com/spark/firmware) - Firmware for Particle Devices
 * [sphde/sphde](https://github.com/sphde/sphde) - Shared Persistent Heap Data Environment
 * [spotify/sparkey](https://github.com/spotify/sparkey) - Simple constant key/value storage library, for read-heavy systems with infrequent large bulk inserts.
 * [sptim/mp3hash](https://github.com/sptim/mp3hash) - Command line tool to calculate the hash of the music data in mp3 files (without id3v1 & id3v2 metadata). Useful to find dupes with e.g. different genre names.
-* [sqlcipher/sqlcipher](https://github.com/sqlcipher/sqlcipher) - SQLCipher is an SQLite extension that provides 256 bit AES encryption of database files.
 * [squix78/esp8266-weather-station-color](https://github.com/squix78/esp8266-weather-station-color) - ESP8266 Weather Station in Color using ILI9341 TFT 240x320 display
-* [srdja/Collections-C](https://github.com/srdja/Collections-C) - A library of generic data structures.
 * [srijs/udp-stats-redis-adapter](https://github.com/srijs/udp-stats-redis-adapter) - Small performant frontend to redis, receiving minimal statistics data via udp messaging.
 * [ssfrr/HearThereOSC](https://github.com/ssfrr/HearThereOSC) - A small program to receive some IMU orientation data from the HearThere Head Tracker
 * [sshirokov/csgtool](https://github.com/sshirokov/csgtool) - 3D CSG Tool
-* [st3fan/ios-openssl](https://github.com/st3fan/ios-openssl) - Port of OpenSSL for iOS
-* [starnight/simple-data-structure](https://github.com/starnight/simple-data-structure) - Simple Data Structure library
 * [statsite/statsite](https://github.com/statsite/statsite) - C implementation of statsd
 * [stawel/cheali-charger](https://github.com/stawel/cheali-charger) - cheap lipo charger
 * [steakknife/unsign](https://github.com/steakknife/unsign) - Remove code signatures from OSX Mach-O binaries (note: unsigned binaries cannot currently be re-codesign'ed. Patches welcome!)
-* [stec-inc/EnhanceIO](https://github.com/stec-inc/EnhanceIO) - EnhanceIO Open Source for Linux
-* [stedolan/jq](https://github.com/stedolan/jq) - Command-line JSON processor
 * [stefanesser/dumpdecrypted](https://github.com/stefanesser/dumpdecrypted) - Dumps decrypted mach-o files from encrypted iPhone applications from memory to disk. This tool is necessary for security researchers to be able to look under the hood of encryption.
 * [stefanesser/suhosin](https://github.com/stefanesser/suhosin) - Suhosin Extension
-* [stefanhafeneger/PushMeBaby](https://github.com/stefanhafeneger/PushMeBaby) - iOS Push Notification Debug App
-* [stellar/stellar-core](https://github.com/stellar/stellar-core) - stellar-core is the backbone of the Stellar network. It maintains a local copy of the ledger, communicating and staying in sync with other instances of stellar-core on the network. Optionally, stellar-core can store historical records of the ledger and participate in consensus.
 * [stellarscience/xdm](https://github.com/stellarscience/xdm) - An Extensible Data Model
 * [stephane/libmodbus](https://github.com/stephane/libmodbus) - A Modbus library for Linux, Mac OS X, FreeBSD, QNX and Windows
 * [stephenmathieson/describe.h](https://github.com/stephenmathieson/describe.h) - Simple BDD describe test thingy for C
 * [stephenrkell/liballocs](https://github.com/stephenrkell/liballocs) - Runtime and toolchain for whole-program monitoring of allocations and their data types
-* [stepmania/stepmania](https://github.com/stepmania/stepmania) - Advanced rhythm game for Windows, Linux and OS X. Designed for both home and arcade use.
-* [stevedekorte/basekit](https://github.com/stevedekorte/basekit) - C based OO portable data structure library
 * [stevedekorte/coroutine](https://github.com/stevedekorte/coroutine) - C multiplatform coroutine implementation via ucontext, fibers or setjmp.
 * [stevedekorte/garbagecollector](https://github.com/stevedekorte/garbagecollector) - Incrementall garbage collector library in C for use by high level language implementions.
-* [stevedekorte/io](https://github.com/stevedekorte/io) - Io programming language
-* [stevedekorte/skipdb](https://github.com/stevedekorte/skipdb) - C based ordered key-value ACID DB using skiplist datastructure.
 * [stevedekorte/vertexdb](https://github.com/stevedekorte/vertexdb) - C graph db server using tokyocabinet & libevent
-* [steven-schronk/C-Data-Structures](https://github.com/steven-schronk/C-Data-Structures) - Collection of basic data structures in C.
-* [stevestreza/CrashReporter](https://github.com/stevestreza/CrashReporter) - Send iOS crash reports by email
-* [stm32duino/Arduino_Core_STM32](https://github.com/stm32duino/Arduino_Core_STM32) - STM32 core support for Arduino
-* [strands-project/data_compression](https://github.com/strands-project/data_compression) - Video encoding for 8 bit RGB images, 16 bit grayscale depth images and possibly more.
-* [strazzere/android-unpacker](https://github.com/strazzere/android-unpacker) - Android Unpacker presented at Defcon 22: Android Hacker Protection Level 0
 * [stripydog/kplex](https://github.com/stripydog/kplex) - kplex marine data multiplexer
-* [stubma/WiEngine](https://github.com/stubma/WiEngine) - C++ implemented, cocos2d like cross-platform game engine
-* [studio-ousia/mprpc](https://github.com/studio-ousia/mprpc) - A fast MessagePack RPC library
-* [styxyang/dnsmasq-chinadns](https://github.com/styxyang/dnsmasq-chinadns) - A patched version of dnsmasq which filters out some spurious IP
-* [sufficientlysecure/ad-away](https://github.com/sufficientlysecure/ad-away) - AdAway is an open source ad blocker for Android using the hosts file.
-* [suhetao/stm32f4_mpu9250](https://github.com/suhetao/stm32f4_mpu9250) - Access the data of 3-axis magnetometer and DMP from MPU9250 with SPI interface, All data fusion via EKF/UKF/CKF/SRCKF algorithm
-* [sumatrapdfreader/sumatrapdf](https://github.com/sumatrapdfreader/sumatrapdf) - SumatraPDF reader
-* [supertunaman/cdl](https://github.com/supertunaman/cdl) - Chicken Dance License! The official IANAL license.
-* [suprgyabhushan/Data-Structures-And-Algorithms](https://github.com/suprgyabhushan/Data-Structures-And-Algorithms) - All my codes done in the Course DSA during the second semester at IIIT Bangalore
-* [sustrik/libdill](https://github.com/sustrik/libdill) - Structured concurrency in C
-* [sustrik/libmill](https://github.com/sustrik/libmill) - Go-style concurrency in C
-* [sustrik/msg_control](https://github.com/sustrik/msg_control) - Helper functions for dealing with socket ancillary data
-* [suzukiplan/Touhou-VGS-MML-data](https://github.com/suzukiplan/Touhou-VGS-MML-data) - 東方BGM on VGSのMMLデータ公開＆サポート用のレポジトリです
 * [svanderburg/libamivideo](https://github.com/svanderburg/libamivideo) - Conversion library for Amiga planar graphics data and EHB, HAM screen modes
 * [swatkat/twitcurl](https://github.com/swatkat/twitcurl) - twitcurl is a pure C++ library for twitter APIs.
 * [swenson/sort](https://github.com/swenson/sort) - Sorting routine implementations in "template" C
@@ -2611,7 +2586,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [wargio/r2dec-js](https://github.com/wargio/r2dec-js) - radare2 plugin - converts asm to pseudo-C code.
 * [warmcat/libwebsockets](https://github.com/warmcat/libwebsockets) - canonical libwebsockets.org websocket library
 * [waruqi/tbox](https://github.com/waruqi/tbox) - A glib-like multi-platform c library
-* [wasabiz/xrope](https://github.com/wasabiz/xrope) - rope data structure
 * [watmough/jwHash](https://github.com/watmough/jwHash) - Simple hash table implementation for C.
 * [wbhart/Cesium3](https://github.com/wbhart/Cesium3) - Fast interpreter with macros, local type inference, LLVM backend.
 * [wbhart/comb](https://github.com/wbhart/comb) - Combinators in C
@@ -2622,11 +2596,8 @@ Comprehensive and integrated solutions for building web application in C.
 * [webcpp/hi-nginx](https://github.com/webcpp/hi-nginx) - A fast and robust web server and application server for C++,Python,Lua ,Java, PHP7,Javascript and multiple jsr-223 JVM language
 * [webglearth/gdaldem_web](https://github.com/webglearth/gdaldem_web) - Utility for encoding elevation data (DEM) for use on the web (with WebGL Earth). Elevation value is encoded into RGB.
 * [weechat/weechat](https://github.com/weechat/weechat) - The extensible chat client.
-* [welefen/SetCard](https://github.com/welefen/SetCard) - a brain & puzzle game by cocos2d-html5
 * [wellsie1116/Darxen](https://github.com/wellsie1116/Darxen) - Downloader, parser, and renderer for NEXRAD data
 * [wengkai/ACLLib](https://github.com/wengkai/ACLLib) - ACLLib is a bunch of C functions covers Win32API and provides simpler API to beginners for programming Windows GUI applications. It compiles with MinGW and MS Visual Studio Express
-* [wenjun1055/c](https://github.com/wenjun1055/c) - C语言学习代码
-* [wernerd/ZRTPCPP](https://github.com/wernerd/ZRTPCPP) - C++ Implementation of ZRTP protocol - GNU ZRTP C++
 * [wertarbyte/tiny-gps](https://github.com/wertarbyte/tiny-gps) - read NMEA data from serial GPS receiver (and sonar and optical sensor)  and offer it as I2C slave using ATTiny
 * [wesleyd/charade](https://github.com/wesleyd/charade) - Ssh-agent clone for cygwin that proxies to pageant
 * [wesleykendall/mpitutorial](https://github.com/wesleykendall/mpitutorial) - MPI programming lessons in C and executable code examples
