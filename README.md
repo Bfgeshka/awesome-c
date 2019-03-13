@@ -626,6 +626,7 @@ Incorporated lists:
 * [stevedekorte/io](https://github.com/stevedekorte/io) - Io programming language
 * [skx/simple.vm](https://github.com/skx/simple.vm) - Simple virtual machine which inteprets bytecode.
 * [swetland/dcpu16](https://github.com/swetland/dcpu16) - Virtual Machine and Assembler for Notch's DCPU-16 Architecture
+* [tj/luna](https://github.com/tj/luna) - luna programming language - a small, elegant VM implemented in C
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -935,6 +936,7 @@ Neural nets, machine learning, and other similar things.
 * [ramonza/libcoro](https://github.com/ramonza/libcoro) - Lightweight C coroutines (derived from http://software.schmorp.de/pkg/libcoro.html)
 * [sustrik/libdill](https://github.com/sustrik/libdill) - Structured concurrency in C
 * [sustrik/libmill](https://github.com/sustrik/libmill) - Go-style concurrency in C
+* [stevedekorte/coroutine](https://github.com/stevedekorte/coroutine) - C multiplatform coroutine implementation via ucontext, fibers or setjmp.
 
 ## Crypto ##
 Mostly library implementations of well-known cryptographic algorithms or
@@ -991,6 +993,7 @@ protocols.
 * [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) - C library for quantum-resistant cryptographic algorithms.
 * [pornin/CTTK](https://github.com/pornin/CTTK) - Constant-Time Toolkit
 * [tbuktu/libntru](https://github.com/tbuktu/libntru) - C Implementation of NTRUEncrypt
+* [trezor/trezor-crypto](https://github.com/trezor/trezor-crypto) - :orange_book: Heavily optimized cryptography algorithms for embedded devices.
 
 ## Databases ##
 * [BerkeleyDB][83] - Library for a high-performance embedded database for
@@ -1049,6 +1052,8 @@ protocols.
 * [sqlcipher/sqlcipher](https://github.com/sqlcipher/sqlcipher) - SQLCipher is an SQLite extension that provides 256 bit AES encryption of database files.
 * [stevedekorte/skipdb](https://github.com/stevedekorte/skipdb) - C based ordered key-value ACID DB using skiplist datastructure.
 * [tglman/orientdb-c](https://github.com/tglman/orientdb-c) - The C client of  OrientDB
+* [spotify/sparkey](https://github.com/spotify/sparkey) - Simple constant key/value storage library, for read-heavy systems with infrequent large bulk inserts.
+* [symisc/unqlite](https://github.com/symisc/unqlite) - An Embedded NoSQL, Transactional Database Engine
 
 ## Data Structures and Types ##
 * [libhl][58] - Library implementing a thread-safe API to manage a range of data
@@ -1168,6 +1173,8 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [wasabiz/xrope](https://github.com/wasabiz/xrope) - rope data structure
 * [stevedekorte/basekit](https://github.com/stevedekorte/basekit) - C based OO portable data structure library
 * [theck01/offbrand_lib](https://github.com/theck01/offbrand_lib) - A collecton of generic reference counted data structures, tools to create compatible C style classes, and demo applications
+* [tiancaiamao/datastruct](https://github.com/tiancaiamao/datastruct) - some useful data struct piece of code
+* [torch/tds](https://github.com/torch/tds) - Torch C data structures
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1323,6 +1330,8 @@ Engines, libraries and other helpful things specifically for making games.
 * [sp4cerat/RLE-based-Voxel-Raycasting](https://github.com/sp4cerat/RLE-based-Voxel-Raycasting) - CUDA based Voxel Raycasting - Paper: Efficient, High-Quality, GPU-Based Visualization of Voxelized Surface Data
 * [stepmania/stepmania](https://github.com/stepmania/stepmania) - Advanced rhythm game for Windows, Linux and OS X. Designed for both home and arcade use.
 * [taylor001/crown](https://github.com/taylor001/crown) - The flexible game engine.
+* [theunamedguy/market-sim](https://github.com/theunamedguy/market-sim) - A retro stock-trading game utilizing live market data
+* [tizian/Cendric2](https://github.com/tizian/Cendric2) - 2D Game
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1366,6 +1375,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [randrew/layout](https://github.com/randrew/layout) - Single-file library for calculating 2D UI layouts using stacking boxes. Compiles as C99 or C++.
 * [rougier/freetype-gl](https://github.com/rougier/freetype-gl) - OpenGL text using one vertex buffer, one texture and FreeType
 * [simple2d/simple2d](https://github.com/simple2d/simple2d) - :video_game: Simple, open-source 2D graphics for everyone
+* [sshirokov/csgtool](https://github.com/sshirokov/csgtool) - 3D CSG Tool
 
 ## GUI ##
 * [GTK+][206] - Cross-platform widget toolkit. [``LGPL-2.1-only``][LGPL-2.1-only]
@@ -1398,7 +1408,6 @@ Access to graphical APIs or other graphic rendering libraries.
 * [libui](https://github.com/andlabs/libui) - Simple and portable (but not inflexible) GUI library. [`MIT`](https://github.com/andlabs/libui/blob/master/LICENSE)
 * [LCUI](https://github.com/lc-soft/LCUI/) - Small C library for building user interfaces with C, XML and CSS. [`MIT`](https://github.com/lc-soft/LCUI/blob/develop/LICENSE.TXT)
 * [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) - Display and control your Android device
-* [AdysTech/raspy-weather](https://github.com/AdysTech/raspy-weather) - A set of C libraries to gather Temperature and Humidity data from generic DHT11 sensor, store it in a round-robin database and show it in a PHP page.
 * [Azure/azure-iot-sdk-c](https://github.com/Azure/azure-iot-sdk-c) - A C99 SDK for connecting devices to Microsoft Azure IoT services
 * [Eugnis/spectre-attack](https://github.com/Eugnis/spectre-attack) - Example of using revealed "Spectre" exploit (CVE-2017-5753 and CVE-2017-5715)
 * [FoxelSA/libfastcal](https://github.com/FoxelSA/libfastcal) - Fast calibration data access
@@ -1489,6 +1498,7 @@ can be found in the Crypto section.
 * [pornel/pngquant](https://github.com/pornel/pngquant) - Lossy PNG compressor — pngquant command and libimagequant library
 * [rflynn/imgmin](https://github.com/rflynn/imgmin) - Lossy image optimization
 * [rmagick-temp/rmagick](https://github.com/rmagick-temp/rmagick) - An interface to the ImageMagick and GraphicsMagick image processing libraries.
+* [tjko/jpegoptim](https://github.com/tjko/jpegoptim) - jpegoptim - utility to optimize/compress JPEG files
 
 ## Integrated Debugging and Logging ##
 * [whereami][390] - One-file library for locating the current executable on the
@@ -1554,6 +1564,7 @@ Generic lexers and parsers
 * [orangeduck/tgc](https://github.com/orangeduck/tgc) - A Tiny Garbage Collector for C
 * [priitj/whitedb](https://github.com/priitj/whitedb) - WhiteDB memory database
 * [rampantpixels/rpmalloc](https://github.com/rampantpixels/rpmalloc) - Public domain cross platform lock free thread caching 32-byte aligned memory allocator implemented in C
+* [stevedekorte/garbagecollector](https://github.com/stevedekorte/garbagecollector) - Incrementall garbage collector library in C for use by high level language implementions.
 
 ## Multimedia ##
 Audio and video processing
@@ -1786,6 +1797,7 @@ Audio and video processing
 * [shadeslayer/libnice](https://github.com/shadeslayer/libnice) - Libnice is an implementation of the IETF's Interactive Connectivity Establishment (ICE) standard (RFC 5245) and the Session Traversal Utilities for NAT (STUN) standard (RFC 5389).  It provides a GLib-based library, libnice and a Glib-free library, libstun as well as GStreamer elements.  ICE is useful for applications that want to establish peer-to-peer UDP data streams. It automates the process of traversing NATs and provides security against some attacks. It also allows applications to create reliable streams using a TCP over UDP layer.  Existing standards that use ICE include Session Initiation Protocol (SIP) and XMPP Jingle.
 * [sustrik/msg_control](https://github.com/sustrik/msg_control) - Helper functions for dealing with socket ancillary data
 * [tass-belgium/picotcp](https://github.com/tass-belgium/picotcp) - PicoTCP is a free TCP/IP stack implementation
+* [stephane/libmodbus](https://github.com/stephane/libmodbus) - A Modbus library for Linux, Mac OS X, FreeBSD, QNX and Windows
 
 ### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
@@ -2093,6 +2105,7 @@ Libraries for working wit hspecific filetypes
 * [quartzjer/js0n](https://github.com/quartzjer/js0n) - Flexible Zero-Footprint JSON Parser in C
 * [remicollet/pecl-json-c](https://github.com/remicollet/pecl-json-c) - JSON-C wrapper
 * [sheredom/json.h](https://github.com/sheredom/json.h) - json parser for C and C++
+* [vincenthz/libjson](https://github.com/vincenthz/libjson) - a JSON parser and printer library in C. easy to integrate with any model.
 
 ### INI ###
 * [inih][329] - Small and simple INI file parser, good for embedded systems. [``BSD-3-Clause``][BSD-3-Clause]
@@ -2115,6 +2128,7 @@ Libraries for working wit hspecific filetypes
 * [fletcher/MultiMarkdown-4](https://github.com/fletcher/MultiMarkdown-4) - C implementation of MultiMarkdown; almost complete rewrite of MMD 3 (which was aka "peg-multimarkdown").
 * [jgm/cmark](https://github.com/jgm/cmark) - CommonMark parsing and rendering library and program in C
 * [jgm/peg-markdown](https://github.com/jgm/peg-markdown) - An implementation of markdown in C, using a PEG grammar
+* [toland/qlmarkdown](https://github.com/toland/qlmarkdown) - QuickLook generator for Markdown files.
 
 ### XML ###
 * [Expat][332] - Stream-oriented XML parser. [MIT][MIT]
@@ -2204,6 +2218,7 @@ Libraries for working wit hspecific filetypes
 * [silentbicycle/greatest](https://github.com/silentbicycle/greatest) - A C testing library in 1 file. No dependencies, no dynamic allocation. ISC licensed.
 * [silentbicycle/theft](https://github.com/silentbicycle/theft) - property-based testing for C: generate input to find obscure bugs, then reduce to minimal failing input
 * [siu/minunit](https://github.com/siu/minunit) - Minimal unit testing framework for C
+* [stephenmathieson/describe.h](https://github.com/stephenmathieson/describe.h) - Simple BDD describe test thingy for C
 
 ## TUI ##
 Textual User Interface
@@ -2347,41 +2362,23 @@ Comprehensive and integrated solutions for building web application in C.
 * [slim-curve/slim-curve](https://github.com/slim-curve/slim-curve) - SLIM Curve: a package for exponential curve fitting of combined spectral lifetime image data
 * [studio-ousia/mprpc](https://github.com/studio-ousia/mprpc) - A fast MessagePack RPC library
 * [snavely/bundler_sfm](https://github.com/snavely/bundler_sfm) - Bundler Structure from Motion Toolkit
+* [stellarscience/xdm](https://github.com/stellarscience/xdm) - An Extensible Data Model
+* [thlorenz/learnuv](https://github.com/thlorenz/learnuv) - Learn uv for fun and profit, a self guided workshop to the library that powers Node.js.
 
 # Unsorted #
-* [sounos/hidbase](https://github.com/sounos/hidbase) - Distributed Data Storage System
-* [sphde/sphde](https://github.com/sphde/sphde) - Shared Persistent Heap Data Environment
-* [spotify/sparkey](https://github.com/spotify/sparkey) - Simple constant key/value storage library, for read-heavy systems with infrequent large bulk inserts.
-* [squix78/esp8266-weather-station-color](https://github.com/squix78/esp8266-weather-station-color) - ESP8266 Weather Station in Color using ILI9341 TFT 240x320 display
-* [srijs/udp-stats-redis-adapter](https://github.com/srijs/udp-stats-redis-adapter) - Small performant frontend to redis, receiving minimal statistics data via udp messaging.
-* [ssfrr/HearThereOSC](https://github.com/ssfrr/HearThereOSC) - A small program to receive some IMU orientation data from the HearThere Head Tracker
-* [sshirokov/csgtool](https://github.com/sshirokov/csgtool) - 3D CSG Tool
-* [statsite/statsite](https://github.com/statsite/statsite) - C implementation of statsd
-* [stawel/cheali-charger](https://github.com/stawel/cheali-charger) - cheap lipo charger
-* [stefanesser/dumpdecrypted](https://github.com/stefanesser/dumpdecrypted) - Dumps decrypted mach-o files from encrypted iPhone applications from memory to disk. This tool is necessary for security researchers to be able to look under the hood of encryption.
-* [stefanesser/suhosin](https://github.com/stefanesser/suhosin) - Suhosin Extension
-* [stellarscience/xdm](https://github.com/stellarscience/xdm) - An Extensible Data Model
-* [stephane/libmodbus](https://github.com/stephane/libmodbus) - A Modbus library for Linux, Mac OS X, FreeBSD, QNX and Windows
-* [stephenmathieson/describe.h](https://github.com/stephenmathieson/describe.h) - Simple BDD describe test thingy for C
-* [stevedekorte/coroutine](https://github.com/stevedekorte/coroutine) - C multiplatform coroutine implementation via ucontext, fibers or setjmp.
-* [stevedekorte/garbagecollector](https://github.com/stevedekorte/garbagecollector) - Incrementall garbage collector library in C for use by high level language implementions.
-* [stevedekorte/vertexdb](https://github.com/stevedekorte/vertexdb) - C graph db server using tokyocabinet & libevent
 * [stripydog/kplex](https://github.com/stripydog/kplex) - kplex marine data multiplexer
 * [svanderburg/libamivideo](https://github.com/svanderburg/libamivideo) - Conversion library for Amiga planar graphics data and EHB, HAM screen modes
 * [swoole/php-cp](https://github.com/swoole/php-cp) - pdo and redis tcp connect proxy
 * [symisc/PH7](https://github.com/symisc/PH7) - An Embedded Implementation of PHP (C Library)
 * [symisc/sod](https://github.com/symisc/sod) - An Embedded Computer Vision & Machine Learning Library (CPU Optimized & IoT Capable)
-* [symisc/unqlite](https://github.com/symisc/unqlite) - An Embedded NoSQL, Transactional Database Engine
 * [symisc/vedis](https://github.com/symisc/vedis) - An Embedded Implementation of Redis
 * [synthetos/TinyG](https://github.com/synthetos/TinyG) - Affordable Industrial Grade Motion Control
 * [sztupy/luadec51](https://github.com/sztupy/luadec51) - Lua Decompiler for Lua version 5.1
 * [tai/ruby-p-for-c](https://github.com/tai/ruby-p-for-c) - Data dumper macro for C, which dumps content of any data/structure/expression without prior knowledge of actual format. Works just like "p" or "pp" in Ruby.
 * [tailhook/objpath](https://github.com/tailhook/objpath) - A library that allows to traverse data structures by path
-* [taogogo/geohash-php-extention](https://github.com/taogogo/geohash-php-extention) - a php extension for geohash,geohash is writen in c,very fast to convert geohash and coord.(一个转换经纬度和geohash的PHP扩展)
 * [tarantool/tarantool](https://github.com/tarantool/tarantool) - Get your data in RAM. Get compute close to data. Enjoy the performance.
 * [tatsuhiro-t/spdylay](https://github.com/tatsuhiro-t/spdylay) - The experimental SPDY protocol version 2, 3 and 3.1 implementation in C
 * [teamBICYCLE/libdatac](https://github.com/teamBICYCLE/libdatac) - a collection of data library
-* [tedluo/rs485](https://github.com/tedluo/rs485) - This is a simple drive for rs485 to translate data between two arm 6410 openboard
 * [tekknolagi/carp](https://github.com/tekknolagi/carp) - "interesting" VM in C. Let's see how this goes.
 * [telehash/telehash-c](https://github.com/telehash/telehash-c) - telehash tools library in c
 * [texane/stlink](https://github.com/texane/stlink) - stm32 discovery line linux programmer
@@ -2391,54 +2388,22 @@ Comprehensive and integrated solutions for building web application in C.
 * [theKeithD/thmj3g-tools](https://github.com/theKeithD/thmj3g-tools) - Collection of tools to unpack and repack data used by the D.N.A.Softwares doujin game, Touhou Unreal Mahjong 3rd Generation.
 * [thegenemyers/DAZZ_DB](https://github.com/thegenemyers/DAZZ_DB) - The Dazzler Data Base
 * [thegenemyers/DEXTRACTOR](https://github.com/thegenemyers/DEXTRACTOR) - Bax File Decoder and Data Compressor
-* [theunamedguy/market-sim](https://github.com/theunamedguy/market-sim) - A retro stock-trading game utilizing live market data
-* [thlorenz/learnuv](https://github.com/thlorenz/learnuv) - Learn uv for fun and profit, a self guided workshop to the library that powers Node.js.
 * [thomasbhatia/nwEPC---EPC-SAE-Gateway](https://github.com/thomasbhatia/nwEPC---EPC-SAE-Gateway) - nwEPC is a free and open source framework software implementation of SAE/EPC Serving Gateway or SGW and Packet Data Network Gateway or PGW, which is sometimes referred as SAE-Gateway as well.
 * [thoughtbot/pick](https://github.com/thoughtbot/pick) - fuzzy select anything.
-* [thvdburgt/KnR-The-C-Programming-Language-Solutions](https://github.com/thvdburgt/KnR-The-C-Programming-Language-Solutions) - My solutions to the exercises in the book "The C Programming Language" (2nd edition) by Brian W. Kernighan and Dennis M. Ritchie, also referred to as K&R.
-* [tiancaiamao/datastruct](https://github.com/tiancaiamao/datastruct) - some useful data struct piece of code
-* [tiancaiamao/go-internals](https://github.com/tiancaiamao/go-internals) - dig into implemention of the go programming language
 * [tianocore/edk2](https://github.com/tianocore/edk2) - EDK II
-* [tilgovi/couchdb-lounge](https://github.com/tilgovi/couchdb-lounge) - The Lounge is a proxy-based partitioning/clustering framework for CouchDB
-* [timperrett/Mac-SoapClient](https://github.com/timperrett/Mac-SoapClient) - 10.7 Compatible version of this: http://code.google.com/p/mac-soapclient/
-* [tizian/Cendric2](https://github.com/tizian/Cendric2) - 2D Game
-* [tj/histo](https://github.com/tj/histo) - beautiful charts in the terminal for static or streaming data
-* [tj/luna](https://github.com/tj/luna) - luna programming language - a small, elegant VM implemented in C
-* [tj/mon](https://github.com/tj/mon) - mon(1) - Simple single-process process monitoring program written in C
-* [tj/watch](https://github.com/tj/watch) - watch(1) periodically executes the given command - useful for auto-testing, auto-building, auto-anything
 * [tj90241/cen64](https://github.com/tj90241/cen64) - Cycle-Accurate Nintendo 64 Emulator
-* [tjko/jpegoptim](https://github.com/tjko/jpegoptim) - jpegoptim - utility to optimize/compress JPEG files
-* [tmk/tmk_keyboard](https://github.com/tmk/tmk_keyboard) - keyboard controller firmware for Atmel AVR USB family
-* [tmm1/gctools](https://github.com/tmm1/gctools) - profiler/logger/oobgc for rgengc in ruby 2.1
-* [tmm1/pygments.rb](https://github.com/tmm1/pygments.rb) - pygments syntax highlighting in ruby
-* [tmm1/rblineprof](https://github.com/tmm1/rblineprof) - line-profiler for ruby
-* [tmux/tmux](https://github.com/tmux/tmux) - tmux source code
 * [tnightingale/DTE](https://github.com/tnightingale/DTE) - Dumb Terminal Emulator - Data Comm, COMP 3980
-* [tnm/vulcan](https://github.com/tnm/vulcan) - Generate test data for Redis
 * [todace/G-CVSNT](https://github.com/todace/G-CVSNT) - G-CVSNT Gaijin (and Gamedev) CVSNT version - modified for large amounts of binary data (typically for gamedev)
-* [todbot/arduino-serial](https://github.com/todbot/arduino-serial) - Example C and Java host code to talking to an arduino or other "serial" device
-* [toddtreece/lib_mysqludf_mongodb](https://github.com/toddtreece/lib_mysqludf_mongodb) - MySQL UDF for inserting data into MongoDB
-* [tokuhirom/shirokaned](https://github.com/tokuhirom/shirokaned) - simple cache server for small binary data, feed contents with http protocol, master-master support.
-* [toland/patron](https://github.com/toland/patron) - Ruby HTTP client based on libcurl
-* [toland/qlmarkdown](https://github.com/toland/qlmarkdown) - QuickLook generator for Markdown files.
 * [tomxue/spi](https://github.com/tomxue/spi) - to show to make SPI data transfer under Linux
-* [tonyrog/cl](https://github.com/tonyrog/cl) - OpenCL binding for Erlang
 * [topameng/CsToLua](https://github.com/topameng/CsToLua) - The fastest unity lua binding solution
-* [torbensko/Kinect-to-Maya-motion-capture](https://github.com/torbensko/Kinect-to-Maya-motion-capture) - A set of scripts to help you capture the Kinect's motion capture data in Maya
 * [torch/DEPRECEATED-torch7-distro](https://github.com/torch/DEPRECEATED-torch7-distro) - Torch7: state-of-the-art machine learning algorithms
-* [torch/tds](https://github.com/torch/tds) - Torch C data structures
 * [torvalds/linux](https://github.com/torvalds/linux) - Linux kernel source tree
 * [toymachine/libredis](https://github.com/toymachine/libredis) - A C based general low-level PHP extension and client library for Redis, focusing on performance, generality and efficient parallel communication with multiple Redis servers. As a bonus, a  Ketama Consistent Hashing implementation is provided as well.
 * [tpoechtrager/cctools-port](https://github.com/tpoechtrager/cctools-port) - Apple cctools port for Linux, *BSD and Windows (Cygwin)
 * [tpoindex/crobots](https://github.com/tpoindex/crobots) - CROBOTS is a programming game, for programmers (or aspiring programmers.)
 * [traildb/traildb](https://github.com/traildb/traildb) - TrailDB is an efficient tool for storing and querying series of events
 * [trailofbits/cb-multios](https://github.com/trailofbits/cb-multios) - DARPA Challenges Sets for Linux, Windows, and macOS
-* [trailofbits/ctf](https://github.com/trailofbits/ctf) - CTF Field Guide
-* [traviscross/mtr](https://github.com/traviscross/mtr) - Official repository for mtr, a network diagnostic tool
-* [traviskaufman/MaxCurl](https://github.com/traviskaufman/MaxCurl) - Data retrieval client for MaxMSP
 * [trezor/trezor-core](https://github.com/trezor/trezor-core) - :lock: TREZOR Core
-* [trezor/trezor-crypto](https://github.com/trezor/trezor-crypto) - :orange_book: Heavily optimized cryptography algorithms for embedded devices.
-* [triSYCL/triSYCL](https://github.com/triSYCL/triSYCL) - Modern C++ for accelerators based on SYCL from Khronos Group
 * [triaquae/CrazyEye](https://github.com/triaquae/CrazyEye) - OpenSource IT Automation Software
 * [trink/hindsight](https://github.com/trink/hindsight) - Hindsight - light weight data processing skeleton
 * [tristanheaven/asteroids](https://github.com/tristanheaven/asteroids) - Asteroid taxonomic classification using light curve data
@@ -2506,10 +2471,7 @@ Comprehensive and integrated solutions for building web application in C.
 * [videolan/vlc](https://github.com/videolan/vlc) - VLC media player - All pull requests are ignored, please follow https://wiki.videolan.org/Sending_Patches_VLC/
 * [vifm/vifm](https://github.com/vifm/vifm) - Vifm is a file manager with curses interface, which provides Vi[m]-like environment for managing objects within file systems, extended with some useful ideas from mutt.
 * [vijay03/optfs](https://github.com/vijay03/optfs) - The Optimistic File System (OptFS) is a Linux ext4 variant that implements Optimistic Crash Consistency, a new approach to crash consistency in journaling file systems. OptFS improves performance for many workloads, sometimes by an order of magnitude. OptFS provides strong consistency, equivalent to data journaling mode of ext4.
-* [vim/vim](https://github.com/vim/vim) - The official Vim repository
-* [vimfung/LuaScriptCore](https://github.com/vimfung/LuaScriptCore) - 一款简单易用的多平台Lua桥接器，目前支持在iOS、Mac OS X、Android以及Unity3D中使用，让原生环境与Lua无障碍沟通。
 * [vincentbernat/bootstrap.c](https://github.com/vincentbernat/bootstrap.c) - Boilerplate for small C projects (autotools)
-* [vincenthz/libjson](https://github.com/vincenthz/libjson) - a JSON parser and printer library in C. easy to integrate with any model.
 * [vinniefalco/LuaBridge](https://github.com/vinniefalco/LuaBridge) - A lightweight, dependency-free library for binding Lua to C++
 * [virtio-win/kvm-guest-drivers-windows](https://github.com/virtio-win/kvm-guest-drivers-windows) - Windows paravirtualized
 * [visit1985/mdp](https://github.com/visit1985/mdp) - A command-line based markdown presentation tool.
@@ -2532,7 +2494,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [vmprof/vmprof-python](https://github.com/vmprof/vmprof-python) - vmprof - a statistical program profiler
 * [vmt/udis86](https://github.com/vmt/udis86) - Disassembler Library for x86 and x86-64
 * [vndmtrx/libadt](https://github.com/vndmtrx/libadt) - :vertical_traffic_light:libadt - an abstract data types library
-* [vonzhou/CSAPP](https://github.com/vonzhou/CSAPP) - CSAPP,《深入理解计算机系统结构》2nd ，阅读与实践！
 * [vozlt/nginx-module-sysguard](https://github.com/vozlt/nginx-module-sysguard) - Nginx sysguard module
 * [vozlt/nginx-module-vts](https://github.com/vozlt/nginx-module-vts) - Nginx virtual host traffic status module
 * [vpereira/pcapreader](https://github.com/vpereira/pcapreader) - saving pcap data on mongodb//tests with and without capped collections
