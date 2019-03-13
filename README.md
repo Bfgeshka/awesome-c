@@ -449,6 +449,7 @@ Incorporated lists:
 * [Comparison of C/POSIX standard library implementations for Linux][453]
 * [Finding the best 64-bit simulation PRNG][454]
 * [robmccoll/graphdb-testing](https://github.com/robmccoll/graphdb-testing) - Benchmarking various graph databases, engines, datastructures, and data stores.
+* [rxin/db-benchmarks](https://github.com/rxin/db-benchmarks) - Collection of some database benchmarks, along with tools to parallelize the data generation.
 
 ##### Beginner Level #####
 * [A tutorial on pointers][455]
@@ -1140,6 +1141,9 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [r-medina/ll](https://github.com/r-medina/ll) - Thread safe linked list data structure for C
 * [razpeitia/data-structures](https://github.com/razpeitia/data-structures) - Stack, Queue, Binary Tree
 * [rgantt/compsci.c](https://github.com/rgantt/compsci.c) - data structures, algorithms, and musings in C
+* [rxi/map](https://github.com/rxi/map) - A type-safe hash map implementation for C
+* [rxi/vec](https://github.com/rxi/vec) - A type-safe dynamic array implementation for C
+* [ryandotsmith/queue_lkls](https://github.com/ryandotsmith/queue_lkls) - A lock-free, non-blocking queue data structure.
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1285,6 +1289,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [recp/cglm](https://github.com/recp/cglm) - 📽 Highly Optimized Graphics Math (glm) for C
 * [rampantpixels/foundation_lib](https://github.com/rampantpixels/foundation_lib) - Cross-platform public domain foundation library in C providing basic support data types and functions to write applications and games in a platform-independent fashion.
 * [raysan5/raylib](https://github.com/raysan5/raylib) - A simple and easy-to-use library to enjoy videogames programming
+* [rxi/lovedos](https://github.com/rxi/lovedos) - A framework for making 2D DOS games in Lua
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1468,6 +1473,7 @@ can be found in the Crypto section.
 * [kmcallister/embedded-breakpoints](https://github.com/kmcallister/embedded-breakpoints) - Embed GDB breakpoints in C source code
 * [ntpeters/SimpleLogger](https://github.com/ntpeters/SimpleLogger) - Basic logger for C and C++ projects
 * [openjudge/sandbox](https://github.com/openjudge/sandbox) - The sandbox libraries (libsandbox & pysandbox) are an open-source suite of software components for C/C++ and Python developers to create automated profiling tools and watchdog programs. The API's are designed for executing and instrumenting simple (single process) tasks, featuring policy-based behavioral auditing, resource quota, and statistics collecting.
+* [rxi/log.c](https://github.com/rxi/log.c) - A simple logging library implemented in C99
 
 ## Lexing and Parsing ##
 Generic lexers and parsers
@@ -1766,6 +1772,7 @@ Audio and video processing
 * [gentilkiwi/kekeo](https://github.com/gentilkiwi/kekeo) - A little toolbox to play with Microsoft Kerberos in C
 * [jimon/osx_app_in_plain_c](https://github.com/jimon/osx_app_in_plain_c) - A simple showcase how to create a simple OS X app in plain C without any Objective-C
 * [martinezjavier/ldd3](https://github.com/martinezjavier/ldd3) - Linux Device Drivers 3 examples updated to work in recent kernels
+* [rvoicilas/inotify-tools](https://github.com/rvoicilas/inotify-tools) -   inotify-tools is a C library and a set of command-line programs for Linux providing a simple interface to inotify.
 
 ## Procedural Generation ##
 * [heman][382] - Tiny library of image utilities dealing with height maps,
@@ -1871,6 +1878,7 @@ Audio and video processing
 * [nothings/stb](https://github.com/nothings/stb) - stb single-file public domain libraries for C/C++
 * [prideout/par](https://github.com/prideout/par) - single-file C libraries from Philip Allan Rideout
 * [rmitton/rjm](https://github.com/rmitton/rjm) - Various single-file C libraries.
+* [rustyrussell/ccan](https://github.com/rustyrussell/ccan) - The C Code Archive Network
 
 ## Special Purpose ##
 * [Tulip Indicators][394] - Library of functions for technical analysis of
@@ -2267,24 +2275,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [rofl0r/libulz](https://github.com/rofl0r/libulz) - a collection of useful functions and data structures to create C apps faster. focus on simplicity, ability to statically link and minimal binary size.
 
 # Unsorted #
-* [rustyrussell/ccan](https://github.com/rustyrussell/ccan) - The C Code Archive Network
-* [rvoicilas/inotify-tools](https://github.com/rvoicilas/inotify-tools) -   inotify-tools is a C library and a set of command-line programs for Linux providing a simple interface to inotify.
-* [rwos/gti](https://github.com/rwos/gti) - a git launcher :-)
-* [rxi/log.c](https://github.com/rxi/log.c) - A simple logging library implemented in C99
-* [rxi/lovedos](https://github.com/rxi/lovedos) - A framework for making 2D DOS games in Lua
-* [rxi/map](https://github.com/rxi/map) - A type-safe hash map implementation for C
-* [rxi/vec](https://github.com/rxi/vec) - A type-safe dynamic array implementation for C
-* [rxin/db-benchmarks](https://github.com/rxin/db-benchmarks) - Collection of some database benchmarks, along with tools to parallelize the data generation.
-* [ryanb/rmov](https://github.com/ryanb/rmov) - Ruby wrapper for the QuickTime C API.
-* [ryandotsmith/queue_lkls](https://github.com/ryandotsmith/queue_lkls) - A lock-free, non-blocking queue data structure.
-* [ryanmjacobs/c](https://github.com/ryanmjacobs/c) - Compile and execute C "scripts" in one go!
-* [ryd/chaosvpn](https://github.com/ryd/chaosvpn) - Config generator for chaos vpn
-* [s-matyukevich/raspberry-pi-os](https://github.com/s-matyukevich/raspberry-pi-os) - Learning operating system development using Linux kernel and Raspberry Pi
-* [s-u/iotools](https://github.com/s-u/iotools) - High-performance I/O tools to run distributed R jobs seamlessly on Hadoop and handle chunk-wise data processing
-* [sackmotion/motion](https://github.com/sackmotion/motion) - Motion, a software motion detector
-* [saelo/cve-2014-0038](https://github.com/saelo/cve-2014-0038) - Linux local root exploit for CVE-2014-0038
-* [saghul/pycares](https://github.com/saghul/pycares) - Python interface for c-ares
-* [saghul/pyuv](https://github.com/saghul/pyuv) - Python interface for libuv
 * [sahib/glyr](https://github.com/sahib/glyr) - Glyr is a music related metadata searchengine, both with commandline interface and C API
 * [sahib/rmlint](https://github.com/sahib/rmlint) - Extremely fast tool to remove duplicates and other lint from your filesystem
 * [sainteos/tmxparser](https://github.com/sainteos/tmxparser) - C++ library for parsing the maps generated by the Map Editor called Tiled.
