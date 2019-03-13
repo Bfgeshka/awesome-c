@@ -1290,6 +1290,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [rampantpixels/foundation_lib](https://github.com/rampantpixels/foundation_lib) - Cross-platform public domain foundation library in C providing basic support data types and functions to write applications and games in a platform-independent fashion.
 * [raysan5/raylib](https://github.com/raysan5/raylib) - A simple and easy-to-use library to enjoy videogames programming
 * [rxi/lovedos](https://github.com/rxi/lovedos) - A framework for making 2D DOS games in Lua
+* [scottcgi/Mojoc](https://github.com/scottcgi/Mojoc) - A cross-platform, open-source, pure C  game engine for mobile game.
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1558,6 +1559,7 @@ Audio and video processing
 * [libav/libav](https://github.com/libav/libav) - Libav github mirror, clone of git://git.libav.org/libav
 * [libpd/libpd](https://github.com/libpd/libpd) - Pure Data embeddable audio synthesis library
 * [mltframework/mlt](https://github.com/mltframework/mlt) - MLT Multimedia Framework
+* [sahib/glyr](https://github.com/sahib/glyr) - Glyr is a music related metadata searchengine, both with commandline interface and C API
 
 ## Multiple Purpose Libraries ##
 * [pal][65] - Optimized library for maths, parallel processing and data
@@ -1604,6 +1606,7 @@ Audio and video processing
 * [happyfish100/libfastcommon](https://github.com/happyfish100/libfastcommon) - c common functions library extracted from my open source project FastDFS. this library is very simple and stable.  functions including: string, logger, chain, hash, socket, ini file reader, base64 encode / decode, url encode / decode, fast timer, skiplist, object pool etc. detail info please see the c header files.
 * [koanlogic/libu](https://github.com/koanlogic/libu) - LibU is a multiplatform utility library written in C, with APIs for handling memory allocation, networking and URI parsing, string manipulation, debugging, and logging in a very compact way, plus many other miscellaneous tasks
 * [letoram/arcan](https://github.com/letoram/arcan) - Arcan - [Display Server, Multimedia Framework, Game Engine] -> "Desktop Engine"
+* [saprykin/plibsys](https://github.com/saprykin/plibsys) - Highly portable C system library: threads and synchronization primitives, sockets (TCP, UDP, SCTP), IPv4 and IPv6, IPC, hash functions (MD5, SHA-1, SHA-2, SHA-3, GOST), binary trees (RB, AVL) and more. Native code performance.
 
 ## Networking ##
 ### DNS ###
@@ -1735,6 +1738,8 @@ Audio and video processing
 * [opendp/dpdk-odp](https://github.com/opendp/dpdk-odp) - Open data plane on dpdk, TCP/IP stack for dpdk.
 * [rockdaboot/mget](https://github.com/rockdaboot/mget) - Multithreaded metalink/file/website downloader (like Wget) and C library
 * [rxi/dyad](https://github.com/rxi/dyad) - Asynchronous networking for C
+* [sch3m4/libntoh](https://github.com/sch3m4/libntoh) - User-friendly C Library to perform TCP streams reassembly and IPv4/6 defragmentation
+* [seanmiddleditch/libtelnet](https://github.com/seanmiddleditch/libtelnet) - Simple RFC-complient TELNET implementation as a C library.
 
 ### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
@@ -1773,6 +1778,7 @@ Audio and video processing
 * [jimon/osx_app_in_plain_c](https://github.com/jimon/osx_app_in_plain_c) - A simple showcase how to create a simple OS X app in plain C without any Objective-C
 * [martinezjavier/ldd3](https://github.com/martinezjavier/ldd3) - Linux Device Drivers 3 examples updated to work in recent kernels
 * [rvoicilas/inotify-tools](https://github.com/rvoicilas/inotify-tools) -   inotify-tools is a C library and a set of command-line programs for Linux providing a simple interface to inotify.
+* [samuellab/InterProcess](https://github.com/samuellab/InterProcess) - A compact C library to share data between processes on Windows. Fast. Simple
 
 ## Procedural Generation ##
 * [heman][382] - Tiny library of image utilities dealing with height maps,
@@ -2034,6 +2040,7 @@ Libraries for working wit hspecific filetypes
 * [orangeduck/json2c](https://github.com/orangeduck/json2c) - Convert JSON to C data literals
 * [quartzjer/js0n](https://github.com/quartzjer/js0n) - Flexible Zero-Footprint JSON Parser in C
 * [remicollet/pecl-json-c](https://github.com/remicollet/pecl-json-c) - JSON-C wrapper
+* [sheredom/json.h](https://github.com/sheredom/json.h) - json parser for C and C++
 
 ### INI ###
 * [inih][329] - Small and simple INI file parser, good for embedded systems. [``BSD-3-Clause``][BSD-3-Clause]
@@ -2096,6 +2103,7 @@ Libraries for working wit hspecific filetypes
 * [libharu/libharu](https://github.com/libharu/libharu) - libharu - free PDF library
 * [martinh/libconfuse](https://github.com/martinh/libconfuse) - Small configuration file parser library for C.
 * [mw55309/c_fast5](https://github.com/mw55309/c_fast5) - C code to extract data from fast5 files
+* [samtools/htslib](https://github.com/samtools/htslib) - C library for high-throughput sequencing data formats
 
 --------------------------------------------------------------------------------
 
@@ -2275,38 +2283,8 @@ Comprehensive and integrated solutions for building web application in C.
 * [rofl0r/libulz](https://github.com/rofl0r/libulz) - a collection of useful functions and data structures to create C apps faster. focus on simplicity, ability to statically link and minimal binary size.
 
 # Unsorted #
-* [sahib/glyr](https://github.com/sahib/glyr) - Glyr is a music related metadata searchengine, both with commandline interface and C API
-* [sahib/rmlint](https://github.com/sahib/rmlint) - Extremely fast tool to remove duplicates and other lint from your filesystem
-* [sainteos/tmxparser](https://github.com/sainteos/tmxparser) - C++ library for parsing the maps generated by the Map Editor called Tiled.
-* [samdeane/xcode-unicode-formatter](https://github.com/samdeane/xcode-unicode-formatter) - Xcode data view plugin for formatting 16-bit and 32-bit unicode strings
-* [samdmarshall/SDMMobileDevice](https://github.com/samdmarshall/SDMMobileDevice) - MobileDevice Implementation
-* [samop/Polar-Flowlink-linux](https://github.com/samop/Polar-Flowlink-linux) - Development of interface for Polar FT60 HRM for Linux. It was tested with FT80 and it didn't work, due to different command set. I will need physical access to the watch to be able to devise a solution for other HRMs. Simple one page web interface that can be run on local machine and mimics polarpersonaltrainer is also included (see screenshot) but needs lots of polishing. Please note it is a work in progress. This early version pulls down all data except for weekly training program.
-* [samrushing/irken-compiler](https://github.com/samrushing/irken-compiler) - Irken is a statically typed variant of Scheme.  Or a lisp-like variant of ML.
-* [samtools/htslib](https://github.com/samtools/htslib) - C library for high-throughput sequencing data formats
-* [samtools/samtools](https://github.com/samtools/samtools) - Tools (written in C using htslib) for manipulating next-generation sequencing data
-* [samuellab/InterProcess](https://github.com/samuellab/InterProcess) - A compact C library to share data between processes on Windows. Fast. Simple
-* [samyk/pwnat](https://github.com/samyk/pwnat) - pwnat punches holes in firewalls and NATs allowing any numbers of clients behind NATs to directly connect to a server behind a different NAT with no 3rd party, port forwarding, DMZ or spoofing involved
-* [saprykin/plibsys](https://github.com/saprykin/plibsys) - Highly portable C system library: threads and synchronization primitives, sockets (TCP, UDP, SCTP), IPv4 and IPv6, IPC, hash functions (MD5, SHA-1, SHA-2, SHA-3, GOST), binary trees (RB, AVL) and more. Native code performance.
-* [sass/sassc](https://github.com/sass/sassc) - libsass command line driver
-* [satellogic/canopus](https://github.com/satellogic/canopus) - Canopus framework and flight computer software for CubeBug cubesat platform
-* [sbinet/go-clang](https://github.com/sbinet/go-clang) - CGo bindings to the C-api of libclang.
-* [scallopedllama/nerorip](https://github.com/scallopedllama/nerorip) - Rips data out of nero archives
-* [sch3m4/libntoh](https://github.com/sch3m4/libntoh) - User-friendly C Library to perform TCP streams reassembly and IPv4/6 defragmentation
-* [schweikert/fping](https://github.com/schweikert/fping) - High performance ping tool
-* [sciguy14/MSP430-Wireless-Weather-Station](https://github.com/sciguy14/MSP430-Wireless-Weather-Station) - A Remote MSP430 monitors temperature, light, and humidity and sends the data to a local UART-USB MSP430.  A processing script graphs the data in real time on a computer.
-* [scottcgi/Mojoc](https://github.com/scottcgi/Mojoc) - A cross-platform, open-source, pure C  game engine for mobile game.
-* [scottellis/snapx](https://github.com/scottellis/snapx) - Stream data from a v4l2 camera and periodically save image. Testing app.
-* [scottransom/psrfits2psrfits](https://github.com/scottransom/psrfits2psrfits) - Convert 16-bit PSRFITS search-mode data to 4- or 8-bit PSRFITS data
-* [scrapinghub/mdr](https://github.com/scrapinghub/mdr) - A python library detect and extract listing data from HTML page.
-* [scytulip/nrf51-back-rec](https://github.com/scytulip/nrf51-back-rec) - NRF51822 Firmware for Background Data Recording
-* [sdegutis/mjolnir](https://github.com/sdegutis/mjolnir) - Lightweight automation and productivity app for OS X
-* [sdhand/x11fs](https://github.com/sdhand/x11fs) - A tool for manipulating X windows
-* [sdiehl/pycraig](https://github.com/sdiehl/pycraig) - Python library for scraping data from Craigslist
 * [sdroege/snippets](https://github.com/sdroege/snippets) - Some algorithms and data structures
 * [seL4/seL4](https://github.com/seL4/seL4) - The seL4 microkernel
-* [sean-/postgresql-varint](https://github.com/sean-/postgresql-varint) - Data type for PostgreSQL that encodes integers using variable width encoding in order to save space
-* [seanmiddleditch/libtelnet](https://github.com/seanmiddleditch/libtelnet) - Simple RFC-complient TELNET implementation as a C library.
-* [seanooi/iOS-WebP](https://github.com/seanooi/iOS-WebP) - Google's WebP image format decoder and encoder for iOS
 * [searchdaimon/enterprise-search](https://github.com/searchdaimon/enterprise-search) - An open source search engine for corporate data and websites.
 * [seastorm/PuttyRider](https://github.com/seastorm/PuttyRider) - Hijack Putty sessions in order to sniff conversation and inject Linux commands.
 * [sebnow/data_structures](https://github.com/sebnow/data_structures) - A collection of data structures, written in C.
@@ -2317,12 +2295,8 @@ Comprehensive and integrated solutions for building web application in C.
 * [semmerson/NOAAPORT](https://github.com/semmerson/NOAAPORT) - The Unidata NOAAPORT package captures broadcast UDP packets from a DVB-S or DVB-S2 receiver listening to the NOAAPORT satellite broadcast, creates data-products from the UDP packets, and inserts those data-products into an LDM product-queue.
 * [seppo0010/rlite](https://github.com/seppo0010/rlite) - self-contained, serverless, zero-configuration, transactional redis-compatible database engine. rlite is to Redis what SQLite is to SQL.
 * [septag/darkhammer](https://github.com/septag/darkhammer) - darkHAMMER is a lightweight, open-source, multiplatform game engine. written in C (C99) language, supports python and C# bindings and lua scripts. Runs on windows and linux
-* [servalproject/batphone](https://github.com/servalproject/batphone) - The Serval Mesh app for Android.  EXPERIMENTAL SOFTWARE.
 * [session-replay-tools/tcpburn](https://github.com/session-replay-tools/tcpburn) - The most powerful tool for stress testing of Internet server applications
 * [session-replay-tools/tcpcopy](https://github.com/session-replay-tools/tcpcopy) - An online request replication tool, also a tcp stream replay tool, fit for real testing, performance testing, stability testing, stress testing, load testing, smoke testing, etc
-* [seth/crio](https://github.com/seth/crio) - Prototype R package providing C-level utils for streaming data processing
-* [seth/rdict](https://github.com/seth/rdict) - R dictionary data type
-* [sevenler/Uninstall_Statics](https://github.com/sevenler/Uninstall_Statics) - Android 统计 应用 自身被 卸载 Android Statistics application is uninstalled
 * [sgminer-dev/sgminer](https://github.com/sgminer-dev/sgminer) - Scrypt GPU miner
 * [shadeslayer/libnice](https://github.com/shadeslayer/libnice) - Libnice is an implementation of the IETF's Interactive Connectivity Establishment (ICE) standard (RFC 5245) and the Session Traversal Utilities for NAT (STUN) standard (RFC 5389).  It provides a GLib-based library, libnice and a Glib-free library, libstun as well as GStreamer elements.  ICE is useful for applications that want to establish peer-to-peer UDP data streams. It automates the process of traversing NATs and provides security against some attacks. It also allows applications to create reliable streams using a TCP over UDP layer.  Existing standards that use ICE include Session Initiation Protocol (SIP) and XMPP Jingle.
 * [shadowsocks/ChinaDNS](https://github.com/shadowsocks/ChinaDNS) - Protect yourself against DNS poisoning in China.
@@ -2335,7 +2309,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [shawnclovie/cocos2dx-LuaProxy](https://github.com/shawnclovie/cocos2dx-LuaProxy) - LuaProxy for cocos2d-x, include CocosBuilder support for lua, and other cocos2d-extension support for lua, and easy to use function.
 * [sheepdog/sheepdog](https://github.com/sheepdog/sheepdog) - Distributed Storage System for QEMU
 * [shenfeng/tiny-web-server](https://github.com/shenfeng/tiny-web-server) - a tiny web server in C, for daily use.
-* [sheredom/json.h](https://github.com/sheredom/json.h) - json parser for C and C++
 * [sheredom/process.h](https://github.com/sheredom/process.h) - A simple one header solution to launching processes and interacting with them for C and C++.
 * [sheredom/utf8.h](https://github.com/sheredom/utf8.h) - single header utf8 string functions for C and C++
 * [shinh/maloader](https://github.com/shinh/maloader) - mach-o loader for linux
