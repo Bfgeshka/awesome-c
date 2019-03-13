@@ -199,6 +199,7 @@ Incorporated lists:
 * [drh/lcc](https://github.com/drh/lcc) - The lcc retargetable ANSI C compiler
 * [jserv/amacc](https://github.com/jserv/amacc) - Small C Compiler generating ELF executable for Arm architecture
 * [larmel/lacc](https://github.com/larmel/lacc) - A simple, self-hosting C compiler
+* [rui314/9cc](https://github.com/rui314/9cc) - A Small C Compiler
 
 [3-1]: https://gcc.gnu.org/
 [3-2]: https://clang.llvm.org/
@@ -447,6 +448,7 @@ Incorporated lists:
 * [Benchmarks of the Lockless Memory Allocator][451]
 * [Comparison of C/POSIX standard library implementations for Linux][453]
 * [Finding the best 64-bit simulation PRNG][454]
+* [robmccoll/graphdb-testing](https://github.com/robmccoll/graphdb-testing) - Benchmarking various graph databases, engines, datastructures, and data stores.
 
 ##### Beginner Level #####
 * [A tutorial on pointers][455]
@@ -615,6 +617,9 @@ Incorporated lists:
 * [reicast/reicast-emulator](https://github.com/reicast/reicast-emulator) - Reicast is a multiplatform Sega Dreamcast emulator
 * [robm/dzen](https://github.com/robm/dzen) - Dzen is a general purpose messaging, notification and menuing program for X11.
 * [riolet/rix](https://github.com/riolet/rix) - Rix language combines the power of C language and the convenience of a high level language
+* [rsms/sol](https://github.com/rsms/sol) - A sunny little virtual machine
+* [rswier/swieros](https://github.com/rswier/swieros) - A tiny hand crafted CPU emulator, C compiler, and Operating System
+* [rui314/minilisp](https://github.com/rui314/minilisp) - A readable lisp in less than 1k lines of C
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -653,6 +658,7 @@ Neural nets, machine learning, and other similar things.
 * [glouw/tinn](https://github.com/glouw/tinn) - The tiny neural network library
 * [iunderstand/SWE](https://github.com/iunderstand/SWE) - SWE Toolkit. Learning Semantic Word Embeddings based on Ordinal Knowledge Constraints. A general framework to incorporate semantic knowledge into the popular data-driven learning process of word vectors. Applications including word similarity, sentence completion, etc. ACL-2015 long paper, Beijing, China
 * [knossos-project/knossos](https://github.com/knossos-project/knossos) - KNOSSOS is a software tool for the visualization and annotation of 3D image data and was developed for the rapid reconstruction of neural morphology and connectivity.
+* [robwhess/opensift](https://github.com/robwhess/opensift) - Open-Source SIFT Library
 
 ## Algoritm Implementations ##
 * [sort][434] - Collection of sorting routines, which type-specialize at
@@ -861,6 +867,7 @@ Neural nets, machine learning, and other similar things.
 * [moinakg/pcompress](https://github.com/moinakg/pcompress) - A Parallelized Data Deduplication and Compression utility
 * [richgel999/miniz](https://github.com/richgel999/miniz) - miniz: Single C source file zlib-replacement library, originally from code.google.com/p/miniz
 * [richox/comprox](https://github.com/richox/comprox) - An experimental lossless data compression program with high compression ratio.
+* [rjsikarwar/gpu_compression](https://github.com/rjsikarwar/gpu_compression) - Nine Light weight Schemes to Compress and Decompress the data of Database Using GPU and also a planer
 
 ## Concurrency and Parallelism ##
 * [cchan][52] - Small library for channel constructs for inter-thread
@@ -1180,6 +1187,7 @@ Foreign function interfaces, also know as binding interfaces.
 * [guillermocalvo/exceptions4c](https://github.com/guillermocalvo/exceptions4c) - :bomb: An exception handling framework for C
 * [orangeduck/LuaAutoC](https://github.com/orangeduck/LuaAutoC) - Automagically use C Functions and Structs with the Lua API
 * [pfultz2/Cloak](https://github.com/pfultz2/Cloak) - A mini-preprocessor library to demostrate the recursive capabilites of the preprocessor
+* [robrix/RXPreprocessing](https://github.com/robrix/RXPreprocessing) - A variety of utilities for the C preprocessor.
 
 ## Game Development ##
 Engines, libraries and other helpful things specifically for making games.
@@ -1318,6 +1326,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [micahpearlman/MonkVG](https://github.com/micahpearlman/MonkVG) - MonkVG is an OpenVG 1.1 like vector graphics API implementation optimized for game use currently using an OpenGL ES backend that should be compatible with any HW that supports OpenGL ES 2.0 which includes most iOS and Android devices.
 * [minusinf/opengl_dataviewer](https://github.com/minusinf/opengl_dataviewer) - A simple OpenGL xyzw dataviewer
 * [randrew/layout](https://github.com/randrew/layout) - Single-file library for calculating 2D UI layouts using stacking boxes. Compiles as C99 or C++.
+* [rougier/freetype-gl](https://github.com/rougier/freetype-gl) - OpenGL text using one vertex buffer, one texture and FreeType
 
 ## GUI ##
 * [GTK+][206] - Cross-platform widget toolkit. [``LGPL-2.1-only``][LGPL-2.1-only]
@@ -1439,6 +1448,7 @@ can be found in the Crypto section.
 * [pornel/giflossy](https://github.com/pornel/giflossy) - Lossy GIF compressor
 * [pornel/pngquant](https://github.com/pornel/pngquant) - Lossy PNG compressor — pngquant command and libimagequant library
 * [rflynn/imgmin](https://github.com/rflynn/imgmin) - Lossy image optimization
+* [rmagick-temp/rmagick](https://github.com/rmagick-temp/rmagick) - An interface to the ImageMagick and GraphicsMagick image processing libraries.
 
 ## Integrated Debugging and Logging ##
 * [whereami][390] - One-file library for locating the current executable on the
@@ -1717,6 +1727,8 @@ Audio and video processing
 * [nicolasff/river](https://github.com/nicolasff/river) - A simple “comet” server in C, streaming data to web clients
 * [obgm/libcoap](https://github.com/obgm/libcoap) - A CoAP (RFC 7252) implementation in C
 * [opendp/dpdk-odp](https://github.com/opendp/dpdk-odp) - Open data plane on dpdk, TCP/IP stack for dpdk.
+* [rockdaboot/mget](https://github.com/rockdaboot/mget) - Multithreaded metalink/file/website downloader (like Wget) and C library
+* [rxi/dyad](https://github.com/rxi/dyad) - Asynchronous networking for C
 
 ### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
@@ -2252,47 +2264,12 @@ Comprehensive and integrated solutions for building web application in C.
 * [retuxx/tinyspline](https://github.com/retuxx/tinyspline) - ANSI C library for NURBS, B-Splines, and Bézier curves with wrappers for C++11, C#, Java, Lua, PHP, Python, and Ruby
 * [reverbrain/eblob](https://github.com/reverbrain/eblob) - Eblob is an append-only low-level IO library, which saves data in blob files. Created as low-level backend for elliptics
 * [reverbrain/smack](https://github.com/reverbrain/smack) - Low-level IO storage which packs data into sorted (zlib/bzip2/snappy compressed) blobs
+* [rofl0r/libulz](https://github.com/rofl0r/libulz) - a collection of useful functions and data structures to create C apps faster. focus on simplicity, ability to statically link and minimal binary size.
 
 # Unsorted #
-* [rjsikarwar/gpu_compression](https://github.com/rjsikarwar/gpu_compression) - Nine Light weight Schemes to Compress and Decompress the data of Database Using GPU and also a planer
-* [rmagick-temp/rmagick](https://github.com/rmagick-temp/rmagick) - An interface to the ImageMagick and GraphicsMagick image processing libraries.
-* [rmccullagh/como-lang-ng](https://github.com/rmccullagh/como-lang-ng) - A programming language prototype implemented in C with an AST, Compiler, and  Virtual Machine \@TODO Garbage Collection
-* [robertdavidgraham/masscan](https://github.com/robertdavidgraham/masscan) - TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes.
-* [robertdavidgraham/robdns](https://github.com/robertdavidgraham/robdns) - A fast DNS server based on C10M principles
-* [robmccoll/graphdb-testing](https://github.com/robmccoll/graphdb-testing) - Benchmarking various graph databases, engines, datastructures, and data stores.
-* [roboterclubaachen/xpcc](https://github.com/roboterclubaachen/xpcc) - The C++ microcontroller framework xpcc for AVR and Cortex-M
-* [robotmedia/RMStore](https://github.com/robotmedia/RMStore) - A lightweight iOS library for In-App Purchases
-* [robotpy/robotpy-crio](https://github.com/robotpy/robotpy-crio) - Obsolete. Python 3 port for cRIO for use in the FIRST Robotics Competition (FRC)
-* [robrix/RXPreprocessing](https://github.com/robrix/RXPreprocessing) - A variety of utilities for the C preprocessor.
-* [robwhess/opensift](https://github.com/robwhess/opensift) - Open-Source SIFT Library
-* [rockdaboot/mget](https://github.com/rockdaboot/mget) - Multithreaded metalink/file/website downloader (like Wget) and C library
-* [rofl0r/libulz](https://github.com/rofl0r/libulz) - a collection of useful functions and data structures to create C apps faster. focus on simplicity, ability to statically link and minimal binary size.
-* [rofl0r/proxychains-ng](https://github.com/rofl0r/proxychains-ng) - proxychains ng (new generation) - a preloader which hooks calls to sockets in dynamically linked programs and redirects it through one or more socks/http proxies. continuation of the unmaintained proxychains project.
-* [romanbsd/fast-stemmer](https://github.com/romanbsd/fast-stemmer) - Fast Porter stemmer based on a C version of the algorithm
-* [rothlab/chromozoom](https://github.com/rothlab/chromozoom) - ChromoZoom is a fast, fluid web-based genome browser
-* [rougier/freetype-gl](https://github.com/rougier/freetype-gl) - OpenGL text using one vertex buffer, one texture and FreeType
-* [roundsheep/rpp](https://github.com/roundsheep/rpp) - RPP is a new programming language combined with C++ and LISP
-* [roysjosh/xbee-comm](https://github.com/roysjosh/xbee-comm) - XBee communication libraries and utilities
-* [rpetrich/untrackerd](https://github.com/rpetrich/untrackerd) - Continuously clean up locationd's history data
-* [rpm-software-management/hawkey](https://github.com/rpm-software-management/hawkey) - This is hawkey, library providing simplified C and Python API to libsolv. Hawkey project is obsoleted.
-* [rsms/sol](https://github.com/rsms/sol) - A sunny little virtual machine
-* [rspamd/rspamd](https://github.com/rspamd/rspamd) - Rapid spam filtering system.
-* [rsta2/circle](https://github.com/rsta2/circle) - A C++ bare metal environment for Raspberry Pi with USB (32 and 64 bit)
-* [rsta2/uspi](https://github.com/rsta2/uspi) - A bare metal USB driver for Raspberry Pi written in C
-* [rswier/c4](https://github.com/rswier/c4) - C in four functions
-* [rswier/swieros](https://github.com/rswier/swieros) - A tiny hand crafted CPU emulator, C compiler, and Operating System
-* [rsyslog/rsyslog](https://github.com/rsyslog/rsyslog) - a Rocket-fast SYStem for LOG processing
-* [rubenspessoa/LocData-P1](https://github.com/rubenspessoa/LocData-P1) - Projeto de Programação 1.
-* [ruby/curses](https://github.com/ruby/curses) - Ruby binding for curses, ncurses, and PDCurses.  Formerly part of the ruby standard library.
-* [ruby/psych](https://github.com/ruby/psych) - A libyaml wrapper for Ruby
-* [rui314/9cc](https://github.com/rui314/9cc) - A Small C Compiler
-* [rui314/minilisp](https://github.com/rui314/minilisp) - A readable lisp in less than 1k lines of C
-* [rustyrussell/bitcoin-iterate](https://github.com/rustyrussell/bitcoin-iterate) - Simple fast iterator to extract data from bitcoind's blockchain files.
 * [rustyrussell/ccan](https://github.com/rustyrussell/ccan) - The C Code Archive Network
 * [rvoicilas/inotify-tools](https://github.com/rvoicilas/inotify-tools) -   inotify-tools is a C library and a set of command-line programs for Linux providing a simple interface to inotify.
-* [rweichler/cylinder](https://github.com/rweichler/cylinder) - iOS homescreen page transitions in Lua
 * [rwos/gti](https://github.com/rwos/gti) - a git launcher :-)
-* [rxi/dyad](https://github.com/rxi/dyad) - Asynchronous networking for C
 * [rxi/log.c](https://github.com/rxi/log.c) - A simple logging library implemented in C99
 * [rxi/lovedos](https://github.com/rxi/lovedos) - A framework for making 2D DOS games in Lua
 * [rxi/map](https://github.com/rxi/map) - A type-safe hash map implementation for C
