@@ -1036,6 +1036,7 @@ protocols.
 * [mongodb/mongo-c-driver](https://github.com/mongodb/mongo-c-driver) - A high-performance MongoDB driver for C
 * [pmwkaa/sophia](https://github.com/pmwkaa/sophia) - modern emeddable key-value database
 * [redis/hiredis](https://github.com/redis/hiredis) - Minimalistic C client for Redis >= 1.2
+* [seppo0010/rlite](https://github.com/seppo0010/rlite) - self-contained, serverless, zero-configuration, transactional redis-compatible database engine. rlite is to Redis what SQLite is to SQL.
 
 ## Data Structures and Types ##
 * [libhl][58] - Library implementing a thread-safe API to manage a range of data
@@ -1196,6 +1197,7 @@ Foreign function interfaces, also know as binding interfaces.
 * [orangeduck/LuaAutoC](https://github.com/orangeduck/LuaAutoC) - Automagically use C Functions and Structs with the Lua API
 * [pfultz2/Cloak](https://github.com/pfultz2/Cloak) - A mini-preprocessor library to demostrate the recursive capabilites of the preprocessor
 * [robrix/RXPreprocessing](https://github.com/robrix/RXPreprocessing) - A variety of utilities for the C preprocessor.
+* [skeeto/interactive-c-demo](https://github.com/skeeto/interactive-c-demo) - Demonstration of interactive C programming
 
 ## Game Development ##
 Engines, libraries and other helpful things specifically for making games.
@@ -1297,6 +1299,8 @@ Engines, libraries and other helpful things specifically for making games.
 * [scottcgi/Mojoc](https://github.com/scottcgi/Mojoc) - A cross-platform, open-source, pure C  game engine for mobile game.
 * [shaunlebron/blinky](https://github.com/shaunlebron/blinky) - Exploring peripheral vision in games (using Quake)
 * [septag/darkhammer](https://github.com/septag/darkhammer) - darkHAMMER is a lightweight, open-source, multiplatform game engine. written in C (C99) language, supports python and C# bindings and lua scripts. Runs on windows and linux
+* [slembcke/Chipmunk2D](https://github.com/slembcke/Chipmunk2D) - A fast and lightweight 2D game physics library.
+* [smistad/GPU-Marching-Cubes](https://github.com/smistad/GPU-Marching-Cubes) - A GPU implementation of the Marching Cubes algorithm for extracting surfaces from volumes using OpenCL and OpenGL
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1500,6 +1504,7 @@ Generic lexers and parsers
 * [dcreager/libpush](https://github.com/dcreager/libpush) - An arrow-based parser combinator library for C
 * [kmussel/Moment](https://github.com/kmussel/Moment) - Natural Language Date Parser Using Lex/Yacc/C
 * [orangeduck/mpc](https://github.com/orangeduck/mpc) - A Parser Combinator library for C
+* [skvadrik/re2c](https://github.com/skvadrik/re2c) - lexer generator for C/C++
 
 ## Memory Management ##
 * [Boehm GC][212] - Garbage collection for C. Various licenses, all open source.
@@ -1645,6 +1650,7 @@ Audio and video processing
 * [zyearn/zaver](https://github.com/zyearn/zaver) - Yet another fast and efficient HTTP server
 * [monkey/monkey](https://github.com/monkey/monkey) - Monkey HTTP Server
 * [reagent/http](https://github.com/reagent/http) - Simple HTTP client in C
+* [solusipse/ureq](https://github.com/solusipse/ureq) - Micro C library for handling HTTP requests on low resource systems.
 
 ### Mail ###
 * [LibEtPan][233] - Mail library providing an efficient network for IMAP, SMTP,
@@ -1749,6 +1755,7 @@ Audio and video processing
 * [rxi/dyad](https://github.com/rxi/dyad) - Asynchronous networking for C
 * [sch3m4/libntoh](https://github.com/sch3m4/libntoh) - User-friendly C Library to perform TCP streams reassembly and IPv4/6 defragmentation
 * [seanmiddleditch/libtelnet](https://github.com/seanmiddleditch/libtelnet) - Simple RFC-complient TELNET implementation as a C library.
+* [shadeslayer/libnice](https://github.com/shadeslayer/libnice) - Libnice is an implementation of the IETF's Interactive Connectivity Establishment (ICE) standard (RFC 5245) and the Session Traversal Utilities for NAT (STUN) standard (RFC 5389).  It provides a GLib-based library, libnice and a Glib-free library, libstun as well as GStreamer elements.  ICE is useful for applications that want to establish peer-to-peer UDP data streams. It automates the process of traversing NATs and provides security against some attacks. It also allows applications to create reliable streams using a TCP over UDP layer.  Existing standards that use ICE include Session Initiation Protocol (SIP) and XMPP Jingle.
 
 ### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
@@ -1924,6 +1931,7 @@ Audio and video processing
 * [noporpoise/seq_file](https://github.com/noporpoise/seq_file) - Library for Reading Bioinformatic Sequence Data in C
 * [qiq/Czech-morphology](https://github.com/qiq/Czech-morphology) - Czech morphology library, using data files compatible with PDT 2.0
 * [r0nk/corvus](https://github.com/r0nk/corvus) - Genetic BF programming
+* [sleuthkit/sleuthkit](https://github.com/sleuthkit/sleuthkit) - The Sleuth Kit® (TSK) is a library and collection of command line digital forensics tools that allow you to investigate volume and file system data. The library can be incorporated into larger digital forensics tools and the command line tools can be directly used to find evidence.
 
 ## Geography ##
 Geodata, street maps, navigation and so on
@@ -2300,40 +2308,22 @@ Comprehensive and integrated solutions for building web application in C.
 * [shenfeng/tiny-web-server](https://github.com/shenfeng/tiny-web-server) - a tiny web server in C, for daily use.
 * [sgminer-dev/sgminer](https://github.com/sgminer-dev/sgminer) - Scrypt GPU miner
 * [signalapp/libsignal-protocol-c](https://github.com/signalapp/libsignal-protocol-c) - Signal Protocol C Library
+* [sharvil/flingfd](https://github.com/sharvil/flingfd) - A tiny library to send file descriptors across processes
+* [sheredom/process.h](https://github.com/sheredom/process.h) - A simple one header solution to launching processes and interacting with them for C and C++.
 
 # Unsorted #
-* [semmerson/NOAAPORT](https://github.com/semmerson/NOAAPORT) - The Unidata NOAAPORT package captures broadcast UDP packets from a DVB-S or DVB-S2 receiver listening to the NOAAPORT satellite broadcast, creates data-products from the UDP packets, and inserts those data-products into an LDM product-queue.
-* [seppo0010/rlite](https://github.com/seppo0010/rlite) - self-contained, serverless, zero-configuration, transactional redis-compatible database engine. rlite is to Redis what SQLite is to SQL.
-* [shadeslayer/libnice](https://github.com/shadeslayer/libnice) - Libnice is an implementation of the IETF's Interactive Connectivity Establishment (ICE) standard (RFC 5245) and the Session Traversal Utilities for NAT (STUN) standard (RFC 5389).  It provides a GLib-based library, libnice and a Glib-free library, libstun as well as GStreamer elements.  ICE is useful for applications that want to establish peer-to-peer UDP data streams. It automates the process of traversing NATs and provides security against some attacks. It also allows applications to create reliable streams using a TCP over UDP layer.  Existing standards that use ICE include Session Initiation Protocol (SIP) and XMPP Jingle.
-* [sharvil/flingfd](https://github.com/sharvil/flingfd) - A tiny library to send file descriptors across processes
-* [sheepdog/sheepdog](https://github.com/sheepdog/sheepdog) - Distributed Storage System for QEMU
-* [sheredom/process.h](https://github.com/sheredom/process.h) - A simple one header solution to launching processes and interacting with them for C and C++.
 * [shinh/maloader](https://github.com/shinh/maloader) - mach-o loader for linux
-* [simtr/The-Powder-Toy](https://github.com/simtr/The-Powder-Toy) - Written in C++ and using SDL, The Powder Toy is a desktop version of the classic 'falling sand' physics sandbox, it simulates air pressure and velocity as well as heat.
 * [sipcapture/hepipe](https://github.com/sipcapture/hepipe) - HEP-PIPE: Pipe arbitrary data (logs, events, cdrs, etc) to HEP server (HOMER)
 * [skarnet/s6](https://github.com/skarnet/s6) - The s6 supervision suite.
-* [skeeto/interactive-c-demo](https://github.com/skeeto/interactive-c-demo) - Demonstration of interactive C programming
-* [skopjehacklab/MeteoKutija](https://github.com/skopjehacklab/MeteoKutija) - The MeteoBox (MeteoKutija) is a cheap device that collects a set of meteorological data and publishes it to a central database.
-* [skvadrik/re2c](https://github.com/skvadrik/re2c) - lexer generator for C/C++
 * [skx/simple.vm](https://github.com/skx/simple.vm) - Simple virtual machine which inteprets bytecode.
-* [slact/nginx_http_push_module](https://github.com/slact/nginx_http_push_module) - Turn NGiNX into an adept HTTP push server.
 * [slash-lang/slash](https://github.com/slash-lang/slash) - A new language for the web
-* [slembcke/Chipmunk2D](https://github.com/slembcke/Chipmunk2D) - A fast and lightweight 2D game physics library.
-* [sleuthkit/sleuthkit](https://github.com/sleuthkit/sleuthkit) - The Sleuth Kit® (TSK) is a library and collection of command line digital forensics tools that allow you to investigate volume and file system data. The library can be incorporated into larger digital forensics tools and the command line tools can be directly used to find evidence.
 * [slim-curve/slim-curve](https://github.com/slim-curve/slim-curve) - SLIM Curve: a package for exponential curve fitting of combined spectral lifetime image data
 * [smealum/ctrulib](https://github.com/smealum/ctrulib) - C library for writing user mode arm11 code for the 3DS (CTR)
 * [smira/memcached_functions_mysql](https://github.com/smira/memcached_functions_mysql) - Memcached functions for MySQL as UDF, tailored for usage in replication and pushing data to MemcacheQ
-* [smistad/GPU-Marching-Cubes](https://github.com/smistad/GPU-Marching-Cubes) - A GPU implementation of the Marching Cubes algorithm for extracting surfaces from volumes using OpenCL and OpenGL
 * [smithlabcode/methpipe](https://github.com/smithlabcode/methpipe) - A pipeline for analyzing DNA methylation data from bisulfite sequencing.
 * [smtlaissezfaire/c_type_sizes](https://github.com/smtlaissezfaire/c_type_sizes) - show the sizes of C data types
-* [snaga/monetdb_fdw](https://github.com/snaga/monetdb_fdw) - monetdb_fdw - PostgreSQL Foreign Data Wrapper for MonetDB
-* [snaga/xlogdump](https://github.com/snaga/xlogdump) - A tool for extracting data from the PostgreSQL's write ahead logs.
 * [snavely/bundler_sfm](https://github.com/snavely/bundler_sfm) - Bundler Structure from Motion Toolkit
 * [snielsen/DeathToDSStore](https://github.com/snielsen/DeathToDSStore) - .DS_Store is an abomination and must be stopped.
-* [snooda/net-speeder](https://github.com/snooda/net-speeder) - net-speeder 在高延迟不稳定链路上优化单线程下载速度
-* [solusipse/ureq](https://github.com/solusipse/ureq) - Micro C library for handling HTTP requests on low resource systems.
-* [sonsongithub/CoreAR](https://github.com/sonsongithub/CoreAR) - AR(Augmented reality) framework for iOS, based on a visual code like ARToolKit
-* [sonyxperiadev/kernel-copyleft](https://github.com/sonyxperiadev/kernel-copyleft) - Copyleft archives for Xperia kernels
 * [sounos/hidbase](https://github.com/sounos/hidbase) - Distributed Data Storage System
 * [soveran/clac](https://github.com/soveran/clac) - Command-line, stack-based calculator with postfix notation
 * [sp4cerat/RLE-based-Voxel-Raycasting](https://github.com/sp4cerat/RLE-based-Voxel-Raycasting) - CUDA based Voxel Raycasting - Paper: Efficient, High-Quality, GPU-Based Visualization of Voxelized Surface Data
