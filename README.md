@@ -604,6 +604,7 @@ Incorporated lists:
 * [nickbjohnson4224/rhombus](https://github.com/nickbjohnson4224/rhombus) - a hobby operating system written in C
 * [nickdesaulniers/bf_interpreter_jit_compiler](https://github.com/nickdesaulniers/bf_interpreter_jit_compiler) - Teach myself about interpreters, JITs, and compilers using the Brainfuck language as the toy language
 * [paladin-t/my_basic](https://github.com/paladin-t/my_basic) - Lightweight BASIC interpreter written in standard C in dual files. Aimed to be embeddable, extendable and portable.
+* [philburk/pforth](https://github.com/philburk/pforth) - Portable Forth in C
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -1105,6 +1106,9 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [orangejulius/cs_fundamentals](https://github.com/orangejulius/cs_fundamentals) - simple implementations of common data structures/algorithms
 * [paulasmuth/libsmatrix](https://github.com/paulasmuth/libsmatrix) - thread-safe sparse matrix data structure
 * [pcdavid/data-structures](https://github.com/pcdavid/data-structures) - Sample implementations of classical data structures in C.
+* [pcostesi/c-data-structures](https://github.com/pcostesi/c-data-structures) - Simple Data Structures
+* [petewarden/c_hashmap](https://github.com/petewarden/c_hashmap) - A simple string hashmap in C
+* [pforemski/libpjf](https://github.com/pforemski/libpjf) - A C library of data structures with tools (based on libasn)
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1151,6 +1155,7 @@ Foreign function interfaces, also know as binding interfaces.
 * [graphitemaster/lambdapp](https://github.com/graphitemaster/lambdapp) - Anonymous functions in C
 * [guillermocalvo/exceptions4c](https://github.com/guillermocalvo/exceptions4c) - :bomb: An exception handling framework for C
 * [orangeduck/LuaAutoC](https://github.com/orangeduck/LuaAutoC) - Automagically use C Functions and Structs with the Lua API
+* [pfultz2/Cloak](https://github.com/pfultz2/Cloak) - A mini-preprocessor library to demostrate the recursive capabilites of the preprocessor
 
 ## Game Development ##
 Engines, libraries and other helpful things specifically for making games.
@@ -2190,45 +2195,7 @@ Comprehensive and integrated solutions for building web application in C.
 * [parallella/pal](https://github.com/parallella/pal) - An optimized C library for math, parallel processing and data movement
 
 # Unsorted #
-* [pchote/falloutviewer](https://github.com/pchote/falloutviewer) - A tool for viewing and extracting files from Fallout 2 data archives
-* [pcostesi/c-data-structures](https://github.com/pcostesi/c-data-structures) - Simple Data Structures
-* [pd-l2ork/pd](https://github.com/pd-l2ork/pd) - L2Ork version of Pure-Data real-time digital signal processing language developed and maintained at DISIS, Virginia Tech
-* [pd-projects/pd-double](https://github.com/pd-projects/pd-double) - a dev fork of pure-data.git for working on 64-bit double-precision support
-* [pdpdds/CGSF](https://github.com/pdpdds/CGSF) - Online Game Server Platform
-* [pebble-examples/cards-example](https://github.com/pebble-examples/cards-example) - Pebble Draw Commands example with a cards based app
-* [pepe2k/u-boot_mod](https://github.com/pepe2k/u-boot_mod) - U-Boot 1.1.4 modification for routers
-* [perfaram/xLine](https://github.com/perfaram/xLine) - Getting OSX hardware data/params through command line
-* [performancecopilot/pcp](https://github.com/performancecopilot/pcp) - Performance Co-Pilot
-* [perl11/potion](https://github.com/perl11/potion) - why the lucky stiff's little language (the official repo... until why returns)
-* [peterburk/stackoverflowlocal](https://github.com/peterburk/stackoverflowlocal) - Scripts for locally hosting and searching a compressed StackOverflow data dump
-* [petermichaux/royal-scheme](https://github.com/petermichaux/royal-scheme) - Royal Scheme will eventually grow to be a real, usable, embeddable Scheme implemented in ANSI C.
-* [petewarden/c_hashmap](https://github.com/petewarden/c_hashmap) - A simple string hashmap in C
-* [petropavel13/pg_rrule](https://github.com/petropavel13/pg_rrule) - RRULE data type for PostgreSQL
-* [pez2001/razer_chroma_drivers](https://github.com/pez2001/razer_chroma_drivers) - A collection of Linux drivers for Razer Chroma devices, it supports all lighting modes and includes a daemon for advanced effects + gui configuration app
-* [pflarr/dns_parse](https://github.com/pflarr/dns_parse) - A fast parser for DNS pcap data.
-* [pforemski/libpjf](https://github.com/pforemski/libpjf) - A C library of data structures with tools (based on libasn)
-* [pfq/PFQ](https://github.com/pfq/PFQ) - Functional Networking Framework for Multi-Core Architectures
-* [pfultz2/Cloak](https://github.com/pfultz2/Cloak) - A mini-preprocessor library to demostrate the recursive capabilites of the preprocessor
-* [pgRouting/pgrouting](https://github.com/pgRouting/pgrouting) - Repository contains pgRouting library. Development branch is "develop", stable branch is "master"
-* [pgbackrest/pgbackrest](https://github.com/pgbackrest/pgbackrest) - Reliable PostgreSQL Backup & Restore
-* [pgbovine/CDE](https://github.com/pgbovine/CDE) - CDE: Code, Data, and Environment packaging for Linux
-* [pgbovine/OnlinePythonTutor](https://github.com/pgbovine/OnlinePythonTutor) - Visualize Python, Java, JavaScript, TypeScript, Ruby, C, and C++ code execution in your Web browser
-* [pgbovine/opt-cpp-backend](https://github.com/pgbovine/opt-cpp-backend) - C and C++ visualizer backend for Online Python Tutor
-* [phadej/igbinary](https://github.com/phadej/igbinary) - Igbinary is a drop in replacement for the standard php serializer.  Check https://github.com/igbinary/igbinary for the freshest version
-* [phalcon/cphalcon](https://github.com/phalcon/cphalcon) - Web framework delivered as a C-extension for PHP
-* [phalcon/zephir](https://github.com/phalcon/zephir) - Zephir is a compiled high level language aimed to the creation of C-extensions for PHP
-* [philburk/pforth](https://github.com/philburk/pforth) - Portable Forth in C
-* [philipl/pifs](https://github.com/philipl/pifs) - πfs - the data-free filesystem!
-* [philippe44/AirConnect](https://github.com/philippe44/AirConnect) - Use AirPlay to stream to UPnP/Sonos & Chromecast devices
-* [philwieland/openrail](https://github.com/philwieland/openrail) - Open Rail Data Processing
-* [phlowy/splunk-phlow](https://github.com/phlowy/splunk-phlow) - This is an application for consuming netflow v5,7,9 data using NFDUMP, iNotify, Binary-ASCII coverter, and Splunk!
-* [phoboslab/jsmpeg-vnc](https://github.com/phoboslab/jsmpeg-vnc) - A low latency, high framerate screen sharing server for Windows and client for browsers
-* [phonegap/phonegap-plugin-contentsync](https://github.com/phonegap/phonegap-plugin-contentsync) - Download and cache remotely hosted content
-* [phonegap/phonegap-plugin-fast-canvas](https://github.com/phonegap/phonegap-plugin-fast-canvas) - Fast, 2D, mostly-HTML5-canvas-compatible rendering surface for Android.
-* [php-memcached-dev/php-memcached](https://github.com/php-memcached-dev/php-memcached) - memcached extension based on libmemcached library
-* [php/pecl-database-pdo_user](https://github.com/php/pecl-database-pdo_user) - Userspace driver for PDO
 * [php/php-src](https://github.com/php/php-src) - The PHP Interpreter
-* [phpredis/phpredis](https://github.com/phpredis/phpredis) - A PHP extension for Redis
 * [pi-hole/FTL](https://github.com/pi-hole/FTL) - The Pi-hole FTL engine
 * [pi8027/libdatastruct](https://github.com/pi8027/libdatastruct) - libdatastruct is an ANSI C library for abstract data types.
 * [pikelang/Pike](https://github.com/pikelang/Pike) - Pike is a dynamic programming language with a syntax similar to Java and C. It is simple to learn, does not require long compilation passes and has powerful built-in data types allowing simple and really fast data manipulation.
