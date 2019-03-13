@@ -603,6 +603,7 @@ Incorporated lists:
 * [nesbox/tic.computer](https://github.com/nesbox/tic.computer) - 🐛 Public TIC-80 issues tracker
 * [nickbjohnson4224/rhombus](https://github.com/nickbjohnson4224/rhombus) - a hobby operating system written in C
 * [nickdesaulniers/bf_interpreter_jit_compiler](https://github.com/nickdesaulniers/bf_interpreter_jit_compiler) - Teach myself about interpreters, JITs, and compilers using the Brainfuck language as the toy language
+* [paladin-t/my_basic](https://github.com/paladin-t/my_basic) - Lightweight BASIC interpreter written in standard C in dual files. Aimed to be embeddable, extendable and portable.
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -1101,6 +1102,9 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [natehardison/data-structures](https://github.com/natehardison/data-structures) - A bunch of data structure implementations, just for fun.
 * [noporpoise/BitArray](https://github.com/noporpoise/BitArray) - C bit array structs and methods
 * [noporpoise/madcrowlib](https://github.com/noporpoise/madcrowlib) - Common C data structure macros
+* [orangejulius/cs_fundamentals](https://github.com/orangejulius/cs_fundamentals) - simple implementations of common data structures/algorithms
+* [paulasmuth/libsmatrix](https://github.com/paulasmuth/libsmatrix) - thread-safe sparse matrix data structure
+* [pcdavid/data-structures](https://github.com/pcdavid/data-structures) - Sample implementations of classical data structures in C.
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1146,6 +1150,7 @@ Foreign function interfaces, also know as binding interfaces.
 * [eudoxia0/magma](https://github.com/eudoxia0/magma) - Extending C with cmacro
 * [graphitemaster/lambdapp](https://github.com/graphitemaster/lambdapp) - Anonymous functions in C
 * [guillermocalvo/exceptions4c](https://github.com/guillermocalvo/exceptions4c) - :bomb: An exception handling framework for C
+* [orangeduck/LuaAutoC](https://github.com/orangeduck/LuaAutoC) - Automagically use C Functions and Structs with the Lua API
 
 ## Game Development ##
 Engines, libraries and other helpful things specifically for making games.
@@ -1239,6 +1244,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [mupen64plus/mupen64plus-core](https://github.com/mupen64plus/mupen64plus-core) - Core module of the Mupen64Plus project
 * [naev/naev](https://github.com/naev/naev) - Naev is a 2d action/rpg space game that combines elements from the action, rpg and simulation genres.
 * [nikki93/cgame](https://github.com/nikki93/cgame) - some ideas involving games and C
+* [orangeduck/Corange](https://github.com/orangeduck/Corange) - Pure C Game Engine
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1332,6 +1338,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [libusb/libusb](https://github.com/libusb/libusb) - A cross-platform library to access USB devices
 * [micronucleus/micronucleus](https://github.com/micronucleus/micronucleus) - ATTiny usb bootloader with a strong emphasis on bootloader compactness.
 * [nfc-tools/libnfc](https://github.com/nfc-tools/libnfc) - Platform independent Near Field Communication (NFC) library
+* [openyou/libomron](https://github.com/openyou/libomron) - Libraries for accessing data from Omron medical devices
 
 ## Hashing ##
 Hash function implementations for *non*-crypto purposes. Cryptographic hashes
@@ -1393,6 +1400,7 @@ can be found in the Crypto section.
 * [ginsweater/gif-h](https://github.com/ginsweater/gif-h) - Simple C++ one-header library for the creation of animated GIFs from image data.
 * [jcupitt/libvips](https://github.com/jcupitt/libvips) - A fast image processing library with low memory needs.
 * [mozilla/mozjpeg](https://github.com/mozilla/mozjpeg) - Improved JPEG encoder.
+* [openslide/openslide](https://github.com/openslide/openslide) - C library for reading virtual slide images
 
 ## Integrated Debugging and Logging ##
 * [whereami][390] - One-file library for locating the current executable on the
@@ -1428,6 +1436,7 @@ Generic lexers and parsers
 * [burtonsamograd/sxc](https://github.com/burtonsamograd/sxc) - sxc is an 'S-Expression C' transpiler for generating C code using macros written in Common Lisp
 * [dcreager/libpush](https://github.com/dcreager/libpush) - An arrow-based parser combinator library for C
 * [kmussel/Moment](https://github.com/kmussel/Moment) - Natural Language Date Parser Using Lex/Yacc/C
+* [orangeduck/mpc](https://github.com/orangeduck/mpc) - A Parser Combinator library for C
 
 ## Memory Management ##
 * [Boehm GC][212] - Garbage collection for C. Various licenses, all open source.
@@ -1451,6 +1460,7 @@ Generic lexers and parsers
 * [mulle-nat/mulle-allocator](https://github.com/mulle-nat/mulle-allocator) - 🔄 Flexible C memory allocation scheme with leak checking
 * [munificent/mark-sweep](https://github.com/munificent/mark-sweep) - A simple mark-sweep garbage collector in C
 * [ned14/nedmalloc](https://github.com/ned14/nedmalloc) - An EXTREMELY FAST portable thread caching malloc implementation written in C for multiple threads without lock contention based on dlmalloc. Optimised for x86 and x64. Compatible with C++. Can patch itself into existing binaries on Windows.
+* [orangeduck/tgc](https://github.com/orangeduck/tgc) - A Tiny Garbage Collector for C
 
 ## Multimedia ##
 Audio and video processing
@@ -1583,6 +1593,7 @@ Audio and video processing
 * [nanomsg][244] - C-based implementation of ZeroMQ. [``MIT``][MIT]
 * [antirez/disque](https://github.com/antirez/disque) - Disque is a distributed message broker
 * [circonus-labs/fq](https://github.com/circonus-labs/fq) - F@#$*&%Q (Message queue that is fast, brokered, in C and gets out of your way)
+* [paulasmuth/fyrehose](https://github.com/paulasmuth/fyrehose) - message broker for JSON data streams
 
 ### Other Networking ###
 * [asnlc][227] - Compiler of ASN.1 specifications into C source code. [``BSD-2-Clause``][BSD-2-Clause]
@@ -1670,6 +1681,7 @@ Audio and video processing
   protocol, as described in RFC 6455. [``MIT``][MIT]
 * [libwebsock][241] - Easy-to-use and powerful web socket library. [``LGPL-3.0-only``][LGPL-3.0-only]
 * [m8rge/cwebsocket](https://github.com/m8rge/cwebsocket) - cWebsocket is lightweight websocket server library
+* [payden/libwebsock](https://github.com/payden/libwebsock) - C library for easy WebSockets server.
 
 --------------------------------------------------------------------------------
 
@@ -1726,6 +1738,7 @@ Audio and video processing
 * [kkos/oniguruma](https://github.com/kkos/oniguruma) - regular expression library
 * [mbornet-hl/hl](https://github.com/mbornet-hl/hl) - Highlight (colorize) text data using regular expressions
 * [mptre/pick](https://github.com/mptre/pick) - A fuzzy search tool for the command-line
+* [openresty/sregex](https://github.com/openresty/sregex) - A non-backtracking NFA/DFA-based Perl-compatible regex engine matching on large data streams
 
 ## Serialization ##
 * [binn][280] - Binary serialization format, meant to be compact, fast and
@@ -1948,6 +1961,7 @@ Libraries for working wit hspecific filetypes
 * [lloyd/yajl](https://github.com/lloyd/yajl) - A fast streaming JSON parsing library in C.
 * [mysqludf/lib_mysqludf_json](https://github.com/mysqludf/lib_mysqludf_json) - A UDF library of functions to map relational data to the JSON format.
 * [netmail-open/wjelement](https://github.com/netmail-open/wjelement) - advanced, flexible JSON manipulation in C
+* [orangeduck/json2c](https://github.com/orangeduck/json2c) - Convert JSON to C data literals
 
 ### INI ###
 * [inih][329] - Small and simple INI file parser, good for embedded systems. [``BSD-3-Clause``][BSD-3-Clause]
@@ -2051,6 +2065,7 @@ Libraries for working wit hspecific filetypes
 * [mcandre/qc](https://github.com/mcandre/qc) - qc - A C port of the QuickCheck unit test framework
 * [mchochlov/Gnucash](https://github.com/mchochlov/Gnucash) - Data model unit testing - GSoC 2011
 * [mortie/snow](https://github.com/mortie/snow) - A testing library for C.
+* [orangeduck/ptest](https://github.com/orangeduck/ptest) - DRY Microtesting Framework for C
 
 ## TUI ##
 Textual User Interface
@@ -2171,54 +2186,10 @@ Comprehensive and integrated solutions for building web application in C.
 * [openglbook/openglbook.com](https://github.com/openglbook/openglbook.com) - The source code for http://openglbook.com/
 * [openglsuperbible/sb6code](https://github.com/openglsuperbible/sb6code) - Source code for OpenGL SupeBible 6th Edition examples
 * [openglsuperbible/sb7code](https://github.com/openglsuperbible/sb7code) - Source code and supporting material for the 7th Edition of OpenGL SuperBible
+* [orlp/ed25519](https://github.com/orlp/ed25519) - Portable C implementation of Ed25519, a high-speed high-security public-key signature system.
+* [parallella/pal](https://github.com/parallella/pal) - An optimized C library for math, parallel processing and data movement
 
 # Unsorted #
-* [openresty/sregex](https://github.com/openresty/sregex) - A non-backtracking NFA/DFA-based Perl-compatible regex engine matching on large data streams
-* [openslide/openslide](https://github.com/openslide/openslide) - C library for reading virtual slide images
-* [openvswitch/ovs](https://github.com/openvswitch/ovs) - Open vSwitch
-* [openworm/sibernetic](https://github.com/openworm/sibernetic) - This is a C++/OpenCL implementation of the PCISPH algorithm supplemented with a set of biomechanics related features applied to C. elegans locomotion
-* [openwrt-mirror/openwrt](https://github.com/openwrt-mirror/openwrt) - Mirror of the OpenWRT repository
-* [openyou/libomron](https://github.com/openyou/libomron) - Libraries for accessing data from Omron medical devices
-* [openzfsonosx/zfs](https://github.com/openzfsonosx/zfs) - OpenZFS on OS X
-* [opsengine/cpulimit](https://github.com/opsengine/cpulimit) - CPU usage limiter for Linux
-* [opsxcq/exploit-CVE-2017-7494](https://github.com/opsxcq/exploit-CVE-2017-7494) - SambaCry exploit and vulnerable container (CVE-2017-7494)
-* [oracle/python-cx_Oracle](https://github.com/oracle/python-cx_Oracle) - Python interface to Oracle Database conforming to the Python DB API 2.0 specification.
-* [orangeduck/Corange](https://github.com/orangeduck/Corange) - Pure C Game Engine
-* [orangeduck/LuaAutoC](https://github.com/orangeduck/LuaAutoC) - Automagically use C Functions and Structs with the Lua API
-* [orangeduck/json2c](https://github.com/orangeduck/json2c) - Convert JSON to C data literals
-* [orangeduck/mpc](https://github.com/orangeduck/mpc) - A Parser Combinator library for C
-* [orangeduck/ptest](https://github.com/orangeduck/ptest) - DRY Microtesting Framework for C
-* [orangeduck/tgc](https://github.com/orangeduck/tgc) - A Tiny Garbage Collector for C
-* [orangejulius/cs_fundamentals](https://github.com/orangejulius/cs_fundamentals) - simple implementations of common data structures/algorithms
-* [orlp/ed25519](https://github.com/orlp/ed25519) - Portable C implementation of Ed25519, a high-speed high-security public-key signature system.
-* [orsonwang/Taiwan_CDC_RI](https://github.com/orsonwang/Taiwan_CDC_RI) - Reference implementation of Taiwan's citizen digital certificate
-* [osdba/qpipe](https://github.com/osdba/qpipe) - Across the network of pipe tools, data sent through a pipe to another host, providing a reliable transmission function.
-* [ossc-db/pg_bulkload](https://github.com/ossc-db/pg_bulkload) - High speed data loading utility for PostgreSQL
-* [ossec/ossec-hids](https://github.com/ossec/ossec-hids) - OSSEC is an Open Source Host-based Intrusion Detection System that performs log analysis, file integrity checking, policy monitoring, rootkit detection, real-time alerting and active response.
-* [osxfuse/fuse](https://github.com/osxfuse/fuse) - C-based FUSE for OS X API
-* [osxfuse/sshfs](https://github.com/osxfuse/sshfs) - File system based on the SSH File Transfer Protocol
-* [otto-de/trackrdrd](https://github.com/otto-de/trackrdrd) - The Tracking Log Reader demon reads from the shared memory log of a running instance of Varnish, aggregates data logged in a specific format for requests and ESI subrequests, and forwards the data to a messaging system (such as ActiveMQ or Kafka).
-* [ottypes/libot](https://github.com/ottypes/libot) - A minimal C library for operational transform
-* [paladin-t/my_basic](https://github.com/paladin-t/my_basic) - Lightweight BASIC interpreter written in standard C in dual files. Aimed to be embeddable, extendable and portable.
-* [pangweiwei/slua](https://github.com/pangweiwei/slua) - Fastest Unity lua binding via static code generating.
-* [paparazzi/paparazzi](https://github.com/paparazzi/paparazzi) - Paparazzi is a free and open-source hardware and software project for unmanned (air) vehicles. This is the main software repository.
-* [papplampe/virgo](https://github.com/papplampe/virgo) - Virtual desktops for Windows
-* [parallella/pal](https://github.com/parallella/pal) - An optimized C library for math, parallel processing and data movement
-* [parrot/parrot](https://github.com/parrot/parrot) - Parrot Virtual Machine
-* [particle-iot/device-os](https://github.com/particle-iot/device-os) - Device OS (Firmware) for Particle Devices
-* [particle-iot/firmware](https://github.com/particle-iot/firmware) - Device OS (Firmware) for Particle Devices
-* [patjak/bcwc_pcie](https://github.com/patjak/bcwc_pcie) - Reverse engineered Linux driver for the Broadcom 1570 PCIe webcam
-* [paulasmuth/fyrehose](https://github.com/paulasmuth/fyrehose) - message broker for JSON data streams
-* [paulasmuth/libsmatrix](https://github.com/paulasmuth/libsmatrix) - thread-safe sparse matrix data structure
-* [paulfitz/coopy](https://github.com/paulfitz/coopy) - distributed spreadsheets with intelligent merges
-* [paulhoux/Cinder-Samples](https://github.com/paulhoux/Cinder-Samples) - Sample applications for the Cinder framework
-* [paulreimer/ofxWebUI-poco](https://github.com/paulreimer/ofxWebUI-poco) - A jquery-mobile web page which generates HTML5 form controls (from a protobuf-gwt generated description file) for exchanging protocol buffer-encoded data with an openFrameworks app.
-* [payden/libwebsock](https://github.com/payden/libwebsock) - C library for easy WebSockets server.
-* [pbatard/libwdi](https://github.com/pbatard/libwdi) - Windows Driver Installer library for USB devices
-* [pbatard/rufus](https://github.com/pbatard/rufus) - The Reliable USB Formatting Utility
-* [pbhogan/scrypt](https://github.com/pbhogan/scrypt) - A Ruby gem with native C extension for the scrypt password hashing algorithm.
-* [pbrady/fastcache](https://github.com/pbrady/fastcache) - C implementation of Python 3 lru_cache
-* [pcdavid/data-structures](https://github.com/pcdavid/data-structures) - Sample implementations of classical data structures in C.
 * [pchote/falloutviewer](https://github.com/pchote/falloutviewer) - A tool for viewing and extracting files from Fallout 2 data archives
 * [pcostesi/c-data-structures](https://github.com/pcostesi/c-data-structures) - Simple Data Structures
 * [pd-l2ork/pd](https://github.com/pd-l2ork/pd) - L2Ork version of Pure-Data real-time digital signal processing language developed and maintained at DISIS, Virginia Tech
@@ -2228,7 +2199,7 @@ Comprehensive and integrated solutions for building web application in C.
 * [pepe2k/u-boot_mod](https://github.com/pepe2k/u-boot_mod) - U-Boot 1.1.4 modification for routers
 * [perfaram/xLine](https://github.com/perfaram/xLine) - Getting OSX hardware data/params through command line
 * [performancecopilot/pcp](https://github.com/performancecopilot/pcp) - Performance Co-Pilot
-* [perl11/potion](https://github.com/perl11/potion) - _why the lucky stiff's little language (the official repo... until _why returns)
+* [perl11/potion](https://github.com/perl11/potion) - why the lucky stiff's little language (the official repo... until why returns)
 * [peterburk/stackoverflowlocal](https://github.com/peterburk/stackoverflowlocal) - Scripts for locally hosting and searching a compressed StackOverflow data dump
 * [petermichaux/royal-scheme](https://github.com/petermichaux/royal-scheme) - Royal Scheme will eventually grow to be a real, usable, embeddable Scheme implemented in ANSI C.
 * [petewarden/c_hashmap](https://github.com/petewarden/c_hashmap) - A simple string hashmap in C
