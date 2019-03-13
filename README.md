@@ -380,6 +380,7 @@ Incorporated lists:
 * [libav/c99-to-c89](https://github.com/libav/c99-to-c89) - Tool to convert C99 code to MSVC-compatible C89
 * [m-schmoock/lcpp](https://github.com/m-schmoock/lcpp) - A Lua C PreProcessor
 * [radare/radare2](https://github.com/radare/radare2) - unix-like reverse engineering framework and commandline tools security
+* [sickill/stderred](https://github.com/sickill/stderred) - stderr in red
 
 [10-1]: https://ccache.samba.org/
 [10-2]: https://github.com/distcc/distcc
@@ -621,6 +622,7 @@ Incorporated lists:
 * [rsms/sol](https://github.com/rsms/sol) - A sunny little virtual machine
 * [rswier/swieros](https://github.com/rswier/swieros) - A tiny hand crafted CPU emulator, C compiler, and Operating System
 * [rui314/minilisp](https://github.com/rui314/minilisp) - A readable lisp in less than 1k lines of C
+* [seL4/seL4](https://github.com/seL4/seL4) - The seL4 microkernel
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -1144,6 +1146,8 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [rxi/map](https://github.com/rxi/map) - A type-safe hash map implementation for C
 * [rxi/vec](https://github.com/rxi/vec) - A type-safe dynamic array implementation for C
 * [ryandotsmith/queue_lkls](https://github.com/ryandotsmith/queue_lkls) - A lock-free, non-blocking queue data structure.
+* [sebnow/data_structures](https://github.com/sebnow/data_structures) - A collection of data structures, written in C.
+* [siganakis/tny](https://github.com/siganakis/tny) - Tiny data structures that pack a punch!
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1291,6 +1295,8 @@ Engines, libraries and other helpful things specifically for making games.
 * [raysan5/raylib](https://github.com/raysan5/raylib) - A simple and easy-to-use library to enjoy videogames programming
 * [rxi/lovedos](https://github.com/rxi/lovedos) - A framework for making 2D DOS games in Lua
 * [scottcgi/Mojoc](https://github.com/scottcgi/Mojoc) - A cross-platform, open-source, pure C  game engine for mobile game.
+* [shaunlebron/blinky](https://github.com/shaunlebron/blinky) - Exploring peripheral vision in games (using Quake)
+* [septag/darkhammer](https://github.com/septag/darkhammer) - darkHAMMER is a lightweight, open-source, multiplatform game engine. written in C (C99) language, supports python and C# bindings and lua scripts. Runs on windows and linux
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1333,6 +1339,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [minusinf/opengl_dataviewer](https://github.com/minusinf/opengl_dataviewer) - A simple OpenGL xyzw dataviewer
 * [randrew/layout](https://github.com/randrew/layout) - Single-file library for calculating 2D UI layouts using stacking boxes. Compiles as C99 or C++.
 * [rougier/freetype-gl](https://github.com/rougier/freetype-gl) - OpenGL text using one vertex buffer, one texture and FreeType
+* [simple2d/simple2d](https://github.com/simple2d/simple2d) - :video_game: Simple, open-source 2D graphics for everyone
 
 ## GUI ##
 * [GTK+][206] - Cross-platform widget toolkit. [``LGPL-2.1-only``][LGPL-2.1-only]
@@ -1387,6 +1394,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [micronucleus/micronucleus](https://github.com/micronucleus/micronucleus) - ATTiny usb bootloader with a strong emphasis on bootloader compactness.
 * [nfc-tools/libnfc](https://github.com/nfc-tools/libnfc) - Platform independent Near Field Communication (NFC) library
 * [openyou/libomron](https://github.com/openyou/libomron) - Libraries for accessing data from Omron medical devices
+* [signal11/hidapi](https://github.com/signal11/hidapi) - A Simple library for communicating with USB and Bluetooth HID devices on Linux, Mac, and Windows.
 
 ## Hashing ##
 Hash function implementations for *non*-crypto purposes. Cryptographic hashes
@@ -1560,6 +1568,7 @@ Audio and video processing
 * [libpd/libpd](https://github.com/libpd/libpd) - Pure Data embeddable audio synthesis library
 * [mltframework/mlt](https://github.com/mltframework/mlt) - MLT Multimedia Framework
 * [sahib/glyr](https://github.com/sahib/glyr) - Glyr is a music related metadata searchengine, both with commandline interface and C API
+* [simonyiszk/csdr](https://github.com/simonyiszk/csdr) - A simple DSP library and command-line tool for Software Defined Radio.
 
 ## Multiple Purpose Libraries ##
 * [pal][65] - Optimized library for maths, parallel processing and data
@@ -1933,6 +1942,7 @@ Geodata, street maps, navigation and so on
 * [lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) - Ip2region is a offline IP location library with accuracy rate of 99.9% and 0.0x millseconds searching performance. DB file is less then 5Mb with all ip address stored. binding for Java,PHP,C,Python,Nodejs,Golang,C#,lua. Binary,B-tree,Memory searching algorithm
 * [openvenues/libpostal](https://github.com/openvenues/libpostal) - A C library for parsing/normalizing street addresses around the world. Powered by statistical NLP and open geo data.
 * [propublica/simple-tiles](https://github.com/propublica/simple-tiles) - Simple tile generation for maps.
+* [simplegeo/libgeohash](https://github.com/simplegeo/libgeohash) - A pure C implementation of the Geohash algorithm.
 
 ## Standard Libraries ##
 Implementations of the C standarts
@@ -1991,6 +2001,7 @@ Implementations of the C standarts
 * [fontforge/libuninameslist](https://github.com/fontforge/libuninameslist) - A library with a large (sparse) array mapping each unicode code point to the annotation data for it provided in http://www.unicode.org/Public/UNIDATA/NamesList.txt
 * [jasonmaclafferty/String](https://github.com/jasonmaclafferty/String) - A dynamic string data type implementation for C.
 * [josephg/librope](https://github.com/josephg/librope) - UTF-8 rope library for C
+* [sheredom/utf8.h](https://github.com/sheredom/utf8.h) - single header utf8 string functions for C and C++
 
 ## Working With Files ##
 Libraries for working wit hspecific filetypes
@@ -2104,6 +2115,7 @@ Libraries for working wit hspecific filetypes
 * [martinh/libconfuse](https://github.com/martinh/libconfuse) - Small configuration file parser library for C.
 * [mw55309/c_fast5](https://github.com/mw55309/c_fast5) - C code to extract data from fast5 files
 * [samtools/htslib](https://github.com/samtools/htslib) - C library for high-throughput sequencing data formats
+* [sisong/HDiffPatch](https://github.com/sisong/HDiffPatch) - a C\C++ library and command-line tools for binary data Diff & Patch; fast and create small delta/differential; support large files and limit memory requires when diff&patch.
 
 --------------------------------------------------------------------------------
 
@@ -2147,6 +2159,9 @@ Libraries for working wit hspecific filetypes
 * [mortie/snow](https://github.com/mortie/snow) - A testing library for C.
 * [orangeduck/ptest](https://github.com/orangeduck/ptest) - DRY Microtesting Framework for C
 * [pozorvlak/libtap](https://github.com/pozorvlak/libtap) - Testing library for C, implementing the Test Anything Protocol. Written by Nik Clayton.
+* [silentbicycle/greatest](https://github.com/silentbicycle/greatest) - A C testing library in 1 file. No dependencies, no dynamic allocation. ISC licensed.
+* [silentbicycle/theft](https://github.com/silentbicycle/theft) - property-based testing for C: generate input to find obscure bugs, then reduce to minimal failing input
+* [siu/minunit](https://github.com/siu/minunit) - Minimal unit testing framework for C
 
 ## TUI ##
 Textual User Interface
@@ -2281,62 +2296,21 @@ Comprehensive and integrated solutions for building web application in C.
 * [reverbrain/eblob](https://github.com/reverbrain/eblob) - Eblob is an append-only low-level IO library, which saves data in blob files. Created as low-level backend for elliptics
 * [reverbrain/smack](https://github.com/reverbrain/smack) - Low-level IO storage which packs data into sorted (zlib/bzip2/snappy compressed) blobs
 * [rofl0r/libulz](https://github.com/rofl0r/libulz) - a collection of useful functions and data structures to create C apps faster. focus on simplicity, ability to statically link and minimal binary size.
+* [sdroege/snippets](https://github.com/sdroege/snippets) - Some algorithms and data structures
+* [shenfeng/tiny-web-server](https://github.com/shenfeng/tiny-web-server) - a tiny web server in C, for daily use.
+* [sgminer-dev/sgminer](https://github.com/sgminer-dev/sgminer) - Scrypt GPU miner
+* [signalapp/libsignal-protocol-c](https://github.com/signalapp/libsignal-protocol-c) - Signal Protocol C Library
 
 # Unsorted #
-* [sdroege/snippets](https://github.com/sdroege/snippets) - Some algorithms and data structures
-* [seL4/seL4](https://github.com/seL4/seL4) - The seL4 microkernel
-* [searchdaimon/enterprise-search](https://github.com/searchdaimon/enterprise-search) - An open source search engine for corporate data and websites.
-* [seastorm/PuttyRider](https://github.com/seastorm/PuttyRider) - Hijack Putty sessions in order to sniff conversation and inject Linux commands.
-* [sebnow/data_structures](https://github.com/sebnow/data_structures) - A collection of data structures, written in C.
-* [seemoo-lab/nexmon](https://github.com/seemoo-lab/nexmon) - The C-based Firmware Patching Framework for Broadcom/Cypress WiFi Chips that enables Monitor Mode, Frame Injection and much more
-* [seenaburns/stag](https://github.com/seenaburns/stag) - Streaming bar graphs. For stats and stuff.
-* [sektioneins/SUIDGuard](https://github.com/sektioneins/SUIDGuard) - SUIDGuard - a TrustedBSD Kernel Extension that adds mitigations to protect SUID/SGID processes a bit more
-* [selkhateeb/hardlink](https://github.com/selkhateeb/hardlink) - a simple command-line utility that implements hardlinks on Mac OsX
 * [semmerson/NOAAPORT](https://github.com/semmerson/NOAAPORT) - The Unidata NOAAPORT package captures broadcast UDP packets from a DVB-S or DVB-S2 receiver listening to the NOAAPORT satellite broadcast, creates data-products from the UDP packets, and inserts those data-products into an LDM product-queue.
 * [seppo0010/rlite](https://github.com/seppo0010/rlite) - self-contained, serverless, zero-configuration, transactional redis-compatible database engine. rlite is to Redis what SQLite is to SQL.
-* [septag/darkhammer](https://github.com/septag/darkhammer) - darkHAMMER is a lightweight, open-source, multiplatform game engine. written in C (C99) language, supports python and C# bindings and lua scripts. Runs on windows and linux
-* [session-replay-tools/tcpburn](https://github.com/session-replay-tools/tcpburn) - The most powerful tool for stress testing of Internet server applications
-* [session-replay-tools/tcpcopy](https://github.com/session-replay-tools/tcpcopy) - An online request replication tool, also a tcp stream replay tool, fit for real testing, performance testing, stability testing, stress testing, load testing, smoke testing, etc
-* [sgminer-dev/sgminer](https://github.com/sgminer-dev/sgminer) - Scrypt GPU miner
 * [shadeslayer/libnice](https://github.com/shadeslayer/libnice) - Libnice is an implementation of the IETF's Interactive Connectivity Establishment (ICE) standard (RFC 5245) and the Session Traversal Utilities for NAT (STUN) standard (RFC 5389).  It provides a GLib-based library, libnice and a Glib-free library, libstun as well as GStreamer elements.  ICE is useful for applications that want to establish peer-to-peer UDP data streams. It automates the process of traversing NATs and provides security against some attacks. It also allows applications to create reliable streams using a TCP over UDP layer.  Existing standards that use ICE include Session Initiation Protocol (SIP) and XMPP Jingle.
-* [shadowsocks/ChinaDNS](https://github.com/shadowsocks/ChinaDNS) - Protect yourself against DNS poisoning in China.
-* [shadowsocks/shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android) - A Shadowsocks client for Android
-* [shannah/Java-Objective-C-Bridge](https://github.com/shannah/Java-Objective-C-Bridge) - A thin bridge that allows for two-way communication from Java to Objective-C.
-* [shantzu/ClipIt](https://github.com/shantzu/ClipIt) - ClipIt clipboard manager for GTK+
-* [sharelatex/clsi-sharelatex](https://github.com/sharelatex/clsi-sharelatex) - A web api for compiling LaTeX documents in the cloud
 * [sharvil/flingfd](https://github.com/sharvil/flingfd) - A tiny library to send file descriptors across processes
-* [shaunlebron/blinky](https://github.com/shaunlebron/blinky) - Exploring peripheral vision in games (using Quake)
-* [shawnclovie/cocos2dx-LuaProxy](https://github.com/shawnclovie/cocos2dx-LuaProxy) - LuaProxy for cocos2d-x, include CocosBuilder support for lua, and other cocos2d-extension support for lua, and easy to use function.
 * [sheepdog/sheepdog](https://github.com/sheepdog/sheepdog) - Distributed Storage System for QEMU
-* [shenfeng/tiny-web-server](https://github.com/shenfeng/tiny-web-server) - a tiny web server in C, for daily use.
 * [sheredom/process.h](https://github.com/sheredom/process.h) - A simple one header solution to launching processes and interacting with them for C and C++.
-* [sheredom/utf8.h](https://github.com/sheredom/utf8.h) - single header utf8 string functions for C and C++
 * [shinh/maloader](https://github.com/shinh/maloader) - mach-o loader for linux
-* [shiziwen/nagios-status2txt](https://github.com/shiziwen/nagios-status2txt) - nagios enhancement to get service data as plain text
-* [shoes/shoes](https://github.com/shoes/shoes) - a tiny graphical app kit for ruby
-* [shtrom/xkeyboard-config](https://github.com/shtrom/xkeyboard-config) - Mirror of FreeDesktop.org's XKB data with local branches
-* [shuLhan/vos](https://github.com/shuLhan/vos) - Vos is a program to process formatted data, i.e. CSV data. Vos is designed to process a large input file, a file where their size is larger than the size of memory, and can be tuned to adapt with your machine environment.
-* [sickill/stderred](https://github.com/sickill/stderred) - stderr in red
-* [siddhant3s/cs215](https://github.com/siddhant3s/cs215) - My Third Semester, Data Structure Lab programs
-* [siddontang/libtnet](https://github.com/siddontang/libtnet) - libtnet is a tiny high performance c++ network lib, like tornado
-* [siemens/jailhouse](https://github.com/siemens/jailhouse) - Linux-based partitioning hypervisor
-* [siganakis/tny](https://github.com/siganakis/tny) - Tiny data structures that pack a punch!
-* [signal11/hidapi](https://github.com/signal11/hidapi) - A Simple library for communicating with USB and Bluetooth HID devices on Linux, Mac, and Windows.
-* [signalapp/libsignal-protocol-c](https://github.com/signalapp/libsignal-protocol-c) - Signal Protocol C Library
-* [silentbicycle/greatest](https://github.com/silentbicycle/greatest) - A C testing library in 1 file. No dependencies, no dynamic allocation. ISC licensed.
-* [silentbicycle/theft](https://github.com/silentbicycle/theft) - property-based testing for C: generate input to find obscure bugs, then reduce to minimal failing input
-* [simondlevy/BreezySLAM](https://github.com/simondlevy/BreezySLAM) - Simple, efficient, open-source package for Simultaneous Localization and Mapping in Python, Matlab,  Java, and C++
-* [simondlevy/TinyEKF](https://github.com/simondlevy/TinyEKF) - Lightweight C/C++ Extended Kalman Filter with Python for prototyping
-* [simonyiszk/csdr](https://github.com/simonyiszk/csdr) - A simple DSP library and command-line tool for Software Defined Radio.
-* [simpl/ngx_devel_kit](https://github.com/simpl/ngx_devel_kit) - Nginx Development Kit - an Nginx module that adds additional generic tools that module developers can use in their own modules
-* [simple2d/simple2d](https://github.com/simple2d/simple2d) - :video_game: Simple, open-source 2D graphics for everyone
-* [simplegeo/libgeohash](https://github.com/simplegeo/libgeohash) - A pure C implementation of the Geohash algorithm.
 * [simtr/The-Powder-Toy](https://github.com/simtr/The-Powder-Toy) - Written in C++ and using SDL, The Powder Toy is a desktop version of the classic 'falling sand' physics sandbox, it simulates air pressure and velocity as well as heat.
 * [sipcapture/hepipe](https://github.com/sipcapture/hepipe) - HEP-PIPE: Pipe arbitrary data (logs, events, cdrs, etc) to HEP server (HOMER)
-* [sisong/HDiffPatch](https://github.com/sisong/HDiffPatch) - a C\C++ library and command-line tools for binary data Diff & Patch; fast and create small delta/differential; support large files and limit memory requires when diff&patch.
-* [siu/minunit](https://github.com/siu/minunit) - Minimal unit testing framework for C
-* [sixstars/CTF](https://github.com/sixstars/CTF) - A writeup summary for CTF competitions, problems.
-* [sixstars/ctf](https://github.com/sixstars/ctf) - A writeup summary for CTF competitions, problems.
 * [skarnet/s6](https://github.com/skarnet/s6) - The s6 supervision suite.
 * [skeeto/interactive-c-demo](https://github.com/skeeto/interactive-c-demo) - Demonstration of interactive C programming
 * [skopjehacklab/MeteoKutija](https://github.com/skopjehacklab/MeteoKutija) - The MeteoBox (MeteoKutija) is a cheap device that collects a set of meteorological data and publishes it to a central database.
