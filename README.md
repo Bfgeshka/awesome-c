@@ -631,6 +631,11 @@ Incorporated lists:
 * [tj90241/cen64](https://github.com/tj90241/cen64) - Cycle-Accurate Nintendo 64 Emulator
 * [trailofbits/cb-multios](https://github.com/trailofbits/cb-multios) - DARPA Challenges Sets for Linux, Windows, and macOS
 * [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) - hydra
+* [vtudose/Let-s-build-a-compiler](https://github.com/vtudose/Let-s-build-a-compiler) - A C version of the Let's Build a Compiler, by Jack Crenshaw
+* [xoreaxeaxeax/movfuscator](https://github.com/xoreaxeaxeax/movfuscator) - The single instruction C compiler
+* [wkoszek/cpu60](https://github.com/wkoszek/cpu60) - Example of CPU simulation in software
+* [wren-lang/wren](https://github.com/wren-lang/wren) - The Wren Programming Language
+* [xorg62/tty-clock](https://github.com/xorg62/tty-clock) - Clock using lib ncurses
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -674,6 +679,8 @@ Neural nets, machine learning, and other similar things.
 * [ufoym/RecursiveBF](https://github.com/ufoym/RecursiveBF) - A lightweight C++ library for recursive bilateral filtering [Yang, Qingxiong. "Recursive bilateral filtering". European Conference on Computer Vision, 2012].
 * [ufoym/recursive-bf](https://github.com/ufoym/recursive-bf) - A lightweight C++ library for recursive bilateral filtering [Yang, Qingxiong. "Recursive bilateral filtering". European Conference on Computer Vision, 2012].
 * [symisc/sod](https://github.com/symisc/sod) - An Embedded Computer Vision & Machine Learning Library (CPU Optimized & IoT Capable)
+* [xiph/rnnoise](https://github.com/xiph/rnnoise) - Recurrent neural network for audio noise reduction
+* [yusugomori/DeepLearning](https://github.com/yusugomori/DeepLearning) - Deep Learning (Python, C/C++, Java, Scala, Go)
 
 ## Algoritm Implementations ##
 * [sort][434] - Collection of sorting routines, which type-specialize at
@@ -1193,6 +1200,10 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [ufjf-dcc/dsgraph](https://github.com/ufjf-dcc/dsgraph) - DSGraph is an C/C++ library for visualizing data structures.
 * [vhmth/Lego-Box](https://github.com/vhmth/Lego-Box) - Write up all the data structures!
 * [zhemao/libds](https://github.com/zhemao/libds) - Simple, memory-safe data-structures in C.
+* [vndmtrx/libadt](https://github.com/vndmtrx/libadt) - :vertical_traffic_light:libadt - an abstract data types library
+* [willemt/cbuffer](https://github.com/willemt/cbuffer) - A circular buffer written in C using Posix calls to create a contiguously mapped memory space. BSD Licensed.
+* [xant/libhl](https://github.com/xant/libhl) - Simple and fast C library implementing a thread-safe API to manage hash-tables, linked lists, lock-free ring buffers and queues
+* [yuyuyu101/C-Buffered-tree](https://github.com/yuyuyu101/C-Buffered-tree) - A buffered-tree implemented in dictionary type and more
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1244,6 +1255,7 @@ Foreign function interfaces, also know as binding interfaces.
 * [robrix/RXPreprocessing](https://github.com/robrix/RXPreprocessing) - A variety of utilities for the C preprocessor.
 * [skeeto/interactive-c-demo](https://github.com/skeeto/interactive-c-demo) - Demonstration of interactive C programming
 * [symisc/PH7](https://github.com/symisc/PH7) - An Embedded Implementation of PHP (C Library)
+* [yasm/yasm](https://github.com/yasm/yasm) - Yasm Assembler mainline development tree
 
 ## Game Development ##
 Engines, libraries and other helpful things specifically for making games.
@@ -1399,6 +1411,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [simple2d/simple2d](https://github.com/simple2d/simple2d) - :video_game: Simple, open-source 2D graphics for everyone
 * [sshirokov/csgtool](https://github.com/sshirokov/csgtool) - 3D CSG Tool
 * [xelatihy/yocto-gl](https://github.com/xelatihy/yocto-gl) - A collection of C/C++ single-file libraries for building physically-based graphics applications
+* [wdas/ptex](https://github.com/wdas/ptex) - Per-Face Texture Mapping for Production Rendering
 
 ## GUI ##
 * [GTK+][206] - Cross-platform widget toolkit. [``LGPL-2.1-only``][LGPL-2.1-only]
@@ -1455,6 +1468,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [nfc-tools/libnfc](https://github.com/nfc-tools/libnfc) - Platform independent Near Field Communication (NFC) library
 * [openyou/libomron](https://github.com/openyou/libomron) - Libraries for accessing data from Omron medical devices
 * [signal11/hidapi](https://github.com/signal11/hidapi) - A Simple library for communicating with USB and Bluetooth HID devices on Linux, Mac, and Windows.
+* [wiiudev/libwiiu](https://github.com/wiiudev/libwiiu) - Build system and examples for running C code on the Wii U
 
 ## Hashing ##
 Hash function implementations for *non*-crypto purposes. Cryptographic hashes
@@ -1527,6 +1541,7 @@ can be found in the Crypto section.
 * [tjko/jpegoptim](https://github.com/tjko/jpegoptim) - jpegoptim - utility to optimize/compress JPEG files
 * [uclouvain/openjpeg](https://github.com/uclouvain/openjpeg) - Official repository of the OpenJPEG project
 * [vlfeat/vlfeat](https://github.com/vlfeat/vlfeat) - An open library of computer vision algorithms
+* [zardus/preeny](https://github.com/zardus/preeny) - Some helpful preload libraries for pwning stuff.
 
 ## Integrated Debugging and Logging ##
 * [whereami][390] - One-file library for locating the current executable on the
@@ -1549,6 +1564,7 @@ can be found in the Crypto section.
 * [rxi/log.c](https://github.com/rxi/log.c) - A simple logging library implemented in C99
 * [stephenrkell/liballocs](https://github.com/stephenrkell/liballocs) - Runtime and toolchain for whole-program monitoring of allocations and their data types
 * [wc-duck/dbgtools](https://github.com/wc-duck/dbgtools) - Small collection of debug-related drop-in c/c++-utils
+* [yosefk/checkedthreads](https://github.com/yosefk/checkedthreads) - checkedthreads: no race condition goes unnoticed! Simple API, automatic load balancing, Valgrind-based checking
 
 ## Lexing and Parsing ##
 Generic lexers and parsers
@@ -1595,6 +1611,7 @@ Generic lexers and parsers
 * [priitj/whitedb](https://github.com/priitj/whitedb) - WhiteDB memory database
 * [rampantpixels/rpmalloc](https://github.com/rampantpixels/rpmalloc) - Public domain cross platform lock free thread caching 32-byte aligned memory allocator implemented in C
 * [stevedekorte/garbagecollector](https://github.com/stevedekorte/garbagecollector) - Incrementall garbage collector library in C for use by high level language implementions.
+* [wbhart/Cesium3](https://github.com/wbhart/Cesium3) - Fast interpreter with macros, local type inference, LLVM backend.
 
 ## Multimedia ##
 Audio and video processing
@@ -1690,6 +1707,7 @@ Audio and video processing
 * [letoram/arcan](https://github.com/letoram/arcan) - Arcan - [Display Server, Multimedia Framework, Game Engine] -> "Desktop Engine"
 * [saprykin/plibsys](https://github.com/saprykin/plibsys) - Highly portable C system library: threads and synchronization primitives, sockets (TCP, UDP, SCTP), IPv4 and IPv6, IPC, hash functions (MD5, SHA-1, SHA-2, SHA-3, GOST), binary trees (RB, AVL) and more. Native code performance.
 * [tboox/tbox](https://github.com/tboox/tbox) - 🎁 A glib-like multi-platform c library
+* [waruqi/tbox](https://github.com/waruqi/tbox) - A glib-like multi-platform c library
 
 ## Networking ##
 ### DNS ###
@@ -1699,6 +1717,7 @@ Audio and video processing
 * [bagder/c-ares](https://github.com/bagder/c-ares) - c-ares is a C library for asynchronous DNS requests
 * [farsightsec/dnstable](https://github.com/farsightsec/dnstable) - encoding format, library, and utilities for passive DNS data
 * [res0nat0r/tsunami-udp](https://github.com/res0nat0r/tsunami-udp) -  A fast user-space file transfer protocol that uses TCP control and UDP data for transfer over very high speed long distance networks (≥ 1 Gbps and even 10 GE), designed to provide more throughput than possible with TCP over the same networks.
+* [wahern/dns](https://github.com/wahern/dns) - dns.c: Single file non-blocking DNS C library without callbacks or external dependencies.
 
 ### HTTP ###
 * [http-parser][230] - HTTP request/response parser. [``MIT``][MIT]
@@ -1741,6 +1760,7 @@ Audio and video processing
 * [antirez/disque](https://github.com/antirez/disque) - Disque is a distributed message broker
 * [circonus-labs/fq](https://github.com/circonus-labs/fq) - F@#$*&%Q (Message queue that is fast, brokered, in C and gets out of your way)
 * [paulasmuth/fyrehose](https://github.com/paulasmuth/fyrehose) - message broker for JSON data streams
+* [zeromq/czmq](https://github.com/zeromq/czmq) - High-level C binding for ØMQ
 
 ### Other Networking ###
 * [asnlc][227] - Compiler of ASN.1 specifications into C source code. [``BSD-2-Clause``][BSD-2-Clause]
@@ -1838,6 +1858,7 @@ Audio and video processing
 * [vdloo/Beacontalk](https://github.com/vdloo/Beacontalk) - Peer to peer chat-program that sends data over Wi-Fi without associations.
 * [vlm/asn1c](https://github.com/vlm/asn1c) - The ASN.1 Compiler
 * [versatica/OverSIP](https://github.com/versatica/OverSIP) - OverSIP: the SIP framework you dreamed about
+* [wolkykim/libasyncd](https://github.com/wolkykim/libasyncd) - Embeddable Event-based Asynchronous Message/HTTP Server library for C/C++
 
 ### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
@@ -1881,6 +1902,7 @@ Audio and video processing
 * [samuellab/InterProcess](https://github.com/samuellab/InterProcess) - A compact C library to share data between processes on Windows. Fast. Simple
 * [tinyalsa/tinyalsa](https://github.com/tinyalsa/tinyalsa) - Tiny library to interface with ALSA in the Linux kernel
 * [warmcat/libwebsockets](https://github.com/warmcat/libwebsockets) - canonical libwebsockets.org websocket library
+* [wengkai/ACLLib](https://github.com/wengkai/ACLLib) - ACLLib is a bunch of C functions covers Win32API and provides simpler API to beginners for programming Windows GUI applications. It compiles with MinGW and MS Visual Studio Express
 
 ## Procedural Generation ##
 * [heman][382] - Tiny library of image utilities dealing with height maps,
@@ -1989,6 +2011,7 @@ Audio and video processing
 * [rmitton/rjm](https://github.com/rmitton/rjm) - Various single-file C libraries.
 * [rustyrussell/ccan](https://github.com/rustyrussell/ccan) - The C Code Archive Network
 * [vurtun/mmx](https://github.com/vurtun/mmx) - single header libraries for C/C++
+* [yl790/algorithms-and-data-structures](https://github.com/yl790/algorithms-and-data-structures) - for future reference
 
 ## Special Purpose ##
 * [Tulip Indicators][394] - Library of functions for technical analysis of
@@ -2039,6 +2062,7 @@ Geodata, street maps, navigation and so on
 * [openvenues/libpostal](https://github.com/openvenues/libpostal) - A C library for parsing/normalizing street addresses around the world. Powered by statistical NLP and open geo data.
 * [propublica/simple-tiles](https://github.com/propublica/simple-tiles) - Simple tile generation for maps.
 * [simplegeo/libgeohash](https://github.com/simplegeo/libgeohash) - A pure C implementation of the Geohash algorithm.
+* [webglearth/gdaldem_web](https://github.com/webglearth/gdaldem_web) - Utility for encoding elevation data (DEM) for use on the web (with WebGL Earth). Elevation value is encoded into RGB.
 
 ## Standard Libraries ##
 Implementations of the C standarts
@@ -2188,6 +2212,7 @@ Libraries for working wit hspecific filetypes
 
 ### YAML ###
 * [libYAML][334] - YAML 1.1 parser and emitter. [``MIT``][MIT]
+* [yaml/libyaml](https://github.com/yaml/libyaml) - Canonical source repository for LibYAML
 
 ### Other Filetypes ###
 * [libbson][335] - BSON utility library. [``Apache-2.0``][Apache-2.0]
@@ -2220,6 +2245,7 @@ Libraries for working wit hspecific filetypes
 * [samtools/htslib](https://github.com/samtools/htslib) - C library for high-throughput sequencing data formats
 * [sisong/HDiffPatch](https://github.com/sisong/HDiffPatch) - a C\C++ library and command-line tools for binary data Diff & Patch; fast and create small delta/differential; support large files and limit memory requires when diff&patch.
 * [tbeu/ExternData](https://github.com/tbeu/ExternData) - :page_facing_up: Modelica library for reading data from INI, JSON, XML and Excel XLS files
+* [vstakhov/libucl](https://github.com/vstakhov/libucl) - Universal configuration library parser
 
 --------------------------------------------------------------------------------
 
@@ -2267,6 +2293,7 @@ Libraries for working wit hspecific filetypes
 * [silentbicycle/theft](https://github.com/silentbicycle/theft) - property-based testing for C: generate input to find obscure bugs, then reduce to minimal failing input
 * [siu/minunit](https://github.com/siu/minunit) - Minimal unit testing framework for C
 * [stephenmathieson/describe.h](https://github.com/stephenmathieson/describe.h) - Simple BDD describe test thingy for C
+* [vmg/clar](https://github.com/vmg/clar) - What tests are made of.
 
 ## TUI ##
 Textual User Interface
@@ -2421,113 +2448,17 @@ Comprehensive and integrated solutions for building web application in C.
 * [tailhook/objpath](https://github.com/tailhook/objpath) - A library that allows to traverse data structures by path
 * [troydhanson/kvspool](https://github.com/troydhanson/kvspool) - A library to support streaming data applications
 * [vi/fdlinecombine](https://github.com/vi/fdlinecombine) - Read multiple fds and print data to stdout linewise.
+* [vmg/houdini](https://github.com/vmg/houdini) - The Escapist
+* [vmt/udis86](https://github.com/vmt/udis86) - Disassembler Library for x86 and x86-64
+* [wahern/cqueues](https://github.com/wahern/cqueues) - Continuation Queues: Embeddable asynchronous networking, threading, and notification framework for Lua on Unix.
+* [wg/wrk](https://github.com/wg/wrk) - Modern HTTP benchmarking tool
+* [xaionaro/clsync](https://github.com/xaionaro/clsync) - file live sync daemon based on inotify/kqueue/bsm (Linux, FreeBSD), written in GNU C
+* [xnko/libapi](https://github.com/xnko/libapi) - libapi is a cross platform high performance io library written in c. It provides ability to write event driven servers and applications with continous code
+* [xroche/coffeecatch](https://github.com/xroche/coffeecatch) - CoffeeCatch, a tiny native POSIX signal catcher (especially useful for JNI code on Android/Dalvik)
+* [zammitjames/dataparksearch](https://github.com/zammitjames/dataparksearch) - Full featured web search engine
 
 # Unsorted #
-* [vmayoral/bb_mpu9150](https://github.com/vmayoral/bb_mpu9150) - BeagleBone ROS package that publishes the Invensense MPU-9150 data into a Topic.
-* [vmayoral/freeDDS](https://github.com/vmayoral/freeDDS) - An open source Data Distribution Service (DDS) for embedded devices implemented for ROS
-* [vmg/clar](https://github.com/vmg/clar) - What tests are made of.
-* [vmg/crustache](https://github.com/vmg/crustache) - The templating engine which may explode right under your nose
-* [vmg/houdini](https://github.com/vmg/houdini) - The Escapist
-* [vmprof/vmprof-python](https://github.com/vmprof/vmprof-python) - vmprof - a statistical program profiler
-* [vmt/udis86](https://github.com/vmt/udis86) - Disassembler Library for x86 and x86-64
-* [vndmtrx/libadt](https://github.com/vndmtrx/libadt) - :vertical_traffic_light:libadt - an abstract data types library
-* [vsbuffalo/seqqs](https://github.com/vsbuffalo/seqqs) - seqqs is a C program/library for gathering quality statistics from sequencing data
-* [vstakhov/libucl](https://github.com/vstakhov/libucl) - Universal configuration library parser
-* [vstakhov/rspamd](https://github.com/vstakhov/rspamd) - Rapid spam filtering system.
-* [vtudose/Let-s-build-a-compiler](https://github.com/vtudose/Let-s-build-a-compiler) - A C version of the Let's Build a Compiler, by Jack Crenshaw
-* [vvv/under.c](https://github.com/vvv/under.c) - DER data decoder/encoder
-* [wahern/cqueues](https://github.com/wahern/cqueues) - Continuation Queues: Embeddable asynchronous networking, threading, and notification framework for Lua on Unix.
-* [wahern/dns](https://github.com/wahern/dns) - dns.c: Single file non-blocking DNS C library without callbacks or external dependencies.
-* [wandenberg/nginx-push-stream-module](https://github.com/wandenberg/nginx-push-stream-module) - A pure stream http push technology for your Nginx setup. Comet made easy and really scalable.
-* [wangkuiwu/datastructs_and_algorithm](https://github.com/wangkuiwu/datastructs_and_algorithm) - Data struct and algorithm introduction and implementation in C/C++/Java.
-* [wankdanker/node-unixodbc-isql-json](https://github.com/wankdanker/node-unixodbc-isql-json) - A hacky solution for querying ODBC data sources (including MS SQL) with nodejs.
-* [wargio/r2dec-js](https://github.com/wargio/r2dec-js) - radare2 plugin - converts asm to pseudo-C code.
-* [waruqi/tbox](https://github.com/waruqi/tbox) - A glib-like multi-platform c library
-* [wbhart/Cesium3](https://github.com/wbhart/Cesium3) - Fast interpreter with macros, local type inference, LLVM backend.
-* [wbhart/comb](https://github.com/wbhart/comb) - Combinators in C
-* [wdas/partio](https://github.com/wdas/partio) - C++ (with python bindings) library for easily reading/writing/manipulating common animation particle formats such as PDB, BGEO, PTC.   See the discussion group @ http://groups.google.com/group/partio-discuss
-* [wdas/ptex](https://github.com/wdas/ptex) - Per-Face Texture Mapping for Production Rendering
-* [wdlindmeier/Interferometer-Watch](https://github.com/wdlindmeier/Interferometer-Watch) - A data visualization to observe the state of LIGO machines
-* [webcpp/hi-nginx](https://github.com/webcpp/hi-nginx) - A fast and robust web server and application server for C++,Python,Lua ,Java, PHP7,Javascript and multiple jsr-223 JVM language
-* [webglearth/gdaldem_web](https://github.com/webglearth/gdaldem_web) - Utility for encoding elevation data (DEM) for use on the web (with WebGL Earth). Elevation value is encoded into RGB.
-* [weechat/weechat](https://github.com/weechat/weechat) - The extensible chat client.
-* [wellsie1116/Darxen](https://github.com/wellsie1116/Darxen) - Downloader, parser, and renderer for NEXRAD data
-* [wengkai/ACLLib](https://github.com/wengkai/ACLLib) - ACLLib is a bunch of C functions covers Win32API and provides simpler API to beginners for programming Windows GUI applications. It compiles with MinGW and MS Visual Studio Express
-* [wertarbyte/tiny-gps](https://github.com/wertarbyte/tiny-gps) - read NMEA data from serial GPS receiver (and sonar and optical sensor)  and offer it as I2C slave using ATTiny
-* [wesleykendall/mpitutorial](https://github.com/wesleykendall/mpitutorial) - MPI programming lessons in C and executable code examples
-* [wez/lemon-php](https://github.com/wez/lemon-php) - A PHP parser generator, based on the lemon parser generator tool. lemon-php requires a C compiler to build, and this will generate pure-PHP parsers.
-* [wezm/open2300](https://github.com/wezm/open2300) - Open2300 is a package of software tools that reads (and writes) data from a Lacrosse WS23xx Weather Stations. This repo is an import of the official SVN repo with some additions.
-* [wg/wrk](https://github.com/wg/wrk) - Modern HTTP benchmarking tool
-* [wiiudev/libwiiu](https://github.com/wiiudev/libwiiu) - Build system and examples for running C code on the Wii U
-* [willemt/cbuffer](https://github.com/willemt/cbuffer) - A circular buffer written in C using Posix calls to create a contiguously mapped memory space. BSD Licensed.
-* [willemt/raft](https://github.com/willemt/raft) - C implementation of the Raft Consensus protocol, BSD licensed
-* [williame/hellepoll](https://github.com/williame/hellepoll) - A blazingly-fast async HTTP server written in C++
-* [wilseypa/odroidNetworking](https://github.com/wilseypa/odroidNetworking) - Data/code/notes relating to our studies with low latency networking and big.LITTLE task assignment on the odroid platform
-* [winnukem/racehound](https://github.com/winnukem/racehound) - Data race detector for Linux kernel modules
-* [winton/redis_parse](https://github.com/winton/redis_parse) - Reads huge amounts of pipe-delimited data from Redis, filters it, and returns counts by occurence
-* [wiredtiger/wiredtiger](https://github.com/wiredtiger/wiredtiger) - WiredTiger's source tree
-* [wishstudio/flinux](https://github.com/wishstudio/flinux) - Foreign LINUX - Run unmodified Linux applications inside Windows.
-* [wkoszek/cpu60](https://github.com/wkoszek/cpu60) - Example of CPU simulation in software
-* [wolkykim/libasyncd](https://github.com/wolkykim/libasyncd) - Embeddable Event-based Asynchronous Message/HTTP Server library for C/C++
-* [woodrow/cidr-report_analysis](https://github.com/woodrow/cidr-report_analysis) - Data processing & analysis tools to replicate the CIDR Report and study Internet route aggregation.
-* [wouterverweirder/AIR-Sudden-Motion-Sensor-Extension](https://github.com/wouterverweirder/AIR-Sudden-Motion-Sensor-Extension) - Native Extension for Adobe AIR, exposing the sudden motion sensor data of mac portables in your AIR application
-* [wren-lang/wren](https://github.com/wren-lang/wren) - The Wren Programming Language
-* [wtangiit/awesim](https://github.com/wtangiit/awesim) - event-driven simulator for data aware distributed workflow system
-* [wukezhan/air](https://github.com/wukezhan/air) - a high performance, lightweight framework for php5 & php7 written in c
-* [x2on/libssh2-for-iOS](https://github.com/x2on/libssh2-for-iOS) - A script for compiling libssh2 for iOS Devices (iPhone, iPad, iPod Touch). The example app can connect to an server with SSH and execute commands.
-* [x86-64/frozen](https://github.com/x86-64/frozen) - Data management and processing library
-* [x893/CMSIS-DAP](https://github.com/x893/CMSIS-DAP) - STM32 port for CMSIS-DAP with additional serial (CDC) support
-* [xaberus/nih](https://github.com/xaberus/nih) - libnih, the library interactive data dumper will be based upon
-* [xaionaro/clsync](https://github.com/xaionaro/clsync) - file live sync daemon based on inotify/kqueue/bsm (Linux, FreeBSD), written in GNU C
-* [xant/XML-TinyXML](https://github.com/xant/XML-TinyXML) - minimal perl-xs module to handle XML data
-* [xant/libhl](https://github.com/xant/libhl) - Simple and fast C library implementing a thread-safe API to manage hash-tables, linked lists, lock-free ring buffers and queues
-* [xavier-chen/simplep2p](https://github.com/xavier-chen/simplep2p) - Test NAT Traversal after using pjnath to see if we can send data to peer
-* [xcir/libvmod-parsereq](https://github.com/xcir/libvmod-parsereq) - parsing post,get,cookie data
-* [xelerance/Openswan](https://github.com/xelerance/Openswan) - Openswan
-* [xemul/criu](https://github.com/xemul/criu) - Checkpoint/Restore tool
-* [xeniaqian94/Reliable-Data-Transfer-3.0-Protocol-Networking](https://github.com/xeniaqian94/Reliable-Data-Transfer-3.0-Protocol-Networking) - Project of COMP 3234, Computer and Communication Networks
-* [xerpi/libsicksaxis](https://github.com/xerpi/libsicksaxis) - SickSaxis is a C library that lets you connect a Sixaxis or a DualShock3 to the Wii and read its data. It also lets you turn on and off the controller LEDs, enable or disable the rumble and get and set the controllers' bluetooth MAC address.
-* [xiao70/X70FSD](https://github.com/xiao70/X70FSD) - Windows file system filter drivers(minifilter) to encrypt, compress, or otherwise modify file-based data require some of the most complex kernel software developed for Windows.
-* [xiehuc/pidgin-lwqq](https://github.com/xiehuc/pidgin-lwqq) - a pidgin plugin based on lwqq, a excellent safe useful library for webqq protocol
-* [xiph/rnnoise](https://github.com/xiph/rnnoise) - Recurrent neural network for audio noise reduction
-* [xjdrew/lua-zset](https://github.com/xjdrew/lua-zset) - lua data structure same as redis sorted set
-* [xlar54/Commodore-Pi](https://github.com/xlar54/Commodore-Pi) - A native Commodore 64 emulator and operating system for the Raspberry Pi
-* [xnko/libapi](https://github.com/xnko/libapi) - libapi is a cross platform high performance io library written in c. It provides ability to write event driven servers and applications with continous code
-* [xobs/ax2xx-code](https://github.com/xobs/ax2xx-code) - Some code for the AX211 or AX215 8051-based CPU
-* [xoreaxeaxeax/movfuscator](https://github.com/xoreaxeaxeax/movfuscator) - The single instruction C compiler
-* [xorg62/tty-clock](https://github.com/xorg62/tty-clock) - Clock using lib ncurses
-* [xroche/coffeecatch](https://github.com/xroche/coffeecatch) - CoffeeCatch, a tiny native POSIX signal catcher (especially useful for JNI code on Android/Dalvik)
-* [xsawyerx/xs-fun](https://github.com/xsawyerx/xs-fun) - XS is fun: a simple and easy tutorial on writing Perl XS
-* [xstevens/decoderbufs](https://github.com/xstevens/decoderbufs) - A PostgreSQL logical decoder output plugin to deliver data as Protocol Buffers
-* [xtaci/libkcp](https://github.com/xtaci/libkcp) - FEC enhanced KCP session library for iOS/Android in C++
-* [xtacocorex/CHIP_IO](https://github.com/xtacocorex/CHIP_IO) - A CHIP IO library for Python: IO+PWM+SPWM+ADC+Utilities
-* [xurenlu/ngx_mem_backend_module](https://github.com/xurenlu/ngx_mem_backend_module) - simple nginx module to fetch data from memcached and echo data;
-* [xwang149/Dsim](https://github.com/xwang149/Dsim) - Data transfer simulator
-* [yaml/libyaml](https://github.com/yaml/libyaml) - Canonical source repository for LibYAML
-* [yaoweibin/nginx_tcp_proxy_module](https://github.com/yaoweibin/nginx_tcp_proxy_module) - add the feature of tcp proxy with nginx, with health check and status monitor
-* [yarrick/iodine](https://github.com/yarrick/iodine) - Official git repo for iodine dns tunnel
-* [yarrick/pingfs](https://github.com/yarrick/pingfs) - Stores your data in ICMP ping packets
-* [yasm/yasm](https://github.com/yasm/yasm) - Yasm Assembler mainline development tree
-* [yellows8/ctr-httpwn](https://github.com/yellows8/ctr-httpwn) - 3DS HTTP-sysmodule exploit for bypassing required sysupdates.
-* [yixuan/fdaplus](https://github.com/yixuan/fdaplus) - Enhancement of the 'fda' package for functional data analysis
-* [yl790/algorithms-and-data-structures](https://github.com/yl790/algorithms-and-data-structures) - for future reference
-* [yomoncada/C-Language](https://github.com/yomoncada/C-Language) - First steps of my C Language programing.
-* [yongboy/c_socket.io_server](https://github.com/yongboy/c_socket.io_server) - The socket.io Linux C server
-* [yosefk/checkedthreads](https://github.com/yosefk/checkedthreads) - checkedthreads: no race condition goes unnoticed! Simple API, automatic load balancing, Valgrind-based checking
-* [yotamr/traces](https://github.com/yotamr/traces) - API tracing framework for Linux C/C++ applications
-* [youngsterxyf/Data-Structures-and-Algorithms](https://github.com/youngsterxyf/Data-Structures-and-Algorithms) - simple implementation of some data structures and algorithms
-* [yrutschle/sslh](https://github.com/yrutschle/sslh) - Applicative Protocol Multiplexer (e.g. share SSH and HTTPS on the same port)
-* [yurial/tread](https://github.com/yurial/tread) - read file, exit at no data when timed out
-* [yuriks/SHView](https://github.com/yuriks/SHView) - Spherical Harmonics data viewer
-* [yusugomori/DeepLearning](https://github.com/yusugomori/DeepLearning) - Deep Learning (Python, C/C++, Java, Scala, Go)
-* [yuyuyu101/C-Buffered-tree](https://github.com/yuyuyu101/C-Buffered-tree) - A buffered-tree implemented in dictionary type and more
-* [zammitjames/dataparksearch](https://github.com/zammitjames/dataparksearch) - Full featured web search engine
-* [zardus/preeny](https://github.com/zardus/preeny) - Some helpful preload libraries for pwning stuff.
-* [zarya/esp8266_i2c_driver](https://github.com/zarya/esp8266_i2c_driver) - ESP8266 I2C Driver
-* [zedshaw/learn-c-the-hard-way-lectures](https://github.com/zedshaw/learn-c-the-hard-way-lectures) - All of the code from Learn C The Hard Way, each project, plus the presentation slides used in the videos.
-* [zedshaw/liblcthw](https://github.com/zedshaw/liblcthw) - The library you create when you are done with Learn C The Hard Way
 * [zenovich/runkit](https://github.com/zenovich/runkit) - Runkit that works!
-* [zeromq/czmq](https://github.com/zeromq/czmq) - High-level C binding for ØMQ
 * [zhaojh329/libumqtt](https://github.com/zhaojh329/libumqtt) - A Lightweight and fully asynchronous MQTT 3.1.1 client C library based on libubox for Embedded Linux. Support QoS 0, 1 and 2. Support ssl.
 * [zhengshuxin/acl](https://github.com/zhengshuxin/acl) - One advanced C/C++ library for Linux/Mac/FreeBSD/Solaris(x86)/Windows/Android/IOS
 * [zhicheng/db](https://github.com/zhicheng/db) - A New DBM in Pure C
@@ -2536,8 +2467,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [zsaleeba/picoc](https://github.com/zsaleeba/picoc) - A very small C interpreter
 * [zserge/partcl](https://github.com/zserge/partcl) - ParTcl - a micro Tcl implementation
 * [zwdzwd/biscuit](https://github.com/zwdzwd/biscuit) - a little tool for bisulfite data
-
-# Fin #
 
 [484]: https://www.codeproject.com/Articles/6154/Writing-Efficient-C-and-C-Code-Optimization
 [483]: https://docs.google.com/presentation/d/1h49gY3TSiayLMXYmRMaAEMl05FaJ-Z6jDOWOz3EsqqQ/edit?pli=1#slide=id.p
