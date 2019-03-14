@@ -114,9 +114,8 @@ Incorporated lists:
 <a id="meta"/></a>
 ## <a href="#-">`^`</a> Meta ###
 <a id="standarts"/></a>
-### <a href="#-">`^`</a> Standarts ###
 <details>
-  <summary>Click to expand</summary>
+  <summary>Standarts <a href="#-">^</a></summary>
 
   * [Draft C89 standard][1-1]
   * [Draft C99 standard][1-2]
@@ -133,7 +132,7 @@ Incorporated lists:
 ### <a href="#-">`^`</a> Tooling ###
 <a id="build-systems"></a>
 <details>
-  <summary>Build Systems <a href="#-">^</a></summary><p>
+  <summary>Build Systems <a href="#-">^</a></summary>
 
   * [aimake][2-1] - Build tool designed to avoid complex configurations. [`GPL 3`][2-21]
   * [Autoconf][2-2] - Extensible package of M4 macros that produce shell scripts
@@ -203,7 +202,7 @@ Incorporated lists:
   [2-38]: https://github.com/gittup/tup/blob/master/COPYING
   [2-39]: https://github.com/xmake-io/xmake/blob/master/LICENSE.md
   [2-40]: https://github.com/zeromq/zproject/blob/master/LICENSE
-</p></details>
+</details>
 
 <a id="compilers"></a>
 #### <a href="#-">`^`</a> Compilers ####
