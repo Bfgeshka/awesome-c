@@ -585,123 +585,125 @@ Incorporated lists:
 * [What every programmer should know about memory](https://www.akkadia.org/drepper/cpumemory.pdf)
 
 #### Code Examples ####
+##### Operating Systems #####
 * [0intro/plan9](https://github.com/0intro/plan9) - Plan 9 from Bell Labs
-* [CTurt/Cinoop](https://github.com/CTurt/Cinoop) - Multiplatform Game Boy emulator
 * [ChibiOS/ChibiOS](https://github.com/ChibiOS/ChibiOS) - Read only mirror of SVN ChibiOS repository. Official forum http://forum.chibios.org  Bugtracker http://sourceforge.net/projects/chibios
 * [EtchedPixels/FUZIX](https://github.com/EtchedPixels/FUZIX) - FuzixOS: Because Small Is Beautiful
-* [Fedjmike/mini-c](https://github.com/Fedjmike/mini-c) - Dr Strangehack, or: how to write a self-hosting C compiler in 10 hours
-* [FreddieV4/DailyProgrammerChallenges](https://github.com/FreddieV4/DailyProgrammerChallenges) - External Repo of Challenges from r/dailyprogrammer
 * [Harvey-OS/harvey](https://github.com/Harvey-OS/harvey) - A distributed operating system
-* [HarveyHunt/howm](https://github.com/HarveyHunt/howm) - A lightweight, X11 tiling window manager that behaves like vim
-* [HuoLanguage/huo](https://github.com/HuoLanguage/huo) - interpreted language written in C
-* [LIJI32/SameBoy](https://github.com/LIJI32/SameBoy) - Game Boy and Game Boy Color emulator written in C
-* [LemonBoy/bar](https://github.com/LemonBoy/bar) - A featherweight, lemon-scented, bar based on xcb
-* [MagerValp/AsmHeap](https://github.com/MagerValp/AsmHeap) - Heap data structure in 6502 assembler
-* [MinhasKamal/CreepyCodeCollection](https://github.com/MinhasKamal/CreepyCodeCollection) - A Nonsense Collection of Disgusting Codes (quine-polyglot-code-golf-obfuscated-signature-creepy-codes-mandelbrot-esoteric-language-esoteric-programming-strange-golfing-spooky-weird)
-* [MoarVM/MoarVM](https://github.com/MoarVM/MoarVM) - A VM with adaptive optimization and JIT compilation, built for Rakudo Perl 6
-* [RIOT-OS/RIOT](https://github.com/RIOT-OS/RIOT) - RIOT -  The friendly OS for IoT
 * [SilverRainZ/OS67](https://github.com/SilverRainZ/OS67) - An unix-like toy kernel.
-* [Visgean/Zeus](https://github.com/Visgean/Zeus) - NOT MY CODE! Zeus trojan horse - leaked in 2011, I am not the author. I have created this repository to make the access for study as easy as possible.
-* [Wilfred/babyc](https://github.com/Wilfred/babyc) - A toy C compiler
-* [adsr/mle](https://github.com/adsr/mle) - flexible terminal-based text editor (C)
-* [adtac/fssb](https://github.com/adtac/fssb) - A filesystem sandbox for Linux using syscall intercepts.
-* [andreafabrizi/prism](https://github.com/andreafabrizi/prism) - PRISM is an user space stealth reverse shell backdoor, written in pure C.
-* [andwn/cave-story-md](https://github.com/andwn/cave-story-md) - A fan port of Cave Story for the Sega Mega Drive
-* [angband/angband](https://github.com/angband/angband) - A free, single-player roguelike dungeon exploration game
+* [RIOT-OS/RIOT](https://github.com/RIOT-OS/RIOT) - RIOT -  The friendly OS for IoT
 * [arjun024/mkernel](https://github.com/arjun024/mkernel) - a minimalistic kernel
-* [begeekmyfriend/leetcode](https://github.com/begeekmyfriend/leetcode) - LeetCode in pure C
-* [bl0ckeduser/new-bpf-tools](https://github.com/bl0ckeduser/new-bpf-tools) - subset-of-C compiler targeting 32-bit x86
-* [bovine/datapipe](https://github.com/bovine/datapipe) - Network TCP port forwarding
-* [brenns10/lsh](https://github.com/brenns10/lsh) - Simple shell implementation.  Tutorial here ->
 * [brho/plan9](https://github.com/brho/plan9) - UC Berkeley release of Plan 9 under the GPLv2
-* [caisah/Sedgewick-algorithms-in-c-exercises-and-examples](https://github.com/caisah/Sedgewick-algorithms-in-c-exercises-and-examples) - Examples and exercises from Algorithms in C, Parts 1-4: Fundamentals, Data Structures, Sorting, Searching by Robert Sedgewick book
-* [carld/micro-lisp](https://github.com/carld/micro-lisp) - 🎄A very small Lisp programming language 😀that used to be under 200 lines of C🎄
-* [ccpalettes/the-c-programming-language-second-edition-solutions](https://github.com/ccpalettes/the-c-programming-language-second-edition-solutions) - Solutions for all exercises in the book "The C Programming Language - Second Edition"(referred to as K&R, after its authors' initials) by Brian W. Kernighan and Dennis M. Ritchie.
-* [chelyaev/ffmpeg-tutorial](https://github.com/chelyaev/ffmpeg-tutorial) - A set of tutorials that demonstrates how to write a video player based on FFmpeg
+* [minix3/minix](https://github.com/minix3/minix) - MINIX 3 (mirror)
+* [guilleiguaran/xv6](https://github.com/guilleiguaran/xv6) - mirror of the source code of the Xv6 operating system
+* [raphydaphy/Q-Operating-System](https://github.com/raphydaphy/Q-Operating-System) - Q OS is a versatile operating system designed with the new features of 64 bit "long mode" CPU's in mind that focuses on making everything as simple as possible for the end user
+* [seL4/seL4](https://github.com/seL4/seL4) - The seL4 microkernel
+* [klange/toaruos](https://github.com/klange/toaruos) - A completely-from-scratch hobby operating system: bootloader, kernel, drivers, C library, and userspace including a composited graphical UI, dynamic linker, syntax-highlighting text editor, network stack, etc.
+
+##### Emulators, VMs #####
+* [CTurt/Cinoop](https://github.com/CTurt/Cinoop) - Multiplatform Game Boy emulator
+* [LIJI32/SameBoy](https://github.com/LIJI32/SameBoy) - Game Boy and Game Boy Color emulator written in C
+* [MoarVM/MoarVM](https://github.com/MoarVM/MoarVM) - A VM with adaptive optimization and JIT compilation, built for Rakudo Perl 6
+* [felixangell/mac](https://github.com/felixangell/mac) - virtual machine in c
+* [jakogut/tinyvm](https://github.com/jakogut/tinyvm) - TinyVM is a small, fast, lightweight virtual machine written in pure ANSI C.
+* [rsms/sol](https://github.com/rsms/sol) - A sunny little virtual machine
+* [tj90241/cen64](https://github.com/tj90241/cen64) - Cycle-Accurate Nintendo 64 Emulator
+* [mgba-emu/mgba](https://github.com/mgba-emu/mgba) - mGBA Game Boy Advance Emulator
+* [tekknolagi/carp](https://github.com/tekknolagi/carp) - "interesting" VM in C. Let's see how this goes.
+* [reicast/reicast-emulator](https://github.com/reicast/reicast-emulator) - Reicast is a multiplatform Sega Dreamcast emulator
+* [haldean/x6502](https://github.com/haldean/x6502) - Yet another 6502 emulator that one day dreams of being an Atari 2600.
+
+##### UI, Windowing #####
+* [LemonBoy/bar](https://github.com/LemonBoy/bar) - A featherweight, lemon-scented, bar based on xcb
+* [HarveyHunt/howm](https://github.com/HarveyHunt/howm) - A lightweight, X11 tiling window manager that behaves like vim
 * [chneukirchen/cwm](https://github.com/chneukirchen/cwm) - portable version of OpenBSD's cwm(1) window manager
-* [cirosantilli/cpp-cheat](https://github.com/cirosantilli/cpp-cheat) - C, C++, POSIX and Linux system programming minimal examples. Asserts used wherever possible. Hello worlds for cool third party libraries and build systems. Cheatsheets, tutorials and mini-projects.
-* [cksystemsteaching/selfie](https://github.com/cksystemsteaching/selfie) - An educational software system of a tiny self-compiling C compiler, a tiny self-executing RISC-V emulator, and a tiny self-hosting RISC-V hypervisor.
-* [cmus/cmus](https://github.com/cmus/cmus) - Small, fast and powerful console music player for Unix-like operating systems.
-* [collectd/collectd](https://github.com/collectd/collectd) - The system statistics collection daemon. Please send Pull Requests here!
-* [conghui/algorithms-in-c](https://github.com/conghui/algorithms-in-c) - Exercise of the book Algorithms In C, Part 1-4, Fundamentals, Data Strcuture, Sorting, Searching, written by  Robert Sedgewick
-* [cstack/db_tutorial](https://github.com/cstack/db_tutorial) - Writing a sqlite clone from scratch in C
-* [darius/ichbins](https://github.com/darius/ichbins) - A tiny self-hosting Lisp-to-C compiler
-* [deadbits/InsecureProgramming](https://github.com/deadbits/InsecureProgramming) - mirror of gera's insecure programming examples | http://community.coresecurity.com/~gera/InsecureProgramming/
+* [i3/i3](https://github.com/i3/i3) - A better tiling and dynamic window manager
+* [mil/foo-wm](https://github.com/mil/foo-wm) - A minimal window manager that organizes windows in a tree data structure, provides a socket to send commands to, and nothing more.
+
+##### Language Implementations #####
+* [Fedjmike/mini-c](https://github.com/Fedjmike/mini-c) - Dr Strangehack, or: how to write a self-hosting C compiler in 10 hours
+* [HuoLanguage/huo](https://github.com/HuoLanguage/huo) - interpreted language written in C
+* [Wilfred/babyc](https://github.com/Wilfred/babyc) - A toy C compiler
 * [dimkr/szl](https://github.com/dimkr/szl) - A lightweight, embeddable scripting language
-* [dogriffiths/HeadFirstC](https://github.com/dogriffiths/HeadFirstC) - Source code for the book Head First C, by O'Reilly Media
-* [drh/cii](https://github.com/drh/cii) - C Interfaces and Implementations
-* [eatnumber1/goal](https://github.com/eatnumber1/goal) - g()()()()('al') → "gooooal"
 * [espruino/Espruino](https://github.com/espruino/Espruino) - The Espruino JavaScript interpreter - Official Repo
 * [fabianishere/brainfuck](https://github.com/fabianishere/brainfuck) - Brainfuck interpreter written in C
 * [feeley/gambit](https://github.com/feeley/gambit) - Gambit is an efficient implementation of the Scheme programming language.
-* [felixangell/mac](https://github.com/felixangell/mac) - virtual machine in c
+* [wren-lang/wren](https://github.com/wren-lang/wren) - The Wren Programming Language
+* [cksystemsteaching/selfie](https://github.com/cksystemsteaching/selfie) - An educational software system of a tiny self-compiling C compiler, a tiny self-executing RISC-V emulator, and a tiny self-hosting RISC-V hypervisor.
+* [darius/ichbins](https://github.com/darius/ichbins) - A tiny self-hosting Lisp-to-C compiler
 * [fragglet/yoctolisp](https://github.com/fragglet/yoctolisp) - Tiny Scheme-like Lisp interpreter written in a weekend
+* [marcobambini/gravity](https://github.com/marcobambini/gravity) - Gravity Programming Language
+* [justinmeza/lci](https://github.com/justinmeza/lci) - A LOLCODE interpreter written in C.
+* [lennylxx/leetcode](https://github.com/lennylxx/leetcode) - Pure C solution for LeetCode
+* [mruby/mruby](https://github.com/mruby/mruby) - Lightweight Ruby
+* [stevedekorte/io](https://github.com/stevedekorte/io) - Io programming language
+* [philburk/pforth](https://github.com/philburk/pforth) - Portable Forth in C
+* [carld/micro-lisp](https://github.com/carld/micro-lisp) - 🎄A very small Lisp programming language 😀that used to be under 200 lines of C🎄
+
+##### Other Examples #####
+* [FreddieV4/DailyProgrammerChallenges](https://github.com/FreddieV4/DailyProgrammerChallenges) - External Repo of Challenges from r/dailyprogrammer
+* [MinhasKamal/CreepyCodeCollection](https://github.com/MinhasKamal/CreepyCodeCollection) - A Nonsense Collection of Disgusting Codes (quine-polyglot-code-golf-obfuscated-signature-creepy-codes-mandelbrot-esoteric-language-esoteric-programming-strange-golfing-spooky-weird)
+* [Visgean/Zeus](https://github.com/Visgean/Zeus) - NOT MY CODE! Zeus trojan horse - leaked in 2011, I am not the author. I have created this repository to make the access for study as easy as possible.
+* [adsr/mle](https://github.com/adsr/mle) - flexible terminal-based text editor (C)
+* [andreafabrizi/prism](https://github.com/andreafabrizi/prism) - PRISM is an user space stealth reverse shell backdoor, written in pure C.
+* [brenns10/lsh](https://github.com/brenns10/lsh) - Simple shell implementation.  Tutorial here ->
+* [jeff-1amstudios/restful-doom](https://github.com/jeff-1amstudios/restful-doom) - HTTP+JSON API hosted inside the 1993 DOOM engine!
+* [cmus/cmus](https://github.com/cmus/cmus) - Small, fast and powerful console music player for Unix-like operating systems.
+* [chelyaev/ffmpeg-tutorial](https://github.com/chelyaev/ffmpeg-tutorial) - A set of tutorials that demonstrates how to write a video player based on FFmpeg
 * [freddiev4/DailyProgrammerChallenges](https://github.com/freddiev4/DailyProgrammerChallenges) - External Repo of Challenges from r/dailyprogrammer
-* [guilleiguaran/xv6](https://github.com/guilleiguaran/xv6) - mirror of the source code of the Xv6 operating system
-* [haldean/x6502](https://github.com/haldean/x6502) - Yet another 6502 emulator that one day dreams of being an Atari 2600.
+* [rcr/rirc](https://github.com/rcr/rirc) - A terminal IRC client in C
+* [eatnumber1/goal](https://github.com/eatnumber1/goal) - g()()()()('al') → "gooooal"
+* [xoreaxeaxeax/movfuscator](https://github.com/xoreaxeaxeax/movfuscator) - The single instruction C compiler
+
+* [begeekmyfriend/leetcode](https://github.com/begeekmyfriend/leetcode) - LeetCode in pure C
+* [bl0ckeduser/new-bpf-tools](https://github.com/bl0ckeduser/new-bpf-tools) - subset-of-C compiler targeting 32-bit x86
+* [caisah/Sedgewick-algorithms-in-c-exercises-and-examples](https://github.com/caisah/Sedgewick-algorithms-in-c-exercises-and-examples) - Examples and exercises from Algorithms in C, Parts 1-4: Fundamentals, Data Structures, Sorting, Searching by Robert Sedgewick book
+* [ccpalettes/the-c-programming-language-second-edition-solutions](https://github.com/ccpalettes/the-c-programming-language-second-edition-solutions) - Solutions for all exercises in the book "The C Programming Language - Second Edition"(referred to as K&R, after its authors' initials) by Brian W. Kernighan and Dennis M. Ritchie.
+* [cirosantilli/cpp-cheat](https://github.com/cirosantilli/cpp-cheat) - C, C++, POSIX and Linux system programming minimal examples. Asserts used wherever possible. Hello worlds for cool third party libraries and build systems. Cheatsheets, tutorials and mini-projects.
+* [conghui/algorithms-in-c](https://github.com/conghui/algorithms-in-c) - Exercise of the book Algorithms In C, Part 1-4, Fundamentals, Data Strcuture, Sorting, Searching, written by  Robert Sedgewick
+* [cstack/db_tutorial](https://github.com/cstack/db_tutorial) - Writing a sqlite clone from scratch in C
+* [deadbits/InsecureProgramming](https://github.com/deadbits/InsecureProgramming) - mirror of gera's insecure programming examples | http://community.coresecurity.com/~gera/InsecureProgramming/
+* [dogriffiths/HeadFirstC](https://github.com/dogriffiths/HeadFirstC) - Source code for the book Head First C, by O'Reilly Media
+* [drh/cii](https://github.com/drh/cii) - C Interfaces and Implementations
 * [hellerve/e](https://github.com/hellerve/e) - A dead simple editor
-* [hoxnox/rawsock_recv_example](https://github.com/hoxnox/rawsock_recv_example) - SOCK_RAW IPPROTO_UDP socket data transmission example
-* [i3/i3](https://github.com/i3/i3) - A better tiling and dynamic window manager
 * [intellectualheaven/ceed](https://github.com/intellectualheaven/ceed) - A tiny x86 compiler with ELF and PE target
 * [irssi/irssi](https://github.com/irssi/irssi) - The client of the future
 * [island-org/island](https://github.com/island-org/island) - Lightweight and low-level creative coding toolkits in C.
-* [jakogut/tinyflock](https://github.com/jakogut/tinyflock) - A simple, high-performance, threaded, and interactive flocking demo written in C with GLFW.
-* [jakogut/tinyvm](https://github.com/jakogut/tinyvm) - TinyVM is a small, fast, lightweight virtual machine written in pure ANSI C.
 * [janet-lang/janet](https://github.com/janet-lang/janet) - A dynamic language and bytecode vm
 * [jbangert/trapcc](https://github.com/jbangert/trapcc) - Computing with traps
-* [jeff-1amstudios/restful-doom](https://github.com/jeff-1amstudios/restful-doom) - HTTP+JSON API hosted inside the 1993 DOOM engine!
 * [jelathro/C](https://github.com/jelathro/C) - C Programming Projects
 * [jnz/q3vm](https://github.com/jnz/q3vm) - Q3VM - Embeddable bytecode virtual machine/interpreter for C-language input
 * [jordansissel/xdotool](https://github.com/jordansissel/xdotool) - fake keyboard/mouse input, window management, and more
-* [justinmeza/lci](https://github.com/justinmeza/lci) - A LOLCODE interpreter written in C.
 * [kev009/cii](https://github.com/kev009/cii) - libcii ported to Autotools/libtool - D. R. Hanson's C Interfaces and Implementations
 * [kevinlawler/kona](https://github.com/kevinlawler/kona) - Open-source implementation of the K programming language
 * [kframework/c-semantics](https://github.com/kframework/c-semantics) - Semantics of C in K
-* [klange/toaruos](https://github.com/klange/toaruos) - A completely-from-scratch hobby operating system: bootloader, kernel, drivers, C library, and userspace including a composited graphical UI, dynamic linker, syntax-highlighting text editor, network stack, etc.
 * [lbrito1/cstuff](https://github.com/lbrito1/cstuff) - Algorithms & data structures in C
-* [lennylxx/leetcode](https://github.com/lennylxx/leetcode) - Pure C solution for LeetCode
 * [lotabout/write-a-C-interpreter](https://github.com/lotabout/write-a-C-interpreter) - Write a simple interpreter of C. Inspired by c4 and largely based on it.
 * [lpsantil/rt0](https://github.com/lpsantil/rt0) - A minimal C runtime for Linux i386 & x86_64
-* [marcobambini/gravity](https://github.com/marcobambini/gravity) - Gravity Programming Language
 * [mbedmicro/mbed](https://github.com/mbedmicro/mbed) - mbed libraries and tools
-* [mgba-emu/mgba](https://github.com/mgba-emu/mgba) - mGBA Game Boy Advance Emulator
-* [mil/foo-wm](https://github.com/mil/foo-wm) - A minimal window manager that organizes windows in a tree data structure, provides a socket to send commands to, and nothing more.
-* [minix3/minix](https://github.com/minix3/minix) - MINIX 3 (mirror)
 * [muennich/sxiv](https://github.com/muennich/sxiv) - Simple X Image Viewer
 * [mortdeus/legacy-cc](https://github.com/mortdeus/legacy-cc) - The earliest versions of the very first c compiler known to exist in the wild written by the late legend himself dmr.
-* [mruby/mruby](https://github.com/mruby/mruby) - Lightweight Ruby
 * [n64dev/cen64](https://github.com/n64dev/cen64) - Cycle-Accurate Nintendo 64 Emulator
 * [ndreynolds/flathead](https://github.com/ndreynolds/flathead) - A toy JavaScript interpreter written in C
 * [nesbox/tic.computer](https://github.com/nesbox/tic.computer) - 🐛 Public TIC-80 issues tracker
 * [nickbjohnson4224/rhombus](https://github.com/nickbjohnson4224/rhombus) - a hobby operating system written in C
 * [nickdesaulniers/bf_interpreter_jit_compiler](https://github.com/nickdesaulniers/bf_interpreter_jit_compiler) - Teach myself about interpreters, JITs, and compilers using the Brainfuck language as the toy language
 * [paladin-t/my_basic](https://github.com/paladin-t/my_basic) - Lightweight BASIC interpreter written in standard C in dual files. Aimed to be embeddable, extendable and portable.
-* [philburk/pforth](https://github.com/philburk/pforth) - Portable Forth in C
 * [pikelang/Pike](https://github.com/pikelang/Pike) - Pike is a dynamic programming language with a syntax similar to Java and C. It is simple to learn, does not require long compilation passes and has powerful built-in data types allowing simple and really fast data manipulation.
 * [pkieltyka/stash](https://github.com/pkieltyka/stash) - Steganography application that hides data within a bitmap image
-* [raphydaphy/Q-Operating-System](https://github.com/raphydaphy/Q-Operating-System) - Q OS is a versatile operating system designed with the new features of 64 bit "long mode" CPU's in mind that focuses on making everything as simple as possible for the end user
 * [regehr/ub-canaries](https://github.com/regehr/ub-canaries) - collection of C/C++ programs that try to get compilers to exploit undefined behavior
-* [rcr/rirc](https://github.com/rcr/rirc) - A terminal IRC client in C
 * [rebol/rebol](https://github.com/rebol/rebol) - Source code for the Rebol interpreter
-* [reicast/reicast-emulator](https://github.com/reicast/reicast-emulator) - Reicast is a multiplatform Sega Dreamcast emulator
 * [robm/dzen](https://github.com/robm/dzen) - Dzen is a general purpose messaging, notification and menuing program for X11.
 * [riolet/rix](https://github.com/riolet/rix) - Rix language combines the power of C language and the convenience of a high level language
-* [rsms/sol](https://github.com/rsms/sol) - A sunny little virtual machine
 * [rswier/swieros](https://github.com/rswier/swieros) - A tiny hand crafted CPU emulator, C compiler, and Operating System
 * [rui314/minilisp](https://github.com/rui314/minilisp) - A readable lisp in less than 1k lines of C
-* [seL4/seL4](https://github.com/seL4/seL4) - The seL4 microkernel
-* [stevedekorte/io](https://github.com/stevedekorte/io) - Io programming language
 * [skx/simple.vm](https://github.com/skx/simple.vm) - Simple virtual machine which inteprets bytecode.
 * [swetland/dcpu16](https://github.com/swetland/dcpu16) - Virtual Machine and Assembler for Notch's DCPU-16 Architecture
 * [tj/luna](https://github.com/tj/luna) - luna programming language - a small, elegant VM implemented in C
-* [tekknolagi/carp](https://github.com/tekknolagi/carp) - "interesting" VM in C. Let's see how this goes.
-* [tj90241/cen64](https://github.com/tj90241/cen64) - Cycle-Accurate Nintendo 64 Emulator
 * [trailofbits/cb-multios](https://github.com/trailofbits/cb-multios) - DARPA Challenges Sets for Linux, Windows, and macOS
 * [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) - hydra
 * [vtudose/Let-s-build-a-compiler](https://github.com/vtudose/Let-s-build-a-compiler) - A C version of the Let's Build a Compiler, by Jack Crenshaw
-* [xoreaxeaxeax/movfuscator](https://github.com/xoreaxeaxeax/movfuscator) - The single instruction C compiler
 * [wkoszek/cpu60](https://github.com/wkoszek/cpu60) - Example of CPU simulation in software
-* [wren-lang/wren](https://github.com/wren-lang/wren) - The Wren Programming Language
 * [xorg62/tty-clock](https://github.com/xorg62/tty-clock) - Clock using lib ncurses
 * [nlsandler/write_a_c_compiler](https://github.com/nlsandler/write_a_c_compiler) - Test suite to help you write your own C compiler
 * [openglbook/openglbook.com](https://github.com/openglbook/openglbook.com) - The source code for http://openglbook.com/
@@ -1285,6 +1287,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [willemt/cbuffer](https://github.com/willemt/cbuffer) - A circular buffer written in C using Posix calls to create a contiguously mapped memory space. BSD Licensed.
 * [xant/libhl](https://github.com/xant/libhl) - Simple and fast C library implementing a thread-safe API to manage hash-tables, linked lists, lock-free ring buffers and queues
 * [yuyuyu101/C-Buffered-tree](https://github.com/yuyuyu101/C-Buffered-tree) - A buffered-tree implemented in dictionary type and more
+* [MagerValp/AsmHeap](https://github.com/MagerValp/AsmHeap) - Heap data structure in 6502 assembler
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
@@ -1578,6 +1581,8 @@ Engines, libraries and other helpful things specifically for making games.
 * [todace/G-CVSNT](https://github.com/todace/G-CVSNT) - G-CVSNT Gaijin (and Gamedev) CVSNT version - modified for large amounts of binary data (typically for gamedev)
 * [zaphire/Monocle-Engine](https://github.com/zaphire/Monocle-Engine) - Open source game engine for lush 2D. Inspired by Aquaria, FlashPunk and Unity.
 * [tpoindex/crobots](https://github.com/tpoindex/crobots) - CROBOTS is a programming game, for programmers (or aspiring programmers.)
+* [andwn/cave-story-md](https://github.com/andwn/cave-story-md) - A fan port of Cave Story for the Sega Mega Drive
+* [angband/angband](https://github.com/angband/angband) - A free, single-player roguelike dungeon exploration game
 
 ## Geography ##
 Geodata, street maps, navigation and so on
@@ -1647,6 +1652,7 @@ Access to graphical APIs or other graphic rendering libraries.
 * [xelatihy/yocto-gl](https://github.com/xelatihy/yocto-gl) - A collection of C/C++ single-file libraries for building physically-based graphics applications
 * [wdas/ptex](https://github.com/wdas/ptex) - Per-Face Texture Mapping for Production Rendering
 * [juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders) - C, C++ headers and C# classes for icon fonts: Font Awesome, Fork Awesome, Material Design, Material Design icons, Kenney game icons and Ionicons
+* [jakogut/tinyflock](https://github.com/jakogut/tinyflock) - A simple, high-performance, threaded, and interactive flocking demo written in C with GLFW.
 
 ## GUI ##
 * [GTK+][206] - Cross-platform widget toolkit. [``LGPL-2.1-only``][LGPL-2.1-only]
@@ -2111,6 +2117,8 @@ Audio and video processing
 * [eam/libcrange](https://github.com/eam/libcrange) - Range parsing library for managing sets of hostnames, ips, clusters, roles and other operational data.
 * [luohaha/CSpider](https://github.com/luohaha/CSpider) - A scalable and convenient crawler framework in C:).
 * [nitrogenlogic/cliserver](https://github.com/nitrogenlogic/cliserver) - A sample libevent-based network socket server that presents a simple command line interface to multiple connecting clients.
+* [bovine/datapipe](https://github.com/bovine/datapipe) - Network TCP port forwarding
+* [hoxnox/rawsock_recv_example](https://github.com/hoxnox/rawsock_recv_example) - SOCK_RAW IPPROTO_UDP socket data transmission example
 
 ### RPC ###
 * [hmng/jsonrpc-c](https://github.com/hmng/jsonrpc-c) - JSON-RPC in C (server only for now)
