@@ -202,33 +202,57 @@ Incorporated lists:
 </details>
 
 #### Compilers ####
-* [Clang][3-2] - Compiler for LLVM. Supports C11. [``NCSA``][NCSA]
-* [CompCert][3-5] - Fully-verified C compiler. Supports almost all of C89. [`GPL2.1-or-later`][GPL-2.0-or-later]
-* [GCC][3-1] a C compiler as part of its compiler set. Supports C11. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [Intel SPMD][3-7] - Compiler for a variant of the C language, for single
-  program, multiple data programming. [``Various licenses``][3-8]
-* [PCC][3-3] - Venerable compiler. Supports C99. [``Various licenses``][3-4]
-* [TCC][3-6] - Tiny C Compiler; a small, fast C compiler. Supports C99 (except
-  complex types). [``LGPL2.1``][LGPL-2.1-only]
-* [rui314/8cc](https://github.com/rui314/8cc) - A Small C Compiler
-* [LuaDist/tcc](https://github.com/LuaDist/tcc) - Small but fast C compiler.  Supports ANSI C, most of the new ISO C99 standard, and many GNUC extensions, including inline assembly.
-* [TinyCC/tinycc](https://github.com/TinyCC/tinycc) - Mirror from mob branch
-* [alexfru/SmallerC](https://github.com/alexfru/SmallerC) - Simple C compiler
-* [andrewchambers/c](https://github.com/andrewchambers/c) - small self hosting C compiler
-* [cc65/cc65](https://github.com/cc65/cc65) - cc65 - a freeware C compiler for 6502 based systems —
-* [drh/lcc](https://github.com/drh/lcc) - The lcc retargetable ANSI C compiler
-* [jserv/amacc](https://github.com/jserv/amacc) - Small C Compiler generating ELF executable for Arm architecture
-* [larmel/lacc](https://github.com/larmel/lacc) - A simple, self-hosting C compiler
-* [rui314/9cc](https://github.com/rui314/9cc) - A Small C Compiler
+<details>
+  <summary>Click to expand</summary>
 
-[3-1]: https://gcc.gnu.org/
-[3-2]: https://clang.llvm.org/
-[3-3]: http://pcc.ludd.ltu.se/
-[3-4]: http://pcc.ludd.ltu.se/licenses/
-[3-5]: http://compcert.inria.fr/
-[3-6]: https://bellard.org/tcc/
-[3-7]: http://ispc.github.io/
-[3-8]: https://github.com/ispc/ispc/blob/master/LICENSE.txt
+  * [rui314/8cc][3-10] - A Small C Compiler. [`MIT`][3-9]
+  * [rui314/9cc][3-12] - A Small C Compiler. [`MIT`][3-11]
+  * [jserv/amacc][3-14] - Small C Compiler generating ELF executable for Arm
+  architecture. [`GPL 2`][3-13]
+  * [andrewchambers/c][3-16] - small self hosting C compiler. [`BSD 2-Clause`][3-15]
+  * [cc65/cc65][3-18] - cc65 - a freeware C compiler for 6502 based systems. [`Zlib`][3-17]
+  * [Clang][3-2] - Compiler for LLVM. Supports C11. [`NCSA`][3-19]
+  * [CompCert][3-5] - Fully-verified C compiler. Supports almost all of C89. [`License`][3-20]
+  * [GCC][3-1] a C compiler as part of its compiler set. Supports C11. [`License`][3-21]
+  * [Intel SPMD][3-7] - Compiler for a variant of the C language, for single
+  program, multiple data programming. [`License`][3-22]
+  * [PCC][3-3] - Venerable compiler. Supports C99. [`Licenses`][3-4]
+  * [larmel/lacc][3-24] - A simple, self-hosting C compiler. [`MIT`][3-23]
+  * [drh/lcc][3-26] - The lcc retargetable ANSI C compiler. [`License`][3-25]
+  * [TCC][3-6] - Tiny C Compiler; a small, fast C compiler. Supports C99 (except
+  complex types). [`LGPL 2.1`][3-27]
+  * [alexfru/SmallerC][3-29] - Simple C compiler. [`License`][3-28]
+
+  [3-1]: https://gcc.gnu.org/
+  [3-2]: https://clang.llvm.org/
+  [3-3]: http://pcc.ludd.ltu.se/
+  [3-4]: http://pcc.ludd.ltu.se/licenses/
+  [3-5]: http://compcert.inria.fr/
+  [3-6]: https://bellard.org/tcc/
+  [3-7]: http://ispc.github.io/
+  [3-8]: https://github.com/ispc/ispc/blob/master/LICENSE.txt
+  [3-9]: https://github.com/rui314/8cc/blob/master/LICENSE
+  [3-10]: https://github.com/rui314/8cc
+  [3-11]: https://github.com/rui314/9cc/blob/master/LICENSE
+  [3-12]: https://github.com/rui314/9cc
+  [3-13]: https://github.com/jserv/amacc/blob/master/LICENSE
+  [3-14]: https://github.com/jserv/amacc
+  [3-15]: https://github.com/andrewchambers/c/blob/master/LICENSE
+  [3-16]: https://github.com/andrewchambers/c
+  [3-17]: https://github.com/cc65/cc65/blob/master/LICENSE
+  [3-18]: https://github.com/cc65/cc65
+  [3-19]: https://opensource.org/licenses/UoI-NCSA.php
+  [3-20]: https://github.com/AbsInt/CompCert/blob/master/LICENSE
+  [3-21]: https://www.gnu.org/licenses/gcc-exception.html
+  [3-22]: https://github.com/ispc/ispc/blob/master/LICENSE.txt
+  [3-23]: https://github.com/larmel/lacc/blob/master/LICENSE.md
+  [3-24]: https://github.com/larmel/lacc
+  [3-25]: https://github.com/drh/lcc/blob/master/CPYRIGHT
+  [3-26]: https://github.com/drh/lcc
+  [3-27]: https://repo.or.cz/tinycc.git/blob/HEAD:/COPYING
+  [3-28]: https://github.com/alexfru/SmallerC/blob/master/license.txt
+  [3-29]: https://github.com/alexfru/SmallerC
+</details>
 
 #### Debugging and Analysis ####
 * [address-sanitizer][4-3] - Fast memory error detector. [``Apache-2.0``][Apache-2.0]
