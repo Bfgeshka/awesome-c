@@ -129,8 +129,10 @@ Incorporated lists:
   [1-4]: https://web.archive.org/web/20181230041359if_/http://www.open-std.org/jtc1/sc22/wg14/www/abq/c17_updated_proposed_fdis.pdf
 </details>
 
-### Tooling ###
-#### Build Systems ####
+<a id="tooling"></a>
+### <a href="#-">`^`</a> Tooling ###
+<a id="build-systems"></a>
+#### <a href="#-">`^`</a> Build Systems ####
 <details>
   <summary>Click to expand</summary>
 
@@ -204,7 +206,8 @@ Incorporated lists:
   [2-40]: https://github.com/zeromq/zproject/blob/master/LICENSE
 </details>
 
-#### Compilers ####
+<a id="compilers"></a>
+#### <a href="#-">`^`</a> Compilers ####
 <details>
   <summary>Click to expand</summary>
 
@@ -257,7 +260,8 @@ Incorporated lists:
   [3-29]: https://github.com/alexfru/SmallerC
 </details>
 
-#### Debugging and Analysis ####
+<a id="debugging-and-analysis"></a>
+#### <a href="#-">`^`</a> Debugging and Analysis ####
 <details>
   <summary>Click to expand</summary>
 
