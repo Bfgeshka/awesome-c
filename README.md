@@ -134,7 +134,7 @@ Incorporated lists:
 <a id="build-systems"></a>
 #### <a href="#-">`^`</a> Build Systems ####
 <details>
-  <summary>#### <a href="#-">^</a> <h4>Build Systems<h4> ####</summary>
+  <summary><h4><a href="#-">^</a>Build Systems<h4></summary>
 
   * [aimake][2-1] - Build tool designed to avoid complex configurations. [`GPL 3`][2-21]
   * [Autoconf][2-2] - Extensible package of M4 macros that produce shell scripts
