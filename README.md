@@ -496,17 +496,31 @@ Incorporated lists:
 ##### Intermediate Books #####
 * [21st Century C][13-1] - Programming book on C that touches tooling subject.
 * [Understanding and Using C Pointers][13-2] - In-depth book on pointers in C.
+* [Algorithms in C, Parts 1-4: Fundamentals, Data Structures, Sorting, Searching][13-3]
+* [C Interfaces and Implementations: Techniques for Creating Reusable Software][13-4]
+* [The Standard C Library][13-5]
+* [Let Us C][13-6]
+* [C Programming FAQs: Frequently Asked Questions][13-7]
 
 [13-1]: http://shop.oreilly.com/product/0636920033677.do
 [13-2]: http://shop.oreilly.com/product/0636920028000.do
+[13-3]: https://www.goodreads.com/book/show/27862.Algorithms_in_C_Parts_1_4
+[13-4]: https://www.goodreads.com/book/show/475432.C_Interfaces_and_Implementations
+[13-5]: https://www.goodreads.com/book/show/522100.The_Standard_C_Library
+[13-6]: https://www.goodreads.com/book/show/2522685.Let_Us_C
+[13-7]: https://www.goodreads.com/book/show/528549.C_Programming_FAQs
 
 ##### Advanced Books #####
 * [Expert C Programming: Deep C Secrets][14-1] - Interesting, in-depth and
   entertaining look at the innards of C.
 * [C Programming Wikibook][14-2] - Actually touches topics for all levels.
+* [Pointers on C][14-3]
+* [The C Puzzle Book][14-4]
 
 [14-1]: https://dl.acm.org/citation.cfm?id=179241
 [14-2]: https://en.wikibooks.org/wiki/C_Programming
+[14-3]: https://www.goodreads.com/book/show/526293.Pointers_on_C
+[14-4]: https://www.goodreads.com/book/show/811303.The_C_Puzzle_Book
 
 #### Articles and Other Resources ####
 ##### Reference #####
@@ -599,6 +613,7 @@ Incorporated lists:
 * [raphydaphy/Q-Operating-System](https://github.com/raphydaphy/Q-Operating-System) - Q OS is a versatile operating system designed with the new features of 64 bit "long mode" CPU's in mind that focuses on making everything as simple as possible for the end user
 * [seL4/seL4](https://github.com/seL4/seL4) - The seL4 microkernel
 * [klange/toaruos](https://github.com/klange/toaruos) - A completely-from-scratch hobby operating system: bootloader, kernel, drivers, C library, and userspace including a composited graphical UI, dynamic linker, syntax-highlighting text editor, network stack, etc.
+* [nickbjohnson4224/rhombus](https://github.com/nickbjohnson4224/rhombus) - a hobby operating system written in C
 
 ##### Emulators, VMs #####
 * [CTurt/Cinoop](https://github.com/CTurt/Cinoop) - Multiplatform Game Boy emulator
@@ -619,6 +634,7 @@ Incorporated lists:
 * [chneukirchen/cwm](https://github.com/chneukirchen/cwm) - portable version of OpenBSD's cwm(1) window manager
 * [i3/i3](https://github.com/i3/i3) - A better tiling and dynamic window manager
 * [mil/foo-wm](https://github.com/mil/foo-wm) - A minimal window manager that organizes windows in a tree data structure, provides a socket to send commands to, and nothing more.
+* [pyknite/catwm](https://github.com/pyknite/catwm) - catwm is a very simple tiling window manager
 
 ##### Language Implementations #####
 * [Fedjmike/mini-c](https://github.com/Fedjmike/mini-c) - Dr Strangehack, or: how to write a self-hosting C compiler in 10 hours
@@ -639,6 +655,10 @@ Incorporated lists:
 * [stevedekorte/io](https://github.com/stevedekorte/io) - Io programming language
 * [philburk/pforth](https://github.com/philburk/pforth) - Portable Forth in C
 * [carld/micro-lisp](https://github.com/carld/micro-lisp) - 🎄A very small Lisp programming language 😀that used to be under 200 lines of C🎄
+* [kevinlawler/kona](https://github.com/kevinlawler/kona) - Open-source implementation of the K programming language
+* [ndreynolds/flathead](https://github.com/ndreynolds/flathead) - A toy JavaScript interpreter written in C
+* [begeekmyfriend/leetcode](https://github.com/begeekmyfriend/leetcode) - LeetCode in pure C
+* [bl0ckeduser/new-bpf-tools](https://github.com/bl0ckeduser/new-bpf-tools) - subset-of-C compiler targeting 32-bit x86
 
 ##### Other Examples #####
 * [FreddieV4/DailyProgrammerChallenges](https://github.com/FreddieV4/DailyProgrammerChallenges) - External Repo of Challenges from r/dailyprogrammer
@@ -654,15 +674,11 @@ Incorporated lists:
 * [rcr/rirc](https://github.com/rcr/rirc) - A terminal IRC client in C
 * [eatnumber1/goal](https://github.com/eatnumber1/goal) - g()()()()('al') → "gooooal"
 * [xoreaxeaxeax/movfuscator](https://github.com/xoreaxeaxeax/movfuscator) - The single instruction C compiler
+* [deadbits/InsecureProgramming](https://github.com/deadbits/InsecureProgramming) - mirror of gera's insecure programming examples | http://community.coresecurity.com/~gera/InsecureProgramming/
 
-* [begeekmyfriend/leetcode](https://github.com/begeekmyfriend/leetcode) - LeetCode in pure C
-* [bl0ckeduser/new-bpf-tools](https://github.com/bl0ckeduser/new-bpf-tools) - subset-of-C compiler targeting 32-bit x86
-* [caisah/Sedgewick-algorithms-in-c-exercises-and-examples](https://github.com/caisah/Sedgewick-algorithms-in-c-exercises-and-examples) - Examples and exercises from Algorithms in C, Parts 1-4: Fundamentals, Data Structures, Sorting, Searching by Robert Sedgewick book
-* [ccpalettes/the-c-programming-language-second-edition-solutions](https://github.com/ccpalettes/the-c-programming-language-second-edition-solutions) - Solutions for all exercises in the book "The C Programming Language - Second Edition"(referred to as K&R, after its authors' initials) by Brian W. Kernighan and Dennis M. Ritchie.
 * [cirosantilli/cpp-cheat](https://github.com/cirosantilli/cpp-cheat) - C, C++, POSIX and Linux system programming minimal examples. Asserts used wherever possible. Hello worlds for cool third party libraries and build systems. Cheatsheets, tutorials and mini-projects.
 * [conghui/algorithms-in-c](https://github.com/conghui/algorithms-in-c) - Exercise of the book Algorithms In C, Part 1-4, Fundamentals, Data Strcuture, Sorting, Searching, written by  Robert Sedgewick
 * [cstack/db_tutorial](https://github.com/cstack/db_tutorial) - Writing a sqlite clone from scratch in C
-* [deadbits/InsecureProgramming](https://github.com/deadbits/InsecureProgramming) - mirror of gera's insecure programming examples | http://community.coresecurity.com/~gera/InsecureProgramming/
 * [dogriffiths/HeadFirstC](https://github.com/dogriffiths/HeadFirstC) - Source code for the book Head First C, by O'Reilly Media
 * [drh/cii](https://github.com/drh/cii) - C Interfaces and Implementations
 * [hellerve/e](https://github.com/hellerve/e) - A dead simple editor
@@ -675,7 +691,6 @@ Incorporated lists:
 * [jnz/q3vm](https://github.com/jnz/q3vm) - Q3VM - Embeddable bytecode virtual machine/interpreter for C-language input
 * [jordansissel/xdotool](https://github.com/jordansissel/xdotool) - fake keyboard/mouse input, window management, and more
 * [kev009/cii](https://github.com/kev009/cii) - libcii ported to Autotools/libtool - D. R. Hanson's C Interfaces and Implementations
-* [kevinlawler/kona](https://github.com/kevinlawler/kona) - Open-source implementation of the K programming language
 * [kframework/c-semantics](https://github.com/kframework/c-semantics) - Semantics of C in K
 * [lbrito1/cstuff](https://github.com/lbrito1/cstuff) - Algorithms & data structures in C
 * [lotabout/write-a-C-interpreter](https://github.com/lotabout/write-a-C-interpreter) - Write a simple interpreter of C. Inspired by c4 and largely based on it.
@@ -684,9 +699,7 @@ Incorporated lists:
 * [muennich/sxiv](https://github.com/muennich/sxiv) - Simple X Image Viewer
 * [mortdeus/legacy-cc](https://github.com/mortdeus/legacy-cc) - The earliest versions of the very first c compiler known to exist in the wild written by the late legend himself dmr.
 * [n64dev/cen64](https://github.com/n64dev/cen64) - Cycle-Accurate Nintendo 64 Emulator
-* [ndreynolds/flathead](https://github.com/ndreynolds/flathead) - A toy JavaScript interpreter written in C
 * [nesbox/tic.computer](https://github.com/nesbox/tic.computer) - 🐛 Public TIC-80 issues tracker
-* [nickbjohnson4224/rhombus](https://github.com/nickbjohnson4224/rhombus) - a hobby operating system written in C
 * [nickdesaulniers/bf_interpreter_jit_compiler](https://github.com/nickdesaulniers/bf_interpreter_jit_compiler) - Teach myself about interpreters, JITs, and compilers using the Brainfuck language as the toy language
 * [paladin-t/my_basic](https://github.com/paladin-t/my_basic) - Lightweight BASIC interpreter written in standard C in dual files. Aimed to be embeddable, extendable and portable.
 * [pikelang/Pike](https://github.com/pikelang/Pike) - Pike is a dynamic programming language with a syntax similar to Java and C. It is simple to learn, does not require long compilation passes and has powerful built-in data types allowing simple and really fast data manipulation.
@@ -709,7 +722,6 @@ Incorporated lists:
 * [openglbook/openglbook.com](https://github.com/openglbook/openglbook.com) - The source code for http://openglbook.com/
 * [openglsuperbible/sb6code](https://github.com/openglsuperbible/sb6code) - Source code for OpenGL SupeBible 6th Edition examples
 * [openglsuperbible/sb7code](https://github.com/openglsuperbible/sb7code) - Source code and supporting material for the 7th Edition of OpenGL SuperBible
-* [pyknite/catwm](https://github.com/pyknite/catwm) - catwm is a very simple tiling window manager
 * [posva/catimg](https://github.com/posva/catimg) - :squirrel: Insanely fast image printing in your terminal
 * [pudongqi/My_Compiler](https://github.com/pudongqi/My_Compiler) - An open-source projects about how to develop a compiler
 * [thlorenz/learnuv](https://github.com/thlorenz/learnuv) - Learn uv for fun and profit, a self guided workshop to the library that powers Node.js.
