@@ -1561,6 +1561,7 @@ can be found in the Crypto section.
 * [uclouvain/openjpeg](https://github.com/uclouvain/openjpeg) - Official repository of the OpenJPEG project
 * [vlfeat/vlfeat](https://github.com/vlfeat/vlfeat) - An open library of computer vision algorithms
 * [zardus/preeny](https://github.com/zardus/preeny) - Some helpful preload libraries for pwning stuff.
+* [libspng](https://libspng.org/) - Secure PNG reading/writing
 
 ## Integrated Debugging and Logging ##
 * [whereami][390] - One-file library for locating the current executable on the
