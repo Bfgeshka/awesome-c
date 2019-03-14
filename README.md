@@ -1289,6 +1289,131 @@ Foreign function interfaces, also know as binding interfaces.
 * [jmckaskill/luaffi](https://github.com/jmckaskill/luaffi) - Standalone FFI library for calling C functions from lua. Compatible with the luajit FFI interface.
 * [taviso/ctypes.sh](https://github.com/taviso/ctypes.sh) - A foreign function interface for bash.
 
+## Filetype Targets ##
+Libraries for working with specific filetypes
+
+### Binaries ###
+* [bfd][436] - Library for manipulating binary object files. Part of GNU
+  binutils. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [libelf][337] - Simple library for parsing ELF files. [``MIT``][MIT]
+* [abiggerhammer/hammer](https://github.com/abiggerhammer/hammer) - Parser combinators for binary formats, in C. Yes, in C. What? Don't look at me like that.
+* [anjos/arithmetic_coding](https://github.com/anjos/arithmetic_coding) - Library to perform arithmetic coding and decoding of text or binary data
+* [beave/barnyard2-extra](https://github.com/beave/barnyard2-extra) - Barnyard2 with "Extra Data" support and other enhancements.
+* [fuzxxl/memf](https://github.com/fuzxxl/memf) - Portable scanf/printf-like functions to marshal binary data
+* [nicklockwood/FastCoding](https://github.com/nicklockwood/FastCoding) - A faster and more flexible binary file format replacement for NSCoding, Property Lists and JSON
+
+### CSV ###
+* [libcsv][322] - Simple, streaming CSV parser. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [tadasv/csv_parser](https://github.com/tadasv/csv_parser) - Callback based (SAX like) CSV Parser for C
+
+### JSON ###
+* [Jansson][323] - Library for encoding, decoding and manipulating JSON. [``MIT``][MIT]
+* [jfes][324] - JSON For Embedded Systems; simple JSON engine without any
+  dependencies. [``MIT``][MIT]
+* [jsmn][325] - Minimalistic JSON parser. [``MIT``][MIT]
+* [json.h][326] - Single-file non-streaming JSON parser. [``Unlicense``][Unlicense]
+* [WJElement][327] - Advanced JSON manipulation library, with support for JSON
+  Schema. Various licenses, all open source.
+* [YAJL][328] - Fast streaming JSON parser library. [``ISC``][ISC]
+* [Jansson](http://www.digip.org/jansson/) - C library for encoding, decoding and manipulating JSON. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
+* [jsmn](https://zserge.com/jsmn.html) - Minimalistic JSON parser. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
+* [json-c](https://github.com/json-c/json-c/wiki) - Library for working with JSON. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
+* [parson](https://github.com/kgabis/parson) - Lightweight JSON library written in C. [`MIT`](https://raw.githubusercontent.com/atom/atom/master/LICENSE.md)
+* [WJElement](https://github.com/netmail-open/wjelement/wiki) - Advanced JSON manipulation library, with support for JSON Schema. [`LGPL, any version`](https://github.com/netmail-open/wjelement/)
+* [YAJL](https://lloyd.github.io/yajl/) - Fast C JSON streaming parser library. [`ISC`](https://directory.fsf.org/wiki/License:ISC)
+* [DaveGamble/cJSON](https://github.com/DaveGamble/cJSON) - Ultralightweight JSON parser in ANSI C
+* [akheron/jansson](https://github.com/akheron/jansson) - C library for encoding, decoding and manipulating JSON data
+* [armink/struct2json](https://github.com/armink/struct2json) - A fast convert library between the JSON and C structure. Implement structure serialization and deserialization for C. | C 结构体与 JSON 快速互转库，快速实现 C 结构体的序列化及反序列化
+* [cesanta/frozen](https://github.com/cesanta/frozen) - JSON parser and generator for C/C++ with scanf/printf like interface. Targeting embedded systems.
+* [cloudflare/lua-resty-json](https://github.com/cloudflare/lua-resty-json) - json lib for lua and C
+* [esnme/ultrajson](https://github.com/esnme/ultrajson) - Ultra fast JSON decoder and encoder written in C with Python bindings
+* [json-c/json-c](https://github.com/json-c/json-c) - https://github.com/json-c/json-c is the official code repository for json-c.  See the wiki for release tarballs for download.  API docs at http://json-c.github.io/json-c/
+* [kbranigan/cJSON](https://github.com/kbranigan/cJSON) - I did not write this code, but I like it.
+* [keenerd/jshon](https://github.com/keenerd/jshon) - Jshon is a JSON parser designed for maximum convenience within the shell.
+* [kgabis/parson](https://github.com/kgabis/parson) - Lightweight JSON library written in C.
+* [kevinbirch/kanabo](https://github.com/kevinbirch/kanabo) - query JSON/YAML data with JSONPath
+* [lloyd/yajl](https://github.com/lloyd/yajl) - A fast streaming JSON parsing library in C.
+* [mysqludf/lib_mysqludf_json](https://github.com/mysqludf/lib_mysqludf_json) - A UDF library of functions to map relational data to the JSON format.
+* [netmail-open/wjelement](https://github.com/netmail-open/wjelement) - advanced, flexible JSON manipulation in C
+* [orangeduck/json2c](https://github.com/orangeduck/json2c) - Convert JSON to C data literals
+* [quartzjer/js0n](https://github.com/quartzjer/js0n) - Flexible Zero-Footprint JSON Parser in C
+* [remicollet/pecl-json-c](https://github.com/remicollet/pecl-json-c) - JSON-C wrapper
+* [sheredom/json.h](https://github.com/sheredom/json.h) - json parser for C and C++
+* [vincenthz/libjson](https://github.com/vincenthz/libjson) - a JSON parser and printer library in C. easy to integrate with any model.
+* [udp/json-parser](https://github.com/udp/json-parser) - Very low footprint JSON parser written in portable ANSI C
+
+### INI ###
+* [inih][329] - Small and simple INI file parser, good for embedded systems. [``BSD-3-Clause``][BSD-3-Clause]
+* [iniparser][330] - Parser for .ini files. [``MIT``][MIT]
+* [libconfini][331] - Yet another INI parser. [``GPL-3.0-only``][GPL-3.0-only]
+* [benhoyt/inih](https://github.com/benhoyt/inih) - Simple .INI file parser in C, good for embedded systems
+
+### Markdown ###
+* [Hoedown][375] - Fully standards-compliant, extension-supporting, UTF-8
+  aware, fast Markdown parser. [``MIT``][MIT]
+* [libcmark][376] - Library for parsing the CommonMark dialect of
+  Markdown. [``BSD-2-Clause``][BSD-2-Clause]
+* [Discount][377] - Simple implementation of a Markdown parser. [``BSD-3-Clause``][BSD-3-Clause]
+* [cmark][420] - Implementation of the CommonMark, Markdown dialect.
+  [Variety of licenses, all open source][421].
+* [Orc/discount](https://github.com/Orc/discount) - My C implementation of John Gruber's Markdown markup language
+* [ali-rantakari/peg-markdown-highlight](https://github.com/ali-rantakari/peg-markdown-highlight) - C library for Markdown syntax highlighting, using a recursive-descent parser.
+* [commonmark/cmark](https://github.com/commonmark/cmark) - CommonMark parsing and rendering library and program in C
+* [commonsguy/cwac-anddown](https://github.com/commonsguy/cwac-anddown) - CWAC AndDown: Markdown Utility Library
+* [fletcher/MultiMarkdown-4](https://github.com/fletcher/MultiMarkdown-4) - C implementation of MultiMarkdown; almost complete rewrite of MMD 3 (which was aka "peg-multimarkdown").
+* [jgm/cmark](https://github.com/jgm/cmark) - CommonMark parsing and rendering library and program in C
+* [jgm/peg-markdown](https://github.com/jgm/peg-markdown) - An implementation of markdown in C, using a PEG grammar
+* [toland/qlmarkdown](https://github.com/toland/qlmarkdown) - QuickLook generator for Markdown files.
+* [vmg/redcarpet](https://github.com/vmg/redcarpet) - The safe Markdown parser, reloaded.
+* [vmg/sundown](https://github.com/vmg/sundown) - Standards compliant, fast, secure markdown processing library in C
+
+### XML ###
+* [Expat][332] - Stream-oriented XML parser. [MIT][MIT]
+* [libxml2][333] - Standards-compliant, portable XML parser. [MIT][MIT]
+* [mini-xml](https://github.com/michaelrsweet/mxml) - Small XML reading and writing library. No dependencies aside from C standard library. [`GNU LGPL2.1 with static linking exception`](https://github.com/michaelrsweet/mxml/blob/master/COPYING)
+* [CastXML/CastXML](https://github.com/CastXML/CastXML) - C-family Abstract Syntax Tree XML Output
+* [TouchCode/TouchXML](https://github.com/TouchCode/TouchXML) - Official "clone" of TouchXML from TouchCode
+* [libexpat/libexpat](https://github.com/libexpat/libexpat) - :herb: Expat library: Fast streaming XML parser written in C; in the process of migrating from SourceForge to GitHub
+
+### YAML ###
+* [libYAML][334] - YAML 1.1 parser and emitter. [``MIT``][MIT]
+* [yaml/libyaml](https://github.com/yaml/libyaml) - Canonical source repository for LibYAML
+
+### Other Filetypes ###
+* [libbson][335] - BSON utility library. [``Apache-2.0``][Apache-2.0]
+* [libconfuse][336] - Small configuration file parser library. [``ISC``][ISC]
+* [libucl][338] - Universal configuration library parser. [``BSD-2-Clause``][BSD-2-Clause]
+* [libxo][339] - Allows an application to generate plain text, XML, JSON and
+  HTML output using a common set of function calls. The application decides at
+  runtime what output style should be produced. [``BSD-2-Clause``][BSD-2-Clause]
+* [XLSX I/O][413] - Cross-platform library for reading and writing .xlsx files. [``MIT``][MIT]
+* [gumbo-parser][416] - HTML5 parsing library in C99. [``Apache-2.0``][Apache-2.0]
+* [hammer](https://github.com/abiggerhammer/hammer) - Parser combinators for binary formats. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+* [iniparser](https://github.com/ndevilla/iniparser) - Parser for `.ini` files. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
+* [libconfini](https://github.com/madmurphy/libconfini) - Yet another INI parser. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
+* [libYAML](https://pyyaml.org/wiki/LibYAML) - YAML 1.1 parser and emitter. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
+* [mpc](https://github.com/orangeduck/mpc) - Parser combinator library. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
+* [libucl](https://github.com/vstakhov/libucl) - Universal configuration library parser. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
+* [StefanKarpinski/odb](https://github.com/StefanKarpinski/odb) - ODB: On-Disk Binary Data Tool
+* [WizardMac/ReadStat](https://github.com/WizardMac/ReadStat) - Command-line tool (+ C library) for converting SAS, Stata, and SPSS files
+* [arrbee/diff-match-patch-c](https://github.com/arrbee/diff-match-patch-c) - C language port of google-diff-match-patch library
+* [clarkgrubb/data-tools](https://github.com/clarkgrubb/data-tools) - File format conversion tools
+* [fileability/self-ml](https://github.com/fileability/self-ml) - A human data language
+* [hach-que/configd](https://github.com/hach-que/configd) - Generates configuration files in /etc based on YAML data and XSLT transformations.
+* [hyperrealm/libconfig](https://github.com/hyperrealm/libconfig) - C/C++ library for processing configuration files
+* [jedwing/CHMLib](https://github.com/jedwing/CHMLib) - Library for reading Microsoft ITSS/CHM format files.
+* [jmcnamara/libxlsxwriter](https://github.com/jmcnamara/libxlsxwriter) - A C library for creating Excel XLSX files.
+* [jwerle/fs.c](https://github.com/jwerle/fs.c) - File system API much like Node's fs module
+* [libharu/libharu](https://github.com/libharu/libharu) - libharu - free PDF library
+* [martinh/libconfuse](https://github.com/martinh/libconfuse) - Small configuration file parser library for C.
+* [mw55309/c_fast5](https://github.com/mw55309/c_fast5) - C code to extract data from fast5 files
+* [samtools/htslib](https://github.com/samtools/htslib) - C library for high-throughput sequencing data formats
+* [sisong/HDiffPatch](https://github.com/sisong/HDiffPatch) - a C\C++ library and command-line tools for binary data Diff & Patch; fast and create small delta/differential; support large files and limit memory requires when diff&patch.
+* [tbeu/ExternData](https://github.com/tbeu/ExternData) - :page_facing_up: Modelica library for reading data from INI, JSON, XML and Excel XLS files
+* [vstakhov/libucl](https://github.com/vstakhov/libucl) - Universal configuration library parser
+
+--------------------------------------------------------------------------------
+
 ## Flow Control and Language Extension ##
 * [libCello][429] - Library introducing higher-level programming to C. [``BSD-3-Clause``][BSD-3-Clause]
 * [Ragel][430] - DSL for state machines that compiles to C. [``GPL-2.0-only``][GPL-2.0-only]
@@ -1431,6 +1556,28 @@ Engines, libraries and other helpful things specifically for making games.
 * [todace/G-CVSNT](https://github.com/todace/G-CVSNT) - G-CVSNT Gaijin (and Gamedev) CVSNT version - modified for large amounts of binary data (typically for gamedev)
 * [zaphire/Monocle-Engine](https://github.com/zaphire/Monocle-Engine) - Open source game engine for lush 2D. Inspired by Aquaria, FlashPunk and Unity.
 * [tpoindex/crobots](https://github.com/tpoindex/crobots) - CROBOTS is a programming game, for programmers (or aspiring programmers.)
+
+## Geography ##
+Geodata, street maps, navigation and so on
+
+* [libpostal][396] - Library for parsing and normalization of street addresses
+  around the world. Powered by statistical NLP and open geo data. [``MIT``][MIT]
+* [libgeohash][417] - Pure C implementation of the Geohash algorithm. [``BSD-3-Clause``][BSD-3-Clause]
+* [Jahor/osm-tools](https://github.com/Jahor/osm-tools) - Tools to operate OpenStreetMap data
+* [Unidata/gempak](https://github.com/Unidata/gempak) - Analysis, display, and product generation package for meteorological data.
+* [aaronstanton/sualft](https://github.com/aaronstanton/sualft) - reconstruction of irregularly sampled seismic data using the Anti-Leakage Fourier Transform (ALFT)
+* [evanmiller/ProjCL](https://github.com/evanmiller/ProjCL) - Crazy-fast map projections and geodesic calculations
+* [olofsj/GLMap](https://github.com/olofsj/GLMap) - An OpenGL ES 2.0 renderer for Openstreetmap data
+* [olofsj/Whichway](https://github.com/olofsj/Whichway) - C library for flexible (bike, foot, car) routing in road networks from Openstreetmap data.
+* [maxmind/geoip-api-c](https://github.com/maxmind/geoip-api-c) - GeoIP Legacy C API
+* [navit-gps/navit](https://github.com/navit-gps/navit) - The open source (GPL v2) turn-by-turn navigation software for many OS
+* [lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) - Ip2region is a offline IP location library with accuracy rate of 99.9% and 0.0x millseconds searching performance. DB file is less then 5Mb with all ip address stored. binding for Java,PHP,C,Python,Nodejs,Golang,C#,lua. Binary,B-tree,Memory searching algorithm
+* [openvenues/libpostal](https://github.com/openvenues/libpostal) - A C library for parsing/normalizing street addresses around the world. Powered by statistical NLP and open geo data.
+* [propublica/simple-tiles](https://github.com/propublica/simple-tiles) - Simple tile generation for maps.
+* [simplegeo/libgeohash](https://github.com/simplegeo/libgeohash) - A pure C implementation of the Geohash algorithm.
+* [webglearth/gdaldem_web](https://github.com/webglearth/gdaldem_web) - Utility for encoding elevation data (DEM) for use on the web (with WebGL Earth). Elevation value is encoded into RGB.
+* [cloudyourcar/minmea](https://github.com/cloudyourcar/minmea) - a lightweight GPS NMEA 0183 parser library in pure C
+* [kosma/minmea](https://github.com/kosma/minmea) - a lightweight GPS NMEA 0183 parser library in pure C
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -1632,6 +1779,15 @@ can be found in the Crypto section.
 * [stephenrkell/liballocs](https://github.com/stephenrkell/liballocs) - Runtime and toolchain for whole-program monitoring of allocations and their data types
 * [wc-duck/dbgtools](https://github.com/wc-duck/dbgtools) - Small collection of debug-related drop-in c/c++-utils
 * [yosefk/checkedthreads](https://github.com/yosefk/checkedthreads) - checkedthreads: no race condition goes unnoticed! Simple API, automatic load balancing, Valgrind-based checking
+
+## I/O ##
+* [Lajnold/falloc](https://github.com/Lajnold/falloc) - falloc creates files of a user-specified size. It uses the posix_fallocate syscall for allocating the right size directly, instead of copying data like the commonly used dd tool does (which, in my opinion, feels like a hack).
+* [cgaebel/pipe](https://github.com/cgaebel/pipe) - A simple thread-safe FIFO in C.
+* [cxong/tinydir](https://github.com/cxong/tinydir) - Lightweight, portable and easy to integrate C directory and file reader
+* [reverbrain/eblob](https://github.com/reverbrain/eblob) - Eblob is an append-only low-level IO library, which saves data in blob files. Created as low-level backend for elliptics
+* [reverbrain/smack](https://github.com/reverbrain/smack) - Low-level IO storage which packs data into sorted (zlib/bzip2/snappy compressed) blobs
+* [tronkko/dirent](https://github.com/tronkko/dirent) - C/C++ library for retrieving information on files and directories
+* [vi/fdlinecombine](https://github.com/vi/fdlinecombine) - Read multiple fds and print data to stdout linewise.
 
 ## Lexing and Parsing ##
 Generic lexers and parsers
@@ -1934,6 +2090,11 @@ Audio and video processing
 * [luohaha/CSpider](https://github.com/luohaha/CSpider) - A scalable and convenient crawler framework in C:).
 * [nitrogenlogic/cliserver](https://github.com/nitrogenlogic/cliserver) - A sample libevent-based network socket server that presents a simple command line interface to multiple connecting clients.
 
+### RPC ###
+* [hmng/jsonrpc-c](https://github.com/hmng/jsonrpc-c) - JSON-RPC in C (server only for now)
+* [lopter/lightsd](https://github.com/lopter/lightsd) - A daemon with a JSON-RPC API to control your light bulbs
+* [studio-ousia/mprpc](https://github.com/studio-ousia/mprpc) - A fast MessagePack RPC library
+
 ### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
   protocol, as described in RFC 6455. [``MIT``][MIT]
@@ -1983,6 +2144,16 @@ Audio and video processing
 * [heman][382] - Tiny library of image utilities dealing with height maps,
   normal maps, distance fields and the like. [``MIT``][MIT]
 * [JCash/voronoi](https://github.com/JCash/voronoi) - A C implementation for creating 2D voronoi diagrams
+
+## Processes and IPC ##
+* [D-Bus][430] - Interprocess communications bus. [``AFL-2.1``][AFL-2.1] or [``GPL-2.0-or-later``][GPL-2.0-or-later]
+* [WhisperSystems/libsignal-protocol-c](https://github.com/WhisperSystems/libsignal-protocol-c) - Signal Protocol C Library
+* [bus1/dbus-broker](https://github.com/bus1/dbus-broker) - Linux D-Bus Message Broker
+* [signalapp/libsignal-protocol-c](https://github.com/signalapp/libsignal-protocol-c) - Signal Protocol C Library
+* [sharvil/flingfd](https://github.com/sharvil/flingfd) - A tiny library to send file descriptors across processes
+* [sheredom/process.h](https://github.com/sheredom/process.h) - A simple one header solution to launching processes and interacting with them for C and C++.
+* [troydhanson/kvspool](https://github.com/troydhanson/kvspool) - A library to support streaming data applications
+* [xroche/coffeecatch](https://github.com/xroche/coffeecatch) - CoffeeCatch, a tiny native POSIX signal catcher (especially useful for JNI code on Android/Dalvik)
 
 ## Regex and Search ##
 * [Onigmo][275] - Fork of Oniguruma, supporting more advanced regexps. [``BSD-2-Clause``][BSD-2-Clause]
@@ -2124,28 +2295,6 @@ Audio and video processing
 * [retuxx/tinyspline](https://github.com/retuxx/tinyspline) - ANSI C library for NURBS, B-Splines, and Bézier curves with wrappers for C++11, C#, Java, Lua, PHP, Python, and Ruby
 * [slim-curve/slim-curve](https://github.com/slim-curve/slim-curve) - SLIM Curve: a package for exponential curve fitting of combined spectral lifetime image data
 
-## Geography ##
-Geodata, street maps, navigation and so on
-
-* [libpostal][396] - Library for parsing and normalization of street addresses
-  around the world. Powered by statistical NLP and open geo data. [``MIT``][MIT]
-* [libgeohash][417] - Pure C implementation of the Geohash algorithm. [``BSD-3-Clause``][BSD-3-Clause]
-* [Jahor/osm-tools](https://github.com/Jahor/osm-tools) - Tools to operate OpenStreetMap data
-* [Unidata/gempak](https://github.com/Unidata/gempak) - Analysis, display, and product generation package for meteorological data.
-* [aaronstanton/sualft](https://github.com/aaronstanton/sualft) - reconstruction of irregularly sampled seismic data using the Anti-Leakage Fourier Transform (ALFT)
-* [evanmiller/ProjCL](https://github.com/evanmiller/ProjCL) - Crazy-fast map projections and geodesic calculations
-* [olofsj/GLMap](https://github.com/olofsj/GLMap) - An OpenGL ES 2.0 renderer for Openstreetmap data
-* [olofsj/Whichway](https://github.com/olofsj/Whichway) - C library for flexible (bike, foot, car) routing in road networks from Openstreetmap data.
-* [maxmind/geoip-api-c](https://github.com/maxmind/geoip-api-c) - GeoIP Legacy C API
-* [navit-gps/navit](https://github.com/navit-gps/navit) - The open source (GPL v2) turn-by-turn navigation software for many OS
-* [lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) - Ip2region is a offline IP location library with accuracy rate of 99.9% and 0.0x millseconds searching performance. DB file is less then 5Mb with all ip address stored. binding for Java,PHP,C,Python,Nodejs,Golang,C#,lua. Binary,B-tree,Memory searching algorithm
-* [openvenues/libpostal](https://github.com/openvenues/libpostal) - A C library for parsing/normalizing street addresses around the world. Powered by statistical NLP and open geo data.
-* [propublica/simple-tiles](https://github.com/propublica/simple-tiles) - Simple tile generation for maps.
-* [simplegeo/libgeohash](https://github.com/simplegeo/libgeohash) - A pure C implementation of the Geohash algorithm.
-* [webglearth/gdaldem_web](https://github.com/webglearth/gdaldem_web) - Utility for encoding elevation data (DEM) for use on the web (with WebGL Earth). Elevation value is encoded into RGB.
-* [cloudyourcar/minmea](https://github.com/cloudyourcar/minmea) - a lightweight GPS NMEA 0183 parser library in pure C
-* [kosma/minmea](https://github.com/kosma/minmea) - a lightweight GPS NMEA 0183 parser library in pure C
-
 ## Standard Libraries ##
 Implementations of the C standarts
 
@@ -2205,131 +2354,6 @@ Implementations of the C standarts
 * [jasonmaclafferty/String](https://github.com/jasonmaclafferty/String) - A dynamic string data type implementation for C.
 * [josephg/librope](https://github.com/josephg/librope) - UTF-8 rope library for C
 * [sheredom/utf8.h](https://github.com/sheredom/utf8.h) - single header utf8 string functions for C and C++
-
-## Working With Files ##
-Libraries for working wit hspecific filetypes
-
-### Binaries ###
-* [bfd][436] - Library for manipulating binary object files. Part of GNU
-  binutils. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [libelf][337] - Simple library for parsing ELF files. [``MIT``][MIT]
-* [abiggerhammer/hammer](https://github.com/abiggerhammer/hammer) - Parser combinators for binary formats, in C. Yes, in C. What? Don't look at me like that.
-* [anjos/arithmetic_coding](https://github.com/anjos/arithmetic_coding) - Library to perform arithmetic coding and decoding of text or binary data
-* [beave/barnyard2-extra](https://github.com/beave/barnyard2-extra) - Barnyard2 with "Extra Data" support and other enhancements.
-* [fuzxxl/memf](https://github.com/fuzxxl/memf) - Portable scanf/printf-like functions to marshal binary data
-* [nicklockwood/FastCoding](https://github.com/nicklockwood/FastCoding) - A faster and more flexible binary file format replacement for NSCoding, Property Lists and JSON
-
-### CSV ###
-* [libcsv][322] - Simple, streaming CSV parser. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
-* [tadasv/csv_parser](https://github.com/tadasv/csv_parser) - Callback based (SAX like) CSV Parser for C
-
-### JSON ###
-* [Jansson][323] - Library for encoding, decoding and manipulating JSON. [``MIT``][MIT]
-* [jfes][324] - JSON For Embedded Systems; simple JSON engine without any
-  dependencies. [``MIT``][MIT]
-* [jsmn][325] - Minimalistic JSON parser. [``MIT``][MIT]
-* [json.h][326] - Single-file non-streaming JSON parser. [``Unlicense``][Unlicense]
-* [WJElement][327] - Advanced JSON manipulation library, with support for JSON
-  Schema. Various licenses, all open source.
-* [YAJL][328] - Fast streaming JSON parser library. [``ISC``][ISC]
-* [Jansson](http://www.digip.org/jansson/) - C library for encoding, decoding and manipulating JSON. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-* [jsmn](https://zserge.com/jsmn.html) - Minimalistic JSON parser. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-* [json-c](https://github.com/json-c/json-c/wiki) - Library for working with JSON. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-* [parson](https://github.com/kgabis/parson) - Lightweight JSON library written in C. [`MIT`](https://raw.githubusercontent.com/atom/atom/master/LICENSE.md)
-* [WJElement](https://github.com/netmail-open/wjelement/wiki) - Advanced JSON manipulation library, with support for JSON Schema. [`LGPL, any version`](https://github.com/netmail-open/wjelement/)
-* [YAJL](https://lloyd.github.io/yajl/) - Fast C JSON streaming parser library. [`ISC`](https://directory.fsf.org/wiki/License:ISC)
-* [DaveGamble/cJSON](https://github.com/DaveGamble/cJSON) - Ultralightweight JSON parser in ANSI C
-* [akheron/jansson](https://github.com/akheron/jansson) - C library for encoding, decoding and manipulating JSON data
-* [armink/struct2json](https://github.com/armink/struct2json) - A fast convert library between the JSON and C structure. Implement structure serialization and deserialization for C. | C 结构体与 JSON 快速互转库，快速实现 C 结构体的序列化及反序列化
-* [cesanta/frozen](https://github.com/cesanta/frozen) - JSON parser and generator for C/C++ with scanf/printf like interface. Targeting embedded systems.
-* [cloudflare/lua-resty-json](https://github.com/cloudflare/lua-resty-json) - json lib for lua and C
-* [esnme/ultrajson](https://github.com/esnme/ultrajson) - Ultra fast JSON decoder and encoder written in C with Python bindings
-* [json-c/json-c](https://github.com/json-c/json-c) - https://github.com/json-c/json-c is the official code repository for json-c.  See the wiki for release tarballs for download.  API docs at http://json-c.github.io/json-c/
-* [kbranigan/cJSON](https://github.com/kbranigan/cJSON) - I did not write this code, but I like it.
-* [keenerd/jshon](https://github.com/keenerd/jshon) - Jshon is a JSON parser designed for maximum convenience within the shell.
-* [kgabis/parson](https://github.com/kgabis/parson) - Lightweight JSON library written in C.
-* [kevinbirch/kanabo](https://github.com/kevinbirch/kanabo) - query JSON/YAML data with JSONPath
-* [lloyd/yajl](https://github.com/lloyd/yajl) - A fast streaming JSON parsing library in C.
-* [mysqludf/lib_mysqludf_json](https://github.com/mysqludf/lib_mysqludf_json) - A UDF library of functions to map relational data to the JSON format.
-* [netmail-open/wjelement](https://github.com/netmail-open/wjelement) - advanced, flexible JSON manipulation in C
-* [orangeduck/json2c](https://github.com/orangeduck/json2c) - Convert JSON to C data literals
-* [quartzjer/js0n](https://github.com/quartzjer/js0n) - Flexible Zero-Footprint JSON Parser in C
-* [remicollet/pecl-json-c](https://github.com/remicollet/pecl-json-c) - JSON-C wrapper
-* [sheredom/json.h](https://github.com/sheredom/json.h) - json parser for C and C++
-* [vincenthz/libjson](https://github.com/vincenthz/libjson) - a JSON parser and printer library in C. easy to integrate with any model.
-* [udp/json-parser](https://github.com/udp/json-parser) - Very low footprint JSON parser written in portable ANSI C
-
-### INI ###
-* [inih][329] - Small and simple INI file parser, good for embedded systems. [``BSD-3-Clause``][BSD-3-Clause]
-* [iniparser][330] - Parser for .ini files. [``MIT``][MIT]
-* [libconfini][331] - Yet another INI parser. [``GPL-3.0-only``][GPL-3.0-only]
-* [benhoyt/inih](https://github.com/benhoyt/inih) - Simple .INI file parser in C, good for embedded systems
-
-### Markdown ###
-* [Hoedown][375] - Fully standards-compliant, extension-supporting, UTF-8
-  aware, fast Markdown parser. [``MIT``][MIT]
-* [libcmark][376] - Library for parsing the CommonMark dialect of
-  Markdown. [``BSD-2-Clause``][BSD-2-Clause]
-* [Discount][377] - Simple implementation of a Markdown parser. [``BSD-3-Clause``][BSD-3-Clause]
-* [cmark][420] - Implementation of the CommonMark, Markdown dialect.
-  [Variety of licenses, all open source][421].
-* [Orc/discount](https://github.com/Orc/discount) - My C implementation of John Gruber's Markdown markup language
-* [ali-rantakari/peg-markdown-highlight](https://github.com/ali-rantakari/peg-markdown-highlight) - C library for Markdown syntax highlighting, using a recursive-descent parser.
-* [commonmark/cmark](https://github.com/commonmark/cmark) - CommonMark parsing and rendering library and program in C
-* [commonsguy/cwac-anddown](https://github.com/commonsguy/cwac-anddown) - CWAC AndDown: Markdown Utility Library
-* [fletcher/MultiMarkdown-4](https://github.com/fletcher/MultiMarkdown-4) - C implementation of MultiMarkdown; almost complete rewrite of MMD 3 (which was aka "peg-multimarkdown").
-* [jgm/cmark](https://github.com/jgm/cmark) - CommonMark parsing and rendering library and program in C
-* [jgm/peg-markdown](https://github.com/jgm/peg-markdown) - An implementation of markdown in C, using a PEG grammar
-* [toland/qlmarkdown](https://github.com/toland/qlmarkdown) - QuickLook generator for Markdown files.
-* [vmg/redcarpet](https://github.com/vmg/redcarpet) - The safe Markdown parser, reloaded.
-* [vmg/sundown](https://github.com/vmg/sundown) - Standards compliant, fast, secure markdown processing library in C
-
-### XML ###
-* [Expat][332] - Stream-oriented XML parser. [MIT][MIT]
-* [libxml2][333] - Standards-compliant, portable XML parser. [MIT][MIT]
-* [mini-xml](https://github.com/michaelrsweet/mxml) - Small XML reading and writing library. No dependencies aside from C standard library. [`GNU LGPL2.1 with static linking exception`](https://github.com/michaelrsweet/mxml/blob/master/COPYING)
-* [CastXML/CastXML](https://github.com/CastXML/CastXML) - C-family Abstract Syntax Tree XML Output
-* [TouchCode/TouchXML](https://github.com/TouchCode/TouchXML) - Official "clone" of TouchXML from TouchCode
-* [libexpat/libexpat](https://github.com/libexpat/libexpat) - :herb: Expat library: Fast streaming XML parser written in C; in the process of migrating from SourceForge to GitHub
-
-### YAML ###
-* [libYAML][334] - YAML 1.1 parser and emitter. [``MIT``][MIT]
-* [yaml/libyaml](https://github.com/yaml/libyaml) - Canonical source repository for LibYAML
-
-### Other Filetypes ###
-* [libbson][335] - BSON utility library. [``Apache-2.0``][Apache-2.0]
-* [libconfuse][336] - Small configuration file parser library. [``ISC``][ISC]
-* [libucl][338] - Universal configuration library parser. [``BSD-2-Clause``][BSD-2-Clause]
-* [libxo][339] - Allows an application to generate plain text, XML, JSON and
-  HTML output using a common set of function calls. The application decides at
-  runtime what output style should be produced. [``BSD-2-Clause``][BSD-2-Clause]
-* [XLSX I/O][413] - Cross-platform library for reading and writing .xlsx files. [``MIT``][MIT]
-* [gumbo-parser][416] - HTML5 parsing library in C99. [``Apache-2.0``][Apache-2.0]
-* [hammer](https://github.com/abiggerhammer/hammer) - Parser combinators for binary formats. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-* [iniparser](https://github.com/ndevilla/iniparser) - Parser for `.ini` files. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-* [libconfini](https://github.com/madmurphy/libconfini) - Yet another INI parser. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
-* [libYAML](https://pyyaml.org/wiki/LibYAML) - YAML 1.1 parser and emitter. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-* [mpc](https://github.com/orangeduck/mpc) - Parser combinator library. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
-* [libucl](https://github.com/vstakhov/libucl) - Universal configuration library parser. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
-* [StefanKarpinski/odb](https://github.com/StefanKarpinski/odb) - ODB: On-Disk Binary Data Tool
-* [WizardMac/ReadStat](https://github.com/WizardMac/ReadStat) - Command-line tool (+ C library) for converting SAS, Stata, and SPSS files
-* [arrbee/diff-match-patch-c](https://github.com/arrbee/diff-match-patch-c) - C language port of google-diff-match-patch library
-* [clarkgrubb/data-tools](https://github.com/clarkgrubb/data-tools) - File format conversion tools
-* [fileability/self-ml](https://github.com/fileability/self-ml) - A human data language
-* [hach-que/configd](https://github.com/hach-que/configd) - Generates configuration files in /etc based on YAML data and XSLT transformations.
-* [hyperrealm/libconfig](https://github.com/hyperrealm/libconfig) - C/C++ library for processing configuration files
-* [jedwing/CHMLib](https://github.com/jedwing/CHMLib) - Library for reading Microsoft ITSS/CHM format files.
-* [jmcnamara/libxlsxwriter](https://github.com/jmcnamara/libxlsxwriter) - A C library for creating Excel XLSX files.
-* [jwerle/fs.c](https://github.com/jwerle/fs.c) - File system API much like Node's fs module
-* [libharu/libharu](https://github.com/libharu/libharu) - libharu - free PDF library
-* [martinh/libconfuse](https://github.com/martinh/libconfuse) - Small configuration file parser library for C.
-* [mw55309/c_fast5](https://github.com/mw55309/c_fast5) - C code to extract data from fast5 files
-* [samtools/htslib](https://github.com/samtools/htslib) - C library for high-throughput sequencing data formats
-* [sisong/HDiffPatch](https://github.com/sisong/HDiffPatch) - a C\C++ library and command-line tools for binary data Diff & Patch; fast and create small delta/differential; support large files and limit memory requires when diff&patch.
-* [tbeu/ExternData](https://github.com/tbeu/ExternData) - :page_facing_up: Modelica library for reading data from INI, JSON, XML and Excel XLS files
-* [vstakhov/libucl](https://github.com/vstakhov/libucl) - Universal configuration library parser
-
---------------------------------------------------------------------------------
 
 ## Testing ##
 * [CHEAT][340] - Simple unit testing framework. [``BSD-2-Clause``][BSD-2-Clause]
@@ -2450,30 +2474,6 @@ Comprehensive and integrated solutions for building web application in C.
 * [aws/aws-iot-device-sdk-embedded-C](https://github.com/aws/aws-iot-device-sdk-embedded-C) - SDK for connecting to AWS IoT from a device using embedded C.
 
 [424]: http://coap.technology/
-
-## Processes and IPC ##
-* [D-Bus][430] - Interprocess communications bus. [``AFL-2.1``][AFL-2.1] or [``GPL-2.0-or-later``][GPL-2.0-or-later]
-* [WhisperSystems/libsignal-protocol-c](https://github.com/WhisperSystems/libsignal-protocol-c) - Signal Protocol C Library
-* [bus1/dbus-broker](https://github.com/bus1/dbus-broker) - Linux D-Bus Message Broker
-* [signalapp/libsignal-protocol-c](https://github.com/signalapp/libsignal-protocol-c) - Signal Protocol C Library
-* [sharvil/flingfd](https://github.com/sharvil/flingfd) - A tiny library to send file descriptors across processes
-* [sheredom/process.h](https://github.com/sheredom/process.h) - A simple one header solution to launching processes and interacting with them for C and C++.
-* [troydhanson/kvspool](https://github.com/troydhanson/kvspool) - A library to support streaming data applications
-* [xroche/coffeecatch](https://github.com/xroche/coffeecatch) - CoffeeCatch, a tiny native POSIX signal catcher (especially useful for JNI code on Android/Dalvik)
-
-## I/O ##
-* [Lajnold/falloc](https://github.com/Lajnold/falloc) - falloc creates files of a user-specified size. It uses the posix_fallocate syscall for allocating the right size directly, instead of copying data like the commonly used dd tool does (which, in my opinion, feels like a hack).
-* [cgaebel/pipe](https://github.com/cgaebel/pipe) - A simple thread-safe FIFO in C.
-* [cxong/tinydir](https://github.com/cxong/tinydir) - Lightweight, portable and easy to integrate C directory and file reader
-* [reverbrain/eblob](https://github.com/reverbrain/eblob) - Eblob is an append-only low-level IO library, which saves data in blob files. Created as low-level backend for elliptics
-* [reverbrain/smack](https://github.com/reverbrain/smack) - Low-level IO storage which packs data into sorted (zlib/bzip2/snappy compressed) blobs
-* [tronkko/dirent](https://github.com/tronkko/dirent) - C/C++ library for retrieving information on files and directories
-* [vi/fdlinecombine](https://github.com/vi/fdlinecombine) - Read multiple fds and print data to stdout linewise.
-
-### RPC ###
-* [hmng/jsonrpc-c](https://github.com/hmng/jsonrpc-c) - JSON-RPC in C (server only for now)
-* [lopter/lightsd](https://github.com/lopter/lightsd) - A daemon with a JSON-RPC API to control your light bulbs
-* [studio-ousia/mprpc](https://github.com/studio-ousia/mprpc) - A fast MessagePack RPC library
 
 # Uncategorized #
 * [tm][432] -  Timer and Timeline Utils for C. [``MIT``][MIT]
