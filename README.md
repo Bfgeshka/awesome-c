@@ -22,7 +22,7 @@ Incorporated lists:
 
 --------------------------------------------------------------------------------
 
-<a id="-"/>
+<a id="-"/> </a>
 ## Index ##
 
 * [Meta](#meta)
@@ -111,8 +111,9 @@ Incorporated lists:
 
 --------------------------------------------------------------------------------
 
-<a href="#-">`^`</a> ## Meta ###
-<a href="#-">`^`</a> ### Standarts ###
+## Meta ###
+<a href="#-">`^`</a>
+### Standarts ###
 <details>
   <summary>Click to expand</summary>
 
