@@ -644,6 +644,9 @@ Incorporated lists:
 * [pyknite/catwm](https://github.com/pyknite/catwm) - catwm is a very simple tiling window manager
 * [posva/catimg](https://github.com/posva/catimg) - :squirrel: Insanely fast image printing in your terminal
 * [pudongqi/My_Compiler](https://github.com/pudongqi/My_Compiler) - An open-source projects about how to develop a compiler
+* [thlorenz/learnuv](https://github.com/thlorenz/learnuv) - Learn uv for fun and profit, a self guided workshop to the library that powers Node.js.
+* [tnightingale/DTE](https://github.com/tnightingale/DTE) - Dumb Terminal Emulator - Data Comm, COMP 3980
+* [zammitjames/dataparksearch](https://github.com/zammitjames/dataparksearch) - Full featured web search engine
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
@@ -1764,6 +1767,7 @@ Audio and video processing
 * [solusipse/ureq](https://github.com/solusipse/ureq) - Micro C library for handling HTTP requests on low resource systems.
 * [tatsuhiro-t/nghttp2](https://github.com/tatsuhiro-t/nghttp2) - nghttp2 - HTTP/2 C Library
 * [taf2/libebb](https://github.com/taf2/libebb) - a lightweight high-performance HTTP server library for C
+* [wg/wrk](https://github.com/wg/wrk) - Modern HTTP benchmarking tool
 
 ### Mail ###
 * [LibEtPan][233] - Mail library providing an efficient network for IMAP, SMTP,
@@ -2039,6 +2043,8 @@ Audio and video processing
 * [rustyrussell/ccan](https://github.com/rustyrussell/ccan) - The C Code Archive Network
 * [vurtun/mmx](https://github.com/vurtun/mmx) - single header libraries for C/C++
 * [yl790/algorithms-and-data-structures](https://github.com/yl790/algorithms-and-data-structures) - for future reference
+* [rofl0r/libulz](https://github.com/rofl0r/libulz) - a collection of useful functions and data structures to create C apps faster. focus on simplicity, ability to statically link and minimal binary size.
+* [sdroege/snippets](https://github.com/sdroege/snippets) - Some algorithms and data structures
 
 ## Special Purpose ##
 * [Tulip Indicators][394] - Library of functions for technical analysis of
@@ -2071,6 +2077,8 @@ Audio and video processing
 * [r0nk/corvus](https://github.com/r0nk/corvus) - Genetic BF programming
 * [sleuthkit/sleuthkit](https://github.com/sleuthkit/sleuthkit) - The Sleuth Kit® (TSK) is a library and collection of command line digital forensics tools that allow you to investigate volume and file system data. The library can be incorporated into larger digital forensics tools and the command line tools can be directly used to find evidence.
 * [hroptatyr/uterus](https://github.com/hroptatyr/uterus) - universal tick encoder library to efficiently transport huge amounts of tick data
+* [retuxx/tinyspline](https://github.com/retuxx/tinyspline) - ANSI C library for NURBS, B-Splines, and Bézier curves with wrappers for C++11, C#, Java, Lua, PHP, Python, and Ruby
+* [slim-curve/slim-curve](https://github.com/slim-curve/slim-curve) - SLIM Curve: a package for exponential curve fitting of combined spectral lifetime image data
 
 ## Geography ##
 Geodata, street maps, navigation and so on
@@ -2383,6 +2391,7 @@ Comprehensive and integrated solutions for building web application in C.
 * [lexborisov/myhtml](https://github.com/lexborisov/myhtml) - Fast C/C++ HTML 5 Parser. Using threads.
 * [htacg/tidy-html5](https://github.com/htacg/tidy-html5) - The granddaddy of HTML tools, with support for modern standards
 * [mongrel2/mongrel2](https://github.com/mongrel2/mongrel2) - The Mongrel2 Web Server Project
+* [shenfeng/tiny-web-server](https://github.com/shenfeng/tiny-web-server) - a tiny web server in C, for daily use.
 
 ## Web Service APIs ##
 * [twitc][426] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
@@ -2398,11 +2407,15 @@ Comprehensive and integrated solutions for building web application in C.
 
 [424]: http://coap.technology/
 
-## Interprocess Communication ##
+## Processes and IPC ##
 * [D-Bus][430] - Interprocess communications bus. [``AFL-2.1``][AFL-2.1] or [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [WhisperSystems/libsignal-protocol-c](https://github.com/WhisperSystems/libsignal-protocol-c) - Signal Protocol C Library
 * [bus1/dbus-broker](https://github.com/bus1/dbus-broker) - Linux D-Bus Message Broker
 * [signalapp/libsignal-protocol-c](https://github.com/signalapp/libsignal-protocol-c) - Signal Protocol C Library
+* [sharvil/flingfd](https://github.com/sharvil/flingfd) - A tiny library to send file descriptors across processes
+* [sheredom/process.h](https://github.com/sheredom/process.h) - A simple one header solution to launching processes and interacting with them for C and C++.
+* [troydhanson/kvspool](https://github.com/troydhanson/kvspool) - A library to support streaming data applications
+* [xroche/coffeecatch](https://github.com/xroche/coffeecatch) - CoffeeCatch, a tiny native POSIX signal catcher (especially useful for JNI code on Android/Dalvik)
 
 ## I/O ##
 * [Lajnold/falloc](https://github.com/Lajnold/falloc) - falloc creates files of a user-specified size. It uses the posix_fallocate syscall for allocating the right size directly, instead of copying data like the commonly used dd tool does (which, in my opinion, feels like a hack).
@@ -2410,14 +2423,13 @@ Comprehensive and integrated solutions for building web application in C.
 * [cxong/tinydir](https://github.com/cxong/tinydir) - Lightweight, portable and easy to integrate C directory and file reader
 * [reverbrain/eblob](https://github.com/reverbrain/eblob) - Eblob is an append-only low-level IO library, which saves data in blob files. Created as low-level backend for elliptics
 * [reverbrain/smack](https://github.com/reverbrain/smack) - Low-level IO storage which packs data into sorted (zlib/bzip2/snappy compressed) blobs
+* [tronkko/dirent](https://github.com/tronkko/dirent) - C/C++ library for retrieving information on files and directories
+* [vi/fdlinecombine](https://github.com/vi/fdlinecombine) - Read multiple fds and print data to stdout linewise.
 
 ### RPC ###
 * [hmng/jsonrpc-c](https://github.com/hmng/jsonrpc-c) - JSON-RPC in C (server only for now)
 * [lopter/lightsd](https://github.com/lopter/lightsd) - A daemon with a JSON-RPC API to control your light bulbs
 * [studio-ousia/mprpc](https://github.com/studio-ousia/mprpc) - A fast MessagePack RPC library
-
-## Mining ##
-* [luke-jr/bfgminer](https://github.com/luke-jr/bfgminer) - Modular ASIC/FPGA miner written in C, featuring overclocking, monitoring, fan speed control and remote interface capabilities.
 
 # Uncategorized #
 * [tm][432] -  Timer and Timeline Utils for C. [``MIT``][MIT]
@@ -2430,36 +2442,9 @@ Comprehensive and integrated solutions for building web application in C.
 * [jonpe960/ufsm](https://github.com/jonpe960/ufsm) - UML Statechart library in C and XMI importer
 * [locasto/libdisorder](https://github.com/locasto/libdisorder) - A simple C library for entropy measurement of byte streams and other data.
 * [lucasb-eyer/heatmap](https://github.com/lucasb-eyer/heatmap) - High performance C heatmap generation library. Supposed to be wrapped by higher-level languages.
-
-# Unsorted #
-* [retuxx/tinyspline](https://github.com/retuxx/tinyspline) - ANSI C library for NURBS, B-Splines, and Bézier curves with wrappers for C++11, C#, Java, Lua, PHP, Python, and Ruby
-* [rofl0r/libulz](https://github.com/rofl0r/libulz) - a collection of useful functions and data structures to create C apps faster. focus on simplicity, ability to statically link and minimal binary size.
-* [sdroege/snippets](https://github.com/sdroege/snippets) - Some algorithms and data structures
-* [shenfeng/tiny-web-server](https://github.com/shenfeng/tiny-web-server) - a tiny web server in C, for daily use.
-* [sgminer-dev/sgminer](https://github.com/sgminer-dev/sgminer) - Scrypt GPU miner
-* [sharvil/flingfd](https://github.com/sharvil/flingfd) - A tiny library to send file descriptors across processes
-* [sheredom/process.h](https://github.com/sheredom/process.h) - A simple one header solution to launching processes and interacting with them for C and C++.
-* [slim-curve/slim-curve](https://github.com/slim-curve/slim-curve) - SLIM Curve: a package for exponential curve fitting of combined spectral lifetime image data
-* [snavely/bundler_sfm](https://github.com/snavely/bundler_sfm) - Bundler Structure from Motion Toolkit
-* [stellarscience/xdm](https://github.com/stellarscience/xdm) - An Extensible Data Model
-* [thlorenz/learnuv](https://github.com/thlorenz/learnuv) - Learn uv for fun and profit, a self guided workshop to the library that powers Node.js.
-* [trink/hindsight](https://github.com/trink/hindsight) - Hindsight - light weight data processing skeleton
-* [tronkko/dirent](https://github.com/tronkko/dirent) - C/C++ library for retrieving information on files and directories
-* [tsuna/contextswitch](https://github.com/tsuna/contextswitch) - Little micro-benchmark for Linux to test the cost of context switching and system calls
-* [topameng/CsToLua](https://github.com/topameng/CsToLua) - The fastest unity lua binding solution
-* [tnightingale/DTE](https://github.com/tnightingale/DTE) - Dumb Terminal Emulator - Data Comm, COMP 3980
-* [ufo-kit/ufo-core](https://github.com/ufo-kit/ufo-core) - GLib-based framework for GPU-based data processing
 * [tailhook/objpath](https://github.com/tailhook/objpath) - A library that allows to traverse data structures by path
-* [troydhanson/kvspool](https://github.com/troydhanson/kvspool) - A library to support streaming data applications
-* [vi/fdlinecombine](https://github.com/vi/fdlinecombine) - Read multiple fds and print data to stdout linewise.
 * [vmg/houdini](https://github.com/vmg/houdini) - The Escapist
-* [vmt/udis86](https://github.com/vmt/udis86) - Disassembler Library for x86 and x86-64
-* [wahern/cqueues](https://github.com/wahern/cqueues) - Continuation Queues: Embeddable asynchronous networking, threading, and notification framework for Lua on Unix.
-* [wg/wrk](https://github.com/wg/wrk) - Modern HTTP benchmarking tool
-* [xaionaro/clsync](https://github.com/xaionaro/clsync) - file live sync daemon based on inotify/kqueue/bsm (Linux, FreeBSD), written in GNU C
-* [xnko/libapi](https://github.com/xnko/libapi) - libapi is a cross platform high performance io library written in c. It provides ability to write event driven servers and applications with continous code
-* [xroche/coffeecatch](https://github.com/xroche/coffeecatch) - CoffeeCatch, a tiny native POSIX signal catcher (especially useful for JNI code on Android/Dalvik)
-* [zammitjames/dataparksearch](https://github.com/zammitjames/dataparksearch) - Full featured web search engine
+* [luke-jr/bfgminer](https://github.com/luke-jr/bfgminer) - Modular ASIC/FPGA miner written in C, featuring overclocking, monitoring, fan speed control and remote interface capabilities.
 
 [484]: https://www.codeproject.com/Articles/6154/Writing-Efficient-C-and-C-Code-Optimization
 [483]: https://docs.google.com/presentation/d/1h49gY3TSiayLMXYmRMaAEMl05FaJ-Z6jDOWOz3EsqqQ/edit?pli=1#slide=id.p
