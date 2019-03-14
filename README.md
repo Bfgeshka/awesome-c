@@ -166,16 +166,16 @@ Incorporated lists:
   [2-5]: https://buckbuild.com/
   [2-6]: https://cmake.org/
   [2-7]: https://www.gnu.org/software/make/
-  [2-8]:
-  [2-9]:
-  [2-10]:
+  [2-8]: N/A
+  [2-9]: N/A
+  [2-10]: N/A
   [2-11]: https://www.gnu.org/software/libtool/
   [2-12]: http://mesonbuild.com/
   [2-13]: https://github.com/ninja-build/ninja
   [2-14]: https://github.com/premake/premake-core
   [2-15]: http://doc.qt.io/qbs/
   [2-16]: https://doc.qt.io/qt-5/qmake-manual.html
-  [2-17]:
+  [2-17]: N/A
   [2-18]: https://www.scons.org/
   [2-19]: https://xmake.io/
   [2-20]: https://github.com/zeromq/zproject
