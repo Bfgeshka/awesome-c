@@ -110,8 +110,8 @@ Incorporated lists:
 
 --------------------------------------------------------------------------------
 
-## Meta ## (#meta)
-### Standarts ### (#standarts)
+## Meta (#meta)
+### Standarts (#standarts)
 <details>
   <summary>Click to expand</summary>
 
@@ -126,8 +126,8 @@ Incorporated lists:
   [1-4]: https://web.archive.org/web/20181230041359if_/http://www.open-std.org/jtc1/sc22/wg14/www/abq/c17_updated_proposed_fdis.pdf
 </details>
 
-### Tooling ### (#tooling)
-#### Build Systems #### (#build-systems)
+### Tooling (#tooling)
+#### Build Systems (#build-systems)
 <details>
   <summary>Click to expand</summary>
 
@@ -201,7 +201,7 @@ Incorporated lists:
   [2-40]: https://github.com/zeromq/zproject/blob/master/LICENSE
 </details>
 
-#### Compilers #### (#compilers)
+#### Compilers (#compilers)
 <details>
   <summary>Click to expand</summary>
 
@@ -254,7 +254,7 @@ Incorporated lists:
   [3-29]: https://github.com/alexfru/SmallerC
 </details>
 
-#### Debugging and Analysis #### (#debugging-and-analysis)
+#### Debugging and Analysis (#debugging-and-analysis)
 <details>
   <summary>Click to expand</summary>
 
@@ -817,8 +817,6 @@ Neural nets, machine learning, and other similar things.
 ## Argument Parsing ##
 * [parg][410] - A single-file reimplementation of ``getopt`` with better
   defaults. [``CC0-1.0``][CC0-1.0]
-* [argparse][411] - Command-line argument parsing library, inspired by Python's
-  argparse module. [``MIT``][MIT]
 * [docopt.c][412] - Implementation of a command-line option parser. [``MIT``][MIT]
 * [PaulStoffregen/teensy_loader_cli](https://github.com/PaulStoffregen/teensy_loader_cli) - Command line Teensy Loader
 * [clibs/flag](https://github.com/clibs/flag) - Go-style flag parsing for C
@@ -1594,7 +1592,6 @@ Engines, libraries and other helpful things specifically for making games.
 
 ## Geography ##
 Geodata, street maps, navigation and so on
-
 * [libpostal][396] - Library for parsing and normalization of street addresses
   around the world. Powered by statistical NLP and open geo data. [``MIT``][MIT]
 * [libgeohash][417] - Pure C implementation of the Geohash algorithm. [``BSD-3-Clause``][BSD-3-Clause]
@@ -1613,6 +1610,8 @@ Geodata, street maps, navigation and so on
 * [webglearth/gdaldem_web](https://github.com/webglearth/gdaldem_web) - Utility for encoding elevation data (DEM) for use on the web (with WebGL Earth). Elevation value is encoded into RGB.
 * [cloudyourcar/minmea](https://github.com/cloudyourcar/minmea) - a lightweight GPS NMEA 0183 parser library in pure C
 * [kosma/minmea](https://github.com/kosma/minmea) - a lightweight GPS NMEA 0183 parser library in pure C
+* [geocommons/geocoder](https://github.com/geocommons/geocoder) - Modular Street Address Geocoder
+* [bauerca/gridfloat](https://github.com/bauerca/gridfloat) - Slice and dice USGS elevation data from the command line.
 
 ## Graphics ##
 Access to graphical APIs or other graphic rendering libraries.
@@ -2301,6 +2300,15 @@ Audio and video processing
 * [cirosantilli/cpp-cheat](https://github.com/cirosantilli/cpp-cheat) - C, C++, POSIX and Linux system programming minimal examples. Asserts used wherever possible. Hello worlds for cool third party libraries and build systems. Cheatsheets, tutorials and mini-projects.
 * [lbrito1/cstuff](https://github.com/lbrito1/cstuff) - Algorithms & data structures in C
 
+## Scientific ##
+Math mostly located in *Calculations* category
+* [GuillaumeHolley/BloomFilterTrie](https://github.com/GuillaumeHolley/BloomFilterTrie) - A data structure for pan-genome storage
+* [noporpoise/seq_file](https://github.com/noporpoise/seq_file) - Library for Reading Bioinformatic Sequence Data in C
+* [r0nk/corvus](https://github.com/r0nk/corvus) - Genetic BF programming
+* [Netflix/dynomite](https://github.com/Netflix/dynomite) - A generic dynamo implementation for different k-v storage engines
+* [XenonofArcticus/DynamicTrack](https://github.com/XenonofArcticus/DynamicTrack) - Access sources of dynamically-updated data about discrete entities like GPSes, INSes, ADS-B sources.
+* [ericmandel/funtools](https://github.com/ericmandel/funtools) - A "minimal buy-in" FITS library and utility package for astronomical data analysis
+
 ## Special Purpose ##
 * [Tulip Indicators][394] - Library of functions for technical analysis of
   financial data. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
@@ -2308,28 +2316,20 @@ Audio and video processing
   with exchanges, dark pools and other trading venues. Supports FIX, FIX/FAST
   and many proprietary protocols. [``BSD-2-Clause``][BSD-2-Clause]
 * [AaronJackson/sage-in-c](https://github.com/AaronJackson/sage-in-c) - Simple library written in C for accessing invoices and company data created by Sage Accounts 50.
-* [GuillaumeHolley/BloomFilterTrie](https://github.com/GuillaumeHolley/BloomFilterTrie) - A data structure for pan-genome storage
 * [JayDDee/cpuminer-opt](https://github.com/JayDDee/cpuminer-opt) - Optimized multi algo CPU miner
 * [MatthewLM/cbitcoin](https://github.com/MatthewLM/cbitcoin) - A low-level bitcoin library written in standard C.
-* [Netflix/dynomite](https://github.com/Netflix/dynomite) - A generic dynamo implementation for different k-v storage engines
 * [RhysU/ESIO](https://github.com/RhysU/ESIO) - The ExaScale IO (ESIO) library provides simple, high throughput input and output of structured data sets using parallel HDF5. ESIO is designed to support reading and writing turbulence simulation restart files within C, C++, and modern Fortran applications.
 * [TPSully/SRTM2STL](https://github.com/TPSully/SRTM2STL) - Create STL files from SRTM data for the purpose of creating 3D relief maps.
 * [TravisWhitaker/FermiShell](https://github.com/TravisWhitaker/FermiShell) - Retrieve, compare, calculate, analyze, graph, simulate, and experiment with chemical data.
 * [TulipCharts/tulipindicators](https://github.com/TulipCharts/tulipindicators) - Technical Analysis Indicator Function Library in C
 * [Unidata/netcdf-c](https://github.com/Unidata/netcdf-c) - Official GitHub repository for netCDF-C libraries and utilities.
-* [XenonofArcticus/DynamicTrack](https://github.com/XenonofArcticus/DynamicTrack) - Access sources of dynamically-updated data about discrete entities like GPSes, INSes, ADS-B sources.
 * [anza/metar](https://github.com/anza/metar) - METAR data fetcher and parser
-* [bauerca/gridfloat](https://github.com/bauerca/gridfloat) - Slice and dice USGS elevation data from the command line.
 * [cbuchner1/CudaMiner](https://github.com/cbuchner1/CudaMiner) - a CUDA accelerated litecoin mining application based on pooler's CPU miner
-* [ericmandel/funtools](https://github.com/ericmandel/funtools) - A "minimal buy-in" FITS library and utility package for astronomical data analysis
-* [geocommons/geocoder](https://github.com/geocommons/geocoder) - Modular Street Address Geocoder
 * [jgarzik/cpuminer](https://github.com/jgarzik/cpuminer) - CPU miner for bitcoin
 * [jgarzik/picocoin](https://github.com/jgarzik/picocoin) - A bitcoin library in C, SPV wallet & more.
 * [libtrading/libtrading](https://github.com/libtrading/libtrading) - Libtrading, an ultra low-latency trading connectivity library for C and C++.
 * [nayuki/QR-Code-generator](https://github.com/nayuki/QR-Code-generator) - High-quality QR Code generator library in Java, JavaScript, Python, C++, C.
-* [noporpoise/seq_file](https://github.com/noporpoise/seq_file) - Library for Reading Bioinformatic Sequence Data in C
 * [qiq/Czech-morphology](https://github.com/qiq/Czech-morphology) - Czech morphology library, using data files compatible with PDT 2.0
-* [r0nk/corvus](https://github.com/r0nk/corvus) - Genetic BF programming
 * [sleuthkit/sleuthkit](https://github.com/sleuthkit/sleuthkit) - The Sleuth Kit® (TSK) is a library and collection of command line digital forensics tools that allow you to investigate volume and file system data. The library can be incorporated into larger digital forensics tools and the command line tools can be directly used to find evidence.
 * [hroptatyr/uterus](https://github.com/hroptatyr/uterus) - universal tick encoder library to efficiently transport huge amounts of tick data
 * [retuxx/tinyspline](https://github.com/retuxx/tinyspline) - ANSI C library for NURBS, B-Splines, and Bézier curves with wrappers for C++11, C#, Java, Lua, PHP, Python, and Ruby
@@ -2337,7 +2337,6 @@ Audio and video processing
 
 ## Standard Libraries ##
 Implementations of the C standarts
-
 * [Bionic][301] - Google's standard library, developed for Android. [``BSD-3-Clause``][BSD-3-Clause]
 * [cloudlibc][302] - Standard library based on the concept of
   [capability-based security][303]. [``BSD-2-Clause``][BSD-2-Clause]
