@@ -111,9 +111,8 @@ Incorporated lists:
 
 --------------------------------------------------------------------------------
 
-## Meta ###
-<a href="#-">`^`</a>
-### Standarts ###
+## <a href="#-">`^`</a> Meta ###
+### <a href="#-">`^`</a> Standarts ###
 <details>
   <summary>Click to expand</summary>
 
