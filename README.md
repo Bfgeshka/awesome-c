@@ -255,41 +255,63 @@ Incorporated lists:
 </details>
 
 #### Debugging and Analysis ####
-* [address-sanitizer][4-3] - Fast memory error detector. [``Apache-2.0``][Apache-2.0]
-* [C-Reduce][4-1] - Tool that takes a large C file with a property of interest
-  and automatically produces a much smaller C file that has the same property.
-  Intended to help create minimal bug-demonstrating cases in complex code. [``BSD-3-Clause``][BSD-3-Clause]
-* [CBMC][4-2] - C Bounded Model Checker; a tool for verification of array
-  bounds, pointer safety and user-specified assertions. [``BSD-4-Clause``][BSD-4-Clause]
-* [ClangCheck][4-4] - Static analysis tool, designed to work with Clang. [``NCSA``][NCSA]
-* [Cppcheck][4-5] - Static analysis tool. Despite the name, works well with C. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [GNU cflow][4-6] - Analyzes a collection of source files and prints a graph
-  charting control flow in the program. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [GNU Complexity][4-7] - Tool for measuring the complexity of source code. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [CScout][4-8] - Source code analyzer and refactoring browser for C programs. [``GPL-3.0-only``][GPL-3.0-only]
-* [GNU DDD][4-9] - Graphical front-end for a range of command-line debuggers. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [GDB][4-10] - GNU Project debugger. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [lldb][4-11] - LLVM debugger. [``NCSA``][NCSA]
-* [rr][4-12] - Debugger that records non-deterministic executions to allow for
-  deterministic debugging. [``BSD-2-Clause``][BSD-2-Clause]
-* [Valgrind][4-13] - Range of dynamic analysis tools, including a leak checker. [``GPL-2.0-only``][GPL-2.0-only]
-* [SVF-tools/SVF](https://github.com/SVF-tools/SVF) - Pointer Analysis and Program Dependence Analysis for C and C++ Programs
-* [agl/ctgrind](https://github.com/agl/ctgrind) - Checking that functions are constant time with Valgrind
-* [cgdb/cgdb](https://github.com/cgdb/cgdb) - Console front-end to the GNU debugger
+<details>
+  <summary>Click to expand</summary>
 
-[4-1]: https://embed.cs.utah.edu/creduce/
-[4-2]: https://www.cprover.org/cbmc/
-[4-3]: https://github.com/google/sanitizers
-[4-4]: https://clang.llvm.org/docs/ClangCheck.html
-[4-5]: http://cppcheck.sourceforge.net/
-[4-6]: http://www.gnu.org/software/cflow/
-[4-7]: https://www.gnu.org/software/complexity/
-[4-8]: https://www.spinellis.gr/cscout/
-[4-9]: https://www.gnu.org/software/ddd/ddd.html
-[4-10]: https://www.gnu.org/software/gdb/
-[4-11]: https://lldb.llvm.org/
-[4-12]: https://rr-project.org/
-[4-13]: http://www.valgrind.org/
+  * [C-Reduce][4-1] - Tool that takes a large C file with a property of interest
+  and automatically produces a much smaller C file that has the same property.
+  Intended to help create minimal bug-demonstrating cases in complex code. [`License`][4-14]
+  * [CBMC][4-2] - C Bounded Model Checker; a tool for verification of array
+  bounds, pointer safety and user-specified assertions. [`License`][4-15]
+  * [cgdb/cgdb][4-17] - Console front-end to the GNU debugger. [`GPL 2`][4-16]
+  * [GNU cflow][4-6] - Analyzes a collection of source files and prints a graph
+  charting control flow in the program. [`GPL 3`][4-18]
+  * [ClangCheck][4-4] - Static analysis tool, designed to work with Clang. [`NCSA`][4-19]
+  * [GNU Complexity][4-7] - Tool for measuring the complexity of source code. [`GPL 3`][4-20]
+  * [Cppcheck][4-5] - Static analysis tool. Despite the name, works well with C. [`GPL 3`][4-21]
+  * [CScout][4-8] - Source code analyzer and refactoring browser for C programs. [`GPL 3`][4-22]
+  * [agl/ctgrind][4-23] - Checking that functions are constant time with
+  Valgrind. [`No license`]
+  * [GNU DDD][4-9] - Graphical front-end for a range of command-line debuggers. [`Licenses`][4-24]
+  * [GDB][4-10] - GNU Project debugger. [`Licenses`][4-25]
+  * [lldb][4-11] - LLVM debugger. [`NCSA`][4-19]
+  * [rr][4-12] - Debugger that records non-deterministic executions to allow for
+  deterministic debugging. [`License`][4-26]
+  * [SVF-tools/SVF][4-27] - Pointer Analysis and Program Dependence Analysis for
+  C and C++ Programs. [`License`][4-28]
+  * [Valgrind][4-13] - Range of dynamic analysis tools, including a leak
+  checker. [`GPL 2`][4-29]
+
+  [4-1]: https://embed.cs.utah.edu/creduce/
+  [4-2]: https://www.cprover.org/cbmc/
+  [4-3]: N/A
+  [4-4]: https://clang.llvm.org/docs/ClangCheck.html
+  [4-5]: http://cppcheck.sourceforge.net/
+  [4-6]: http://www.gnu.org/software/cflow/
+  [4-7]: https://www.gnu.org/software/complexity/
+  [4-8]: https://www.spinellis.gr/cscout/
+  [4-9]: https://www.gnu.org/software/ddd/ddd.html
+  [4-10]: https://www.gnu.org/software/gdb/
+  [4-11]: https://lldb.llvm.org/
+  [4-12]: https://rr-project.org/
+  [4-13]: http://www.valgrind.org/
+  [4-14]: https://github.com/csmith-project/creduce/blob/master/COPYING
+  [4-15]: https://www.cprover.org/cbmc/LICENSE
+  [4-16]: https://github.com/cgdb/cgdb/blob/master/COPYING
+  [4-17]: https://github.com/cgdb/cgdb
+  [4-18]: http://git.savannah.gnu.org/cgit/cflow.git/tree/COPYING
+  [4-19]: https://opensource.org/licenses/UoI-NCSA.php
+  [4-20]: https://ftp.gnu.org/gnu/complexity/
+  [4-21]: https://github.com/danmar/cppcheck/blob/master/COPYING
+  [4-22]: https://github.com/dspinellis/cscout/blob/master/LICENSE.txt
+  [4-23]: https://github.com/agl/ctgrind
+  [4-24]: http://svn.savannah.gnu.org/viewvc/ddd/trunk/
+  [4-25]: https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git;a=tree
+  [4-26]: https://github.com/mozilla/rr/blob/master/LICENSE
+  [4-27]: https://github.com/SVF-tools/SVF
+  [4-28]: https://github.com/SVF-tools/SVF/blob/master/LICENSE.TXT
+  [4-29]: http://www.valgrind.org/
+</details>
 
 #### Documentation Generation ####
 * [Cxref][5-1] - Generates documentation in either LaTeX, HTML, RTF or SGML. [``GPL-2.0-only``][GPL-2.0-only]
