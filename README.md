@@ -128,58 +128,77 @@ Incorporated lists:
 
 ### Tooling ###
 #### Build Systems ####
-* [aimake][2-1] - Build tool designed to avoid complex configurations. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [Autoconf][2-2] - Extensible package of M4 macros that produce shell scripts
+<details>
+  <summary>Click to expand</summary>
+  * [aimake][2-1] - Build tool designed to avoid complex configurations. [`GPL 3`][2-21]
+  * [Autoconf][2-2] - Extensible package of M4 macros that produce shell scripts
   to automatically configure software source code packages. Part of the
-  Autotools. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [Automake][2-3] - Tool for automatically generating `Makefile.in` files
+  Autotools. [`GPL 2`][2-22]
+  * [Automake][2-3] - Tool for automatically generating `Makefile.in` files
   compliant with the GNU Coding Standards. Requires the use of Autoconf. Part of
-  the Autotools. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [Bazel][2-4] - Build system for various operating systems and targets. [``Apache-2.0``][Apache-2.0]
-* [Buck][2-5] - Build system created and used by Facebook. [``Apache-2.0``][Apache-2.0]
-* [CMake][2-6] - Cross-platform family of tools designed to build, package and
-  test software. Written in C++11. [``BSD-3-Clause``][BSD-3-Clause]
-* [GNU Make][2-7] - Tool which controls the generation of executables and other
-  non-source files of a program. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [GMSL][2-8] - GNU Make Standard Library; a collection of additional
-  functionality for GNU Make. [``BSD-3-Clause``][BSD-3-Clause]
-* [Jam][2-9] - Build system, designed to be easier than make. Understands C
-  build rules implicitly. [``Jam License``][2-10]
-* [Libtool][2-11] - Generic library support script. Part of the Autotools. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [Meson][2-12] - Build system based on Ninja and Python. [``Apache-2.0``][Apache-2.0]
-* [Ninja][2-13] - Small, simple build system with a focus on speed. [``Apache-2.0``][Apache-2.0]
-* [Premake][2-14] - Generates project files for Visual Studio, Xcode and GNU
-  Make. Targets suppport can be extended via modules. [``BSD-3-Clause``][BSD-3-Clause]
-* [Qbs][2-15] - Modern build tool for software projects. [``LGPL-3.0-only``][LGPL-3.0-only]
-* [qmake][2-16] - Build system included with the Qt Framework. [`GNU GPL3 with Qt Exception`][2-17]
-* [SCons][2-18] - Software construction tool based on Python. [``MIT``][MIT]
-* [xmake][2-19] - Cross-platform build utility based on Lua. [``Apache-2.0``][Apache-2.0]
-* [zproject][2-20] - Project generator and build system support tool for ZeroMQ
-  project. [``MPL-2.0``][MPL-2.0]
-* [tup](http://gittup.org/tup/index.html) - Very fast, file-based, cross-platform build system. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-* [gittup/tup](https://github.com/gittup/tup) - Tup is a file-based build system.
-* [jamplus/jamplus](https://github.com/jamplus/jamplus) - Jamplus is a generic code and data build system derived from the original Perforce version of Jam
+  the Autotools. [`GPL 2`][2-23]
+  * [Bazel][2-4] - Build system for various operating systems and targets. [`Apache 2`][2-24]
+  * [Buck][2-5] - Build system created and used by Facebook. [`Apache 2`][2-25]
+  * [CMake][2-6] - Cross-platform family of tools designed to build, package and
+  test software. Written in C++11. [`BSD 3-Clause`][2-26]
+  * [GNU Make][2-7] - Tool which controls the generation of executables and
+  other non-source files of a program. [`GPL 3`][2-27]
+  * [jamplus/jamplus][2-29] - Jamplus is a generic code and data build system
+  derived from the original Perforce version of Jam. [`License`][2-28]
+  * [Libtool][2-11] - Generic library support script. Part of the Autotools. [`GPL 2`][2-30]
+  * [Meson][2-12] - Build system based on Ninja and Python. [`Apache 2`][2-31]
+  * [Ninja][2-13] - Small, simple build system with a focus on speed. [`Apache 2`][2-32]
+  * [Premake][2-14] - Generates project files for Visual Studio, Xcode and GNU
+  Make. Targets suppport can be extended via modules. [`BSD 3-Clause`][2-33]
+  * [Qbs][2-15] - Modern build tool for software projects. [`Licenses`][2-34]
+  * [qmake][2-16] - Build system included with the Qt Framework. [`Licenses`][2-35]
+  * [SCons][2-18] - Software construction tool based on Python. [`License`][2-36]
+  * [gittup/tup][2-37] - Tup is a file-based build system. [`GPL 2`][2-38]
+  * [xmake][2-19] - Cross-platform build utility based on Lua. [`Apache 2`][2-39]
+  * [zproject][2-20] - Project generator and build system support tool for
+  ZeroMQ project. [`MPL 2`][2-40]
 
-[2-1]: http://nethack4.org/projects/aimake/
-[2-2]: https://www.gnu.org/software/autoconf/autoconf.html
-[2-3]: https://www.gnu.org/software/automake/automake.html
-[2-4]: https://bazel.build/
-[2-5]: https://buckbuild.com/
-[2-6]: https://cmake.org/
-[2-7]: https://www.gnu.org/software/make/
-[2-8]: https://gmsl.sourceforge.net/
-[2-9]: https://www.perforce.com/documentation/jam-documentation
-[2-10]: https://en.wikipedia.org/wiki/Perforce_Jam#License
-[2-11]: https://www.gnu.org/software/libtool/
-[2-12]: http://mesonbuild.com/
-[2-13]: https://github.com/ninja-build/ninja
-[2-14]: https://github.com/premake/premake-core
-[2-15]: http://doc.qt.io/qbs/
-[2-16]: https://doc.qt.io/qt-5/qmake-manual.html
-[2-17]: https://github.com/qt/qtbase/blob/5.11/LICENSE.GPL3-EXCEPT
-[2-18]: https://www.scons.org/
-[2-19]: https://xmake.io/
-[2-20]: https://github.com/zeromq/zproject
+  [2-1]: http://nethack4.org/projects/aimake/
+  [2-2]: https://www.gnu.org/software/autoconf/autoconf.html
+  [2-3]: https://www.gnu.org/software/automake/automake.html
+  [2-4]: https://bazel.build/
+  [2-5]: https://buckbuild.com/
+  [2-6]: https://cmake.org/
+  [2-7]: https://www.gnu.org/software/make/
+  [2-8]:
+  [2-9]:
+  [2-10]:
+  [2-11]: https://www.gnu.org/software/libtool/
+  [2-12]: http://mesonbuild.com/
+  [2-13]: https://github.com/ninja-build/ninja
+  [2-14]: https://github.com/premake/premake-core
+  [2-15]: http://doc.qt.io/qbs/
+  [2-16]: https://doc.qt.io/qt-5/qmake-manual.html
+  [2-17]:
+  [2-18]: https://www.scons.org/
+  [2-19]: https://xmake.io/
+  [2-20]: https://github.com/zeromq/zproject
+  [2-21]: http://nethack4.org/projects/aimake/documentation.html#COPYRIGHT
+  [2-22]: http://git.savannah.gnu.org/gitweb/?p=autoconf.git;a=blob_plain;f=COPYING;hb=HEAD
+  [2-23]: http://git.savannah.gnu.org/cgit/automake.git/tree/COPYING
+  [2-24]: https://github.com/bazelbuild/bazel/blob/master/LICENSE
+  [2-25]: https://github.com/facebook/buck/blob/master/LICENSE
+  [2-26]: https://cmake.org/licensing/
+  [2-27]: http://git.savannah.gnu.org/cgit/make.git/tree/COPYING
+  [2-28]: https://github.com/jamplus/jamplus/blob/master/LICENSE
+  [2-29]: https://github.com/jamplus/jamplus
+  [2-30]: http://git.savannah.gnu.org/cgit/libtool.git/tree/AUTHORS
+  [2-31]: http://mesonbuild.com/legal.html
+  [2-32]: https://github.com/ninja-build/ninja/blob/master/COPYING
+  [2-33]: https://github.com/premake/premake-core/blob/master/LICENSE.txt
+  [2-34]: https://doc.qt.io/qbs/attributions.html
+  [2-35]: https://code.qt.io/cgit/qt/qtbase.git/tree/
+  [2-36]: https://github.com/SCons/scons/blob/master/LICENSE
+  [2-37]: https://github.com/gittup/tup
+  [2-38]: https://github.com/gittup/tup/blob/master/COPYING
+  [2-39]: https://github.com/xmake-io/xmake/blob/master/LICENSE.md
+  [2-40]: https://github.com/zeromq/zproject/blob/master/LICENSE
+</details>
 
 #### Compilers ####
 * [Clang][3-2] - Compiler for LLVM. Supports C11. [``NCSA``][NCSA]
