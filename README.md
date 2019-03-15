@@ -112,7 +112,7 @@ Incorporated lists:
 --------------------------------------------------------------------------------
 
 <a id="meta"/></a>
-## <a href="#-">`^`</a> Meta ##
+## Meta ##
 <a id="standarts"/></a>
 ### <a href="#-">`^`</a> Standarts ###
 <details>
@@ -130,7 +130,7 @@ Incorporated lists:
 </details>
 
 <a id="tooling"></a>
-### <a href="#-">`^`</a> Tooling ###
+### Tooling ###
 <a id="build-systems"></a>
 #### <a href="#-">`^`</a> Build Systems ####
 <details>
