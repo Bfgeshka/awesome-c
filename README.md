@@ -320,19 +320,28 @@ Incorporated lists:
   [4-29]: http://www.valgrind.org/
 </details>
 
-#### Documentation Generation ####
-* [Cxref][5-1] - Generates documentation in either LaTeX, HTML, RTF or SGML. [``GPL-2.0-only``][GPL-2.0-only]
-* [DocOnce][5-2] - Modestly tagged markup language that can be used to generate
-  a range of formats. [``BSD-3-Clause``][BSD-3-Clause]
-* [Doxygen][5-3] - De-facto standard tool for generating documentation from
-  annotated sources. Can generate a large range of formats. [``GPL-2.0-only``][GPL-2.0-only]
-* [GTK-Doc][5-4] - Tool for generating C documentation from annotated sources.
-  Has support for the Autotools. Various licenses.
+<a id="documentation-generation"></a>
+#### <a href="#-">`^`</a> Documentation Generation ####
+<details>
+  <summary>Click to expand</summary>
 
-[5-1]: http://www.gedanken.org.uk/software/cxref/
-[5-2]: https://hplgit.github.io/doconce/doc/web/index.html
-[5-3]: http://www.doxygen.nl/
-[5-4]: https://www.gtk.org/gtk-doc/
+  * [Cxref][5-1] - Generates documentation in either LaTeX, HTML, RTF or SGML. [`GPL 2`][5-5]
+  * [DocOnce][5-2] - Modestly tagged markup language that can be used to
+  generate a range of formats. [`BSD 3-Clause`][5-6]
+  * [Doxygen][5-3] - De-facto standard tool for generating documentation from
+  annotated sources. Can generate a large range of formats. [`GPL 2`][5-7]
+  * [GTK-Doc][5-4] - Tool for generating C documentation from annotated sources.
+  Has support for the Autotools. [`GPL 2`][5-8]
+
+  [5-1]: http://www.gedanken.org.uk/software/cxref/
+  [5-2]: https://hplgit.github.io/doconce/doc/web/index.html
+  [5-3]: http://www.doxygen.nl/
+  [5-4]: https://www.gtk.org/gtk-doc/
+  [5-5]: http://www.gedanken.org.uk/viewvc/cxref/trunk/doc/COPYING?view=markup
+  [5-6]: https://github.com/hplgit/doconce/blob/master/LICENSE
+  [5-7]: http://www.doxygen.nl/
+  [5-8]: https://gitlab.gnome.org/GNOME/gtk-doc/blob/master/COPYING
+</details>
 
 #### Editors ####
 * [Anjuta DevStudio][6-1] - GNOME IDE. [``GPL-2.0-only``][GPL-2.0-only]
