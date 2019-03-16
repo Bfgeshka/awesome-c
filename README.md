@@ -654,6 +654,7 @@ Incorporated lists:
 * [n64dev/cen64](https://github.com/n64dev/cen64) - Cycle-Accurate Nintendo 64 Emulator
 * [wkoszek/cpu60](https://github.com/wkoszek/cpu60) - Example of CPU simulation in software
 * [swetland/dcpu16](https://github.com/swetland/dcpu16) - Virtual Machine and Assembler for Notch's DCPU-16 Architecture
+* [orbital](https://github.com/AlexAltea/orbital) - PS4 emulator
 
 ##### UI, Windowing, Graphics #####
 * [LemonBoy/bar](https://github.com/LemonBoy/bar) - A featherweight, lemon-scented, bar based on xcb
@@ -783,6 +784,7 @@ Neural nets, machine learning, and other similar things.
 * [symisc/sod](https://github.com/symisc/sod) - An Embedded Computer Vision & Machine Learning Library (CPU Optimized & IoT Capable)
 * [xiph/rnnoise](https://github.com/xiph/rnnoise) - Recurrent neural network for audio noise reduction
 * [yusugomori/DeepLearning](https://github.com/yusugomori/DeepLearning) - Deep Learning (Python, C/C++, Java, Scala, Go)
+* [Genann](https://github.com/codeplea/genann) - neural network library in ANSI C
 
 ## Algoritm Implementations ##
 * [sort][434] - Collection of sorting routines, which type-specialize at
@@ -1605,6 +1607,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [andwn/cave-story-md](https://github.com/andwn/cave-story-md) - A fan port of Cave Story for the Sega Mega Drive
 * [angband/angband](https://github.com/angband/angband) - A free, single-player roguelike dungeon exploration game
 * [nesbox/tic.computer](https://github.com/nesbox/tic.computer) - 🐛 Public TIC-80 issues tracker
+* [Craft](https://github.com/fogleman/Craft) - minecraft clone writen in C
 
 ## Geography ##
 Geodata, street maps, navigation and so on
@@ -1762,6 +1765,7 @@ can be found in the Crypto section.
 * [plashchynski/str2hex](https://github.com/plashchynski/str2hex) - Data formats convertion utility
 * [rg3/bcrypt](https://github.com/rg3/bcrypt) - bcrypt password hash C library
 * [vdrolia/speed_hash](https://github.com/vdrolia/speed_hash) - Hash a lot of data as fast as you can
+* [vlfeat](https://github.com/antirez/sds) - computer vision library
 
 ## Image Processing and Computer Vision ##
 * [ccv][5] - C-based/Cached/Core Computer Vision library; modern computer
@@ -1807,6 +1811,7 @@ can be found in the Crypto section.
 * [vlfeat/vlfeat](https://github.com/vlfeat/vlfeat) - An open library of computer vision algorithms
 * [zardus/preeny](https://github.com/zardus/preeny) - Some helpful preload libraries for pwning stuff.
 * [libspng](https://libspng.org/) - Secure PNG reading/writing
+* [ImageMagick](https://github.com/ImageMagick/ImageMagick) - Image processing suite with C interface
 
 ## Integrated Debugging and Logging ##
 * [whereami][390] - One-file library for locating the current executable on the
@@ -2410,6 +2415,7 @@ Implementations of the C standarts
 * [jasonmaclafferty/String](https://github.com/jasonmaclafferty/String) - A dynamic string data type implementation for C.
 * [josephg/librope](https://github.com/josephg/librope) - UTF-8 rope library for C
 * [sheredom/utf8.h](https://github.com/sheredom/utf8.h) - single header utf8 string functions for C and C++
+* [sds](https://github.com/antirez/sds) - dynamic strings library
 
 ## Testing ##
 * [CHEAT][340] - Simple unit testing framework. [``BSD-2-Clause``][BSD-2-Clause]
