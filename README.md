@@ -595,6 +595,7 @@ Incorporated lists:
 * [What every C programmer should know about undefined behaviour](http://blog.llvm.org/2011/05/what-every-c-programmer-should-know.html)
 * [arjun024/hide-data-in-ptr](https://github.com/arjun024/hide-data-in-ptr) - how to hide data inside pointers
 * [OpenGL Book](http://openglbook.com/)
+* [Autotools Tutorial][https://www.lrde.epita.fr/~adl/dl/autotools.pdf] - A tutorial for autotools which show how to build portable C program (Online PDF).
 
 ##### Advanced Level #####
 * [Advanced metaprogramming in C][477]
