@@ -343,29 +343,42 @@ Incorporated lists:
   [5-8]: https://gitlab.gnome.org/GNOME/gtk-doc/blob/master/COPYING
 </details>
 
-#### Editors ####
-* [Anjuta DevStudio][6-1] - GNOME IDE. [``GPL-2.0-only``][GPL-2.0-only]
-* [Atom][6-3] - Hackable text editor for the 21st century. [``MIT``][MIT]
-* [Code::Blocks][6-2] - Extendable, configurable IDE supporting C. [``GPL-3.0-only``][GPL-3.0-only]
-* [CodeLite][6-4] - Cross-platform IDE. [``GPL-2.0-only``][GPL-2.0-only]
-* [Eclipse][6-6] - IDE written in Java. [``EPL``][6-7]
-* [Geany][6-5] - Small and fast IDE. [``GPL-2.0-or-later``][GPL-2.0-or-later]
-* [KDevelop][6-8] - KDE IDE. [``GPL-2.0-only``][GPL-2.0-only]
-* [Qt Creator][6-9] - Cross-platform IDE written with C++ and Qt, part of the
-  Qt SDK. Supports Clang Code Model. [``GNU GPL3 with Qt exception``][6-10]
-* [Visual Studio Code][6-11] - Code editing, redefined. Visual Studio Code. [``MIT``][MIT]
+<a id="editors"></a>
+#### <a href="#-">`^`</a> Editors ####
+<details>
+  <summary>Click to expand</summary>
 
-[6-1]: http://anjuta.org/
-[6-2]: http://www.codeblocks.org/
-[6-3]: https://atom.io/
-[6-4]: https://codelite.org/
-[6-5]: https://www.geany.org/
-[6-6]: http://www.eclipse.org/ide/
-[6-7]: https://directory.fsf.org/wiki/License:EPL-1.0
-[6-8]: https://www.kdevelop.org/
-[6-9]: https://www.qt.io/qt-features-libraries-apis-tools-and-ide/#ide
-[6-10]: https://github.com/qt-creator/qt-creator/blob/master/LICENSE.GPL3-EXCEPT
-[6-11]: https://github.com/Microsoft/vscode
+  * [Anjuta DevStudio][6-1] - GNOME IDE. [`GPL 2`][6-12]
+  * [Atom][6-3] - Hackable text editor for the 21st century. [`MIT`][6-13]
+  * [Code::Blocks][6-2] - Extendable, configurable IDE supporting C. [`GPL 3`][6-14]
+  * [CodeLite][6-4] - Cross-platform IDE. [`GPL 2`][6-15]
+  * [Eclipse][6-6] - IDE written in Java. [`EPL 2`][6-16]
+  * [Geany][6-5] - Small and fast IDE. [`GPL 2`][6-17]
+  * [KDevelop][6-8] - KDE IDE. [`GPL 2`][6-18]
+  * [Qt Creator][6-9] - Cross-platform IDE written with C++ and Qt, part of the
+  Qt SDK. Supports Clang Code Model. [`GPL 3 w/ exceptions`][6-19]
+  * [Visual Studio Code][6-11] - Code editing, redefined. Visual Studio Code. [`MIT`][6-20]
+
+  [6-1]: http://anjuta.org/
+  [6-2]: http://www.codeblocks.org/
+  [6-3]: https://atom.io/
+  [6-4]: https://codelite.org/
+  [6-5]: https://www.geany.org/
+  [6-6]: http://www.eclipse.org/ide/
+  [6-7]: https://directory.fsf.org/wiki/License:EPL-1.0
+  [6-8]: https://www.kdevelop.org/
+  [6-9]: https://www.qt.io/qt-features-libraries-apis-tools-and-ide/#ide
+  [6-11]: https://github.com/Microsoft/vscode
+  [6-12]: https://gitlab.gnome.org/GNOME/anjuta/blob/master/COPYING
+  [6-13]: https://github.com/atom/atom/blob/master/LICENSE.md
+  [6-14]: http://svn.code.sf.net/p/codeblocks/code/trunk/COPYING
+  [6-15]: https://github.com/eranif/codelite/blob/master/LICENSE
+  [6-16]: https://www.eclipse.org/legal/epl-2.0/
+  [6-17]: https://github.com/geany/geany/blob/master/COPYING
+  [6-18]: https://phabricator.kde.org/source/kdevelop/browse/master/COPYING
+  [6-19]: https://code.qt.io/cgit/qt-creator/qt-creator.git/tree/LICENSE.GPL3-EXCEPT
+  [6-20]: https://github.com/Microsoft/vscode/blob/master/LICENSE.txt
+</details>
 
 #### Microsoft Windows Environment ####
 * [Cygwin][7-1] - Designed to emulate a POSIX-compatible environment extensively
