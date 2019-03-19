@@ -380,21 +380,29 @@ Incorporated lists:
   [6-20]: https://github.com/Microsoft/vscode/blob/master/LICENSE.txt
 </details>
 
-#### Microsoft Windows Environment ####
-* [Cygwin][7-1] - Designed to emulate a POSIX-compatible environment extensively
-  under Windows. [Various licenses, all open source][7-2].
-* [MinGW-w64][7-3] - Minimalist environment for C development on Windows with
-  64 bit support. [Various licenses, all open source][7-4].
-* [MSYS2][7-5] - Minimal SYStem 2; aims to provide support for a POSIX
-  environment on Windows, with a package manager based on Arch Linux's
-  pacman. Packages have individual licenses, otherwise, as MinGW and Cygwin.
-* [reactos/reactos](https://github.com/reactos/reactos) - A free Windows-compatible Operating System
+<a id="microsoft-windows-environment"></a>
+#### <a href="#-">`^`</a> Microsoft Windows Environment ####
+<details>
+  <summary>Click to expand</summary>
 
-[7-1]: https://cygwin.com/
-[7-2]: https://cygwin.com/licensing.html
-[7-3]: http://mingw-w64.yaxm.org/doku.php/start
-[7-4]: http://mingw.org/license
-[7-5]: http://msys2.github.io/
+  * [Cygwin][7-1] - Designed to emulate a POSIX-compatible environment
+  extensively under Windows. [`Licenses`][7-2]
+  * [MinGW-w64][7-3] - Minimalist environment for C development on Windows with
+  64 bit support. [`Licenses`][7-4]
+  * [MSYS2][7-5] - Minimal SYStem 2; aims to provide support for a POSIX
+  environment on Windows, with a package manager based on Arch Linux's
+  pacman. Packages have individual licenses, otherwise, as MinGW and Cygwin. [`BSD 3-Clause`][7-6]
+  * [reactos][7-7] - A free Windows-compatible Operating System. [`GPL 2`][7-8]
+
+  [7-1]: https://cygwin.com/
+  [7-2]: https://cygwin.com/licensing.html
+  [7-3]: http://mingw-w64.yaxm.org/doku.php/start
+  [7-4]: http://mingw.org/license
+  [7-5]: http://msys2.github.io/
+  [7-6]: https://github.com/msys2/MINGW-packages/blob/master/LICENSE
+  [7-7]: https://github.com/reactos/reactos
+  [7-8]: https://github.com/reactos/reactos/blob/master/COPYING
+</details>
 
 #### Profiling ####
 * [gperftools][8-1] - Collection of utilities for measuring and improving
