@@ -39,10 +39,6 @@ Incorporated lists:
 		* [Utilities](#utilities)
 	* [Reading material](#reading-material)
 		* [Books](#books)
-			* [Reference Books](#reference-books)
-			* [Beginner Books](#beginner-books)
-			* [Intermediate Books](#intermediate-books)
-			* [Advanced Books](#advanced-books)
 		* [Articles and Other Resources](#articles-and-other-resources)
 			* [Reference](#reference)
 			* [Benchmarks](#benchmarks)
@@ -601,7 +597,6 @@ Incorporated lists:
   * [C Programming: A Modern Approach][12-2] - Book to learn the basics of C.
   * [Head First C][12-3] - 'Head-first' style book for learning C.
   * [The GNU C Programming Tutorial][12-4] - Beware, GNU C is not standart C.
-  * [careermonk/DataStructuresAndAlgorithmsMadeEasy](https://github.com/careermonk/DataStructuresAndAlgorithmsMadeEasy) - Data Structures And Algorithms Made Easy
 
   [12-1]: https://www.pearson.com/us/higher-education/program/Prata-C-Primer-Plus-6th-Edition/PGM4399.html
   [12-2]: http://knking.com/books/c2/index.html
@@ -616,7 +611,8 @@ Incorporated lists:
   * [The Standard C Library][13-5]
   * [Let Us C][13-6]
   * [C Programming FAQs: Frequently Asked Questions][13-7]
-  * [OpenGL SuperBible](http://www.openglsuperbible.com/)
+  * [OpenGL SuperBible][13-8]
+  * [C Programming Wikibook][13-9] - Actually touches topics for all levels.
 
   [13-1]: http://shop.oreilly.com/product/0636920033677.do
   [13-2]: http://shop.oreilly.com/product/0636920028000.do
@@ -625,16 +621,17 @@ Incorporated lists:
   [13-5]: https://www.goodreads.com/book/show/522100.The_Standard_C_Library
   [13-6]: https://www.goodreads.com/book/show/2522685.Let_Us_C
   [13-7]: https://www.goodreads.com/book/show/528549.C_Programming_FAQs
+  [13-8]: http://www.openglsuperbible.com
+  [13-9]: https://en.wikibooks.org/wiki/C_Programming
 
   ##### Advanced Books #####
   * [Expert C Programming: Deep C Secrets][14-1] - Interesting, in-depth and
   entertaining look at the innards of C.
-  * [C Programming Wikibook][14-2] - Actually touches topics for all levels.
   * [Pointers on C][14-3]
   * [The C Puzzle Book][14-4]
 
   [14-1]: https://dl.acm.org/citation.cfm?id=179241
-  [14-2]: https://en.wikibooks.org/wiki/C_Programming
+  [14-2]: N/A
   [14-3]: https://www.goodreads.com/book/show/526293.Pointers_on_C
   [14-4]: https://www.goodreads.com/book/show/811303.The_C_Puzzle_Book
 </details>
