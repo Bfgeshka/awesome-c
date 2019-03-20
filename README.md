@@ -404,18 +404,27 @@ Incorporated lists:
   [7-8]: https://github.com/reactos/reactos/blob/master/COPYING
 </details>
 
-#### Profiling ####
-* [gperftools][8-1] - Collection of utilities for measuring and improving
-  performance. [``BSD-3-Clause``][BSD-3-Clause]
-* [gprof][8-2] - Performance analysis tool. Part of GNU binutils. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [OProfile][8-3] - Statistical profiler for Linux. Can profile any code
-  (including the kernel!) with low overhead and without recompilation. [``GPL-2.0-only``][GPL-2.0-only]
-* [perf][8-4] - Linux kernel-based profiler with a lot of functionality. [``GPL-2.0-only``][GPL-2.0-only]
+<a id="profiling"></a>
+#### <a href="#-">`^`</a> Profiling ####
+<details>
+  <summary>Click to expand</summary>
 
-[8-1]: https://github.com/gperftools/gperftools
-[8-2]: https://www.gnu.org/software/binutils/
-[8-3]: http://oprofile.sourceforge.net/news/
-[8-4]: https://perf.wiki.kernel.org/index.php/Main_Page
+  * [gperftools][8-1] - Collection of utilities for measuring and improving
+  performance. [`BSD 3-Clause`][8-5]
+  * [gprof][8-2] - Performance analysis tool. Part of GNU binutils. [`Licenses`][8-6]
+  * [OProfile][8-3] - Statistical profiler for Linux. Can profile any code
+  (including the kernel!) with low overhead and without recompilation. [`GPL 2`][8-7]
+  * [perf][8-4] - Linux kernel-based profiler with a lot of functionality. [`GPL 2`][8-8]
+
+  [8-1]: https://github.com/gperftools/gperftools
+  [8-2]: https://www.gnu.org/software/binutils/
+  [8-3]: http://oprofile.sourceforge.net/news/
+  [8-4]: https://perf.wiki.kernel.org/index.php/Main_Page
+  [8-5]: https://github.com/gperftools/gperftools/blob/master/COPYING
+  [8-6]: https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git;a=tree
+  [8-7]: https://sourceforge.net/p/oprofile/oprofile/ci/master/tree/COPYING
+  [8-8]: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/COPYING
+</details>
 
 #### Text Editor Extensions ####
 * [CCompletion][9-1] - Notepad++ autocompletion plugin. Works with all
