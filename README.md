@@ -679,36 +679,53 @@ Incorporated lists:
   [16-9]: http://blog.pkh.me/p/20-templating-in-c.html
 </details>
 
-##### Intermediate Level #####
-* [memcpy vs memmove][461]
-* [8 gdb tricks you should know][465]
-* [10 C99 tricks][466]
-* [A comprehensive MPI tutorial resource][467]
-* [Diving into concurrency: trying out mutexes and atomics][468]
-* [Generic C reference counting][469]
-* [How to write portable C without complicating your build][470]
-* [Introduction to OpenMP][471] (video)
-* [OpenMP tutorial][472]
-* [MPI tutorial][473]
-* [Scalable C - Writing Large-Scale Distributed C][474]
-* [Some unknown features or tricks in C language][475]
-* [What every C programmer should know about undefined behaviour][476]
-* [8 gdb tricks you should know](https://blogs.oracle.com/linux/8-gdb-tricks-you-should-know-v2)
-* [10 C99 tricks](https://blog.noctua-software.com/c-tricks.html)
-* [Diving into concurrency: trying out mutexes and atomics](https://jvns.ca/blog/2014/12/14/fun-with-threads/)
-* [Introduction to OpenMP](https://www.youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG) (video)
-* [OpenMP tutorial](https://computing.llnl.gov/tutorials/openMP/) (for the OpenMP3 standard)
-* [memcpy vs memmove](https://web.archive.org/web/20170620131430/https://www.tedunangst.com/flak/post/memcpy-vs-memmove)
-* [MPI tutorial](https://computing.llnl.gov/tutorials/mpi/)
-* [Some unknown features or tricks in C language](https://proprogramming.org/some-unknown-features-or-tricks-in-c-language/)
-* [The lost art of C structure packing](http://www.catb.org/esr/structure-packing/)
-* [What a C programmer should know about memory](http://marek.vavrusa.com/memory/)
-* [What every C programmer should know about undefined behaviour](http://blog.llvm.org/2011/05/what-every-c-programmer-should-know.html)
-* [arjun024/hide-data-in-ptr](https://github.com/arjun024/hide-data-in-ptr) - how to hide data inside pointers
-* [OpenGL Book](http://openglbook.com/)
-* [Autotools Tutorial][https://www.lrde.epita.fr/~adl/dl/autotools.pdf] - A tutorial for autotools which show how to build portable C program (Online PDF).
-* [C FAQ - comp.lang.c Frequently Asked Questions](http://c-faq.com/)
-* [Akagi201/learning-cmake](https://github.com/Akagi201/learning-cmake) - learning cmake
+<a id="intermediate-level"></a>
+##### <a href="#-">`^`</a> Intermediate Level #####
+<details>
+  <summary>Click to expand</summary>
+
+  * [A comprehensive MPI tutorial resource][17-1]
+  * [Diving into concurrency: trying out mutexes and atomics][17-2]
+  * [Generic C reference counting][17-3]
+  * [How to write portable C without complicating your build][17-4]
+  * [Scalable C - Writing Large-Scale Distributed C][17-5]
+  * [8 gdb tricks you should know][17-6]
+  * [10 C99 tricks][17-7]
+  * [Introduction to OpenMP][17-8] (video)
+  * [OpenMP tutorial][17-9]
+  * [memcpy vs memmove][17-10]
+  * [MPI tutorial][17-11]
+  * [Some unknown features or tricks in C language][17-12]
+  * [The lost art of C structure packing][17-13]
+  * [What a C programmer should know about memory][17-14]
+  * [What every C programmer should know about undefined behaviour][17-15]
+  * [arjun024/hide-data-in-ptr][17-16] - how to hide data inside pointers
+  * [OpenGL Book][17-17]
+  * [Autotools Tutorial][17-18] (Online PDF)
+  * [C FAQ - comp.lang.c Frequently Asked Questions][17-19]
+  * [Akagi201/learning-cmake][17-20] - CMake examples
+
+  [17-1]: http://mpitutorial.com/
+  [17-2]: https://jvns.ca/blog/2014/12/14/fun-with-threads/
+  [17-3]: https://nullprogram.com/blog/2015/02/17
+  [17-4]: https://nullprogram.com/blog/2017/03/30
+  [17-5]: https://hintjens.gitbooks.io/scalable-c/content/index.html
+  [17-6]: https://blogs.oracle.com/linux/8-gdb-tricks-you-should-know-v2
+  [17-7]: https://blog.noctua-software.com/c-tricks.html
+  [17-8]: https://www.youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG
+  [17-9]: https://computing.llnl.gov/tutorials/openMP/
+  [17-10]: https://web.archive.org/web/20170620131430/https://www.tedunangst.com/flak/post/memcpy-vs-memmove
+  [17-11]: https://computing.llnl.gov/tutorials/mpi/
+  [17-12]: https://proprogramming.org/some-unknown-features-or-tricks-in-c-language/
+  [17-13]: http://www.catb.org/esr/structure-packing/
+  [17-14]: http://marek.vavrusa.com/memory/
+  [17-15]: http://blog.llvm.org/2011/05/what-every-c-programmer-should-know.html
+  [17-16]: https://github.com/arjun024/hide-data-in-ptr
+  [17-17]: http://openglbook.com/
+  [17-18]: https://www.lrde.epita.fr/~adl/dl/autotools.pdf
+  [17-19]: http://c-faq.com/
+  [17-20]: https://github.com/Akagi201/learning-cmake
+</details>
 
 ##### Advanced Level #####
 * [Advanced metaprogramming in C][477]
@@ -2679,14 +2696,9 @@ Comprehensive and integrated solutions for building web application in C.
 [477]: http://250bpm.com/blog:56
 [476]: http://blog.llvm.org/2011/05/what-every-c-programmer-should-know.html
 [475]: https://proprogramming.org/some-unknown-features-or-tricks-in-c-language/
-[474]: https://hintjens.gitbooks.io/scalable-c/content/index.html
 [473]: https://computing.llnl.gov/tutorials/mpi/
 [472]: https://computing.llnl.gov/tutorials/openMP/
 [471]: https://www.youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG
-[470]: https://nullprogram.com/blog/2017/03/30
-[469]: https://nullprogram.com/blog/2015/02/17
-[468]: https://jvns.ca/blog/2014/12/14/fun-with-threads/
-[467]: http://mpitutorial.com/
 [466]: http://blog.noctua-software.com/c-tricks.html
 [465]: https://blogs.oracle.com/linux/8-gdb-tricks-you-should-know-v2
 [464]: http://blog.pkh.me/p/20-templating-in-c.html
