@@ -595,7 +595,7 @@ Incorporated lists:
   * [C Primer Plus 6E][12-1] - Complete tutorial on programming in C11.
   * [C Programming: A Modern Approach][12-2] - Book to learn the basics of C.
   * [Head First C][12-3] - 'Head-first' style book for learning C.
-  * [The GNU C Programming Tutorial][12-4] - Beware, GNU C is not standart C.
+  * [The GNU C Programming Tutorial][12-4] - Beware, GNU C is not standart C. (PDF)
 
   [12-1]: https://www.pearson.com/us/higher-education/program/Prata-C-Primer-Plus-6th-Edition/PGM4399.html
   [12-2]: http://knking.com/books/c2/index.html
@@ -701,7 +701,7 @@ Incorporated lists:
   * [What every C programmer should know about undefined behaviour][17-15]
   * [arjun024/hide-data-in-ptr][17-16] - how to hide data inside pointers
   * [OpenGL Book][17-17]
-  * [Autotools Tutorial][17-18] (Online PDF)
+  * [Autotools Tutorial][17-18] (PDF)
   * [C FAQ - comp.lang.c Frequently Asked Questions][17-19]
   * [Akagi201/learning-cmake][17-20] - CMake examples
 
@@ -727,28 +727,39 @@ Incorporated lists:
   [17-20]: https://github.com/Akagi201/learning-cmake
 </details>
 
-##### Advanced Level #####
-* [Advanced metaprogramming in C][477]
-* [A quick tutorial on implementing and debugging malloc, free, calloc, and realloc][478]
-* [Bit twiddling hacks][479]
-* [Implementing smart pointers for the C programming language][480]
-* [Inline functions in C][481]
-* [Metaprogramming custom control structures in C][482]
-* [Some dark corners of C][483]
-* [Writing efficient C and C code optimization][484]
-* [Advanced metaprogramming in C](http://250bpm.com/blog:56)
-* [Quick tutorial on implementing and debugging malloc, free, calloc, and realloc](http://danluu.com/malloc-tutorial/)
-* [Bit twiddling hacks](https://graphics.stanford.edu/~seander/bithacks.html)
-* [I do not know C](https://kukuruku.co/post/i-do-not-know-c/)
-* [Implementing smart pointers for the C programming language](https://snai.pe/c/c-smart-pointers/)
-* [Inline functions in C](http://www.greenend.org.uk/rjk/tech/inline.html)
-* [Metaprogramming custom control structures in C](https://www.chiark.greenend.org.uk/~sgtatham/mp/)
-* [Some dark corners of C](https://docs.google.com/presentation/d/1h49gY3TSiayLMXYmRMaAEMl05FaJ-Z6jDOWOz3EsqqQ/edit?pli=1#slide=id.gaf50702c_0153)
-* [Writing efficient C and C code optimization](https://www.codeproject.com/articles/6154/writing-efficient-c-and-c-code-optimization)
-* [What every programmer should know about memory](https://www.akkadia.org/drepper/cpumemory.pdf)
-* [Learn libuv](http://thlorenz.com/learnuv/book/)
-* [Let's build a compiler](https://compilers.iecc.com/crenshaw/)
-* [Write a compiler](https://norasandler.com/2017/11/29/Write-a-Compiler.html)
+<a id="advanced-level"></a>
+##### <a href="#-">`^`</a> Advanced Level #####
+<details>
+  <summary>Click to expand</summary>
+
+  * [Advanced metaprogramming in C][18-1]
+  * [Quick tutorial on implementing and debugging malloc, free, calloc, and realloc][18-2]
+  * [Bit twiddling hacks][18-3]
+  * [I do not know C][18-4]
+  * [Implementing smart pointers for the C programming language][18-5]
+  * [Inline functions in C][18-6]
+  * [Metaprogramming custom control structures in C][18-7]
+  * [Some dark corners of C][18-8] (Presentation)
+  * [Writing efficient C and C code optimization][18-9]
+  * [What every programmer should know about memory][18-10] (PDF)
+  * [Learn libuv][18-11]
+  * [Let's build a compiler][18-12]
+  * [Write a compiler][18-13]
+
+  [18-1]: http://250bpm.com/blog:56
+  [18-2]: http://danluu.com/malloc-tutorial/
+  [18-3]: https://graphics.stanford.edu/~seander/bithacks.html
+  [18-4]: https://kukuruku.co/post/i-do-not-know-c/
+  [18-5]: https://snai.pe/c/c-smart-pointers/
+  [18-6]: http://www.greenend.org.uk/rjk/tech/inline.html
+  [18-7]: https://www.chiark.greenend.org.uk/~sgtatham/mp/
+  [18-8]: https://docs.google.com/presentation/d/1h49gY3TSiayLMXYmRMaAEMl05FaJ-Z6jDOWOz3EsqqQ/edit?pli=1#slide=id.gaf50702c_0153
+  [18-9]: https://www.codeproject.com/articles/6154/writing-efficient-c-and-c-code-optimization
+  [18-10]: https://www.akkadia.org/drepper/cpumemory.pdf
+  [18-11]: http://thlorenz.com/learnuv/book/
+  [18-12]: https://compilers.iecc.com/crenshaw/
+  [18-13]: https://norasandler.com/2017/11/29/Write-a-Compiler.html
+</details>
 
 #### Code Examples ####
 ##### Operating Systems #####
