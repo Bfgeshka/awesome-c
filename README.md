@@ -611,7 +611,6 @@ Incorporated lists:
   * [Let Us C][13-6]
   * [C Programming FAQs: Frequently Asked Questions][13-7]
   * [OpenGL SuperBible][13-8]
-  * [C Programming Wikibook][13-9] - Actually touches topics for all levels.
 
   [13-1]: http://shop.oreilly.com/product/0636920033677.do
   [13-2]: http://shop.oreilly.com/product/0636920028000.do
@@ -621,7 +620,6 @@ Incorporated lists:
   [13-6]: https://www.goodreads.com/book/show/2522685.Let_Us_C
   [13-7]: https://www.goodreads.com/book/show/528549.C_Programming_FAQs
   [13-8]: http://www.openglsuperbible.com
-  [13-9]: https://en.wikibooks.org/wiki/C_Programming
 
   ##### Advanced Books #####
   * [Expert C Programming: Deep C Secrets][14-1] - Interesting, in-depth and
@@ -655,23 +653,31 @@ Incorporated lists:
   [15-4]: https://github.com/rxin/db-benchmarks
 </details>
 
-##### Beginner Level #####
-* [A tutorial on pointers][455]
-* [A tutorial on portable Makefiles][456]
-* [Building C Projects][457]
-* [Introduction to \`fun' C][459]
-* [Learning C with GDB][460]
-* [POSIX Threads Programming tutorial][462]
-* [Templating in C][464]
-* [Tutorial on pointers](http://home.netcom.com/~tjensen/ptr/pointers.htm)
-* [Building C Projects](http://nethack4.org/blog/building-c.html)
-* [C Programming Wikibook](https://en.wikibooks.org/wiki/C_Programming)
-* [Introduction to 'fun' C](https://gist.github.com/eatonphil/21b3d6569f24ad164365)
-* [Learning C with GDB](https://www.recurse.com/blog/5-learning-c-with-gdb)
-* [POSIX Threads Programming tutorial](https://computing.llnl.gov/tutorials/pthreads/) (a little dated, but most of it is still valid and useful)
-* [The GNU C Programming Tutorial](http://www.crasseux.com/books/ctut.pdf) (online PDF)
-* [Templating in C](http://blog.pkh.me/p/20-templating-in-c.html)
-* [Akagi201/learning-cmake](https://github.com/Akagi201/learning-cmake) - learning cmake
+<a id="beginner-level"></a>
+##### <a href="#-">`^`</a> Beginner Level #####
+<details>
+  <summary>Click to expand</summary>
+
+  * [A tutorial on pointers][16-1]
+  * [A tutorial on portable Makefiles][16-2]
+  * [Building C Projects][16-3]
+  * [Introduction to \`fun' C][16-4]
+  * [Learning C with GDB][16-5]
+  * [Tutorial on pointers][16-6]
+  * [C Programming Wikibook][16-7]
+  * [POSIX Threads Programming tutorial][16-8]
+  * [Templating in C][16-9]
+
+  [16-1]: https://pdos.csail.mit.edu/6.828/2017/readings/pointers.pdf
+  [16-2]: http://nullprogram.com/blog/2017/08/20/
+  [16-3]: http://nethack4.org/blog/building-c.html
+  [16-4]: https://gist.github.com/eatonphil/21b3d6569f24ad164365
+  [16-5]: https://www.recurse.com/blog/5-learning-c-with-gdb
+  [16-6]: http://home.netcom.com/~tjensen/ptr/pointers.htm
+  [16-7]: https://en.wikibooks.org/wiki/C_Programming
+  [16-8]: https://computing.llnl.gov/tutorials/pthreads/
+  [16-9]: http://blog.pkh.me/p/20-templating-in-c.html
+</details>
 
 ##### Intermediate Level #####
 * [memcpy vs memmove][461]
@@ -702,6 +708,7 @@ Incorporated lists:
 * [OpenGL Book](http://openglbook.com/)
 * [Autotools Tutorial][https://www.lrde.epita.fr/~adl/dl/autotools.pdf] - A tutorial for autotools which show how to build portable C program (Online PDF).
 * [C FAQ - comp.lang.c Frequently Asked Questions](http://c-faq.com/)
+* [Akagi201/learning-cmake](https://github.com/Akagi201/learning-cmake) - learning cmake
 
 ##### Advanced Level #####
 * [Advanced metaprogramming in C][477]
@@ -2685,12 +2692,7 @@ Comprehensive and integrated solutions for building web application in C.
 [464]: http://blog.pkh.me/p/20-templating-in-c.html
 [462]: https://computing.llnl.gov/tutorials/pthreads/
 [461]: https://web.archive.org/web/20170620131430/https://www.tedunangst.com/flak/post/memcpy-vs-memmove
-[460]: https://www.recurse.com/blog/5-learning-c-with-gdb
-[459]: https://gist.github.com/eatonphil/21b3d6569f24ad164365
 
-[457]: http://nethack4.org/blog/building-c.html
-[456]: http://nullprogram.com/blog/2017/08/20/
-[455]: https://pdos.csail.mit.edu/6.828/2017/readings/pointers.pdf
 [452]: http://c-faq.com/
 
 [440]: https://github.com/alanxz/rabbitmq-c
