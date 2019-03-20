@@ -577,61 +577,67 @@ Incorporated lists:
 </details>
 
 ### Reading Material ###
-#### Books ####
-##### Reference Books #####
-* [C in a Nushell 2E][11-1] - Concise reference book for C11.
-* [C Pocket Reference][11-2] - Concise reference book for C99.
-* [C: A Reference Manual 5E][11-3] - Full reference book for C99.
-* [SEI CERT C Coding Standard][11-4] - Coding  recommendations from CERT.
-* [The C Programming Language 2E][11-5] - Original book on C, by its creators.
 
-[11-1]: http://shop.oreilly.com/product/0636920033844.do
-[11-2]: http://shop.oreilly.com/product/9780596004361.do
-[11-3]: http://careferencemanual.com/
-[11-4]: https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard
-[11-5]: https://en.wikipedia.org/wiki/The_C_Programming_Language
+<a id="books"></a>
+#### <a href="#-">`^`</a> Books ####
+<details>
+  <summary>Click to expand</summary>
 
-##### Beginner Books #####
-* [C Primer Plus 6E][12-1] - Complete tutorial on programming in C11.
-* [C Programming: A Modern Approach][12-2] - Book to learn the basics of C.
-* [Head First C][12-3] - 'Head-first' style book for learning C.
-* [The GNU C Programming Tutorial][12-4] - Beware, GNU C is not standart C.
-* [careermonk/DataStructuresAndAlgorithmsMadeEasy](https://github.com/careermonk/DataStructuresAndAlgorithmsMadeEasy) - Data Structures And Algorithms Made Easy
+  ##### Reference Books #####
+  * [C in a Nushell 2E][11-1] - Concise reference book for C11.
+  * [C Pocket Reference][11-2] - Concise reference book for C99.
+  * [C: A Reference Manual 5E][11-3] - Full reference book for C99.
+  * [SEI CERT C Coding Standard][11-4] - Coding  recommendations from CERT.
+  * [The C Programming Language 2E][11-5] - Original book on C, by its creators.
 
-[12-1]: https://www.pearson.com/us/higher-education/program/Prata-C-Primer-Plus-6th-Edition/PGM4399.html
-[12-2]: http://knking.com/books/c2/index.html
-[12-3]: http://shop.oreilly.com/product/0636920015482.do
-[12-4]: http://www.crasseux.com/books/ctut.pdf
+  [11-1]: http://shop.oreilly.com/product/0636920033844.do
+  [11-2]: http://shop.oreilly.com/product/9780596004361.do
+  [11-3]: http://careferencemanual.com/
+  [11-4]: https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard
+  [11-5]: https://en.wikipedia.org/wiki/The_C_Programming_Language
 
-##### Intermediate Books #####
-* [21st Century C][13-1] - Programming book on C that touches tooling subject.
-* [Understanding and Using C Pointers][13-2] - In-depth book on pointers in C.
-* [Algorithms in C, Parts 1-4: Fundamentals, Data Structures, Sorting, Searching][13-3]
-* [C Interfaces and Implementations: Techniques for Creating Reusable Software][13-4]
-* [The Standard C Library][13-5]
-* [Let Us C][13-6]
-* [C Programming FAQs: Frequently Asked Questions][13-7]
-* [OpenGL SuperBible](http://www.openglsuperbible.com/)
+  ##### Beginner Books #####
+  * [C Primer Plus 6E][12-1] - Complete tutorial on programming in C11.
+  * [C Programming: A Modern Approach][12-2] - Book to learn the basics of C.
+  * [Head First C][12-3] - 'Head-first' style book for learning C.
+  * [The GNU C Programming Tutorial][12-4] - Beware, GNU C is not standart C.
+  * [careermonk/DataStructuresAndAlgorithmsMadeEasy](https://github.com/careermonk/DataStructuresAndAlgorithmsMadeEasy) - Data Structures And Algorithms Made Easy
 
-[13-1]: http://shop.oreilly.com/product/0636920033677.do
-[13-2]: http://shop.oreilly.com/product/0636920028000.do
-[13-3]: https://www.goodreads.com/book/show/27862.Algorithms_in_C_Parts_1_4
-[13-4]: https://www.goodreads.com/book/show/475432.C_Interfaces_and_Implementations
-[13-5]: https://www.goodreads.com/book/show/522100.The_Standard_C_Library
-[13-6]: https://www.goodreads.com/book/show/2522685.Let_Us_C
-[13-7]: https://www.goodreads.com/book/show/528549.C_Programming_FAQs
+  [12-1]: https://www.pearson.com/us/higher-education/program/Prata-C-Primer-Plus-6th-Edition/PGM4399.html
+  [12-2]: http://knking.com/books/c2/index.html
+  [12-3]: http://shop.oreilly.com/product/0636920015482.do
+  [12-4]: http://www.crasseux.com/books/ctut.pdf
 
-##### Advanced Books #####
-* [Expert C Programming: Deep C Secrets][14-1] - Interesting, in-depth and
+  ##### Intermediate Books #####
+  * [21st Century C][13-1] - Programming book on C that touches tooling subject.
+  * [Understanding and Using C Pointers][13-2] - In-depth book on pointers in C.
+  * [Algorithms in C, Parts 1-4: Fundamentals, Data Structures, Sorting, Searching][13-3]
+  * [C Interfaces and Implementations: Techniques for Creating Reusable Software][13-4]
+  * [The Standard C Library][13-5]
+  * [Let Us C][13-6]
+  * [C Programming FAQs: Frequently Asked Questions][13-7]
+  * [OpenGL SuperBible](http://www.openglsuperbible.com/)
+
+  [13-1]: http://shop.oreilly.com/product/0636920033677.do
+  [13-2]: http://shop.oreilly.com/product/0636920028000.do
+  [13-3]: https://www.goodreads.com/book/show/27862.Algorithms_in_C_Parts_1_4
+  [13-4]: https://www.goodreads.com/book/show/475432.C_Interfaces_and_Implementations
+  [13-5]: https://www.goodreads.com/book/show/522100.The_Standard_C_Library
+  [13-6]: https://www.goodreads.com/book/show/2522685.Let_Us_C
+  [13-7]: https://www.goodreads.com/book/show/528549.C_Programming_FAQs
+
+  ##### Advanced Books #####
+  * [Expert C Programming: Deep C Secrets][14-1] - Interesting, in-depth and
   entertaining look at the innards of C.
-* [C Programming Wikibook][14-2] - Actually touches topics for all levels.
-* [Pointers on C][14-3]
-* [The C Puzzle Book][14-4]
+  * [C Programming Wikibook][14-2] - Actually touches topics for all levels.
+  * [Pointers on C][14-3]
+  * [The C Puzzle Book][14-4]
 
-[14-1]: https://dl.acm.org/citation.cfm?id=179241
-[14-2]: https://en.wikibooks.org/wiki/C_Programming
-[14-3]: https://www.goodreads.com/book/show/526293.Pointers_on_C
-[14-4]: https://www.goodreads.com/book/show/811303.The_C_Puzzle_Book
+  [14-1]: https://dl.acm.org/citation.cfm?id=179241
+  [14-2]: https://en.wikibooks.org/wiki/C_Programming
+  [14-3]: https://www.goodreads.com/book/show/526293.Pointers_on_C
+  [14-4]: https://www.goodreads.com/book/show/811303.The_C_Puzzle_Book
+</details>
 
 #### Articles and Other Resources ####
 ##### Reference #####
