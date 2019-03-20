@@ -426,32 +426,48 @@ Incorporated lists:
   [8-8]: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/COPYING
 </details>
 
-#### Text Editor Extensions ####
-* [CCompletion][9-1] - Notepad++ autocompletion plugin. Works with all
-  identifiers recognized by Ctags. This is a download link. [``GPL-2.0-or-later``][GPL-2.0-or-later]
-* [CEDET][9-2] - Collection of Emacs Development Environment Tools; designed to
-  provide IDE-like features to Emacs. Built-in. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [Flycheck][9-3] - Modern syntax checking for Emacs. For C, it can use either
-  GCC or Clang as a back-end. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [linter-clang][9-4] - Lint C code in Atom, using Clang. [``MIT``][MIT]
-* [linter-gcc][9-5] - Lint C code in Atom, using GCC. [``MIT``][MIT]
-* [Neomake][9-6] - Async :make and linting framework for Neovim/Vim. [``MIT``][MIT]
-* [Syntastic][9-7] - Syntax checking and linting for Vim. [``WTFPL``][WTFPL]
-* [YASnippet][9-8] - Emacs code template system, with C templates for common
-  snippets. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [YouCompleteMe][9-9] - Code completion engine for Vim. [``GPL-3.0-only``][GPL-3.0-only]
-* [lvzixun/Clang-Complete](https://github.com/lvzixun/Clang-Complete) - a auto complete plugin for sublimetext3
-* [editorconfig/editorconfig-core-c](https://github.com/editorconfig/editorconfig-core-c) - EditorConfig core library written in C (for use by plugins supporting EditorConfig parsing)
+<a id="text-editor-extensions"></a>
+#### <a href="#-">`^`</a> Text Editor Extensions ####
+<details>
+  <summary>Click to expand</summary>
 
-[9-1]: http://freeweb.siol.net/rmihor/NppCCompletionPlugin.zip
-[9-2]: http://cedet.sourceforge.net/
-[9-3]: https://github.com/flycheck/flycheck
-[9-4]: https://github.com/AtomLinter/linter-clang
-[9-5]: https://github.com/hebaishi/linter-gcc
-[9-6]: https://github.com/neomake/neomake
-[9-7]: https://github.com/vim-syntastic/syntastic
-[9-8]: http://joaotavora.github.io/yasnippet/
-[9-9]: http://valloric.github.io/YouCompleteMe/
+  * [CCompletion][9-1] - Notepad++ autocompletion plugin. Works with all
+  identifiers recognized by Ctags. This is a download link. [`GPL 2`]
+  * [CEDET][9-2] - Collection of Emacs Development Environment Tools; designed
+  to provide IDE-like features to Emacs. Built-in. [`GPL 2`][9-10]
+  * [lvzixun/Clang-Complete][9-13] - an autocomplete plugin for sublimetext3. [`No license`]
+  * [editorconfig-core-c][9-14] - EditorConfig core library written in C (for
+  use by plugins supporting EditorConfig parsing). [`License`][9-15]
+  * [Flycheck][9-3] - Modern syntax checking for Emacs. For C, it can use either
+  GCC or Clang as a back-end. [`GPL 3`][9-11]
+  * [AtomLinter/linter-clang][9-4] - Lint C code in Atom, using Clang. [`No license`]
+  * [hebaishi/linter-gcc][9-5] - Lint C code in Atom, using GCC. [`MIT`][9-12]
+  * [Neomake][9-6] - make and linting framework for Neovim/Vim. [`MIT`][9-16]
+  * [Syntastic][9-7] - Syntax checking and linting for Vim. [`WTFPL`][9-17]
+  * [YASnippet][9-8] - Emacs code template system, with C templates for common
+  snippets. [`EPLA`][9-18]
+  * [YouCompleteMe][9-9] - Code completion engine for Vim. [`GPL 3`][9-19]
+
+  [9-1]: http://freeweb.siol.net/rmihor/NppCCompletionPlugin.zip
+  [9-2]: http://cedet.sourceforge.net/
+  [9-3]: https://github.com/flycheck/flycheck
+  [9-4]: https://github.com/AtomLinter/linter-clang
+  [9-5]: https://github.com/hebaishi/linter-gcc
+  [9-6]: https://github.com/neomake/neomake
+  [9-7]: https://github.com/vim-syntastic/syntastic
+  [9-8]: http://joaotavora.github.io/yasnippet/
+  [9-9]: http://valloric.github.io/YouCompleteMe/
+  [9-10]: https://sourceforge.net/projects/cedet/
+  [9-11]: https://github.com/flycheck/flycheck/blob/master/COPYING
+  [9-12]: https://github.com/hebaishi/linter-gcc/blob/master/LICENSE.md
+  [9-13]: https://github.com/lvzixun/Clang-Complete
+  [9-14]: https://github.com/editorconfig/editorconfig-core-c
+  [9-15]: https://github.com/editorconfig/editorconfig-core-c/blob/master/LICENSE
+  [9-16]: https://github.com/neomake/neomake/blob/master/LICENSE
+  [9-17]: https://github.com/vim-syntastic/syntastic/blob/master/LICENCE
+  [9-18]: https://github.com/joaotavora/yasnippet/blob/master/CONTRIBUTING.md
+  [9-19]: https://github.com/Valloric/YouCompleteMe/blob/master/COPYING.txt
+</details>
 
 #### Utilities ####
 * [Artistic Style][10-4] - Fast and small automatic source code formatter that
