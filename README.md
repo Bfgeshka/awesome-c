@@ -40,7 +40,6 @@ Incorporated lists:
 	* [Reading material](#reading-material)
 		* [Books](#books)
 		* [Articles and Other Resources](#articles-and-other-resources)
-			* [Reference](#reference)
 			* [Benchmarks](#benchmarks)
 			* [Beginner Level](#beginner-level)
 			* [Intermediate Level](#intermediate-level)
@@ -637,15 +636,24 @@ Incorporated lists:
 </details>
 
 #### Articles and Other Resources ####
-##### Reference #####
-* [C FAQ - comp.lang.c Frequently Asked Questions](http://c-faq.com/)
 
-##### Benchmarks #####
-* [Benchmarks of the Lockless Memory Allocator][451]
-* [Comparison of C/POSIX standard library implementations for Linux][453]
-* [Finding the best 64-bit simulation PRNG][454]
-* [robmccoll/graphdb-testing](https://github.com/robmccoll/graphdb-testing) - Benchmarking various graph databases, engines, datastructures, and data stores.
-* [rxin/db-benchmarks](https://github.com/rxin/db-benchmarks) - Collection of some database benchmarks, along with tools to parallelize the data generation.
+<a id="benchmarks"></a>
+##### <a href="#-">`^`</a> Benchmarks #####
+<details>
+  <summary>Click to expand</summary>
+
+  * [Benchmarks of the Lockless Memory Allocator][15-1]
+  * [Comparison of C/POSIX standard library implementations for Linux][15-2] - A
+  bit outdated, but shows overall tendencies
+  * [Finding the best 64-bit simulation PRNG][15-3]
+  * [rxin/db-benchmarks][15-4] - Collection of some database benchmarks, along
+  with tools to parallelize the data generation.
+
+  [15-1]: https://locklessinc.com/benchmarks_allocator.shtml
+  [15-2]: http://www.etalabs.net/compare_libcs.html
+  [15-3]: http://nullprogram.com/blog/2017/09/21/
+  [15-4]: https://github.com/rxin/db-benchmarks
+</details>
 
 ##### Beginner Level #####
 * [A tutorial on pointers][455]
@@ -693,6 +701,7 @@ Incorporated lists:
 * [arjun024/hide-data-in-ptr](https://github.com/arjun024/hide-data-in-ptr) - how to hide data inside pointers
 * [OpenGL Book](http://openglbook.com/)
 * [Autotools Tutorial][https://www.lrde.epita.fr/~adl/dl/autotools.pdf] - A tutorial for autotools which show how to build portable C program (Online PDF).
+* [C FAQ - comp.lang.c Frequently Asked Questions](http://c-faq.com/)
 
 ##### Advanced Level #####
 * [Advanced metaprogramming in C][477]
@@ -2682,10 +2691,7 @@ Comprehensive and integrated solutions for building web application in C.
 [457]: http://nethack4.org/blog/building-c.html
 [456]: http://nullprogram.com/blog/2017/08/20/
 [455]: https://pdos.csail.mit.edu/6.828/2017/readings/pointers.pdf
-[454]: http://nullprogram.com/blog/2017/09/21/
-[453]: http://www.etalabs.net/compare_libcs.html
 [452]: http://c-faq.com/
-[451]: https://locklessinc.com/benchmarks_allocator.shtml
 
 [440]: https://github.com/alanxz/rabbitmq-c
 [439]: https://github.com/dertuxmalwieder/libvldmail
