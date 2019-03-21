@@ -45,6 +45,7 @@ Incorporated lists:
 			* [Intermediate Level](#intermediate-level)
 			* [Advanced Level](#advanced-level)
 		* [Code Examples](#code-examples)
+			* [Operating Systems](#operating-systems)
 		* [Courses](#courses)
 
 --------------------------------------------------------------------------------
@@ -762,24 +763,48 @@ Incorporated lists:
 </details>
 
 #### Code Examples ####
-##### Operating Systems #####
-* [0intro/plan9](https://github.com/0intro/plan9) - Plan 9 from Bell Labs
-* [ChibiOS/ChibiOS](https://github.com/ChibiOS/ChibiOS) - Read only mirror of SVN ChibiOS repository. Official forum http://forum.chibios.org  Bugtracker http://sourceforge.net/projects/chibios
-* [EtchedPixels/FUZIX](https://github.com/EtchedPixels/FUZIX) - FuzixOS: Because Small Is Beautiful
-* [Harvey-OS/harvey](https://github.com/Harvey-OS/harvey) - A distributed operating system
-* [SilverRainZ/OS67](https://github.com/SilverRainZ/OS67) - An unix-like toy kernel.
-* [RIOT-OS/RIOT](https://github.com/RIOT-OS/RIOT) - RIOT -  The friendly OS for IoT
-* [arjun024/mkernel](https://github.com/arjun024/mkernel) - a minimalistic kernel
-* [brho/plan9](https://github.com/brho/plan9) - UC Berkeley release of Plan 9 under the GPLv2
-* [minix3/minix](https://github.com/minix3/minix) - MINIX 3 (mirror)
-* [guilleiguaran/xv6](https://github.com/guilleiguaran/xv6) - mirror of the source code of the Xv6 operating system
-* [raphydaphy/Q-Operating-System](https://github.com/raphydaphy/Q-Operating-System) - Q OS is a versatile operating system designed with the new features of 64 bit "long mode" CPU's in mind that focuses on making everything as simple as possible for the end user
-* [seL4/seL4](https://github.com/seL4/seL4) - The seL4 microkernel
-* [klange/toaruos](https://github.com/klange/toaruos) - A completely-from-scratch hobby operating system: bootloader, kernel, drivers, C library, and userspace including a composited graphical UI, dynamic linker, syntax-highlighting text editor, network stack, etc.
-* [nickbjohnson4224/rhombus](https://github.com/nickbjohnson4224/rhombus) - a hobby operating system written in C
-* [rswier/swieros](https://github.com/rswier/swieros) - A tiny hand crafted CPU emulator, C compiler, and Operating System
-* [jbangert/trapcc](https://github.com/jbangert/trapcc) - Computing with traps
-* [mbedmicro/mbed](https://github.com/ARMmbed/mbed-os) - OS for Arm IoT
+
+<a id="operating-systems"></a>
+##### <a href="#-">`^`</a> Operating Systems #####
+<details>
+  <summary>Click to expand</summary>
+
+  * [Plan 9][19-1] - OS from Bell Labs.
+  * [ChibiOS][19-2] - RTOS with development environment.
+  * [EtchedPixels/FUZIX][19-3] - Superior rehaul of UZI.
+  * [Harvey-OS/harvey][19-4] - An OS based on Plan 9.
+  * [SilverRainZ/OS67][19-5] - An Unix-like toy kernel.
+  * [RIOT-OS/RIOT][19-6] - OS for IoT.
+  * [arjun024/mkernel][19-7] - Very basic kernel.
+  * [Stichting-MINIX-Research-Foundation/minix][19-8] - MINIX3.
+  * [guilleiguaran/xv6][19-9] - Mirror for Xv6 operating system.
+  * [raphydaphy/Q-Operating-System][19-10] - Ambitious and abandoned OS designed
+  for 64-bit CPUs.
+  * [seL4/seL4][19-11] - Microkernel aimed to be secure and correct.
+  * [klange/toaruos][19-12] - Desktop OS with userspace, written from scratch.
+  * [nickbjohnson4224/rhombus][19-13] - OS with libc and some drivers ready.
+  * [rswier/swieros][19-14] - Kernel, compiler and userland.
+  * [jbangert/trapcc][19-15] - Example of using Intel instruction execution
+  gimick.
+  * [mbedmicro/mbed][19-16] - OS for ARM Cortex-M.
+
+  [19-1]: https://9p.io/plan9/index.html
+  [19-2]: https://github.com/ChibiOS/ChibiOS
+  [19-3]: https://github.com/EtchedPixels/FUZIX
+  [19-4]: https://github.com/Harvey-OS/harvey
+  [19-5]: https://github.com/SilverRainZ/OS67
+  [19-6]: https://github.com/RIOT-OS/RIOT
+  [19-7]: https://github.com/arjun024/mkernel
+  [19-8]: https://github.com/Stichting-MINIX-Research-Foundation/minix
+  [19-9]: https://github.com/guilleiguaran/xv6
+  [19-10]: https://github.com/raphydaphy/Q-Operating-System
+  [19-11]: https://github.com/seL4/seL4
+  [19-12]: https://github.com/klange/toaruos
+  [19-13]: https://github.com/nickbjohnson4224/rhombus
+  [19-14]: https://github.com/rswier/swieros
+  [19-15]: https://github.com/jbangert/trapcc
+  [19-16]: https://github.com/ARMmbed/mbed-os
+</details>
 
 ##### Emulators, VMs #####
 * [CTurt/Cinoop](https://github.com/CTurt/Cinoop) - Multiplatform Game Boy emulator
@@ -1453,6 +1478,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [xant/libhl](https://github.com/xant/libhl) - Simple and fast C library implementing a thread-safe API to manage hash-tables, linked lists, lock-free ring buffers and queues
 * [yuyuyu101/C-Buffered-tree](https://github.com/yuyuyu101/C-Buffered-tree) - A buffered-tree implemented in dictionary type and more
 * [MagerValp/AsmHeap](https://github.com/MagerValp/AsmHeap) - Heap data structure in 6502 assembler
+* [Snaipe/libcsptr](https://github.com/Snaipe/libcsptr) - Smart pointers in C
 
 ## Events ##
 * [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
