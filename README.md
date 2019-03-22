@@ -1776,6 +1776,8 @@ Engines, libraries and other helpful things specifically for making games.
 * [angband/angband](https://github.com/angband/angband) - A free, single-player roguelike dungeon exploration game
 * [nesbox/tic.computer](https://github.com/nesbox/tic.computer) - 🐛 Public TIC-80 issues tracker
 * [Craft](https://github.com/fogleman/Craft) - minecraft clone writen in C
+* [littlewolf](https://github.com/glouw/littlewolf) - The tiny software graphics and game engine
+* [q2vkpt](https://github.com/cschied/q2vkpt) - Real-time path tracer VKPT integrated into q2pro Quake 2 client.
 
 ## Geography ##
 Geodata, street maps, navigation and so on
@@ -2406,6 +2408,7 @@ Audio and video processing
 * [mptre/pick](https://github.com/mptre/pick) - A fuzzy search tool for the command-line
 * [openresty/sregex](https://github.com/openresty/sregex) - A non-backtracking NFA/DFA-based Perl-compatible regex engine matching on large data streams
 * [plusvic/yara](https://github.com/plusvic/yara) - The pattern matching swiss knife
+* [tinyexpr](https://github.com/codeplea/tinyexpr) - tiny recursive descent expression parser, compiler, and evaluation engine for math expressions
 
 ## Serialization ##
 * [binn][280] - Binary serialization format, meant to be compact, fast and
