@@ -952,6 +952,7 @@ Neural nets, machine learning, and other similar things.
 * [xiph/rnnoise](https://github.com/xiph/rnnoise) - Recurrent neural network for audio noise reduction
 * [yusugomori/DeepLearning](https://github.com/yusugomori/DeepLearning) - Deep Learning (Python, C/C++, Java, Scala, Go)
 * [Genann](https://github.com/codeplea/genann) - neural network library in ANSI C
+* [pjreddie/darknet](https://github.com/pjreddie/darknet) - neural networks.
 
 ## Algoritm Implementations ##
 * [sort][434] - Collection of sorting routines, which type-specialize at
@@ -1096,6 +1097,7 @@ Neural nets, machine learning, and other similar things.
 * [karrenberg/wfvopencl](https://github.com/karrenberg/wfvopencl) - IMPORTANT NOTICE: This implementation is long outdated. The latest wfvopencl will be made publicly available with the new libwfv implementation. WFVOpenCL is an OpenCL driver for CPUs on the basis of LLVM. This driver employs Whole-Function Vectorization (WFV) in addition to multi-threading to fully exploit the available data-parallelism by executing as many kernel instances in parallel as possible.
 * [libtom/libtommath](https://github.com/libtom/libtommath) - LibTomMath is a free open source portable number theoretic multiple-precision integer library written entirely in C.
 * [libtom/tomsfastmath](https://github.com/libtom/tomsfastmath) - TomsFastMath is a fast public domain, open source, large integer arithmetic library written in portable ISO C.
+* [PetteriAimonen/libfixmatrix](https://github.com/PetteriAimonen/libfixmatrix) - C library for fixed point matrix, quaternion and vector calculations.
 
 ## Compression ##
 * [blosc][25] - Fast, multi-threaded, meta-compressor library. Various licenses,
@@ -1778,6 +1780,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [Craft](https://github.com/fogleman/Craft) - minecraft clone writen in C
 * [littlewolf](https://github.com/glouw/littlewolf) - The tiny software graphics and game engine
 * [q2vkpt](https://github.com/cschied/q2vkpt) - Real-time path tracer VKPT integrated into q2pro Quake 2 client.
+* [id-Software/Quake-2](https://github.com/id-Software/Quake-2) - Quake 2.
 
 ## Geography ##
 Geodata, street maps, navigation and so on
@@ -2590,6 +2593,7 @@ Implementations of the C standarts
 * [josephg/librope](https://github.com/josephg/librope) - UTF-8 rope library for C
 * [sheredom/utf8.h](https://github.com/sheredom/utf8.h) - single header utf8 string functions for C and C++
 * [sds](https://github.com/antirez/sds) - dynamic strings library
+* [branchless-utf8](https://github.com/skeeto/branchless-utf8) - Branchless UTF-8 decoder
 
 ## Testing ##
 * [CHEAT][340] - Simple unit testing framework. [``BSD-2-Clause``][BSD-2-Clause]
