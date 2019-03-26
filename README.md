@@ -113,7 +113,7 @@ Incorporated lists:
 <a id="standarts"/></a>
 ### <a href="#-">`^`</a> Standarts ###
 <details>
-  <summary>v        Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
 
   * [Draft C89 standard][1-1]
   * [Draft C99 standard][1-2]
@@ -131,7 +131,7 @@ Incorporated lists:
 <a id="build-systems"></a>
 #### <a href="#-">`^`</a> Build Systems ####
 <details>
-  <summary>v        Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
 
   * [aimake][2-1] - Build tool designed to avoid complex configurations. [`GPL 3`][2-21]
   * [Autoconf][2-2] - Extensible package of M4 macros that produce shell scripts
