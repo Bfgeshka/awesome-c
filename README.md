@@ -46,6 +46,7 @@ Incorporated lists:
 			* [Advanced Level](#advanced-level)
 		* [Code Examples](#code-examples)
 			* [Operating Systems](#operating-systems)
+			* [Emulators and VMs](#emulators-vms)
 		* [Courses](#courses)
 
 --------------------------------------------------------------------------------
@@ -806,22 +807,46 @@ Incorporated lists:
   [19-16]: https://github.com/ARMmbed/mbed-os
 </details>
 
-##### Emulators, VMs #####
-* [CTurt/Cinoop](https://github.com/CTurt/Cinoop) - Multiplatform Game Boy emulator
-* [LIJI32/SameBoy](https://github.com/LIJI32/SameBoy) - Game Boy and Game Boy Color emulator written in C
-* [MoarVM/MoarVM](https://github.com/MoarVM/MoarVM) - A VM with adaptive optimization and JIT compilation, built for Rakudo Perl 6
-* [felixangell/mac](https://github.com/felixangell/mac) - virtual machine in c
-* [jakogut/tinyvm](https://github.com/jakogut/tinyvm) - TinyVM is a small, fast, lightweight virtual machine written in pure ANSI C.
-* [rsms/sol](https://github.com/rsms/sol) - A sunny little virtual machine
-* [tj90241/cen64](https://github.com/tj90241/cen64) - Cycle-Accurate Nintendo 64 Emulator
-* [mgba-emu/mgba](https://github.com/mgba-emu/mgba) - mGBA Game Boy Advance Emulator
-* [tekknolagi/carp](https://github.com/tekknolagi/carp) - "interesting" VM in C. Let's see how this goes.
-* [reicast/reicast-emulator](https://github.com/reicast/reicast-emulator) - Reicast is a multiplatform Sega Dreamcast emulator
-* [haldean/x6502](https://github.com/haldean/x6502) - Yet another 6502 emulator that one day dreams of being an Atari 2600.
-* [n64dev/cen64](https://github.com/n64dev/cen64) - Cycle-Accurate Nintendo 64 Emulator
-* [wkoszek/cpu60](https://github.com/wkoszek/cpu60) - Example of CPU simulation in software
-* [swetland/dcpu16](https://github.com/swetland/dcpu16) - Virtual Machine and Assembler for Notch's DCPU-16 Architecture
-* [orbital](https://github.com/AlexAltea/orbital) - PS4 emulator
+<a id="emulators-vms"></a>
+##### <a href="#-">`^`</a> Emulators, VMs #####
+<details>
+  <summary>Click to expand</summary>
+
+#####  #####
+  * [CTurt/Cinoop][20-1] - Multiplatform Game Boy emulator.
+  * [LIJI32/SameBoy][20-2] - Game Boy and Game Boy Color emulator written in C.
+  * [MoarVM][20-3] - A VM with adaptive optimization and JIT compilation, built
+  for Rakudo Perl 6.
+  * [felixangell/mac][20-4] - Virtual machine in c.
+  * [jakogut/tinyvm][20-5] - TinyVM is a small, fast, lightweight virtual
+  machine written in pure ANSI C.
+  * [rsms/sol][20-6] - A sunny little virtual machine.
+  * [mgba][20-7] - mGBA Game Boy Advance Emulator.
+  * [tekknolagi/carp][20-8] - Well documented VM written from scratch.
+  * [reicast/reicast-emulator][20-9] - Multiplatform Sega Dreamcast emulator.
+  * [haldean/x6502][20-10] - 6502 emulator that one day dreams of being an
+  Atari 2600.
+  * [n64dev/cen64][20-11] - Cycle-Accurate Nintendo 64 Emulator.
+  * [wkoszek/cpu60][20-12] - Example of CPU simulation in software.
+  * [swetland/dcpu16][20-13] - Virtual Machine and Assembler for Notch's DCPU-16
+  Architecture.
+  * [AlexAltea/orbital][20-14] - PS4 emulator.
+
+  [20-1]: https://github.com/CTurt/Cinoop
+  [20-2]: https://github.com/LIJI32/SameBoy
+  [20-3]: https://github.com/MoarVM/MoarVM
+  [20-4]: https://github.com/felixangell/mac
+  [20-5]: https://github.com/jakogut/tinyvm
+  [20-6]: https://github.com/rsms/sol
+  [20-7]: https://github.com/mgba-emu/mgba
+  [20-8]: https://github.com/tekknolagi/carp
+  [20-9]: https://github.com/reicast/reicast-emulator
+  [20-10]: https://github.com/haldean/x6502
+  [20-11]: https://github.com/n64dev/cen64
+  [20-12]: https://github.com/wkoszek/cpu60
+  [20-13]: https://github.com/swetland/dcpu16
+  [20-14]: https://github.com/AlexAltea/orbital
+</details>
 
 ##### UI, Windowing, Graphics #####
 * [LemonBoy/bar](https://github.com/LemonBoy/bar) - A featherweight, lemon-scented, bar based on xcb
