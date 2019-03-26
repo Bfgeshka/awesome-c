@@ -206,7 +206,7 @@ Incorporated lists:
 <a id="compilers"></a>
 #### <a href="#-">`^`</a> Compilers ####
 <details>
-  <summary>Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
 
   * [rui314/8cc][3-10] - A Small C Compiler. [`MIT`][3-9]
   * [rui314/9cc][3-12] - A Small C Compiler. [`MIT`][3-11]
@@ -260,7 +260,7 @@ Incorporated lists:
 <a id="debugging-and-analysis"></a>
 #### <a href="#-">`^`</a> Debugging and Analysis ####
 <details>
-  <summary>Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
 
   * [C-Reduce][4-1] - Tool that takes a large C file with a property of interest
   and automatically produces a much smaller C file that has the same property.
@@ -320,7 +320,7 @@ Incorporated lists:
 <a id="documentation-generation"></a>
 #### <a href="#-">`^`</a> Documentation Generation ####
 <details>
-  <summary>Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
 
   * [Cxref][5-1] - Generates documentation in either LaTeX, HTML, RTF or SGML. [`GPL 2`][5-5]
   * [DocOnce][5-2] - Modestly tagged markup language that can be used to
@@ -343,7 +343,7 @@ Incorporated lists:
 <a id="editors"></a>
 #### <a href="#-">`^`</a> Editors ####
 <details>
-  <summary>Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
 
   * [Anjuta DevStudio][6-1] - GNOME IDE. [`GPL 2`][6-12]
   * [Atom][6-3] - Hackable text editor for the 21st century. [`MIT`][6-13]
@@ -380,7 +380,7 @@ Incorporated lists:
 <a id="microsoft-windows-environment"></a>
 #### <a href="#-">`^`</a> Microsoft Windows Environment ####
 <details>
-  <summary>Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
 
   * [Cygwin][7-1] - Designed to emulate a POSIX-compatible environment
   extensively under Windows. [`Licenses`][7-2]
@@ -404,7 +404,7 @@ Incorporated lists:
 <a id="profiling"></a>
 #### <a href="#-">`^`</a> Profiling ####
 <details>
-  <summary>Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
 
   * [gperftools][8-1] - Collection of utilities for measuring and improving
   performance. [`BSD 3-Clause`][8-5]
@@ -426,7 +426,7 @@ Incorporated lists:
 <a id="text-editor-extensions"></a>
 #### <a href="#-">`^`</a> Text Editor Extensions ####
 <details>
-  <summary>Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
 
   * [CCompletion][9-1] - Notepad++ autocompletion plugin. Works with all
   identifiers recognized by Ctags. This is a download link. [`GPL 2`]
@@ -469,7 +469,7 @@ Incorporated lists:
 <a id="utilities"></a>
 #### <a href="#-">`^`</a> Utilities ####
 <details>
-  <summary>Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
 
   * [Artistic Style][10-4] - Fast and small automatic source code formatter that
   supports C. [`MIT`][10-17]
@@ -578,7 +578,7 @@ Incorporated lists:
 <a id="books"></a>
 #### <a href="#-">`^`</a> Books ####
 <details>
-  <summary>Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
 
   ##### Reference Books #####
   * [C in a Nushell 2E][11-1] - Concise reference book for C11.
@@ -640,7 +640,7 @@ Incorporated lists:
 <a id="benchmarks"></a>
 ##### <a href="#-">`^`</a> Benchmarks #####
 <details>
-  <summary>Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
 
   * [Benchmarks of the Lockless Memory Allocator][15-1]
   * [Comparison of C/POSIX standard library implementations for Linux][15-2] - A
@@ -658,7 +658,7 @@ Incorporated lists:
 <a id="beginner-level"></a>
 ##### <a href="#-">`^`</a> Beginner Level #####
 <details>
-  <summary>Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
 
   * [A tutorial on pointers][16-1]
   * [A tutorial on portable Makefiles][16-2]
@@ -684,7 +684,7 @@ Incorporated lists:
 <a id="intermediate-level"></a>
 ##### <a href="#-">`^`</a> Intermediate Level #####
 <details>
-  <summary>Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
 
   * [A comprehensive MPI tutorial resource][17-1]
   * [Diving into concurrency: trying out mutexes and atomics][17-2]
@@ -732,7 +732,7 @@ Incorporated lists:
 <a id="advanced-level"></a>
 ##### <a href="#-">`^`</a> Advanced Level #####
 <details>
-  <summary>Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
 
   * [Advanced metaprogramming in C][18-1]
   * [Quick tutorial on implementing and debugging malloc, free, calloc, and realloc][18-2]
@@ -768,7 +768,7 @@ Incorporated lists:
 <a id="operating-systems"></a>
 ##### <a href="#-">`^`</a> Operating Systems #####
 <details>
-  <summary>Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
 
   * [Plan 9][19-1] - OS from Bell Labs.
   * [ChibiOS][19-2] - RTOS with development environment.
@@ -810,7 +810,7 @@ Incorporated lists:
 <a id="emulators-vms"></a>
 ##### <a href="#-">`^`</a> Emulators, VMs #####
 <details>
-  <summary>Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
 
 #####  #####
   * [CTurt/Cinoop][20-1] - Multiplatform Game Boy emulator.
