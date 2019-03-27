@@ -48,6 +48,7 @@ Incorporated lists:
 			* [Operating Systems](#operating-systems)
 			* [Emulators and VMs](#emulators-vms)
 			* [UI, Windowing and Graphics](#windowing-graphics)
+			* [Language Implementations](#language-implementations)
 		* [Courses](#courses)
 
 --------------------------------------------------------------------------------
@@ -114,7 +115,7 @@ Incorporated lists:
 <a id="standarts"/></a>
 ### <a href="#-">`^`</a> Standarts ###
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Standarts</summary>
 
   * [Draft C89 standard][1-1]
   * [Draft C99 standard][1-2]
@@ -130,9 +131,9 @@ Incorporated lists:
 <a id="tooling"></a>
 ### Tooling ###
 <a id="build-systems"></a>
-#### <a href="#-">`^`</a> Build Systems ####
+#### <a href="#-">`^`</a>  ####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Build Systems</summary>
 
   * [aimake][2-1] - Build tool designed to avoid complex configurations. [`GPL 3`][2-21]
   * [Autoconf][2-2] - Extensible package of M4 macros that produce shell scripts
@@ -207,7 +208,7 @@ Incorporated lists:
 <a id="compilers"></a>
 #### <a href="#-">`^`</a> Compilers ####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Compilers</summary>
 
   * [rui314/8cc][3-10] - A Small C Compiler. [`MIT`][3-9]
   * [rui314/9cc][3-12] - A Small C Compiler. [`MIT`][3-11]
@@ -261,7 +262,7 @@ Incorporated lists:
 <a id="debugging-and-analysis"></a>
 #### <a href="#-">`^`</a> Debugging and Analysis ####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Debugging and Analysis</summary>
 
   * [C-Reduce][4-1] - Tool that takes a large C file with a property of interest
   and automatically produces a much smaller C file that has the same property.
@@ -321,7 +322,7 @@ Incorporated lists:
 <a id="documentation-generation"></a>
 #### <a href="#-">`^`</a> Documentation Generation ####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Documentation Generation</summary>
 
   * [Cxref][5-1] - Generates documentation in either LaTeX, HTML, RTF or SGML. [`GPL 2`][5-5]
   * [DocOnce][5-2] - Modestly tagged markup language that can be used to
@@ -344,7 +345,7 @@ Incorporated lists:
 <a id="editors"></a>
 #### <a href="#-">`^`</a> Editors ####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Editors</summary>
 
   * [Anjuta DevStudio][6-1] - GNOME IDE. [`GPL 2`][6-12]
   * [Atom][6-3] - Hackable text editor for the 21st century. [`MIT`][6-13]
@@ -381,7 +382,7 @@ Incorporated lists:
 <a id="microsoft-windows-environment"></a>
 #### <a href="#-">`^`</a> Microsoft Windows Environment ####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Microsoft Windows Environment</summary>
 
   * [Cygwin][7-1] - Designed to emulate a POSIX-compatible environment
   extensively under Windows. [`Licenses`][7-2]
@@ -405,7 +406,7 @@ Incorporated lists:
 <a id="profiling"></a>
 #### <a href="#-">`^`</a> Profiling ####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Profiling</summary>
 
   * [gperftools][8-1] - Collection of utilities for measuring and improving
   performance. [`BSD 3-Clause`][8-5]
@@ -427,7 +428,7 @@ Incorporated lists:
 <a id="text-editor-extensions"></a>
 #### <a href="#-">`^`</a> Text Editor Extensions ####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Text Editor Extensions</summary>
 
   * [CCompletion][9-1] - Notepad++ autocompletion plugin. Works with all
   identifiers recognized by Ctags. This is a download link. [`GPL 2`]
@@ -470,7 +471,7 @@ Incorporated lists:
 <a id="utilities"></a>
 #### <a href="#-">`^`</a> Utilities ####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Utilities</summary>
 
   * [Artistic Style][10-4] - Fast and small automatic source code formatter that
   supports C. [`MIT`][10-17]
@@ -579,7 +580,7 @@ Incorporated lists:
 <a id="books"></a>
 #### <a href="#-">`^`</a> Books ####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Books</summary>
 
   ##### Reference Books #####
   * [C in a Nushell 2E][11-1] - Concise reference book for C11.
@@ -641,7 +642,7 @@ Incorporated lists:
 <a id="benchmarks"></a>
 ##### <a href="#-">`^`</a> Benchmarks #####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Benchmarks</summary>
 
   * [Benchmarks of the Lockless Memory Allocator][15-1]
   * [Comparison of C/POSIX standard library implementations for Linux][15-2] - A
@@ -659,7 +660,7 @@ Incorporated lists:
 <a id="beginner-level"></a>
 ##### <a href="#-">`^`</a> Beginner Level #####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Beginner Level</summary>
 
   * [A tutorial on pointers][16-1]
   * [A tutorial on portable Makefiles][16-2]
@@ -685,7 +686,7 @@ Incorporated lists:
 <a id="intermediate-level"></a>
 ##### <a href="#-">`^`</a> Intermediate Level #####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Intermediate Level</summary>
 
   * [A comprehensive MPI tutorial resource][17-1]
   * [Diving into concurrency: trying out mutexes and atomics][17-2]
@@ -733,7 +734,7 @@ Incorporated lists:
 <a id="advanced-level"></a>
 ##### <a href="#-">`^`</a> Advanced Level #####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Advanced Level</summary>
 
   * [Advanced metaprogramming in C][18-1]
   * [Quick tutorial on implementing and debugging malloc, free, calloc, and realloc][18-2]
@@ -769,7 +770,7 @@ Incorporated lists:
 <a id="operating-systems"></a>
 ##### <a href="#-">`^`</a> Operating Systems #####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Operating Systems</summary>
 
   * [Plan 9][19-1] - OS from Bell Labs.
   * [ChibiOS][19-2] - RTOS with development environment.
@@ -811,7 +812,7 @@ Incorporated lists:
 <a id="emulators-vms"></a>
 ##### <a href="#-">`^`</a> Emulators, VMs #####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Emulators, VMs</summary>
 
   * [CTurt/Cinoop][20-1] - Multiplatform Game Boy emulator.
   * [LIJI32/SameBoy][20-2] - Game Boy and Game Boy Color emulator written in C.
@@ -851,7 +852,7 @@ Incorporated lists:
 <a id="windowing-graphics"></a>
 ##### <a href="#-">`^`</a> UI, Windowing, Graphics #####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand UI, Windowing, Graphics</summary>
 
   * [LemonBoy/bar][21-1] - A featherweight bar based on xcb.
   * [HarveyHunt/howm][21-2] - A lightweight, X11 tiling window manager that
@@ -880,43 +881,99 @@ Incorporated lists:
   [21-9]: https://github.com/robm/dzen
 </details>
 
-##### Language Implementations #####
-* [Fedjmike/mini-c](https://github.com/Fedjmike/mini-c) - Dr Strangehack, or: how to write a self-hosting C compiler in 10 hours
-* [HuoLanguage/huo](https://github.com/HuoLanguage/huo) - interpreted language written in C
-* [Wilfred/babyc](https://github.com/Wilfred/babyc) - A toy C compiler
-* [dimkr/szl](https://github.com/dimkr/szl) - A lightweight, embeddable scripting language
-* [espruino/Espruino](https://github.com/espruino/Espruino) - The Espruino JavaScript interpreter - Official Repo
-* [fabianishere/brainfuck](https://github.com/fabianishere/brainfuck) - Brainfuck interpreter written in C
-* [feeley/gambit](https://github.com/feeley/gambit) - Gambit is an efficient implementation of the Scheme programming language.
-* [wren-lang/wren](https://github.com/wren-lang/wren) - The Wren Programming Language
-* [cksystemsteaching/selfie](https://github.com/cksystemsteaching/selfie) - An educational software system of a tiny self-compiling C compiler, a tiny self-executing RISC-V emulator, and a tiny self-hosting RISC-V hypervisor.
-* [darius/ichbins](https://github.com/darius/ichbins) - A tiny self-hosting Lisp-to-C compiler
-* [fragglet/yoctolisp](https://github.com/fragglet/yoctolisp) - Tiny Scheme-like Lisp interpreter written in a weekend
-* [marcobambini/gravity](https://github.com/marcobambini/gravity) - Gravity Programming Language
-* [justinmeza/lci](https://github.com/justinmeza/lci) - A LOLCODE interpreter written in C.
-* [lennylxx/leetcode](https://github.com/lennylxx/leetcode) - Pure C solution for LeetCode
-* [mruby/mruby](https://github.com/mruby/mruby) - Lightweight Ruby
-* [stevedekorte/io](https://github.com/stevedekorte/io) - Io programming language
-* [philburk/pforth](https://github.com/philburk/pforth) - Portable Forth in C
-* [carld/micro-lisp](https://github.com/carld/micro-lisp) - 🎄A very small Lisp programming language 😀that used to be under 200 lines of C🎄
-* [kevinlawler/kona](https://github.com/kevinlawler/kona) - Open-source implementation of the K programming language
-* [ndreynolds/flathead](https://github.com/ndreynolds/flathead) - A toy JavaScript interpreter written in C
-* [begeekmyfriend/leetcode](https://github.com/begeekmyfriend/leetcode) - LeetCode in pure C
-* [bl0ckeduser/new-bpf-tools](https://github.com/bl0ckeduser/new-bpf-tools) - subset-of-C compiler targeting 32-bit x86
-* [intellectualheaven/ceed](https://github.com/intellectualheaven/ceed) - A tiny x86 compiler with ELF and PE target
-* [janet-lang/janet](https://github.com/janet-lang/janet) - A dynamic language and bytecode vm
-* [jnz/q3vm](https://github.com/jnz/q3vm) - Q3VM - Embeddable bytecode virtual machine/interpreter for C-language input
-* [tj/luna](https://github.com/tj/luna) - luna programming language - a small, elegant VM implemented in C
-* [rui314/minilisp](https://github.com/rui314/minilisp) - A readable lisp in less than 1k lines of C
-* [rebol/rebol](https://github.com/rebol/rebol) - Source code for the Rebol interpreter
-* [mortdeus/legacy-cc](https://github.com/mortdeus/legacy-cc) - The earliest versions of the very first c compiler known to exist in the wild written by the late legend himself dmr.
-* [paladin-t/my_basic](https://github.com/paladin-t/my_basic) - Lightweight BASIC interpreter written in standard C in dual files. Aimed to be embeddable, extendable and portable.
-* [pikelang/Pike](https://github.com/pikelang/Pike) - Pike is a dynamic programming language with a syntax similar to Java and C. It is simple to learn, does not require long compilation passes and has powerful built-in data types allowing simple and really fast data manipulation.
-* [riolet/rix](https://github.com/riolet/rix) - Rix language combines the power of C language and the convenience of a high level language
-* [kframework/c-semantics](https://github.com/kframework/c-semantics) - Semantics of C in K
-* [lotabout/write-a-C-interpreter](https://github.com/lotabout/write-a-C-interpreter) - Write a simple interpreter of C. Inspired by c4 and largely based on it.
-* [nickdesaulniers/bf_interpreter_jit_compiler](https://github.com/nickdesaulniers/bf_interpreter_jit_compiler) - Teach myself about interpreters, JITs, and compilers using the Brainfuck language as the toy language
-* [skx/simple.vm](https://github.com/skx/simple.vm) - Simple virtual machine which inteprets bytecode.
+<a id="language-implementations"></a>
+##### <a href="#-">`^`</a> Language Implementations #####
+<details>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Language Implementations</summary>
+
+  * [Fedjmike/mini-c][22-1] - Dr Strangehack, or: how to write a self-hosting C
+  compiler in 10 hours.
+  * [HuoLanguage/huo][22-2] - Interpreted language written in C.
+  * [Wilfred/babyc][22-3] - A toy C compiler.
+  * [dimkr/szl][22-4] - A lightweight, embeddable scripting language.
+  * [espruino/Espruino][22-5] - The Espruino JavaScript interpreter.
+  * [fabianishere/brainfuck][22-6] - Brainfuck interpreter written in C.
+  * [feeley/gambit][22-7] - Gambit is an efficient implementation of the Scheme
+  programming language.
+  * [wren-lang/wren][22-8] - The Wren Programming Language.
+  * [cksystemsteaching/selfie][22-9] - An educational software system of a tiny
+  self-compiling C compiler, a tiny self-executing RISC-V emulator, and a tiny
+  self-hosting RISC-V hypervisor.
+  * [darius/ichbins][22-10] - A tiny self-hosting Lisp-to-C compiler.
+  * [fragglet/yoctolisp][22-11] - Tiny Scheme-like Lisp interpreter written in
+  a weekend.
+  * [marcobambini/gravity][22-12] - Gravity Programming Language.
+  * [justinmeza/lci][22-13] - A LOLCODE interpreter written in C.
+  * [mruby/mruby][22-14] - Lightweight Ruby.
+  * [stevedekorte/io][22-15] - Io programming language.
+  * [philburk/pforth][22-16] - Portable Forth in C.
+  * [carld/micro-lisp][22-17] - A very small Lisp programming language that used
+  to be under 200 lines of C.
+  * [kevinlawler/kona][22-18] - Open-source implementation of the K programming
+  language.
+  * [ndreynolds/flathead][22-19] - A toy JavaScript interpreter written in C.
+  * [bl0ckeduser/new-bpf-tools][22-20] - Subset-of-C compiler targeting 32-bit
+  x86.
+  * [intellectualheaven/ceed][22-21] - A tiny x86 compiler with ELF and PE
+  target.
+  * [janet-lang/janet][22-22] - A dynamic language and bytecode vm.
+  * [jnz/q3vm][22-23] - Q3VM - Embeddable bytecode virtual machine/interpreter
+  for C-language input.
+  * [tj/luna][22-24] - luna programming language - a small, elegant VM
+  implemented in C.
+  * [rui314/minilisp][22-25] - A readable lisp in less than 1k lines of C.
+  * [rebol/rebol][22-26] - Source code for the Rebol interpreter.
+  * [mortdeus/legacy-cc][22-27] - The earliest versions of the very first c
+  compiler known to exist in the wild written by the late legend himself dmr.
+  * [paladin-t/my_basic][22-28] - Lightweight BASIC interpreter written in
+  standard C in dual files. Aimed to be embeddable, extendable and portable.
+  * [pikelang/Pike][22-29] - Pike is a dynamic programming language with a
+  syntax similar to Java and C. It is simple to learn, does not require long
+  compilation passes and has powerful built-in data types allowing simple and
+  really fast data manipulation.
+  * [riolet/rix][22-30] - Rix language combines the power of C language and the
+  convenience of a high level language.
+  * [lotabout/write-a-C-interpreter][22-31] - Write a simple interpreter of C.
+  Inspired by c4 and largely based on it.
+  * [nickdesaulniers/bf_interpreter_jit_compiler][22-32] - Teach myself about
+  interpreters, JITs, and compilers using the Brainfuck language as the toy
+  language.
+  * [skx/simple.vm][22-33] - Simple virtual machine which inteprets bytecode.
+
+  [22-1]: https://github.com/Fedjmike/mini-c
+  [22-2]: https://github.com/HuoLanguage/huo
+  [22-3]: https://github.com/Wilfred/babyc
+  [22-4]: https://github.com/dimkr/szl
+  [22-5]: https://github.com/espruino/Espruino
+  [22-6]: https://github.com/fabianishere/brainfuck
+  [22-7]: https://github.com/feeley/gambit
+  [22-8]: https://github.com/wren-lang/wren
+  [22-9]: https://github.com/cksystemsteaching/selfie
+  [22-10]: https://github.com/darius/ichbins
+  [22-11]: https://github.com/fragglet/yoctolisp
+  [22-12]: https://github.com/marcobambini/gravity
+  [22-13]: https://github.com/justinmeza/lci
+  [22-14]: https://github.com/mruby/mruby
+  [22-15]: https://github.com/stevedekorte/io
+  [22-16]: https://github.com/philburk/pforth
+  [22-17]: https://github.com/carld/micro-lisp
+  [22-18]: https://github.com/kevinlawler/kona
+  [22-19]: https://github.com/ndreynolds/flathead
+  [22-20]: https://github.com/bl0ckeduser/new-bpf-tools
+  [22-21]: https://github.com/intellectualheaven/ceed
+  [22-22]: https://github.com/janet-lang/janet
+  [22-23]: https://github.com/jnz/q3vm
+  [22-24]: https://github.com/tj/luna
+  [22-25]: https://github.com/rui314/minilisp
+  [22-26]: https://github.com/rebol/rebol
+  [22-27]: https://github.com/mortdeus/legacy-cc
+  [22-28]: https://github.com/paladin-t/my_basic
+  [22-29]: https://github.com/pikelang/Pike
+  [22-30]: https://github.com/riolet/rix
+  [22-31]: https://github.com/lotabout/write-a-C-interpreter
+  [22-32]: https://github.com/nickdesaulniers/bf_interpreter_jit_compiler
+  [22-33]: https://github.com/skx/simple.vm
+</details>
 
 ##### Challenges #####
 * [trailofbits/cb-multios](https://github.com/trailofbits/cb-multios) - DARPA Challenges Sets for Linux, Windows, and macOS
@@ -928,6 +985,7 @@ Incorporated lists:
 * [CodeWars](https://www.codewars.com)
 * [Codingame](https://www.codingame.com)
 * [/r/DeilyProgrammer](https://old.reddit.com/r/dailyprogrammer/)
+* [leetcode](https://leetcode.com/problemset/algorithms/)
 
 ##### Other Examples #####
 * [MinhasKamal/CreepyCodeCollection](https://github.com/MinhasKamal/CreepyCodeCollection) - A Nonsense Collection of Disgusting Codes (quine-polyglot-code-golf-obfuscated-signature-creepy-codes-mandelbrot-esoteric-language-esoteric-programming-strange-golfing-spooky-weird)
