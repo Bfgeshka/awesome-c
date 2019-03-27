@@ -51,7 +51,6 @@ Incorporated lists:
 			* [Language Implementations](#language-implementations)
 			* [Challenges](#challenges)
 			* [Other Examples](#other-examples)
-		* [Courses](#courses)
 
 --------------------------------------------------------------------------------
 
@@ -129,6 +128,8 @@ Incorporated lists:
   [1-3]: https://port70.net/~nsz/c/c11/n1570.html
   [1-4]: https://web.archive.org/web/20181230041359if_/http://www.open-std.org/jtc1/sc22/wg14/www/abq/c17_updated_proposed_fdis.pdf
 </details>
+
+-------------------------------------------------------------------------------
 
 <a id="tooling"></a>
 ### Tooling ###
@@ -577,6 +578,8 @@ Incorporated lists:
   [10-54]: http://dotat.at/cgi/git/unifdef.git/blob/HEAD:/COPYING
 </details>
 
+--------------------------------------------------------------------------------
+
 ### Reading Material ###
 
 <a id="books"></a>
@@ -617,6 +620,7 @@ Incorporated lists:
   * [Let Us C][13-6]
   * [C Programming FAQs: Frequently Asked Questions][13-7]
   * [OpenGL SuperBible][13-8]
+  * [OpenGL Insights][13-9]
 
   [13-1]: http://shop.oreilly.com/product/0636920033677.do
   [13-2]: http://shop.oreilly.com/product/0636920028000.do
@@ -626,6 +630,7 @@ Incorporated lists:
   [13-6]: https://www.goodreads.com/book/show/2522685.Let_Us_C
   [13-7]: https://www.goodreads.com/book/show/528549.C_Programming_FAQs
   [13-8]: http://www.openglsuperbible.com
+  [13-9]: http://openglinsights.com/
 
   ##### Advanced Books #####
   * [Expert C Programming: Deep C Secrets][14-1] - Interesting, in-depth and
@@ -710,6 +715,7 @@ Incorporated lists:
   * [Autotools Tutorial][17-18] (PDF)
   * [C FAQ - comp.lang.c Frequently Asked Questions][17-19]
   * [Akagi201/learning-cmake][17-20] - CMake examples
+  * [Let's build a database][17-21]
 
   [17-1]: http://mpitutorial.com/
   [17-2]: https://jvns.ca/blog/2014/12/14/fun-with-threads/
@@ -731,6 +737,7 @@ Incorporated lists:
   [17-18]: https://www.lrde.epita.fr/~adl/dl/autotools.pdf
   [17-19]: http://c-faq.com/
   [17-20]: https://github.com/Akagi201/learning-cmake
+  [17-21]: https://cstack.github.io/db_tutorial/
 </details>
 
 <a id="advanced-level"></a>
@@ -871,6 +878,7 @@ Incorporated lists:
   toolkits in C.
   * [robm/dzen][21-9] - Dzen is a general purpose messaging, notification and
   menuing program for X11.
+  * [McNopper/OpenGL][21-10] - OpenGL 3 and 4 with GLSL.
 
   [21-1]: https://github.com/LemonBoy/bar
   [21-2]: https://github.com/HarveyHunt/howm
@@ -881,6 +889,7 @@ Incorporated lists:
   [21-7]: https://github.com/muennich/sxiv
   [21-8]: https://github.com/island-org/island
   [21-9]: https://github.com/robm/dzen
+  [21-10]: https://github.com/McNopper/OpenGL
 </details>
 
 <a id="language-implementations"></a>
@@ -1055,15 +1064,6 @@ Incorporated lists:
   [24-15]: https://github.com/regehr/ub-canaries
   [24-16]: https://github.com/tnightingale/DTE
 </details>
-
-#### Courses ####
-* [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
-* [CoreData/cs50](https://github.com/CoreData/cs50) - CS50 Rep
-* [McNopper/OpenGL](https://github.com/McNopper/OpenGL) - OpenGL 3 and 4 with GLSL
-* [OpenGLInsights/OpenGLInsightsCode](https://github.com/OpenGLInsights/OpenGLInsightsCode) - Source code for OpenGL Insights
-* [RPISEC/MBE](https://github.com/RPISEC/MBE) - Course materials for Modern Binary Exploitation by RPISEC
-* [cs3157/recitations](https://github.com/cs3157/recitations) - Recitation notes for cs3157, the C systems programming course with a narrative
-* [Let's build a database](https://cstack.github.io/db_tutorial/)
 
 --------------------------------------------------------------------------------
 
