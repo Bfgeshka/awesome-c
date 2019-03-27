@@ -49,6 +49,8 @@ Incorporated lists:
 			* [Emulators and VMs](#emulators-vms)
 			* [UI, Windowing and Graphics](#windowing-graphics)
 			* [Language Implementations](#language-implementations)
+			* [Challenges](#challenges)
+			* [Other Examples](#other-examples)
 		* [Courses](#courses)
 
 --------------------------------------------------------------------------------
@@ -975,39 +977,84 @@ Incorporated lists:
   [22-33]: https://github.com/skx/simple.vm
 </details>
 
-##### Challenges #####
-* [trailofbits/cb-multios](https://github.com/trailofbits/cb-multios) - DARPA Challenges Sets for Linux, Windows, and macOS
-* [FreddieV4/DailyProgrammerChallenges](https://github.com/FreddieV4/DailyProgrammerChallenges) - External Repo of Challenges from r/dailyprogrammer
-* [Coderbyte challenges](https://www.coderbyte.com/challenges)
-* [Project Euler](https://projecteuler.net/)
-* [HackerRank](https://www.hackerrank.com)
-* [CodeChef](https://www.codechef.com/)
-* [CodeWars](https://www.codewars.com)
-* [Codingame](https://www.codingame.com)
-* [/r/DeilyProgrammer](https://old.reddit.com/r/dailyprogrammer/)
-* [leetcode](https://leetcode.com/problemset/algorithms/)
+<a id="challenges"></a>
+##### <a href="#-">`^`</a> Challenges #####
+<details>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Challenges</summary>
 
-##### Other Examples #####
-* [MinhasKamal/CreepyCodeCollection](https://github.com/MinhasKamal/CreepyCodeCollection) - A Nonsense Collection of Disgusting Codes (quine-polyglot-code-golf-obfuscated-signature-creepy-codes-mandelbrot-esoteric-language-esoteric-programming-strange-golfing-spooky-weird)
-* [Visgean/Zeus](https://github.com/Visgean/Zeus) - NOT MY CODE! Zeus trojan horse - leaked in 2011, I am not the author. I have created this repository to make the access for study as easy as possible.
-* [adsr/mle](https://github.com/adsr/mle) - flexible terminal-based text editor (C)
-* [andreafabrizi/prism](https://github.com/andreafabrizi/prism) - PRISM is an user space stealth reverse shell backdoor, written in pure C.
-* [brenns10/lsh](https://github.com/brenns10/lsh) - Simple shell implementation.  Tutorial here ->
-* [jeff-1amstudios/restful-doom](https://github.com/jeff-1amstudios/restful-doom) - HTTP+JSON API hosted inside the 1993 DOOM engine!
-* [cmus/cmus](https://github.com/cmus/cmus) - Small, fast and powerful console music player for Unix-like operating systems.
-* [chelyaev/ffmpeg-tutorial](https://github.com/chelyaev/ffmpeg-tutorial) - A set of tutorials that demonstrates how to write a video player based on FFmpeg
-* [rcr/rirc](https://github.com/rcr/rirc) - A terminal IRC client in C
-* [eatnumber1/goal](https://github.com/eatnumber1/goal) - g()()()()('al') → "gooooal"
-* [xoreaxeaxeax/movfuscator](https://github.com/xoreaxeaxeax/movfuscator) - The single instruction C compiler
-* [deadbits/InsecureProgramming](https://github.com/deadbits/InsecureProgramming) - mirror of gera's insecure programming examples | http://community.coresecurity.com/~gera/InsecureProgramming/
-* [irssi/irssi](https://github.com/irssi/irssi) - The client of the future
-* [xorg62/tty-clock](https://github.com/xorg62/tty-clock) - Clock using lib ncurses
-* [zammitjames/dataparksearch](https://github.com/zammitjames/dataparksearch) - Full featured web search engine
-* [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) - hydra
-* [posva/catimg](https://github.com/posva/catimg) - :squirrel: Insanely fast image printing in your terminal
-* [pkieltyka/stash](https://github.com/pkieltyka/stash) - Steganography application that hides data within a bitmap image
-* [regehr/ub-canaries](https://github.com/regehr/ub-canaries) - collection of C/C++ programs that try to get compilers to exploit undefined behavior
-* [tnightingale/DTE](https://github.com/tnightingale/DTE) - Dumb Terminal Emulator - Data Comm, COMP 3980
+  * [trailofbits/cb-multios][23-1] - DARPA Challenges Sets for Linux, Windows,
+  and macOS.
+  * [FreddieV4/DailyProgrammerChallenges][23-2] - External Repo of Challenges
+  from r/dailyprogrammer.
+  * [Coderbyte challenges][23-3]
+  * [Project Euler][23-4]
+  * [HackerRank][23-5]
+  * [CodeChef][23-6]
+  * [CodeWars][23-7]
+  * [Codingame][23-8]
+  * [/r/DailyProgrammer][23-9]
+  * [leetcode][23-10]
+  * [eatnumber1/goal][23-11] - g()()()()('al') → "gooooal"
+
+  [23-1]: https://github.com/trailofbits/cb-multios
+  [23-2]: https://github.com/FreddieV4/DailyProgrammerChallenges
+  [23-3]: https://www.coderbyte.com/challenges
+  [23-4]: https://projecteuler.net/
+  [23-5]: https://www.hackerrank.com
+  [23-6]: https://www.codechef.com/
+  [23-7]: https://www.codewars.com
+  [23-8]: https://www.codingame.com
+  [23-9]: https://old.reddit.com/r/dailyprogrammer/
+  [23-10]: https://leetcode.com/problemset/algorithms/
+  [23-11]: https://github.com/eatnumber1/goal
+</details>
+
+<a id="other-examples"></a>
+##### <a href="#-">`^`</a> Other Examples #####
+<details>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Other Examples</summary>
+
+  * [MinhasKamal/CreepyCodeCollection][24-1] - A Nonsense Collection of
+  Disgusting Codes.
+  * [Visgean/Zeus][24-2] - Zeus trojan horse - leaked in 2011.
+  * [andreafabrizi/prism][24-3] - PRISM is an user space stealth reverse shell
+  backdoor, written in pure C.
+  * [brenns10/lsh][24-4] - Simple shell implementation.
+  * [jeff-1amstudios/restful-doom][24-5] - HTTP+JSON API hosted inside the 1993
+  DOOM engine!
+  * [chelyaev/ffmpeg-tutorial][24-6] - A set of tutorials that demonstrates how
+  to write a video player based on FFmpeg.
+  * [rcr/rirc][24-7] - A terminal IRC client in C.
+  * [xoreaxeaxeax/movfuscator][24-8] - The single instruction C compiler.
+  * [deadbits/InsecureProgramming][24-9] - Mirror of insecure programming
+  examples.
+  * [irssi/irssi][24-10] - The client of the future.
+  * [xorg62/tty-clock][24-11] - Clock using lib ncurses.
+  * [vanhauser-thc/thc-hydra][24-12] - Hydra.
+  * [posva/catimg][24-13] - Fast image printing in your terminal.
+  * [pkieltyka/stash][24-14] - Steganography application that hides data within
+  a bitmap image.
+  * [regehr/ub-canaries][24-15] - Collection of C/C++ programs that try to get
+  compilers to exploit undefined behavior.
+  * [tnightingale/DTE][24-16] - Dumb Terminal Emulator - Data Comm, COMP 3980.
+
+  [24-1]: https://github.com/MinhasKamal/CreepyCodeCollection
+  [24-2]: https://github.com/Visgean/Zeus
+  [24-3]: https://github.com/andreafabrizi/prism
+  [24-4]: https://github.com/brenns10/lsh
+  [24-5]: https://github.com/jeff-1amstudios/restful-doom
+  [24-6]: https://github.com/chelyaev/ffmpeg-tutorial
+  [24-7]: https://github.com/rcr/rirc
+  [24-8]: https://github.com/xoreaxeaxeax/movfuscator
+  [24-9]: https://github.com/deadbits/InsecureProgramming
+  [24-10]: https://github.com/irssi/irssi
+  [24-11]: https://github.com/xorg62/tty-clock
+  [24-12]: https://github.com/vanhauser-thc/thc-hydra
+  [24-13]: https://github.com/posva/catimg
+  [24-14]: https://github.com/pkieltyka/stash
+  [24-15]: https://github.com/regehr/ub-canaries
+  [24-16]: https://github.com/tnightingale/DTE
+</details>
 
 #### Courses ####
 * [AC-2015-Sem2/DSA-lab](https://github.com/AC-2015-Sem2/DSA-lab) - Data Structures and Algorithms lab repository
