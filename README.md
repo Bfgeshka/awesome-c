@@ -47,6 +47,7 @@ Incorporated lists:
 		* [Code Examples](#code-examples)
 			* [Operating Systems](#operating-systems)
 			* [Emulators and VMs](#emulators-vms)
+			* [UI, Windowing and Graphics](#windowing-graphics)
 		* [Courses](#courses)
 
 --------------------------------------------------------------------------------
@@ -812,7 +813,6 @@ Incorporated lists:
 <details>
   <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
 
-#####  #####
   * [CTurt/Cinoop][20-1] - Multiplatform Game Boy emulator.
   * [LIJI32/SameBoy][20-2] - Game Boy and Game Boy Color emulator written in C.
   * [MoarVM][20-3] - A VM with adaptive optimization and JIT compilation, built
@@ -848,17 +848,37 @@ Incorporated lists:
   [20-14]: https://github.com/AlexAltea/orbital
 </details>
 
-##### UI, Windowing, Graphics #####
-* [LemonBoy/bar](https://github.com/LemonBoy/bar) - A featherweight, lemon-scented, bar based on xcb
-* [HarveyHunt/howm](https://github.com/HarveyHunt/howm) - A lightweight, X11 tiling window manager that behaves like vim
-* [chneukirchen/cwm](https://github.com/chneukirchen/cwm) - portable version of OpenBSD's cwm(1) window manager
-* [i3/i3](https://github.com/i3/i3) - A better tiling and dynamic window manager
-* [mil/foo-wm](https://github.com/mil/foo-wm) - A minimal window manager that organizes windows in a tree data structure, provides a socket to send commands to, and nothing more.
-* [pyknite/catwm](https://github.com/pyknite/catwm) - catwm is a very simple tiling window manager
-* [jordansissel/xdotool](https://github.com/jordansissel/xdotool) - fake keyboard/mouse input, window management, and more
-* [muennich/sxiv](https://github.com/muennich/sxiv) - Simple X Image Viewer
-* [island-org/island](https://github.com/island-org/island) - Lightweight and low-level creative coding toolkits in C.
-* [robm/dzen](https://github.com/robm/dzen) - Dzen is a general purpose messaging, notification and menuing program for X11.
+<a id="windowing-graphics"></a>
+##### <a href="#-">`^`</a> UI, Windowing, Graphics #####
+<details>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand</summary>
+
+  * [LemonBoy/bar][21-1] - A featherweight bar based on xcb.
+  * [HarveyHunt/howm][21-2] - A lightweight, X11 tiling window manager that
+  behaves like vim.
+  * [chneukirchen/cwm][21-3] - portable version of OpenBSD's cwm(1) window
+  manager.
+  * [mil/foo-wm][21-4] - A minimal window manager that organizes windows in a
+  tree data structure, provides a socket to send commands to, and nothing more.
+  * [pyknite/catwm][21-5] - catwm is a very simple tiling window manager.
+  * [jordansissel/xdotool][21-6] - fake keyboard/mouse input, window management,
+  and more.
+  * [muennich/sxiv][21-7] - Simple X Image Viewer.
+  * [island-org/island][21-8] - Lightweight and low-level creative coding
+  toolkits in C.
+  * [robm/dzen][21-9] - Dzen is a general purpose messaging, notification and
+  menuing program for X11.
+
+  [21-1]: https://github.com/LemonBoy/bar
+  [21-2]: https://github.com/HarveyHunt/howm
+  [21-3]: https://github.com/chneukirchen/cwm
+  [21-4]: https://github.com/mil/foo-wm
+  [21-5]: https://github.com/pyknite/catwm
+  [21-6]: https://github.com/jordansissel/xdotool
+  [21-7]: https://github.com/muennich/sxiv
+  [21-8]: https://github.com/island-org/island
+  [21-9]: https://github.com/robm/dzen
+</details>
 
 ##### Language Implementations #####
 * [Fedjmike/mini-c](https://github.com/Fedjmike/mini-c) - Dr Strangehack, or: how to write a self-hosting C compiler in 10 hours
