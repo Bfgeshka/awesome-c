@@ -1067,42 +1067,46 @@ Incorporated lists:
 
 --------------------------------------------------------------------------------
 
+<a id="ai"></a>
+## <a href="#-">`^`</a> AI ##
+<details>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand AI</summary>
+
 ## AI ##
 Neural nets, machine learning, and other similar things.
-* [Cranium][6] - Portable, header-only ANN library in C99. [``MIT``][MIT]
-* [FANN][7] - Fast Artifical Neural Network library; an implementation of neural
-  networks. [``GPL-2.0-only``][GPL-2.0-only]
-* [Genann][8] - Simple ANN in C89, without additional dependencies. [``Zlib``][Zlib]
-* [KANN][9] - Two-file ANN library. [``MIT``][MIT]
-* [LibDEEP][10] - Deep learning library. [``BSD-3-Clause``][BSD-3-Clause]
-* [Darknet](https://pjreddie.com/darknet/) - Open source neural network framework written in C and CUDA. It is fast, easy to install, and supports CPU and GPU computation.
-* [100/Cranium](https://github.com/100/Cranium) - 🤖   A portable, header-only, artificial neural network library written in C99
-* [2hanson/DecisionTree](https://github.com/2hanson/DecisionTree) - Decision Tree
-* [Blei-Lab/lda-c](https://github.com/Blei-Lab/lda-c) - This is a C implementation of variational EM for latent Dirichlet allocation (LDA), a topic model for text or other discrete data.
-* [GHamrouni/Recommender](https://github.com/GHamrouni/Recommender) - A C library for product recommendations/suggestions using collaborative filtering (CF)
-* [H2CO3/libsprec](https://github.com/H2CO3/libsprec) - C library for speech recognition using the Google Speech API
-* [HIPS/Probabilistic-Backpropagation](https://github.com/HIPS/Probabilistic-Backpropagation) - Implementation in C and Theano of the method Probabilistic Backpropagation for scalable Bayesian inference in deep neural networks.
-* [JulienPalard/Mine](https://github.com/JulienPalard/Mine) - Little data miner
-* [TheWeatherChannel/dClass](https://github.com/TheWeatherChannel/dClass) - Device Classification Engine
-* [antirez/shapeme](https://github.com/antirez/shapeme) - Evolve images using simulated annealing
-* [attractivechaos/kann](https://github.com/attractivechaos/kann) - A lightweight C library for artificial neural networks
-* [cjac/cmusphinx](https://github.com/cjac/cmusphinx) - CMU Sphinx - Speech Recognition Toolkit
-* [cmusphinx/pocketsphinx](https://github.com/cmusphinx/pocketsphinx) - PocketSphinx is a lightweight speech recognition engine, specifically tuned for handheld and mobile devices, though it works equally well on the desktop
-* [codeplea/genann](https://github.com/codeplea/genann) - simple neural network library in ANSI C
-* [dake/openVP](https://github.com/dake/openVP) - Voice Print Recognition in C language.
-* [encog/encog-c](https://github.com/encog/encog-c) - The Encog project for C/C++
-* [glouw/tinn](https://github.com/glouw/tinn) - The tiny neural network library
-* [iunderstand/SWE](https://github.com/iunderstand/SWE) - SWE Toolkit. Learning Semantic Word Embeddings based on Ordinal Knowledge Constraints. A general framework to incorporate semantic knowledge into the popular data-driven learning process of word vectors. Applications including word similarity, sentence completion, etc. ACL-2015 long paper, Beijing, China
-* [knossos-project/knossos](https://github.com/knossos-project/knossos) - KNOSSOS is a software tool for the visualization and annotation of 3D image data and was developed for the rapid reconstruction of neural morphology and connectivity.
-* [robwhess/opensift](https://github.com/robwhess/opensift) - Open-Source SIFT Library
-* [torch/DEPRECEATED-torch7-distro](https://github.com/torch/DEPRECEATED-torch7-distro) - Torch7: state-of-the-art machine learning algorithms
-* [ufoym/RecursiveBF](https://github.com/ufoym/RecursiveBF) - A lightweight C++ library for recursive bilateral filtering [Yang, Qingxiong. "Recursive bilateral filtering". European Conference on Computer Vision, 2012].
-* [ufoym/recursive-bf](https://github.com/ufoym/recursive-bf) - A lightweight C++ library for recursive bilateral filtering [Yang, Qingxiong. "Recursive bilateral filtering". European Conference on Computer Vision, 2012].
-* [symisc/sod](https://github.com/symisc/sod) - An Embedded Computer Vision & Machine Learning Library (CPU Optimized & IoT Capable)
-* [xiph/rnnoise](https://github.com/xiph/rnnoise) - Recurrent neural network for audio noise reduction
-* [yusugomori/DeepLearning](https://github.com/yusugomori/DeepLearning) - Deep Learning (Python, C/C++, Java, Scala, Go)
-* [Genann](https://github.com/codeplea/genann) - neural network library in ANSI C
-* [pjreddie/darknet](https://github.com/pjreddie/darknet) - neural networks.
+  * [KANN][25-1] - Two-file ANN library. [`MIT`][25-2]
+  * [LibDEEP][10] - Deep learning library. [``BSD-3-Clause``][BSD-3-Clause]
+  * [100/Cranium](https://github.com/100/Cranium) - A portable, header-only, artificial neural network library written in C99
+  * [2hanson/DecisionTree](https://github.com/2hanson/DecisionTree) - Decision Tree
+  * [Blei-Lab/lda-c](https://github.com/Blei-Lab/lda-c) - This is a C implementation of variational EM for latent Dirichlet allocation (LDA), a topic model for text or other discrete data.
+  * [GHamrouni/Recommender](https://github.com/GHamrouni/Recommender) - A C library for product recommendations/suggestions using collaborative filtering (CF)
+  * [H2CO3/libsprec](https://github.com/H2CO3/libsprec) - C library for speech recognition using the Google Speech API
+  * [HIPS/Probabilistic-Backpropagation](https://github.com/HIPS/Probabilistic-Backpropagation) - Implementation in C and Theano of the method Probabilistic Backpropagation for scalable Bayesian inference in deep neural networks.
+  * [JulienPalard/Mine](https://github.com/JulienPalard/Mine) - Little data miner
+  * [TheWeatherChannel/dClass](https://github.com/TheWeatherChannel/dClass) - Device Classification Engine
+  * [antirez/shapeme](https://github.com/antirez/shapeme) - Evolve images using simulated annealing
+  * [attractivechaos/kann](https://github.com/attractivechaos/kann) - A lightweight C library for artificial neural networks
+  * [cjac/cmusphinx](https://github.com/cjac/cmusphinx) - CMU Sphinx - Speech Recognition Toolkit
+  * [cmusphinx/pocketsphinx](https://github.com/cmusphinx/pocketsphinx) - PocketSphinx is a lightweight speech recognition engine, specifically tuned for handheld and mobile devices, though it works equally well on the desktop
+  * [codeplea/genann](https://github.com/codeplea/genann) - simple neural network library in ANSI C
+  * [dake/openVP](https://github.com/dake/openVP) - Voice Print Recognition in C language.
+  * [encog/encog-c](https://github.com/encog/encog-c) - The Encog project for C/C++
+  * [glouw/tinn](https://github.com/glouw/tinn) - The tiny neural network library
+  * [iunderstand/SWE](https://github.com/iunderstand/SWE) - SWE Toolkit. Learning Semantic Word Embeddings based on Ordinal Knowledge Constraints. A general framework to incorporate semantic knowledge into the popular data-driven learning process of word vectors. Applications including word similarity, sentence completion, etc. ACL-2015 long paper, Beijing, China
+  * [knossos-project/knossos](https://github.com/knossos-project/knossos) - KNOSSOS is a software tool for the visualization and annotation of 3D image data and was developed for the rapid reconstruction of neural morphology and connectivity.
+  * [robwhess/opensift](https://github.com/robwhess/opensift) - Open-Source SIFT Library
+  * [torch/DEPRECEATED-torch7-distro](https://github.com/torch/DEPRECEATED-torch7-distro) - Torch7: state-of-the-art machine learning algorithms
+  * [ufoym/RecursiveBF](https://github.com/ufoym/RecursiveBF) - A lightweight C++ library for recursive bilateral filtering [Yang, Qingxiong. "Recursive bilateral filtering". European Conference on Computer Vision, 2012].
+  * [ufoym/recursive-bf](https://github.com/ufoym/recursive-bf) - A lightweight C++ library for recursive bilateral filtering [Yang, Qingxiong. "Recursive bilateral filtering". European Conference on Computer Vision, 2012].
+  * [symisc/sod](https://github.com/symisc/sod) - An Embedded Computer Vision & Machine Learning Library (CPU Optimized & IoT Capable)
+  * [xiph/rnnoise](https://github.com/xiph/rnnoise) - Recurrent neural network for audio noise reduction
+  * [yusugomori/DeepLearning](https://github.com/yusugomori/DeepLearning) - Deep Learning (Python, C/C++, Java, Scala, Go)
+  * [Genann](https://github.com/codeplea/genann) - neural network library in ANSI C
+  * [pjreddie/darknet](https://github.com/pjreddie/darknet) - neural networks.
+
+  [25-1]: https://github.com/attractivechaos/kann
+  [25-2]: https://github.com/attractivechaos/kann/blob/master/LICENSE.txt
+</details>
 
 ## Algoritm Implementations ##
 * [sort][434] - Collection of sorting routines, which type-specialize at
@@ -3305,9 +3309,7 @@ Comprehensive and integrated solutions for building web application in C.
 
 
 [10]: https://github.com/jppbsi/LibDEEP/wiki
-[9]: https://github.com/attractivechaos/kann
 [8]: https://codeplea.com/genann
-[7]: http://leenissen.dk/fann/wp/
 [6]: https://github.com/100/Cranium
 [5]: http://libccv.org
 
