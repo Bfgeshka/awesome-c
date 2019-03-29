@@ -15,7 +15,8 @@ are a mess.
 text or declaration, if any provided. Source code with no license attached is
 considered as automatically copyrighted by law or it is falling under the case
 of terms of service of provided source code publication and hosting service, so
-keep this in mind.
+keep this in mind. Also, probably sometimes license can be provided or
+mentioned, but I've failed to find it.
 
 I am not an attorney btw.
 
