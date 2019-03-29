@@ -1072,16 +1072,22 @@ Incorporated lists:
 <details>
   <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand AI</summary>
 
-## AI ##
-Neural nets, machine learning, and other similar things.
+  Neural nets, machine learning, and other similar things.
   * [KANN][25-1] - Two-file ANN library. [`MIT`][25-2]
-  * [LibDEEP][10] - Deep learning library. [``BSD-3-Clause``][BSD-3-Clause]
-  * [100/Cranium](https://github.com/100/Cranium) - A portable, header-only, artificial neural network library written in C99
-  * [2hanson/DecisionTree](https://github.com/2hanson/DecisionTree) - Decision Tree
-  * [Blei-Lab/lda-c](https://github.com/Blei-Lab/lda-c) - This is a C implementation of variational EM for latent Dirichlet allocation (LDA), a topic model for text or other discrete data.
-  * [GHamrouni/Recommender](https://github.com/GHamrouni/Recommender) - A C library for product recommendations/suggestions using collaborative filtering (CF)
-  * [H2CO3/libsprec](https://github.com/H2CO3/libsprec) - C library for speech recognition using the Google Speech API
-  * [HIPS/Probabilistic-Backpropagation](https://github.com/HIPS/Probabilistic-Backpropagation) - Implementation in C and Theano of the method Probabilistic Backpropagation for scalable Bayesian inference in deep neural networks.
+  * [LibDEEP][25-3] - Deep learning library. [`No license`]
+  * [100/Cranium][25-4] - A portable, header-only, artificial neural network
+  library written in C99. [`MIT`][25-5]
+  * [2hanson/DecisionTree][25-6] - Decision Tree. [`MIT`][25-7]
+  * [Blei-Lab/lda-c][25-8] - This is a C implementation of variational EM for
+  latent Dirichlet allocation (LDA), a topic model for text or other discrete
+  data. [`LGPL 2.1`][25-9]
+  * [GHamrouni/Recommender][25-10] - A C library for product
+  recommendations/suggestions using collaborative filtering (CF). [`BSD 2-Clause`][25-11]
+  * [H2CO3/libsprec][25-12] - C library for speech recognition using the Google
+  Speech API. [`License`][25-13]
+  * [HIPS/Probabilistic-Backpropagation][25-14] - Implementation in C and Theano
+  of the method Probabilistic Backpropagation for scalable Bayesian inference in
+  deep neural networks. [`BSD 3-Clause`][25-15]
   * [JulienPalard/Mine](https://github.com/JulienPalard/Mine) - Little data miner
   * [TheWeatherChannel/dClass](https://github.com/TheWeatherChannel/dClass) - Device Classification Engine
   * [antirez/shapeme](https://github.com/antirez/shapeme) - Evolve images using simulated annealing
@@ -1106,6 +1112,19 @@ Neural nets, machine learning, and other similar things.
 
   [25-1]: https://github.com/attractivechaos/kann
   [25-2]: https://github.com/attractivechaos/kann/blob/master/LICENSE.txt
+  [25-3]: https://github.com/jppbsi/LibDEEP/wiki
+  [25-4]: https://github.com/100/Cranium
+  [25-5]: https://github.com/100/Cranium/blob/master/LICENSE
+  [25-6]: https://github.com/2hanson/DecisionTree
+  [25-7]: https://github.com/2hanson/DecisionTree
+  [25-8]: https://github.com/Blei-Lab/lda-c
+  [25-9]: https://github.com/blei-lab/lda-c/blob/master/license.txt
+  [25-10]: https://github.com/GHamrouni/Recommender
+  [25-11]: https://github.com/GHamrouni/Recommender/blob/master/LICENSE
+  [25-12]: https://github.com/H2CO3/libsprec
+  [25-13]: https://github.com/H2CO3/libsprec/blob/master/LICENSE
+  [25-14]: https://github.com/HIPS/Probabilistic-Backpropagation
+  [25-15]: https://github.com/HIPS/Probabilistic-Backpropagation/blob/master/LICENSE
 </details>
 
 ## Algoritm Implementations ##
@@ -3308,7 +3327,6 @@ Comprehensive and integrated solutions for building web application in C.
 [25]: http://blosc.org/pages/blosc-in-depth
 
 
-[10]: https://github.com/jppbsi/LibDEEP/wiki
 [8]: https://codeplea.com/genann
 [6]: https://github.com/100/Cranium
 [5]: http://libccv.org
