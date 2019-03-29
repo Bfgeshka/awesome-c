@@ -1072,7 +1072,7 @@ Incorporated lists:
 <details>
   <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand AI</summary>
 
-  Neural nets, machine learning, and other similar things.
+  Neural nets, machine learning, pattern recognition etc.
   * [KANN][25-1] - Two-file ANN library. [`MIT`][25-2]
   * [LibDEEP][25-3] - Deep learning library. [`No license`]
   * [100/Cranium][25-4] - A portable, header-only, artificial neural network
@@ -1088,26 +1088,28 @@ Incorporated lists:
   * [HIPS/Probabilistic-Backpropagation][25-14] - Implementation in C and Theano
   of the method Probabilistic Backpropagation for scalable Bayesian inference in
   deep neural networks. [`BSD 3-Clause`][25-15]
-  * [JulienPalard/Mine](https://github.com/JulienPalard/Mine) - Little data miner
-  * [TheWeatherChannel/dClass](https://github.com/TheWeatherChannel/dClass) - Device Classification Engine
-  * [antirez/shapeme](https://github.com/antirez/shapeme) - Evolve images using simulated annealing
-  * [attractivechaos/kann](https://github.com/attractivechaos/kann) - A lightweight C library for artificial neural networks
-  * [cjac/cmusphinx](https://github.com/cjac/cmusphinx) - CMU Sphinx - Speech Recognition Toolkit
-  * [cmusphinx/pocketsphinx](https://github.com/cmusphinx/pocketsphinx) - PocketSphinx is a lightweight speech recognition engine, specifically tuned for handheld and mobile devices, though it works equally well on the desktop
-  * [codeplea/genann](https://github.com/codeplea/genann) - simple neural network library in ANSI C
-  * [dake/openVP](https://github.com/dake/openVP) - Voice Print Recognition in C language.
-  * [encog/encog-c](https://github.com/encog/encog-c) - The Encog project for C/C++
-  * [glouw/tinn](https://github.com/glouw/tinn) - The tiny neural network library
-  * [iunderstand/SWE](https://github.com/iunderstand/SWE) - SWE Toolkit. Learning Semantic Word Embeddings based on Ordinal Knowledge Constraints. A general framework to incorporate semantic knowledge into the popular data-driven learning process of word vectors. Applications including word similarity, sentence completion, etc. ACL-2015 long paper, Beijing, China
-  * [knossos-project/knossos](https://github.com/knossos-project/knossos) - KNOSSOS is a software tool for the visualization and annotation of 3D image data and was developed for the rapid reconstruction of neural morphology and connectivity.
+  * [TheWeatherChannel/dClass][25-16] - Device Classification Engine. [`Apache 2`][25-17]
+  * [antirez/shapeme][25-18] - Evolve images using simulated annealing. [`BSD 2-Clause`][25-19]
+  * [cjac/cmusphinx][25-20] - CMU Sphinx - Speech Recognition Toolkit. [`Licenses`][25-21]
+  * [cmusphinx/pocketsphinx][25-22] - Lightweight speech recognition engine,
+  specifically tuned for handheld and mobile devices, though it works equally
+  well on the desktop. [`BSD 2-Clause`][25-23]
+  * [codeplea/genann][25-24] - simple neural network library in ANSI C. [`Zlib`][25-25]
+  * [dake/openVP][25-26] - Voice Print Recognition in C language. [`No license`]
+  * [encog/encog-c][25-27] - C implementation of Encog - machine learning
+  framework for Java/C#. [`No license`]
+  * [glouw/tinn][25-28] - The tiny neural network library. [`MIT`][25-29]
+  * [iunderstand/SWE][25-30] - Learning Semantic Word Embeddings based on
+  Ordinal Knowledge Constraints. [25-31]
+  * [knossos-project/knossos][25-32] - Software tool for the visualization and
+  annotation of 3D image data and was developed for the rapid reconstruction of
+  neural morphology and connectivity. [25-33]
   * [robwhess/opensift](https://github.com/robwhess/opensift) - Open-Source SIFT Library
   * [torch/DEPRECEATED-torch7-distro](https://github.com/torch/DEPRECEATED-torch7-distro) - Torch7: state-of-the-art machine learning algorithms
-  * [ufoym/RecursiveBF](https://github.com/ufoym/RecursiveBF) - A lightweight C++ library for recursive bilateral filtering [Yang, Qingxiong. "Recursive bilateral filtering". European Conference on Computer Vision, 2012].
-  * [ufoym/recursive-bf](https://github.com/ufoym/recursive-bf) - A lightweight C++ library for recursive bilateral filtering [Yang, Qingxiong. "Recursive bilateral filtering". European Conference on Computer Vision, 2012].
+  * [ufoym/recursive-bf](https://github.com/ufoym/recursive-bf) - A lightweight C++ library for recursive bilateral filtering.
   * [symisc/sod](https://github.com/symisc/sod) - An Embedded Computer Vision & Machine Learning Library (CPU Optimized & IoT Capable)
   * [xiph/rnnoise](https://github.com/xiph/rnnoise) - Recurrent neural network for audio noise reduction
   * [yusugomori/DeepLearning](https://github.com/yusugomori/DeepLearning) - Deep Learning (Python, C/C++, Java, Scala, Go)
-  * [Genann](https://github.com/codeplea/genann) - neural network library in ANSI C
   * [pjreddie/darknet](https://github.com/pjreddie/darknet) - neural networks.
 
   [25-1]: https://github.com/attractivechaos/kann
@@ -1125,6 +1127,23 @@ Incorporated lists:
   [25-13]: https://github.com/H2CO3/libsprec/blob/master/LICENSE
   [25-14]: https://github.com/HIPS/Probabilistic-Backpropagation
   [25-15]: https://github.com/HIPS/Probabilistic-Backpropagation/blob/master/LICENSE
+  [25-16]: https://github.com/TheWeatherChannel/dClass
+  [25-17]: https://github.com/TheWeatherChannel/dClass/blob/master/LICENSE
+  [25-18]: https://github.com/antirez/shapeme
+  [25-19]: https://github.com/antirez/shapeme/blob/master/LICENSE
+  [25-20]: https://github.com/cjac/cmusphinx
+  [25-21]: https://github.com/cjac/cmusphinx
+  [25-22]: https://github.com/cmusphinx/pocketsphinx
+  [25-23]: https://github.com/cmusphinx/pocketsphinx/blob/master/LICENSE
+  [25-24]: https://github.com/codeplea/genann
+  [25-25]: https://github.com/codeplea/genann/blob/master/LICENSE
+  [25-26]: https://github.com/dake/openVP
+  [25-27]: https://github.com/encog/encog-c
+  [25-28]: https://github.com/glouw/tinn
+  [25-29]: https://github.com/glouw/tinn/blob/master/LICENSE
+  [25-30]: https://github.com/iunderstand/SWE
+  [25-31]: https://github.com/iunderstand/SWE/blob/master/LICENSE
+  [25-32]: https://github.com/knossos-project/knossos
 </details>
 
 ## Algoritm Implementations ##
@@ -1261,13 +1280,13 @@ Incorporated lists:
 * [canonizer/libgpuvm](https://github.com/canonizer/libgpuvm) - library which simplifies host-GPU data transfer using userspace pagefault handling
 * [clMathLibraries/clBLAS](https://github.com/clMathLibraries/clBLAS) - a software library containing BLAS functions written in OpenCL
 * [clMathLibraries/clRNG](https://github.com/clMathLibraries/clRNG) - an OpenCL based software library containing random number generation functions
-* [emrainey/OpenCL-Environment](https://github.com/emrainey/OpenCL-Environment) - A series of utilities aimed at making OpenCL easier to use. Includes clCompiler which generates both binary outputs and precompiled headers which can be used in conjunction with clEnvironment. clQuery allows you to print all known information about a OpenCL data type. clPid, clYUV clImgFilter are all examples of how to use the utilities to create a compile time kernel make it a dependency in you makefiles and then use the clEnvironment to call your kernel.
+* [emrainey/OpenCL-Environment](https://github.com/emrainey/OpenCL-Environment) - A series of utilities aimed at making OpenCL easier to use.
 * [fredrik-johansson/arb](https://github.com/fredrik-johansson/arb) - C library for arbitrary-precision interval arithmetic
 * [freshcode/MFMathLib](https://github.com/freshcode/MFMathLib) - A mathematical library providing basic math operations on data types from 8-bits to 1024-bits with overflow/underflow tracking.
 * [google/clspv](https://github.com/google/clspv) - Clspv is a prototype compiler for a subset of OpenCL C to Vulkan compute shaders
 * [imneme/pcg-c-basic](https://github.com/imneme/pcg-c-basic) - PCG — Minimal C Implementation
 * [imneme/pcg-c](https://github.com/imneme/pcg-c) - PCG — C Implementation
-* [karrenberg/wfvopencl](https://github.com/karrenberg/wfvopencl) - IMPORTANT NOTICE: This implementation is long outdated. The latest wfvopencl will be made publicly available with the new libwfv implementation. WFVOpenCL is an OpenCL driver for CPUs on the basis of LLVM. This driver employs Whole-Function Vectorization (WFV) in addition to multi-threading to fully exploit the available data-parallelism by executing as many kernel instances in parallel as possible.
+* [karrenberg/wfvopencl](https://github.com/karrenberg/wfvopencl) - WFVOpenCL is an OpenCL driver for CPUs on the basis of LLVM.
 * [libtom/libtommath](https://github.com/libtom/libtommath) - LibTomMath is a free open source portable number theoretic multiple-precision integer library written entirely in C.
 * [libtom/tomsfastmath](https://github.com/libtom/tomsfastmath) - TomsFastMath is a fast public domain, open source, large integer arithmetic library written in portable ISO C.
 * [PetteriAimonen/libfixmatrix](https://github.com/PetteriAimonen/libfixmatrix) - C library for fixed point matrix, quaternion and vector calculations.
@@ -1885,7 +1904,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [raylib](https://www.raylib.com/) - Simple and easy-to-use library to learn videogames programming. [`zlib`](https://directory.fsf.org/wiki/License:Zlib)
 * [Gigoteur/UnicornConsole](https://github.com/Gigoteur/UnicornConsole) - Unicorn Console: create quick game !
 * [HBehrens/obj2opengl](https://github.com/HBehrens/obj2opengl) - script to convert 3D models of OBJ files to C/C++ float arrays (vertices, faces, texture) compatible with OpenGL ES glDrawArrays compatible with iPhone/iPad
-* [HerculesWS/Hercules](https://github.com/HerculesWS/Hercules) - Hercules is a collaborative software development project revolving around the creation of a robust massively multiplayer online role playing game (MMORPG) server package. Written in C, the program is very versatile and provides NPCs, warps and modifications. The project is jointly managed by a group of volunteers located around the world as well as a tremendous community providing QA and support. Hercules is a continuation of the original Athena project.
+* [HerculesWS/Hercules](https://github.com/HerculesWS/Hercules) - Creation of a robust massively multiplayer online role playing game (MMORPG) server package.
 * [Kazade/kazmath](https://github.com/Kazade/kazmath) - A C math library targeted at games
 * [MarilynDafa/Bulllord-Engine](https://github.com/MarilynDafa/Bulllord-Engine) - lightspeed lightweight elegant  game engine in pure c
 * [MauriceGit/Cloth_Simulation](https://github.com/MauriceGit/Cloth_Simulation) - Cloth-Visualization via particle-simulation.
@@ -2176,7 +2195,7 @@ can be found in the Crypto section.
 * [facebook/liblogfaf](https://github.com/facebook/liblogfaf) - A library that logs messages using non-blocking UDP datagrams.
 * [kmcallister/embedded-breakpoints](https://github.com/kmcallister/embedded-breakpoints) - Embed GDB breakpoints in C source code
 * [ntpeters/SimpleLogger](https://github.com/ntpeters/SimpleLogger) - Basic logger for C and C++ projects
-* [openjudge/sandbox](https://github.com/openjudge/sandbox) - The sandbox libraries (libsandbox & pysandbox) are an open-source suite of software components for C/C++ and Python developers to create automated profiling tools and watchdog programs. The API's are designed for executing and instrumenting simple (single process) tasks, featuring policy-based behavioral auditing, resource quota, and statistics collecting.
+* [openjudge/sandbox](https://github.com/openjudge/sandbox) - Open-source suite of software components for C/C++ and Python developers to create automated profiling tools and watchdog programs.
 * [rxi/log.c](https://github.com/rxi/log.c) - A simple logging library implemented in C99
 * [stephenrkell/liballocs](https://github.com/stephenrkell/liballocs) - Runtime and toolchain for whole-program monitoring of allocations and their data types
 * [wc-duck/dbgtools](https://github.com/wc-duck/dbgtools) - Small collection of debug-related drop-in c/c++-utils
@@ -2442,7 +2461,7 @@ Audio and video processing
 * [ElementsProject/lightning](https://github.com/ElementsProject/lightning) - c-lightning — a Lightning Network implementation in C
 * [FreeRDP/FreeRDP](https://github.com/FreeRDP/FreeRDP) - FreeRDP is a free remote desktop protocol library and clients
 * [FreeRDP/Remmina](https://github.com/FreeRDP/Remmina) - The GTK+ Remmina Remote Desktop Client
-* [GROX13/BitTorrent](https://github.com/GROX13/BitTorrent) - BitTorrent is a protocol for the practice of peer-to-peer file sharing that is used to distribute large amounts of data over the Internet. BitTorrent is one of the most common protocols for transferring large files, and peer-to-peer networks have been estimated to collectively account for approximately 43% to 70% of all Internet traffic (depending on geographical location) as of February 2009. In November 2004, BitTorrent was responsible for 35% of all Internet traffic. As of February 2013, BitTorrent was responsible for 3.35% of all worldwide bandwidth, more than half of the 6% of total bandwidth dedicated to file sharing.
+* [GROX13/BitTorrent](https://github.com/GROX13/BitTorrent) - BitTorrent protocol.
 * [JFreegman/toxic](https://github.com/JFreegman/toxic) - An ncurses-based Tox client
 * [LibVNC/libvncserver](https://github.com/LibVNC/libvncserver) - LibVNCServer/LibVNCClient are cross-platform C libraries that allow you to easily implement VNC server or client functionality in your program.
 * [Librevault/librevault](https://github.com/Librevault/librevault) - Librevault - Peer-to-peer, decentralized and open source file sync.
@@ -2477,7 +2496,7 @@ Audio and video processing
 * [rxi/dyad](https://github.com/rxi/dyad) - Asynchronous networking for C
 * [sch3m4/libntoh](https://github.com/sch3m4/libntoh) - User-friendly C Library to perform TCP streams reassembly and IPv4/6 defragmentation
 * [seanmiddleditch/libtelnet](https://github.com/seanmiddleditch/libtelnet) - Simple RFC-complient TELNET implementation as a C library.
-* [shadeslayer/libnice](https://github.com/shadeslayer/libnice) - Libnice is an implementation of the IETF's Interactive Connectivity Establishment (ICE) standard (RFC 5245) and the Session Traversal Utilities for NAT (STUN) standard (RFC 5389).  It provides a GLib-based library, libnice and a Glib-free library, libstun as well as GStreamer elements.  ICE is useful for applications that want to establish peer-to-peer UDP data streams. It automates the process of traversing NATs and provides security against some attacks. It also allows applications to create reliable streams using a TCP over UDP layer.  Existing standards that use ICE include Session Initiation Protocol (SIP) and XMPP Jingle.
+* [shadeslayer/libnice](https://github.com/shadeslayer/libnice) - Implementation of the IETF's Interactive Connectivity Establishment (ICE) standard (RFC 5245) and the Session Traversal Utilities for NAT (STUN) standard (RFC 5389).
 * [sustrik/msg_control](https://github.com/sustrik/msg_control) - Helper functions for dealing with socket ancillary data
 * [tass-belgium/picotcp](https://github.com/tass-belgium/picotcp) - PicoTCP is a free TCP/IP stack implementation
 * [stephane/libmodbus](https://github.com/stephane/libmodbus) - A Modbus library for Linux, Mac OS X, FreeBSD, QNX and Windows
@@ -2862,8 +2881,8 @@ Comprehensive and integrated solutions for building web application in C.
 * [haywire/haywire](https://github.com/haywire/haywire) - Haywire is an asynchronous HTTP server framework written in C that's built using the event loop based libuv platform layer that node.js is built on top of.
 * [iafonov/cosmonaut](https://github.com/iafonov/cosmonaut) - Fast web server & micro framework implemented in C. Just for fun.
 * [it4e/CHL](https://github.com/it4e/CHL) - C Hypertext Library - A library for writing web applications in C
-* [jorisvink/kore](https://github.com/jorisvink/kore) - An easy to use, scalable and secure web application framework for writing web APIs in C. || This is a read-only mirror, please see https://kore.io/mail and https://kore.io/source for information on how to contribute via the mailing lists.
-* [kellabyte/Haywire](https://github.com/kellabyte/Haywire) - Haywire is an asynchronous HTTP server framework written in C that's built using the event loop based libuv platform layer that node.js is built on top of.
+* [jorisvink/kore](https://github.com/jorisvink/kore) - An easy to use, scalable and secure web application framework for writing web APIs in C.
+* [kellabyte/Haywire](https://github.com/kellabyte/Haywire) - Asynchronous HTTP server framework written in C that's built using the event loop based libuv platform layer that node.js is built on top of.
 * [monkey/duda](https://github.com/monkey/duda) - Duda I/O is an event-driven and high performant web services framework which exposes a friendly C API
 * [oneoo/alilua](https://github.com/oneoo/alilua) - epoll/kqueue+lua based web server
 * [riolet/WAFer](https://github.com/riolet/WAFer) - WAFer is a C language-based software platform for scalable server-side and networking applications. Think node.js for C programmers.
