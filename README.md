@@ -1166,7 +1166,7 @@ Incorporated lists:
   at compile-time with a user-defined type. [`MIT`][26-2]
   * [blynn/dlx][26-3] - Implementation of Knuth's Algorithm X, with example
   solvers. [`GPL 3`][26-4]
-  * [BigZaphod/AStar][26-5] - C Implementation of the A* Pathfinding Algorithm. [`License`][26-6]
+  * [BigZaphod/AStar][26-5] - C Implementation of the A\* Pathfinding Algorithm. [`License`][26-6]
   * [ferreiradaselva/uastar][26-7] - Minimal A\* implementation. [`Zlib`][26-8]
   * [BlackLight/fkmeans][26-9] - A tiny library in C for managing kmeans
   clusterization algorithm over arbitrary data sets, both by manually specifying
@@ -1175,21 +1175,22 @@ Incorporated lists:
   * [CVLearner/Mixture-of-Gaussians][26-11] - Fit a Gaussian mixture model given
   a set of data. [`MIT`][26-12]
   * [Cyan4973/FiniteStateEntropy][26-13] - Finite State Entropy and Huff0. [`BSD 2-Clause`][26-14]
-  * [IAIK/CJAG](https://github.com/IAIK/CJAG) - CJAG is an open-source implementation of our cache-based jamming agreement.
-  * [Kevincav/Radix-Sort](https://github.com/Kevincav/Radix-Sort) - Radix Sort with different data types.
-  * [Soryusan/Ranking_Algorithm](https://github.com/Soryusan/Ranking_Algorithm) - Ranking algorithm data collector/cruncher
-  * [TheAlgorithms/C](https://github.com/TheAlgorithms/C) - All Algorithms implemented in C
-  * [agl/curve25519-donna](https://github.com/agl/curve25519-donna) - Implementations of a fast Elliptic-curve Diffie-Hellman primitive
-  * [ai-ku/scode](https://github.com/ai-ku/scode) - Sphere embedding (s-code) is a variation of Euclidean embedding of co-occurence data (code).
-  * [aimxhaisse/des](https://github.com/aimxhaisse/des) - C implementation of Data Encryption Standard
-  * [ajrisi/fsm](https://github.com/ajrisi/fsm) - A finite state machine engine in C - used as a parser for complex data structures
-  * [chaoslawful/ccard-lib](https://github.com/chaoslawful/ccard-lib) - C library for estimating cardinality in streams for which it is infeasible to store all events in memory
-  * [citiususc/BigBWA](https://github.com/citiususc/BigBWA) - Approaching the Burrows-Wheeler Aligner to Big Data Technologies
-  * [coolwanglu/quantile-alg](https://github.com/coolwanglu/quantile-alg) - Algorithms for finding quantiles of a data stream
-  * [cvxgrp/scs](https://github.com/cvxgrp/scs) - C package that solves convex cone problems via operator splitting
-  * [davidreynolds/algorithms](https://github.com/davidreynolds/algorithms) - A repository of assorted algorithms and data structures.
-  * [dhuertas/AES](https://github.com/dhuertas/AES) - AES algorithm implementation in C
-  * [duckythescientist/obfuscatedLife](https://github.com/duckythescientist/obfuscatedLife) - Conway's Game of Life in 9 lines of C
+  * [Kevincav/Radix-Sort][26-15] - Radix Sort with different data types. [`MIT`][26-16]
+  * [TheAlgorithms/C][26-17] - All Algorithms implemented in C [`No license`]
+  * [agl/curve25519-donna][26-18] - Implementations of a fast Elliptic-curve
+  Diffie-Hellman primitive. [`License`][26-19]
+  * [ai-ku/scode][26-20] - Sphere embedding (s-code) is a variation of Euclidean
+  embedding of co-occurence data (code). [`MIT`][26-21]
+  * [aimxhaisse/des][26-22] - C implementation of DES. [`License`][26-23]
+  * [chaoslawful/ccard-lib][26-24] - C library for estimating cardinality in
+  streams for which it is infeasible to store all events in memory. [`No license`]
+  * [citiususc/BigBWA][26-25] - Approaching the Burrows-Wheeler Aligner to Big
+  Data Technologies. [`GPL 3`][26-26]
+  * [davidreynolds/algorithms][26-27] - A repository of assorted algorithms and
+  data structures. [`No license`]
+  * [dhuertas/AES][26-28] - AES algorithm implementation in C. [`No license`]
+  * [duckythescientist/obfuscatedLife][26-29] - Conway's Game of Life in 9 lines
+  of C. [`No license`]
   * [jmcejuela/Levenshtein-MySQL-UDF](https://github.com/jmcejuela/Levenshtein-MySQL-UDF) - General Levenshtein algorithm and k-bounded levenshtein distance in linear time and constant space. Implementation in C as a MySQL UDF
   * [jobovy/extreme-deconvolution](https://github.com/jobovy/extreme-deconvolution) - Density estimation using Gaussian mixtures in the presence of noisy, heterogeneous and incomplete data
   * [jrd730/WordFinder](https://github.com/jrd730/WordFinder) - a data structure that specializes in rapidly finding valid anagrams of strings
@@ -1224,6 +1225,21 @@ Incorporated lists:
   [26-12]: https://github.com/CVLearner/Mixture-of-Gaussians/blob/master/LICENSE
   [26-13]: https://github.com/Cyan4973/FiniteStateEntropy
   [26-14]: https://github.com/Cyan4973/FiniteStateEntropy/blob/dev/LICENSE
+  [26-15]: https://github.com/Kevincav/Radix-Sort
+  [26-16]: https://github.com/Kevincav/Radix-Sort/blob/master/LICENSE.txt
+  [26-17]: https://github.com/TheAlgorithms/C
+  [26-18]: https://github.com/agl/curve25519-donna
+  [26-19]: https://github.com/agl/curve25519-donna/blob/master/LICENSE.md
+  [26-20]: https://github.com/ai-ku/scode
+  [26-21]: https://github.com/ai-ku/scode/blob/master/LICENSE
+  [26-22]: https://github.com/aimxhaisse/des
+  [26-23]: https://github.com/aimxhaisse/des#license
+  [26-24]: https://github.com/chaoslawful/ccard-lib
+  [26-25]: https://github.com/citiususc/BigBWA
+  [26-26]: https://github.com/citiususc/BigBWA/blob/master/LICENSE
+  [26-27]: https://github.com/davidreynolds/algorithms
+  [26-28]: https://github.com/dhuertas/AES
+  [26-29]: https://github.com/duckythescientist/obfuscatedLife
 </details>
 
 ## Argument Parsing ##
@@ -1324,6 +1340,7 @@ Incorporated lists:
 * [libtom/libtommath](https://github.com/libtom/libtommath) - LibTomMath is a free open source portable number theoretic multiple-precision integer library written entirely in C.
 * [libtom/tomsfastmath](https://github.com/libtom/tomsfastmath) - TomsFastMath is a fast public domain, open source, large integer arithmetic library written in portable ISO C.
 * [PetteriAimonen/libfixmatrix](https://github.com/PetteriAimonen/libfixmatrix) - C library for fixed point matrix, quaternion and vector calculations.
+* [cvxgrp/scs](https://github.com/cvxgrp/scs) - C package that solves convex cone problems via operator splitting
 
 ## Compression ##
 * [blosc][25] - Fast, multi-threaded, meta-compressor library. Various licenses,
