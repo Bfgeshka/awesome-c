@@ -1200,25 +1200,27 @@ Incorporated lists:
   * [dhuertas/AES][26-28] - AES algorithm implementation in C. [`No license`]
   * [duckythescientist/obfuscatedLife][26-29] - Conway's Game of Life in 9 lines
   of C. [`No license`]
-  * [jmcejuela/Levenshtein-MySQL-UDF](https://github.com/jmcejuela/Levenshtein-MySQL-UDF) - General Levenshtein algorithm and k-bounded levenshtein distance in linear time and constant space. Implementation in C as a MySQL UDF
-  * [jobovy/extreme-deconvolution](https://github.com/jobovy/extreme-deconvolution) - Density estimation using Gaussian mixtures in the presence of noisy, heterogeneous and incomplete data
-  * [jrd730/WordFinder](https://github.com/jrd730/WordFinder) - a data structure that specializes in rapidly finding valid anagrams of strings
-  * [kljensen/Gemoda](https://github.com/kljensen/Gemoda) - A generic motif discovery algorithm for sequential data
-  * [kokke/tiny-AES-c](https://github.com/kokke/tiny-AES-c) - Small portable AES128/192/256 in C
-  * [kokke/tiny-AES128-C](https://github.com/kokke/tiny-AES128-C) - Small portable AES128/192/256 in C
-  * [kroitor/gjk.c](https://github.com/kroitor/gjk.c) - Gilbert-Johnson-Keerthi (GJK) collision detection algorithm in 200 lines of clean plain C
-  * [kurtisthompson/Algorithms](https://github.com/kurtisthompson/Algorithms) - Random assortment of Interesting data structures and/or algorithms and academic work
-  * [lacker/ikalman](https://github.com/lacker/ikalman) - An iPhone-friendly Kalman filter written in C.
-  * [leecarraher/CardinalityShiftClustering](https://github.com/leecarraher/CardinalityShiftClustering) - MOVED -- https://github.com/wilseypa/rphash -- Ongoing research into communication minimizing parallel data clustering for an LSH accelerated random projection mean-shift algorithm.
-  * [licstar/compare](https://github.com/licstar/compare) - compare embedding
-  * [mischasan/aho-corasick](https://github.com/mischasan/aho-corasick) - A-C implementation in "C". Tight-packed (interleaved) state-transition matrix -- as fast as it gets, as small as it gets.
-  * [mmadry/st-hmp](https://github.com/mmadry/st-hmp) - Implementation of the Spatio-Temporal Hierarchical Matching Pursuit (ST-HMP) descriptor
-  * [msteinbeck/tinyspline](https://github.com/msteinbeck/tinyspline) - ANSI C library for NURBS, B-Splines, and Bézier curves with interfaces for C++, C#, D, Java, Lua, Octave, PHP, Python, R, and Ruby
-  * [oap/ekf-angles](https://github.com/oap/ekf-angles) - Extended Kalman Filter for Accelerometer and Gyro data
-  * [ntamas/plfit](https://github.com/ntamas/plfit) - Fitting power-law distributions to empirical data, according to the method of Clauset, Shalizi and Newman
-  * [richarddurbin/pbwt](https://github.com/richarddurbin/pbwt) - Implementation of Positional Burrows-Wheeler Transform for genetic data
-  * [tarequeh/DES](https://github.com/tarequeh/DES) - Implementation of Data Encryption Standard (DES) in C
-  * [tsuraan/Jerasure](https://github.com/tsuraan/Jerasure) - Github repo for Jerasure Library - C Implementation of Reed-Solomon coding
+  * [jmcejuela/Levenshtein-MySQL-UDF][26-30] - General Levenshtein algorithm and
+  k-bounded levenshtein distance in linear time and constant space. [`LGPL 3`][26-31]
+  * [kljensen/Gemoda][26-32] - A generic motif discovery algorithm for
+  sequential data. [`GPL 2`][26-33]
+  * [kokke/tiny-AES-c][26-34] - Small portable AES128/192/256 in C. [`Unlicense`][26-35]
+  * [kroitor/gjk.c][26-36] - Gilbert-Johnson-Keerthi (GJK) collision detection
+  algorithm in 200 lines of clean plain C. [`WTFPL`][26-37]
+  * [lacker/ikalman][26-38] - An iPhone-friendly Kalman filter written in C. [`MIT`][26-39]
+  * [mischasan/aho-corasick][26-40] - A-C implementation in "C". Tight-packed
+  (interleaved) state-transition matrix. [`LGPL 3`][26-41]
+  * [msteinbeck/tinyspline][26-42] - ANSI C library for NURBS, B-Splines, and
+  Bézier curves with interfaces for C++, C#, D, Java, Lua, Octave, PHP, Python,
+  R, and Ruby. [`MIT`][26-43]
+  * [oap/ekf-angles][26-44] - Extended Kalman Filter for Accelerometer and Gyro
+  data. [`No license`]
+  * [ntamas/plfit][26-45] - Fitting power-law distributions to empirical data,
+  according to the method of Clauset, Shalizi and Newman. [`License`][26-46]
+  * [richarddurbin/pbwt][26-47] - Implementation of Positional Burrows-Wheeler
+  Transform for genetic data. [`License`][26-48]
+  * [tarequeh/DES][26-49] - Implementation of Data Encryption Standard in C. [`MIT`][26-50]
+  * [tsuraan/Jerasure][26-51] - C Implementation of Reed-Solomon coding. [`License`][26-52]
 
   [26-1]: https://github.com/swenson/sort
   [26-2]: https://github.com/swenson/sort/blob/master/LICENSE.md
@@ -1249,6 +1251,29 @@ Incorporated lists:
   [26-27]: https://github.com/davidreynolds/algorithms
   [26-28]: https://github.com/dhuertas/AES
   [26-29]: https://github.com/duckythescientist/obfuscatedLife
+  [26-30]: https://github.com/jmcejuela/Levenshtein-MySQL-UDF
+  [26-31]: https://github.com/juanmirocks/Levenshtein-MySQL-UDF/blob/master/LICENSE
+  [26-32]: https://github.com/kljensen/Gemoda
+  [26-33]: https://github.com/kljensen/Gemoda/blob/master/COPYING
+  [26-34]: https://github.com/kokke/tiny-AES-c
+  [26-35]: https://github.com/kokke/tiny-AES-c/blob/master/unlicense.txt
+  [26-36]: https://github.com/kroitor/gjk.c
+  [26-37]: https://github.com/kroitor/gjk.c/blob/master/LICENSE.txt
+  [26-38]: https://github.com/lacker/ikalman
+  [26-39]: https://github.com/lacker/ikalman/blob/master/LICENSE
+  [26-40]: https://github.com/mischasan/aho-corasick
+  [26-41]: https://github.com/mischasan/aho-corasick/blob/master/LICENSE
+  [26-42]: https://github.com/msteinbeck/tinyspline
+  [26-43]: https://github.com/msteinbeck/tinyspline/blob/master/LICENSE
+  [26-44]: https://github.com/oap/ekf-angles
+  [26-45]: https://github.com/ntamas/plfit
+  [26-46]: https://github.com/ntamas/plfit/blob/master/src/main.c
+  [26-47]: https://github.com/richarddurbin
+  [26-48]: https://github.com/richarddurbin/pbwt/blob/master/utils.c
+  [26-49]: https://github.com/tarequeh/DES
+  [26-50]: https://github.com/tarequeh/DES/blob/master/LICENSE
+  [26-51]: https://github.com/tsuraan/Jerasure
+  [26-52]: https://github.com/tsuraan/Jerasure/blob/master/License.txt
 </details>
 
 ## Argument Parsing ##
@@ -2782,7 +2807,6 @@ Math mostly located in *Calculations* category
 * [qiq/Czech-morphology](https://github.com/qiq/Czech-morphology) - Czech morphology library, using data files compatible with PDT 2.0
 * [sleuthkit/sleuthkit](https://github.com/sleuthkit/sleuthkit) - The Sleuth Kit® (TSK) is a library and collection of command line digital forensics tools that allow you to investigate volume and file system data. The library can be incorporated into larger digital forensics tools and the command line tools can be directly used to find evidence.
 * [hroptatyr/uterus](https://github.com/hroptatyr/uterus) - universal tick encoder library to efficiently transport huge amounts of tick data
-* [retuxx/tinyspline](https://github.com/retuxx/tinyspline) - ANSI C library for NURBS, B-Splines, and Bézier curves with wrappers for C++11, C#, Java, Lua, PHP, Python, and Ruby
 * [slim-curve/slim-curve](https://github.com/slim-curve/slim-curve) - SLIM Curve: a package for exponential curve fitting of combined spectral lifetime image data
 
 ## Standard Libraries ##
