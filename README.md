@@ -1100,7 +1100,7 @@ Incorporated lists:
   framework for Java/C#. [`No license`]
   * [glouw/tinn][25-28] - The tiny neural network library. [`MIT`][25-29]
   * [iunderstand/SWE][25-30] - Learning Semantic Word Embeddings based on
-  Ordinal Knowledge Constraints. [25-31]
+  Ordinal Knowledge Constraints. [`Apache 2`][25-31]
   * [robwhess/opensift][25-32] - Open-Source SIFT Library. [`License`][25-33]
   * [ufoym/recursive-bf][25-34] - A lightweight library for recursive bilateral
   filtering. [`MIT`][25-35]
