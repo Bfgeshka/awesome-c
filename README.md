@@ -1073,43 +1073,43 @@ Incorporated lists:
   <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand AI</summary>
 
   Neural nets, machine learning, pattern recognition etc.
-  * [attractivechaos/kann][25-1] - Two-file ANN library. [`MIT`][25-2]
-  * [jppbsi/LibDEEP][25-3] - Deep learning library. [`No license`]
+  * [cjac/cmusphinx][25-20] - CMU Sphinx - Speech Recognition Toolkit. [`Licenses`][25-21]
   * [100/Cranium][25-4] - A portable, header-only, artificial neural network
   library written in C99. [`MIT`][25-5]
+  * [pjreddie/darknet][25-42] - Convolutional Neural Networks. [`License`][25-43]
+  * [TheWeatherChannel/dClass][25-16] - Device Classification Engine. [`Apache 2`][25-17]
   * [2hanson/DecisionTree][25-6] - Decision Tree. [`MIT`][25-7]
+  * [yusugomori/DeepLearning][25-40] - Deep Learning (several languages, C
+  included). [`MIT`][25-41]
+  * [encog/encog-c][25-27] - C implementation of Encog - machine learning
+  framework for Java/C#. [`No license`]
+  * [codeplea/genann][25-24] - simple neural network library in ANSI C. [`Zlib`][25-25]
+  * [attractivechaos/kann][25-1] - Two-file ANN library. [`MIT`][25-2]
   * [Blei-Lab/lda-c][25-8] - This is a C implementation of variational EM for
   latent Dirichlet allocation (LDA), a topic model for text or other discrete
   data. [`LGPL 2.1`][25-9]
-  * [GHamrouni/Recommender][25-10] - A C library for product
-  recommendations/suggestions using collaborative filtering (CF). [`BSD 2-Clause`][25-11]
+  * [jppbsi/LibDEEP][25-3] - Deep learning library. [`No license`]
   * [H2CO3/libsprec][25-12] - C library for speech recognition using the Google
   Speech API. [`License`][25-13]
-  * [HIPS/Probabilistic-Backpropagation][25-14] - Implementation in C and Theano
-  of the method Probabilistic Backpropagation for scalable Bayesian inference in
-  deep neural networks. [`BSD 3-Clause`][25-15]
-  * [TheWeatherChannel/dClass][25-16] - Device Classification Engine. [`Apache 2`][25-17]
-  * [antirez/shapeme][25-18] - Evolve images using simulated annealing. [`BSD 2-Clause`][25-19]
-  * [cjac/cmusphinx][25-20] - CMU Sphinx - Speech Recognition Toolkit. [`Licenses`][25-21]
+  * [robwhess/opensift][25-32] - Open-Source SIFT Library. [`License`][25-33]
+  * [dake/openVP][25-26] - Voice Print Recognition in C language. [`No license`]
   * [cmusphinx/pocketsphinx][25-22] - Lightweight speech recognition engine,
   specifically tuned for handheld and mobile devices, though it works equally
   well on the desktop. [`BSD 2-Clause`][25-23]
-  * [codeplea/genann][25-24] - simple neural network library in ANSI C. [`Zlib`][25-25]
-  * [dake/openVP][25-26] - Voice Print Recognition in C language. [`No license`]
-  * [encog/encog-c][25-27] - C implementation of Encog - machine learning
-  framework for Java/C#. [`No license`]
-  * [glouw/tinn][25-28] - The tiny neural network library. [`MIT`][25-29]
-  * [iunderstand/SWE][25-30] - Learning Semantic Word Embeddings based on
-  Ordinal Knowledge Constraints. [`Apache 2`][25-31]
-  * [robwhess/opensift][25-32] - Open-Source SIFT Library. [`License`][25-33]
+  * [HIPS/Probabilistic-Backpropagation][25-14] - Implementation in C and Theano
+  of the method Probabilistic Backpropagation for scalable Bayesian inference in
+  deep neural networks. [`BSD 3-Clause`][25-15]
+  * [GHamrouni/Recommender][25-10] - A C library for product
+  recommendations/suggestions using collaborative filtering (CF). [`BSD 2-Clause`][25-11]
   * [ufoym/recursive-bf][25-34] - A lightweight library for recursive bilateral
   filtering. [`MIT`][25-35]
+  * [xiph/rnnoise][25-38] - Recurrent neural network for audio noise reduction. [`License`][25-39]
+  * [antirez/shapeme][25-18] - Evolve images using simulated annealing. [`BSD 2-Clause`][25-19]
   * [symisc/sod][25-36] - An Embedded Computer Vision & Machine Learning Library
   (CPU Optimized & IoT Capable). [`GPL 3`][25-37]
-  * [xiph/rnnoise][25-38] - Recurrent neural network for audio noise reduction. [`License`][25-39]
-  * [yusugomori/DeepLearning][25-40] - Deep Learning (several languages, C
-  included). [`MIT`][25-41]
-  * [pjreddie/darknet][25-42] - Convolutional Neural Networks. [`License`][25-43]
+  * [iunderstand/SWE][25-30] - Learning Semantic Word Embeddings based on
+  Ordinal Knowledge Constraints. [`Apache 2`][25-31]
+  * [glouw/tinn][25-28] - The tiny neural network library. [`MIT`][25-29]
 
   [25-1]: https://github.com/attractivechaos/kann
   [25-2]: https://github.com/attractivechaos/kann/blob/master/LICENSE.txt
@@ -1156,51 +1156,56 @@ Incorporated lists:
   [25-43]: https://github.com/pjreddie/darknet/blob/master/LICENSE
 </details>
 
-## Algoritm Implementations ##
-* [sort][434] - Collection of sorting routines, which type-specialize at
+<a id="algoritm-implementations"></a>
+## <a href="#-">`^`</a> Algoritm Implementations ##
+<details>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Algoritm Implementations</summary>
+
+  * [sort][434] - Collection of sorting routines, which type-specialize at
   compile-time with a user-defined type. [``MIT``][MIT]
-* [dlx][418] - Implementation of [Knuth's Algorithm X][419], with example
+  * [dlx][418] - Implementation of [Knuth's Algorithm X][419], with example
   solvers. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [BigZaphod/AStar](https://github.com/BigZaphod/AStar) - C Implementation of the A* Pathfinding Algorithm
-* [uastar][195] - Minimal A\* implementation. [``ZLib``][Zlib]
-* [BlackLight/fkmeans](https://github.com/BlackLight/fkmeans) - A tiny library in C for managing kmeans clusterization algorithm over arbitrary data sets, both by manually specifying the number k of clusters and computing it automatically using Schwarz criterion
-* [CVLearner/Mixture-of-Gaussians](https://github.com/CVLearner/Mixture-of-Gaussians) - Fit a Gaussian mixture model given a set of data
-* [Cyan4973/FiniteStateEntropy](https://github.com/Cyan4973/FiniteStateEntropy) - New generation entropy codecs : Finite State Entropy and Huff0
-* [IAIK/CJAG](https://github.com/IAIK/CJAG) - CJAG is an open-source implementation of our cache-based jamming agreement.
-* [Kevincav/Radix-Sort](https://github.com/Kevincav/Radix-Sort) - Radix Sort with different data types.
-* [Soryusan/Ranking_Algorithm](https://github.com/Soryusan/Ranking_Algorithm) - Ranking algorithm data collector/cruncher
-* [TheAlgorithms/C](https://github.com/TheAlgorithms/C) - All Algorithms implemented in C
-* [agl/curve25519-donna](https://github.com/agl/curve25519-donna) - Implementations of a fast Elliptic-curve Diffie-Hellman primitive
-* [ai-ku/scode](https://github.com/ai-ku/scode) - Sphere embedding (s-code) is a variation of Euclidean embedding of co-occurence data (code).
-* [aimxhaisse/des](https://github.com/aimxhaisse/des) - C implementation of Data Encryption Standard
-* [ajrisi/fsm](https://github.com/ajrisi/fsm) - A finite state machine engine in C - used as a parser for complex data structures
-* [chaoslawful/ccard-lib](https://github.com/chaoslawful/ccard-lib) - C library for estimating cardinality in streams for which it is infeasible to store all events in memory
-* [citiususc/BigBWA](https://github.com/citiususc/BigBWA) - Approaching the Burrows-Wheeler Aligner to Big Data Technologies
-* [coolwanglu/quantile-alg](https://github.com/coolwanglu/quantile-alg) - Algorithms for finding quantiles of a data stream
-* [cvxgrp/scs](https://github.com/cvxgrp/scs) - C package that solves convex cone problems via operator splitting
-* [davidreynolds/algorithms](https://github.com/davidreynolds/algorithms) - A repository of assorted algorithms and data structures.
-* [dhuertas/AES](https://github.com/dhuertas/AES) - AES algorithm implementation in C
-* [duckythescientist/obfuscatedLife](https://github.com/duckythescientist/obfuscatedLife) - Conway's Game of Life in 9 lines of C
-* [jmcejuela/Levenshtein-MySQL-UDF](https://github.com/jmcejuela/Levenshtein-MySQL-UDF) - General Levenshtein algorithm and k-bounded levenshtein distance in linear time and constant space. Implementation in C as a MySQL UDF
-* [jobovy/extreme-deconvolution](https://github.com/jobovy/extreme-deconvolution) - Density estimation using Gaussian mixtures in the presence of noisy, heterogeneous and incomplete data
-* [jrd730/WordFinder](https://github.com/jrd730/WordFinder) - a data structure that specializes in rapidly finding valid anagrams of strings
-* [kljensen/Gemoda](https://github.com/kljensen/Gemoda) - A generic motif discovery algorithm for sequential data
-* [kokke/tiny-AES-c](https://github.com/kokke/tiny-AES-c) - Small portable AES128/192/256 in C
-* [kokke/tiny-AES128-C](https://github.com/kokke/tiny-AES128-C) - Small portable AES128/192/256 in C
-* [kroitor/gjk.c](https://github.com/kroitor/gjk.c) - Gilbert-Johnson-Keerthi (GJK) collision detection algorithm in 200 lines of clean plain C
-* [kurtisthompson/Algorithms](https://github.com/kurtisthompson/Algorithms) - Random assortment of Interesting data structures and/or algorithms and academic work
-* [lacker/ikalman](https://github.com/lacker/ikalman) - An iPhone-friendly Kalman filter written in C.
-* [leecarraher/CardinalityShiftClustering](https://github.com/leecarraher/CardinalityShiftClustering) - MOVED -- https://github.com/wilseypa/rphash -- Ongoing research into communication minimizing parallel data clustering for an LSH accelerated random projection mean-shift algorithm.
-* [licstar/compare](https://github.com/licstar/compare) - compare embedding
-* [mischasan/aho-corasick](https://github.com/mischasan/aho-corasick) - A-C implementation in "C". Tight-packed (interleaved) state-transition matrix -- as fast as it gets, as small as it gets.
-* [mmadry/st-hmp](https://github.com/mmadry/st-hmp) - Implementation of the Spatio-Temporal Hierarchical Matching Pursuit (ST-HMP) descriptor presented in the paper: M. Madry, L. Bo, D. Kragic, D. Fox, "ST-HMP: Unsupervised Spatio-Temporal Feature Learning for Tactile Data". In ICRA, 2014 (Download: http://www.nada.kth.se/~madry/publications/madry2014ICRA.pdf).
-* [msteinbeck/tinyspline](https://github.com/msteinbeck/tinyspline) - ANSI C library for NURBS, B-Splines, and Bézier curves with interfaces for C++, C#, D, Java, Lua, Octave, PHP, Python, R, and Ruby
-* [oap/ekf-angles](https://github.com/oap/ekf-angles) - Extended Kalman Filter for Accelerometer and Gyro data
-* [ntamas/plfit](https://github.com/ntamas/plfit) - Fitting power-law distributions to empirical data, according to the method of Clauset, Shalizi and Newman
-* [richarddurbin/pbwt](https://github.com/richarddurbin/pbwt) - Implementation of Positional Burrows-Wheeler Transform for genetic data
-* [swenson/sort](https://github.com/swenson/sort) - Sorting routine implementations in "template" C
-* [tarequeh/DES](https://github.com/tarequeh/DES) - Implementation of Data Encryption Standard (DES) in C
-* [tsuraan/Jerasure](https://github.com/tsuraan/Jerasure) - Github repo for Jerasure Library - C Implementation of Reed-Solomon coding
+  * [BigZaphod/AStar](https://github.com/BigZaphod/AStar) - C Implementation of the A* Pathfinding Algorithm
+  * [uastar][195] - Minimal A\* implementation. [``ZLib``][Zlib]
+  * [BlackLight/fkmeans](https://github.com/BlackLight/fkmeans) - A tiny library in C for managing kmeans clusterization algorithm over arbitrary data sets, both by manually specifying the number k of clusters and computing it automatically using Schwarz criterion
+  * [CVLearner/Mixture-of-Gaussians](https://github.com/CVLearner/Mixture-of-Gaussians) - Fit a Gaussian mixture model given a set of data
+  * [Cyan4973/FiniteStateEntropy](https://github.com/Cyan4973/FiniteStateEntropy) - New generation entropy codecs : Finite State Entropy and Huff0
+  * [IAIK/CJAG](https://github.com/IAIK/CJAG) - CJAG is an open-source implementation of our cache-based jamming agreement.
+  * [Kevincav/Radix-Sort](https://github.com/Kevincav/Radix-Sort) - Radix Sort with different data types.
+  * [Soryusan/Ranking_Algorithm](https://github.com/Soryusan/Ranking_Algorithm) - Ranking algorithm data collector/cruncher
+  * [TheAlgorithms/C](https://github.com/TheAlgorithms/C) - All Algorithms implemented in C
+  * [agl/curve25519-donna](https://github.com/agl/curve25519-donna) - Implementations of a fast Elliptic-curve Diffie-Hellman primitive
+  * [ai-ku/scode](https://github.com/ai-ku/scode) - Sphere embedding (s-code) is a variation of Euclidean embedding of co-occurence data (code).
+  * [aimxhaisse/des](https://github.com/aimxhaisse/des) - C implementation of Data Encryption Standard
+  * [ajrisi/fsm](https://github.com/ajrisi/fsm) - A finite state machine engine in C - used as a parser for complex data structures
+  * [chaoslawful/ccard-lib](https://github.com/chaoslawful/ccard-lib) - C library for estimating cardinality in streams for which it is infeasible to store all events in memory
+  * [citiususc/BigBWA](https://github.com/citiususc/BigBWA) - Approaching the Burrows-Wheeler Aligner to Big Data Technologies
+  * [coolwanglu/quantile-alg](https://github.com/coolwanglu/quantile-alg) - Algorithms for finding quantiles of a data stream
+  * [cvxgrp/scs](https://github.com/cvxgrp/scs) - C package that solves convex cone problems via operator splitting
+  * [davidreynolds/algorithms](https://github.com/davidreynolds/algorithms) - A repository of assorted algorithms and data structures.
+  * [dhuertas/AES](https://github.com/dhuertas/AES) - AES algorithm implementation in C
+  * [duckythescientist/obfuscatedLife](https://github.com/duckythescientist/obfuscatedLife) - Conway's Game of Life in 9 lines of C
+  * [jmcejuela/Levenshtein-MySQL-UDF](https://github.com/jmcejuela/Levenshtein-MySQL-UDF) - General Levenshtein algorithm and k-bounded levenshtein distance in linear time and constant space. Implementation in C as a MySQL UDF
+  * [jobovy/extreme-deconvolution](https://github.com/jobovy/extreme-deconvolution) - Density estimation using Gaussian mixtures in the presence of noisy, heterogeneous and incomplete data
+  * [jrd730/WordFinder](https://github.com/jrd730/WordFinder) - a data structure that specializes in rapidly finding valid anagrams of strings
+  * [kljensen/Gemoda](https://github.com/kljensen/Gemoda) - A generic motif discovery algorithm for sequential data
+  * [kokke/tiny-AES-c](https://github.com/kokke/tiny-AES-c) - Small portable AES128/192/256 in C
+  * [kokke/tiny-AES128-C](https://github.com/kokke/tiny-AES128-C) - Small portable AES128/192/256 in C
+  * [kroitor/gjk.c](https://github.com/kroitor/gjk.c) - Gilbert-Johnson-Keerthi (GJK) collision detection algorithm in 200 lines of clean plain C
+  * [kurtisthompson/Algorithms](https://github.com/kurtisthompson/Algorithms) - Random assortment of Interesting data structures and/or algorithms and academic work
+  * [lacker/ikalman](https://github.com/lacker/ikalman) - An iPhone-friendly Kalman filter written in C.
+  * [leecarraher/CardinalityShiftClustering](https://github.com/leecarraher/CardinalityShiftClustering) - MOVED -- https://github.com/wilseypa/rphash -- Ongoing research into communication minimizing parallel data clustering for an LSH accelerated random projection mean-shift algorithm.
+  * [licstar/compare](https://github.com/licstar/compare) - compare embedding
+  * [mischasan/aho-corasick](https://github.com/mischasan/aho-corasick) - A-C implementation in "C". Tight-packed (interleaved) state-transition matrix -- as fast as it gets, as small as it gets.
+  * [mmadry/st-hmp](https://github.com/mmadry/st-hmp) - Implementation of the Spatio-Temporal Hierarchical Matching Pursuit (ST-HMP) descriptor
+  * [msteinbeck/tinyspline](https://github.com/msteinbeck/tinyspline) - ANSI C library for NURBS, B-Splines, and Bézier curves with interfaces for C++, C#, D, Java, Lua, Octave, PHP, Python, R, and Ruby
+  * [oap/ekf-angles](https://github.com/oap/ekf-angles) - Extended Kalman Filter for Accelerometer and Gyro data
+  * [ntamas/plfit](https://github.com/ntamas/plfit) - Fitting power-law distributions to empirical data, according to the method of Clauset, Shalizi and Newman
+  * [richarddurbin/pbwt](https://github.com/richarddurbin/pbwt) - Implementation of Positional Burrows-Wheeler Transform for genetic data
+  * [swenson/sort](https://github.com/swenson/sort) - Sorting routine implementations in "template" C
+  * [tarequeh/DES](https://github.com/tarequeh/DES) - Implementation of Data Encryption Standard (DES) in C
+  * [tsuraan/Jerasure](https://github.com/tsuraan/Jerasure) - Github repo for Jerasure Library - C Implementation of Reed-Solomon coding
+</details>
 
 ## Argument Parsing ##
 * [parg][410] - A single-file reimplementation of ``getopt`` with better
