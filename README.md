@@ -1073,8 +1073,8 @@ Incorporated lists:
   <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand AI</summary>
 
   Neural nets, machine learning, pattern recognition etc.
-  * [KANN][25-1] - Two-file ANN library. [`MIT`][25-2]
-  * [LibDEEP][25-3] - Deep learning library. [`No license`]
+  * [attractivechaos/kann][25-1] - Two-file ANN library. [`MIT`][25-2]
+  * [jppbsi/LibDEEP][25-3] - Deep learning library. [`No license`]
   * [100/Cranium][25-4] - A portable, header-only, artificial neural network
   library written in C99. [`MIT`][25-5]
   * [2hanson/DecisionTree][25-6] - Decision Tree. [`MIT`][25-7]
@@ -1101,16 +1101,15 @@ Incorporated lists:
   * [glouw/tinn][25-28] - The tiny neural network library. [`MIT`][25-29]
   * [iunderstand/SWE][25-30] - Learning Semantic Word Embeddings based on
   Ordinal Knowledge Constraints. [25-31]
-  * [knossos-project/knossos][25-32] - Software tool for the visualization and
-  annotation of 3D image data and was developed for the rapid reconstruction of
-  neural morphology and connectivity. [25-33]
-  * [robwhess/opensift](https://github.com/robwhess/opensift) - Open-Source SIFT Library
-  * [torch/DEPRECEATED-torch7-distro](https://github.com/torch/DEPRECEATED-torch7-distro) - Torch7: state-of-the-art machine learning algorithms
-  * [ufoym/recursive-bf](https://github.com/ufoym/recursive-bf) - A lightweight C++ library for recursive bilateral filtering.
-  * [symisc/sod](https://github.com/symisc/sod) - An Embedded Computer Vision & Machine Learning Library (CPU Optimized & IoT Capable)
-  * [xiph/rnnoise](https://github.com/xiph/rnnoise) - Recurrent neural network for audio noise reduction
-  * [yusugomori/DeepLearning](https://github.com/yusugomori/DeepLearning) - Deep Learning (Python, C/C++, Java, Scala, Go)
-  * [pjreddie/darknet](https://github.com/pjreddie/darknet) - neural networks.
+  * [robwhess/opensift][25-32] - Open-Source SIFT Library. [`License`][25-33]
+  * [ufoym/recursive-bf][25-34] - A lightweight library for recursive bilateral
+  filtering. [`MIT`][25-35]
+  * [symisc/sod][25-36] - An Embedded Computer Vision & Machine Learning Library
+  (CPU Optimized & IoT Capable). [`GPL 3`][25-37]
+  * [xiph/rnnoise][25-38] - Recurrent neural network for audio noise reduction. [`License`][25-39]
+  * [yusugomori/DeepLearning][25-40] - Deep Learning (several languages, C
+  included). [`MIT`][25-41]
+  * [pjreddie/darknet][25-42] - Convolutional Neural Networks. [`License`][25-43]
 
   [25-1]: https://github.com/attractivechaos/kann
   [25-2]: https://github.com/attractivechaos/kann/blob/master/LICENSE.txt
@@ -1143,7 +1142,18 @@ Incorporated lists:
   [25-29]: https://github.com/glouw/tinn/blob/master/LICENSE
   [25-30]: https://github.com/iunderstand/SWE
   [25-31]: https://github.com/iunderstand/SWE/blob/master/LICENSE
-  [25-32]: https://github.com/knossos-project/knossos
+  [25-32]: https://github.com/robwhess/opensift
+  [25-33]: https://github.com/robwhess/opensift/blob/master/LICENSE
+  [25-34]: https://github.com/ufoym/recursive-bf
+  [25-35]: https://github.com/ufoym/recursive-bf/blob/master/LICENSE
+  [25-36]: https://github.com/symisc/sod
+  [25-37]: https://github.com/symisc/sod/blob/master/LICENSE
+  [25-38]: https://github.com/xiph/rnnoise
+  [25-39]: https://github.com/xiph/rnnoise/blob/master/COPYING
+  [25-40]: https://github.com/yusugomori/DeepLearning
+  [25-41]: https://github.com/yusugomori/DeepLearning/blob/master/LICENSE.txt
+  [25-42]: https://github.com/pjreddie/darknet
+  [25-43]: https://github.com/pjreddie/darknet/blob/master/LICENSE
 </details>
 
 ## Algoritm Implementations ##
