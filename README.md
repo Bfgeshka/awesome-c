@@ -11,6 +11,14 @@ them all, and many more other resources. Consider it my personal cheat sheet and
 index for easier search instead of github stars. Also, original list categories
 are a mess.
 
+**Note:** all licenses after project descriptions are leading to actual license
+text or declaration, if any provided. Source code with no license attached is
+considered as automatically copyrighted by law or it is falling under the case
+of terms of service of provided source code publication and hosting service, so
+keep this in mind.
+
+I am not an attorney btw.
+
 Incorporated lists:
 
 * https://github.com/aleksandar-todorovic/awesome-c (rare updates, too vague and
