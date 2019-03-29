@@ -1276,15 +1276,30 @@ Incorporated lists:
   [26-52]: https://github.com/tsuraan/Jerasure/blob/master/License.txt
 </details>
 
-## Argument Parsing ##
-* [parg][410] - A single-file reimplementation of ``getopt`` with better
-  defaults. [``CC0-1.0``][CC0-1.0]
-* [docopt.c][412] - Implementation of a command-line option parser. [``MIT``][MIT]
-* [PaulStoffregen/teensy_loader_cli](https://github.com/PaulStoffregen/teensy_loader_cli) - Command line Teensy Loader
-* [clibs/flag](https://github.com/clibs/flag) - Go-style flag parsing for C
-* [clibs/commander](https://github.com/clibs/commander) - Commander option parser ported to C - simple API, auto-generated --help
-* [cofyc/argparse](https://github.com/cofyc/argparse) - Command-line arguments parsing library.
-* [tanakh/cmdline](https://github.com/tanakh/cmdline) - A Command Line Parser
+<a id="argument-parsing"></a>
+## <a href="#-">`^`</a> Argument Parsing ##
+<details>
+  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Argument Parsing</summary>
+
+  * [jibsen/parg][27-1] - A single-file reimplementation of getopt with better
+  defaults. [`License`][27-2]
+  * [docopt/docopt.c][27-3] - Implementation of a command-line option parser. [`MIT`][27-4]
+  * [clibs/flag][27-5] - Go-style flag parsing for C. [`MIT`][27-6]
+  * [clibs/commander][27-7] - Commander option parser ported to C - simple API,
+  auto-generated --help. [`MIT`][27-8]
+  * [cofyc/argparse][27-9] - Command-line arguments parsing library. [`MIT`][27-10]
+
+  [27-1]: https://github.com/jibsen/parg
+  [27-2]: https://github.com/jibsen/parg/blob/master/COPYING
+  [27-3]: https://github.com/docopt/docopt.c
+  [27-4]: https://github.com/docopt/docopt.c/blob/master/LICENSE-MIT
+  [27-5]: https://github.com/clibs/flag
+  [27-6]: https://github.com/clibs/flag/blob/master/LICENSE
+  [27-7]: https://github.com/clibs/commander
+  [27-8]: https://github.com/clibs/commander#license
+  [27-9]: https://github.com/cofyc/argparse
+  [27-10]: https://github.com/cofyc/argparse/blob/master/LICENSE
+</details>
 
 ## Calculations ##
 * [apophenia][250] - Library for statistical and scientific computing. [``GPL-2.0-only``][GPL-2.0-only]
@@ -3052,9 +3067,6 @@ Comprehensive and integrated solutions for building web application in C.
 [414]: https://www.gnu.org/software/gperf/
 [413]: https://brechtsanders.github.io/xlsxio/
 
-[412]: https://github.com/docopt/docopt.c
-[411]: https://github.com/cofyc/argparse
-[410]: https://github.com/jibsen/parg
 
 [409]: https://github.com/google/cpu_features
 [408]: https://github.com/libimobiledevice/libimobiledevice
