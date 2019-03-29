@@ -1161,15 +1161,20 @@ Incorporated lists:
 <details>
   <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Algoritm Implementations</summary>
 
-  * [sort][434] - Collection of sorting routines, which type-specialize at
-  compile-time with a user-defined type. [``MIT``][MIT]
-  * [dlx][418] - Implementation of [Knuth's Algorithm X][419], with example
-  solvers. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-  * [BigZaphod/AStar](https://github.com/BigZaphod/AStar) - C Implementation of the A* Pathfinding Algorithm
-  * [uastar][195] - Minimal A\* implementation. [``ZLib``][Zlib]
-  * [BlackLight/fkmeans](https://github.com/BlackLight/fkmeans) - A tiny library in C for managing kmeans clusterization algorithm over arbitrary data sets, both by manually specifying the number k of clusters and computing it automatically using Schwarz criterion
-  * [CVLearner/Mixture-of-Gaussians](https://github.com/CVLearner/Mixture-of-Gaussians) - Fit a Gaussian mixture model given a set of data
-  * [Cyan4973/FiniteStateEntropy](https://github.com/Cyan4973/FiniteStateEntropy) - New generation entropy codecs : Finite State Entropy and Huff0
+  Some generic agoritms or ones with no specific attachments.
+  * [swenson/sort][26-1] - Collection of sorting routines, which type-specialize
+  at compile-time with a user-defined type. [`MIT`][26-2]
+  * [blynn/dlx][26-3] - Implementation of Knuth's Algorithm X, with example
+  solvers. [`GPL 3`][26-4]
+  * [BigZaphod/AStar][26-5] - C Implementation of the A* Pathfinding Algorithm. [`License`][26-6]
+  * [ferreiradaselva/uastar][26-7] - Minimal A\* implementation. [`Zlib`][26-8]
+  * [BlackLight/fkmeans][26-9] - A tiny library in C for managing kmeans
+  clusterization algorithm over arbitrary data sets, both by manually specifying
+  the number k of clusters and computing it automatically using Schwarz
+  criterion. [`GPL 3`][26-10]
+  * [CVLearner/Mixture-of-Gaussians][26-11] - Fit a Gaussian mixture model given
+  a set of data. [`MIT`][26-12]
+  * [Cyan4973/FiniteStateEntropy][26-13] - Finite State Entropy and Huff0. [`BSD 2-Clause`][26-14]
   * [IAIK/CJAG](https://github.com/IAIK/CJAG) - CJAG is an open-source implementation of our cache-based jamming agreement.
   * [Kevincav/Radix-Sort](https://github.com/Kevincav/Radix-Sort) - Radix Sort with different data types.
   * [Soryusan/Ranking_Algorithm](https://github.com/Soryusan/Ranking_Algorithm) - Ranking algorithm data collector/cruncher
@@ -1202,9 +1207,23 @@ Incorporated lists:
   * [oap/ekf-angles](https://github.com/oap/ekf-angles) - Extended Kalman Filter for Accelerometer and Gyro data
   * [ntamas/plfit](https://github.com/ntamas/plfit) - Fitting power-law distributions to empirical data, according to the method of Clauset, Shalizi and Newman
   * [richarddurbin/pbwt](https://github.com/richarddurbin/pbwt) - Implementation of Positional Burrows-Wheeler Transform for genetic data
-  * [swenson/sort](https://github.com/swenson/sort) - Sorting routine implementations in "template" C
   * [tarequeh/DES](https://github.com/tarequeh/DES) - Implementation of Data Encryption Standard (DES) in C
   * [tsuraan/Jerasure](https://github.com/tsuraan/Jerasure) - Github repo for Jerasure Library - C Implementation of Reed-Solomon coding
+
+  [26-1]: https://github.com/swenson/sort
+  [26-2]: https://github.com/swenson/sort/blob/master/LICENSE.md
+  [26-3]: https://github.com/blynn/dlx
+  [26-4]: https://github.com/blynn/dlx/blob/master/COPYING
+  [26-5]: https://github.com/BigZaphod/AStar
+  [26-6]: https://github.com/BigZaphod/AStar/blob/master/AStar.h
+  [26-7]: https://github.com/felselva/uastar
+  [26-8]: https://github.com/felselva/uastar#license
+  [26-9]: https://github.com/BlackLight/fkmeans
+  [26-10]: https://github.com/BlackLight/fkmeans/blob/master/kmeans.h
+  [26-11]: https://github.com/CVLearner/Mixture-of-Gaussians
+  [26-12]: https://github.com/CVLearner/Mixture-of-Gaussians/blob/master/LICENSE
+  [26-13]: https://github.com/Cyan4973/FiniteStateEntropy
+  [26-14]: https://github.com/Cyan4973/FiniteStateEntropy/blob/dev/LICENSE
 </details>
 
 ## Argument Parsing ##
@@ -2964,7 +2983,6 @@ Comprehensive and integrated solutions for building web application in C.
 [437]: https://github.com/cloudwu/pbc
 [436]: http://sourceware.org/binutils/docs/bfd/
 [435]: https://gnu.org/software/gss/
-[434]: https://github.com/swenson/sort
 [433]: https://github.com/antirez/linenoise
 [432]: https://github.com/recp/tm
 [431]: http://kitsune-dsu.com/
@@ -2978,8 +2996,6 @@ Comprehensive and integrated solutions for building web application in C.
 [422]: https://gnu.org/software/freeipmi/index.html
 [421]: https://github.com/commonmark/cmark/blob/master/COPYING
 [420]: https://github.com/commonmark/cmark
-[419]: https://en.wikipedia.org/wiki/Knuth's_Algorithm_X
-[418]: https://github.com/blynn/dlx
 [417]: https://github.com/simplegeo/libgeohash
 [416]: https://github.com/google/gumbo-parser
 [415]: https://glade.gnome.org/
@@ -3223,7 +3239,6 @@ Comprehensive and integrated solutions for building web application in C.
 [197]: http://ebassi.github.io/graphene/
 [196]: http://cairographics.org/
 
-[195]: https://github.com/ferreiradaselva/uastar
 [194]: https://clover.moe/spearmint
 [193]: http://www.libsigil.com/
 [192]: https://github.com/grimfang4/sdl-gpu
