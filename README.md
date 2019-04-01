@@ -1077,7 +1077,7 @@ Incorporated lists:
 --------------------------------------------------------------------------------
 
 <details>
-  <summary>Click to expand AI</summary>
+  <summary>AI</summary>
 
   <a id="ai"></a>
   ## <a href="#-">`^`</a> AI ##
@@ -1166,7 +1166,7 @@ Incorporated lists:
 </details>
 
 <details>
-  <summary>Click to expand Algoritm Implementations</summary>
+  <summary>Algoritm Implementations</summary>
 
   <a id="algoritm-implementations"></a>
   ## <a href="#-">`^`</a> Algoritm Implementations ##
@@ -1277,7 +1277,7 @@ Incorporated lists:
 </details>
 
 <details>
-  <summary>Click to expand Argument Parsing</summary>
+  <summary>Argument Parsing</summary>
 
   <a id="argument-parsing"></a>
   ## <a href="#-">`^`</a> Argument Parsing ##
@@ -1302,7 +1302,7 @@ Incorporated lists:
 </details>
 
 <details>
-  <summary>Click to expand Calculations and Math</summary>
+  <summary>Calculations and Math</summary>
 
   <a id="calculations"></a>
   ## <a href="#-">`^`</a> Calculations and Math ##
