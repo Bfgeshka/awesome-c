@@ -1276,11 +1276,11 @@ Incorporated lists:
   [26-52]: https://github.com/tsuraan/Jerasure/blob/master/License.txt
 </details>
 
-<a id="argument-parsing"></a>
-## <a href="#-">`^`</a> Argument Parsing ##
 <details>
   <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Argument Parsing</summary>
 
+  <a id="argument-parsing"></a>
+  ## <a href="#-">`^`</a> Argument Parsing ##
   * [cofyc/argparse][27-9] - Command-line arguments parsing library. [`MIT`][27-10]
   * [clibs/commander][27-7] - Commander option parser ported to C - simple API,
   auto-generated --help. [`MIT`][27-8]
@@ -1306,7 +1306,6 @@ Incorporated lists:
 
   <a id="calculations"></a>
   ## <a href="#-">`^`</a> Calculations and Math ##
-
   * [Arb][251] - Library for arbitrary-precision interval arithmetic. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
   * [fft-c][256] - A high-performance Fourier Transform from netlib's fftpack;
   wrapped in a user-friendly format [``MIT``][ MIT]
