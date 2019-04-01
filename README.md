@@ -1318,13 +1318,19 @@ Incorporated lists:
   * [CDFLIB][28-11] - Library with routines to evaluate cumulative density
   functions for a variety of standard probability distributions.
   Also can compute one parameter of the CDF given the others. [`No license`]
-  * [ScientificC/cmathl][28-12] - Pure-C Math library with a great variety of mathematical functions and CMake build support. Seeks to be close to C89/C90 compliant for portability. [`MIT`][28-13]
-  * [Cuba](http://www.feynarts.de/cuba/) - Library for multidimensional numerical integration. [`GNU LGPLv3`](http://www.gnu.org/licenses/lgpl.html)
-  * [fft-c][256] - A high-performance Fourier Transform from netlib's fftpack;
-  wrapped in a user-friendly format [``MIT``][ MIT]
-  * [FFTW](http://www.fftw.org/) - The Fastest Fourier Transform in the West; a highly-optimized fast Fourier transform routine. [`GNU GPL2.1 or later`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-  * [FLINT](http://flintlib.org/) - Fast Library for Number Theory; a library supporting arithmetic with numbers, polynomials, power series and matrices, among others. [`GNU GPL2.1 or later`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-  * [GLPK](https://www.gnu.org/software/glpk/) - GNU Linear Programming Kit; a package designed for solving large-scale linear programming, mixed integer programming and other related problems. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
+  * [ScientificC/cmathl][28-12] - Pure-C Math library with a great variety of
+  mathematical functions and CMake build support. Seeks to be close to C89/C90
+  compliant for portability. [`MIT`][28-13]
+  * [Cuba][28-14] - Library for multidimensional numerical integration. [`LGPL`][28-15]
+  * [adis300/fft-c][28-16] - A high-performance Fourier Transform from netlib's
+  fftpack; wrapped in a user-friendly format [`MIT`][28-17]
+  * [FFTW][28-18] - The Fastest Fourier Transform in the West; a
+  highly-optimized fast Fourier transform routine. [`GPL 2`][28-19]
+  * [FLINT][28-20] - Fast Library for Number Theory; a library supporting
+  arithmetic with numbers, polynomials, power series and matrices, among others. [`LGPL 2.1`][28-21]
+  * [GLPK][28-22] - GNU Linear Programming Kit; a package designed for solving
+  large-scale linear programming, mixed integer programming and other related
+  problems. [`GPL 3`][28-23]
   * [GMP](https://gmplib.org/) - GNU Multple Precision Arithmetic Library; a library for arbitrary-precision arithmetic. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html) and [`GNU LGPLv3`](http://www.gnu.org/licenses/lgpl.html)
   * [GNU MPC](http://www.multiprecision.org/mpc/) - Library for complex number arithmetic. [`GNU LGPL3 or later`](http://www.gnu.org/licenses/lgpl.html)
   * [GNU MPFR](https://www.mpfr.org/index.html) - Library for arbitrary-precision floating-point arithmetic. [`GNU LGPL3 or later`](http://www.gnu.org/licenses/lgpl.html) or [`GNU LGPL2.1 or later (until version 2.4.x)`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
@@ -1375,6 +1381,16 @@ Incorporated lists:
   [28-11]: https://people.sc.fsu.edu/~jburkardt/c_src/cdflib/cdflib.html
   [28-12]: https://github.com/ScientificC/cmathl
   [28-13]: https://github.com/ScientificC/cmathl/blob/master/LICENSE
+  [28-14]: http://www.feynarts.de/cuba/
+  [28-15]: http://www.feynarts.de/cuba/
+  [28-16]: https://github.com/adis300/fft-c
+  [28-17]: https://github.com/adis300/fft-c/blob/master/LICENSE
+  [28-18]: http://www.fftw.org/
+  [28-19]: https://github.com/FFTW/fftw3/blob/master/COPYING
+  [28-20]: http://flintlib.org/
+  [28-21]: https://github.com/wbhart/flint2/blob/trunk/LICENSE
+  [28-22]: https://www.gnu.org/software/glpk/
+  [28-23]: https://ftp.gnu.org/gnu/glpk/
 </details>
 
 ## Compression ##
@@ -3215,7 +3231,6 @@ Comprehensive and integrated solutions for building web application in C.
 [259]: https://gnu.org/software/glpk/
 [258]: http://flintlib.org/
 [257]: http://www.fftw.org/
-[256]: https://github.com/adis300/fft-c
 [255]: http://www.feynarts.de/cuba/
 [254]: https://scientificc.github.io/cmathl/
 [253]: https://github.com/clMathLibraries/clBLAS
