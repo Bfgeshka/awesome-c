@@ -1281,13 +1281,13 @@ Incorporated lists:
 <details>
   <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Argument Parsing</summary>
 
-  * [jibsen/parg][27-1] - A single-file reimplementation of getopt with better
-  defaults. [`License`][27-2]
-  * [docopt/docopt.c][27-3] - Implementation of a command-line option parser. [`MIT`][27-4]
-  * [clibs/flag][27-5] - Go-style flag parsing for C. [`MIT`][27-6]
+  * [cofyc/argparse][27-9] - Command-line arguments parsing library. [`MIT`][27-10]
   * [clibs/commander][27-7] - Commander option parser ported to C - simple API,
   auto-generated --help. [`MIT`][27-8]
-  * [cofyc/argparse][27-9] - Command-line arguments parsing library. [`MIT`][27-10]
+  * [docopt/docopt.c][27-3] - Implementation of a command-line option parser. [`MIT`][27-4]
+  * [clibs/flag][27-5] - Go-style flag parsing for C. [`MIT`][27-6]
+  * [jibsen/parg][27-1] - A single-file reimplementation of getopt with better
+  defaults. [`License`][27-2]
 
   [27-1]: https://github.com/jibsen/parg
   [27-2]: https://github.com/jibsen/parg/blob/master/COPYING
