@@ -590,12 +590,11 @@ Incorporated lists:
 --------------------------------------------------------------------------------
 
 ### Reading Material ###
-
-<a id="books"></a>
-#### <a href="#-">`^`</a> Books ####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Books</summary>
+  <summary>Books</summary>
 
+  <a id="books"></a>
+  #### <a href="#-">`^`</a> Books ####
   ##### Reference Books #####
   * [C in a Nushell 2E][11-1] - Concise reference book for C11.
   * [C Pocket Reference][11-2] - Concise reference book for C99.
@@ -655,11 +654,11 @@ Incorporated lists:
 
 #### Articles and Other Resources ####
 
-<a id="benchmarks"></a>
-##### <a href="#-">`^`</a> Benchmarks #####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Benchmarks</summary>
+  <summary>Benchmarks</summary>
 
+  <a id="benchmarks"></a>
+  ##### <a href="#-">`^`</a> Benchmarks #####
   * [Benchmarks of the Lockless Memory Allocator][15-1]
   * [Comparison of C/POSIX standard library implementations for Linux][15-2] - A
   bit outdated, but shows overall tendencies
@@ -673,11 +672,11 @@ Incorporated lists:
   [15-4]: https://github.com/rxin/db-benchmarks
 </details>
 
-<a id="beginner-level"></a>
-##### <a href="#-">`^`</a> Beginner Level #####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Beginner Level</summary>
+  <summary>Beginner Level</summary>
 
+  <a id="beginner-level"></a>
+  ##### <a href="#-">`^`</a> Beginner Level #####
   * [A tutorial on pointers][16-1]
   * [A tutorial on portable Makefiles][16-2]
   * [Building C Projects][16-3]
@@ -699,11 +698,11 @@ Incorporated lists:
   [16-9]: http://blog.pkh.me/p/20-templating-in-c.html
 </details>
 
-<a id="intermediate-level"></a>
-##### <a href="#-">`^`</a> Intermediate Level #####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Intermediate Level</summary>
+  <summary>Intermediate Level</summary>
 
+  <a id="intermediate-level"></a>
+  ##### <a href="#-">`^`</a> Intermediate Level #####
   * [A comprehensive MPI tutorial resource][17-1]
   * [Diving into concurrency: trying out mutexes and atomics][17-2]
   * [Generic C reference counting][17-3]
@@ -749,11 +748,11 @@ Incorporated lists:
   [17-21]: https://cstack.github.io/db_tutorial/
 </details>
 
-<a id="advanced-level"></a>
-##### <a href="#-">`^`</a> Advanced Level #####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Advanced Level</summary>
+  <summary>Advanced Level</summary>
 
+  <a id="advanced-level"></a>
+  ##### <a href="#-">`^`</a> Advanced Level #####
   * [Advanced metaprogramming in C][18-1]
   * [Quick tutorial on implementing and debugging malloc, free, calloc, and realloc][18-2]
   * [Bit twiddling hacks][18-3]
@@ -785,11 +784,11 @@ Incorporated lists:
 
 #### Code Examples ####
 
-<a id="operating-systems"></a>
-##### <a href="#-">`^`</a> Operating Systems #####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Operating Systems</summary>
+  <summary>Operating Systems</summary>
 
+  <a id="operating-systems"></a>
+  ##### <a href="#-">`^`</a> Operating Systems #####
   * [Plan 9][19-1] - OS from Bell Labs.
   * [ChibiOS][19-2] - RTOS with development environment.
   * [EtchedPixels/FUZIX][19-3] - Superior rehaul of UZI.
@@ -827,11 +826,11 @@ Incorporated lists:
   [19-16]: https://github.com/ARMmbed/mbed-os
 </details>
 
-<a id="emulators-vms"></a>
-##### <a href="#-">`^`</a> Emulators, VMs #####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Emulators, VMs</summary>
+  <summary>Emulators, VMs</summary>
 
+  <a id="emulators-vms"></a>
+  ##### <a href="#-">`^`</a> Emulators, VMs #####
   * [CTurt/Cinoop][20-1] - Multiplatform Game Boy emulator.
   * [LIJI32/SameBoy][20-2] - Game Boy and Game Boy Color emulator written in C.
   * [MoarVM][20-3] - A VM with adaptive optimization and JIT compilation, built
@@ -867,11 +866,11 @@ Incorporated lists:
   [20-14]: https://github.com/AlexAltea/orbital
 </details>
 
-<a id="windowing-graphics"></a>
-##### <a href="#-">`^`</a> UI, Windowing, Graphics #####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand UI, Windowing, Graphics</summary>
+  <summary>UI, Windowing, Graphics</summary>
 
+  <a id="windowing-graphics"></a>
+  ##### <a href="#-">`^`</a> UI, Windowing, Graphics #####
   * [LemonBoy/bar][21-1] - A featherweight bar based on xcb.
   * [HarveyHunt/howm][21-2] - A lightweight, X11 tiling window manager that
   behaves like vim.
@@ -901,11 +900,11 @@ Incorporated lists:
   [21-10]: https://github.com/McNopper/OpenGL
 </details>
 
-<a id="language-implementations"></a>
-##### <a href="#-">`^`</a> Language Implementations #####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Language Implementations</summary>
+  <summary>Language Implementations</summary>
 
+  <a id="language-implementations"></a>
+  ##### <a href="#-">`^`</a> Language Implementations #####
   * [Fedjmike/mini-c][22-1] - Dr Strangehack, or: how to write a self-hosting C
   compiler in 10 hours.
   * [HuoLanguage/huo][22-2] - Interpreted language written in C.
@@ -995,11 +994,11 @@ Incorporated lists:
   [22-33]: https://github.com/skx/simple.vm
 </details>
 
-<a id="challenges"></a>
-##### <a href="#-">`^`</a> Challenges #####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Challenges</summary>
+  <summary>Challenges</summary>
 
+  <a id="challenges"></a>
+  ##### <a href="#-">`^`</a> Challenges #####
   * [trailofbits/cb-multios][23-1] - DARPA Challenges Sets for Linux, Windows,
   and macOS.
   * [FreddieV4/DailyProgrammerChallenges][23-2] - External Repo of Challenges
@@ -1027,11 +1026,11 @@ Incorporated lists:
   [23-11]: https://github.com/eatnumber1/goal
 </details>
 
-<a id="other-examples"></a>
-##### <a href="#-">`^`</a> Other Examples #####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Other Examples</summary>
+  <summary>Other Examples</summary>
 
+  <a id="other-examples"></a>
+  ##### <a href="#-">`^`</a> Other Examples #####
   * [MinhasKamal/CreepyCodeCollection][24-1] - A Nonsense Collection of
   Disgusting Codes.
   * [Visgean/Zeus][24-2] - Zeus trojan horse - leaked in 2011.
