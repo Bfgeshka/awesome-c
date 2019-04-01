@@ -1171,56 +1171,56 @@ Incorporated lists:
   <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Algoritm Implementations</summary>
 
   Some generic agoritms or ones with no specific attachments.
-  * [swenson/sort][26-1] - Collection of sorting routines, which type-specialize
-  at compile-time with a user-defined type. [`MIT`][26-2]
+  * [dhuertas/AES][26-28] - AES algorithm implementation in C. [`No license`]
+  * [mischasan/aho-corasick][26-40] - A-C implementation in "C". Tight-packed
+  (interleaved) state-transition matrix. [`LGPL 3`][26-41]
+  * [davidreynolds/algorithms][26-27] - A repository of assorted algorithms and
+  data structures. [`No license`]
+  * [BigZaphod/AStar][26-5] - C Implementation of the A\* Pathfinding Algorithm. [`License`][26-6]
+  * [citiususc/BigBWA][26-25] - Approaching the Burrows-Wheeler Aligner to Big
+  Data Technologies. [`GPL 3`][26-26]
+  * [TheAlgorithms/C][26-17] - All Algorithms implemented in C [`No license`]
+  * [chaoslawful/ccard-lib][26-24] - C library for estimating cardinality in
+  streams for which it is infeasible to store all events in memory. [`No license`]
+  * [agl/curve25519-donna][26-18] - Implementations of a fast Elliptic-curve
+  Diffie-Hellman primitive. [`License`][26-19]
+  * [aimxhaisse/des][26-22] - C implementation of DES. [`License`][26-23]
+  * [tarequeh/DES][26-49] - Implementation of Data Encryption Standard in C. [`MIT`][26-50]
   * [blynn/dlx][26-3] - Implementation of Knuth's Algorithm X, with example
   solvers. [`GPL 3`][26-4]
-  * [BigZaphod/AStar][26-5] - C Implementation of the A\* Pathfinding Algorithm. [`License`][26-6]
-  * [ferreiradaselva/uastar][26-7] - Minimal A\* implementation. [`Zlib`][26-8]
+  * [oap/ekf-angles][26-44] - Extended Kalman Filter for Accelerometer and Gyro
+  data. [`No license`]
+  * [Cyan4973/FiniteStateEntropy][26-13] - Finite State Entropy and Huff0. [`BSD 2-Clause`][26-14]
   * [BlackLight/fkmeans][26-9] - A tiny library in C for managing kmeans
   clusterization algorithm over arbitrary data sets, both by manually specifying
   the number k of clusters and computing it automatically using Schwarz
   criterion. [`GPL 3`][26-10]
-  * [CVLearner/Mixture-of-Gaussians][26-11] - Fit a Gaussian mixture model given
-  a set of data. [`MIT`][26-12]
-  * [Cyan4973/FiniteStateEntropy][26-13] - Finite State Entropy and Huff0. [`BSD 2-Clause`][26-14]
-  * [Kevincav/Radix-Sort][26-15] - Radix Sort with different data types. [`MIT`][26-16]
-  * [TheAlgorithms/C][26-17] - All Algorithms implemented in C [`No license`]
-  * [agl/curve25519-donna][26-18] - Implementations of a fast Elliptic-curve
-  Diffie-Hellman primitive. [`License`][26-19]
-  * [ai-ku/scode][26-20] - Sphere embedding (s-code) is a variation of Euclidean
-  embedding of co-occurence data (code). [`MIT`][26-21]
-  * [aimxhaisse/des][26-22] - C implementation of DES. [`License`][26-23]
-  * [chaoslawful/ccard-lib][26-24] - C library for estimating cardinality in
-  streams for which it is infeasible to store all events in memory. [`No license`]
-  * [citiususc/BigBWA][26-25] - Approaching the Burrows-Wheeler Aligner to Big
-  Data Technologies. [`GPL 3`][26-26]
-  * [davidreynolds/algorithms][26-27] - A repository of assorted algorithms and
-  data structures. [`No license`]
-  * [dhuertas/AES][26-28] - AES algorithm implementation in C. [`No license`]
-  * [duckythescientist/obfuscatedLife][26-29] - Conway's Game of Life in 9 lines
-  of C. [`No license`]
-  * [jmcejuela/Levenshtein-MySQL-UDF][26-30] - General Levenshtein algorithm and
-  k-bounded levenshtein distance in linear time and constant space. [`LGPL 3`][26-31]
   * [kljensen/Gemoda][26-32] - A generic motif discovery algorithm for
   sequential data. [`GPL 2`][26-33]
+  * [lacker/ikalman][26-38] - An iPhone-friendly Kalman filter written in C. [`MIT`][26-39]
+  * [tsuraan/Jerasure][26-51] - C Implementation of Reed-Solomon coding. [`License`][26-52]
+  * [jmcejuela/Levenshtein-MySQL-UDF][26-30] - General Levenshtein algorithm and
+  k-bounded levenshtein distance in linear time and constant space. [`LGPL 3`][26-31]
+  * [CVLearner/Mixture-of-Gaussians][26-11] - Fit a Gaussian mixture model given
+  a set of data. [`MIT`][26-12]
+  * [richarddurbin/pbwt][26-47] - Implementation of Positional Burrows-Wheeler
+  Transform for genetic data. [`License`][26-48]
+  * [ntamas/plfit][26-45] - Fitting power-law distributions to empirical data,
+  according to the method of Clauset, Shalizi and Newman. [`License`][26-46]
+  * [Kevincav/Radix-Sort][26-15] - Radix Sort with different data types. [`MIT`][26-16]
+  * [duckythescientist/obfuscatedLife][26-29] - Conway's Game of Life in 9 lines
+  of C. [`No license`]
   * [kokke/tiny-AES-c][26-34] - Small portable AES128/192/256 in C. [`Unlicense`][26-35]
   * [kroitor/gjk.c][26-36] - Gilbert-Johnson-Keerthi (GJK) collision detection
   algorithm in 200 lines of clean plain C. [`WTFPL`][26-37]
-  * [lacker/ikalman][26-38] - An iPhone-friendly Kalman filter written in C. [`MIT`][26-39]
-  * [mischasan/aho-corasick][26-40] - A-C implementation in "C". Tight-packed
-  (interleaved) state-transition matrix. [`LGPL 3`][26-41]
+  * [ai-ku/scode][26-20] - Sphere embedding (s-code) is a variation of Euclidean
+  embedding of co-occurence data (code). [`MIT`][26-21]
+  * [swenson/sort][26-1] - Collection of sorting routines, which type-specialize
+  at compile-time with a user-defined type. [`MIT`][26-2]
   * [msteinbeck/tinyspline][26-42] - ANSI C library for NURBS, B-Splines, and
   Bézier curves with interfaces for C++, C#, D, Java, Lua, Octave, PHP, Python,
   R, and Ruby. [`MIT`][26-43]
-  * [oap/ekf-angles][26-44] - Extended Kalman Filter for Accelerometer and Gyro
-  data. [`No license`]
-  * [ntamas/plfit][26-45] - Fitting power-law distributions to empirical data,
-  according to the method of Clauset, Shalizi and Newman. [`License`][26-46]
-  * [richarddurbin/pbwt][26-47] - Implementation of Positional Burrows-Wheeler
-  Transform for genetic data. [`License`][26-48]
-  * [tarequeh/DES][26-49] - Implementation of Data Encryption Standard in C. [`MIT`][26-50]
-  * [tsuraan/Jerasure][26-51] - C Implementation of Reed-Solomon coding. [`License`][26-52]
+  * [ferreiradaselva/uastar][26-7] - Minimal A\* implementation. [`Zlib`][26-8]
 
   [26-1]: https://github.com/swenson/sort
   [26-2]: https://github.com/swenson/sort/blob/master/LICENSE.md
