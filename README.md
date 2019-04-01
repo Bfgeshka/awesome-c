@@ -142,11 +142,11 @@ Incorporated lists:
 
 <a id="tooling"></a>
 ### Tooling ###
-<a id="build-systems"></a>
-#### <a href="#-">`^`</a> Build Systems ####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Build Systems</summary>
+  <summary>Build Systems</summary>
 
+  <a id="build-systems"></a>
+  #### <a href="#-">`^`</a> Build Systems ####
   * [aimake][2-1] - Build tool designed to avoid complex configurations. [`GPL 3`][2-21]
   * [Autoconf][2-2] - Extensible package of M4 macros that produce shell scripts
   to automatically configure software source code packages. Part of the
@@ -217,11 +217,11 @@ Incorporated lists:
   [2-40]: https://github.com/zeromq/zproject/blob/master/LICENSE
 </details>
 
-<a id="compilers"></a>
-#### <a href="#-">`^`</a> Compilers ####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Compilers</summary>
+  <summary>Compilers</summary>
 
+  <a id="compilers"></a>
+  #### <a href="#-">`^`</a> Compilers ####
   * [rui314/8cc][3-10] - A Small C Compiler. [`MIT`][3-9]
   * [rui314/9cc][3-12] - A Small C Compiler. [`MIT`][3-11]
   * [jserv/amacc][3-14] - Small C Compiler generating ELF executable for Arm
@@ -271,11 +271,11 @@ Incorporated lists:
   [3-29]: https://github.com/alexfru/SmallerC
 </details>
 
-<a id="debugging-and-analysis"></a>
-#### <a href="#-">`^`</a> Debugging and Analysis ####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Debugging and Analysis</summary>
+  <summary>Debugging and Analysis</summary>
 
+  <a id="debugging-and-analysis"></a>
+  #### <a href="#-">`^`</a> Debugging and Analysis ####
   * [C-Reduce][4-1] - Tool that takes a large C file with a property of interest
   and automatically produces a much smaller C file that has the same property.
   Intended to help create minimal bug-demonstrating cases in complex code. [`License`][4-14]
@@ -331,11 +331,11 @@ Incorporated lists:
   [4-29]: http://www.valgrind.org/
 </details>
 
-<a id="documentation-generation"></a>
-#### <a href="#-">`^`</a> Documentation Generation ####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Documentation Generation</summary>
+  <summary>Documentation Generation</summary>
 
+  <a id="documentation-generation"></a>
+  #### <a href="#-">`^`</a> Documentation Generation ####
   * [Cxref][5-1] - Generates documentation in either LaTeX, HTML, RTF or SGML. [`GPL 2`][5-5]
   * [DocOnce][5-2] - Modestly tagged markup language that can be used to
   generate a range of formats. [`BSD 3-Clause`][5-6]
@@ -354,11 +354,11 @@ Incorporated lists:
   [5-8]: https://gitlab.gnome.org/GNOME/gtk-doc/blob/master/COPYING
 </details>
 
-<a id="editors"></a>
-#### <a href="#-">`^`</a> Editors ####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Editors</summary>
+  <summary>Editors</summary>
 
+  <a id="editors"></a>
+  #### <a href="#-">`^`</a> Editors ####
   * [Anjuta DevStudio][6-1] - GNOME IDE. [`GPL 2`][6-12]
   * [Atom][6-3] - Hackable text editor for the 21st century. [`MIT`][6-13]
   * [Code::Blocks][6-2] - Extendable, configurable IDE supporting C. [`GPL 3`][6-14]
@@ -391,11 +391,11 @@ Incorporated lists:
   [6-20]: https://github.com/Microsoft/vscode/blob/master/LICENSE.txt
 </details>
 
-<a id="microsoft-windows-environment"></a>
-#### <a href="#-">`^`</a> Microsoft Windows Environment ####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Microsoft Windows Environment</summary>
+  <summary>Microsoft Windows Environment</summary>
 
+  <a id="microsoft-windows-environment"></a>
+  #### <a href="#-">`^`</a> Microsoft Windows Environment ####
   * [Cygwin][7-1] - Designed to emulate a POSIX-compatible environment
   extensively under Windows. [`Licenses`][7-2]
   * [MinGW-w64][7-3] - Minimalist environment for C development on Windows with
@@ -415,11 +415,11 @@ Incorporated lists:
   [7-8]: https://github.com/reactos/reactos/blob/master/COPYING
 </details>
 
-<a id="profiling"></a>
-#### <a href="#-">`^`</a> Profiling ####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Profiling</summary>
+  <summary>Profiling</summary>
 
+  <a id="profiling"></a>
+  #### <a href="#-">`^`</a> Profiling ####
   * [gperftools][8-1] - Collection of utilities for measuring and improving
   performance. [`BSD 3-Clause`][8-5]
   * [gprof][8-2] - Performance analysis tool. Part of GNU binutils. [`Licenses`][8-6]
@@ -437,11 +437,11 @@ Incorporated lists:
   [8-8]: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/COPYING
 </details>
 
-<a id="text-editor-extensions"></a>
-#### <a href="#-">`^`</a> Text Editor Extensions ####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Text Editor Extensions</summary>
+  <summary>Text Editor Extensions</summary>
 
+  <a id="text-editor-extensions"></a>
+  #### <a href="#-">`^`</a> Text Editor Extensions ####
   * [CCompletion][9-1] - Notepad++ autocompletion plugin. Works with all
   identifiers recognized by Ctags. This is a download link. [`GPL 2`]
   * [CEDET][9-2] - Collection of Emacs Development Environment Tools; designed
@@ -480,11 +480,11 @@ Incorporated lists:
   [9-19]: https://github.com/Valloric/YouCompleteMe/blob/master/COPYING.txt
 </details>
 
-<a id="utilities"></a>
-#### <a href="#-">`^`</a> Utilities ####
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Utilities</summary>
+  <summary>Utilities</summary>
 
+  <a id="utilities"></a>
+  #### <a href="#-">`^`</a> Utilities ####
   * [Artistic Style][10-4] - Fast and small automatic source code formatter that
   supports C. [`MIT`][10-17]
   * [biicode][10-5] - Dependency manager. [`MIT`][10-18]
