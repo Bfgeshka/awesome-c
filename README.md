@@ -1306,6 +1306,8 @@ Incorporated lists:
 <details>
   <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Calculations and Math</summary>
 
+  ## Header
+
   * [Arb][251] - Library for arbitrary-precision interval arithmetic. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
   * [fft-c][256] - A high-performance Fourier Transform from netlib's fftpack;
   wrapped in a user-friendly format [``MIT``][ MIT]
