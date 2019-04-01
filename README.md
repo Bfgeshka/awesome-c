@@ -1301,12 +1301,11 @@ Incorporated lists:
   [27-10]: https://github.com/cofyc/argparse/blob/master/LICENSE
 </details>
 
-<a id="calculations"></a>
-## <a href="#-">`^`</a> Calculations and Math ##
 <details>
   <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Calculations and Math</summary>
 
-  ## Header
+  <a id="calculations"></a>
+  ## <a href="#-">`^`</a> Calculations and Math ##
 
   * [Arb][251] - Library for arbitrary-precision interval arithmetic. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
   * [fft-c][256] - A high-performance Fourier Transform from netlib's fftpack;
