@@ -1307,25 +1307,21 @@ Incorporated lists:
   <summary>Calculations and Math</summary>
 
   ## <a href="#-">`^`</a> Calculations and Math ##
-  * [Arb][251] - Library for arbitrary-precision interval arithmetic. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+  * [b-k/apophenia][28-3] - Library for statistical and scientific computing. [`GPL 2`][28-4]
+  * [fredrik-johansson/arb][28-1] - Library for arbitrary-precision interval
+  arithmetic. [`LGPL 2.1`][28-2]
+  * [ATLAS][28-5] - Automatically Tuned Linear Algebra Software. [`License`][28-6]
+  * [BLAS][28-7] - Basic Linear Algebra Subprograms; a set of routines that
+  provide vector and matrix operations. [`License`][28-8]
+  * [SLEPc][28-9] - Library for the solution of large, sparse eigenvalue
+  problems on parallel computers. [`BSD 2-Clause`][28-10]
+  * [CDFLIB][28-11] - Library with routines to evaluate cumulative density
+  functions for a variety of standard probability distributions.
+  Also can compute one parameter of the CDF given the others. [`No license`]
+  * [ScientificC/cmathl][28-12] - Pure-C Math library with a great variety of mathematical functions and CMake build support. Seeks to be close to C89/C90 compliant for portability. [`MIT`][28-13]
+  * [Cuba](http://www.feynarts.de/cuba/) - Library for multidimensional numerical integration. [`GNU LGPLv3`](http://www.gnu.org/licenses/lgpl.html)
   * [fft-c][256] - A high-performance Fourier Transform from netlib's fftpack;
   wrapped in a user-friendly format [``MIT``][ MIT]
-  * [LibTomMath][267] - Portable, number-theoretic, multiple-precision integer
-  library. Supports algebra, digit manipulation, modular reductions, and various
-  number-theoretic routines. Public domain.
-  * [LibTomPoly][268] - Polynomial-related maths library. Public domain.
-  * [SLEPc][272] - Library for the solution of large, sparse eigenvalue
-  problems on parallel computers. [``LGPL-3.0-only``][LGPL-3.0-only]
-  * [TomsFastMath][273] - Set of optimized maths operations (in assembly),
-  suitable for cryptographic use. Public domain.
-  * [tinyexpr][379] - Tiny recursive-descent parser, compiler and evaluation
-  engine for simple mathematical expressions. [``BSD-3-Clause``][BSD-3-Clause]
-  * [apophenia](http://apophenia.info/) - Library for statistical and scientific computing. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-  * [ATLAS](http://math-atlas.sourceforge.net/) - Automatically Tuned Linear Algebra Software. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
-  * [BLAS](http://www.netlib.org/blas/) - Basic Linear Algebra Subprograms; a set of routines that provide vector and matrix operations. [`BLAS license`](http://www.netlib.org/blas/#_licensing)
-  * [CDFLIB](https://people.sc.fsu.edu/~jburkardt/c_src/cdflib/cdflib.html) - Library with routines to evaluate cumulative density functions fo a variety of standard probability distributions.  Also can compute one parameter of the CDF given the others.  (No license given)
-  * [cmathl](https://scientificc.github.io/cmathl/) - Pure-C Math library with a great variety of mathematical functions and CMake build support. Seeks to be close to C89/C90 compliant for portability. [`MIT`](https://github.com/ScientificC/cmathl/blob/master/LICENSE)
-  * [Cuba](http://www.feynarts.de/cuba/) - Library for multidimensional numerical integration. [`GNU LGPLv3`](http://www.gnu.org/licenses/lgpl.html)
   * [FFTW](http://www.fftw.org/) - The Fastest Fourier Transform in the West; a highly-optimized fast Fourier transform routine. [`GNU GPL2.1 or later`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
   * [FLINT](http://flintlib.org/) - Fast Library for Number Theory; a library supporting arithmetic with numbers, polynomials, power series and matrices, among others. [`GNU GPL2.1 or later`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
   * [GLPK](https://www.gnu.org/software/glpk/) - GNU Linear Programming Kit; a package designed for solving large-scale linear programming, mixed integer programming and other related problems. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
@@ -1349,12 +1345,10 @@ Incorporated lists:
   * [Lichtso/CCWT](https://github.com/Lichtso/CCWT) - Complex Continuous Wavelet Transformation
   * [NCrashed/bzip2](https://github.com/NCrashed/bzip2) - Bindings for bzip2 library, a freely available, patent free, high-quality data compressor.
   * [PetteriAimonen/libfixmatrix](https://github.com/PetteriAimonen/libfixmatrix) - C library for fixed point matrix, quaternion and vector calculations
-  * [b-k/apophenia](https://github.com/b-k/apophenia) - A C library for statistical and scientific computing
   * [canonizer/libgpuvm](https://github.com/canonizer/libgpuvm) - library which simplifies host-GPU data transfer using userspace pagefault handling
   * [clMathLibraries/clBLAS](https://github.com/clMathLibraries/clBLAS) - a software library containing BLAS functions written in OpenCL
   * [clMathLibraries/clRNG](https://github.com/clMathLibraries/clRNG) - an OpenCL based software library containing random number generation functions
   * [emrainey/OpenCL-Environment](https://github.com/emrainey/OpenCL-Environment) - A series of utilities aimed at making OpenCL easier to use.
-  * [fredrik-johansson/arb](https://github.com/fredrik-johansson/arb) - C library for arbitrary-precision interval arithmetic
   * [freshcode/MFMathLib](https://github.com/freshcode/MFMathLib) - A mathematical library providing basic math operations on data types from 8-bits to 1024-bits with overflow/underflow tracking.
   * [google/clspv](https://github.com/google/clspv) - Clspv is a prototype compiler for a subset of OpenCL C to Vulkan compute shaders
   * [imneme/pcg-c-basic](https://github.com/imneme/pcg-c-basic) - PCG — Minimal C Implementation
@@ -1365,6 +1359,22 @@ Incorporated lists:
   * [PetteriAimonen/libfixmatrix](https://github.com/PetteriAimonen/libfixmatrix) - C library for fixed point matrix, quaternion and vector calculations.
   * [cvxgrp/scs](https://github.com/cvxgrp/scs) - C package that solves convex cone problems via operator splitting
   * [slim-curve/slim-curve](https://github.com/slim-curve/slim-curve) - SLIM Curve: a package for exponential curve fitting of combined spectral lifetime image data
+  * [tinyexpr][379] - Tiny recursive-descent parser, compiler and evaluation
+  engine for simple mathematical expressions. [``BSD-3-Clause``][BSD-3-Clause]
+
+  [28-1]: https://github.com/fredrik-johansson/arb
+  [28-2]: https://github.com/fredrik-johansson/arb/blob/master/LICENSE
+  [28-3]: https://github.com/b-k/apophenia
+  [28-4]: https://github.com/b-k/apophenia/blob/master/install/COPYING
+  [28-5]: http://math-atlas.sourceforge.net/
+  [28-6]: https://sourceforge.net/projects/math-atlas/
+  [28-7]: http://www.netlib.org/blas/
+  [28-8]: http://www.netlib.org/blas/#_licensing
+  [28-9]: http://slepc.upv.es/
+  [28-10]: https://bitbucket.org/slepc/slepc/src/d7223e0d001456999ded7111aa33c2b4cd3dcbfa/LICENSE?at=master&fileviewer=file-view-default
+  [28-11]: https://people.sc.fsu.edu/~jburkardt/c_src/cdflib/cdflib.html
+  [28-12]: https://github.com/ScientificC/cmathl
+  [28-13]: https://github.com/ScientificC/cmathl/blob/master/LICENSE
 </details>
 
 ## Compression ##
@@ -3192,12 +3202,9 @@ Comprehensive and integrated solutions for building web application in C.
 
 [274]: https://bitbucket.org/MDukhan/yeppp
 [273]: http://www.libtom.net/TomsFastMath/
-[272]: http://slepc.upv.es/
 [271]: https://github.com/cvxgrp/scs
 [270]: http://www.mcs.anl.gov/petsc/
 [269]: http://pari.math.u-bordeaux.fr/
-[268]: http://www.libtom.net/LibTomPoly/
-[267]: http://www.libtom.net/LibTomMath/
 [266]: http://www.netlib.org/lapack/lapacke.html
 [265]: https://sourceforge.net/projects/kissfft/
 [264]: https://www.gnu.org/software/gsl/
@@ -3213,7 +3220,6 @@ Comprehensive and integrated solutions for building web application in C.
 [254]: https://scientificc.github.io/cmathl/
 [253]: https://github.com/clMathLibraries/clBLAS
 [252]: http://math-atlas.sourceforge.net/
-[251]: https://github.com/fredrik-johansson/arb
 [250]: http://apophenia.info
 
 [249]: https://github.com/zeromq/zyre
