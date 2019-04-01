@@ -123,10 +123,10 @@ Incorporated lists:
 <a id="meta"/></a>
 ## Meta ##
 <a id="standarts"/></a>
-### <a href="#-">`^`</a> Standarts ###
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Standarts</summary>
+  <summary>Standarts</summary>
 
+  ### <a href="#-">`^`</a> Standarts ###
   * [Draft C89 standard][1-1]
   * [Draft C99 standard][1-2]
   * [Draft C11 standard][1-3]
@@ -142,10 +142,10 @@ Incorporated lists:
 
 <a id="tooling"></a>
 ### Tooling ###
+<a id="build-systems"></a>
 <details>
   <summary>Build Systems</summary>
 
-  <a id="build-systems"></a>
   #### <a href="#-">`^`</a> Build Systems ####
   * [aimake][2-1] - Build tool designed to avoid complex configurations. [`GPL 3`][2-21]
   * [Autoconf][2-2] - Extensible package of M4 macros that produce shell scripts
@@ -217,10 +217,10 @@ Incorporated lists:
   [2-40]: https://github.com/zeromq/zproject/blob/master/LICENSE
 </details>
 
+<a id="compilers"></a>
 <details>
   <summary>Compilers</summary>
 
-  <a id="compilers"></a>
   #### <a href="#-">`^`</a> Compilers ####
   * [rui314/8cc][3-10] - A Small C Compiler. [`MIT`][3-9]
   * [rui314/9cc][3-12] - A Small C Compiler. [`MIT`][3-11]
@@ -271,10 +271,10 @@ Incorporated lists:
   [3-29]: https://github.com/alexfru/SmallerC
 </details>
 
+<a id="debugging-and-analysis"></a>
 <details>
   <summary>Debugging and Analysis</summary>
 
-  <a id="debugging-and-analysis"></a>
   #### <a href="#-">`^`</a> Debugging and Analysis ####
   * [C-Reduce][4-1] - Tool that takes a large C file with a property of interest
   and automatically produces a much smaller C file that has the same property.
@@ -331,10 +331,10 @@ Incorporated lists:
   [4-29]: http://www.valgrind.org/
 </details>
 
+<a id="documentation-generation"></a>
 <details>
   <summary>Documentation Generation</summary>
 
-  <a id="documentation-generation"></a>
   #### <a href="#-">`^`</a> Documentation Generation ####
   * [Cxref][5-1] - Generates documentation in either LaTeX, HTML, RTF or SGML. [`GPL 2`][5-5]
   * [DocOnce][5-2] - Modestly tagged markup language that can be used to
@@ -354,10 +354,10 @@ Incorporated lists:
   [5-8]: https://gitlab.gnome.org/GNOME/gtk-doc/blob/master/COPYING
 </details>
 
+<a id="editors"></a>
 <details>
   <summary>Editors</summary>
 
-  <a id="editors"></a>
   #### <a href="#-">`^`</a> Editors ####
   * [Anjuta DevStudio][6-1] - GNOME IDE. [`GPL 2`][6-12]
   * [Atom][6-3] - Hackable text editor for the 21st century. [`MIT`][6-13]
@@ -391,10 +391,10 @@ Incorporated lists:
   [6-20]: https://github.com/Microsoft/vscode/blob/master/LICENSE.txt
 </details>
 
+<a id="microsoft-windows-environment"></a>
 <details>
   <summary>Microsoft Windows Environment</summary>
 
-  <a id="microsoft-windows-environment"></a>
   #### <a href="#-">`^`</a> Microsoft Windows Environment ####
   * [Cygwin][7-1] - Designed to emulate a POSIX-compatible environment
   extensively under Windows. [`Licenses`][7-2]
@@ -415,10 +415,10 @@ Incorporated lists:
   [7-8]: https://github.com/reactos/reactos/blob/master/COPYING
 </details>
 
+<a id="profiling"></a>
 <details>
   <summary>Profiling</summary>
 
-  <a id="profiling"></a>
   #### <a href="#-">`^`</a> Profiling ####
   * [gperftools][8-1] - Collection of utilities for measuring and improving
   performance. [`BSD 3-Clause`][8-5]
@@ -437,10 +437,10 @@ Incorporated lists:
   [8-8]: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/COPYING
 </details>
 
+<a id="text-editor-extensions"></a>
 <details>
   <summary>Text Editor Extensions</summary>
 
-  <a id="text-editor-extensions"></a>
   #### <a href="#-">`^`</a> Text Editor Extensions ####
   * [CCompletion][9-1] - Notepad++ autocompletion plugin. Works with all
   identifiers recognized by Ctags. This is a download link. [`GPL 2`]
@@ -480,10 +480,10 @@ Incorporated lists:
   [9-19]: https://github.com/Valloric/YouCompleteMe/blob/master/COPYING.txt
 </details>
 
+<a id="utilities"></a>
 <details>
   <summary>Utilities</summary>
 
-  <a id="utilities"></a>
   #### <a href="#-">`^`</a> Utilities ####
   * [Artistic Style][10-4] - Fast and small automatic source code formatter that
   supports C. [`MIT`][10-17]
@@ -589,11 +589,12 @@ Incorporated lists:
 
 --------------------------------------------------------------------------------
 
+<a id="reading-material"></a>
 ### Reading Material ###
+<a id="books"></a>
 <details>
   <summary>Books</summary>
 
-  <a id="books"></a>
   #### <a href="#-">`^`</a> Books ####
   ##### Reference Books #####
   * [C in a Nushell 2E][11-1] - Concise reference book for C11.
@@ -654,10 +655,10 @@ Incorporated lists:
 
 #### Articles and Other Resources ####
 
+<a id="benchmarks"></a>
 <details>
   <summary>Benchmarks</summary>
 
-  <a id="benchmarks"></a>
   ##### <a href="#-">`^`</a> Benchmarks #####
   * [Benchmarks of the Lockless Memory Allocator][15-1]
   * [Comparison of C/POSIX standard library implementations for Linux][15-2] - A
@@ -672,10 +673,10 @@ Incorporated lists:
   [15-4]: https://github.com/rxin/db-benchmarks
 </details>
 
+<a id="beginner-level"></a>
 <details>
   <summary>Beginner Level</summary>
 
-  <a id="beginner-level"></a>
   ##### <a href="#-">`^`</a> Beginner Level #####
   * [A tutorial on pointers][16-1]
   * [A tutorial on portable Makefiles][16-2]
@@ -698,10 +699,10 @@ Incorporated lists:
   [16-9]: http://blog.pkh.me/p/20-templating-in-c.html
 </details>
 
+<a id="intermediate-level"></a>
 <details>
   <summary>Intermediate Level</summary>
 
-  <a id="intermediate-level"></a>
   ##### <a href="#-">`^`</a> Intermediate Level #####
   * [A comprehensive MPI tutorial resource][17-1]
   * [Diving into concurrency: trying out mutexes and atomics][17-2]
@@ -748,10 +749,10 @@ Incorporated lists:
   [17-21]: https://cstack.github.io/db_tutorial/
 </details>
 
+<a id="advanced-level"></a>
 <details>
   <summary>Advanced Level</summary>
 
-  <a id="advanced-level"></a>
   ##### <a href="#-">`^`</a> Advanced Level #####
   * [Advanced metaprogramming in C][18-1]
   * [Quick tutorial on implementing and debugging malloc, free, calloc, and realloc][18-2]
@@ -782,12 +783,13 @@ Incorporated lists:
   [18-13]: https://norasandler.com/2017/11/29/Write-a-Compiler.html
 </details>
 
+<a id="code-examples"></a>
 #### Code Examples ####
 
+<a id="operating-systems"></a>
 <details>
   <summary>Operating Systems</summary>
 
-  <a id="operating-systems"></a>
   ##### <a href="#-">`^`</a> Operating Systems #####
   * [Plan 9][19-1] - OS from Bell Labs.
   * [ChibiOS][19-2] - RTOS with development environment.
@@ -826,10 +828,10 @@ Incorporated lists:
   [19-16]: https://github.com/ARMmbed/mbed-os
 </details>
 
+<a id="emulators-vms"></a>
 <details>
   <summary>Emulators, VMs</summary>
 
-  <a id="emulators-vms"></a>
   ##### <a href="#-">`^`</a> Emulators, VMs #####
   * [CTurt/Cinoop][20-1] - Multiplatform Game Boy emulator.
   * [LIJI32/SameBoy][20-2] - Game Boy and Game Boy Color emulator written in C.
@@ -866,10 +868,10 @@ Incorporated lists:
   [20-14]: https://github.com/AlexAltea/orbital
 </details>
 
+<a id="windowing-graphics"></a>
 <details>
   <summary>UI, Windowing, Graphics</summary>
 
-  <a id="windowing-graphics"></a>
   ##### <a href="#-">`^`</a> UI, Windowing, Graphics #####
   * [LemonBoy/bar][21-1] - A featherweight bar based on xcb.
   * [HarveyHunt/howm][21-2] - A lightweight, X11 tiling window manager that
@@ -900,10 +902,10 @@ Incorporated lists:
   [21-10]: https://github.com/McNopper/OpenGL
 </details>
 
+<a id="language-implementations"></a>
 <details>
   <summary>Language Implementations</summary>
 
-  <a id="language-implementations"></a>
   ##### <a href="#-">`^`</a> Language Implementations #####
   * [Fedjmike/mini-c][22-1] - Dr Strangehack, or: how to write a self-hosting C
   compiler in 10 hours.
@@ -994,10 +996,10 @@ Incorporated lists:
   [22-33]: https://github.com/skx/simple.vm
 </details>
 
+<a id="challenges"></a>
 <details>
   <summary>Challenges</summary>
 
-  <a id="challenges"></a>
   ##### <a href="#-">`^`</a> Challenges #####
   * [trailofbits/cb-multios][23-1] - DARPA Challenges Sets for Linux, Windows,
   and macOS.
@@ -1026,10 +1028,10 @@ Incorporated lists:
   [23-11]: https://github.com/eatnumber1/goal
 </details>
 
+<a id="other-examples"></a>
 <details>
   <summary>Other Examples</summary>
 
-  <a id="other-examples"></a>
   ##### <a href="#-">`^`</a> Other Examples #####
   * [MinhasKamal/CreepyCodeCollection][24-1] - A Nonsense Collection of
   Disgusting Codes.
@@ -1075,10 +1077,10 @@ Incorporated lists:
 
 --------------------------------------------------------------------------------
 
+<a id="ai"></a>
 <details>
   <summary>AI</summary>
 
-  <a id="ai"></a>
   ## <a href="#-">`^`</a> AI ##
   Neural nets, machine learning, pattern recognition etc.
   * [cjac/cmusphinx][25-20] - CMU Sphinx - Speech Recognition Toolkit. [`Licenses`][25-21]
@@ -1164,10 +1166,10 @@ Incorporated lists:
   [25-43]: https://github.com/pjreddie/darknet/blob/master/LICENSE
 </details>
 
+<a id="algoritm-implementations"></a>
 <details>
   <summary>Algoritm Implementations</summary>
 
-  <a id="algoritm-implementations"></a>
   ## <a href="#-">`^`</a> Algoritm Implementations ##
   Some generic agoritms or ones with no specific attachments.
   * [dhuertas/AES][26-28] - AES algorithm implementation in C. [`No license`]
@@ -1275,10 +1277,10 @@ Incorporated lists:
   [26-52]: https://github.com/tsuraan/Jerasure/blob/master/License.txt
 </details>
 
+<a id="argument-parsing"></a>
 <details>
   <summary>Argument Parsing</summary>
 
-  <a id="argument-parsing"></a>
   ## <a href="#-">`^`</a> Argument Parsing ##
   * [cofyc/argparse][27-9] - Command-line arguments parsing library. [`MIT`][27-10]
   * [clibs/commander][27-7] - Commander option parser ported to C - simple API,
@@ -1300,10 +1302,10 @@ Incorporated lists:
   [27-10]: https://github.com/cofyc/argparse/blob/master/LICENSE
 </details>
 
+<a id="calculations"></a>
 <details>
   <summary>Calculations and Math</summary>
 
-  <a id="calculations"></a>
   ## <a href="#-">`^`</a> Calculations and Math ##
   * [Arb][251] - Library for arbitrary-precision interval arithmetic. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
   * [fft-c][256] - A high-performance Fourier Transform from netlib's fftpack;
