@@ -1076,11 +1076,11 @@ Incorporated lists:
 
 --------------------------------------------------------------------------------
 
-<a id="ai"></a>
-## <a href="#-">`^`</a> AI ##
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand AI</summary>
+  <summary>Click to expand AI</summary>
 
+  <a id="ai"></a>
+  ## <a href="#-">`^`</a> AI ##
   Neural nets, machine learning, pattern recognition etc.
   * [cjac/cmusphinx][25-20] - CMU Sphinx - Speech Recognition Toolkit. [`Licenses`][25-21]
   * [100/Cranium][25-4] - A portable, header-only, artificial neural network
@@ -1165,11 +1165,11 @@ Incorporated lists:
   [25-43]: https://github.com/pjreddie/darknet/blob/master/LICENSE
 </details>
 
-<a id="algoritm-implementations"></a>
-## <a href="#-">`^`</a> Algoritm Implementations ##
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Algoritm Implementations</summary>
+  <summary>Click to expand Algoritm Implementations</summary>
 
+  <a id="algoritm-implementations"></a>
+  ## <a href="#-">`^`</a> Algoritm Implementations ##
   Some generic agoritms or ones with no specific attachments.
   * [dhuertas/AES][26-28] - AES algorithm implementation in C. [`No license`]
   * [mischasan/aho-corasick][26-40] - A-C implementation in "C". Tight-packed
@@ -1277,7 +1277,7 @@ Incorporated lists:
 </details>
 
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Argument Parsing</summary>
+  <summary>Click to expand Argument Parsing</summary>
 
   <a id="argument-parsing"></a>
   ## <a href="#-">`^`</a> Argument Parsing ##
@@ -1302,7 +1302,7 @@ Incorporated lists:
 </details>
 
 <details>
-  <summary>&nbsp&nbsp&nbsp&nbsp&nbsp Click to expand Calculations and Math</summary>
+  <summary>Click to expand Calculations and Math</summary>
 
   <a id="calculations"></a>
   ## <a href="#-">`^`</a> Calculations and Math ##
