@@ -1313,21 +1313,23 @@ Incorporated lists:
   * [ATLAS][28-5] - Automatically Tuned Linear Algebra Software. [`License`][28-6]
   * [BLAS][28-7] - Basic Linear Algebra Subprograms; a set of routines that
   provide vector and matrix operations. [`License`][28-8]
-  * [SLEPc][28-9] - Library for the solution of large, sparse eigenvalue
-  problems on parallel computers. [`BSD 2-Clause`][28-10]
+  * [Lichtso/CCWT][28-54] - Complex Continuous Wavelet Transformation. [`MIT`][28-55]
   * [CDFLIB][28-11] - Library with routines to evaluate cumulative density
   functions for a variety of standard probability distributions.
   Also can compute one parameter of the CDF given the others. `No license`
+  * [clMathLibraries/clRNG][28-57] - an OpenCL based software library containing
+  random number generation functions. [`License`][28-58]
   * [ScientificC/cmathl][28-12] - Pure-C Math library with a great variety of
   mathematical functions and CMake build support. Seeks to be close to C89/C90
   compliant for portability. [`MIT`][28-13]
   * [Cuba][28-14] - Library for multidimensional numerical integration. [`LGPL`][28-15]
   * [adis300/fft-c][28-16] - A high-performance Fourier Transform from netlib's
-  fftpack; wrapped in a user-friendly format [`MIT`][28-17]
+  fftpack; wrapped in a user-friendly format. [`MIT`][28-17]
   * [FFTW][28-18] - The Fastest Fourier Transform in the West; a
   highly-optimized fast Fourier transform routine. [`GPL 2`][28-19]
   * [FLINT][28-20] - Fast Library for Number Theory; a library supporting
   arithmetic with numbers, polynomials, power series and matrices, among others. [`LGPL 2.1`][28-21]
+  * [gjrand][28-48] - Library of random-number generation routines. [`GPL 2`][28-49]
   * [GLPK][28-22] - GNU Linear Programming Kit; a package designed for solving
   large-scale linear programming, mixed integer programming and other related
   problems. [`GPL 3`][28-23]
@@ -1340,6 +1342,7 @@ Incorporated lists:
   rational interval arithmetic. [`GPL 3`][28-31]
   * [GSL][28-32] - The GNU Scientific Library; a sophisticated numerical
   library. [`GPL3`][28-33]
+  * [HdrHistogram/HdrHistogram_c][28-50] - C port of the HdrHistogram. [`License`][28-51]
   * [igraph][28-34]- Library for creating and manipulating large graphs. [`GPL2`][28-35]
   * [KISS FFT][28-36] - Very simple fast Fourier transform library. [`BSD`][28-37]
   * [LAPACKE][28-38] - C interface to LAPACK. [`License`][28-39]
@@ -1350,32 +1353,29 @@ Incorporated lists:
   equations. [`License`][28-43]
   * [PROB][28-44] - Library that handles various discrete and continuous
   probability density functions. [`LGPL 3`][28-45]
-  * [Yeppp!][28-46] - Very fast, SIMD-optimized mathematical library. [`License`][28-47]
-  * [gjrand][28-48] - Library of random-number generation routines. [`GPL 2`][28-49]
-  * [HdrHistogram/HdrHistogram_c][28-50] - C port of the HdrHistogram. [`License`][28-51]
-  * [JuliaMath/openlibm][28-52] - High quality system independent, portable,
-  open source libm implementation. [`License`][28-53]
-  * [Lichtso/CCWT][28-54] - Complex Continuous Wavelet Transformation. [`MIT`][28-55]
-  * [canonizer/libgpuvm][28-56] - library which simplifies host-GPU data
-  transfer using userspace pagefault handling. `No license`
-  * [clMathLibraries/clRNG][28-57] - an OpenCL based software library containing
-  random number generation functions. [`License`][28-58]
-  * [emrainey/OpenCL-Environment][28-59] - A series of utilities aimed at making
-  OpenCL easier to use. [`Apache 2`][28-60]
-  * [imneme/pcg-c-basic][28-61] - PCG — Minimal C Implementation. [`Apache 2`][28-62]
-  * [imneme/pcg-c][28-63] - PCG — C Implementation. [`Apache 2`][28-64]
-  * [libtom/libtommath][28-65] - LibTomMath is a free open source portable
-  number theoretic multiple-precision integer library written entirely in C. [`Unlicense`][28-66]
-  * [libtom/tomsfastmath][28-67] - TomsFastMath is a fast public domain, open
-  source, large integer arithmetic library written in portable ISO C. [`Licenses`][28-68]
   * [PetteriAimonen/libfixmatrix][28-69] - C library for fixed point matrix,
   quaternion and vector calculations. [`MIT`][28-70]
+  * [canonizer/libgpuvm][28-56] - library which simplifies host-GPU data
+  transfer using userspace pagefault handling. `No license`
+  * [libtom/libtommath][28-65] - LibTomMath is a free open source portable
+  number theoretic multiple-precision integer library written entirely in C. [`Unlicense`][28-66]
+  * [emrainey/OpenCL-Environment][28-59] - A series of utilities aimed at making
+  OpenCL easier to use. [`Apache 2`][28-60]
+  * [JuliaMath/openlibm][28-52] - High quality system independent, portable,
+  open source libm implementation. [`License`][28-53]
+  * [imneme/pcg-c][28-63] - PCG — C Implementation. [`Apache 2`][28-64]
+  * [imneme/pcg-c-basic][28-61] - PCG — Minimal C Implementation. [`Apache 2`][28-62]
+  * [libtom/tomsfastmath][28-67] - TomsFastMath is a fast public domain, open
+  source, large integer arithmetic library written in portable ISO C. [`Licenses`][28-68]
   * [cvxgrp/scs][28-71] - C package that solves convex cone problems via
   operator splitting. [`MIT`][28-72]
+  * [SLEPc][28-9] - Library for the solution of large, sparse eigenvalue
+  problems on parallel computers. [`BSD 2-Clause`][28-10]
   * [slim-curve/slim-curve][28-73] - SLIM Curve: a package for exponential curve
   fitting of combined spectral lifetime image data. [`GPL 3`][28-73]
   * [tinyexpr][28-75] - Tiny recursive-descent parser, compiler and evaluation
   engine for simple mathematical expressions. [`Zlib`][28-76]
+  * [Yeppp!][28-46] - Very fast, SIMD-optimized mathematical library. [`License`][28-47]
 
   [28-1]: https://github.com/fredrik-johansson/arb
   [28-2]: https://github.com/fredrik-johansson/arb/blob/master/LICENSE
