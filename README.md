@@ -1506,12 +1506,14 @@ Incorporated lists:
   Compression Program for C64/C128/VIC-20/Plus4. [`LGPL 2.1`][29-60]
   * [moinakg/pcompress][29-61] - A Parallelized Data Deduplication
   and Compression utility. [`LGPL 3`][29-62]
-  * [richgel999/miniz](https://github.com/richgel999/miniz) - miniz: Single C source file zlib-replacement library, originally from code.google.com/p/miniz.
-  * [richox/comprox](https://github.com/richox/comprox) - An experimental lossless data compression program with high compression ratio.
-  * [rjsikarwar/gpu_compression](https://github.com/rjsikarwar/gpu_compression) - Nine Light weight Schemes to Compress and Decompress the data of Database Using GPU and also a planer.
-  * [zlib-ng/zlib-ng](https://github.com/zlib-ng/zlib-ng) - zlib replacement with optimizations for "next generation" systems.
-  * [powturbo/TurboRLE](https://github.com/powturbo/TurboRLE) - Fastest Run Length Encoding.
-  * [NCrashed/bzip2](https://github.com/NCrashed/bzip2) - Bindings for bzip2 library, a freely available, patent free, high-quality data compressor.
+  * [richgel999/miniz][29-63] - Single C source file zlib-replacement library. [`License`][29-64]
+  * [richox/comprox][29-65] - An experimental lossless data compression program
+  with high compression ratio. [`BSD 3-Clause`][29-66]
+  * [rjsikarwar/gpu_compression][29-67] - Nine Light weight Schemes to Compress
+  and Decompress the data of Database Using GPU and also a planer. `No license`
+  * [zlib-ng/zlib-ng][29-68] - zlib replacement with optimizations for
+  "next generation" systems. [`Zlib`][29-69]
+  * [powturbo/TurboRLE][29-70] - Fastest Run Length Encoding. [`GPL 2`][29-71]
 
   [29-1]: https://github.com/Blosc/bcolz
   [29-2]: https://github.com/Blosc/bcolz/tree/master/LICENSES
@@ -1575,6 +1577,15 @@ Incorporated lists:
   [29-60]: https://github.com/mist64/pucrunch/blob/master/pucrunch.c
   [29-61]: https://github.com/moinakg/pcompress
   [29-62]: https://github.com/moinakg/pcompress/blob/master/COPYING
+  [29-63]: https://github.com/richgel999/miniz
+  [29-64]: https://github.com/richgel999/miniz/blob/master/LICENSE
+  [29-65]: https://github.com/richox/comprox
+  [29-66]: https://github.com/richox/comprox/blob/master/LICENSE
+  [29-67]: https://github.com/rjsikarwar/gpu_compression
+  [29-68]: https://github.com/zlib-ng/zlib-ng
+  [29-69]: https://github.com/zlib-ng/zlib-ng/blob/develop/LICENSE.md
+  [29-70]: https://github.com/powturbo/TurboRLE
+  [29-71]: https://github.com/powturbo/TurboRLE/blob/master/trle.h
 </details>
 
 ## Concurrency and Parallelism ##
