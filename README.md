@@ -2153,7 +2153,6 @@ Access to graphical APIs or other graphic rendering libraries.
 ## GUI ##
 * [GTK+][206] - Cross-platform widget toolkit. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [IUP][207] - Another cross-platform widget toolkit. [``MIT``][MIT]
-* [nuklear][208] - Small, C89, single-header widget toolkit. Public domain.
 * [tinyfiledialogs][209] - Single-file library for simple dialogs. Compatible
   with many other toolkits and OSes. [``Zlib``][Zlib]
 * [Tk][210] - Basic widget toolkit. Part of Tcl/Tk. [``TCL``][TCL]
@@ -2166,22 +2165,14 @@ Access to graphical APIs or other graphic rendering libraries.
 * [ocornut/imgui_club](https://github.com/ocornut/imgui_club) - Nice things to use along dear imgui
 * [vurtun/zahnrad](https://github.com/vurtun/zahnrad) - A small ANSI C gui toolkit
 * [vurtun/gui](https://github.com/vurtun/gui) - A lightweight ANSI C imgui toolkit
-
-## Hardware Oriented ##
-* [libusb][407] - Provides generic access to USB devices. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
-* [libimobiledevice][408] - Cross-platform protocol library to communicate
-  with iThings. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
-* [cpu\_features][409] - Get CPU features at runtime. [``Apache-2.0``][Apache-2.0]
-* [libcoap][423] - Implementation of the [Constrained Application Protocol][424].
-  [``GPL-2.0-or-later``][GPL-2.0-or-later] or [``BSD-2-Clause``][BSD-2-Clause]
-* [libnfc][438] - Platform-independent Near-Field Communication library. [``LGPL-3.0-only``][LGPL-3.0-only]
 * [GTK+](https://www.gtk.org/) - Cross-platform widget toolkit. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
 * [IUP](http://webserver2.tecgraf.puc-rio.br/iup/) - Another cross-platform widget toolkit. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
 * [Tk](http://www.tcl.tk/) - Basic widget toolkit. Part of Tcl/Tk. [`Tcl/Tk License`](http://www.tcl.tk/software/tcltk/license.html)
 * [XForms Toolkit](http://xforms-toolkit.org/) - Widget toolkit designed for the XWindow system. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-* [nuklear](https://github.com/vurtun/nuklear) - Single-header ANSI C gui library. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
-* [libui](https://github.com/andlabs/libui) - Simple and portable (but not inflexible) GUI library. [`MIT`](https://github.com/andlabs/libui/blob/master/LICENSE)
-* [LCUI](https://github.com/lc-soft/LCUI/) - Small C library for building user interfaces with C, XML and CSS. [`MIT`](https://github.com/lc-soft/LCUI/blob/develop/LICENSE.TXT)
+
+## Hardware Oriented ##
+* [libcoap][423] - Implementation of the [Constrained Application Protocol][424].
+  [``GPL-2.0-or-later``][GPL-2.0-or-later] or [``BSD-2-Clause``][BSD-2-Clause]
 * [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) - Display and control your Android device
 * [Azure/azure-iot-sdk-c](https://github.com/Azure/azure-iot-sdk-c) - A C99 SDK for connecting devices to Microsoft Azure IoT services
 * [Eugnis/spectre-attack](https://github.com/Eugnis/spectre-attack) - Example of using revealed "Spectre" exploit (CVE-2017-5753 and CVE-2017-5715)
@@ -2235,27 +2226,17 @@ can be found in the Crypto section.
 * [plashchynski/str2hex](https://github.com/plashchynski/str2hex) - Data formats convertion utility
 * [rg3/bcrypt](https://github.com/rg3/bcrypt) - bcrypt password hash C library
 * [vdrolia/speed_hash](https://github.com/vdrolia/speed_hash) - Hash a lot of data as fast as you can
-* [vlfeat](https://github.com/antirez/sds) - computer vision library
 
 ## Image Processing and Computer Vision ##
-* [ccv][5] - C-based/Cached/Core Computer Vision library; modern computer
-  vision. [``BSD-3-Clause``][BSD-3-Clause]
 * [libgd][380] - Library for the dynamic creation of images by programmers. [``MIT``][MIT]
 * [giflib][381] - Library for reading and writing gif images. [``MIT``][MIT]
-* [libimagequant][383] - Small, portable library for high-quality conversion of
-  RGBA images to 8-bit indexed colour images. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [libjpeg-turbo][384] - Faster library for reading and writing JPEG files. [Various licences][194]
-* [libpng][385] - Official PNG reference library. [``Libpng``][Libpng]
 * [libRSVG][386] - Library to render SVG files using Cairo. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
-* [libvips][387] - Image processing library. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
-* [mozjpeg][388] - Improved JPEG encoder. [``BSD-3-Clause``][BSD-3-Clause]
 * [lodepng][389] - Simple PNG image decoder and encoder, requiring no other
   dependencies. [``BSD-3-Clause``][BSD-3-Clause]
 * [libimagequant](https://pngquant.org/lib/) - Small, portable library for high-quality conversion of RGBA images to 8-bit indexed colour images. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
 * [libjpeg-turbo](https://libjpeg-turbo.org/) - Faster library for reading and writing JPEG files. [`Various Licenses`](https://libjpeg-turbo.org/About/License)
 * [libpng](http://www.libpng.org) - The official PNG reference library. [`libpng license`](http://www.libpng.org/pub/png/src/libpng-LICENSE.txt)
 * [libxmi](https://www.gnu.org/software/libxmi/) - Function library for rasterizing 2D vector graphics. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
-* [mozjpeg](https://github.com/mozilla/mozjpeg) - Improved JPEG encoder. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
 * [libccv](http://libccv.org) - Modern Computer Vision Library. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
 * [liuliu/ccv](https://github.com/liuliu/ccv) - C-based/Cached/Core Computer Vision Library, A Modern Computer Vision Library
 * [MartinMittring/dcraw_exif](https://github.com/MartinMittring/dcraw_exif) - dcraw (Camera RAW format processor) from Dave Coffin with updates, additionally maintain exif data for using it with Agisoft PhotoScan
