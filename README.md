@@ -1465,8 +1465,6 @@ Incorporated lists:
 * [FiniteStateEntropy][31] - Two efficient compression codecs optimized for
   modern CPUs. [``BSD-2-Clause``][BSD-2-Clause]
 * [DENSITY][32] - Fast compression library. [``BSD-3-Clause``][BSD-3-Clause]
-* [heatshrink][33] - Data compression/decompression library for embedded and
-  real-time systems. [``ISC``][ISC]
 * [fast\_zlib][34] - Improved zlib, which runs 2 to 10 times faster. [``BSD-3-Clause``][BSD-3-Clause]
 * [huffandpuff][35] - Minimal Huffman encoder and decoder. Public domain.
 * [libbzip2][36] - Patent-free, high-quality data compression library. [``BSD-4-Clause``][BSD-4-Clause]
@@ -1478,22 +1476,16 @@ Incorporated lists:
 * [shoco][41] - Compressor for small text strings. [``MIT``][MIT]
 * [SIMDComp][42] - Simple library for compressing lists of integers using
   binary packing. Makes use of SIMD instructions on x86. [``BSD-3-Clause``][BSD-3-Clause]
-* [smaz][43] - Efficient string compression library. [``BSD-3-Clause``][BSD-3-Clause]
 * [squash][44] - Compression abstraction library, complete with some utilities. [``MIT``][MIT]
 * [TurboPFor][45] - Fast integer compression. [``GPL-2.0-or-later``][GPL-2.0-or-later]
-* [TurboRLE][46] - Efficient run-length encoding. [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [zip][47] - Small zip archive processing library. [``Unlicense``][Unlicense]
 * [Zlib][48] - Popular compression library. [``BSD-3-Clause``][BSD-3-Clause]
-* [libarchive][49] - libarchive is a portable, efficient C library that can read
-  and write streaming archives in a variety of formats. [``BSD-3-Clause``][BSD-3-Clause]
-* [zlib-ng][50] - Zlib replacement with optimizations for modern CPUs systems. [``BSD-3-Clause``][BSD-3-Clause]
 * [Zstandard][51] - Fast, lossless compression algorithm, targeting real-time
   compression scenarios at zlib-level or better compression ratios. [``BSD-3-Clause``][BSD-3-Clause]
 * [libzip](https://libzip.org/) - A C library for reading, creating, and modifying zip archives. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
 * [lzo](http://www.oberhumer.com/opensource/lzo/) - Very fast data compression library. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 * [zlib](http://zlib.net/) - Massively-spiffy yet delicately-unobtrusive compression library. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
 * [bzip2](http://www.bzip.org/) - Patent free, high quality data compressor. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
-* [lz4](https://lz4.github.io/lz4/) - Fast Compression algorithm.
 * [snappy](https://github.com/google/snappy) - Fast compression library (implementation in C++, native bindings to C).
 * [zstd](http://facebook.github.io/zstd/) - Fast real-time compression algorithm [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
 * [brotli](https://github.com/google/brotli) - Generic lossless compression algorithm based on LZ77, Huffman coding and 2nd order context modelling [`MIT`](https://raw.githubusercontent.com/atom/atom/master/LICENSE.md)
@@ -1542,17 +1534,7 @@ Incorporated lists:
 * [mill][60] - Go-style concurrency. [``MIT``][MIT]
 * [oclkit][61] - Two-file OpenCL wrapper. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [OCL-MLA][62] - OpenCL Mid-Level Abstractions. [``BSD-3-Clause``][BSD-3-Clause]
-* [OpenMP][63] - Set of pragmas designed to allow for easy parallelization of
-  code. Standard (licensing not applicable).
-* [OpenMPI][64] - Message passing interface implementation. [``BSD-3-Clause``][BSD-3-Clause]
-* [pth][66] - Portable implementation for non-preemptive priority-based
-  scheduling for multiple threads of execution. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [pthreads][67] - POSIX thread library. Standard (no license applicable).
-* [TinyCThread][68] - Portable, small implementation of the C11 threads API. [``Zlib``][Zlib]
 * [cchan](http://repo.hu/projects/cchan/) - Small library for channel constructs for inter-thread communication. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
-* [ck](http://concurrencykit.org/) - Concurrency primitives, safe memory reclamation mechanisms and non-blocking data structures. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
-* [mill](http://libmill.org/) - Go-style concurrency in C. [`X11`](https://directory.fsf.org/wiki/License:X11)
-* [libdill](http://libdill.org/) - Structured concurrency in C. [`X11`](https://directory.fsf.org/wiki/License:X11)
 * [MPICH](http://www.mpich.org/) - Another implementation of MPI. [`MPICH licence`](http://git.mpich.org/mpich.git/blob_plain/6aab201f58d71fc97f2c044d250389ba86ac1e3c:/COPYRIGHT)
 * [OpenMP](https://www.openmp.org/) - Set of C pragmas designed to allow for easy parallelization of code. [`3-clause BSD`](https://opensource.org/licenses/BSD-3-Clause)
 * [OpenMPI](https://github.com/open-mpi/ompi) - Message passing interface implementation. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
@@ -1571,7 +1553,7 @@ Incorporated lists:
 * [etmc/lemon](https://github.com/etmc/lemon) - Lemon is an MPI parallel I/O library that is intended to allow for efficient parallel I/O of both binary and metadata on massively parallel architectures. Data is stored in the SciDAC Lattice QCD Interchange Message Encapsulation format, that allows for storing large blocks of binary data and corresponding metadata in the same file.
 * [geertj/cgreenlet](https://github.com/geertj/cgreenlet) - Coroutines for C/C++
 * [halayli/lthread](https://github.com/halayli/lthread) - lthread, a multicore enabled coroutine library written in C
-* [hnes/libaco](https://github.com/hnes/libaco) - A blazing fast and lightweight C asymmetric coroutine library  💎 ⛅🚀⛅🌞
+* [hnes/libaco](https://github.com/hnes/libaco) - A blazing fast and lightweight C asymmetric coroutine library
 * [jtsiomb/c11threads](https://github.com/jtsiomb/c11threads) - Trivial C11 threads.h implementation over POSIX threads.
 * [kev009/Concurrency-Kit](https://github.com/kev009/Concurrency-Kit) - Concurrency primitives and lock-less data structures
 * [matianfu/FUNK](https://github.com/matianfu/FUNK) - a c continuation library inspired by Adam Dunkel's ProtoThread.
@@ -1590,26 +1572,9 @@ Mostly library implementations of well-known cryptographic algorithms or
 protocols.
 * [GNU SASL][69] - Implementation of the Simple Authentication and Security
   Layer and few common SASL mechanisms. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [GnuTLS][70] - Secure communication library, implementing SSL, TLS and DTLS. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
-* [libgcrypt][71] - General-purpose cryptography library, with a range of
-  available ciphers. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
-* [OpenSSL][72] - Implementation of the SSL and TLS protocols. Also includes a
-  cryptography library. [Dual Licensed under the OpenSSL License and the SSLeay License][73].
 * [liboqs][74] - Library for quantum-resistant cryptographicl algorithms. [``MIT``][MIT]
-* [libsodium][75] - Modern and easy-to-use crypto library. [``MIT``][MIT]
-* [libtomcrypt][76] - Fairly comprehensive, modular and portable cryptographic
-  toolkit. Public domain.
-* [mbed TLS][77] - Another crypto implementation. [``Apache-2.0``][Apache-2.0]
-* [MIRACL][78] - Multiprecision Integer and Rational Arithmetic Cryptographic
-  Library; an SDK for elliptic curve cryptography. [``AGPL-3.0-or-later``][AGPL-3.0-or-later]
-* [retter][79] - Collection of hash functions, ciphers, tools, libraries and
-  materials related to cryptography and security. Public domain.
-* [s2n][80] - C99 implementation of the TLS/SSL protocols, designed to be
-  simple, fast and with security as a priority. [``Apache-2.0``][Apache-2.0]
 * [sphlib][81] - Set of implementations of various hash functions, including
   several cryptographic ones. [``MIT``][MIT]
-* [trezor-crypto][82] - Heavily optimized crypto algorithms for embedded
-  devices. [``MIT``][MIT]
 * [GnuTLS](https://www.gnutls.org/) - Secure communication library, implementing SSL, TLS and DTLS. [`GNU LGPL2.1 or later`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
 * [libgcrypt](https://gnupg.org/related_software/libgcrypt/) - General-purpose cryptography library, with a range of available ciphers. [`GNU LGPL2.1or later (code)`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html) and [`GNU GPL2.1 or later (manual and tools)`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 * [OpenSSL](https://www.openssl.org/) - Implementation of the SSL and TLS protocols, and also includes a cryptography library. [`Dual Licensed under the OpenSSL License and the SSLeay License`](https://www.openssl.org/source/license.html)
