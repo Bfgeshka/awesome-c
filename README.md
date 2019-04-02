@@ -1462,23 +1462,21 @@ Incorporated lists:
   ## <a href="#-">`^`</a> Compression ##
   * [blosc][29-1] - Fast, multi-threaded, meta-compressor library. [`Licenses`][29-2]
   * [clzip][29-3] - C lzip implementation. [`GPL 2`][29-4]
-  * [FiniteStateEntropy][29-5] - Two efficient compression codecs optimized for
-  modern CPUs. [`BSD 2-Clause`][29-6]
-  * [fast_zlib][29-7] - Improved zlib, which runs 2 to 10 times faster. [`BSD 3-Clause`][29-8]
-  * [huffandpuff][29-9] - Minimal Huffman encoder and decoder. [`Public domain`][29-10]
+  * [Cyan4973/FiniteStateEntropy][29-5] - Two efficient compression codecs
+  optimized for modern CPUs. [`BSD 2-Clause`][29-6]
+  * [gildor2/fast_zlib][29-7] - Improved zlib, which runs 2 to 10 times faster. [`BSD 3-Clause`][29-8]
+  * [adamierymenko/huffandpuff][29-9] - Minimal Huffman encoder and decoder. [`Public domain`][29-10]
   * [bzip2][29-11] - Patent-free, high-quality data compression library. [`BSD 4-Clause`][29-12]
-  * [Lizard][29-13] - Formerly LZ5. Achieves compression ratios comparable with
-  zip and zlib at decompression speeds of 1000MB/s and faster. [`Licenses`][29-14]
-  * [pixz][40] - Parallel, indexed xz compressor. [``BSD-2-Clause``][BSD-2-Clause]
-  * [shoco][41] - Compressor for small text strings. [``MIT``][MIT]
-  * [SIMDComp][42] - Simple library for compressing lists of integers using
-  binary packing. Makes use of SIMD instructions on x86. [``BSD-3-Clause``][BSD-3-Clause]
-  * [squash][44] - Compression abstraction library, complete with some utilities. [``MIT``][MIT]
-  * [TurboPFor][45] - Fast integer compression. [``GPL-2.0-or-later``][GPL-2.0-or-later]
-  * [zip][47] - Small zip archive processing library. [``Unlicense``][Unlicense]
-  * [Zstandard][51] - Fast, lossless compression algorithm, targeting real-time
-  compression scenarios at zlib-level or better compression ratios. [``BSD-3-Clause``][BSD-3-Clause]
-  * [libzip](https://libzip.org/) - A C library for reading, creating, and modifying zip archives. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
+  * [inikep/lizard][29-13] - Formerly LZ5. Achieves compression ratios
+  comparable with zip and zlib at decompression speeds of 1000MB/s and faster. [`Licenses`][29-14]
+  * [vasi/pixz][29-15] - Parallel, indexed xz compressor. [`BSD 2-Clause`][29-16]
+  * [Ed-von-Schleck/shoco][29-17] - Compressor for small text strings. [`MIT`][29-18]
+  * [lemire/simdcomp][29-19] - Simple library for compressing lists of integers
+  using binary packing. Makes use of SIMD instructions on x86. [`BSD 3-Clause`][29-20]
+  * [quixdb/squash][29-21] - Compression abstraction library, complete with
+  utilities. [`MIT`][29-22]
+  * [powturbo/TurboPFor][29-23] - Fast integer compression. [`GPL 2`][29-24]
+  * [nih-at/libzip][29-25] - A C library for reading, creating, and modifying zip archives. [`BSD 3-Clause`][29-26]
   * [lzo](http://www.oberhumer.com/opensource/lzo/) - Very fast data compression library. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
   * [zlib](http://zlib.net/) - Massively-spiffy yet delicately-unobtrusive compression library. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
   * [snappy](https://github.com/google/snappy) - Fast compression library (implementation in C++, native bindings to C).
@@ -1526,6 +1524,18 @@ Incorporated lists:
   [29-12]: https://sourceforge.net/projects/bzip2/files/
   [29-13]: https://github.com/inikep/lizard
   [29-14]: https://github.com/inikep/lizard/blob/lizard/LICENSE
+  [29-15]: https://github.com/vasi/pixz
+  [29-16]: https://github.com/vasi/pixz/blob/master/LICENSE
+  [29-17]: http://ed-von-schleck.github.io/shoco
+  [29-18]: https://github.com/Ed-von-Schleck/shoco/blob/master/LICENSE
+  [29-19]: https://github.com/lemire/simdcomp
+  [29-20]: https://github.com/lemire/simdcomp/blob/master/LICENSE
+  [29-21]: https://github.com/quixdb/squash
+  [29-22]: https://github.com/quixdb/squash/blob/master/COPYING
+  [29-23]: https://github.com/powturbo/TurboPFor
+  [29-24]: https://github.com/powturbo/TurboPFor/blob/master/fp.c
+  [29-25]: https://github.com/nih-at/libzip
+  [29-26]: https://github.com/nih-at/libzip/blob/master/LICENSE
 </details>
 
 ## Concurrency and Parallelism ##
@@ -3386,18 +3396,11 @@ Comprehensive and integrated solutions for building web application in C.
 [53]: https://github.com/yosefk/checkedthreads
 [52]: http://repo.hu/projects/cchan/
 
-[51]: http://facebook.github.io/zstd/
 [50]: https://github.com/Dead2/zlib-ng
 [49]: https://github.com/libarchive/libarchive
 [48]: http://zlib.net
-[47]: https://github.com/kuba--/zip
 [46]: https://github.com/powturbo/TurboRLE
-[45]: https://github.com/powturbo/TurboPFor
-[44]: https://github.com/quixdb/squash
 [43]: https://github.com/antirez/smaz
-[42]: https://github.com/lemire/simdcomp
-[41]: http://ed-von-schleck.github.io/shoco
-[40]: https://github.com/vasi/pixz
 [39]: http://www.oberhumer.com/opensource/lzo/
 [38]: http://lz4.github.io/lz4/
 [33]: https://github.com/atomicobject/heatshrink
