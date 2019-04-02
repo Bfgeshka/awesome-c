@@ -1331,18 +1331,26 @@ Incorporated lists:
   * [GLPK][28-22] - GNU Linear Programming Kit; a package designed for solving
   large-scale linear programming, mixed integer programming and other related
   problems. [`GPL 3`][28-23]
-  * [GMP](https://gmplib.org/) - GNU Multple Precision Arithmetic Library; a library for arbitrary-precision arithmetic. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html) and [`GNU LGPLv3`](http://www.gnu.org/licenses/lgpl.html)
-  * [GNU MPC](http://www.multiprecision.org/mpc/) - Library for complex number arithmetic. [`GNU LGPL3 or later`](http://www.gnu.org/licenses/lgpl.html)
-  * [GNU MPFR](https://www.mpfr.org/index.html) - Library for arbitrary-precision floating-point arithmetic. [`GNU LGPL3 or later`](http://www.gnu.org/licenses/lgpl.html) or [`GNU LGPL2.1 or later (until version 2.4.x)`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-  * [GNU MPRIA](https://www.gnu.org/software/mpria/) - Portable mathematics library for multi-precision rational interval arithmetic. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
-  * [GSL](http://www.gnu.org/software/gsl/) - The GNU Scientific Library; a sophisticated numerical library. [`GNU GPL3`](http://www.gnu.org/licenses/gpl.html)
-  * [igraph](https://igraph.org/) - Library for creating and manipulating large graphs. [`GNU GPL2`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-  * [KISS FFT](https://sourceforge.net/projects/kissfft/) - Very simple fast Fourier transform library. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
-  * [LAPACKE](http://www.netlib.org/lapack/lapacke.html) - C interface to [LAPACK](http://www.netlib.org/lapack/). [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
-  * [PARI/GP](http://pari.math.u-bordeaux.fr/) - Computer algebra system for number theory; includes a compiler to C. [`GNU GPL2.1 or later`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-  * [PETSc](https://www.mcs.anl.gov/petsc/) - Suite of data structures and routines for scalable parallel solution of scientific applications modelled by partial differential equations. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
-  * [PROB](https://people.sc.fsu.edu/~jburkardt/c_src/prob/prob.html) - Library that handles various discrete and continuous probability density functions.  [`GNU LGPL3`](https://people.sc.fsu.edu/~jburkardt/txt/gnu_lgpl.txt)
-  * [Yeppp!](https://bitbucket.org/MDukhan/yeppp) - Very fast, SIMD-optimized mathematical library. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
+  * [GMP][28-24] - GNU Multple Precision Arithmetic Library; a library for
+  arbitrary-precision arithmetic. [`Licenses`][28-25]
+  * [GNU MPC][28-26] - Library for complex number arithmetic. [`LGPL 3`][28-27]
+  * [GNU MPFR][28-28] - Library for arbitrary-precision floating-point
+  arithmetic. [`LGPL 3`][28-29]
+  * [GNU MPRIA][28-30] - Portable mathematics library for multi-precision
+  rational interval arithmetic. [`GPL 3`][28-31]
+  * [GSL][28-32] - The GNU Scientific Library; a sophisticated numerical
+  library. [`GPL3`][28-33]
+  * [igraph][28-34]- Library for creating and manipulating large graphs. [`GPL2`][28-35]
+  * [KISS FFT][28-36] - Very simple fast Fourier transform library. [`BSD`][28-37]
+  * [LAPACKE][28-38] - C interface to LAPACK. [`License`][28-39]
+  * [PARI/GP][28-40] - Computer algebra system for number theory; includes a
+  compiler to C. [`GLP`][28-41]
+  * [PETSc][28-42] - Suite of data structures and routines for scalable parallel
+  solution of scientific applications modelled by partial differential
+  equations. [`License`][28-43]
+  * [PROB][28-44] - Library that handles various discrete and continuous
+  probability density functions. [`LGPL 3`][28-45]
+  * [Yeppp!][28-46] - Very fast, SIMD-optimized mathematical library. [`License`][28-47]
   * [gjrand](https://sourceforge.net/projects/gjrand/) - Library of random-number generation routines. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html) or [`GNU GPLv3`](http://www.gnu.org/licenses/gpl.html)
   * [FFTW/fftw3](https://github.com/FFTW/fftw3) - This is the official repository for the FFTW Fourier transform library, version 3.x
   * [HdrHistogram/HdrHistogram_c](https://github.com/HdrHistogram/HdrHistogram_c) - C port of the HdrHistogram
@@ -1391,6 +1399,30 @@ Incorporated lists:
   [28-21]: https://github.com/wbhart/flint2/blob/trunk/LICENSE
   [28-22]: https://www.gnu.org/software/glpk/
   [28-23]: https://ftp.gnu.org/gnu/glpk/
+  [28-24]: https://gmplib.org/
+  [28-25]: https://gmplib.org/repo/gmp/file/tip
+  [28-26]: http://www.multiprecision.org/mpc/
+  [28-27]: http://www.multiprecision.org/mpc/
+  [28-28]: https://www.mpfr.org/index.html
+  [28-29]: https://www.mpfr.org/index.html#intro
+  [28-30]: https://www.gnu.org/software/mpria/
+  [28-31]: https://www.gnu.org/software/mpria/
+  [28-32]: http://www.gnu.org/software/gsl/
+  [28-33]: http://git.savannah.gnu.org/cgit/gsl.git/tree/COPYING
+  [28-34]: https://github.com/igraph/igraph
+  [28-35]: https://github.com/igraph/igraph/blob/master/COPYING
+  [28-36]: https://sourceforge.net/projects/kissfft/
+  [28-37]: https://sourceforge.net/projects/kissfft/
+  [28-38]: http://www.netlib.org/lapack/lapacke.html
+  [28-39]: http://www.netlib.org/lapack/LICENSE.txt
+  [28-40]: http://pari.math.u-bordeaux.fr/
+  [28-41]: http://pari.math.u-bordeaux.fr/
+  [28-42]: https://www.mcs.anl.gov/petsc/
+  [28-43]: https://www.mcs.anl.gov/petsc/documentation/license.html
+  [28-44]: https://people.sc.fsu.edu/~jburkardt/c_src/prob/prob.html
+  [28-45]: https://people.sc.fsu.edu/~jburkardt/c_src/prob/prob.html
+  [28-46]: https://bitbucket.org/MDukhan/yeppp
+  [28-47]: https://bitbucket.org/MDukhan/yeppp/src/7830144789416f9fbed3998a4c711147533cb546/LICENSE.txt?at=default&fileviewer=file-view-default
 </details>
 
 ## Compression ##
