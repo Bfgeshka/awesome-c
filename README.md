@@ -289,7 +289,7 @@ Incorporated lists:
   * [Cppcheck][4-5] - Static analysis tool. Despite the name, works well with C. [`GPL 3`][4-21]
   * [CScout][4-8] - Source code analyzer and refactoring browser for C programs. [`GPL 3`][4-22]
   * [agl/ctgrind][4-23] - Checking that functions are constant time with
-  Valgrind. [`No license`]
+  Valgrind. `No license`
   * [GNU DDD][4-9] - Graphical front-end for a range of command-line debuggers. [`Licenses`][4-24]
   * [GDB][4-10] - GNU Project debugger. [`Licenses`][4-25]
   * [lldb][4-11] - LLVM debugger. [`NCSA`][4-19]
@@ -446,12 +446,12 @@ Incorporated lists:
   identifiers recognized by Ctags. This is a download link. [`GPL 2`]
   * [CEDET][9-2] - Collection of Emacs Development Environment Tools; designed
   to provide IDE-like features to Emacs. Built-in. [`GPL 2`][9-10]
-  * [lvzixun/Clang-Complete][9-13] - an autocomplete plugin for sublimetext3. [`No license`]
+  * [lvzixun/Clang-Complete][9-13] - an autocomplete plugin for sublimetext3. `No license`
   * [editorconfig-core-c][9-14] - EditorConfig core library written in C (for
   use by plugins supporting EditorConfig parsing). [`License`][9-15]
   * [Flycheck][9-3] - Modern syntax checking for Emacs. For C, it can use either
   GCC or Clang as a back-end. [`GPL 3`][9-11]
-  * [AtomLinter/linter-clang][9-4] - Lint C code in Atom, using Clang. [`No license`]
+  * [AtomLinter/linter-clang][9-4] - Lint C code in Atom, using Clang. `No license`
   * [hebaishi/linter-gcc][9-5] - Lint C code in Atom, using GCC. [`MIT`][9-12]
   * [Neomake][9-6] - make and linting framework for Neovim/Vim. [`MIT`][9-16]
   * [Syntastic][9-7] - Syntax checking and linting for Vim. [`WTFPL`][9-17]
@@ -1092,17 +1092,17 @@ Incorporated lists:
   * [yusugomori/DeepLearning][25-40] - Deep Learning (several languages, C
   included). [`MIT`][25-41]
   * [encog/encog-c][25-27] - C implementation of Encog - machine learning
-  framework for Java/C#. [`No license`]
+  framework for Java/C#. `No license`
   * [codeplea/genann][25-24] - simple neural network library in ANSI C. [`Zlib`][25-25]
   * [attractivechaos/kann][25-1] - Two-file ANN library. [`MIT`][25-2]
   * [Blei-Lab/lda-c][25-8] - This is a C implementation of variational EM for
   latent Dirichlet allocation (LDA), a topic model for text or other discrete
   data. [`LGPL 2.1`][25-9]
-  * [jppbsi/LibDEEP][25-3] - Deep learning library. [`No license`]
+  * [jppbsi/LibDEEP][25-3] - Deep learning library. `No license`
   * [H2CO3/libsprec][25-12] - C library for speech recognition using the Google
   Speech API. [`License`][25-13]
   * [robwhess/opensift][25-32] - Open-Source SIFT Library. [`License`][25-33]
-  * [dake/openVP][25-26] - Voice Print Recognition in C language. [`No license`]
+  * [dake/openVP][25-26] - Voice Print Recognition in C language. `No license`
   * [cmusphinx/pocketsphinx][25-22] - Lightweight speech recognition engine,
   specifically tuned for handheld and mobile devices, though it works equally
   well on the desktop. [`BSD 2-Clause`][25-23]
@@ -1172,17 +1172,17 @@ Incorporated lists:
 
   ## <a href="#-">`^`</a> Algoritm Implementations ##
   Some generic agoritms or ones with no specific attachments.
-  * [dhuertas/AES][26-28] - AES algorithm implementation in C. [`No license`]
+  * [dhuertas/AES][26-28] - AES algorithm implementation in C. `No license`
   * [mischasan/aho-corasick][26-40] - A-C implementation in "C". Tight-packed
   (interleaved) state-transition matrix. [`LGPL 3`][26-41]
   * [davidreynolds/algorithms][26-27] - A repository of assorted algorithms and
-  data structures. [`No license`]
+  data structures. `No license`
   * [BigZaphod/AStar][26-5] - C Implementation of the A\* Pathfinding Algorithm. [`License`][26-6]
   * [citiususc/BigBWA][26-25] - Approaching the Burrows-Wheeler Aligner to Big
   Data Technologies. [`GPL 3`][26-26]
-  * [TheAlgorithms/C][26-17] - All Algorithms implemented in C [`No license`]
+  * [TheAlgorithms/C][26-17] - All Algorithms implemented in C `No license`
   * [chaoslawful/ccard-lib][26-24] - C library for estimating cardinality in
-  streams for which it is infeasible to store all events in memory. [`No license`]
+  streams for which it is infeasible to store all events in memory. `No license`
   * [agl/curve25519-donna][26-18] - Implementations of a fast Elliptic-curve
   Diffie-Hellman primitive. [`License`][26-19]
   * [aimxhaisse/des][26-22] - C implementation of DES. [`License`][26-23]
@@ -1190,7 +1190,7 @@ Incorporated lists:
   * [blynn/dlx][26-3] - Implementation of Knuth's Algorithm X, with example
   solvers. [`GPL 3`][26-4]
   * [oap/ekf-angles][26-44] - Extended Kalman Filter for Accelerometer and Gyro
-  data. [`No license`]
+  data. `No license`
   * [Cyan4973/FiniteStateEntropy][26-13] - Finite State Entropy and Huff0. [`BSD 2-Clause`][26-14]
   * [BlackLight/fkmeans][26-9] - A tiny library in C for managing kmeans
   clusterization algorithm over arbitrary data sets, both by manually specifying
@@ -1210,7 +1210,7 @@ Incorporated lists:
   according to the method of Clauset, Shalizi and Newman. [`License`][26-46]
   * [Kevincav/Radix-Sort][26-15] - Radix Sort with different data types. [`MIT`][26-16]
   * [duckythescientist/obfuscatedLife][26-29] - Conway's Game of Life in 9 lines
-  of C. [`No license`]
+  of C. `No license`
   * [kokke/tiny-AES-c][26-34] - Small portable AES128/192/256 in C. [`Unlicense`][26-35]
   * [kroitor/gjk.c][26-36] - Gilbert-Johnson-Keerthi (GJK) collision detection
   algorithm in 200 lines of clean plain C. [`WTFPL`][26-37]
@@ -1317,7 +1317,7 @@ Incorporated lists:
   problems on parallel computers. [`BSD 2-Clause`][28-10]
   * [CDFLIB][28-11] - Library with routines to evaluate cumulative density
   functions for a variety of standard probability distributions.
-  Also can compute one parameter of the CDF given the others. [`No license`]
+  Also can compute one parameter of the CDF given the others. `No license`
   * [ScientificC/cmathl][28-12] - Pure-C Math library with a great variety of
   mathematical functions and CMake build support. Seeks to be close to C89/C90
   compliant for portability. [`MIT`][28-13]
@@ -1357,7 +1357,7 @@ Incorporated lists:
   open source libm implementation. [`License`][28-53]
   * [Lichtso/CCWT][28-54] - Complex Continuous Wavelet Transformation. [`MIT`][28-55]
   * [canonizer/libgpuvm][28-56] - library which simplifies host-GPU data
-  transfer using userspace pagefault handling. [`No license`]
+  transfer using userspace pagefault handling. `No license`
   * [clMathLibraries/clRNG][28-57] - an OpenCL based software library containing
   random number generation functions. [`License`][28-58]
   * [emrainey/OpenCL-Environment][28-59] - A series of utilities aimed at making
