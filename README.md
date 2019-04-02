@@ -1351,17 +1351,15 @@ Incorporated lists:
   * [PROB][28-44] - Library that handles various discrete and continuous
   probability density functions. [`LGPL 3`][28-45]
   * [Yeppp!][28-46] - Very fast, SIMD-optimized mathematical library. [`License`][28-47]
-  * [gjrand](https://sourceforge.net/projects/gjrand/) - Library of random-number generation routines. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html) or [`GNU GPLv3`](http://www.gnu.org/licenses/gpl.html)
-  * [FFTW/fftw3](https://github.com/FFTW/fftw3) - This is the official repository for the FFTW Fourier transform library, version 3.x
-  * [HdrHistogram/HdrHistogram_c](https://github.com/HdrHistogram/HdrHistogram_c) - C port of the HdrHistogram
-  * [JuliaMath/openlibm](https://github.com/JuliaMath/openlibm) - High quality system independent, portable, open source libm implementation
-  * [KhronosGroup/OpenCL-Headers](https://github.com/KhronosGroup/OpenCL-Headers) - Khronos OpenCL-Headers
-  * [Lichtso/CCWT](https://github.com/Lichtso/CCWT) - Complex Continuous Wavelet Transformation
-  * [NCrashed/bzip2](https://github.com/NCrashed/bzip2) - Bindings for bzip2 library, a freely available, patent free, high-quality data compressor.
-  * [PetteriAimonen/libfixmatrix](https://github.com/PetteriAimonen/libfixmatrix) - C library for fixed point matrix, quaternion and vector calculations
-  * [canonizer/libgpuvm](https://github.com/canonizer/libgpuvm) - library which simplifies host-GPU data transfer using userspace pagefault handling
-  * [clMathLibraries/clBLAS](https://github.com/clMathLibraries/clBLAS) - a software library containing BLAS functions written in OpenCL
-  * [clMathLibraries/clRNG](https://github.com/clMathLibraries/clRNG) - an OpenCL based software library containing random number generation functions
+  * [gjrand][28-48] - Library of random-number generation routines. [`GPL 2`][28-49]
+  * [HdrHistogram/HdrHistogram_c][28-50] - C port of the HdrHistogram. [`License`][28-51]
+  * [JuliaMath/openlibm][28-52] - High quality system independent, portable,
+  open source libm implementation. [`License`][28-53]
+  * [Lichtso/CCWT][28-54] - Complex Continuous Wavelet Transformation. [`MIT`][28-55]
+  * [canonizer/libgpuvm][28-56] - library which simplifies host-GPU data
+  transfer using userspace pagefault handling. [`No license`]
+  * [clMathLibraries/clRNG][28-57] - an OpenCL based software library containing
+  random number generation functions. [`License][28-58]
   * [emrainey/OpenCL-Environment](https://github.com/emrainey/OpenCL-Environment) - A series of utilities aimed at making OpenCL easier to use.
   * [freshcode/MFMathLib](https://github.com/freshcode/MFMathLib) - A mathematical library providing basic math operations on data types from 8-bits to 1024-bits with overflow/underflow tracking.
   * [google/clspv](https://github.com/google/clspv) - Clspv is a prototype compiler for a subset of OpenCL C to Vulkan compute shaders
@@ -1423,6 +1421,17 @@ Incorporated lists:
   [28-45]: https://people.sc.fsu.edu/~jburkardt/c_src/prob/prob.html
   [28-46]: https://bitbucket.org/MDukhan/yeppp
   [28-47]: https://bitbucket.org/MDukhan/yeppp/src/7830144789416f9fbed3998a4c711147533cb546/LICENSE.txt?at=default&fileviewer=file-view-default
+  [28-48]: https://sourceforge.net/projects/gjrand/
+  [28-49]: https://sourceforge.net/projects/gjrand/
+  [28-50]: https://github.com/HdrHistogram/HdrHistogram_c
+  [28-51]: https://github.com/HdrHistogram/HdrHistogram_c/blob/master/LICENSE.txt
+  [28-52]: https://github.com/JuliaMath/openlibm
+  [28-53]: https://github.com/JuliaMath/openlibm/blob/master/LICENSE.md
+  [28-54]: https://github.com/Lichtso/CCWT
+  [28-55]: https://github.com/Lichtso/CCWT/blob/master/LICENSE
+  [28-56]: https://github.com/canonizer/libgpuvm
+  [28-57]: https://github.com/clMathLibraries/clRNG
+  [28-58]: https://github.com/clMathLibraries/clRNG/blob/master/LICENSE
 </details>
 
 ## Compression ##
@@ -1493,6 +1502,7 @@ Incorporated lists:
 * [rjsikarwar/gpu_compression](https://github.com/rjsikarwar/gpu_compression) - Nine Light weight Schemes to Compress and Decompress the data of Database Using GPU and also a planer
 * [zlib-ng/zlib-ng](https://github.com/zlib-ng/zlib-ng) - zlib replacement with optimizations for "next generation" systems.
 * [powturbo/TurboRLE](https://github.com/powturbo/TurboRLE) - Fastest Run Length Encoding
+* [NCrashed/bzip2](https://github.com/NCrashed/bzip2) - Bindings for bzip2 library, a freely available, patent free, high-quality data compressor.
 
 ## Concurrency and Parallelism ##
 * [cchan][52] - Small library for channel constructs for inter-thread
