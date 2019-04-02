@@ -1461,59 +1461,59 @@ Incorporated lists:
 
   ## <a href="#-">`^`</a> Compression ##
   * [Blosc/bcolz][29-1] - Fast, multi-threaded, meta-compressor library. [`Licenses`][29-2]
-  * [clzip][29-3] - C lzip implementation. [`GPL 2`][29-4]
-  * [Cyan4973/FiniteStateEntropy][29-5] - Two efficient compression codecs
-  optimized for modern CPUs. [`BSD 2-Clause`][29-6]
-  * [gildor2/fast_zlib][29-7] - Improved zlib, which runs 2 to 10 times faster. [`BSD 3-Clause`][29-8]
-  * [adamierymenko/huffandpuff][29-9] - Minimal Huffman encoder and decoder. [`Public domain`][29-10]
-  * [bzip2][29-11] - Patent-free, high-quality data compression library. [`BSD 4-Clause`][29-12]
-  * [inikep/lizard][29-13] - Formerly LZ5. Achieves compression ratios
-  comparable with zip and zlib at decompression speeds of 1000MB/s and faster. [`Licenses`][29-14]
-  * [vasi/pixz][29-15] - Parallel, indexed xz compressor. [`BSD 2-Clause`][29-16]
-  * [Ed-von-Schleck/shoco][29-17] - Compressor for small text strings. [`MIT`][29-18]
-  * [lemire/simdcomp][29-19] - Simple library for compressing lists of integers
-  using binary packing. Makes use of SIMD instructions on x86. [`BSD 3-Clause`][29-20]
-  * [quixdb/squash][29-21] - Compression abstraction library, complete with
-  utilities. [`MIT`][29-22]
-  * [powturbo/TurboPFor][29-23] - Fast integer compression. [`GPL 2`][29-24]
-  * [nih-at/libzip][29-25] - A C library for reading, creating, and modifying
-  zip archives. [`BSD 3-Clause`][29-26]
-  * [lzo][29-27] - Very fast data compression library. [`GPL 2`][29-28]
-  * [madler/zlib][29-29] - Massively-spiffy yet delicately-unobtrusive
-  compression library. [`Zlib`][29-30]
-  * [facebook/zstd][29-31] - Fast real-time compression algorithm. [`BSD 3-Clause`][29-32]
+  * [kiyo-masui/bitshuffle][29-51] - Filter for improving compression of typed
+  binary data. [`License`][29-52]
   * [google/brotli][29-33] - Generic lossless compression algorithm based on
   LZ77, Huffman coding and 2nd order context modelling. [`MIT`][29-34]
-  * [quicklz][29-35] - Fast compression library. [`Licenses`][29-36]
+  * [bzip2][29-11] - Patent-free, high-quality data compression library. [`BSD 4-Clause`][29-12]
   * [Blosc/c-blosc][29-37] - A blocking, shuffling and loss-less compression
   library that can be faster than memcpy(). [`Licenses`][29-38]
+  * [clzip][29-3] - C lzip implementation. [`GPL 2`][29-4]
+  * [richox/comprox][29-65] - An experimental lossless data compression program
+  with high compression ratio. [`BSD 3-Clause`][29-66]
   * [RoaringBitmap/CRoaring][29-39] - Roaring bitmaps in C (and C++). [`Apache 2`][29-40]
   * [adnanozsoy/CUDA_Compression][29-41] - A GPU-based LZSS compression
   algorithm, highly tuned for NVIDIA GPGPUs and for streaming data, leveraging
   the respective strengths of CPUs and GPUs together. [`Apache 2`][29-42]
-  * [andikleen/snappy-c][29-43] - C port of the snappy compressor. [`License`][29-44]
-  * [antirez/smaz][29-45] - Small strings compression library. [`BSD 3-Clause`][29-46]
-  * [atomicobject/heatshrink][29-47] - data compression library for
-  embedded/real-time systems. [`ISC`][29-48]
   * [centaurean/density][29-49] - Superfast compression library. [`BSD 3-Clause`][29-50]
-  * [kiyo-masui/bitshuffle][29-51] - Filter for improving compression of typed
-  binary data. [`License`][29-52]
-  * [kuba--/zip][29-53] - A portable, simple zip library written in C. [`Unlicense`][29-54]
-  * [libarchive/libarchive][29-55] - Multi-format archive and compression
-  library. [`Licenses`][29-56]
-  * [lz4/lz4][29-57] - Extremely Fast Compression algorithm. [`Licenses`][29-58]
-  * [mist64/pucrunch][29-59] - pucrunch, an Optimizing Hybrid LZ77 RLE Data
-  Compression Program for C64/C128/VIC-20/Plus4. [`LGPL 2.1`][29-60]
-  * [moinakg/pcompress][29-61] - A Parallelized Data Deduplication
-  and Compression utility. [`LGPL 3`][29-62]
-  * [richgel999/miniz][29-63] - Single C source file zlib-replacement library. [`License`][29-64]
-  * [richox/comprox][29-65] - An experimental lossless data compression program
-  with high compression ratio. [`BSD 3-Clause`][29-66]
+  * [gildor2/fast_zlib][29-7] - Improved zlib, which runs 2 to 10 times faster. [`BSD 3-Clause`][29-8]
+  * [Cyan4973/FiniteStateEntropy][29-5] - Two efficient compression codecs
+  optimized for modern CPUs. [`BSD 2-Clause`][29-6]
   * [rjsikarwar/gpu_compression][29-67] - Nine Light weight Schemes to Compress
   and Decompress the data of Database Using GPU and also a planer. `No license`
+  * [atomicobject/heatshrink][29-47] - data compression library for
+  embedded/real-time systems. [`ISC`][29-48]
+  * [adamierymenko/huffandpuff][29-9] - Minimal Huffman encoder and decoder. [`Public domain`][29-10]
+  * [libarchive/libarchive][29-55] - Multi-format archive and compression
+  library. [`Licenses`][29-56]
+  * [nih-at/libzip][29-25] - A C library for reading, creating, and modifying
+  zip archives. [`BSD 3-Clause`][29-26]
+  * [inikep/lizard][29-13] - Formerly LZ5. Achieves compression ratios
+  comparable with zip and zlib at decompression speeds of 1000MB/s and faster. [`Licenses`][29-14]
+  * [lz4/lz4][29-57] - Extremely Fast Compression algorithm. [`Licenses`][29-58]
+  * [lzo][29-27] - Very fast data compression library. [`GPL 2`][29-28]
+  * [richgel999/miniz][29-63] - Single C source file zlib-replacement library. [`License`][29-64]
+  * [moinakg/pcompress][29-61] - A Parallelized Data Deduplication
+  and Compression utility. [`LGPL 3`][29-62]
+  * [vasi/pixz][29-15] - Parallel, indexed xz compressor. [`BSD 2-Clause`][29-16]
+  * [mist64/pucrunch][29-59] - pucrunch, an Optimizing Hybrid LZ77 RLE Data
+  Compression Program for C64/C128/VIC-20/Plus4. [`LGPL 2.1`][29-60]
+  * [quicklz][29-35] - Fast compression library. [`Licenses`][29-36]
+  * [Ed-von-Schleck/shoco][29-17] - Compressor for small text strings. [`MIT`][29-18]
+  * [lemire/simdcomp][29-19] - Simple library for compressing lists of integers
+  using binary packing. Makes use of SIMD instructions on x86. [`BSD 3-Clause`][29-20]
+  * [antirez/smaz][29-45] - Small strings compression library. [`BSD 3-Clause`][29-46]
+  * [andikleen/snappy-c][29-43] - C port of the snappy compressor. [`License`][29-44]
+  * [quixdb/squash][29-21] - Compression abstraction library, complete with
+  utilities. [`MIT`][29-22]
+  * [powturbo/TurboPFor][29-23] - Fast integer compression. [`GPL 2`][29-24]
+  * [powturbo/TurboRLE][29-70] - Fastest Run Length Encoding. [`GPL 2`][29-71]
+  * [kuba--/zip][29-53] - A portable, simple zip library written in C. [`Unlicense`][29-54]
+  * [madler/zlib][29-29] - Massively-spiffy yet delicately-unobtrusive
+  compression library. [`Zlib`][29-30]
   * [zlib-ng/zlib-ng][29-68] - zlib replacement with optimizations for
   "next generation" systems. [`Zlib`][29-69]
-  * [powturbo/TurboRLE][29-70] - Fastest Run Length Encoding. [`GPL 2`][29-71]
+  * [facebook/zstd][29-31] - Fast real-time compression algorithm. [`BSD 3-Clause`][29-32]
 
   [29-1]: https://github.com/Blosc/bcolz
   [29-2]: https://github.com/Blosc/bcolz/tree/master/LICENSES
