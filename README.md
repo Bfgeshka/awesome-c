@@ -1714,7 +1714,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [ashinkarov/trie](https://github.com/ashinkarov/trie) - Simple implementation of trie data structure in C
 * [bcopeland/em_misc](https://github.com/bcopeland/em_misc) - external memory data structure playground
 * [begeekmyfriend/bplustree](https://github.com/begeekmyfriend/bplustree) - A minimal but extreme fast B+ tree indexing structure demo for billions of key-value storage
-* [bpudream/pat](https://github.com/bpudream/pat) - Data Structure (中国大学MOOC-陈越、何钦铭-数据结构)
+* [bpudream/pat](https://github.com/bpudream/pat) - Data Structure
 * [breckinloggins/ngtemplate](https://github.com/breckinloggins/ngtemplate) - ngtemplate - A template engine written in C designed to be syntax-compatible with Google CTemplate
 * [cengek/CKDatastruct](https://github.com/cengek/CKDatastruct) - The using of data structure in C from our class
 * [cbgbt/DataStructures](https://github.com/cbgbt/DataStructures) - A data structures library written in C.
@@ -1805,9 +1805,6 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [Snaipe/libcsptr](https://github.com/Snaipe/libcsptr) - Smart pointers in C
 
 ## Events ##
-* [libuv][397] - Cross-platform asynchronous I/O. [``MIT``][MIT]
-* [libPhenom][398] - Eventing framework for building high-scalability and
-  high-performance systems. [``Apache-2.0``][Apache-2.0]
 * [libev][399] - Yet another event loop. [``BSD-2-Clause``][BSD-2-Clause]
 * [libevent][400] - Event loop replacement for network servers. [``BSD-3-Clause``][BSD-3-Clause]
 * [Lupus/libevfibers](https://github.com/Lupus/libevfibers) - Small C fiber library that uses libev based event loop and libcoro based coroutine context switching.
@@ -1820,7 +1817,6 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 
 ## FFI ##
 Foreign function interfaces, also know as binding interfaces.
-* [libffi][404] - Portable foreign-function interface library. [``MIT``][MIT]
 * [GNU Libffcall][405] - Collection of libraries for building foreign function
   interfaces. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [dyncall][406] - Another foreign function interface library. [``MIT``][MIT]
@@ -1836,29 +1832,22 @@ Libraries for working with specific filetypes
 * [bfd][436] - Library for manipulating binary object files. Part of GNU
   binutils. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [libelf][337] - Simple library for parsing ELF files. [``MIT``][MIT]
-* [abiggerhammer/hammer](https://github.com/abiggerhammer/hammer) - Parser combinators for binary formats, in C. Yes, in C. What? Don't look at me like that.
 * [anjos/arithmetic_coding](https://github.com/anjos/arithmetic_coding) - Library to perform arithmetic coding and decoding of text or binary data
 * [beave/barnyard2-extra](https://github.com/beave/barnyard2-extra) - Barnyard2 with "Extra Data" support and other enhancements.
 * [fuzxxl/memf](https://github.com/fuzxxl/memf) - Portable scanf/printf-like functions to marshal binary data
 * [nicklockwood/FastCoding](https://github.com/nicklockwood/FastCoding) - A faster and more flexible binary file format replacement for NSCoding, Property Lists and JSON
+* [hammer](https://github.com/abiggerhammer/hammer) - Parser combinators for binary formats. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 
 ### CSV ###
 * [libcsv][322] - Simple, streaming CSV parser. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [tadasv/csv_parser](https://github.com/tadasv/csv_parser) - Callback based (SAX like) CSV Parser for C
 
 ### JSON ###
-* [Jansson][323] - Library for encoding, decoding and manipulating JSON. [``MIT``][MIT]
 * [jfes][324] - JSON For Embedded Systems; simple JSON engine without any
   dependencies. [``MIT``][MIT]
-* [jsmn][325] - Minimalistic JSON parser. [``MIT``][MIT]
 * [json.h][326] - Single-file non-streaming JSON parser. [``Unlicense``][Unlicense]
-* [WJElement][327] - Advanced JSON manipulation library, with support for JSON
-  Schema. Various licenses, all open source.
-* [YAJL][328] - Fast streaming JSON parser library. [``ISC``][ISC]
 * [Jansson](http://www.digip.org/jansson/) - C library for encoding, decoding and manipulating JSON. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
 * [jsmn](https://zserge.com/jsmn.html) - Minimalistic JSON parser. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-* [json-c](https://github.com/json-c/json-c/wiki) - Library for working with JSON. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-* [parson](https://github.com/kgabis/parson) - Lightweight JSON library written in C. [`MIT`](https://raw.githubusercontent.com/atom/atom/master/LICENSE.md)
 * [WJElement](https://github.com/netmail-open/wjelement/wiki) - Advanced JSON manipulation library, with support for JSON Schema. [`LGPL, any version`](https://github.com/netmail-open/wjelement/)
 * [YAJL](https://lloyd.github.io/yajl/) - Fast C JSON streaming parser library. [`ISC`](https://directory.fsf.org/wiki/License:ISC)
 * [DaveGamble/cJSON](https://github.com/DaveGamble/cJSON) - Ultralightweight JSON parser in ANSI C
@@ -1883,7 +1872,6 @@ Libraries for working with specific filetypes
 * [udp/json-parser](https://github.com/udp/json-parser) - Very low footprint JSON parser written in portable ANSI C
 
 ### INI ###
-* [inih][329] - Small and simple INI file parser, good for embedded systems. [``BSD-3-Clause``][BSD-3-Clause]
 * [iniparser][330] - Parser for .ini files. [``MIT``][MIT]
 * [libconfini][331] - Yet another INI parser. [``GPL-3.0-only``][GPL-3.0-only]
 * [benhoyt/inih](https://github.com/benhoyt/inih) - Simple .INI file parser in C, good for embedded systems
@@ -1893,9 +1881,6 @@ Libraries for working with specific filetypes
   aware, fast Markdown parser. [``MIT``][MIT]
 * [libcmark][376] - Library for parsing the CommonMark dialect of
   Markdown. [``BSD-2-Clause``][BSD-2-Clause]
-* [Discount][377] - Simple implementation of a Markdown parser. [``BSD-3-Clause``][BSD-3-Clause]
-* [cmark][420] - Implementation of the CommonMark, Markdown dialect.
-  [Variety of licenses, all open source][421].
 * [Orc/discount](https://github.com/Orc/discount) - My C implementation of John Gruber's Markdown markup language
 * [ali-rantakari/peg-markdown-highlight](https://github.com/ali-rantakari/peg-markdown-highlight) - C library for Markdown syntax highlighting, using a recursive-descent parser.
 * [commonmark/cmark](https://github.com/commonmark/cmark) - CommonMark parsing and rendering library and program in C
@@ -1928,7 +1913,6 @@ Libraries for working with specific filetypes
   runtime what output style should be produced. [``BSD-2-Clause``][BSD-2-Clause]
 * [XLSX I/O][413] - Cross-platform library for reading and writing .xlsx files. [``MIT``][MIT]
 * [gumbo-parser][416] - HTML5 parsing library in C99. [``Apache-2.0``][Apache-2.0]
-* [hammer](https://github.com/abiggerhammer/hammer) - Parser combinators for binary formats. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 * [iniparser](https://github.com/ndevilla/iniparser) - Parser for `.ini` files. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
 * [libconfini](https://github.com/madmurphy/libconfini) - Yet another INI parser. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
 * [libYAML](https://pyyaml.org/wiki/LibYAML) - YAML 1.1 parser and emitter. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
@@ -1998,14 +1982,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [Epoxy][177] - Library for handling OpenGL function pointer management. [``MIT``][MIT]
 * [Freecell Solver][178] - Set of libraries and command-line programs for
   automatically solving FreeCell and some similar variants of card Solitaire. [``MIT``][MIT]
-* [ioquake3][181] - Quake3 engine, freed at last. [``GPL-2.0-only``][GPL-2.0-only]
-* [kazmath][182] - Maths library for games. [``BSD-2-Clause``][BSD-2-Clause]
-* [libao][183] - Cross-platform audio library with a wide variety of outputs. [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [MATHC][184] - Math library for 2D and 3D programming. [``ZLib``][Zlib]
-* [Orx][185] - Portable, lightweight, plugin-based, data-driven, 2D-oriented
-  game engine. [``Zlib``][Zlib]
-* [Quake][186] - Quake engine. [``GPL-2.0-only``][GPL-2.0-only]
-* [Quake2][187] - Quake2 engine. [``GPL-2.0-only``][GPL-2.0-only]
 * [raylib][188] - Simple library to learn video game programming. [``Zlib``][Zlib]
 * [RetroArch][189] - Reference frontend for [libretro][190]. [``GPL-3.0-only``][GPL-3.0-only]
 * [SDL2][191] - Cross-platform library designed to provide low-level access to
@@ -2031,7 +2008,6 @@ Engines, libraries and other helpful things specifically for making games.
 * [libao](https://xiph.org/ao/) - Cross-platform audio library with a wide variety of outputs. [`GNU GPL2.1 or later`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 * [RetroArch](https://www.libretro.com/) - The reference frontend for [libretro](https://www.libretro.com/). [`GNU GPL3`](http://www.gnu.org/licenses/gpl.html)
 * [SDL and SDL2](https://www.libsdl.org/) - Cross-platform development library designed to provide low-level access to audio, keyboard, mouse, joystick and graphics hardware via OpenGL. SDL2 is the most current version. [`zlib`](https://directory.fsf.org/wiki/License:Zlib)
-* [raylib](https://www.raylib.com/) - Simple and easy-to-use library to learn videogames programming. [`zlib`](https://directory.fsf.org/wiki/License:Zlib)
 * [Gigoteur/UnicornConsole](https://github.com/Gigoteur/UnicornConsole) - Unicorn Console: create quick game !
 * [HBehrens/obj2opengl](https://github.com/HBehrens/obj2opengl) - script to convert 3D models of OBJ files to C/C++ float arrays (vertices, faces, texture) compatible with OpenGL ES glDrawArrays compatible with iPhone/iPad
 * [HerculesWS/Hercules](https://github.com/HerculesWS/Hercules) - Creation of a robust massively multiplayer online role playing game (MMORPG) server package.
@@ -2079,7 +2055,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [naev/naev](https://github.com/naev/naev) - Naev is a 2d action/rpg space game that combines elements from the action, rpg and simulation genres.
 * [nikki93/cgame](https://github.com/nikki93/cgame) - some ideas involving games and C
 * [orangeduck/Corange](https://github.com/orangeduck/Corange) - Pure C Game Engine
-* [recp/cglm](https://github.com/recp/cglm) - 📽 Highly Optimized Graphics Math (glm) for C
+* [recp/cglm](https://github.com/recp/cglm) - Highly Optimized Graphics Math (glm) for C
 * [rampantpixels/foundation_lib](https://github.com/rampantpixels/foundation_lib) - Cross-platform public domain foundation library in C providing basic support data types and functions to write applications and games in a platform-independent fashion.
 * [raysan5/raylib](https://github.com/raysan5/raylib) - A simple and easy-to-use library to enjoy videogames programming
 * [rxi/lovedos](https://github.com/rxi/lovedos) - A framework for making 2D DOS games in Lua
@@ -2098,11 +2074,10 @@ Engines, libraries and other helpful things specifically for making games.
 * [tpoindex/crobots](https://github.com/tpoindex/crobots) - CROBOTS is a programming game, for programmers (or aspiring programmers.)
 * [andwn/cave-story-md](https://github.com/andwn/cave-story-md) - A fan port of Cave Story for the Sega Mega Drive
 * [angband/angband](https://github.com/angband/angband) - A free, single-player roguelike dungeon exploration game
-* [nesbox/tic.computer](https://github.com/nesbox/tic.computer) - 🐛 Public TIC-80 issues tracker
+* [nesbox/tic.computer](https://github.com/nesbox/tic.computer) - Public TIC-80 issues tracker
 * [Craft](https://github.com/fogleman/Craft) - minecraft clone writen in C
 * [littlewolf](https://github.com/glouw/littlewolf) - The tiny software graphics and game engine
 * [q2vkpt](https://github.com/cschied/q2vkpt) - Real-time path tracer VKPT integrated into q2pro Quake 2 client.
-* [id-Software/Quake-2](https://github.com/id-Software/Quake-2) - Quake 2.
 
 ## Geography ##
 Geodata, street maps, navigation and so on
