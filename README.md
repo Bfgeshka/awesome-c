@@ -1487,25 +1487,31 @@ Incorporated lists:
   * [quicklz][29-35] - Fast compression library. [`Licenses`][29-36]
   * [Blosc/c-blosc][29-37] - A blocking, shuffling and loss-less compression
   library that can be faster than memcpy(). [`Licenses`][29-38]
-  * [RoaringBitmap/CRoaring](https://github.com/RoaringBitmap/CRoaring) - Roaring bitmaps in C (and C++)
-  * [adnanozsoy/CUDA_Compression](https://github.com/adnanozsoy/CUDA_Compression) - A GPU-based LZSS compression algorithm, highly tuned for NVIDIA GPGPUs and for streaming data, leveraging the respective strengths of CPUs and GPUs together.
-  * [andikleen/snappy-c](https://github.com/andikleen/snappy-c) - C port of the snappy compressor
-  * [antirez/smaz](https://github.com/antirez/smaz) - Small strings compression library
-  * [atomicobject/heatshrink](https://github.com/atomicobject/heatshrink) - data compression library for embedded/real-time systems
-  * [centaurean/density](https://github.com/centaurean/density) - Superfast compression library
-  * [kiyo-masui/bitshuffle](https://github.com/kiyo-masui/bitshuffle) - Filter for improving compression of typed binary data.
-  * [kuba--/zip](https://github.com/kuba--/zip) - A portable, simple zip library written in C
-  * [lemire/simdcomp](https://github.com/lemire/simdcomp) - A simple C library for compressing lists of integers using binary packing
-  * [libarchive/libarchive](https://github.com/libarchive/libarchive) - Multi-format archive and compression library
-  * [lz4/lz4](https://github.com/lz4/lz4) - Extremely Fast Compression algorithm
-  * [mist64/pucrunch](https://github.com/mist64/pucrunch) - pucrunch, an Optimizing Hybrid LZ77 RLE Data Compression Program for C64/C128/VIC-20/Plus4
-  * [moinakg/pcompress](https://github.com/moinakg/pcompress) - A Parallelized Data Deduplication and Compression utility
-  * [richgel999/miniz](https://github.com/richgel999/miniz) - miniz: Single C source file zlib-replacement library, originally from code.google.com/p/miniz
+  * [RoaringBitmap/CRoaring][29-39] - Roaring bitmaps in C (and C++). [`Apache 2`][29-40]
+  * [adnanozsoy/CUDA_Compression][29-41] - A GPU-based LZSS compression
+  algorithm, highly tuned for NVIDIA GPGPUs and for streaming data, leveraging
+  the respective strengths of CPUs and GPUs together. [`Apache 2`][29-42]
+  * [andikleen/snappy-c][29-43] - C port of the snappy compressor. [`License`][29-44]
+  * [antirez/smaz][29-45] - Small strings compression library. [`BSD 3-Clause`][29-46]
+  * [atomicobject/heatshrink][29-47] - data compression library for
+  embedded/real-time systems. [`ISC`][29-48]
+  * [centaurean/density][29-49] - Superfast compression library. [`BSD 3-Clause`][29-50]
+  * [kiyo-masui/bitshuffle][29-51] - Filter for improving compression of typed
+  binary data. [`License`][29-52]
+  * [kuba--/zip][29-53] - A portable, simple zip library written in C. [`Unlicense`][29-54]
+  * [libarchive/libarchive][29-55] - Multi-format archive and compression
+  library. [`Licenses`][29-56]
+  * [lz4/lz4][29-57] - Extremely Fast Compression algorithm. [`Licenses`][29-58]
+  * [mist64/pucrunch][29-59] - pucrunch, an Optimizing Hybrid LZ77 RLE Data
+  Compression Program for C64/C128/VIC-20/Plus4. [`LGPL 2.1`][29-60]
+  * [moinakg/pcompress][29-61] - A Parallelized Data Deduplication
+  and Compression utility. [`LGPL 3`][29-62]
+  * [richgel999/miniz](https://github.com/richgel999/miniz) - miniz: Single C source file zlib-replacement library, originally from code.google.com/p/miniz.
   * [richox/comprox](https://github.com/richox/comprox) - An experimental lossless data compression program with high compression ratio.
-  * [rjsikarwar/gpu_compression](https://github.com/rjsikarwar/gpu_compression) - Nine Light weight Schemes to Compress and Decompress the data of Database Using GPU and also a planer
+  * [rjsikarwar/gpu_compression](https://github.com/rjsikarwar/gpu_compression) - Nine Light weight Schemes to Compress and Decompress the data of Database Using GPU and also a planer.
   * [zlib-ng/zlib-ng](https://github.com/zlib-ng/zlib-ng) - zlib replacement with optimizations for "next generation" systems.
-  * [powturbo/TurboRLE](https://github.com/powturbo/TurboRLE) - Fastest Run Length Encoding
-  * [NCrashed/bzip2](https://github.com/NCrashed/bzip2) - Bindings for bzip2 library, a freely available, patent free, high-quality data compressor
+  * [powturbo/TurboRLE](https://github.com/powturbo/TurboRLE) - Fastest Run Length Encoding.
+  * [NCrashed/bzip2](https://github.com/NCrashed/bzip2) - Bindings for bzip2 library, a freely available, patent free, high-quality data compressor.
 
   [29-1]: https://github.com/Blosc/bcolz
   [29-2]: https://github.com/Blosc/bcolz/tree/master/LICENSES
@@ -1545,6 +1551,30 @@ Incorporated lists:
   [29-36]: http://www.quicklz.com/quicklz.c
   [29-37]: https://github.com/Blosc/c-blosc
   [29-38]: https://github.com/Blosc/c-blosc/tree/master/LICENSES
+  [29-39]: https://github.com/RoaringBitmap/CRoaring
+  [29-40]: https://github.com/RoaringBitmap/CRoaring/blob/master/LICENSE
+  [29-41]: https://github.com/adnanozsoy/CUDA_Compression
+  [29-42]: https://github.com/adnanozsoy/CUDA_Compression/blob/master/culzss.c
+  [29-43]: https://github.com/andikleen/snappy-c
+  [29-44]: https://github.com/andikleen/snappy-c/blob/master/LICENSE
+  [29-45]: https://github.com/antirez/smaz
+  [29-46]: https://github.com/antirez/smaz/blob/master/COPYING
+  [29-47]: https://github.com/atomicobject/heatshrink
+  [29-48]: https://github.com/atomicobject/heatshrink/blob/master/LICENSE
+  [29-49]: https://github.com/centaurean/density
+  [29-50]: https://github.com/centaurean/density/blob/master/LICENSE.md
+  [29-51]: https://github.com/kiyo-masui/bitshuffle
+  [29-52]: https://github.com/kiyo-masui/bitshuffle/blob/master/LICENSE
+  [29-53]: https://github.com/kuba--/zip
+  [29-54]: https://github.com/kuba--/zip/blob/master/UNLICENSE
+  [29-55]: https://github.com/libarchive/libarchive
+  [29-56]: https://github.com/libarchive/libarchive/blob/master/COPYING
+  [29-57]: https://github.com/lz4/lz4
+  [29-58]: https://github.com/lz4/lz4/blob/dev/LICENSE
+  [29-59]: https://github.com/mist64/pucrunch
+  [29-60]: https://github.com/mist64/pucrunch/blob/master/pucrunch.c
+  [29-61]: https://github.com/moinakg/pcompress
+  [29-62]: https://github.com/moinakg/pcompress/blob/master/COPYING
 </details>
 
 ## Concurrency and Parallelism ##
