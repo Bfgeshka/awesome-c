@@ -1359,20 +1359,23 @@ Incorporated lists:
   * [canonizer/libgpuvm][28-56] - library which simplifies host-GPU data
   transfer using userspace pagefault handling. [`No license`]
   * [clMathLibraries/clRNG][28-57] - an OpenCL based software library containing
-  random number generation functions. [`License][28-58]
-  * [emrainey/OpenCL-Environment](https://github.com/emrainey/OpenCL-Environment) - A series of utilities aimed at making OpenCL easier to use.
-  * [freshcode/MFMathLib](https://github.com/freshcode/MFMathLib) - A mathematical library providing basic math operations on data types from 8-bits to 1024-bits with overflow/underflow tracking.
-  * [google/clspv](https://github.com/google/clspv) - Clspv is a prototype compiler for a subset of OpenCL C to Vulkan compute shaders
-  * [imneme/pcg-c-basic](https://github.com/imneme/pcg-c-basic) - PCG — Minimal C Implementation
-  * [imneme/pcg-c](https://github.com/imneme/pcg-c) - PCG — C Implementation
-  * [karrenberg/wfvopencl](https://github.com/karrenberg/wfvopencl) - WFVOpenCL is an OpenCL driver for CPUs on the basis of LLVM.
-  * [libtom/libtommath](https://github.com/libtom/libtommath) - LibTomMath is a free open source portable number theoretic multiple-precision integer library written entirely in C.
-  * [libtom/tomsfastmath](https://github.com/libtom/tomsfastmath) - TomsFastMath is a fast public domain, open source, large integer arithmetic library written in portable ISO C.
-  * [PetteriAimonen/libfixmatrix](https://github.com/PetteriAimonen/libfixmatrix) - C library for fixed point matrix, quaternion and vector calculations.
-  * [cvxgrp/scs](https://github.com/cvxgrp/scs) - C package that solves convex cone problems via operator splitting
-  * [slim-curve/slim-curve](https://github.com/slim-curve/slim-curve) - SLIM Curve: a package for exponential curve fitting of combined spectral lifetime image data
-  * [tinyexpr][379] - Tiny recursive-descent parser, compiler and evaluation
-  engine for simple mathematical expressions. [``BSD-3-Clause``][BSD-3-Clause]
+  random number generation functions. [`License`][28-58]
+  * [emrainey/OpenCL-Environment][28-59] - A series of utilities aimed at making
+  OpenCL easier to use. [`Apache 2`][28-60]
+  * [imneme/pcg-c-basic][28-61] - PCG — Minimal C Implementation. [`Apache 2`][28-62]
+  * [imneme/pcg-c][28-63] - PCG — C Implementation. [`Apache 2`][28-64]
+  * [libtom/libtommath][28-65] - LibTomMath is a free open source portable
+  number theoretic multiple-precision integer library written entirely in C. [`Unlicense`][28-66]
+  * [libtom/tomsfastmath][28-67] - TomsFastMath is a fast public domain, open
+  source, large integer arithmetic library written in portable ISO C. [`Licenses`][28-68]
+  * [PetteriAimonen/libfixmatrix][28-69] - C library for fixed point matrix,
+  quaternion and vector calculations. [`MIT`][28-70]
+  * [cvxgrp/scs][28-71] - C package that solves convex cone problems via
+  operator splitting. [`MIT`][28-72]
+  * [slim-curve/slim-curve][28-73] - SLIM Curve: a package for exponential curve
+  fitting of combined spectral lifetime image data. [`GPL 3`][28-73]
+  * [tinyexpr][28-75] - Tiny recursive-descent parser, compiler and evaluation
+  engine for simple mathematical expressions. [`Zlib`][28-76]
 
   [28-1]: https://github.com/fredrik-johansson/arb
   [28-2]: https://github.com/fredrik-johansson/arb/blob/master/LICENSE
@@ -1432,6 +1435,24 @@ Incorporated lists:
   [28-56]: https://github.com/canonizer/libgpuvm
   [28-57]: https://github.com/clMathLibraries/clRNG
   [28-58]: https://github.com/clMathLibraries/clRNG/blob/master/LICENSE
+  [28-59]: https://github.com/emrainey/OpenCL-Environment
+  [28-60]: https://github.com/emrainey/OpenCL-Environment/blob/master/LICENSE-2.0.txt
+  [28-61]: https://github.com/imneme/pcg-c-basic
+  [28-62]: https://github.com/imneme/pcg-c-basic/blob/master/LICENSE.txt
+  [28-63]: https://github.com/imneme/pcg-c
+  [28-64]: https://github.com/imneme/pcg-c/blob/master/LICENSE.txt
+  [28-65]: https://github.com/libtom/libtommath
+  [28-66]: https://github.com/libtom/libtommath/blob/develop/LICENSE
+  [28-67]: https://github.com/libtom/tomsfastmath
+  [28-68]: https://github.com/libtom/tomsfastmath/blob/develop/LICENSE
+  [28-69]: https://github.com/PetteriAimonen/libfixmatrix
+  [28-70]: https://github.com/PetteriAimonen/libfixmatrix/blob/master/LICENSE
+  [28-71]: https://github.com/cvxgrp/scs
+  [28-72]: https://github.com/cvxgrp/scs/blob/master/LICENSE.txt
+  [28-73]: https://github.com/slim-curve/slim-curve
+  [28-74]: https://github.com/slim-curve/slim-curve/blob/master/LICENSE.txt
+  [28-75]: https://github.com/codeplea/tinyexpr
+  [28-76]: https://github.com/codeplea/tinyexpr/blob/master/LICENSE
 </details>
 
 ## Compression ##
@@ -3147,7 +3168,6 @@ Comprehensive and integrated solutions for building web application in C.
 [381]: https://sourceforge.net/projects/giflib/
 [380]: https://github.com/libgd/libgd
 
-[379]: https://github.com/codeplea/tinyexpr
 [378]: https://github.com/riolet/WAFer
 [377]: http://www.pell.portland.or.us/~orc/Code/discount/
 [376]: https://github.com/jgm/cmark
