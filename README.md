@@ -1460,22 +1460,15 @@ Incorporated lists:
   <summary>Compression</summary>
 
   ## <a href="#-">`^`</a> Compression ##
-  * [blosc][25] - Fast, multi-threaded, meta-compressor library. Various licenses,
-  all open source.
-  * [Brotli][26] - General-purpose lossless compression algorithm library. Has
-  speeds comparable to DEFLATE, but much higher compression ratios. [``MIT``][MIT].
-  * [clzip][27] - C [lzip][28] implementation. [``GPL-2.0-or-later``][GPL-2.0-or-later]
-  * [CRoaring][29] - C implementation of [Roaring bitmaps][30]. [``Apache-2.0``][Apache-2.0]
-  * [FiniteStateEntropy][31] - Two efficient compression codecs optimized for
-  modern CPUs. [``BSD-2-Clause``][BSD-2-Clause]
-  * [DENSITY][32] - Fast compression library. [``BSD-3-Clause``][BSD-3-Clause]
-  * [fast_zlib][34] - Improved zlib, which runs 2 to 10 times faster. [``BSD-3-Clause``][BSD-3-Clause]
-  * [huffandpuff][35] - Minimal Huffman encoder and decoder. Public domain.
-  * [libbzip2][36] - Patent-free, high-quality data compression library. [``BSD-4-Clause``][BSD-4-Clause]
-  * [Lizard][37] - Formerly LZ5. Achieves compression ratios comparable with zip
-  and zlib at decompression speeds of 1000MB/s and faster. [``BSD-2-Clause``][BSD-2-Clause]
-  * [lz4][38] - Fast compression algorithm. [``BSD-2-Clause``][BSD-2-Clause]
-  * [lzo][39] - Fast data compression library. [``GPL-2.0-or-later``][GPL-2.0-or-later]
+  * [blosc][29-1] - Fast, multi-threaded, meta-compressor library. [`Licenses`][29-2]
+  * [clzip][29-3] - C lzip implementation. [`GPL 2`][29-4]
+  * [FiniteStateEntropy][29-5] - Two efficient compression codecs optimized for
+  modern CPUs. [`BSD 2-Clause`][29-6]
+  * [fast_zlib][29-7] - Improved zlib, which runs 2 to 10 times faster. [`BSD 3-Clause`][29-8]
+  * [huffandpuff][29-9] - Minimal Huffman encoder and decoder. [`Public domain`][29-10]
+  * [bzip2][29-11] - Patent-free, high-quality data compression library. [`BSD 4-Clause`][29-12]
+  * [Lizard][29-13] - Formerly LZ5. Achieves compression ratios comparable with
+  zip and zlib at decompression speeds of 1000MB/s and faster. [`Licenses`][29-14]
   * [pixz][40] - Parallel, indexed xz compressor. [``BSD-2-Clause``][BSD-2-Clause]
   * [shoco][41] - Compressor for small text strings. [``MIT``][MIT]
   * [SIMDComp][42] - Simple library for compressing lists of integers using
@@ -1488,7 +1481,6 @@ Incorporated lists:
   * [libzip](https://libzip.org/) - A C library for reading, creating, and modifying zip archives. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
   * [lzo](http://www.oberhumer.com/opensource/lzo/) - Very fast data compression library. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
   * [zlib](http://zlib.net/) - Massively-spiffy yet delicately-unobtrusive compression library. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
-  * [bzip2](http://www.bzip.org/) - Patent free, high quality data compressor. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
   * [snappy](https://github.com/google/snappy) - Fast compression library (implementation in C++, native bindings to C).
   * [zstd](http://facebook.github.io/zstd/) - Fast real-time compression algorithm [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
   * [brotli](https://github.com/google/brotli) - Generic lossless compression algorithm based on LZ77, Huffman coding and 2nd order context modelling [`MIT`](https://raw.githubusercontent.com/atom/atom/master/LICENSE.md)
@@ -1518,7 +1510,22 @@ Incorporated lists:
   * [rjsikarwar/gpu_compression](https://github.com/rjsikarwar/gpu_compression) - Nine Light weight Schemes to Compress and Decompress the data of Database Using GPU and also a planer
   * [zlib-ng/zlib-ng](https://github.com/zlib-ng/zlib-ng) - zlib replacement with optimizations for "next generation" systems.
   * [powturbo/TurboRLE](https://github.com/powturbo/TurboRLE) - Fastest Run Length Encoding
-  * [NCrashed/bzip2](https://github.com/NCrashed/bzip2) - Bindings for bzip2 library, a freely available, patent free, high-quality data compressor.
+  * [NCrashed/bzip2](https://github.com/NCrashed/bzip2) - Bindings for bzip2 library, a freely available, patent free, high-quality data compressor
+
+  [29-1]: http://blosc.org/pages/blosc-in-depth
+  [29-2]: https://github.com/Blosc/bcolz/tree/master/LICENSES
+  [29-3]: http://lzip.nongnu.org/clzip.html
+  [29-4]: http://lzip.nongnu.org/clzip.html
+  [29-5]: https://github.com/Cyan4973/FiniteStateEntropy
+  [29-6]: https://github.com/Cyan4973/FiniteStateEntropy/blob/dev/LICENSE
+  [29-7]: https://github.com/gildor2/fast_zlib
+  [29-8]: https://github.com/gildor2/fast_zlib/blob/master/LICENSE.txt
+  [29-9]: https://github.com/adamierymenko/huffandpuff
+  [29-10]: https://github.com/adamierymenko/huffandpuff/blob/master/huffman.h
+  [29-11]: http://www.bzip.org/
+  [29-12]: https://sourceforge.net/projects/bzip2/files/
+  [29-13]: https://github.com/inikep/lizard
+  [29-14]: https://github.com/inikep/lizard/blob/lizard/LICENSE
 </details>
 
 ## Concurrency and Parallelism ##
@@ -3393,19 +3400,9 @@ Comprehensive and integrated solutions for building web application in C.
 [40]: https://github.com/vasi/pixz
 [39]: http://www.oberhumer.com/opensource/lzo/
 [38]: http://lz4.github.io/lz4/
-[37]: https://github.com/inikep/lizard
-[36]: http://www.bzip.org/
-[35]: https://github.com/adamierymenko/huffandpuff
-[34]: https://github.com/gildor2/fast_zlib
 [33]: https://github.com/atomicobject/heatshrink
-[32]: https://github.com/centaurean/density
-[31]: https://github.com/Cyan4973/FiniteStateEntropy
 [30]: http://roaringbitmap.org/
 [29]: https://github.com/RoaringBitmap/CRoaring
-[28]: http://lzip.nongnu.org/lzip.html
-[27]: http://lzip.nongnu.org/clzip.html
-[26]: https://github.com/google/brotli
-[25]: http://blosc.org/pages/blosc-in-depth
 
 
 [8]: https://codeplea.com/genann
