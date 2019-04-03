@@ -93,6 +93,7 @@ Incorporated lists:
 	* [Messaging](#messaging)
 	* [Other Networking](#other-networking)
 	* [Websockets](#websockets)
+* [OpenCL](#opencl)
 * [OS Specifics](#os-specifics)
 * [Procedural Generation](#procedural-generation)
 * [Regex](#regex)
@@ -1317,8 +1318,6 @@ Incorporated lists:
   * [CDFLIB][28-11] - Library with routines to evaluate cumulative density
   functions for a variety of standard probability distributions.
   Also can compute one parameter of the CDF given the others. `No license`
-  * [clMathLibraries/clRNG][28-57] - an OpenCL based software library containing
-  random number generation functions. [`License`][28-58]
   * [ScientificC/cmathl][28-12] - Pure-C Math library with a great variety of
   mathematical functions and CMake build support. Seeks to be close to C89/C90
   compliant for portability. [`MIT`][28-13]
@@ -1358,11 +1357,7 @@ Incorporated lists:
   * [canonizer/libgpuvm][28-56] - library which simplifies host-GPU data
   transfer using userspace pagefault handling. `No license`
   * [libtom/libtommath][28-65] - LibTomMath is a free open source portable
-  * [tuxfan/ocl-mla][28-79] - OpenCL Mid-Level Abstractions. [`License`][28-80]
   number theoretic multiple-precision integer library written entirely in C. [`Unlicense`][28-66]
-  * [matze/oclkit][28-77] - Two-file OpenCL wrapper. [`GPL 3`][28-78]
-  * [emrainey/OpenCL-Environment][28-59] - A series of utilities aimed at making
-  OpenCL easier to use. [`Apache 2`][28-60]
   * [JuliaMath/openlibm][28-52] - High quality system independent, portable,
   open source libm implementation. [`License`][28-53]
   * [imneme/pcg-c][28-63] - PCG — C Implementation. [`Apache 2`][28-64]
@@ -1435,10 +1430,10 @@ Incorporated lists:
   [28-54]: https://github.com/Lichtso/CCWT
   [28-55]: https://github.com/Lichtso/CCWT/blob/master/LICENSE
   [28-56]: https://github.com/canonizer/libgpuvm
-  [28-57]: https://github.com/clMathLibraries/clRNG
-  [28-58]: https://github.com/clMathLibraries/clRNG/blob/master/LICENSE
-  [28-59]: https://github.com/emrainey/OpenCL-Environment
-  [28-60]: https://github.com/emrainey/OpenCL-Environment/blob/master/LICENSE-2.0.txt
+  [28-57]: N/A
+  [28-58]: N/A
+  [28-59]: N/A
+  [28-60]: N/A
   [28-61]: https://github.com/imneme/pcg-c-basic
   [28-62]: https://github.com/imneme/pcg-c-basic/blob/master/LICENSE.txt
   [28-63]: https://github.com/imneme/pcg-c
@@ -1455,10 +1450,6 @@ Incorporated lists:
   [28-74]: https://github.com/slim-curve/slim-curve/blob/master/LICENSE.txt
   [28-75]: https://github.com/codeplea/tinyexpr
   [28-76]: https://github.com/codeplea/tinyexpr/blob/master/LICENSE
-  [28-77]: https://github.com/matze/oclkit
-  [28-78]: https://github.com/matze/oclkit/blob/master/COPYING
-  [28-79]: https://github.com/tuxfan/ocl-mla
-  [28-80]: https://github.com/tuxfan/ocl-mla/blob/master/LICENSE
 </details>
 
 <a id="compression"></a>
@@ -1607,19 +1598,24 @@ Incorporated lists:
   coroutines, for C11. [`Zlib`][30-6]
   * [liburcu][30-7] - Data synchronization library, which scales linearly with
   the number of cores. [`LGPL 2.1`][30-8]
-  * [cchan](http://repo.hu/projects/cchan/) - Small library for channel constructs for inter-thread communication. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
-  * [MPICH](http://www.mpich.org/) - Another implementation of MPI. [`MPICH licence`](http://git.mpich.org/mpich.git/blob_plain/6aab201f58d71fc97f2c044d250389ba86ac1e3c:/COPYRIGHT)
-  * [OpenMP](https://www.openmp.org/) - Set of C pragmas designed to allow for easy parallelization of code. [`3-clause BSD`](https://opensource.org/licenses/BSD-3-Clause)
-  * [OpenMPI](https://github.com/open-mpi/ompi) - Message passing interface implementation. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
-  * [pth](https://www.gnu.org/software/pth/) - Portable implementation for non-preemptive priority-based scheduling for multiple threads of execution. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
-  * [pthreads](https://en.wikipedia.org/wiki/POSIX_Threads) - The POSIX thread library.
-  * [TinyCThread](https://tinycthread.github.io/) - Portable, small implementation of the C11 threads API. [`zlib`](https://directory.fsf.org/wiki/License:Zlib)
-  * [cf4ocl](https://fakenmc.github.io/cf4ocl/) - The C Framework for OpenCL; a cross-platform object-oriented framework for developing and benchmarking  [OpenCL](https://www.khronos.org/opencl/) projects. [`GNU LGPL3 (library)`](http://www.gnu.org/licenses/lgpl.html) or [`GNU GPL3 (project code)`](http://www.gnu.org/licenses/gpl.html)
-  * [Pithikos/C-Thread-Pool](https://github.com/Pithikos/C-Thread-Pool) - A minimal but powerful thread pool in ANSI C
-  * [baruch/libwire](https://github.com/baruch/libwire) - User space threading (aka coroutines) library for C resembling GoLang and goroutines
-  * [bjoernknafla/amp](https://github.com/bjoernknafla/amp) - C portable low-level assemblies for parallelism and threading
-  * [bjoernknafla/peak](https://github.com/bjoernknafla/peak) - Parallelism exploration assembly kit. C toolkit to experiment with task- and data-parallelism.
-  * [cloudwu/coroutine](https://github.com/cloudwu/coroutine) - A asymmetric coroutine library for C.
+  * [cchan][30-9] - Small library for channel constructs for inter-thread
+  communication. [`Public Domain`][30-10]
+  * [pmodels/mpich][30-11] - Another implementation of MPI. [`License`][30-12]
+  * [open-mpi/ompi][30-13] - Message passing interface implementation. [`License`][30-14]
+  * [GNU pth][30-15] - Portable implementation for non-preemptive priority-based
+  scheduling for multiple threads of execution. [`LGPL 2.1`][30-16]
+  * [POSIX threads][30-17] - The POSIX thread library. `No license`
+  * [tinycthread/tinycthread][30-18] - Portable, small implementation of the C11
+  threads API. [`License`][30-19]
+  * [Pithikos/C-Thread-Pool][30-20] - A minimal but powerful thread pool in
+  ANSI C. [`MIT`][30-21]
+  * [baruch/libwire][30-22] - User space threading (aka coroutines) library for
+  C resembling GoLang and goroutines. [`MIT`][30-23]
+  * [bjoernknafla/amp][30-24] - C portable low-level assemblies for parallelism
+  and threading. [`BSD 3-Clause`][30-25]
+  * [bjoernknafla/peak][30-26] - Parallelism exploration assembly kit. C toolkit
+  to experiment with task- and data-parallelism. [`BSD 3-Clause`][30-27]
+  * [cloudwu/coroutine][30-28] - A asymmetric coroutine library for C. [`MIT`][30-29]
   * [concurrencykit/ck](https://github.com/concurrencykit/ck) - Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures designed to aid in the research, design and implementation of high performance concurrent systems developed in C99+.
   * [cudpp/cudpp](https://github.com/cudpp/cudpp) - CUDA Data Parallel Primitives Library
   * [etmc/lemon](https://github.com/etmc/lemon) - Lemon is an MPI parallel I/O library that is intended to allow for efficient parallel I/O of both binary and metadata on massively parallel architectures. Data is stored in the SciDAC Lattice QCD Interchange Message Encapsulation format, that allows for storing large blocks of binary data and corresponding metadata in the same file.
@@ -1647,6 +1643,52 @@ Incorporated lists:
   [30-6]: https://github.com/sharow/libconcurrent/blob/master/LICENSE
   [30-7]: http://liburcu.org/
   [30-8]: http://liburcu.org/
+  [30-9]: http://repo.hu/projects/cchan/
+  [30-10]: http://repo.hu/projects/cchan/
+  [30-11]: https://github.com/pmodels/mpich
+  [30-12]: https://github.com/pmodels/mpich/blob/master/COPYRIGHT
+  [30-13]: https://github.com/open-mpi
+  [30-14]: https://github.com/open-mpi/ompi/blob/master/LICENSE
+  [30-15]: https://www.gnu.org/software/pth/
+  [30-16]: ftp://ftp.gnu.org/gnu/pth/
+  [30-17]: https://en.wikipedia.org/wiki/POSIX_Threads
+  [30-18]: https://github.com/tinycthread/tinycthread
+  [30-19]: https://github.com/tinycthread/tinycthread
+  [30-20]: https://github.com/Pithikos/C-Thread-Pool
+  [30-21]: https://github.com/Pithikos/C-Thread-Pool/blob/master/LICENSE
+  [30-22]: https://github.com/baruch/libwire
+  [30-23]: https://github.com/baruch/libwire/blob/master/LICENSE
+  [30-24]: https://github.com/bjoernknafla/amp
+  [30-25]: https://github.com/bjoernknafla/amp/blob/master/COPYRIGHT.txt
+  [30-26]: https://github.com/bjoernknafla/peak
+  [30-27]: https://github.com/bjoernknafla/peak/blob/master/COPYRIGHT.txt
+  [30-28]: https://github.com/cloudwu/coroutine
+  [30-29]: https://github.com/cloudwu/coroutine/blob/master/LICENSE
+</details>
+
+<a id="opencl"></a>
+<details>
+  <summary>OpenCL</summary>
+
+  ## <a href="#-">`^`</a> OpenCL ##
+  * [cf4ocl][31-1] - The C Framework for OpenCL. [`LGPL 3`][31-2]
+  * [clMathLibraries/clRNG][31-3] - an OpenCL based software library containing
+  random number generation functions. [`License`][31-4]
+  * [tuxfan/ocl-mla][31-5] - OpenCL Mid-Level Abstractions. [`License`][31-6]
+  * [matze/oclkit][31-7] - Two-file OpenCL wrapper. [`GPL 3`][31-8]
+  * [emrainey/OpenCL-Environment][31-9] - A series of utilities aimed at making
+  OpenCL easier to use. [`Apache 2`][31-10]
+
+  [31-1]: https://github.com/fakenmc/cf4ocl
+  [31-2]: https://github.com/fakenmc/cf4ocl/blob/master/COPYING
+  [31-3]: https://github.com/clMathLibraries/clRNG
+  [31-4]: https://github.com/clMathLibraries/clRNG/blob/master/LICENSE
+  [31-5]: https://github.com/tuxfan/ocl-mla
+  [31-6]: https://github.com/tuxfan/ocl-mla/blob/master/LICENSE
+  [31-7]: https://github.com/matze/oclkit
+  [31-8]: https://github.com/matze/oclkit/blob/master/COPYING
+  [31-9]: https://github.com/emrainey/OpenCL-Environment
+  [31-10]: https://github.com/emrainey/OpenCL-Environment/blob/master/LICENSE-2.0.txt
 </details>
 
 ## Crypto ##
