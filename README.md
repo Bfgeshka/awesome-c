@@ -1358,7 +1358,9 @@ Incorporated lists:
   * [canonizer/libgpuvm][28-56] - library which simplifies host-GPU data
   transfer using userspace pagefault handling. `No license`
   * [libtom/libtommath][28-65] - LibTomMath is a free open source portable
+  * [tuxfan/ocl-mla][28-79] - OpenCL Mid-Level Abstractions. [`License`][28-80]
   number theoretic multiple-precision integer library written entirely in C. [`Unlicense`][28-66]
+  * [matze/oclkit][28-77] - Two-file OpenCL wrapper. [`GPL 3`][28-78]
   * [emrainey/OpenCL-Environment][28-59] - A series of utilities aimed at making
   OpenCL easier to use. [`Apache 2`][28-60]
   * [JuliaMath/openlibm][28-52] - High quality system independent, portable,
@@ -1453,6 +1455,10 @@ Incorporated lists:
   [28-74]: https://github.com/slim-curve/slim-curve/blob/master/LICENSE.txt
   [28-75]: https://github.com/codeplea/tinyexpr
   [28-76]: https://github.com/codeplea/tinyexpr/blob/master/LICENSE
+  [28-77]: https://github.com/matze/oclkit
+  [28-78]: https://github.com/matze/oclkit/blob/master/COPYING
+  [28-79]: https://github.com/tuxfan/ocl-mla
+  [28-80]: https://github.com/tuxfan/ocl-mla/blob/master/LICENSE
 </details>
 
 <a id="compression"></a>
@@ -1588,55 +1594,60 @@ Incorporated lists:
   [29-71]: https://github.com/powturbo/TurboRLE/blob/master/trle.h
 </details>
 
-## Concurrency and Parallelism ##
-* [cchan][52] - Small library for channel constructs for inter-thread
-  communication. Public domain.
-* [checkedthreads][53] - A simple library for parallelism, with built-in
-  checking for race conditions. [``BSD-2-Clause``][BSD-2-Clause]
-* [ck][54] - Concurrency primitives, safe memory reclamation mechanisms and
-  non-blocking data structures. [``BSD-2-Clause``][BSD-2-Clause]
-* [FCFS RWLock][55] - First-come first-served Readers/Writers lock for POSIX
-  threads. Various licenses, all open source.
-* [libconcurrent][56] - Concurrent programming library, using coroutines, for
-  C11. [``Zlib``][Zlib]
-* [libdill][57] - Library which makes structured concurrent programming easy. [``MIT``][MIT]
-* [liburcu][59] - Data synchronization library, which scales linearly with the
-  number of cores. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
-* [mill][60] - Go-style concurrency. [``MIT``][MIT]
-* [oclkit][61] - Two-file OpenCL wrapper. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [OCL-MLA][62] - OpenCL Mid-Level Abstractions. [``BSD-3-Clause``][BSD-3-Clause]
-* [cchan](http://repo.hu/projects/cchan/) - Small library for channel constructs for inter-thread communication. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
-* [MPICH](http://www.mpich.org/) - Another implementation of MPI. [`MPICH licence`](http://git.mpich.org/mpich.git/blob_plain/6aab201f58d71fc97f2c044d250389ba86ac1e3c:/COPYRIGHT)
-* [OpenMP](https://www.openmp.org/) - Set of C pragmas designed to allow for easy parallelization of code. [`3-clause BSD`](https://opensource.org/licenses/BSD-3-Clause)
-* [OpenMPI](https://github.com/open-mpi/ompi) - Message passing interface implementation. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
-* [pth](https://www.gnu.org/software/pth/) - Portable implementation for non-preemptive priority-based scheduling for multiple threads of execution. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
-* [pthreads](https://en.wikipedia.org/wiki/POSIX_Threads) - The POSIX thread library.
-* [SLEPc](https://bitbucket.org/slepc/slepc) - Software library for the solution of large, sparse eigenvalue problems on parallel computers. [`GNU LGPL3`](http://www.gnu.org/licenses/lgpl.html)
-* [TinyCThread](https://tinycthread.github.io/) - Portable, small implementation of the C11 threads API. [`zlib`](https://directory.fsf.org/wiki/License:Zlib)
-* [cf4ocl](https://fakenmc.github.io/cf4ocl/) - The C Framework for OpenCL; a cross-platform object-oriented framework for developing and benchmarking  [OpenCL](https://www.khronos.org/opencl/) projects. [`GNU LGPL3 (library)`](http://www.gnu.org/licenses/lgpl.html) or [`GNU GPL3 (project code)`](http://www.gnu.org/licenses/gpl.html)
-* [Pithikos/C-Thread-Pool](https://github.com/Pithikos/C-Thread-Pool) - A minimal but powerful thread pool in ANSI C
-* [baruch/libwire](https://github.com/baruch/libwire) - User space threading (aka coroutines) library for C resembling GoLang and goroutines
-* [bjoernknafla/amp](https://github.com/bjoernknafla/amp) - C portable low-level assemblies for parallelism and threading
-* [bjoernknafla/peak](https://github.com/bjoernknafla/peak) - Parallelism exploration assembly kit. C toolkit to experiment with task- and data-parallelism.
-* [cloudwu/coroutine](https://github.com/cloudwu/coroutine) - A asymmetric coroutine library for C.
-* [concurrencykit/ck](https://github.com/concurrencykit/ck) - Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures designed to aid in the research, design and implementation of high performance concurrent systems developed in C99+.
-* [cudpp/cudpp](https://github.com/cudpp/cudpp) - CUDA Data Parallel Primitives Library
-* [etmc/lemon](https://github.com/etmc/lemon) - Lemon is an MPI parallel I/O library that is intended to allow for efficient parallel I/O of both binary and metadata on massively parallel architectures. Data is stored in the SciDAC Lattice QCD Interchange Message Encapsulation format, that allows for storing large blocks of binary data and corresponding metadata in the same file.
-* [geertj/cgreenlet](https://github.com/geertj/cgreenlet) - Coroutines for C/C++
-* [halayli/lthread](https://github.com/halayli/lthread) - lthread, a multicore enabled coroutine library written in C
-* [hnes/libaco](https://github.com/hnes/libaco) - A blazing fast and lightweight C asymmetric coroutine library
-* [jtsiomb/c11threads](https://github.com/jtsiomb/c11threads) - Trivial C11 threads.h implementation over POSIX threads.
-* [kev009/Concurrency-Kit](https://github.com/kev009/Concurrency-Kit) - Concurrency primitives and lock-less data structures
-* [matianfu/FUNK](https://github.com/matianfu/FUNK) - a c continuation library inspired by Adam Dunkel's ProtoThread.
-* [mbrossard/threadpool](https://github.com/mbrossard/threadpool) - A simple C Thread pool implementation
-* [mit-carbon/Flat-Combining](https://github.com/mit-carbon/Flat-Combining) - Traditional data-structure designs, whether lock-based or lock-free, provide parallelism via fine grained synchronization among threads. Flat Combining is a new, efficient synchronization paradigm based on coarse locking.
-* [oneoo/alilua-coevent-module](https://github.com/oneoo/alilua-coevent-module) - epoll base coroutine module
-* [python-greenlet/greenlet](https://github.com/python-greenlet/greenlet) - Lightweight in-process concurrent programming
-* [ramonza/libcoro](https://github.com/ramonza/libcoro) - Lightweight C coroutines (derived from http://software.schmorp.de/pkg/libcoro.html)
-* [sustrik/libdill](https://github.com/sustrik/libdill) - Structured concurrency in C
-* [sustrik/libmill](https://github.com/sustrik/libmill) - Go-style concurrency in C
-* [stevedekorte/coroutine](https://github.com/stevedekorte/coroutine) - C multiplatform coroutine implementation via ucontext, fibers or setjmp.
-* [parallella/pal](https://github.com/parallella/pal) - An optimized C library for math, parallel processing and data movement
+<a id="concurrency-and-parallelism"></a>
+<details>
+  <summary>Concurrency and Parallelism</summary>
+
+  ## <a href="#-">`^`</a> Concurrency and Parallelism ##
+  * [yosefk/checkedthreads][30-1] - A simple library for parallelism, with
+  built-in checking for race conditions. [`BSD 2-Clause`][30-2]
+  * [FCFS RWLock][30-3] - First-come first-served Readers/Writers lock for POSIX
+  threads. [`Licenses`][30-4]
+  * [sharow/libconcurrent][30-5] - Concurrent programming library, using
+  coroutines, for C11. [`Zlib`][30-6]
+  * [liburcu][30-7] - Data synchronization library, which scales linearly with
+  the number of cores. [`LGPL 2.1`][30-8]
+  * [cchan](http://repo.hu/projects/cchan/) - Small library for channel constructs for inter-thread communication. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
+  * [MPICH](http://www.mpich.org/) - Another implementation of MPI. [`MPICH licence`](http://git.mpich.org/mpich.git/blob_plain/6aab201f58d71fc97f2c044d250389ba86ac1e3c:/COPYRIGHT)
+  * [OpenMP](https://www.openmp.org/) - Set of C pragmas designed to allow for easy parallelization of code. [`3-clause BSD`](https://opensource.org/licenses/BSD-3-Clause)
+  * [OpenMPI](https://github.com/open-mpi/ompi) - Message passing interface implementation. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
+  * [pth](https://www.gnu.org/software/pth/) - Portable implementation for non-preemptive priority-based scheduling for multiple threads of execution. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
+  * [pthreads](https://en.wikipedia.org/wiki/POSIX_Threads) - The POSIX thread library.
+  * [TinyCThread](https://tinycthread.github.io/) - Portable, small implementation of the C11 threads API. [`zlib`](https://directory.fsf.org/wiki/License:Zlib)
+  * [cf4ocl](https://fakenmc.github.io/cf4ocl/) - The C Framework for OpenCL; a cross-platform object-oriented framework for developing and benchmarking  [OpenCL](https://www.khronos.org/opencl/) projects. [`GNU LGPL3 (library)`](http://www.gnu.org/licenses/lgpl.html) or [`GNU GPL3 (project code)`](http://www.gnu.org/licenses/gpl.html)
+  * [Pithikos/C-Thread-Pool](https://github.com/Pithikos/C-Thread-Pool) - A minimal but powerful thread pool in ANSI C
+  * [baruch/libwire](https://github.com/baruch/libwire) - User space threading (aka coroutines) library for C resembling GoLang and goroutines
+  * [bjoernknafla/amp](https://github.com/bjoernknafla/amp) - C portable low-level assemblies for parallelism and threading
+  * [bjoernknafla/peak](https://github.com/bjoernknafla/peak) - Parallelism exploration assembly kit. C toolkit to experiment with task- and data-parallelism.
+  * [cloudwu/coroutine](https://github.com/cloudwu/coroutine) - A asymmetric coroutine library for C.
+  * [concurrencykit/ck](https://github.com/concurrencykit/ck) - Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures designed to aid in the research, design and implementation of high performance concurrent systems developed in C99+.
+  * [cudpp/cudpp](https://github.com/cudpp/cudpp) - CUDA Data Parallel Primitives Library
+  * [etmc/lemon](https://github.com/etmc/lemon) - Lemon is an MPI parallel I/O library that is intended to allow for efficient parallel I/O of both binary and metadata on massively parallel architectures. Data is stored in the SciDAC Lattice QCD Interchange Message Encapsulation format, that allows for storing large blocks of binary data and corresponding metadata in the same file.
+  * [geertj/cgreenlet](https://github.com/geertj/cgreenlet) - Coroutines for C/C++
+  * [halayli/lthread](https://github.com/halayli/lthread) - lthread, a multicore enabled coroutine library written in C
+  * [hnes/libaco](https://github.com/hnes/libaco) - A blazing fast and lightweight C asymmetric coroutine library
+  * [jtsiomb/c11threads](https://github.com/jtsiomb/c11threads) - Trivial C11 threads.h implementation over POSIX threads.
+  * [kev009/Concurrency-Kit](https://github.com/kev009/Concurrency-Kit) - Concurrency primitives and lock-less data structures
+  * [matianfu/FUNK](https://github.com/matianfu/FUNK) - a c continuation library inspired by Adam Dunkel's ProtoThread.
+  * [mbrossard/threadpool](https://github.com/mbrossard/threadpool) - A simple C Thread pool implementation
+  * [mit-carbon/Flat-Combining](https://github.com/mit-carbon/Flat-Combining) - Traditional data-structure designs, whether lock-based or lock-free, provide parallelism via fine grained synchronization among threads. Flat Combining is a new, efficient synchronization paradigm based on coarse locking.
+  * [oneoo/alilua-coevent-module](https://github.com/oneoo/alilua-coevent-module) - epoll base coroutine module
+  * [python-greenlet/greenlet](https://github.com/python-greenlet/greenlet) - Lightweight in-process concurrent programming
+  * [ramonza/libcoro](https://github.com/ramonza/libcoro) - Lightweight C coroutines (derived from http://software.schmorp.de/pkg/libcoro.html)
+  * [sustrik/libdill](https://github.com/sustrik/libdill) - Structured concurrency in C
+  * [sustrik/libmill](https://github.com/sustrik/libmill) - Go-style concurrency in C
+  * [stevedekorte/coroutine](https://github.com/stevedekorte/coroutine) - C multiplatform coroutine implementation via ucontext, fibers or setjmp.
+  * [parallella/pal](https://github.com/parallella/pal) - An optimized C library for math, parallel processing and data movement
+
+  [30-1]: https://github.com/yosefk/checkedthreads
+  [30-2]: https://github.com/yosefk/checkedthreads/blob/master/LICENSE.txt
+  [30-3]: http://www.shlomifish.org/rwlock/
+  [30-4]: https://bitbucket.org/shlomif/fcfs-rwlock/src/65dd5211852781b82ef0fd732a0b0d542e9c726c/LICENSE?at=default&fileviewer=file-view-default
+  [30-5]: https://github.com/sharow/libconcurrent
+  [30-6]: https://github.com/sharow/libconcurrent/blob/master/LICENSE
+  [30-7]: http://liburcu.org/
+  [30-8]: http://liburcu.org/
+</details>
 
 ## Crypto ##
 Mostly library implementations of well-known cryptographic algorithms or
@@ -1923,7 +1934,7 @@ Libraries for working with specific filetypes
 * [YAJL](https://lloyd.github.io/yajl/) - Fast C JSON streaming parser library. [`ISC`](https://directory.fsf.org/wiki/License:ISC)
 * [DaveGamble/cJSON](https://github.com/DaveGamble/cJSON) - Ultralightweight JSON parser in ANSI C
 * [akheron/jansson](https://github.com/akheron/jansson) - C library for encoding, decoding and manipulating JSON data
-* [armink/struct2json](https://github.com/armink/struct2json) - A fast convert library between the JSON and C structure. Implement structure serialization and deserialization for C. | C 结构体与 JSON 快速互转库，快速实现 C 结构体的序列化及反序列化
+* [armink/struct2json](https://github.com/armink/struct2json) - A fast convert library between the JSON and C structure. Implement structure serialization and deserialization for C.
 * [cesanta/frozen](https://github.com/cesanta/frozen) - JSON parser and generator for C/C++ with scanf/printf like interface. Targeting embedded systems.
 * [cloudflare/lua-resty-json](https://github.com/cloudflare/lua-resty-json) - json lib for lua and C
 * [esnme/ultrajson](https://github.com/esnme/ultrajson) - Ultra fast JSON decoder and encoder written in C with Python bindings
@@ -2104,7 +2115,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [ebassi/graphene](https://github.com/ebassi/graphene) - A thin layer of graphic data types
 * [eduard-permyakov/permafrost-engine](https://github.com/eduard-permyakov/permafrost-engine) - An OpenGL 3.3 RTS game engine written in C
 * [ejoy/ejoy2d](https://github.com/ejoy/ejoy2d) - A 2D Graphics Engine for Mobile Game
-* [etlegacy/etlegacy](https://github.com/etlegacy/etlegacy) - ET: Legacy is based on the source code of the Wolfenstein: Enemy Territory which was released under the GPLv3 license. The main goal of this project is to fix bugs, remove old dependencies and make it playable on all major operating systems while still remaining compatible with the ET 2.60b version and as many of its mods as possible.
+* [etlegacy/etlegacy](https://github.com/etlegacy/etlegacy) - ET: Legacy is based on the source code of the Wolfenstein: Enemy Territory which was released under the GPLv3 license.
 * [fabiensanglard/chocolate_duke3D](https://github.com/fabiensanglard/chocolate_duke3D) - chocolate Duke Nukem,3D
 * [felselva/mathc](https://github.com/felselva/mathc) - Pure C math library for 2D and 3D programming.
 * [floooh/chips](https://github.com/floooh/chips) - 8-bit chip and system emulators in standalone C headers
@@ -3435,32 +3446,10 @@ Comprehensive and integrated solutions for building web application in C.
 [66]: https://gnu.org/software/pth/
 [64]: https://www.open-mpi.org/
 [63]: https://www.openmp.org/
-[62]: http://tuxfan.github.io/ocl-mla/
-[61]: https://github.com/matze/oclkit
 [60]: http://libmill.org/
-[59]: http://liburcu.org/
 [57]: http://libdill.org/
-[56]: https://github.com/sharow/libconcurrent
-[55]: http://www.shlomifish.org/rwlock/
 [54]: http://concurrencykit.org
-[53]: https://github.com/yosefk/checkedthreads
 [52]: http://repo.hu/projects/cchan/
-
-[50]: https://github.com/Dead2/zlib-ng
-[49]: https://github.com/libarchive/libarchive
-[48]: http://zlib.net
-[46]: https://github.com/powturbo/TurboRLE
-[43]: https://github.com/antirez/smaz
-[39]: http://www.oberhumer.com/opensource/lzo/
-[38]: http://lz4.github.io/lz4/
-[33]: https://github.com/atomicobject/heatshrink
-[30]: http://roaringbitmap.org/
-[29]: https://github.com/RoaringBitmap/CRoaring
-
-
-[8]: https://codeplea.com/genann
-[6]: https://github.com/100/Cranium
-[5]: http://libccv.org
 
 [AFL-2.1]: https://spdx.org/licenses/AFL-2.1.html
 [AGPL-3.0-only]: https://spdx.org/licenses/AGPL-3.0-only.html
