@@ -1616,24 +1616,33 @@ Incorporated lists:
   * [bjoernknafla/peak][30-26] - Parallelism exploration assembly kit. C toolkit
   to experiment with task- and data-parallelism. [`BSD 3-Clause`][30-27]
   * [cloudwu/coroutine][30-28] - A asymmetric coroutine library for C. [`MIT`][30-29]
-  * [concurrencykit/ck](https://github.com/concurrencykit/ck) - Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures designed to aid in the research, design and implementation of high performance concurrent systems developed in C99+.
-  * [cudpp/cudpp](https://github.com/cudpp/cudpp) - CUDA Data Parallel Primitives Library
-  * [etmc/lemon](https://github.com/etmc/lemon) - Lemon is an MPI parallel I/O library that is intended to allow for efficient parallel I/O of both binary and metadata on massively parallel architectures. Data is stored in the SciDAC Lattice QCD Interchange Message Encapsulation format, that allows for storing large blocks of binary data and corresponding metadata in the same file.
-  * [geertj/cgreenlet](https://github.com/geertj/cgreenlet) - Coroutines for C/C++
-  * [halayli/lthread](https://github.com/halayli/lthread) - lthread, a multicore enabled coroutine library written in C
-  * [hnes/libaco](https://github.com/hnes/libaco) - A blazing fast and lightweight C asymmetric coroutine library
-  * [jtsiomb/c11threads](https://github.com/jtsiomb/c11threads) - Trivial C11 threads.h implementation over POSIX threads.
-  * [kev009/Concurrency-Kit](https://github.com/kev009/Concurrency-Kit) - Concurrency primitives and lock-less data structures
-  * [matianfu/FUNK](https://github.com/matianfu/FUNK) - a c continuation library inspired by Adam Dunkel's ProtoThread.
-  * [mbrossard/threadpool](https://github.com/mbrossard/threadpool) - A simple C Thread pool implementation
-  * [mit-carbon/Flat-Combining](https://github.com/mit-carbon/Flat-Combining) - Traditional data-structure designs, whether lock-based or lock-free, provide parallelism via fine grained synchronization among threads. Flat Combining is a new, efficient synchronization paradigm based on coarse locking.
-  * [oneoo/alilua-coevent-module](https://github.com/oneoo/alilua-coevent-module) - epoll base coroutine module
-  * [python-greenlet/greenlet](https://github.com/python-greenlet/greenlet) - Lightweight in-process concurrent programming
-  * [ramonza/libcoro](https://github.com/ramonza/libcoro) - Lightweight C coroutines (derived from http://software.schmorp.de/pkg/libcoro.html)
-  * [sustrik/libdill](https://github.com/sustrik/libdill) - Structured concurrency in C
-  * [sustrik/libmill](https://github.com/sustrik/libmill) - Go-style concurrency in C
-  * [stevedekorte/coroutine](https://github.com/stevedekorte/coroutine) - C multiplatform coroutine implementation via ucontext, fibers or setjmp.
-  * [parallella/pal](https://github.com/parallella/pal) - An optimized C library for math, parallel processing and data movement
+  * [concurrencykit/ck][30-30] - Concurrency primitives, safe memory reclamation
+  mechanisms and non-blocking (including lock-free) data structures designed to
+  aid in the research, design and implementation of high performance concurrent
+  systems developed in C99+. [`Licenses`][30-31]
+  * [etmc/lemon][30-32] - Lemon is an MPI parallel I/O library that is intended
+  to allow for efficient parallel I/O of both binary and metadata on massively
+  parallel architectures. Data is stored in the SciDAC Lattice QCD Interchange
+  Message Encapsulation format, that allows for storing large blocks of binary
+  data and corresponding metadata in the same file. [`GPL 3`][30-33]
+  * [geertj/cgreenlet][30-34] - Coroutines for C/C++. [`MIT`][30-35]
+  * [halayli/lthread][30-36] - lthread, a multicore enabled coroutine library
+  written in C. [`BSD 2-Clause`][30-37]
+  * [hnes/libaco][30-38] - A blazing fast and lightweight C asymmetric coroutine
+  library. [`Apache 2`][30-39]
+  * [jtsiomb/c11threads][30-40] - Trivial C11 threads.h implementation over
+  POSIX threads. [`Public domain`][30-41]
+  * [matianfu/FUNK][30-42] - a c continuation library inspired by Adam Dunkel's
+  ProtoThread. [`Apache 2`][30-43]
+  * [mbrossard/threadpool][30-44] - A simple C Thread pool implementation. [`BSD 2-Clause`][30-45]
+  * [oneoo/alilua-coevent-module][30-46] - epoll base coroutine module. [`MIT`][30-47]
+  * [ramonza/libcoro][30-48] - Lightweight C coroutines. [`BSD 2-Clause`][30-49]
+  * [sustrik/libdill][30-50] - Structured concurrency in C. [`MIT`][30-51]
+  * [sustrik/libmill][30-52] - Go-style concurrency in C. [`MIT`][30-53]
+  * [stevedekorte/coroutine][30-54] - C multiplatform coroutine implementation
+  via ucontext, fibers or setjmp. `No license`
+  * [parallella/pal][30-55] - An optimized C library for math, parallel
+  processing and data movement. [`Apache 2`][30-56]
 
   [30-1]: https://github.com/yosefk/checkedthreads
   [30-2]: https://github.com/yosefk/checkedthreads/blob/master/LICENSE.txt
@@ -1664,6 +1673,33 @@ Incorporated lists:
   [30-27]: https://github.com/bjoernknafla/peak/blob/master/COPYRIGHT.txt
   [30-28]: https://github.com/cloudwu/coroutine
   [30-29]: https://github.com/cloudwu/coroutine/blob/master/LICENSE
+  [30-30]: https://github.com/concurrencykit/ck
+  [30-31]: https://github.com/concurrencykit/ck/blob/master/LICENSE
+  [30-32]: https://github.com/etmc/lemon
+  [30-33]: https://github.com/etmc/lemon/blob/master/COPYING
+  [30-34]: https://github.com/geertj/cgreenlet
+  [30-35]: https://github.com/geertj/cgreenlet/blob/master/LICENSE
+  [30-36]: https://github.com/halayli/lthread
+  [30-37]: https://github.com/halayli/lthread/blob/master/LICENSE
+  [30-38]: https://github.com/hnes/libaco
+  [30-39]: https://github.com/hnes/libaco/blob/master/LICENSE
+  [30-40]: https://github.com/jtsiomb/c11threads
+  [30-41]: https://github.com/jtsiomb/c11threads
+  [30-42]: https://github.com/matianfu/FUNK
+  [30-43]: https://github.com/matianfu/FUNK/blob/master/LICENSE
+  [30-44]: https://github.com/mbrossard/threadpool
+  [30-45]: https://github.com/mbrossard/threadpool/blob/master/LICENSE
+  [30-46]: https://github.com/oneoo/alilua-coevent-module
+  [30-47]: https://github.com/oneoo/alilua-coevent-module/blob/master/LICENSE
+  [30-48]: https://github.com/ramonza/libcoro
+  [30-49]: https://github.com/ramonza/libcoro/blob/master/LICENSE
+  [30-50]: https://github.com/sustrik/libdill
+  [30-51]: https://github.com/sustrik/libdill/blob/master/COPYING
+  [30-52]: https://github.com/sustrik/libmill
+  [30-53]: https://github.com/sustrik/libmill/blob/master/COPYING
+  [30-54]: https://github.com/stevedekorte/coroutine
+  [30-55]: https://github.com/parallella/pal
+  [30-56]: https://github.com/parallella/pal/blob/master/LICENSE
 </details>
 
 <a id="opencl"></a>
@@ -1671,6 +1707,8 @@ Incorporated lists:
   <summary>OpenCL</summary>
 
   ## <a href="#-">`^`</a> OpenCL ##
+
+  OpenCL, CUDA, OpenMP and other similar APIs.
   * [cf4ocl][31-1] - The C Framework for OpenCL. [`LGPL 3`][31-2]
   * [clMathLibraries/clRNG][31-3] - an OpenCL based software library containing
   random number generation functions. [`License`][31-4]
