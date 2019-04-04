@@ -1964,6 +1964,7 @@ of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [yuyuyu101/C-Buffered-tree](https://github.com/yuyuyu101/C-Buffered-tree) - A buffered-tree implemented in dictionary type and more
 * [MagerValp/AsmHeap](https://github.com/MagerValp/AsmHeap) - Heap data structure in 6502 assembler
 * [Snaipe/libcsptr](https://github.com/Snaipe/libcsptr) - Smart pointers in C
+* [C-Macro-Collections](https://github.com/LeoVen/C-Macro-Collections) - Generate simple and generic data structures using macros. [``MIT``][MIT]
 
 ## Events ##
 * [libev][399] - Yet another event loop. [``BSD-2-Clause``][BSD-2-Clause]
