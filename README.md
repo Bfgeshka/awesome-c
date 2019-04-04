@@ -1766,19 +1766,27 @@ Incorporated lists:
   tomcrypt as crypto library. [`BSD 2-Clause`][32-31]
   * [h2o/picotls][32-32] - TLS 1.3 implementation in C (master supports RFC8446
   as well as draft-26, -27, -28). [`License`][32-33]
-  * [jedisct1/libhydrogen](https://github.com/jedisct1/libhydrogen) - A lightweight, secure, easy-to-use crypto library suitable for constrained environments.
-  * [libressl-portable/portable](https://github.com/libressl-portable/portable) - LibreSSL Portable itself. This includes the build scaffold and compatibility layer that builds portable LibreSSL from the OpenBSD source code.
-  * [libtom/libtomcrypt](https://github.com/libtom/libtomcrypt) - LibTomCrypt is a fairly comprehensive, modular and portable cryptographic toolkit that provides developers with a vast array of well known published block ciphers, one-way hash functions, chaining modes, pseudo-random number generators, public key cryptography and a plethora of other routines.
-  * [maciejczyzewski/retter](https://github.com/maciejczyzewski/retter) - A collection of hash functions, ciphers, tools, libraries, and materials related to cryptography. :closed_lock_with_key:
-  * [mikeryan/crackle](https://github.com/mikeryan/crackle) - Crack and decrypt BLE encryption
-  * [miracl/MIRACL](https://github.com/miracl/MIRACL) - MIRACL Cryptographic SDK: Multiprecision Integer and Rational Arithmetic Cryptographic Library is a C software library that is widely regarded by developers as the gold standard open source SDK for elliptic curve cryptography (ECC).
-  * [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) - C library for quantum-resistant cryptographic algorithms.
-  * [pornin/CTTK](https://github.com/pornin/CTTK) - Constant-Time Toolkit
-  * [tbuktu/libntru](https://github.com/tbuktu/libntru) - C Implementation of NTRUEncrypt
-  * [trezor/trezor-crypto](https://github.com/trezor/trezor-crypto) - :orange_book: Heavily optimized cryptography algorithms for embedded devices.
-  * [droe/sslsplit](https://github.com/droe/sslsplit) - Transparent SSL/TLS interception
-  * [orlp/ed25519](https://github.com/orlp/ed25519) - Portable C implementation of Ed25519, a high-speed high-security public-key signature system.
-  * [wolfSSL/wolfssl](https://github.com/wolfSSL/wolfssl) - wolfSSL (formerly CyaSSL) is a small, fast, portable implementation of TLS/SSL for embedded devices to the cloud
+  * [jedisct1/libhydrogen][32-34] - A lightweight, secure, easy-to-use crypto
+  library suitable for constrained environments. [`ISC`][32-35]
+  * [libressl-portable/openbsd][32-36] - LibreSSL source code. [`Licenses`][32-37]
+  * [libtom/libtomcrypt][32-38] - LibTomCrypt is a fairly comprehensive, modular
+  and portable cryptographic toolkit that provides developers with a vast array
+  of well known published block ciphers, one-way hash functions, chaining modes,
+  pseudo-random number generators, public key cryptography and a plethora of
+  other routines. [`Licenses`][32-39]
+  * [maciejczyzewski/retter][32-40] - A collection of hash functions, ciphers,
+  tools, libraries, and materials related to cryptography. `No license`
+  * [mikeryan/crackle][32-41] - Crack and decrypt BLE encryption. [`BSD 2-Clause`][32-42]
+  * [open-quantum-safe/liboqs][32-43] - C library for quantum-resistant
+  cryptographic algorithms. [`MIT`][32-44]
+  * [tbuktu/libntru][32-45] - C Implementation of NTRUEncrypt. [`Licenses`][32-46]
+  * [trezor/trezor-crypto][32-47] - :orange_book: Heavily optimized cryptography
+  algorithms for embedded devices. [`MIT`][32-48]
+  * [droe/sslsplit][32-49] - Transparent SSL/TLS interception. [`BSD 2-Clause`][32-50]
+  * [orlp/ed25519][32-51] - Portable C implementation of Ed25519, a high-speed
+  high-security public-key signature system. [`Zlib`][32-52]
+  * [wolfSSL/wolfssl][32-53] - wolfSSL (formerly CyaSSL) is a small, fast,
+  portable implementation of TLS/SSL for embedded devices to the cloud. [`GPL 2`][32-54]
 
   [32-1]: https://www.gnu.org/software/gsasl
   [32-2]: https://www.gnu.org/software/gsasl/#TOCnews
@@ -1813,6 +1821,27 @@ Incorporated lists:
   [32-31]: https://github.com/eduardsui/tlse/blob/master/LICENSE
   [32-32]: https://github.com/h2o/picotls
   [32-33]: https://github.com/h2o/picotls/blob/master/lib/picotls.c
+  [32-34]: https://github.com/jedisct1/libhydrogen
+  [32-35]: https://github.com/jedisct1/libhydrogen/blob/master/LICENSE
+  [32-36]: https://github.com/libressl-portable/openbsd
+  [32-37]: https://en.wikipedia.org/wiki/LibreSSL
+  [32-38]: https://github.com/libtom/libtomcrypt
+  [32-39]: https://github.com/libtom/libtomcrypt/blob/develop/LICENSE
+  [32-40]: https://github.com/maciejczyzewski/retter
+  [32-41]: https://github.com/mikeryan/crackle
+  [32-42]: https://github.com/mikeryan/crackle/blob/master/LICENSE
+  [32-43]: https://github.com/open-quantum-safe/liboqs
+  [32-44]: https://github.com/open-quantum-safe/liboqs/blob/master/LICENSE.txt
+  [32-45]: https://github.com/tbuktu/libntru
+  [32-46]: https://github.com/tbuktu/libntru/blob/master/LICENSE
+  [32-47]: https://github.com/trezor/trezor-crypto
+  [32-48]: https://github.com/trezor/trezor-crypto/blob/master/LICENSE
+  [32-49]: https://github.com/droe/sslsplit
+  [32-50]: https://github.com/droe/sslsplit/blob/develop/LICENSE
+  [32-51]: https://github.com/orlp/ed25519
+  [32-52]: https://github.com/orlp/ed25519/blob/master/license.txt
+  [32-53]: https://github.com/wolfSSL/wolfssl
+  [32-54]: https://github.com/wolfSSL/wolfssl/blob/master/COPYING
 </details>
 
 ## Databases ##
@@ -3199,6 +3228,7 @@ Comprehensive and integrated solutions for building web application in C.
 * [tailhook/objpath](https://github.com/tailhook/objpath) - A library that allows to traverse data structures by path
 * [vmg/houdini](https://github.com/vmg/houdini) - The Escapist
 * [luke-jr/bfgminer](https://github.com/luke-jr/bfgminer) - Modular ASIC/FPGA miner written in C, featuring overclocking, monitoring, fan speed control and remote interface capabilities.
+* [pornin/CTTK](https://github.com/pornin/CTTK) - Constant-Time Toolkit
 
 [484]: https://www.codeproject.com/Articles/6154/Writing-Efficient-C-and-C-Code-Optimization
 [483]: https://docs.google.com/presentation/d/1h49gY3TSiayLMXYmRMaAEMl05FaJ-Z6jDOWOz3EsqqQ/edit?pli=1#slide=id.p
