@@ -1743,20 +1743,29 @@ Incorporated lists:
   available ciphers. [`Licenses`][32-8]
   * [OpenSSL][32-9] - Implementation of the SSL and TLS protocols, and also
   includes a cryptography library. [`Licenses`][32-10]
-  * [libressl](https://www.libressl.org/) - Modernized fork of OpenSSL. [`Various Licenses`](https://cvsweb.openbsd.org/cgi-bin/cvsweb/~checkout~/src/lib/libssl/LICENSE?rev=1.12)
-  * [jedisct1/libsodium](https://github.com/jedisct1/libsodium) - A modern, portable, easy to use crypto library
-  * [ARMmbed/mbedtls](https://github.com/ARMmbed/mbedtls) - An open source, portable, easy to use, readable and flexible SSL library
-  * [B-Con/crypto-algorithms](https://github.com/B-Con/crypto-algorithms) - Basic implementations of standard cryptography algorithms, like AES and SHA-1.
-  * [WickrInc/wickr-crypto-c](https://github.com/WickrInc/wickr-crypto-c) - An implementation of the Wickr Secure Messaging Protocol in C
-  * [ashwinraghav/Parallel_Open_SSL](https://github.com/ashwinraghav/Parallel_Open_SSL) - Use your idle GPU to encrypt your data. Give your CPU some breathing time!
-  * [awslabs/s2n](https://github.com/awslabs/s2n) - s2n : an implementation of the TLS/SSL protocols
-  * [bitcoin-core/secp256k1](https://github.com/bitcoin-core/secp256k1) - Optimized C library for EC operations on curve secp256k1
-  * [bitcoin/secp256k1](https://github.com/bitcoin/secp256k1) - Optimized C library for EC operations on curve secp256k1
-  * [cloudflare/keyless](https://github.com/cloudflare/keyless) - CloudFlare's Keyless SSL Server Reference Implementation
-  * [ctz/cifra](https://github.com/ctz/cifra) - A collection of cryptographic primitives targeted at embedded use.
-  * [cyassl/cyassl](https://github.com/cyassl/cyassl) - Please use wolfSSL now instead: https://github.com/wolfSSL/wolfssl . CyaSSL is a small, fast, portable implementation of TLS/SSL for embedded devices to the cloud.
-  * [eduardsui/tlse](https://github.com/eduardsui/tlse) - Single C file TLS 1.2/1.3 implementation, using tomcrypt as crypto library
-  * [h2o/picotls](https://github.com/h2o/picotls) - TLS 1.3 implementation in C (master supports RFC8446 as well as draft-26, -27, -28)
+  * [jedisct1/libsodium][32-11] - A modern, portable and easy to use crypto
+  library. [`ISC`][32-12]
+  * [ARMmbed/mbedtls][32-13] - An open source, portable, easy to use, readable
+  and flexible SSL library. [`License`][32-14]
+  * [B-Con/crypto-algorithms][32-15] - Basic implementations of standard
+  cryptography algorithms, like AES and SHA-1. `No license`
+  * [WickrInc/wickr-crypto-c][32-16] - An implementation of the Wickr Secure
+  Messaging Protocol in C. [`License`][32-17]
+  * [ashwinraghav/Parallel_Open_SSL][32-18] - Use your idle GPU to encrypt your
+  data. Give your CPU some breathing time! [`Licenses`][32-19]
+  * [awslabs/s2n][32-20] - s2n : an implementation of the TLS/SSL protocols. [`Apache 2`][32-21]
+  * [bitcoin-core/secp256k1][32-22] - Optimized C library for EC operations on
+  curve secp256k1. [`MIT`][32-23]
+  * [cloudflare/keyless][32-24] - CloudFlare's Keyless SSL Server Reference
+  Implementation. [`Agreement`][32-25]
+  * [ctz/cifra][32-26] - A collection of cryptographic primitives targeted at
+  embedded use. [`License`][32-27]
+  * [cyassl/cyassl][32-28] - Small, fast, portable implementation of TLS/SSL for
+  embedded devices to the cloud. [`GPL 2`][32-29]
+  * [eduardsui/tlse][32-30] - Single C file TLS 1.2/1.3 implementation, using
+  tomcrypt as crypto library. [`BSD 2-Clause`][32-31]
+  * [h2o/picotls][32-32] - TLS 1.3 implementation in C (master supports RFC8446
+  as well as draft-26, -27, -28). [`License`][32-33]
   * [jedisct1/libhydrogen](https://github.com/jedisct1/libhydrogen) - A lightweight, secure, easy-to-use crypto library suitable for constrained environments.
   * [libressl-portable/portable](https://github.com/libressl-portable/portable) - LibreSSL Portable itself. This includes the build scaffold and compatibility layer that builds portable LibreSSL from the OpenBSD source code.
   * [libtom/libtomcrypt](https://github.com/libtom/libtomcrypt) - LibTomCrypt is a fairly comprehensive, modular and portable cryptographic toolkit that provides developers with a vast array of well known published block ciphers, one-way hash functions, chaining modes, pseudo-random number generators, public key cryptography and a plethora of other routines.
@@ -1769,6 +1778,7 @@ Incorporated lists:
   * [trezor/trezor-crypto](https://github.com/trezor/trezor-crypto) - :orange_book: Heavily optimized cryptography algorithms for embedded devices.
   * [droe/sslsplit](https://github.com/droe/sslsplit) - Transparent SSL/TLS interception
   * [orlp/ed25519](https://github.com/orlp/ed25519) - Portable C implementation of Ed25519, a high-speed high-security public-key signature system.
+  * [wolfSSL/wolfssl](https://github.com/wolfSSL/wolfssl) - wolfSSL (formerly CyaSSL) is a small, fast, portable implementation of TLS/SSL for embedded devices to the cloud
 
   [32-1]: https://www.gnu.org/software/gsasl
   [32-2]: https://www.gnu.org/software/gsasl/#TOCnews
@@ -1780,6 +1790,29 @@ Incorporated lists:
   [32-8]: https://gnupg.org/related_software/libgcrypt/
   [32-9]: https://www.openssl.org
   [32-10]: https://www.openssl.org/source/license.txt
+  [32-11]: https://github.com/jedisct1/libsodium
+  [32-12]: https://github.com/jedisct1/libsodium/blob/master/LICENSE
+  [32-13]: https://github.com/ARMmbed/mbedtls
+  [32-14]: https://github.com/ARMmbed/mbedtls/blob/development/LICENSE
+  [32-15]: https://github.com/B-Con/crypto-algorithms
+  [32-16]: https://github.com/WickrInc/wickr-crypto-c
+  [32-17]: https://github.com/WickrInc/wickr-crypto-c/blob/master/LICENSE
+  [32-18]: https://github.com/ashwinraghav/Parallel_Open_SSL
+  [32-19]: https://github.com/ashwinraghav/Parallel_Open_SSL/blob/master/LICENSE
+  [32-20]: https://github.com/awslabs/s2n
+  [32-21]: https://github.com/awslabs/s2n/blob/master/LICENSE
+  [32-22]: https://github.com/bitcoin-core/secp256k1
+  [32-23]: https://github.com/bitcoin-core/secp256k1/blob/master/COPYING
+  [32-24]: https://github.com/cloudflare/keyless
+  [32-25]: https://github.com/cloudflare/keyless/blob/master/LICENSE
+  [32-26]: https://github.com/ctz/cifra
+  [32-27]: https://github.com/ctz/cifra/blob/master/COPYING
+  [32-28]: https://github.com/cyassl/cyassl
+  [32-29]: https://github.com/cyassl/cyassl/blob/master/COPYING
+  [32-30]: https://github.com/eduardsui/tlse
+  [32-31]: https://github.com/eduardsui/tlse/blob/master/LICENSE
+  [32-32]: https://github.com/h2o/picotls
+  [32-33]: https://github.com/h2o/picotls/blob/master/lib/picotls.c
 </details>
 
 ## Databases ##
