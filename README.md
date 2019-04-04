@@ -1849,19 +1849,11 @@ Incorporated lists:
   <summary>Databases</summary>
 
   ## <a href="#-">`^`</a> Databases ##
-  * [Groonga][84] - Columnar store with full-text search. [``LGPL-2.1-only``][LGPL-2.1-only]
-  * [libmongoc][86] - High-performance client library for MongoDB. [``Apache-2.0``][Apache-2.0]
-  * [WhiteDB][94] - Lightweight database library, operating entirely in main
-  memory. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-  * [BerkeleyDB](https://www.oracle.com/database/berkeley-db/) - Library for a high-performance embedded database for key-value data. [`GNU AGPLv3`](https://www.gnu.org/licenses/agpl.html)
-  * [LMDB](https://github.com/LMDB/lmdb) - Ultra-fast, ultra-compact key-value embedded data store. [`OpenLDAP License`](https://directory.fsf.org/wiki/License:OLDAP-2.7)
-  * [MariaDB](https://mariadb.com/) - Robust, scalable and reliable SQL server, designed to be a drop-in replacement for MySQL. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
-  * [mongo-c-driver](http://mongoc.org/) - High-performance client library for [MongoDB](https://www.mongodb.com/). [`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
-  * [PostgreSQL](https://www.postgresql.org/) - Powerful object-relational database system. [`PostgreSQL licence`](https://opensource.org/licenses/postgresql)
-  * [recutils](https://www.gnu.org/software/recutils/) - Set of tools and a C library for accessing human-editable, plaintext database files called recfiles. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
-  * [Redis](https://redis.io/) - Advanced key-value store. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
-  * [sophia](http://sophia.systems/) - Modern, embeddable key-value database. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
-  * [SQLite](https://www.sqlite.org/about.html) - Self-contained, serverless, zero-configuration, transactional SQL database engine with a C interface. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
+  * [priitj/whitedb][33-1] - Lightweight database library, operating entirely in
+  main memory. [`GPL 3`][33-2]
+  * [mongodb/mongo-c-driver][33-3] - High-performance client library for
+  MongoDB. [`Apache 2`][33-4]
+  * [SQLite][33-5] - Self-contained, serverless, zero-configuration, transactional SQL database engine with a C interface. [`Public domain`][33-6]
   * [UnQLite](https://unqlite.org/) - Self-contained, serverless, zero-configuration, transactional NoSQL engine with a C interface. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
   * [Akash91/CoSQL](https://github.com/Akash91/CoSQL) - A Co-Relational Key-Value Data Store
   * [Amaury/FineDB](https://github.com/Amaury/FineDB) - High-performance nosql database. Written in C, multi-threaded, based on LightningDB and nanomsg.
@@ -1872,7 +1864,6 @@ Incorporated lists:
   * [Suor/postgresql-json](https://github.com/Suor/postgresql-json) - Extract data from PostgreSQL JSON fields.
   * [aerospike/aerospike-client-c](https://github.com/aerospike/aerospike-client-c) - Aerospike C Client
   * [aerospike/aerospike-server](https://github.com/aerospike/aerospike-server) - Aerospike Database Server – flash-optimized, in-memory, nosql database
-  * [antirez/redis](https://github.com/antirez/redis) - Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, HyperLogLogs, Bitmaps.
   * [bcmpinc/dagdb](https://github.com/bcmpinc/dagdb) - small database for storing semi-structured data
   * [cloudwu/lua-db](https://github.com/cloudwu/lua-db) - A database shared data among multi-states .
   * [edussx/database](https://github.com/edussx/database) - B+tree database
@@ -1883,8 +1874,6 @@ Incorporated lists:
   * [maciejczyzewski/hashbase](https://github.com/maciejczyzewski/hashbase) - A fast, efficient on-disk/in-memory database with many different kind of data structures. :floppy_disk:
   * [maxmind/libmaxminddb](https://github.com/maxmind/libmaxminddb) - C library for the MaxMind DB file format
   * [mfragkoulis/PiCO_QL](https://github.com/mfragkoulis/PiCO_QL) - SQL query interface to C++ collections and C data structures. Also configurable as a loadable Linux kernel module and an extension to Valgrind tools.
-  * [mongodb/mongo-c-driver-legacy](https://github.com/mongodb/mongo-c-driver-legacy) - C Driver for MongoDB
-  * [mongodb/mongo-c-driver](https://github.com/mongodb/mongo-c-driver) - A high-performance MongoDB driver for C
   * [pmwkaa/sophia](https://github.com/pmwkaa/sophia) - modern emeddable key-value database
   * [redis/hiredis](https://github.com/redis/hiredis) - Minimalistic C client for Redis >= 1.2
   * [seppo0010/rlite](https://github.com/seppo0010/rlite) - self-contained, serverless, zero-configuration, transactional redis-compatible database engine. rlite is to Redis what SQLite is to SQL.
@@ -1895,7 +1884,14 @@ Incorporated lists:
   * [symisc/unqlite](https://github.com/symisc/unqlite) - An Embedded NoSQL, Transactional Database Engine
   * [vrogier/ocilib](https://github.com/vrogier/ocilib) - OCILIB (C and C++ Drivers for Oracle) - Open source C and C++ library for accessing Oracle databases
   * [symisc/vedis](https://github.com/symisc/vedis) - An Embedded Implementation of Redis
-  * [willemt/pearldb](https://github.com/willemt/pearldb) - A Lightweight Durable HTTP Key-Value Pair Database in C
+  * [willemt/pearldb](https://github.com/willemt/pearldb) - A Lightweight Durable HTTP Key-Value Pair Database in
+
+  [33-1]: https://github.com/priitj/whitedb
+  [33-2]: https://github.com/priitj/whitedb/blob/master/COPYING
+  [33-3]: https://github.com/mongodb/mongo-c-driver
+  [33-4]: https://github.com/mongodb/mongo-c-driver/blob/master/COPYING
+  [33-5]: https://www.sqlite.org/about.html
+  [33-6]: https://www.sqlite.org/copyright.html
 </details>
 
 ## Data Structures and Types ##
@@ -3559,7 +3555,6 @@ Comprehensive and integrated solutions for building web application in C.
 [95]: https://github.com/srdja/Collections-C
 [58]: https://github.com/xant/libhl
 
-[94]: http://whitedb.org/
 [93]: https://unqlite.org/
 [92]: https://www.sqlite.org/
 [91]: https://github.com/spotify/sparkey
@@ -3567,9 +3562,7 @@ Comprehensive and integrated solutions for building web application in C.
 [89]: https://redis.io/
 [88]: https://www.postgresql.org/
 [87]: https://symas.com/lightning-memory-mapped-database/
-[86]: http://mongoc.org/
 [85]: https://github.com/redis/hiredis
-[84]: https://github.com/groonga/groonga
 [83]: http://www.oracle.com/us/products/database/berkeley-db
 
 [82]: https://github.com/trezor/trezor-crypto
