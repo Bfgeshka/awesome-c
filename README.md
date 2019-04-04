@@ -1733,15 +1733,16 @@ Incorporated lists:
   <summary>Cryptography</summary>
 
   ## <a href="#-">`^`</a> Cryptography ##
-  * [GNU SASL][69] - Implementation of the Simple Authentication and Security
-  Layer and few common SASL mechanisms. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-  * [sphlib][81] - Set of implementations of various hash functions, including
-  several cryptographic ones. [``MIT``][MIT]
-  * [GnuTLS](https://www.gnutls.org/) - Secure communication library, implementing SSL, TLS and DTLS. [`GNU LGPL2.1 or later`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-  * [libgcrypt](https://gnupg.org/related_software/libgcrypt/) - General-purpose cryptography library, with a range of available ciphers. [`GNU LGPL2.1or later (code)`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html) and [`GNU GPL2.1 or later (manual and tools)`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-  * [OpenSSL](https://www.openssl.org/) - Implementation of the SSL and TLS protocols, and also includes a cryptography library. [`Dual Licensed under the OpenSSL License and the SSLeay License`](https://www.openssl.org/source/license.html)
-  * [libsodium](https://download.libsodium.org/doc/) - Modern and easy-to-use crypto library. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-  * [mbed TLS](https://tls.mbed.org/) - Another crypto implementation for C. [`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
+  * [GNU SASL][32-1] - Implementation of the Simple Authentication and Security
+  Layer and few common SASL mechanisms. [`Licenses`][32-2]
+  * [aidansteele/sphlib][32-3] - Set of implementations of various hash
+  functions, including several cryptographic ones. [`MIT`][32-4]
+  * [GnuTLS][32-5] - Secure communication library, implementing SSL, TLS and
+  DTLS. [`LGPL 2.1`][32-6]
+  * [libgcrypt][32-7] - General-purpose cryptography library, with a range of
+  available ciphers. [`Licenses`][32-8]
+  * [OpenSSL][32-9] - Implementation of the SSL and TLS protocols, and also
+  includes a cryptography library. [`Licenses`][32-10]
   * [libressl](https://www.libressl.org/) - Modernized fork of OpenSSL. [`Various Licenses`](https://cvsweb.openbsd.org/cgi-bin/cvsweb/~checkout~/src/lib/libssl/LICENSE?rev=1.12)
   * [jedisct1/libsodium](https://github.com/jedisct1/libsodium) - A modern, portable, easy to use crypto library
   * [ARMmbed/mbedtls](https://github.com/ARMmbed/mbedtls) - An open source, portable, easy to use, readable and flexible SSL library
@@ -1768,6 +1769,17 @@ Incorporated lists:
   * [trezor/trezor-crypto](https://github.com/trezor/trezor-crypto) - :orange_book: Heavily optimized cryptography algorithms for embedded devices.
   * [droe/sslsplit](https://github.com/droe/sslsplit) - Transparent SSL/TLS interception
   * [orlp/ed25519](https://github.com/orlp/ed25519) - Portable C implementation of Ed25519, a high-speed high-security public-key signature system.
+
+  [32-1]: https://www.gnu.org/software/gsasl
+  [32-2]: https://www.gnu.org/software/gsasl/#TOCnews
+  [32-3]: https://github.com/aidansteele/sphlib
+  [32-4]: https://github.com/aidansteele/sphlib/blob/master/LICENSE.txt
+  [32-5]: https://www.gnutls.org/
+  [32-6]: https://www.gnutls.org/
+  [32-7]: https://gnupg.org/related_software/libgcrypt/
+  [32-8]: https://gnupg.org/related_software/libgcrypt/
+  [32-9]: https://www.openssl.org
+  [32-10]: https://www.openssl.org/source/license.txt
 </details>
 
 ## Databases ##
@@ -3507,7 +3519,6 @@ Comprehensive and integrated solutions for building web application in C.
 [83]: http://www.oracle.com/us/products/database/berkeley-db
 
 [82]: https://github.com/trezor/trezor-crypto
-[81]: http://www.saphir2.com/sphlib/
 [80]: https://github.com/awslabs/s2n
 [79]: http://maciejczyzewski.me/retter/
 [78]: https://github.com/miracl/MIRACL
@@ -3519,7 +3530,6 @@ Comprehensive and integrated solutions for building web application in C.
 [72]: https://www.openssl.org/
 [71]: https://gnupg.org/related_software/libgcrypt
 [70]: http://www.gnutls.org/
-[69]: https://gnu.org/software/gsasl/
 
 [68]: https://tinycthread.github.io/
 [67]: https://en.wikipedia.org/wiki/POSIX_Threads
