@@ -1853,21 +1853,16 @@ Incorporated lists:
   main memory. [`GPL 3`][33-2]
   * [mongodb/mongo-c-driver][33-3] - High-performance client library for
   MongoDB. [`Apache 2`][33-4]
-  * [SQLite][33-5] - Self-contained, serverless, zero-configuration, transactional SQL database engine with a C interface. [`Public domain`][33-6]
-  * [UnQLite](https://unqlite.org/) - Self-contained, serverless, zero-configuration, transactional NoSQL engine with a C interface. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
-  * [Akash91/CoSQL](https://github.com/Akash91/CoSQL) - A Co-Relational Key-Value Data Store
-  * [Amaury/FineDB](https://github.com/Amaury/FineDB) - High-performance nosql database. Written in C, multi-threaded, based on LightningDB and nanomsg.
-  * [BohuTANG/nessDB](https://github.com/BohuTANG/nessDB) - A very fast transactional key-value, embedded database storage engine.
-  * [GNOME/libgda](https://github.com/GNOME/libgda) - Libgda is a (relatively small) database access library:
-  * [Qihoo360/Atlas](https://github.com/Qihoo360/Atlas) - A high-performance and stable proxy for MySQL
-  * [Softmotions/ejdb](https://github.com/Softmotions/ejdb) - EJDB — Embeddable JSON Database engine
-  * [Suor/postgresql-json](https://github.com/Suor/postgresql-json) - Extract data from PostgreSQL JSON fields.
-  * [aerospike/aerospike-client-c](https://github.com/aerospike/aerospike-client-c) - Aerospike C Client
-  * [aerospike/aerospike-server](https://github.com/aerospike/aerospike-server) - Aerospike Database Server – flash-optimized, in-memory, nosql database
-  * [bcmpinc/dagdb](https://github.com/bcmpinc/dagdb) - small database for storing semi-structured data
-  * [cloudwu/lua-db](https://github.com/cloudwu/lua-db) - A database shared data among multi-states .
-  * [edussx/database](https://github.com/edussx/database) - B+tree database
-  * [fictorial/logstore](https://github.com/fictorial/logstore) - experimental data storage engine for arbitrary data for POSIX systems with spinning hard disks
+  * [SQLite][33-5] - Self-contained, serverless, zero-configuration,
+  transactional SQL database engine with a C interface. [`Public domain`][33-6]
+  * [symisc/unqlite][33-7] - Self-contained, serverless, zero-configuration,
+  transactional NoSQL engine with a C interface. [`License`][33-8]
+  * [Akash91/CoSQL][33-9] - A Co-Relational Key-Value Data Store. `No license`
+  * [GNOME/libgda][33-10] - Libgda is a (relatively small) database access
+  library. [`GPL 2`][33-11]
+  * [Softmotions/ejdb][33-12] - EJDB — Embeddable JSON Database engine. [`MIT`][33-13]
+  * [aerospike/aerospike-client-c][33-14] - Aerospike C Client. [`License`][33-15]
+  * [bcmpinc/dagdb][33-16] - small database for storing semi-structured data. [`GPL 3`][33-17]
   * [grahamking/Key-Value-Polyglot](https://github.com/grahamking/Key-Value-Polyglot) - A basic key-value store, repeated in C, Go, Python (basic, gevent, and diesel), Ruby (event machine), Java, Scala, Haskell, and NodeJS.
   * [kbranigan/pow](https://github.com/kbranigan/pow) - C datastore/cache for MySQL data
   * [lfittl/libpg_query](https://github.com/lfittl/libpg_query) - C library for accessing the PostgreSQL parser outside of the server environment
@@ -1881,7 +1876,6 @@ Incorporated lists:
   * [stevedekorte/skipdb](https://github.com/stevedekorte/skipdb) - C based ordered key-value ACID DB using skiplist datastructure.
   * [tglman/orientdb-c](https://github.com/tglman/orientdb-c) - The C client of  OrientDB
   * [spotify/sparkey](https://github.com/spotify/sparkey) - Simple constant key/value storage library, for read-heavy systems with infrequent large bulk inserts.
-  * [symisc/unqlite](https://github.com/symisc/unqlite) - An Embedded NoSQL, Transactional Database Engine
   * [vrogier/ocilib](https://github.com/vrogier/ocilib) - OCILIB (C and C++ Drivers for Oracle) - Open source C and C++ library for accessing Oracle databases
   * [symisc/vedis](https://github.com/symisc/vedis) - An Embedded Implementation of Redis
   * [willemt/pearldb](https://github.com/willemt/pearldb) - A Lightweight Durable HTTP Key-Value Pair Database in
@@ -1892,6 +1886,17 @@ Incorporated lists:
   [33-4]: https://github.com/mongodb/mongo-c-driver/blob/master/COPYING
   [33-5]: https://www.sqlite.org/about.html
   [33-6]: https://www.sqlite.org/copyright.html
+  [33-7]: https://github.com/symisc/unqlite
+  [33-8]: https://github.com/symisc/unqlite/blob/master/LICENSE
+  [33-9]: https://github.com/Akash91/CoSQL
+  [33-10]: https://github.com/GNOME/libgda
+  [33-11]: https://github.com/GNOME/libgda/blob/master/COPYING
+  [33-12]: https://github.com/Softmotions/ejdb
+  [33-13]: https://github.com/Softmotions/ejdb/blob/master/LICENSE
+  [33-14]: https://github.com/aerospike/aerospike-client-c
+  [33-15]: https://github.com/aerospike/aerospike-client-c/blob/master/LICENSE.md
+  [33-16]: https://github.com/bcmpinc/dagdb
+  [33-17]: https://github.com/bcmpinc/dagdb/blob/master/LICENSE
 </details>
 
 ## Data Structures and Types ##
