@@ -1863,22 +1863,22 @@ Incorporated lists:
   * [Softmotions/ejdb][33-12] - EJDB — Embeddable JSON Database engine. [`MIT`][33-13]
   * [aerospike/aerospike-client-c][33-14] - Aerospike C Client. [`License`][33-15]
   * [bcmpinc/dagdb][33-16] - small database for storing semi-structured data. [`GPL 3`][33-17]
-  * [grahamking/Key-Value-Polyglot](https://github.com/grahamking/Key-Value-Polyglot) - A basic key-value store, repeated in C, Go, Python (basic, gevent, and diesel), Ruby (event machine), Java, Scala, Haskell, and NodeJS.
-  * [kbranigan/pow](https://github.com/kbranigan/pow) - C datastore/cache for MySQL data
-  * [lfittl/libpg_query](https://github.com/lfittl/libpg_query) - C library for accessing the PostgreSQL parser outside of the server environment
-  * [maciejczyzewski/hashbase](https://github.com/maciejczyzewski/hashbase) - A fast, efficient on-disk/in-memory database with many different kind of data structures. :floppy_disk:
-  * [maxmind/libmaxminddb](https://github.com/maxmind/libmaxminddb) - C library for the MaxMind DB file format
-  * [mfragkoulis/PiCO_QL](https://github.com/mfragkoulis/PiCO_QL) - SQL query interface to C++ collections and C data structures. Also configurable as a loadable Linux kernel module and an extension to Valgrind tools.
-  * [pmwkaa/sophia](https://github.com/pmwkaa/sophia) - modern emeddable key-value database
-  * [redis/hiredis](https://github.com/redis/hiredis) - Minimalistic C client for Redis >= 1.2
-  * [seppo0010/rlite](https://github.com/seppo0010/rlite) - self-contained, serverless, zero-configuration, transactional redis-compatible database engine. rlite is to Redis what SQLite is to SQL.
-  * [sqlcipher/sqlcipher](https://github.com/sqlcipher/sqlcipher) - SQLCipher is an SQLite extension that provides 256 bit AES encryption of database files.
-  * [stevedekorte/skipdb](https://github.com/stevedekorte/skipdb) - C based ordered key-value ACID DB using skiplist datastructure.
-  * [tglman/orientdb-c](https://github.com/tglman/orientdb-c) - The C client of  OrientDB
-  * [spotify/sparkey](https://github.com/spotify/sparkey) - Simple constant key/value storage library, for read-heavy systems with infrequent large bulk inserts.
-  * [vrogier/ocilib](https://github.com/vrogier/ocilib) - OCILIB (C and C++ Drivers for Oracle) - Open source C and C++ library for accessing Oracle databases
-  * [symisc/vedis](https://github.com/symisc/vedis) - An Embedded Implementation of Redis
-  * [willemt/pearldb](https://github.com/willemt/pearldb) - A Lightweight Durable HTTP Key-Value Pair Database in
+  * [maciejczyzewski/hashbase][33-18] - A fast, efficient on-disk/in-memory
+  database with many different kind of data structures. [`MIT`][33-19]
+  * [maxmind/libmaxminddb][33-20] - C library for the MaxMind DB file format. [`Apache 2`][33-21]
+  * [pmwkaa/sophia][33-22] - modern emeddable key-value database. [`License`][33-23]
+  * [redis/hiredis][33-24] - Minimalistic C client for Redis. [`BSD 3-Clause`][33-25]
+  * [seppo0010/rlite][33-26] - self-contained, serverless, zero-configuration,
+  transactional redis-compatible database engine. rlite is to Redis what SQLite
+  is to SQL. [`BSD 2-Clause`][33-27]
+  * [sqlcipher/sqlcipher][33-28] - SQLCipher is an SQLite extension that
+  provides 256 bit AES encryption of database files. [`License`][33-29]
+  * [tglman/orientdb-c][33-30] - The C client of  OrientDB. `No license`
+  * [spotify/sparkey][33-31] - Simple constant key/value storage library, for
+  read-heavy systems with infrequent large bulk inserts. [`Apache 2`][33-32]
+  * [vrogier/ocilib][33-33] - Open source C and C++ library for accessing
+  Oracle databases. [`Apache 2`][33-34]
+  * [symisc/vedis][33-35] - An Embedded Implementation of Redis. [`License`][33-36]
 
   [33-1]: https://github.com/priitj/whitedb
   [33-2]: https://github.com/priitj/whitedb/blob/master/COPYING
@@ -1897,6 +1897,25 @@ Incorporated lists:
   [33-15]: https://github.com/aerospike/aerospike-client-c/blob/master/LICENSE.md
   [33-16]: https://github.com/bcmpinc/dagdb
   [33-17]: https://github.com/bcmpinc/dagdb/blob/master/LICENSE
+  [33-18]: https://github.com/maciejczyzewski/hashbase
+  [33-19]: https://github.com/maciejczyzewski/hashbase/blob/master/LICENSE
+  [33-20]: https://github.com/maxmind/libmaxminddb
+  [33-21]: https://github.com/maxmind/libmaxminddb/blob/master/LICENSE
+  [33-22]: https://github.com/pmwkaa/sophia
+  [33-23]: https://github.com/pmwkaa/sophia/blob/master/LICENSE
+  [33-24]: https://github.com/redis/hiredis
+  [33-25]: https://github.com/redis/hiredis/blob/master/COPYING
+  [33-26]: https://github.com/seppo0010/rlite
+  [33-27]: https://github.com/seppo0010/rlite/blob/master/LICENSE
+  [33-28]: https://github.com/sqlcipher/sqlcipher
+  [33-29]: https://github.com/sqlcipher/sqlcipher/blob/master/LICENSE
+  [33-30]: https://github.com/tglman/orientdb-c
+  [33-31]: https://github.com/spotify/sparkey
+  [33-32]: https://github.com/spotify/sparkey/blob/master/LICENSE
+  [33-33]: https://github.com/vrogier/ocilib
+  [33-34]: https://github.com/vrogier/ocilib/blob/master/LICENSE
+  [33-35]: https://github.com/symisc/vedis
+  [33-36]: https://github.com/symisc/vedis/blob/master/license.txt
 </details>
 
 ## Data Structures and Types ##
