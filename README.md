@@ -1927,10 +1927,9 @@ Incorporated lists:
   * [P-p-H-d/mlib][34-3] - Library for generic, but typesafe C containers.
   Implemented as header-only. [`BSD 2-Clause`][34-4]
   * [libsrt][34-5] - Soft and hard real-time data structures. [`BSD 3-Clause`][34-6]
-  * [list.h][104] - Implementations for single- and double-linked list functions. [``GPL-3.0-only``][GPL-3.0-only]
-  * [PackedArray][105] - Random-access array of tightly packed unsigned integers
-  of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
-  * [uthash][106] - Single-file hash table implementation. [``BSD-1-Clause``][BSD-1-Clause]
+  * [nbulischeck/list.h][34-7] - Implementations for single- and double-linked list functions. [`GPL 3`][34-8]
+  * [gpakosz/PackedArray][34-9] - Random-access array of tightly packed unsigned integers
+  of any desired width. Has a SIMD-optimized implementation. [`WTFPL`][34-10]
   * [vector.h][107] - Header library for typed lists. [``MIT``][MIT]
   * [20centaurifux/datatypes](https://github.com/20centaurifux/datatypes) - A collection of various datatypes in C (linked lists, stack, queue, red-black tree and hash table).
   * [2ion/libqueue](https://github.com/2ion/libqueue) - C library providing persistent, named data storage queues
@@ -2051,6 +2050,10 @@ Incorporated lists:
   [34-4]: https://github.com/P-p-H-d/mlib/blob/master/LICENSE
   [34-5]: https://github.com/faragon/libsrt
   [34-6]: https://github.com/faragon/libsrt/blob/master/LICENSE
+  [34-7]: https://github.com/nbulischeck/list.h
+  [34-8]: https://github.com/nbulischeck/list.h/blob/master/LICENSE
+  [34-9]: https://github.com/gpakosz/PackedArray
+  [34-10]: https://github.com/gpakosz/PackedArray/blob/master/LICENSE
 </details>
 
 ## Events ##
@@ -3567,8 +3570,6 @@ Comprehensive and integrated solutions for building web application in C.
 
 [107]: https://github.com/swenson/vector.h
 [106]: http://troydhanson.github.io/uthash/
-[105]: https://github.com/gpakosz/PackedArray
-[104]: https://github.com/nbulischeck/list.h
 [99]: https://igraph.org/
 [96]: https://github.com/jtsiomb/kdtree
 
