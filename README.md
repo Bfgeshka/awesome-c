@@ -1923,20 +1923,10 @@ Incorporated lists:
   <summary>Data Structures and Types</summary>
 
   ## <a href="#-">`^`</a> Data Structures and Types ##
-  * [libhl][58] - Library implementing a thread-safe API to manage a range of data
-  structures. Also provides some supporting functions and structures for
-  concurrent and lockfree programming. [``LGPL-3.0-only``][LGPL-3.0-only]
-  * [Collections-C][95] - Library of generic data structures. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
-  * [kdtree][96] - Simple library for working with KD-trees. [``BSD-3-Clause``][BSD-3-Clause]
-  * [libavl][97] - Library containing a range of self-balancing binary trees. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-  * [ds][98] - Common Data Structures and Algorithms. [``MIT``][MIT]
-  * [igraph][99] - A graph processing library. [``GPL-2.0-or-later``][GPL-2.0-or-later]
-  * [liblfds][100] - Portable lock-free data structure library. Public domain
-  (more exactly, whatever license you want).
-  * [M\*LIB][101] - Library for generic, but typesafe C containers. Implemented as
-  header-only. [``BSD-2-Clause``][BSD-2-Clause]
-  * [offbrand][102] - Collection of generic, reference-counted data structures. [``MIT``][MIT]
-  * [libsrt][103] - Soft and hard real-time data structures. [``BSD-3-Clause``][BSD-3-Clause].
+  * [recp/ds][34-1] - Common Data Structures and Algorithms. [`MIT`][34-2]
+  * [P-p-H-d/mlib][34-3] - Library for generic, but typesafe C containers.
+  Implemented as header-only. [`BSD 2-Clause`][34-4]
+  * [libsrt][34-5] - Soft and hard real-time data structures. [`BSD 3-Clause`][34-6]
   * [list.h][104] - Implementations for single- and double-linked list functions. [``GPL-3.0-only``][GPL-3.0-only]
   * [PackedArray][105] - Random-access array of tightly packed unsigned integers
   of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
@@ -2054,6 +2044,13 @@ Incorporated lists:
   * [MagerValp/AsmHeap](https://github.com/MagerValp/AsmHeap) - Heap data structure in 6502 assembler
   * [Snaipe/libcsptr](https://github.com/Snaipe/libcsptr) - Smart pointers in C
   * [C-Macro-Collections](https://github.com/LeoVen/C-Macro-Collections) - Generate simple and generic data structures using macros. [``MIT``][MIT]
+
+  [34-1]: https://github.com/recp/ds
+  [34-2]: https://github.com/recp/ds/blob/master/LICENSE
+  [34-3]: https://github.com/P-p-H-d/mlib
+  [34-4]: https://github.com/P-p-H-d/mlib/blob/master/LICENSE
+  [34-5]: https://github.com/faragon/libsrt
+  [34-6]: https://github.com/faragon/libsrt/blob/master/LICENSE
 </details>
 
 ## Events ##
@@ -2806,7 +2803,6 @@ Audio and video processing
 * [fastos/fastsocket](https://github.com/fastos/fastsocket) - Fastsocket is a highly scalable socket and its underlying networking implementation of Linux kernel. With the straight linear scalability, Fastsocket can provide extremely good performance in multicore machines. In addition, it is very easy to use and maintain. As a result, it has been deployed in the production environment of SINA.
 * [felipec/msn-pecan](https://github.com/felipec/msn-pecan) - MSN Messenger library in C
 * [iem-projects/pd-iemrtp](https://github.com/iem-projects/pd-iemrtp) - RTP support for Pure Data
-* [igraph/igraph](https://github.com/igraph/igraph) - Library for the analysis of networks
 * [irungentoo/toxcore](https://github.com/irungentoo/toxcore) - The future of online communications.
 * [japeq/bencode-tools](https://github.com/japeq/bencode-tools) - bencode-tools is a collection of tools for manipulating bencoded data.
 * [libssh2/libssh2](https://github.com/libssh2/libssh2) - the SSH library
@@ -3573,16 +3569,8 @@ Comprehensive and integrated solutions for building web application in C.
 [106]: http://troydhanson.github.io/uthash/
 [105]: https://github.com/gpakosz/PackedArray
 [104]: https://github.com/nbulischeck/list.h
-[103]: https://faragon.github.io/libsrt.html
-[102]: https://github.com/theck01/offbrand_lib
-[101]: https://github.com/P-p-H-d/mlib
-[100]: http://liblfds.org/
 [99]: https://igraph.org/
-[98]: https://github.com/recp/ds
-[97]: http://adtinfo.org/libavl.html/index.html
 [96]: https://github.com/jtsiomb/kdtree
-[95]: https://github.com/srdja/Collections-C
-[58]: https://github.com/xant/libhl
 
 [93]: https://unqlite.org/
 [92]: https://www.sqlite.org/
