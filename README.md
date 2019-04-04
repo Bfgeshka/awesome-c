@@ -1918,138 +1918,143 @@ Incorporated lists:
   [33-36]: https://github.com/symisc/vedis/blob/master/license.txt
 </details>
 
-## Data Structures and Types ##
-* [libhl][58] - Library implementing a thread-safe API to manage a range of data
+<a id="data-structures"></a>
+<details>
+  <summary>Data Structures and Types</summary>
+
+  ## <a href="#-">`^`</a> Data Structures and Types ##
+  * [libhl][58] - Library implementing a thread-safe API to manage a range of data
   structures. Also provides some supporting functions and structures for
   concurrent and lockfree programming. [``LGPL-3.0-only``][LGPL-3.0-only]
-* [Collections-C][95] - Library of generic data structures. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
-* [kdtree][96] - Simple library for working with KD-trees. [``BSD-3-Clause``][BSD-3-Clause]
-* [libavl][97] - Library containing a range of self-balancing binary trees. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [ds][98] - Common Data Structures and Algorithms. [``MIT``][MIT]
-* [igraph][99] - A graph processing library. [``GPL-2.0-or-later``][GPL-2.0-or-later]
-* [liblfds][100] - Portable lock-free data structure library. Public domain
+  * [Collections-C][95] - Library of generic data structures. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
+  * [kdtree][96] - Simple library for working with KD-trees. [``BSD-3-Clause``][BSD-3-Clause]
+  * [libavl][97] - Library containing a range of self-balancing binary trees. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+  * [ds][98] - Common Data Structures and Algorithms. [``MIT``][MIT]
+  * [igraph][99] - A graph processing library. [``GPL-2.0-or-later``][GPL-2.0-or-later]
+  * [liblfds][100] - Portable lock-free data structure library. Public domain
   (more exactly, whatever license you want).
-* [M\*LIB][101] - Library for generic, but typesafe C containers. Implemented as
+  * [M\*LIB][101] - Library for generic, but typesafe C containers. Implemented as
   header-only. [``BSD-2-Clause``][BSD-2-Clause]
-* [offbrand][102] - Collection of generic, reference-counted data structures. [``MIT``][MIT]
-* [libsrt][103] - Soft and hard real-time data structures. [``BSD-3-Clause``][BSD-3-Clause].
-* [list.h][104] - Implementations for single- and double-linked list functions. [``GPL-3.0-only``][GPL-3.0-only]
-* [PackedArray][105] - Random-access array of tightly packed unsigned integers
-of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
-* [uthash][106] - Single-file hash table implementation. [``BSD-1-Clause``][BSD-1-Clause]
-* [vector.h][107] - Header library for typed lists. [``MIT``][MIT]
-* [20centaurifux/datatypes](https://github.com/20centaurifux/datatypes) - A collection of various datatypes in C (linked lists, stack, queue, red-black tree and hash table).
-* [2ion/libqueue](https://github.com/2ion/libqueue) - C library providing persistent, named data storage queues
-* [Achoulos/Data-Structures](https://github.com/Achoulos/Data-Structures) - Implementation of Data Structures and Sorts in C
-* [Blosc/bcolz](https://github.com/Blosc/bcolz) - A columnar data container that can be compressed.
-* [ClickerMonkey/CDSL](https://github.com/ClickerMonkey/CDSL) - A data structure library written in C
-* [DanielWaterworth/Butterfly](https://github.com/DanielWaterworth/Butterfly) - [DEPRECATED] Butterfly is a C library that implements a very simple 'dynamic' data-type. It could be used, for example, to manipulate JSON data from C. It is distributed under LGPL.
-* [Incarnation-p-lee/libds](https://github.com/Incarnation-p-lee/libds) - unified data structure implementation lib of C
-* [Krakonos/cutils](https://github.com/Krakonos/cutils) - C utilities and data structures
-* [LPD-EPFL/ASCYLIB](https://github.com/LPD-EPFL/ASCYLIB) - ASCYLIB is a concurrent-search data-structure library with over 30 implementantions of linked lists, hash tables, skip lists, and binary search trees.
-* [MichaelJWelsh/cdsa](https://github.com/MichaelJWelsh/cdsa) - A library of generic intrusive data structures and algorithms in ANSI C
-* [Tarsnap/kivaloo](https://github.com/Tarsnap/kivaloo) - Kivaloo is a collection of utilities which together form a data store associating keys of up to 255 bytes with values of up to 255 bytes.
-* [ZSShen/C-Common-Data-Structures](https://github.com/ZSShen/C-Common-Data-Structures) - Uniform C APIs for data structure manipulation
-* [agl/critbit](https://github.com/agl/critbit) - Critbit trees in C
-* [alexanderb14/cCollections](https://github.com/alexanderb14/cCollections) - lightweight dynamic data structures for C
-* [angelortega/mpdm](https://github.com/angelortega/mpdm) - Minimum Profit Data Manager
-* [antirez/rax](https://github.com/antirez/rax) - A radix tree implementation in ANSI C
-* [argv0/nbds](https://github.com/argv0/nbds) - C implementations of several scalable non-blocking data structures for x86 and x86-64.
-* [armon/libart](https://github.com/armon/libart) - Adaptive Radix Trees implemented in C
-* [arnimarj/py-pointless](https://github.com/arnimarj/py-pointless) - A fast and efficient read-only relocatable data structure for JSON like data, with C and Python APIs
-* [ashinkarov/trie](https://github.com/ashinkarov/trie) - Simple implementation of trie data structure in C
-* [bcopeland/em_misc](https://github.com/bcopeland/em_misc) - external memory data structure playground
-* [begeekmyfriend/bplustree](https://github.com/begeekmyfriend/bplustree) - A minimal but extreme fast B+ tree indexing structure demo for billions of key-value storage
-* [bpudream/pat](https://github.com/bpudream/pat) - Data Structure
-* [breckinloggins/ngtemplate](https://github.com/breckinloggins/ngtemplate) - ngtemplate - A template engine written in C designed to be syntax-compatible with Google CTemplate
-* [cengek/CKDatastruct](https://github.com/cengek/CKDatastruct) - The using of data structure in C from our class
-* [cbgbt/DataStructures](https://github.com/cbgbt/DataStructures) - A data structures library written in C.
-* [chrismoos/hash-ring](https://github.com/chrismoos/hash-ring) - C hash ring library
-* [chriso/bitset](https://github.com/chriso/bitset) - A compressed bitset with supporting data structures and algorithms
-* [chucknthem/Data-structures-algorithms](https://github.com/chucknthem/Data-structures-algorithms) - Collection of Data structures, algorithms and interesting bits of code.
-* [clibs/list](https://github.com/clibs/list) - C doubly linked list
-* [codeprepper/data-structures](https://github.com/codeprepper/data-structures) - arrays, linked lists, stacks and queues
-* [coderaven/B-Tree](https://github.com/coderaven/B-Tree) - B-Tree Implementation in C. A project in Data Structures.
-* [corks/corc.ds](https://github.com/corks/corc.ds) - A data structure library written in C.
-* [cstavish/c_data_structs](https://github.com/cstavish/c_data_structs) - singly/doubly linked list and hash table implementations...more to come
-* [davidar/c-hashtable](https://github.com/davidar/c-hashtable) - Git mirror of the hash table data structure in C by Christopher Clark
-* [dhbikoff/Generic-C-Library](https://github.com/dhbikoff/Generic-C-Library) - A library of generic data structures in C
-* [dgvncsz0f/lift](https://github.com/dgvncsz0f/lift) - Implementation of some data structures in C
-* [dminor/skip-quadtree](https://github.com/dminor/skip-quadtree) - Implementation of the skip quadtree and compressed quadtree data structures.
-* [douglascrockford/DEC64](https://github.com/douglascrockford/DEC64) - Decimal floating point
-* [esheldon/meds](https://github.com/esheldon/meds) - Python and C libraries to work with Multi Epoch Data Structures
-* [fmela/libdict](https://github.com/fmela/libdict) - C library of key-value data structures with an object-oriented interface.
-* [fragglet/c-algorithms](https://github.com/fragglet/c-algorithms) - A library of common data structures and algorithms written in C.
-* [freels/ruby_trie](https://github.com/freels/ruby_trie) - Native C implementation of a trie data structure.
-* [fritz0705/libf](https://github.com/fritz0705/libf) - Library to make programming simpler and cleaner (and slower, because I was too lazy to implement usable data structures)
-* [fubarwrangler/datastruct](https://github.com/fubarwrangler/datastruct) - A silly project to code some data structures to help brush up on my C
-* [ghostrong/algorithm](https://github.com/ghostrong/algorithm) - Data Structure and Algorithms
-* [gnudennis/ds_c](https://github.com/gnudennis/ds_c) - Data Structure In C
-* [graphitemaster/libintrusive](https://github.com/graphitemaster/libintrusive) - Intrusive data structures for C
-* [grundprinzip/bitcompressedvector](https://github.com/grundprinzip/bitcompressedvector) - Provide a container for integral data types that applies light-weight bit compression
-* [hacatu/haclib](https://github.com/hacatu/haclib) - A utility library providing data types C should have been made with such as vectors and sequences, mostly as macros.
-* [harnold/generic-c](https://github.com/harnold/generic-c) - A library of generic data structures and algorithms for C, in the spirit of the STL
-* [hyPiRion/c-rrb](https://github.com/hyPiRion/c-rrb) - RRB-tree implemented as a library in C.
-* [hyPiRion/persistencia](https://github.com/hyPiRion/persistencia) - Repository with implementations to understand persistent data structures.
-* [hyPiRion/roulette-tree](https://github.com/hyPiRion/roulette-tree) - Data structure for efficient fitness-proportionate selection.
-* [igorsobreira/iclib](https://github.com/igorsobreira/iclib) - Library with useful C data structures
-* [jaimz/core_ds](https://github.com/jaimz/core_ds) - Simple C data structure library
-* [jarun/dslib](https://github.com/jarun/dslib) - A library of handy data structures
-* [johnj/llds](https://github.com/johnj/llds) - Low-Level Data Structure - efficient data structures, and fast data access in the 2.6/3.0 kernel
-* [joshdk/libmap](https://github.com/joshdk/libmap) - A map (data structure) library written in c
-* [jtsiomb/kdtree](https://github.com/jtsiomb/kdtree) - A simple C library for working with KD-Trees
-* [jsvennevid/filearchive](https://github.com/jsvennevid/filearchive) - File archive library allowing for easy creation and access to data stored inside a container through a simple API.
-* [jvirkki/libbloom](https://github.com/jvirkki/libbloom) - A simple and small bloom filter implementation in plain C.
-* [ksheedlo/kmdata](https://github.com/ksheedlo/kmdata) - Data structures for C programmers, by C programmers.
-* [louiswins/RB-Tree](https://github.com/louiswins/RB-Tree) - An implementation of the Red-Black Tree data structure.
-* [livioso/datastructures-in-C](https://github.com/livioso/datastructures-in-C) - Implementation of a some data structures in C for educational purposes. For example featuring a trie implementation in C (inspired by DAS84 "a bit of C") or a XOR linked list.
-* [malbrain/Btree-source-code](https://github.com/malbrain/Btree-source-code) - A working project for High-concurrency B-tree source code in C
-* [marekweb/datastructs-c](https://github.com/marekweb/datastructs-c) - Arraylist and Hashtable implementation in C
-* [michaeltyson/TPCircularBuffer](https://github.com/michaeltyson/TPCircularBuffer) - A simple, fast circular buffer implementation
-* [mikedlowis/data-structures](https://github.com/mikedlowis/data-structures) - A collection of data structures implemented in C to be included in multiple projects.
-* [mrnugget/data_structures](https://github.com/mrnugget/data_structures) - Implementations of common data structures in C
-* [naraing/dsLib](https://github.com/naraing/dsLib) - An algorithm library with core data-sttructures and common algortihm implementations on those data structures
-* [natehardison/data-structures](https://github.com/natehardison/data-structures) - A bunch of data structure implementations, just for fun.
-* [noporpoise/BitArray](https://github.com/noporpoise/BitArray) - C bit array structs and methods
-* [noporpoise/madcrowlib](https://github.com/noporpoise/madcrowlib) - Common C data structure macros
-* [orangejulius/cs_fundamentals](https://github.com/orangejulius/cs_fundamentals) - simple implementations of common data structures/algorithms
-* [paulasmuth/libsmatrix](https://github.com/paulasmuth/libsmatrix) - thread-safe sparse matrix data structure
-* [pcdavid/data-structures](https://github.com/pcdavid/data-structures) - Sample implementations of classical data structures in C.
-* [pcostesi/c-data-structures](https://github.com/pcostesi/c-data-structures) - Simple Data Structures
-* [petewarden/c_hashmap](https://github.com/petewarden/c_hashmap) - A simple string hashmap in C
-* [pforemski/libpjf](https://github.com/pforemski/libpjf) - A C library of data structures with tools (based on libasn)
-* [pi8027/libdatastruct](https://github.com/pi8027/libdatastruct) - libdatastruct is an ANSI C library for abstract data types.
-* [pseudomuto/c-data-structures](https://github.com/pseudomuto/c-data-structures) - A simple library of data structures for C
-* [questor/ringbuffer](https://github.com/questor/ringbuffer) - simple ringbuffer with possibility to get all data and/or only updates
-* [r-medina/ll](https://github.com/r-medina/ll) - Thread safe linked list data structure for C
-* [razpeitia/data-structures](https://github.com/razpeitia/data-structures) - Stack, Queue, Binary Tree
-* [rgantt/compsci.c](https://github.com/rgantt/compsci.c) - data structures, algorithms, and musings in C
-* [rxi/map](https://github.com/rxi/map) - A type-safe hash map implementation for C
-* [rxi/vec](https://github.com/rxi/vec) - A type-safe dynamic array implementation for C
-* [ryandotsmith/queue_lkls](https://github.com/ryandotsmith/queue_lkls) - A lock-free, non-blocking queue data structure.
-* [sebnow/data_structures](https://github.com/sebnow/data_structures) - A collection of data structures, written in C.
-* [siganakis/tny](https://github.com/siganakis/tny) - Tiny data structures that pack a punch!
-* [smtlaissezfaire/c_type_sizes](https://github.com/smtlaissezfaire/c_type_sizes) - show the sizes of C data types
-* [srdja/Collections-C](https://github.com/srdja/Collections-C) - A library of generic data structures.
-* [starnight/simple-data-structure](https://github.com/starnight/simple-data-structure) - Simple Data Structure library
-* [steven-schronk/C-Data-Structures](https://github.com/steven-schronk/C-Data-Structures) - Collection of basic data structures in C.
-* [wasabiz/xrope](https://github.com/wasabiz/xrope) - rope data structure
-* [stevedekorte/basekit](https://github.com/stevedekorte/basekit) - C based OO portable data structure library
-* [theck01/offbrand_lib](https://github.com/theck01/offbrand_lib) - A collecton of generic reference counted data structures, tools to create compatible C style classes, and demo applications
-* [tiancaiamao/datastruct](https://github.com/tiancaiamao/datastruct) - some useful data struct piece of code
-* [torch/tds](https://github.com/torch/tds) - Torch C data structures
-* [troydhanson/uthash](https://github.com/troydhanson/uthash) - C macros for hash tables and more
-* [watmough/jwHash](https://github.com/watmough/jwHash) - Simple hash table implementation for C.
-* [ufjf-dcc/dsgraph](https://github.com/ufjf-dcc/dsgraph) - DSGraph is an C/C++ library for visualizing data structures.
-* [vhmth/Lego-Box](https://github.com/vhmth/Lego-Box) - Write up all the data structures!
-* [zhemao/libds](https://github.com/zhemao/libds) - Simple, memory-safe data-structures in C.
-* [vndmtrx/libadt](https://github.com/vndmtrx/libadt) - :vertical_traffic_light:libadt - an abstract data types library
-* [willemt/cbuffer](https://github.com/willemt/cbuffer) - A circular buffer written in C using Posix calls to create a contiguously mapped memory space. BSD Licensed.
-* [xant/libhl](https://github.com/xant/libhl) - Simple and fast C library implementing a thread-safe API to manage hash-tables, linked lists, lock-free ring buffers and queues
-* [yuyuyu101/C-Buffered-tree](https://github.com/yuyuyu101/C-Buffered-tree) - A buffered-tree implemented in dictionary type and more
-* [MagerValp/AsmHeap](https://github.com/MagerValp/AsmHeap) - Heap data structure in 6502 assembler
-* [Snaipe/libcsptr](https://github.com/Snaipe/libcsptr) - Smart pointers in C
-* [C-Macro-Collections](https://github.com/LeoVen/C-Macro-Collections) - Generate simple and generic data structures using macros. [``MIT``][MIT]
+  * [offbrand][102] - Collection of generic, reference-counted data structures. [``MIT``][MIT]
+  * [libsrt][103] - Soft and hard real-time data structures. [``BSD-3-Clause``][BSD-3-Clause].
+  * [list.h][104] - Implementations for single- and double-linked list functions. [``GPL-3.0-only``][GPL-3.0-only]
+  * [PackedArray][105] - Random-access array of tightly packed unsigned integers
+  of any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
+  * [uthash][106] - Single-file hash table implementation. [``BSD-1-Clause``][BSD-1-Clause]
+  * [vector.h][107] - Header library for typed lists. [``MIT``][MIT]
+  * [20centaurifux/datatypes](https://github.com/20centaurifux/datatypes) - A collection of various datatypes in C (linked lists, stack, queue, red-black tree and hash table).
+  * [2ion/libqueue](https://github.com/2ion/libqueue) - C library providing persistent, named data storage queues
+  * [Achoulos/Data-Structures](https://github.com/Achoulos/Data-Structures) - Implementation of Data Structures and Sorts in C
+  * [Blosc/bcolz](https://github.com/Blosc/bcolz) - A columnar data container that can be compressed.
+  * [ClickerMonkey/CDSL](https://github.com/ClickerMonkey/CDSL) - A data structure library written in C
+  * [DanielWaterworth/Butterfly](https://github.com/DanielWaterworth/Butterfly) - [DEPRECATED] Butterfly is a C library that implements a very simple 'dynamic' data-type. It could be used, for example, to manipulate JSON data from C. It is distributed under LGPL.
+  * [Incarnation-p-lee/libds](https://github.com/Incarnation-p-lee/libds) - unified data structure implementation lib of C
+  * [Krakonos/cutils](https://github.com/Krakonos/cutils) - C utilities and data structures
+  * [LPD-EPFL/ASCYLIB](https://github.com/LPD-EPFL/ASCYLIB) - ASCYLIB is a concurrent-search data-structure library with over 30 implementantions of linked lists, hash tables, skip lists, and binary search trees.
+  * [MichaelJWelsh/cdsa](https://github.com/MichaelJWelsh/cdsa) - A library of generic intrusive data structures and algorithms in ANSI C
+  * [Tarsnap/kivaloo](https://github.com/Tarsnap/kivaloo) - Kivaloo is a collection of utilities which together form a data store associating keys of up to 255 bytes with values of up to 255 bytes.
+  * [ZSShen/C-Common-Data-Structures](https://github.com/ZSShen/C-Common-Data-Structures) - Uniform C APIs for data structure manipulation
+  * [agl/critbit](https://github.com/agl/critbit) - Critbit trees in C
+  * [alexanderb14/cCollections](https://github.com/alexanderb14/cCollections) - lightweight dynamic data structures for C
+  * [angelortega/mpdm](https://github.com/angelortega/mpdm) - Minimum Profit Data Manager
+  * [antirez/rax](https://github.com/antirez/rax) - A radix tree implementation in ANSI C
+  * [argv0/nbds](https://github.com/argv0/nbds) - C implementations of several scalable non-blocking data structures for x86 and x86-64.
+  * [armon/libart](https://github.com/armon/libart) - Adaptive Radix Trees implemented in C
+  * [arnimarj/py-pointless](https://github.com/arnimarj/py-pointless) - A fast and efficient read-only relocatable data structure for JSON like data, with C and Python APIs
+  * [ashinkarov/trie](https://github.com/ashinkarov/trie) - Simple implementation of trie data structure in C
+  * [bcopeland/em_misc](https://github.com/bcopeland/em_misc) - external memory data structure playground
+  * [begeekmyfriend/bplustree](https://github.com/begeekmyfriend/bplustree) - A minimal but extreme fast B+ tree indexing structure demo for billions of key-value storage
+  * [bpudream/pat](https://github.com/bpudream/pat) - Data Structure
+  * [breckinloggins/ngtemplate](https://github.com/breckinloggins/ngtemplate) - ngtemplate - A template engine written in C designed to be syntax-compatible with Google CTemplate
+  * [cengek/CKDatastruct](https://github.com/cengek/CKDatastruct) - The using of data structure in C from our class
+  * [cbgbt/DataStructures](https://github.com/cbgbt/DataStructures) - A data structures library written in C.
+  * [chrismoos/hash-ring](https://github.com/chrismoos/hash-ring) - C hash ring library
+  * [chriso/bitset](https://github.com/chriso/bitset) - A compressed bitset with supporting data structures and algorithms
+  * [chucknthem/Data-structures-algorithms](https://github.com/chucknthem/Data-structures-algorithms) - Collection of Data structures, algorithms and interesting bits of code.
+  * [clibs/list](https://github.com/clibs/list) - C doubly linked list
+  * [codeprepper/data-structures](https://github.com/codeprepper/data-structures) - arrays, linked lists, stacks and queues
+  * [coderaven/B-Tree](https://github.com/coderaven/B-Tree) - B-Tree Implementation in C. A project in Data Structures.
+  * [corks/corc.ds](https://github.com/corks/corc.ds) - A data structure library written in C.
+  * [cstavish/c_data_structs](https://github.com/cstavish/c_data_structs) - singly/doubly linked list and hash table implementations...more to come
+  * [davidar/c-hashtable](https://github.com/davidar/c-hashtable) - Git mirror of the hash table data structure in C by Christopher Clark
+  * [dhbikoff/Generic-C-Library](https://github.com/dhbikoff/Generic-C-Library) - A library of generic data structures in C
+  * [dgvncsz0f/lift](https://github.com/dgvncsz0f/lift) - Implementation of some data structures in C
+  * [dminor/skip-quadtree](https://github.com/dminor/skip-quadtree) - Implementation of the skip quadtree and compressed quadtree data structures.
+  * [douglascrockford/DEC64](https://github.com/douglascrockford/DEC64) - Decimal floating point
+  * [esheldon/meds](https://github.com/esheldon/meds) - Python and C libraries to work with Multi Epoch Data Structures
+  * [fmela/libdict](https://github.com/fmela/libdict) - C library of key-value data structures with an object-oriented interface.
+  * [fragglet/c-algorithms](https://github.com/fragglet/c-algorithms) - A library of common data structures and algorithms written in C.
+  * [freels/ruby_trie](https://github.com/freels/ruby_trie) - Native C implementation of a trie data structure.
+  * [fritz0705/libf](https://github.com/fritz0705/libf) - Library to make programming simpler and cleaner (and slower, because I was too lazy to implement usable data structures)
+  * [fubarwrangler/datastruct](https://github.com/fubarwrangler/datastruct) - A silly project to code some data structures to help brush up on my C
+  * [ghostrong/algorithm](https://github.com/ghostrong/algorithm) - Data Structure and Algorithms
+  * [gnudennis/ds_c](https://github.com/gnudennis/ds_c) - Data Structure In C
+  * [graphitemaster/libintrusive](https://github.com/graphitemaster/libintrusive) - Intrusive data structures for C
+  * [grundprinzip/bitcompressedvector](https://github.com/grundprinzip/bitcompressedvector) - Provide a container for integral data types that applies light-weight bit compression
+  * [hacatu/haclib](https://github.com/hacatu/haclib) - A utility library providing data types C should have been made with such as vectors and sequences, mostly as macros.
+  * [harnold/generic-c](https://github.com/harnold/generic-c) - A library of generic data structures and algorithms for C, in the spirit of the STL
+  * [hyPiRion/c-rrb](https://github.com/hyPiRion/c-rrb) - RRB-tree implemented as a library in C.
+  * [hyPiRion/persistencia](https://github.com/hyPiRion/persistencia) - Repository with implementations to understand persistent data structures.
+  * [hyPiRion/roulette-tree](https://github.com/hyPiRion/roulette-tree) - Data structure for efficient fitness-proportionate selection.
+  * [igorsobreira/iclib](https://github.com/igorsobreira/iclib) - Library with useful C data structures
+  * [jaimz/core_ds](https://github.com/jaimz/core_ds) - Simple C data structure library
+  * [jarun/dslib](https://github.com/jarun/dslib) - A library of handy data structures
+  * [johnj/llds](https://github.com/johnj/llds) - Low-Level Data Structure - efficient data structures, and fast data access in the 2.6/3.0 kernel
+  * [joshdk/libmap](https://github.com/joshdk/libmap) - A map (data structure) library written in c
+  * [jtsiomb/kdtree](https://github.com/jtsiomb/kdtree) - A simple C library for working with KD-Trees
+  * [jsvennevid/filearchive](https://github.com/jsvennevid/filearchive) - File archive library allowing for easy creation and access to data stored inside a container through a simple API.
+  * [jvirkki/libbloom](https://github.com/jvirkki/libbloom) - A simple and small bloom filter implementation in plain C.
+  * [ksheedlo/kmdata](https://github.com/ksheedlo/kmdata) - Data structures for C programmers, by C programmers.
+  * [louiswins/RB-Tree](https://github.com/louiswins/RB-Tree) - An implementation of the Red-Black Tree data structure.
+  * [livioso/datastructures-in-C](https://github.com/livioso/datastructures-in-C) - Implementation of a some data structures in C for educational purposes. For example featuring a trie implementation in C (inspired by DAS84 "a bit of C") or a XOR linked list.
+  * [malbrain/Btree-source-code](https://github.com/malbrain/Btree-source-code) - A working project for High-concurrency B-tree source code in C
+  * [marekweb/datastructs-c](https://github.com/marekweb/datastructs-c) - Arraylist and Hashtable implementation in C
+  * [michaeltyson/TPCircularBuffer](https://github.com/michaeltyson/TPCircularBuffer) - A simple, fast circular buffer implementation
+  * [mikedlowis/data-structures](https://github.com/mikedlowis/data-structures) - A collection of data structures implemented in C to be included in multiple projects.
+  * [mrnugget/data_structures](https://github.com/mrnugget/data_structures) - Implementations of common data structures in C
+  * [naraing/dsLib](https://github.com/naraing/dsLib) - An algorithm library with core data-sttructures and common algortihm implementations on those data structures
+  * [natehardison/data-structures](https://github.com/natehardison/data-structures) - A bunch of data structure implementations, just for fun.
+  * [noporpoise/BitArray](https://github.com/noporpoise/BitArray) - C bit array structs and methods
+  * [noporpoise/madcrowlib](https://github.com/noporpoise/madcrowlib) - Common C data structure macros
+  * [orangejulius/cs_fundamentals](https://github.com/orangejulius/cs_fundamentals) - simple implementations of common data structures/algorithms
+  * [paulasmuth/libsmatrix](https://github.com/paulasmuth/libsmatrix) - thread-safe sparse matrix data structure
+  * [pcdavid/data-structures](https://github.com/pcdavid/data-structures) - Sample implementations of classical data structures in C.
+  * [pcostesi/c-data-structures](https://github.com/pcostesi/c-data-structures) - Simple Data Structures
+  * [petewarden/c_hashmap](https://github.com/petewarden/c_hashmap) - A simple string hashmap in C
+  * [pforemski/libpjf](https://github.com/pforemski/libpjf) - A C library of data structures with tools (based on libasn)
+  * [pi8027/libdatastruct](https://github.com/pi8027/libdatastruct) - libdatastruct is an ANSI C library for abstract data types.
+  * [pseudomuto/c-data-structures](https://github.com/pseudomuto/c-data-structures) - A simple library of data structures for C
+  * [questor/ringbuffer](https://github.com/questor/ringbuffer) - simple ringbuffer with possibility to get all data and/or only updates
+  * [r-medina/ll](https://github.com/r-medina/ll) - Thread safe linked list data structure for C
+  * [razpeitia/data-structures](https://github.com/razpeitia/data-structures) - Stack, Queue, Binary Tree
+  * [rgantt/compsci.c](https://github.com/rgantt/compsci.c) - data structures, algorithms, and musings in C
+  * [rxi/map](https://github.com/rxi/map) - A type-safe hash map implementation for C
+  * [rxi/vec](https://github.com/rxi/vec) - A type-safe dynamic array implementation for C
+  * [ryandotsmith/queue_lkls](https://github.com/ryandotsmith/queue_lkls) - A lock-free, non-blocking queue data structure.
+  * [sebnow/data_structures](https://github.com/sebnow/data_structures) - A collection of data structures, written in C.
+  * [siganakis/tny](https://github.com/siganakis/tny) - Tiny data structures that pack a punch!
+  * [smtlaissezfaire/c_type_sizes](https://github.com/smtlaissezfaire/c_type_sizes) - show the sizes of C data types
+  * [srdja/Collections-C](https://github.com/srdja/Collections-C) - A library of generic data structures.
+  * [starnight/simple-data-structure](https://github.com/starnight/simple-data-structure) - Simple Data Structure library
+  * [steven-schronk/C-Data-Structures](https://github.com/steven-schronk/C-Data-Structures) - Collection of basic data structures in C.
+  * [wasabiz/xrope](https://github.com/wasabiz/xrope) - rope data structure
+  * [stevedekorte/basekit](https://github.com/stevedekorte/basekit) - C based OO portable data structure library
+  * [theck01/offbrand_lib](https://github.com/theck01/offbrand_lib) - A collecton of generic reference counted data structures, tools to create compatible C style classes, and demo applications
+  * [tiancaiamao/datastruct](https://github.com/tiancaiamao/datastruct) - some useful data struct piece of code
+  * [torch/tds](https://github.com/torch/tds) - Torch C data structures
+  * [troydhanson/uthash](https://github.com/troydhanson/uthash) - C macros for hash tables and more
+  * [watmough/jwHash](https://github.com/watmough/jwHash) - Simple hash table implementation for C.
+  * [ufjf-dcc/dsgraph](https://github.com/ufjf-dcc/dsgraph) - DSGraph is an C/C++ library for visualizing data structures.
+  * [vhmth/Lego-Box](https://github.com/vhmth/Lego-Box) - Write up all the data structures!
+  * [zhemao/libds](https://github.com/zhemao/libds) - Simple, memory-safe data-structures in C.
+  * [vndmtrx/libadt](https://github.com/vndmtrx/libadt) - :vertical_traffic_light:libadt - an abstract data types library
+  * [willemt/cbuffer](https://github.com/willemt/cbuffer) - A circular buffer written in C using Posix calls to create a contiguously mapped memory space. BSD Licensed.
+  * [xant/libhl](https://github.com/xant/libhl) - Simple and fast C library implementing a thread-safe API to manage hash-tables, linked lists, lock-free ring buffers and queues
+  * [yuyuyu101/C-Buffered-tree](https://github.com/yuyuyu101/C-Buffered-tree) - A buffered-tree implemented in dictionary type and more
+  * [MagerValp/AsmHeap](https://github.com/MagerValp/AsmHeap) - Heap data structure in 6502 assembler
+  * [Snaipe/libcsptr](https://github.com/Snaipe/libcsptr) - Smart pointers in C
+  * [C-Macro-Collections](https://github.com/LeoVen/C-Macro-Collections) - Generate simple and generic data structures using macros. [``MIT``][MIT]
+</details>
 
 ## Events ##
 * [libev][399] - Yet another event loop. [``BSD-2-Clause``][BSD-2-Clause]
