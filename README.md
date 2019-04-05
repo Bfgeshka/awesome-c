@@ -1976,15 +1976,20 @@ Incorporated lists:
   * [johnj/llds][34-60] - Low-Level Data Structure - efficient data structures,
   and fast data access in the 2.6/3.0 kernel. [`License`][34-61]
   * [jtsiomb/kdtree][34-62] - A simple C library for working with KD-Trees. [`License`][34-63]
-  * [jvirkki/libbloom](https://github.com/jvirkki/libbloom) - A simple and small bloom filter implementation in plain C.
-  * [ksheedlo/kmdata](https://github.com/ksheedlo/kmdata) - Data structures for C programmers, by C programmers.
-  * [louiswins/RB-Tree](https://github.com/louiswins/RB-Tree) - An implementation of the Red-Black Tree data structure.
-  * [livioso/datastructures-in-C](https://github.com/livioso/datastructures-in-C) - Implementation of a some data structures in C for educational purposes. For example featuring a trie implementation in C (inspired by DAS84 "a bit of C") or a XOR linked list.
-  * [malbrain/Btree-source-code](https://github.com/malbrain/Btree-source-code) - A working project for High-concurrency B-tree source code in C
-  * [marekweb/datastructs-c](https://github.com/marekweb/datastructs-c) - Arraylist and Hashtable implementation in C
-  * [michaeltyson/TPCircularBuffer](https://github.com/michaeltyson/TPCircularBuffer) - A simple, fast circular buffer implementation
-  * [mikedlowis/data-structures](https://github.com/mikedlowis/data-structures) - A collection of data structures implemented in C to be included in multiple projects.
-  * [mrnugget/data_structures](https://github.com/mrnugget/data_structures) - Implementations of common data structures in C
+  * [jvirkki/libbloom][34-64] - A simple and small bloom filter implementation
+  in plain C. [`BSD 2-Clause`][34-65]
+  * [ksheedlo/kmdata][34-66] - Data structures for C programmers, by
+  C programmers. `No license`
+  * [louiswins/RB-Tree][34-67] - An implementation of the Red-Black Tree data
+  structure. `No license`
+  * [livioso/datastructures-in-C][34-68] - Implementation of a some data
+  structures in C for educational purposes. `No license`
+  * [malbrain/Btree-source-code][34-69] - A working project for High-concurrency
+  B-tree source code in C. [`License`][34-70]
+  * [michaeltyson/TPCircularBuffer][34-71] - A simple, fast circular buffer
+  implementation. [`License`][34-72]
+  * [mikedlowis/data-structures][34-73] - A collection of data structures
+  implemented in C to be included in multiple projects. [`BSD 2-Clause`][34-74]
   * [naraing/dsLib](https://github.com/naraing/dsLib) - An algorithm library with core data-sttructures and common algortihm implementations on those data structures
   * [natehardison/data-structures](https://github.com/natehardison/data-structures) - A bunch of data structure implementations, just for fun.
   * [noporpoise/BitArray](https://github.com/noporpoise/BitArray) - C bit array structs and methods
@@ -2091,6 +2096,17 @@ Incorporated lists:
   [34-61]: https://github.com/johnj/llds/blob/master/LICENSE
   [34-62]: https://github.com/jtsiomb/kdtree
   [34-63]: https://github.com/jtsiomb/kdtree/blob/master/COPYING
+  [34-64]: https://github.com/jvirkki/libbloom
+  [34-65]: https://github.com/jvirkki/libbloom/blob/master/LICENSE
+  [34-66]: https://github.com/ksheedlo/kmdata
+  [34-67]: https://github.com/louiswins/RB-Tree
+  [34-68]: https://github.com/livioso/datastructures-in-C
+  [34-69]: https://github.com/malbrain/Btree-source-code
+  [34-70]: https://github.com/malbrain/Btree-source-code/blob/master/btree2/btree2v.c
+  [34-71]: https://github.com/michaeltyson/TPCircularBuffer
+  [34-72]: https://github.com/michaeltyson/TPCircularBuffer/blob/master/TPCircularBuffer.c
+  [34-73]: https://github.com/mikedlowis/libcds
+  [34-74]: https://github.com/mikedlowis/libcds/blob/master/LICENSE.md
 </details>
 
 ## Events ##
