@@ -1927,19 +1927,19 @@ Incorporated lists:
   * [P-p-H-d/mlib][34-3] - Library for generic, but typesafe C containers.
   Implemented as header-only. [`BSD 2-Clause`][34-4]
   * [libsrt][34-5] - Soft and hard real-time data structures. [`BSD 3-Clause`][34-6]
-  * [nbulischeck/list.h][34-7] - Implementations for single- and double-linked list functions. [`GPL 3`][34-8]
-  * [gpakosz/PackedArray][34-9] - Random-access array of tightly packed unsigned integers
-  of any desired width. Has a SIMD-optimized implementation. [`WTFPL`][34-10]
-  * [vector.h][107] - Header library for typed lists. [``MIT``][MIT]
-  * [20centaurifux/datatypes](https://github.com/20centaurifux/datatypes) - A collection of various datatypes in C (linked lists, stack, queue, red-black tree and hash table).
-  * [2ion/libqueue](https://github.com/2ion/libqueue) - C library providing persistent, named data storage queues
-  * [Achoulos/Data-Structures](https://github.com/Achoulos/Data-Structures) - Implementation of Data Structures and Sorts in C
-  * [Blosc/bcolz](https://github.com/Blosc/bcolz) - A columnar data container that can be compressed.
-  * [ClickerMonkey/CDSL](https://github.com/ClickerMonkey/CDSL) - A data structure library written in C
-  * [DanielWaterworth/Butterfly](https://github.com/DanielWaterworth/Butterfly) - [DEPRECATED] Butterfly is a C library that implements a very simple 'dynamic' data-type. It could be used, for example, to manipulate JSON data from C. It is distributed under LGPL.
-  * [Incarnation-p-lee/libds](https://github.com/Incarnation-p-lee/libds) - unified data structure implementation lib of C
-  * [Krakonos/cutils](https://github.com/Krakonos/cutils) - C utilities and data structures
-  * [LPD-EPFL/ASCYLIB](https://github.com/LPD-EPFL/ASCYLIB) - ASCYLIB is a concurrent-search data-structure library with over 30 implementantions of linked lists, hash tables, skip lists, and binary search trees.
+  * [nbulischeck/list.h][34-7] - Implementations for single- and double-linked
+  list functions. [`GPL 3`][34-8]
+  * [gpakosz/PackedArray][34-9] - Random-access array of tightly packed unsigned
+  integers of any desired width. Has a SIMD-optimized implementation. [`WTFPL`][34-10]
+  * [swenson/vector.h][34-11] - Header library for typed lists. [`MIT`][34-12]
+  * [20centaurifux/datatypes][34-13] - A collection of various datatypes in C
+  (linked lists, stack, queue, red-black tree and hash table). [`GPL 3`][34-14]
+  * [ClickerMonkey/CDSL][34-15] - A data structure library written in C. [`License`][34-16]
+  * [Incarnation-p-lee/libds][34-17] - Unified data structure implementation
+  library of C. [`GPL 2`][34-18]
+  * [LPD-EPFL/ASCYLIB][34-19] - Concurrent-search data-structure library with
+  over 30 implementantions of linked lists, hash tables, skip lists, and binary
+  search trees. [`GPL 2`][34-20]
   * [MichaelJWelsh/cdsa](https://github.com/MichaelJWelsh/cdsa) - A library of generic intrusive data structures and algorithms in ANSI C
   * [Tarsnap/kivaloo](https://github.com/Tarsnap/kivaloo) - Kivaloo is a collection of utilities which together form a data store associating keys of up to 255 bytes with values of up to 255 bytes.
   * [ZSShen/C-Common-Data-Structures](https://github.com/ZSShen/C-Common-Data-Structures) - Uniform C APIs for data structure manipulation
@@ -2054,6 +2054,16 @@ Incorporated lists:
   [34-8]: https://github.com/nbulischeck/list.h/blob/master/LICENSE
   [34-9]: https://github.com/gpakosz/PackedArray
   [34-10]: https://github.com/gpakosz/PackedArray/blob/master/LICENSE
+  [34-11]: https://github.com/swenson/vector.h
+  [34-12]: https://github.com/swenson/vector.h/blob/master/LICENSE
+  [34-13]: https://github.com/20centaurifux/datatypes
+  [34-14]: https://github.com/20centaurifux/datatypes/blob/master/COPYING
+  [34-15]: https://github.com/ClickerMonkey/CDSL
+  [34-16]: https://github.com/ClickerMonkey/CDSL/blob/master/lib/vector.c
+  [34-17]: https://github.com/Incarnation-p-lee/libds
+  [34-18]: https://github.com/Incarnation-p-lee/libds/blob/master/LICENSE
+  [34-19]: https://github.com/LPD-EPFL/ASCYLIB
+  [34-20]: https://github.com/LPD-EPFL/ASCYLIB/blob/master/LICENSE
 </details>
 
 ## Events ##
@@ -3013,6 +3023,7 @@ Audio and video processing
 * [sdroege/snippets](https://github.com/sdroege/snippets) - Some algorithms and data structures
 * [cirosantilli/cpp-cheat](https://github.com/cirosantilli/cpp-cheat) - C, C++, POSIX and Linux system programming minimal examples. Asserts used wherever possible. Hello worlds for cool third party libraries and build systems. Cheatsheets, tutorials and mini-projects.
 * [lbrito1/cstuff](https://github.com/lbrito1/cstuff) - Algorithms & data structures in C
+* [Krakonos/cutils](https://github.com/Krakonos/cutils) - C utilities and data structures
 
 ## Scientific ##
 Math mostly located in *Calculations* category
@@ -3568,7 +3579,6 @@ Comprehensive and integrated solutions for building web application in C.
 [119]: https://hplgit.github.io/doconce/doc/web/index.html
 [118]: http://www.gedanken.org.uk/software/cxref/
 
-[107]: https://github.com/swenson/vector.h
 [106]: http://troydhanson.github.io/uthash/
 [99]: https://igraph.org/
 [96]: https://github.com/jtsiomb/kdtree
