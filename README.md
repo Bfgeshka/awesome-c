@@ -132,10 +132,10 @@ Incorporated lists:
   * [Draft C11 standard][1-3]
   * [Draft C18 standard][1-4]
 
-  [1-1]: https://port70.net/~nsz/c/c89/c89-draft.html
-  [1-2]: https://port70.net/~nsz/c/c99/n1256.html
-  [1-3]: https://port70.net/~nsz/c/c11/n1570.html
   [1-4]: https://web.archive.org/web/20181230041359if_/http://www.open-std.org/jtc1/sc22/wg14/www/abq/c17_updated_proposed_fdis.pdf
+  [1-3]: https://port70.net/~nsz/c/c11/n1570.html
+  [1-2]: https://port70.net/~nsz/c/c99/n1256.html
+  [1-1]: https://port70.net/~nsz/c/c89/c89-draft.html
 </details>
 
 -------------------------------------------------------------------------------
@@ -175,46 +175,46 @@ Incorporated lists:
   * [zproject][2-20] - Project generator and build system support tool for
   ZeroMQ project. [`MPL 2`][2-40]
 
-  [2-1]: http://nethack4.org/projects/aimake/
-  [2-2]: https://www.gnu.org/software/autoconf/autoconf.html
-  [2-3]: https://www.gnu.org/software/automake/automake.html
-  [2-4]: https://bazel.build/
-  [2-5]: https://buckbuild.com/
-  [2-6]: https://cmake.org/
-  [2-7]: https://www.gnu.org/software/make/
-  [2-8]: N/A
-  [2-9]: N/A
-  [2-10]: N/A
-  [2-11]: https://www.gnu.org/software/libtool/
-  [2-12]: http://mesonbuild.com/
-  [2-13]: https://github.com/ninja-build/ninja
-  [2-14]: https://github.com/premake/premake-core
-  [2-15]: http://doc.qt.io/qbs/
-  [2-16]: https://doc.qt.io/qt-5/qmake-manual.html
-  [2-17]: N/A
-  [2-18]: https://www.scons.org/
-  [2-19]: https://xmake.io/
-  [2-20]: https://github.com/zeromq/zproject
-  [2-21]: http://nethack4.org/projects/aimake/documentation.html#COPYRIGHT
-  [2-22]: http://git.savannah.gnu.org/gitweb/?p=autoconf.git;a=blob_plain;f=COPYING;hb=HEAD
-  [2-23]: http://git.savannah.gnu.org/cgit/automake.git/tree/COPYING
-  [2-24]: https://github.com/bazelbuild/bazel/blob/master/LICENSE
-  [2-25]: https://github.com/facebook/buck/blob/master/LICENSE
-  [2-26]: https://cmake.org/licensing/
-  [2-27]: http://git.savannah.gnu.org/cgit/make.git/tree/COPYING
-  [2-28]: https://github.com/jamplus/jamplus/blob/master/LICENSE
-  [2-29]: https://github.com/jamplus/jamplus
-  [2-30]: http://git.savannah.gnu.org/cgit/libtool.git/tree/AUTHORS
-  [2-31]: http://mesonbuild.com/legal.html
-  [2-32]: https://github.com/ninja-build/ninja/blob/master/COPYING
-  [2-33]: https://github.com/premake/premake-core/blob/master/LICENSE.txt
-  [2-34]: https://doc.qt.io/qbs/attributions.html
-  [2-35]: https://code.qt.io/cgit/qt/qtbase.git/tree/
-  [2-36]: https://github.com/SCons/scons/blob/master/LICENSE
-  [2-37]: https://github.com/gittup/tup
-  [2-38]: https://github.com/gittup/tup/blob/master/COPYING
-  [2-39]: https://github.com/xmake-io/xmake/blob/master/LICENSE.md
   [2-40]: https://github.com/zeromq/zproject/blob/master/LICENSE
+  [2-39]: https://github.com/xmake-io/xmake/blob/master/LICENSE.md
+  [2-38]: https://github.com/gittup/tup/blob/master/COPYING
+  [2-37]: https://github.com/gittup/tup
+  [2-36]: https://github.com/SCons/scons/blob/master/LICENSE
+  [2-35]: https://code.qt.io/cgit/qt/qtbase.git/tree/
+  [2-34]: https://doc.qt.io/qbs/attributions.html
+  [2-33]: https://github.com/premake/premake-core/blob/master/LICENSE.txt
+  [2-32]: https://github.com/ninja-build/ninja/blob/master/COPYING
+  [2-31]: http://mesonbuild.com/legal.html
+  [2-30]: http://git.savannah.gnu.org/cgit/libtool.git/tree/AUTHORS
+  [2-29]: https://github.com/jamplus/jamplus
+  [2-28]: https://github.com/jamplus/jamplus/blob/master/LICENSE
+  [2-27]: http://git.savannah.gnu.org/cgit/make.git/tree/COPYING
+  [2-26]: https://cmake.org/licensing/
+  [2-25]: https://github.com/facebook/buck/blob/master/LICENSE
+  [2-24]: https://github.com/bazelbuild/bazel/blob/master/LICENSE
+  [2-23]: http://git.savannah.gnu.org/cgit/automake.git/tree/COPYING
+  [2-22]: http://git.savannah.gnu.org/gitweb/?p=autoconf.git;a=blob_plain;f=COPYING;hb=HEAD
+  [2-21]: http://nethack4.org/projects/aimake/documentation.html#COPYRIGHT
+  [2-20]: https://github.com/zeromq/zproject
+  [2-19]: https://xmake.io/
+  [2-18]: https://www.scons.org/
+  [2-17]: N/A
+  [2-16]: https://doc.qt.io/qt-5/qmake-manual.html
+  [2-15]: http://doc.qt.io/qbs/
+  [2-14]: https://github.com/premake/premake-core
+  [2-13]: https://github.com/ninja-build/ninja
+  [2-12]: http://mesonbuild.com/
+  [2-11]: https://www.gnu.org/software/libtool/
+  [2-10]: N/A
+  [2-9]: N/A
+  [2-8]: N/A
+  [2-7]: https://www.gnu.org/software/make/
+  [2-6]: https://cmake.org/
+  [2-5]: https://buckbuild.com/
+  [2-4]: https://bazel.build/
+  [2-3]: https://www.gnu.org/software/automake/automake.html
+  [2-2]: https://www.gnu.org/software/autoconf/autoconf.html
+  [2-1]: http://nethack4.org/projects/aimake/
 </details>
 
 <a id="compilers"></a>
@@ -240,35 +240,35 @@ Incorporated lists:
   complex types). [`LGPL 2.1`][3-27]
   * [alexfru/SmallerC][3-29] - Simple C compiler. [`License`][3-28]
 
-  [3-1]: https://gcc.gnu.org/
-  [3-2]: https://clang.llvm.org/
-  [3-3]: http://pcc.ludd.ltu.se/
-  [3-4]: http://pcc.ludd.ltu.se/licenses/
-  [3-5]: http://compcert.inria.fr/
-  [3-6]: https://bellard.org/tcc/
-  [3-7]: http://ispc.github.io/
-  [3-8]: https://github.com/ispc/ispc/blob/master/LICENSE.txt
-  [3-9]: https://github.com/rui314/8cc/blob/master/LICENSE
-  [3-10]: https://github.com/rui314/8cc
-  [3-11]: https://github.com/rui314/9cc/blob/master/LICENSE
-  [3-12]: https://github.com/rui314/9cc
-  [3-13]: https://github.com/jserv/amacc/blob/master/LICENSE
-  [3-14]: https://github.com/jserv/amacc
-  [3-15]: https://github.com/andrewchambers/c/blob/master/LICENSE
-  [3-16]: https://github.com/andrewchambers/c
-  [3-17]: https://github.com/cc65/cc65/blob/master/LICENSE
-  [3-18]: https://github.com/cc65/cc65
-  [3-19]: https://opensource.org/licenses/UoI-NCSA.php
-  [3-20]: https://github.com/AbsInt/CompCert/blob/master/LICENSE
-  [3-21]: https://www.gnu.org/licenses/gcc-exception.html
-  [3-22]: https://github.com/ispc/ispc/blob/master/LICENSE.txt
-  [3-23]: https://github.com/larmel/lacc/blob/master/LICENSE.md
-  [3-24]: https://github.com/larmel/lacc
-  [3-25]: https://github.com/drh/lcc/blob/master/CPYRIGHT
-  [3-26]: https://github.com/drh/lcc
-  [3-27]: https://repo.or.cz/tinycc.git/blob/HEAD:/COPYING
-  [3-28]: https://github.com/alexfru/SmallerC/blob/master/license.txt
   [3-29]: https://github.com/alexfru/SmallerC
+  [3-28]: https://github.com/alexfru/SmallerC/blob/master/license.txt
+  [3-27]: https://repo.or.cz/tinycc.git/blob/HEAD:/COPYING
+  [3-26]: https://github.com/drh/lcc
+  [3-25]: https://github.com/drh/lcc/blob/master/CPYRIGHT
+  [3-24]: https://github.com/larmel/lacc
+  [3-23]: https://github.com/larmel/lacc/blob/master/LICENSE.md
+  [3-22]: https://github.com/ispc/ispc/blob/master/LICENSE.txt
+  [3-21]: https://www.gnu.org/licenses/gcc-exception.html
+  [3-20]: https://github.com/AbsInt/CompCert/blob/master/LICENSE
+  [3-19]: https://opensource.org/licenses/UoI-NCSA.php
+  [3-18]: https://github.com/cc65/cc65
+  [3-17]: https://github.com/cc65/cc65/blob/master/LICENSE
+  [3-16]: https://github.com/andrewchambers/c
+  [3-15]: https://github.com/andrewchambers/c/blob/master/LICENSE
+  [3-14]: https://github.com/jserv/amacc
+  [3-13]: https://github.com/jserv/amacc/blob/master/LICENSE
+  [3-12]: https://github.com/rui314/9cc
+  [3-11]: https://github.com/rui314/9cc/blob/master/LICENSE
+  [3-10]: https://github.com/rui314/8cc
+  [3-9]: https://github.com/rui314/8cc/blob/master/LICENSE
+  [3-8]: https://github.com/ispc/ispc/blob/master/LICENSE.txt
+  [3-7]: http://ispc.github.io/
+  [3-6]: https://bellard.org/tcc/
+  [3-5]: http://compcert.inria.fr/
+  [3-4]: http://pcc.ludd.ltu.se/licenses/
+  [3-3]: http://pcc.ludd.ltu.se/
+  [3-2]: https://clang.llvm.org/
+  [3-1]: https://gcc.gnu.org/
 </details>
 
 <a id="debugging-and-analysis"></a>
@@ -300,35 +300,35 @@ Incorporated lists:
   * [Valgrind][4-13] - Range of dynamic analysis tools, including a leak
   checker. [`GPL 2`][4-29]
 
-  [4-1]: https://embed.cs.utah.edu/creduce/
-  [4-2]: https://www.cprover.org/cbmc/
-  [4-3]: N/A
-  [4-4]: https://clang.llvm.org/docs/ClangCheck.html
-  [4-5]: http://cppcheck.sourceforge.net/
-  [4-6]: http://www.gnu.org/software/cflow/
-  [4-7]: https://www.gnu.org/software/complexity/
-  [4-8]: https://www.spinellis.gr/cscout/
-  [4-9]: https://www.gnu.org/software/ddd/ddd.html
-  [4-10]: https://www.gnu.org/software/gdb/
-  [4-11]: https://lldb.llvm.org/
-  [4-12]: https://rr-project.org/
-  [4-13]: http://www.valgrind.org/
-  [4-14]: https://github.com/csmith-project/creduce/blob/master/COPYING
-  [4-15]: https://www.cprover.org/cbmc/LICENSE
-  [4-16]: https://github.com/cgdb/cgdb/blob/master/COPYING
-  [4-17]: https://github.com/cgdb/cgdb
-  [4-18]: http://git.savannah.gnu.org/cgit/cflow.git/tree/COPYING
-  [4-19]: https://opensource.org/licenses/UoI-NCSA.php
-  [4-20]: https://ftp.gnu.org/gnu/complexity/
-  [4-21]: https://github.com/danmar/cppcheck/blob/master/COPYING
-  [4-22]: https://github.com/dspinellis/cscout/blob/master/LICENSE.txt
-  [4-23]: https://github.com/agl/ctgrind
-  [4-24]: http://svn.savannah.gnu.org/viewvc/ddd/trunk/
-  [4-25]: https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git;a=tree
-  [4-26]: https://github.com/mozilla/rr/blob/master/LICENSE
-  [4-27]: https://github.com/SVF-tools/SVF
-  [4-28]: https://github.com/SVF-tools/SVF/blob/master/LICENSE.TXT
   [4-29]: http://www.valgrind.org/
+  [4-28]: https://github.com/SVF-tools/SVF/blob/master/LICENSE.TXT
+  [4-27]: https://github.com/SVF-tools/SVF
+  [4-26]: https://github.com/mozilla/rr/blob/master/LICENSE
+  [4-25]: https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git;a=tree
+  [4-24]: http://svn.savannah.gnu.org/viewvc/ddd/trunk/
+  [4-23]: https://github.com/agl/ctgrind
+  [4-22]: https://github.com/dspinellis/cscout/blob/master/LICENSE.txt
+  [4-21]: https://github.com/danmar/cppcheck/blob/master/COPYING
+  [4-20]: https://ftp.gnu.org/gnu/complexity/
+  [4-19]: https://opensource.org/licenses/UoI-NCSA.php
+  [4-18]: http://git.savannah.gnu.org/cgit/cflow.git/tree/COPYING
+  [4-17]: https://github.com/cgdb/cgdb
+  [4-16]: https://github.com/cgdb/cgdb/blob/master/COPYING
+  [4-15]: https://www.cprover.org/cbmc/LICENSE
+  [4-14]: https://github.com/csmith-project/creduce/blob/master/COPYING
+  [4-13]: http://www.valgrind.org/
+  [4-12]: https://rr-project.org/
+  [4-11]: https://lldb.llvm.org/
+  [4-10]: https://www.gnu.org/software/gdb/
+  [4-9]: https://www.gnu.org/software/ddd/ddd.html
+  [4-8]: https://www.spinellis.gr/cscout/
+  [4-7]: https://www.gnu.org/software/complexity/
+  [4-6]: http://www.gnu.org/software/cflow/
+  [4-5]: http://cppcheck.sourceforge.net/
+  [4-4]: https://clang.llvm.org/docs/ClangCheck.html
+  [4-3]: N/A
+  [4-2]: https://www.cprover.org/cbmc/
+  [4-1]: https://embed.cs.utah.edu/creduce/
 </details>
 
 <a id="documentation-generation"></a>
@@ -344,14 +344,14 @@ Incorporated lists:
   * [GTK-Doc][5-4] - Tool for generating C documentation from annotated sources.
   Has support for the Autotools. [`GPL 2`][5-8]
 
-  [5-1]: http://www.gedanken.org.uk/software/cxref/
-  [5-2]: https://hplgit.github.io/doconce/doc/web/index.html
-  [5-3]: http://www.doxygen.nl/
-  [5-4]: https://www.gtk.org/gtk-doc/
-  [5-5]: http://www.gedanken.org.uk/viewvc/cxref/trunk/doc/COPYING?view=markup
-  [5-6]: https://github.com/hplgit/doconce/blob/master/LICENSE
-  [5-7]: http://www.doxygen.nl/
   [5-8]: https://gitlab.gnome.org/GNOME/gtk-doc/blob/master/COPYING
+  [5-7]: http://www.doxygen.nl/
+  [5-6]: https://github.com/hplgit/doconce/blob/master/LICENSE
+  [5-5]: http://www.gedanken.org.uk/viewvc/cxref/trunk/doc/COPYING?view=markup
+  [5-4]: https://www.gtk.org/gtk-doc/
+  [5-3]: http://www.doxygen.nl/
+  [5-2]: https://hplgit.github.io/doconce/doc/web/index.html
+  [5-1]: http://www.gedanken.org.uk/software/cxref/
 </details>
 
 <a id="editors"></a>
@@ -370,25 +370,26 @@ Incorporated lists:
   Qt SDK. Supports Clang Code Model. [`GPL 3 w/ exceptions`][6-19]
   * [Visual Studio Code][6-11] - Code editing, redefined. Visual Studio Code. [`MIT`][6-20]
 
-  [6-1]: http://anjuta.org/
-  [6-2]: http://www.codeblocks.org/
-  [6-3]: https://atom.io/
-  [6-4]: https://codelite.org/
-  [6-5]: https://www.geany.org/
-  [6-6]: http://www.eclipse.org/ide/
-  [6-7]: https://directory.fsf.org/wiki/License:EPL-1.0
-  [6-8]: https://www.kdevelop.org/
-  [6-9]: https://www.qt.io/qt-features-libraries-apis-tools-and-ide/#ide
-  [6-11]: https://github.com/Microsoft/vscode
-  [6-12]: https://gitlab.gnome.org/GNOME/anjuta/blob/master/COPYING
-  [6-13]: https://github.com/atom/atom/blob/master/LICENSE.md
-  [6-14]: http://svn.code.sf.net/p/codeblocks/code/trunk/COPYING
-  [6-15]: https://github.com/eranif/codelite/blob/master/LICENSE
-  [6-16]: https://www.eclipse.org/legal/epl-2.0/
-  [6-17]: https://github.com/geany/geany/blob/master/COPYING
-  [6-18]: https://phabricator.kde.org/source/kdevelop/browse/master/COPYING
-  [6-19]: https://code.qt.io/cgit/qt-creator/qt-creator.git/tree/LICENSE.GPL3-EXCEPT
   [6-20]: https://github.com/Microsoft/vscode/blob/master/LICENSE.txt
+  [6-19]: https://code.qt.io/cgit/qt-creator/qt-creator.git/tree/LICENSE.GPL3-EXCEPT
+  [6-18]: https://phabricator.kde.org/source/kdevelop/browse/master/COPYING
+  [6-17]: https://github.com/geany/geany/blob/master/COPYING
+  [6-16]: https://www.eclipse.org/legal/epl-2.0/
+  [6-15]: https://github.com/eranif/codelite/blob/master/LICENSE
+  [6-14]: http://svn.code.sf.net/p/codeblocks/code/trunk/COPYING
+  [6-13]: https://github.com/atom/atom/blob/master/LICENSE.md
+  [6-12]: https://gitlab.gnome.org/GNOME/anjuta/blob/master/COPYING
+  [6-11]: https://github.com/Microsoft/vscode
+  [6-10]: N/A
+  [6-9]: https://www.qt.io/qt-features-libraries-apis-tools-and-ide/#ide
+  [6-8]: https://www.kdevelop.org/
+  [6-7]: https://directory.fsf.org/wiki/License:EPL-1.0
+  [6-6]: http://www.eclipse.org/ide/
+  [6-5]: https://www.geany.org/
+  [6-4]: https://codelite.org/
+  [6-3]: https://atom.io/
+  [6-2]: http://www.codeblocks.org/
+  [6-1]: http://anjuta.org/
 </details>
 
 <a id="microsoft-windows-environment"></a>
@@ -405,14 +406,14 @@ Incorporated lists:
   pacman. Packages have individual licenses, otherwise, as MinGW and Cygwin. [`BSD 3-Clause`][7-6]
   * [reactos][7-7] - A free Windows-compatible Operating System. [`GPL 2`][7-8]
 
-  [7-1]: https://cygwin.com/
-  [7-2]: https://cygwin.com/licensing.html
-  [7-3]: http://mingw-w64.yaxm.org/doku.php/start
-  [7-4]: http://mingw.org/license
-  [7-5]: http://msys2.github.io/
-  [7-6]: https://github.com/msys2/MINGW-packages/blob/master/LICENSE
-  [7-7]: https://github.com/reactos/reactos
   [7-8]: https://github.com/reactos/reactos/blob/master/COPYING
+  [7-7]: https://github.com/reactos/reactos
+  [7-6]: https://github.com/msys2/MINGW-packages/blob/master/LICENSE
+  [7-5]: http://msys2.github.io/
+  [7-4]: http://mingw.org/license
+  [7-3]: http://mingw-w64.yaxm.org/doku.php/start
+  [7-2]: https://cygwin.com/licensing.html
+  [7-1]: https://cygwin.com/
 </details>
 
 <a id="profiling"></a>
@@ -427,14 +428,14 @@ Incorporated lists:
   (including the kernel!) with low overhead and without recompilation. [`GPL 2`][8-7]
   * [perf][8-4] - Linux kernel-based profiler with a lot of functionality. [`GPL 2`][8-8]
 
-  [8-1]: https://github.com/gperftools/gperftools
-  [8-2]: https://www.gnu.org/software/binutils/
-  [8-3]: http://oprofile.sourceforge.net/news/
-  [8-4]: https://perf.wiki.kernel.org/index.php/Main_Page
-  [8-5]: https://github.com/gperftools/gperftools/blob/master/COPYING
-  [8-6]: https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git;a=tree
-  [8-7]: https://sourceforge.net/p/oprofile/oprofile/ci/master/tree/COPYING
   [8-8]: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/COPYING
+  [8-7]: https://sourceforge.net/p/oprofile/oprofile/ci/master/tree/COPYING
+  [8-6]: https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git;a=tree
+  [8-5]: https://github.com/gperftools/gperftools/blob/master/COPYING
+  [8-4]: https://perf.wiki.kernel.org/index.php/Main_Page
+  [8-3]: http://oprofile.sourceforge.net/news/
+  [8-2]: https://www.gnu.org/software/binutils/
+  [8-1]: https://github.com/gperftools/gperftools
 </details>
 
 <a id="text-editor-extensions"></a>
@@ -459,25 +460,25 @@ Incorporated lists:
   snippets. [`EPLA`][9-18]
   * [YouCompleteMe][9-9] - Code completion engine for Vim. [`GPL 3`][9-19]
 
-  [9-1]: http://freeweb.siol.net/rmihor/NppCCompletionPlugin.zip
-  [9-2]: http://cedet.sourceforge.net/
-  [9-3]: https://github.com/flycheck/flycheck
-  [9-4]: https://github.com/AtomLinter/linter-clang
-  [9-5]: https://github.com/hebaishi/linter-gcc
-  [9-6]: https://github.com/neomake/neomake
-  [9-7]: https://github.com/vim-syntastic/syntastic
-  [9-8]: http://joaotavora.github.io/yasnippet/
-  [9-9]: http://valloric.github.io/YouCompleteMe/
-  [9-10]: https://sourceforge.net/projects/cedet/
-  [9-11]: https://github.com/flycheck/flycheck/blob/master/COPYING
-  [9-12]: https://github.com/hebaishi/linter-gcc/blob/master/LICENSE.md
-  [9-13]: https://github.com/lvzixun/Clang-Complete
-  [9-14]: https://github.com/editorconfig/editorconfig-core-c
-  [9-15]: https://github.com/editorconfig/editorconfig-core-c/blob/master/LICENSE
-  [9-16]: https://github.com/neomake/neomake/blob/master/LICENSE
-  [9-17]: https://github.com/vim-syntastic/syntastic/blob/master/LICENCE
-  [9-18]: https://github.com/joaotavora/yasnippet/blob/master/CONTRIBUTING.md
   [9-19]: https://github.com/Valloric/YouCompleteMe/blob/master/COPYING.txt
+  [9-18]: https://github.com/joaotavora/yasnippet/blob/master/CONTRIBUTING.md
+  [9-17]: https://github.com/vim-syntastic/syntastic/blob/master/LICENCE
+  [9-16]: https://github.com/neomake/neomake/blob/master/LICENSE
+  [9-15]: https://github.com/editorconfig/editorconfig-core-c/blob/master/LICENSE
+  [9-14]: https://github.com/editorconfig/editorconfig-core-c
+  [9-13]: https://github.com/lvzixun/Clang-Complete
+  [9-12]: https://github.com/hebaishi/linter-gcc/blob/master/LICENSE.md
+  [9-11]: https://github.com/flycheck/flycheck/blob/master/COPYING
+  [9-10]: https://sourceforge.net/projects/cedet/
+  [9-9]: http://valloric.github.io/YouCompleteMe/
+  [9-8]: http://joaotavora.github.io/yasnippet/
+  [9-7]: https://github.com/vim-syntastic/syntastic
+  [9-6]: https://github.com/neomake/neomake
+  [9-5]: https://github.com/hebaishi/linter-gcc
+  [9-4]: https://github.com/AtomLinter/linter-clang
+  [9-3]: https://github.com/flycheck/flycheck
+  [9-2]: http://cedet.sourceforge.net/
+  [9-1]: http://freeweb.siol.net/rmihor/NppCCompletionPlugin.zip
 </details>
 
 <a id="utilities"></a>
@@ -531,60 +532,60 @@ Incorporated lists:
   * [unifdef][10-16] - Removes #ifdef and #if directives with their delimited
   text without touching any other part of the file. [`Licenses`][10-54]
 
-  [10-1]: https://ccache.samba.org/
-  [10-2]: https://github.com/distcc/distcc
-  [10-3]: N/A
-  [10-4]: http://astyle.sourceforge.net/
-  [10-5]: https://biicode.github.io/biicode/
-  [10-6]: https://github.com/ryanmjacobs/c
-  [10-7]: https://github.com/RhysU/c99sh
-  [10-8]: https://cdecl.org/
-  [10-9]: https://www.flourish.org/cinclude2dot/
-  [10-10]: https://www.gnu.org/software/global/
-  [10-11]: https://logological.org/gpp
-  [10-12]: http://www.andre-simon.de/doku/highlight/en/highlight.php
-  [10-13]: https://github.com/include-what-you-use/include-what-you-use
-  [10-14]: https://www.gnu.org/software/indent/
-  [10-15]: https://github.com/smackers/smack
-  [10-16]: http://dotat.at/prog/unifdef/
-  [10-17]: https://sourceforge.net/projects/astyle/
-  [10-18]: https://github.com/biicode/biicode/blob/master/LICENSE
-  [10-19]: https://github.com/ryanmjacobs/c/blob/master/LICENSE
-  [10-20]: https://github.com/libav/c99-to-c89
-  [10-21]: https://github.com/libav/c99-to-c89/blob/master/LICENSE
-  [10-22]: https://github.com/RhysU/c99sh/blob/master/LICENSE.txt
-  [10-23]: https://github.com/aquynh/capstone
-  [10-24]: https://github.com/aquynh/capstone/blob/master/LICENSE.TXT
-  [10-25]: https://ccache.samba.org/license.html
-  [10-26]: https://www.flourish.org/cinclude2dot/cinclude2dot
-  [10-27]: https://github.com/jbremer/darm
-  [10-28]: https://github.com/jbremer/darm/blob/master/LICENSE.txt
-  [10-29]: https://github.com/jacob-carlborg/dstep
-  [10-30]: https://github.com/jacob-carlborg/dstep
-  [10-31]: https://github.com/anael-seghezzi/CToy
-  [10-32]: https://github.com/anael-seghezzi/CToy/blob/master/src/ctoy.c
-  [10-33]: https://github.com/distcc/distcc/blob/master/COPYING
-  [10-34]: https://www.gnu.org/software/global/license.html
-  [10-35]: https://logological.org/gpp
-  [10-36]: https://github.com/tajmone/highlight/blob/master/COPYING
-  [10-37]: https://github.com/include-what-you-use/include-what-you-use/blob/master/LICENSE.TXT
-  [10-38]: http://git.savannah.gnu.org/cgit/indent.git/tree/COPYING
-  [10-39]: https://github.com/m-schmoock/lcpp
-  [10-40]: https://github.com/m-schmoock/lcpp/blob/master/lcpp.lua
-  [10-41]: http://mcpp.sourceforge.net/
-  [10-42]: https://sourceforge.net/projects/mcpp/
-  [10-43]: https://github.com/jimenezrick/patch-AuthenticAMD
-  [10-44]: https://github.com/jimenezrick/patch-AuthenticAMD/blob/master/COPYING
-  [10-45]: https://github.com/radare/radare2
-  [10-46]: https://github.com/radare/radare2/blob/master/COPYING
-  [10-47]: https://github.com/buserror/simavr
-  [10-48]: https://github.com/buserror/simavr/blob/master/COPYING
-  [10-49]: https://github.com/smackers/smack/blob/master/LICENSE
-  [10-50]: https://github.com/sickill/stderred
-  [10-51]: https://github.com/sickill/stderred/blob/master/LICENSE
-  [10-52]: https://github.com/ggreer/the_silver_searcher
-  [10-53]: https://github.com/ggreer/the_silver_searcher/blob/master/LICENSE
   [10-54]: http://dotat.at/cgi/git/unifdef.git/blob/HEAD:/COPYING
+  [10-53]: https://github.com/ggreer/the_silver_searcher/blob/master/LICENSE
+  [10-52]: https://github.com/ggreer/the_silver_searcher
+  [10-51]: https://github.com/sickill/stderred/blob/master/LICENSE
+  [10-50]: https://github.com/sickill/stderred
+  [10-49]: https://github.com/smackers/smack/blob/master/LICENSE
+  [10-48]: https://github.com/buserror/simavr/blob/master/COPYING
+  [10-47]: https://github.com/buserror/simavr
+  [10-46]: https://github.com/radare/radare2/blob/master/COPYING
+  [10-45]: https://github.com/radare/radare2
+  [10-44]: https://github.com/jimenezrick/patch-AuthenticAMD/blob/master/COPYING
+  [10-43]: https://github.com/jimenezrick/patch-AuthenticAMD
+  [10-42]: https://sourceforge.net/projects/mcpp/
+  [10-41]: http://mcpp.sourceforge.net/
+  [10-40]: https://github.com/m-schmoock/lcpp/blob/master/lcpp.lua
+  [10-39]: https://github.com/m-schmoock/lcpp
+  [10-38]: http://git.savannah.gnu.org/cgit/indent.git/tree/COPYING
+  [10-37]: https://github.com/include-what-you-use/include-what-you-use/blob/master/LICENSE.TXT
+  [10-36]: https://github.com/tajmone/highlight/blob/master/COPYING
+  [10-35]: https://logological.org/gpp
+  [10-34]: https://www.gnu.org/software/global/license.html
+  [10-33]: https://github.com/distcc/distcc/blob/master/COPYING
+  [10-32]: https://github.com/anael-seghezzi/CToy/blob/master/src/ctoy.c
+  [10-31]: https://github.com/anael-seghezzi/CToy
+  [10-30]: https://github.com/jacob-carlborg/dstep
+  [10-29]: https://github.com/jacob-carlborg/dstep
+  [10-28]: https://github.com/jbremer/darm/blob/master/LICENSE.txt
+  [10-27]: https://github.com/jbremer/darm
+  [10-26]: https://www.flourish.org/cinclude2dot/cinclude2dot
+  [10-25]: https://ccache.samba.org/license.html
+  [10-24]: https://github.com/aquynh/capstone/blob/master/LICENSE.TXT
+  [10-23]: https://github.com/aquynh/capstone
+  [10-22]: https://github.com/RhysU/c99sh/blob/master/LICENSE.txt
+  [10-21]: https://github.com/libav/c99-to-c89/blob/master/LICENSE
+  [10-20]: https://github.com/libav/c99-to-c89
+  [10-19]: https://github.com/ryanmjacobs/c/blob/master/LICENSE
+  [10-18]: https://github.com/biicode/biicode/blob/master/LICENSE
+  [10-17]: https://sourceforge.net/projects/astyle/
+  [10-16]: http://dotat.at/prog/unifdef/
+  [10-15]: https://github.com/smackers/smack
+  [10-14]: https://www.gnu.org/software/indent/
+  [10-13]: https://github.com/include-what-you-use/include-what-you-use
+  [10-12]: http://www.andre-simon.de/doku/highlight/en/highlight.php
+  [10-11]: https://logological.org/gpp
+  [10-10]: https://www.gnu.org/software/global/
+  [10-9]: https://www.flourish.org/cinclude2dot/
+  [10-8]: https://cdecl.org/
+  [10-7]: https://github.com/RhysU/c99sh
+  [10-6]: https://github.com/ryanmjacobs/c
+  [10-5]: https://biicode.github.io/biicode/
+  [10-4]: http://astyle.sourceforge.net/
+  [10-3]: N/A
+  [10-2]: https://github.com/distcc/distcc
+  [10-1]: https://ccache.samba.org/
 </details>
 
 --------------------------------------------------------------------------------
@@ -603,11 +604,11 @@ Incorporated lists:
   * [SEI CERT C Coding Standard][11-4] - Coding  recommendations from CERT.
   * [The C Programming Language 2E][11-5] - Original book on C, by its creators.
 
-  [11-1]: http://shop.oreilly.com/product/0636920033844.do
-  [11-2]: http://shop.oreilly.com/product/9780596004361.do
-  [11-3]: http://careferencemanual.com/
-  [11-4]: https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard
   [11-5]: https://en.wikipedia.org/wiki/The_C_Programming_Language
+  [11-4]: https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard
+  [11-3]: http://careferencemanual.com/
+  [11-2]: http://shop.oreilly.com/product/9780596004361.do
+  [11-1]: http://shop.oreilly.com/product/0636920033844.do
 
   ##### Beginner Books #####
   * [C Primer Plus 6E][12-1] - Complete tutorial on programming in C11.
@@ -615,10 +616,10 @@ Incorporated lists:
   * [Head First C][12-3] - 'Head-first' style book for learning C.
   * [The GNU C Programming Tutorial][12-4] - Beware, GNU C is not standart C. (PDF)
 
-  [12-1]: https://www.pearson.com/us/higher-education/program/Prata-C-Primer-Plus-6th-Edition/PGM4399.html
-  [12-2]: http://knking.com/books/c2/index.html
-  [12-3]: http://shop.oreilly.com/product/0636920015482.do
   [12-4]: http://www.crasseux.com/books/ctut.pdf
+  [12-3]: http://shop.oreilly.com/product/0636920015482.do
+  [12-2]: http://knking.com/books/c2/index.html
+  [12-1]: https://www.pearson.com/us/higher-education/program/Prata-C-Primer-Plus-6th-Edition/PGM4399.html
 
   ##### Intermediate Books #####
   * [21st Century C][13-1] - Programming book on C that touches tooling subject.
@@ -631,15 +632,15 @@ Incorporated lists:
   * [OpenGL SuperBible][13-8]
   * [OpenGL Insights][13-9]
 
-  [13-1]: http://shop.oreilly.com/product/0636920033677.do
-  [13-2]: http://shop.oreilly.com/product/0636920028000.do
-  [13-3]: https://www.goodreads.com/book/show/27862.Algorithms_in_C_Parts_1_4
-  [13-4]: https://www.goodreads.com/book/show/475432.C_Interfaces_and_Implementations
-  [13-5]: https://www.goodreads.com/book/show/522100.The_Standard_C_Library
-  [13-6]: https://www.goodreads.com/book/show/2522685.Let_Us_C
-  [13-7]: https://www.goodreads.com/book/show/528549.C_Programming_FAQs
-  [13-8]: http://www.openglsuperbible.com
   [13-9]: http://openglinsights.com/
+  [13-8]: http://www.openglsuperbible.com
+  [13-7]: https://www.goodreads.com/book/show/528549.C_Programming_FAQs
+  [13-6]: https://www.goodreads.com/book/show/2522685.Let_Us_C
+  [13-5]: https://www.goodreads.com/book/show/522100.The_Standard_C_Library
+  [13-4]: https://www.goodreads.com/book/show/475432.C_Interfaces_and_Implementations
+  [13-3]: https://www.goodreads.com/book/show/27862.Algorithms_in_C_Parts_1_4
+  [13-2]: http://shop.oreilly.com/product/0636920028000.do
+  [13-1]: http://shop.oreilly.com/product/0636920033677.do
 
   ##### Advanced Books #####
   * [Expert C Programming: Deep C Secrets][14-1] - Interesting, in-depth and
@@ -647,10 +648,10 @@ Incorporated lists:
   * [Pointers on C][14-3]
   * [The C Puzzle Book][14-4]
 
-  [14-1]: https://dl.acm.org/citation.cfm?id=179241
-  [14-2]: N/A
-  [14-3]: https://www.goodreads.com/book/show/526293.Pointers_on_C
   [14-4]: https://www.goodreads.com/book/show/811303.The_C_Puzzle_Book
+  [14-3]: https://www.goodreads.com/book/show/526293.Pointers_on_C
+  [14-2]: N/A
+  [14-1]: https://dl.acm.org/citation.cfm?id=179241
 </details>
 
 #### Articles and Other Resources ####
@@ -667,10 +668,10 @@ Incorporated lists:
   * [rxin/db-benchmarks][15-4] - Collection of some database benchmarks, along
   with tools to parallelize the data generation.
 
-  [15-1]: https://locklessinc.com/benchmarks_allocator.shtml
-  [15-2]: http://www.etalabs.net/compare_libcs.html
-  [15-3]: http://nullprogram.com/blog/2017/09/21/
   [15-4]: https://github.com/rxin/db-benchmarks
+  [15-3]: http://nullprogram.com/blog/2017/09/21/
+  [15-2]: http://www.etalabs.net/compare_libcs.html
+  [15-1]: https://locklessinc.com/benchmarks_allocator.shtml
 </details>
 
 <a id="beginner-level"></a>
@@ -688,15 +689,15 @@ Incorporated lists:
   * [POSIX Threads Programming tutorial][16-8]
   * [Templating in C][16-9]
 
-  [16-1]: https://pdos.csail.mit.edu/6.828/2017/readings/pointers.pdf
-  [16-2]: http://nullprogram.com/blog/2017/08/20/
-  [16-3]: http://nethack4.org/blog/building-c.html
-  [16-4]: https://gist.github.com/eatonphil/21b3d6569f24ad164365
-  [16-5]: https://www.recurse.com/blog/5-learning-c-with-gdb
-  [16-6]: http://home.netcom.com/~tjensen/ptr/pointers.htm
-  [16-7]: https://en.wikibooks.org/wiki/C_Programming
-  [16-8]: https://computing.llnl.gov/tutorials/pthreads/
   [16-9]: http://blog.pkh.me/p/20-templating-in-c.html
+  [16-8]: https://computing.llnl.gov/tutorials/pthreads/
+  [16-7]: https://en.wikibooks.org/wiki/C_Programming
+  [16-6]: http://home.netcom.com/~tjensen/ptr/pointers.htm
+  [16-5]: https://www.recurse.com/blog/5-learning-c-with-gdb
+  [16-4]: https://gist.github.com/eatonphil/21b3d6569f24ad164365
+  [16-3]: http://nethack4.org/blog/building-c.html
+  [16-2]: http://nullprogram.com/blog/2017/08/20/
+  [16-1]: https://pdos.csail.mit.edu/6.828/2017/readings/pointers.pdf
 </details>
 
 <a id="intermediate-level"></a>
@@ -726,27 +727,27 @@ Incorporated lists:
   * [Akagi201/learning-cmake][17-20] - CMake examples
   * [Let's build a database][17-21]
 
-  [17-1]: http://mpitutorial.com/
-  [17-2]: https://jvns.ca/blog/2014/12/14/fun-with-threads/
-  [17-3]: https://nullprogram.com/blog/2015/02/17
-  [17-4]: https://nullprogram.com/blog/2017/03/30
-  [17-5]: https://hintjens.gitbooks.io/scalable-c/content/index.html
-  [17-6]: https://blogs.oracle.com/linux/8-gdb-tricks-you-should-know-v2
-  [17-7]: https://blog.noctua-software.com/c-tricks.html
-  [17-8]: https://www.youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG
-  [17-9]: https://computing.llnl.gov/tutorials/openMP/
-  [17-10]: https://web.archive.org/web/20170620131430/https://www.tedunangst.com/flak/post/memcpy-vs-memmove
-  [17-11]: https://computing.llnl.gov/tutorials/mpi/
-  [17-12]: https://proprogramming.org/some-unknown-features-or-tricks-in-c-language/
-  [17-13]: http://www.catb.org/esr/structure-packing/
-  [17-14]: http://marek.vavrusa.com/memory/
-  [17-15]: http://blog.llvm.org/2011/05/what-every-c-programmer-should-know.html
-  [17-16]: https://github.com/arjun024/hide-data-in-ptr
-  [17-17]: http://openglbook.com/
-  [17-18]: https://www.lrde.epita.fr/~adl/dl/autotools.pdf
-  [17-19]: http://c-faq.com/
-  [17-20]: https://github.com/Akagi201/learning-cmake
   [17-21]: https://cstack.github.io/db_tutorial/
+  [17-20]: https://github.com/Akagi201/learning-cmake
+  [17-19]: http://c-faq.com/
+  [17-18]: https://www.lrde.epita.fr/~adl/dl/autotools.pdf
+  [17-17]: http://openglbook.com/
+  [17-16]: https://github.com/arjun024/hide-data-in-ptr
+  [17-15]: http://blog.llvm.org/2011/05/what-every-c-programmer-should-know.html
+  [17-14]: http://marek.vavrusa.com/memory/
+  [17-13]: http://www.catb.org/esr/structure-packing/
+  [17-12]: https://proprogramming.org/some-unknown-features-or-tricks-in-c-language/
+  [17-11]: https://computing.llnl.gov/tutorials/mpi/
+  [17-10]: https://web.archive.org/web/20170620131430/https://www.tedunangst.com/flak/post/memcpy-vs-memmove
+  [17-9]: https://computing.llnl.gov/tutorials/openMP/
+  [17-8]: https://www.youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG
+  [17-7]: https://blog.noctua-software.com/c-tricks.html
+  [17-6]: https://blogs.oracle.com/linux/8-gdb-tricks-you-should-know-v2
+  [17-5]: https://hintjens.gitbooks.io/scalable-c/content/index.html
+  [17-4]: https://nullprogram.com/blog/2017/03/30
+  [17-3]: https://nullprogram.com/blog/2015/02/17
+  [17-2]: https://jvns.ca/blog/2014/12/14/fun-with-threads/
+  [17-1]: http://mpitutorial.com/
 </details>
 
 <a id="advanced-level"></a>
@@ -768,19 +769,19 @@ Incorporated lists:
   * [Let's build a compiler][18-12]
   * [Write a compiler][18-13]
 
-  [18-1]: http://250bpm.com/blog:56
-  [18-2]: http://danluu.com/malloc-tutorial/
-  [18-3]: https://graphics.stanford.edu/~seander/bithacks.html
-  [18-4]: https://kukuruku.co/post/i-do-not-know-c/
-  [18-5]: https://snai.pe/c/c-smart-pointers/
-  [18-6]: http://www.greenend.org.uk/rjk/tech/inline.html
-  [18-7]: https://www.chiark.greenend.org.uk/~sgtatham/mp/
-  [18-8]: https://docs.google.com/presentation/d/1h49gY3TSiayLMXYmRMaAEMl05FaJ-Z6jDOWOz3EsqqQ/edit?pli=1#slide=id.gaf50702c_0153
-  [18-9]: https://www.codeproject.com/articles/6154/writing-efficient-c-and-c-code-optimization
-  [18-10]: https://www.akkadia.org/drepper/cpumemory.pdf
-  [18-11]: http://thlorenz.com/learnuv/book/
-  [18-12]: https://compilers.iecc.com/crenshaw/
   [18-13]: https://norasandler.com/2017/11/29/Write-a-Compiler.html
+  [18-12]: https://compilers.iecc.com/crenshaw/
+  [18-11]: http://thlorenz.com/learnuv/book/
+  [18-10]: https://www.akkadia.org/drepper/cpumemory.pdf
+  [18-9]: https://www.codeproject.com/articles/6154/writing-efficient-c-and-c-code-optimization
+  [18-8]: https://docs.google.com/presentation/d/1h49gY3TSiayLMXYmRMaAEMl05FaJ-Z6jDOWOz3EsqqQ/edit?pli=1#slide=id.gaf50702c_0153
+  [18-7]: https://www.chiark.greenend.org.uk/~sgtatham/mp/
+  [18-6]: http://www.greenend.org.uk/rjk/tech/inline.html
+  [18-5]: https://snai.pe/c/c-smart-pointers/
+  [18-4]: https://kukuruku.co/post/i-do-not-know-c/
+  [18-3]: https://graphics.stanford.edu/~seander/bithacks.html
+  [18-2]: http://danluu.com/malloc-tutorial/
+  [18-1]: http://250bpm.com/blog:56
 </details>
 
 <a id="code-examples"></a>
@@ -810,22 +811,22 @@ Incorporated lists:
   gimick.
   * [mbedmicro/mbed][19-16] - OS for ARM Cortex-M.
 
-  [19-1]: https://9p.io/plan9/index.html
-  [19-2]: https://github.com/ChibiOS/ChibiOS
-  [19-3]: https://github.com/EtchedPixels/FUZIX
-  [19-4]: https://github.com/Harvey-OS/harvey
-  [19-5]: https://github.com/SilverRainZ/OS67
-  [19-6]: https://github.com/RIOT-OS/RIOT
-  [19-7]: https://github.com/arjun024/mkernel
-  [19-8]: https://github.com/Stichting-MINIX-Research-Foundation/minix
-  [19-9]: https://github.com/guilleiguaran/xv6
-  [19-10]: https://github.com/raphydaphy/Q-Operating-System
-  [19-11]: https://github.com/seL4/seL4
-  [19-12]: https://github.com/klange/toaruos
-  [19-13]: https://github.com/nickbjohnson4224/rhombus
-  [19-14]: https://github.com/rswier/swieros
-  [19-15]: https://github.com/jbangert/trapcc
   [19-16]: https://github.com/ARMmbed/mbed-os
+  [19-15]: https://github.com/jbangert/trapcc
+  [19-14]: https://github.com/rswier/swieros
+  [19-13]: https://github.com/nickbjohnson4224/rhombus
+  [19-12]: https://github.com/klange/toaruos
+  [19-11]: https://github.com/seL4/seL4
+  [19-10]: https://github.com/raphydaphy/Q-Operating-System
+  [19-9]: https://github.com/guilleiguaran/xv6
+  [19-8]: https://github.com/Stichting-MINIX-Research-Foundation/minix
+  [19-7]: https://github.com/arjun024/mkernel
+  [19-6]: https://github.com/RIOT-OS/RIOT
+  [19-5]: https://github.com/SilverRainZ/OS67
+  [19-4]: https://github.com/Harvey-OS/harvey
+  [19-3]: https://github.com/EtchedPixels/FUZIX
+  [19-2]: https://github.com/ChibiOS/ChibiOS
+  [19-1]: https://9p.io/plan9/index.html
 </details>
 
 <a id="emulators-vms"></a>
@@ -852,20 +853,20 @@ Incorporated lists:
   Architecture.
   * [AlexAltea/orbital][20-14] - PS4 emulator.
 
-  [20-1]: https://github.com/CTurt/Cinoop
-  [20-2]: https://github.com/LIJI32/SameBoy
-  [20-3]: https://github.com/MoarVM/MoarVM
-  [20-4]: https://github.com/felixangell/mac
-  [20-5]: https://github.com/jakogut/tinyvm
-  [20-6]: https://github.com/rsms/sol
-  [20-7]: https://github.com/mgba-emu/mgba
-  [20-8]: https://github.com/tekknolagi/carp
-  [20-9]: https://github.com/reicast/reicast-emulator
-  [20-10]: https://github.com/haldean/x6502
-  [20-11]: https://github.com/n64dev/cen64
-  [20-12]: https://github.com/wkoszek/cpu60
-  [20-13]: https://github.com/swetland/dcpu16
   [20-14]: https://github.com/AlexAltea/orbital
+  [20-13]: https://github.com/swetland/dcpu16
+  [20-12]: https://github.com/wkoszek/cpu60
+  [20-11]: https://github.com/n64dev/cen64
+  [20-10]: https://github.com/haldean/x6502
+  [20-9]: https://github.com/reicast/reicast-emulator
+  [20-8]: https://github.com/tekknolagi/carp
+  [20-7]: https://github.com/mgba-emu/mgba
+  [20-6]: https://github.com/rsms/sol
+  [20-5]: https://github.com/jakogut/tinyvm
+  [20-4]: https://github.com/felixangell/mac
+  [20-3]: https://github.com/MoarVM/MoarVM
+  [20-2]: https://github.com/LIJI32/SameBoy
+  [20-1]: https://github.com/CTurt/Cinoop
 </details>
 
 <a id="windowing-graphics"></a>
@@ -890,16 +891,16 @@ Incorporated lists:
   menuing program for X11.
   * [McNopper/OpenGL][21-10] - OpenGL 3 and 4 with GLSL.
 
-  [21-1]: https://github.com/LemonBoy/bar
-  [21-2]: https://github.com/HarveyHunt/howm
-  [21-3]: https://github.com/chneukirchen/cwm
-  [21-4]: https://github.com/mil/foo-wm
-  [21-5]: https://github.com/pyknite/catwm
-  [21-6]: https://github.com/jordansissel/xdotool
-  [21-7]: https://github.com/muennich/sxiv
-  [21-8]: https://github.com/island-org/island
-  [21-9]: https://github.com/robm/dzen
   [21-10]: https://github.com/McNopper/OpenGL
+  [21-9]: https://github.com/robm/dzen
+  [21-8]: https://github.com/island-org/island
+  [21-7]: https://github.com/muennich/sxiv
+  [21-6]: https://github.com/jordansissel/xdotool
+  [21-5]: https://github.com/pyknite/catwm
+  [21-4]: https://github.com/mil/foo-wm
+  [21-3]: https://github.com/chneukirchen/cwm
+  [21-2]: https://github.com/HarveyHunt/howm
+  [21-1]: https://github.com/LemonBoy/bar
 </details>
 
 <a id="language-implementations"></a>
@@ -961,39 +962,39 @@ Incorporated lists:
   language.
   * [skx/simple.vm][22-33] - Simple virtual machine which inteprets bytecode.
 
-  [22-1]: https://github.com/Fedjmike/mini-c
-  [22-2]: https://github.com/HuoLanguage/huo
-  [22-3]: https://github.com/Wilfred/babyc
-  [22-4]: https://github.com/dimkr/szl
-  [22-5]: https://github.com/espruino/Espruino
-  [22-6]: https://github.com/fabianishere/brainfuck
-  [22-7]: https://github.com/feeley/gambit
-  [22-8]: https://github.com/wren-lang/wren
-  [22-9]: https://github.com/cksystemsteaching/selfie
-  [22-10]: https://github.com/darius/ichbins
-  [22-11]: https://github.com/fragglet/yoctolisp
-  [22-12]: https://github.com/marcobambini/gravity
-  [22-13]: https://github.com/justinmeza/lci
-  [22-14]: https://github.com/mruby/mruby
-  [22-15]: https://github.com/stevedekorte/io
-  [22-16]: https://github.com/philburk/pforth
-  [22-17]: https://github.com/carld/micro-lisp
-  [22-18]: https://github.com/kevinlawler/kona
-  [22-19]: https://github.com/ndreynolds/flathead
-  [22-20]: https://github.com/bl0ckeduser/new-bpf-tools
-  [22-21]: https://github.com/intellectualheaven/ceed
-  [22-22]: https://github.com/janet-lang/janet
-  [22-23]: https://github.com/jnz/q3vm
-  [22-24]: https://github.com/tj/luna
-  [22-25]: https://github.com/rui314/minilisp
-  [22-26]: https://github.com/rebol/rebol
-  [22-27]: https://github.com/mortdeus/legacy-cc
-  [22-28]: https://github.com/paladin-t/my_basic
-  [22-29]: https://github.com/pikelang/Pike
-  [22-30]: https://github.com/riolet/rix
-  [22-31]: https://github.com/lotabout/write-a-C-interpreter
-  [22-32]: https://github.com/nickdesaulniers/bf_interpreter_jit_compiler
   [22-33]: https://github.com/skx/simple.vm
+  [22-32]: https://github.com/nickdesaulniers/bf_interpreter_jit_compiler
+  [22-31]: https://github.com/lotabout/write-a-C-interpreter
+  [22-30]: https://github.com/riolet/rix
+  [22-29]: https://github.com/pikelang/Pike
+  [22-28]: https://github.com/paladin-t/my_basic
+  [22-27]: https://github.com/mortdeus/legacy-cc
+  [22-26]: https://github.com/rebol/rebol
+  [22-25]: https://github.com/rui314/minilisp
+  [22-24]: https://github.com/tj/luna
+  [22-23]: https://github.com/jnz/q3vm
+  [22-22]: https://github.com/janet-lang/janet
+  [22-21]: https://github.com/intellectualheaven/ceed
+  [22-20]: https://github.com/bl0ckeduser/new-bpf-tools
+  [22-19]: https://github.com/ndreynolds/flathead
+  [22-18]: https://github.com/kevinlawler/kona
+  [22-17]: https://github.com/carld/micro-lisp
+  [22-16]: https://github.com/philburk/pforth
+  [22-15]: https://github.com/stevedekorte/io
+  [22-14]: https://github.com/mruby/mruby
+  [22-13]: https://github.com/justinmeza/lci
+  [22-12]: https://github.com/marcobambini/gravity
+  [22-11]: https://github.com/fragglet/yoctolisp
+  [22-10]: https://github.com/darius/ichbins
+  [22-9]: https://github.com/cksystemsteaching/selfie
+  [22-8]: https://github.com/wren-lang/wren
+  [22-7]: https://github.com/feeley/gambit
+  [22-6]: https://github.com/fabianishere/brainfuck
+  [22-5]: https://github.com/espruino/Espruino
+  [22-4]: https://github.com/dimkr/szl
+  [22-3]: https://github.com/Wilfred/babyc
+  [22-2]: https://github.com/HuoLanguage/huo
+  [22-1]: https://github.com/Fedjmike/mini-c
 </details>
 
 <a id="challenges"></a>
@@ -1015,17 +1016,17 @@ Incorporated lists:
   * [leetcode][23-10]
   * [eatnumber1/goal][23-11] - g()()()()('al') → "gooooal"
 
-  [23-1]: https://github.com/trailofbits/cb-multios
-  [23-2]: https://github.com/FreddieV4/DailyProgrammerChallenges
-  [23-3]: https://www.coderbyte.com/challenges
-  [23-4]: https://projecteuler.net/
-  [23-5]: https://www.hackerrank.com
-  [23-6]: https://www.codechef.com/
-  [23-7]: https://www.codewars.com
-  [23-8]: https://www.codingame.com
-  [23-9]: https://old.reddit.com/r/dailyprogrammer/
-  [23-10]: https://leetcode.com/problemset/algorithms/
   [23-11]: https://github.com/eatnumber1/goal
+  [23-10]: https://leetcode.com/problemset/algorithms/
+  [23-9]: https://old.reddit.com/r/dailyprogrammer/
+  [23-8]: https://www.codingame.com
+  [23-7]: https://www.codewars.com
+  [23-6]: https://www.codechef.com/
+  [23-5]: https://www.hackerrank.com
+  [23-4]: https://projecteuler.net/
+  [23-3]: https://www.coderbyte.com/challenges
+  [23-2]: https://github.com/FreddieV4/DailyProgrammerChallenges
+  [23-1]: https://github.com/trailofbits/cb-multios
 </details>
 
 <a id="other-examples"></a>
@@ -1057,22 +1058,22 @@ Incorporated lists:
   compilers to exploit undefined behavior.
   * [tnightingale/DTE][24-16] - Dumb Terminal Emulator - Data Comm, COMP 3980.
 
-  [24-1]: https://github.com/MinhasKamal/CreepyCodeCollection
-  [24-2]: https://github.com/Visgean/Zeus
-  [24-3]: https://github.com/andreafabrizi/prism
-  [24-4]: https://github.com/brenns10/lsh
-  [24-5]: https://github.com/jeff-1amstudios/restful-doom
-  [24-6]: https://github.com/chelyaev/ffmpeg-tutorial
-  [24-7]: https://github.com/rcr/rirc
-  [24-8]: https://github.com/xoreaxeaxeax/movfuscator
-  [24-9]: https://github.com/deadbits/InsecureProgramming
-  [24-10]: https://github.com/irssi/irssi
-  [24-11]: https://github.com/xorg62/tty-clock
-  [24-12]: https://github.com/vanhauser-thc/thc-hydra
-  [24-13]: https://github.com/posva/catimg
-  [24-14]: https://github.com/pkieltyka/stash
-  [24-15]: https://github.com/regehr/ub-canaries
   [24-16]: https://github.com/tnightingale/DTE
+  [24-15]: https://github.com/regehr/ub-canaries
+  [24-14]: https://github.com/pkieltyka/stash
+  [24-13]: https://github.com/posva/catimg
+  [24-12]: https://github.com/vanhauser-thc/thc-hydra
+  [24-11]: https://github.com/xorg62/tty-clock
+  [24-10]: https://github.com/irssi/irssi
+  [24-9]: https://github.com/deadbits/InsecureProgramming
+  [24-8]: https://github.com/xoreaxeaxeax/movfuscator
+  [24-7]: https://github.com/rcr/rirc
+  [24-6]: https://github.com/chelyaev/ffmpeg-tutorial
+  [24-5]: https://github.com/jeff-1amstudios/restful-doom
+  [24-4]: https://github.com/brenns10/lsh
+  [24-3]: https://github.com/andreafabrizi/prism
+  [24-2]: https://github.com/Visgean/Zeus
+  [24-1]: https://github.com/MinhasKamal/CreepyCodeCollection
 </details>
 
 --------------------------------------------------------------------------------
@@ -1121,49 +1122,49 @@ Incorporated lists:
   Ordinal Knowledge Constraints. [`Apache 2`][25-31]
   * [glouw/tinn][25-28] - The tiny neural network library. [`MIT`][25-29]
 
-  [25-1]: https://github.com/attractivechaos/kann
-  [25-2]: https://github.com/attractivechaos/kann/blob/master/LICENSE.txt
-  [25-3]: https://github.com/jppbsi/LibDEEP/wiki
-  [25-4]: https://github.com/100/Cranium
-  [25-5]: https://github.com/100/Cranium/blob/master/LICENSE
-  [25-6]: https://github.com/2hanson/DecisionTree
-  [25-7]: https://github.com/2hanson/DecisionTree
-  [25-8]: https://github.com/Blei-Lab/lda-c
-  [25-9]: https://github.com/blei-lab/lda-c/blob/master/license.txt
-  [25-10]: https://github.com/GHamrouni/Recommender
-  [25-11]: https://github.com/GHamrouni/Recommender/blob/master/LICENSE
-  [25-12]: https://github.com/H2CO3/libsprec
-  [25-13]: https://github.com/H2CO3/libsprec/blob/master/LICENSE
-  [25-14]: https://github.com/HIPS/Probabilistic-Backpropagation
-  [25-15]: https://github.com/HIPS/Probabilistic-Backpropagation/blob/master/LICENSE
-  [25-16]: https://github.com/TheWeatherChannel/dClass
-  [25-17]: https://github.com/TheWeatherChannel/dClass/blob/master/LICENSE
-  [25-18]: https://github.com/antirez/shapeme
-  [25-19]: https://github.com/antirez/shapeme/blob/master/LICENSE
-  [25-20]: https://github.com/cjac/cmusphinx
-  [25-21]: https://github.com/cjac/cmusphinx
-  [25-22]: https://github.com/cmusphinx/pocketsphinx
-  [25-23]: https://github.com/cmusphinx/pocketsphinx/blob/master/LICENSE
-  [25-24]: https://github.com/codeplea/genann
-  [25-25]: https://github.com/codeplea/genann/blob/master/LICENSE
-  [25-26]: https://github.com/dake/openVP
-  [25-27]: https://github.com/encog/encog-c
-  [25-28]: https://github.com/glouw/tinn
-  [25-29]: https://github.com/glouw/tinn/blob/master/LICENSE
-  [25-30]: https://github.com/iunderstand/SWE
-  [25-31]: https://github.com/iunderstand/SWE/blob/master/LICENSE
-  [25-32]: https://github.com/robwhess/opensift
-  [25-33]: https://github.com/robwhess/opensift/blob/master/LICENSE
-  [25-34]: https://github.com/ufoym/recursive-bf
-  [25-35]: https://github.com/ufoym/recursive-bf/blob/master/LICENSE
-  [25-36]: https://github.com/symisc/sod
-  [25-37]: https://github.com/symisc/sod/blob/master/LICENSE
-  [25-38]: https://github.com/xiph/rnnoise
-  [25-39]: https://github.com/xiph/rnnoise/blob/master/COPYING
-  [25-40]: https://github.com/yusugomori/DeepLearning
-  [25-41]: https://github.com/yusugomori/DeepLearning/blob/master/LICENSE.txt
-  [25-42]: https://github.com/pjreddie/darknet
   [25-43]: https://github.com/pjreddie/darknet/blob/master/LICENSE
+  [25-42]: https://github.com/pjreddie/darknet
+  [25-41]: https://github.com/yusugomori/DeepLearning/blob/master/LICENSE.txt
+  [25-40]: https://github.com/yusugomori/DeepLearning
+  [25-39]: https://github.com/xiph/rnnoise/blob/master/COPYING
+  [25-38]: https://github.com/xiph/rnnoise
+  [25-37]: https://github.com/symisc/sod/blob/master/LICENSE
+  [25-36]: https://github.com/symisc/sod
+  [25-35]: https://github.com/ufoym/recursive-bf/blob/master/LICENSE
+  [25-34]: https://github.com/ufoym/recursive-bf
+  [25-33]: https://github.com/robwhess/opensift/blob/master/LICENSE
+  [25-32]: https://github.com/robwhess/opensift
+  [25-31]: https://github.com/iunderstand/SWE/blob/master/LICENSE
+  [25-30]: https://github.com/iunderstand/SWE
+  [25-29]: https://github.com/glouw/tinn/blob/master/LICENSE
+  [25-28]: https://github.com/glouw/tinn
+  [25-27]: https://github.com/encog/encog-c
+  [25-26]: https://github.com/dake/openVP
+  [25-25]: https://github.com/codeplea/genann/blob/master/LICENSE
+  [25-24]: https://github.com/codeplea/genann
+  [25-23]: https://github.com/cmusphinx/pocketsphinx/blob/master/LICENSE
+  [25-22]: https://github.com/cmusphinx/pocketsphinx
+  [25-21]: https://github.com/cjac/cmusphinx
+  [25-20]: https://github.com/cjac/cmusphinx
+  [25-19]: https://github.com/antirez/shapeme/blob/master/LICENSE
+  [25-18]: https://github.com/antirez/shapeme
+  [25-17]: https://github.com/TheWeatherChannel/dClass/blob/master/LICENSE
+  [25-16]: https://github.com/TheWeatherChannel/dClass
+  [25-15]: https://github.com/HIPS/Probabilistic-Backpropagation/blob/master/LICENSE
+  [25-14]: https://github.com/HIPS/Probabilistic-Backpropagation
+  [25-13]: https://github.com/H2CO3/libsprec/blob/master/LICENSE
+  [25-12]: https://github.com/H2CO3/libsprec
+  [25-11]: https://github.com/GHamrouni/Recommender/blob/master/LICENSE
+  [25-10]: https://github.com/GHamrouni/Recommender
+  [25-9]: https://github.com/blei-lab/lda-c/blob/master/license.txt
+  [25-8]: https://github.com/Blei-Lab/lda-c
+  [25-7]: https://github.com/2hanson/DecisionTree
+  [25-6]: https://github.com/2hanson/DecisionTree
+  [25-5]: https://github.com/100/Cranium/blob/master/LICENSE
+  [25-4]: https://github.com/100/Cranium
+  [25-3]: https://github.com/jppbsi/LibDEEP/wiki
+  [25-2]: https://github.com/attractivechaos/kann/blob/master/LICENSE.txt
+  [25-1]: https://github.com/attractivechaos/kann
 </details>
 
 <a id="algoritm-implementations"></a>
@@ -1223,58 +1224,58 @@ Incorporated lists:
   R, and Ruby. [`MIT`][26-43]
   * [ferreiradaselva/uastar][26-7] - Minimal A\* implementation. [`Zlib`][26-8]
 
-  [26-1]: https://github.com/swenson/sort
-  [26-2]: https://github.com/swenson/sort/blob/master/LICENSE.md
-  [26-3]: https://github.com/blynn/dlx
-  [26-4]: https://github.com/blynn/dlx/blob/master/COPYING
-  [26-5]: https://github.com/BigZaphod/AStar
-  [26-6]: https://github.com/BigZaphod/AStar/blob/master/AStar.h
-  [26-7]: https://github.com/felselva/uastar
-  [26-8]: https://github.com/felselva/uastar#license
-  [26-9]: https://github.com/BlackLight/fkmeans
-  [26-10]: https://github.com/BlackLight/fkmeans/blob/master/kmeans.h
-  [26-11]: https://github.com/CVLearner/Mixture-of-Gaussians
-  [26-12]: https://github.com/CVLearner/Mixture-of-Gaussians/blob/master/LICENSE
-  [26-13]: https://github.com/Cyan4973/FiniteStateEntropy
-  [26-14]: https://github.com/Cyan4973/FiniteStateEntropy/blob/dev/LICENSE
-  [26-15]: https://github.com/Kevincav/Radix-Sort
-  [26-16]: https://github.com/Kevincav/Radix-Sort/blob/master/LICENSE.txt
-  [26-17]: https://github.com/TheAlgorithms/C
-  [26-18]: https://github.com/agl/curve25519-donna
-  [26-19]: https://github.com/agl/curve25519-donna/blob/master/LICENSE.md
-  [26-20]: https://github.com/ai-ku/scode
-  [26-21]: https://github.com/ai-ku/scode/blob/master/LICENSE
-  [26-22]: https://github.com/aimxhaisse/des
-  [26-23]: https://github.com/aimxhaisse/des#license
-  [26-24]: https://github.com/chaoslawful/ccard-lib
-  [26-25]: https://github.com/citiususc/BigBWA
-  [26-26]: https://github.com/citiususc/BigBWA/blob/master/LICENSE
-  [26-27]: https://github.com/davidreynolds/algorithms
-  [26-28]: https://github.com/dhuertas/AES
-  [26-29]: https://github.com/duckythescientist/obfuscatedLife
-  [26-30]: https://github.com/jmcejuela/Levenshtein-MySQL-UDF
-  [26-31]: https://github.com/juanmirocks/Levenshtein-MySQL-UDF/blob/master/LICENSE
-  [26-32]: https://github.com/kljensen/Gemoda
-  [26-33]: https://github.com/kljensen/Gemoda/blob/master/COPYING
-  [26-34]: https://github.com/kokke/tiny-AES-c
-  [26-35]: https://github.com/kokke/tiny-AES-c/blob/master/unlicense.txt
-  [26-36]: https://github.com/kroitor/gjk.c
-  [26-37]: https://github.com/kroitor/gjk.c/blob/master/LICENSE.txt
-  [26-38]: https://github.com/lacker/ikalman
-  [26-39]: https://github.com/lacker/ikalman/blob/master/LICENSE
-  [26-40]: https://github.com/mischasan/aho-corasick
-  [26-41]: https://github.com/mischasan/aho-corasick/blob/master/LICENSE
-  [26-42]: https://github.com/msteinbeck/tinyspline
-  [26-43]: https://github.com/msteinbeck/tinyspline/blob/master/LICENSE
-  [26-44]: https://github.com/oap/ekf-angles
-  [26-45]: https://github.com/ntamas/plfit
-  [26-46]: https://github.com/ntamas/plfit/blob/master/src/main.c
-  [26-47]: https://github.com/richarddurbin
-  [26-48]: https://github.com/richarddurbin/pbwt/blob/master/utils.c
-  [26-49]: https://github.com/tarequeh/DES
-  [26-50]: https://github.com/tarequeh/DES/blob/master/LICENSE
-  [26-51]: https://github.com/tsuraan/Jerasure
   [26-52]: https://github.com/tsuraan/Jerasure/blob/master/License.txt
+  [26-51]: https://github.com/tsuraan/Jerasure
+  [26-50]: https://github.com/tarequeh/DES/blob/master/LICENSE
+  [26-49]: https://github.com/tarequeh/DES
+  [26-48]: https://github.com/richarddurbin/pbwt/blob/master/utils.c
+  [26-47]: https://github.com/richarddurbin
+  [26-46]: https://github.com/ntamas/plfit/blob/master/src/main.c
+  [26-45]: https://github.com/ntamas/plfit
+  [26-44]: https://github.com/oap/ekf-angles
+  [26-43]: https://github.com/msteinbeck/tinyspline/blob/master/LICENSE
+  [26-42]: https://github.com/msteinbeck/tinyspline
+  [26-41]: https://github.com/mischasan/aho-corasick/blob/master/LICENSE
+  [26-40]: https://github.com/mischasan/aho-corasick
+  [26-39]: https://github.com/lacker/ikalman/blob/master/LICENSE
+  [26-38]: https://github.com/lacker/ikalman
+  [26-37]: https://github.com/kroitor/gjk.c/blob/master/LICENSE.txt
+  [26-36]: https://github.com/kroitor/gjk.c
+  [26-35]: https://github.com/kokke/tiny-AES-c/blob/master/unlicense.txt
+  [26-34]: https://github.com/kokke/tiny-AES-c
+  [26-33]: https://github.com/kljensen/Gemoda/blob/master/COPYING
+  [26-32]: https://github.com/kljensen/Gemoda
+  [26-31]: https://github.com/juanmirocks/Levenshtein-MySQL-UDF/blob/master/LICENSE
+  [26-30]: https://github.com/jmcejuela/Levenshtein-MySQL-UDF
+  [26-29]: https://github.com/duckythescientist/obfuscatedLife
+  [26-28]: https://github.com/dhuertas/AES
+  [26-27]: https://github.com/davidreynolds/algorithms
+  [26-26]: https://github.com/citiususc/BigBWA/blob/master/LICENSE
+  [26-25]: https://github.com/citiususc/BigBWA
+  [26-24]: https://github.com/chaoslawful/ccard-lib
+  [26-23]: https://github.com/aimxhaisse/des#license
+  [26-22]: https://github.com/aimxhaisse/des
+  [26-21]: https://github.com/ai-ku/scode/blob/master/LICENSE
+  [26-20]: https://github.com/ai-ku/scode
+  [26-19]: https://github.com/agl/curve25519-donna/blob/master/LICENSE.md
+  [26-18]: https://github.com/agl/curve25519-donna
+  [26-17]: https://github.com/TheAlgorithms/C
+  [26-16]: https://github.com/Kevincav/Radix-Sort/blob/master/LICENSE.txt
+  [26-15]: https://github.com/Kevincav/Radix-Sort
+  [26-14]: https://github.com/Cyan4973/FiniteStateEntropy/blob/dev/LICENSE
+  [26-13]: https://github.com/Cyan4973/FiniteStateEntropy
+  [26-12]: https://github.com/CVLearner/Mixture-of-Gaussians/blob/master/LICENSE
+  [26-11]: https://github.com/CVLearner/Mixture-of-Gaussians
+  [26-10]: https://github.com/BlackLight/fkmeans/blob/master/kmeans.h
+  [26-9]: https://github.com/BlackLight/fkmeans
+  [26-8]: https://github.com/felselva/uastar#license
+  [26-7]: https://github.com/felselva/uastar
+  [26-6]: https://github.com/BigZaphod/AStar/blob/master/AStar.h
+  [26-5]: https://github.com/BigZaphod/AStar
+  [26-4]: https://github.com/blynn/dlx/blob/master/COPYING
+  [26-3]: https://github.com/blynn/dlx
+  [26-2]: https://github.com/swenson/sort/blob/master/LICENSE.md
+  [26-1]: https://github.com/swenson/sort
 </details>
 
 <a id="argument-parsing"></a>
@@ -1290,16 +1291,16 @@ Incorporated lists:
   * [jibsen/parg][27-1] - A single-file reimplementation of getopt with better
   defaults. [`License`][27-2]
 
-  [27-1]: https://github.com/jibsen/parg
-  [27-2]: https://github.com/jibsen/parg/blob/master/COPYING
-  [27-3]: https://github.com/docopt/docopt.c
-  [27-4]: https://github.com/docopt/docopt.c/blob/master/LICENSE-MIT
-  [27-5]: https://github.com/clibs/flag
-  [27-6]: https://github.com/clibs/flag/blob/master/LICENSE
-  [27-7]: https://github.com/clibs/commander
-  [27-8]: https://github.com/clibs/commander#license
-  [27-9]: https://github.com/cofyc/argparse
   [27-10]: https://github.com/cofyc/argparse/blob/master/LICENSE
+  [27-9]: https://github.com/cofyc/argparse
+  [27-8]: https://github.com/clibs/commander#license
+  [27-7]: https://github.com/clibs/commander
+  [27-6]: https://github.com/clibs/flag/blob/master/LICENSE
+  [27-5]: https://github.com/clibs/flag
+  [27-4]: https://github.com/docopt/docopt.c/blob/master/LICENSE-MIT
+  [27-3]: https://github.com/docopt/docopt.c
+  [27-2]: https://github.com/jibsen/parg/blob/master/COPYING
+  [27-1]: https://github.com/jibsen/parg
 </details>
 
 <a id="calculations"></a>
@@ -1373,82 +1374,82 @@ Incorporated lists:
   engine for simple mathematical expressions. [`Zlib`][28-76]
   * [Yeppp!][28-46] - Very fast, SIMD-optimized mathematical library. [`License`][28-47]
 
-  [28-1]: https://github.com/fredrik-johansson/arb
-  [28-2]: https://github.com/fredrik-johansson/arb/blob/master/LICENSE
-  [28-3]: https://github.com/b-k/apophenia
-  [28-4]: https://github.com/b-k/apophenia/blob/master/install/COPYING
-  [28-5]: http://math-atlas.sourceforge.net/
-  [28-6]: https://sourceforge.net/projects/math-atlas/
-  [28-7]: http://www.netlib.org/blas/
-  [28-8]: http://www.netlib.org/blas/#_licensing
-  [28-9]: http://slepc.upv.es/
-  [28-10]: https://bitbucket.org/slepc/slepc/src/d7223e0d001456999ded7111aa33c2b4cd3dcbfa/LICENSE?at=master&fileviewer=file-view-default
-  [28-11]: https://people.sc.fsu.edu/~jburkardt/c_src/cdflib/cdflib.html
-  [28-12]: https://github.com/ScientificC/cmathl
-  [28-13]: https://github.com/ScientificC/cmathl/blob/master/LICENSE
-  [28-14]: http://www.feynarts.de/cuba/
-  [28-15]: http://www.feynarts.de/cuba/
-  [28-16]: https://github.com/adis300/fft-c
-  [28-17]: https://github.com/adis300/fft-c/blob/master/LICENSE
-  [28-18]: http://www.fftw.org/
-  [28-19]: https://github.com/FFTW/fftw3/blob/master/COPYING
-  [28-20]: http://flintlib.org/
-  [28-21]: https://github.com/wbhart/flint2/blob/trunk/LICENSE
-  [28-22]: https://www.gnu.org/software/glpk/
-  [28-23]: https://ftp.gnu.org/gnu/glpk/
-  [28-24]: https://gmplib.org/
-  [28-25]: https://gmplib.org/repo/gmp/file/tip
-  [28-26]: http://www.multiprecision.org/mpc/
-  [28-27]: http://www.multiprecision.org/mpc/
-  [28-28]: https://www.mpfr.org/index.html
-  [28-29]: https://www.mpfr.org/index.html#intro
-  [28-30]: https://www.gnu.org/software/mpria/
-  [28-31]: https://www.gnu.org/software/mpria/
-  [28-32]: http://www.gnu.org/software/gsl/
-  [28-33]: http://git.savannah.gnu.org/cgit/gsl.git/tree/COPYING
-  [28-34]: https://github.com/igraph/igraph
-  [28-35]: https://github.com/igraph/igraph/blob/master/COPYING
-  [28-36]: https://sourceforge.net/projects/kissfft/
-  [28-37]: https://sourceforge.net/projects/kissfft/
-  [28-38]: http://www.netlib.org/lapack/lapacke.html
-  [28-39]: http://www.netlib.org/lapack/LICENSE.txt
-  [28-40]: http://pari.math.u-bordeaux.fr/
-  [28-41]: http://pari.math.u-bordeaux.fr/
-  [28-42]: https://www.mcs.anl.gov/petsc/
-  [28-43]: https://www.mcs.anl.gov/petsc/documentation/license.html
-  [28-44]: https://people.sc.fsu.edu/~jburkardt/c_src/prob/prob.html
-  [28-45]: https://people.sc.fsu.edu/~jburkardt/c_src/prob/prob.html
-  [28-46]: https://bitbucket.org/MDukhan/yeppp
-  [28-47]: https://bitbucket.org/MDukhan/yeppp/src/7830144789416f9fbed3998a4c711147533cb546/LICENSE.txt?at=default&fileviewer=file-view-default
-  [28-48]: https://sourceforge.net/projects/gjrand/
-  [28-49]: https://sourceforge.net/projects/gjrand/
-  [28-50]: https://github.com/HdrHistogram/HdrHistogram_c
-  [28-51]: https://github.com/HdrHistogram/HdrHistogram_c/blob/master/LICENSE.txt
-  [28-52]: https://github.com/JuliaMath/openlibm
-  [28-53]: https://github.com/JuliaMath/openlibm/blob/master/LICENSE.md
-  [28-54]: https://github.com/Lichtso/CCWT
-  [28-55]: https://github.com/Lichtso/CCWT/blob/master/LICENSE
-  [28-56]: https://github.com/canonizer/libgpuvm
-  [28-57]: N/A
-  [28-58]: N/A
-  [28-59]: N/A
-  [28-60]: N/A
-  [28-61]: https://github.com/imneme/pcg-c-basic
-  [28-62]: https://github.com/imneme/pcg-c-basic/blob/master/LICENSE.txt
-  [28-63]: https://github.com/imneme/pcg-c
-  [28-64]: https://github.com/imneme/pcg-c/blob/master/LICENSE.txt
-  [28-65]: https://github.com/libtom/libtommath
-  [28-66]: https://github.com/libtom/libtommath/blob/develop/LICENSE
-  [28-67]: https://github.com/libtom/tomsfastmath
-  [28-68]: https://github.com/libtom/tomsfastmath/blob/develop/LICENSE
-  [28-69]: https://github.com/PetteriAimonen/libfixmatrix
-  [28-70]: https://github.com/PetteriAimonen/libfixmatrix/blob/master/LICENSE
-  [28-71]: https://github.com/cvxgrp/scs
-  [28-72]: https://github.com/cvxgrp/scs/blob/master/LICENSE.txt
-  [28-73]: https://github.com/slim-curve/slim-curve
-  [28-74]: https://github.com/slim-curve/slim-curve/blob/master/LICENSE.txt
-  [28-75]: https://github.com/codeplea/tinyexpr
   [28-76]: https://github.com/codeplea/tinyexpr/blob/master/LICENSE
+  [28-75]: https://github.com/codeplea/tinyexpr
+  [28-74]: https://github.com/slim-curve/slim-curve/blob/master/LICENSE.txt
+  [28-73]: https://github.com/slim-curve/slim-curve
+  [28-72]: https://github.com/cvxgrp/scs/blob/master/LICENSE.txt
+  [28-71]: https://github.com/cvxgrp/scs
+  [28-70]: https://github.com/PetteriAimonen/libfixmatrix/blob/master/LICENSE
+  [28-69]: https://github.com/PetteriAimonen/libfixmatrix
+  [28-68]: https://github.com/libtom/tomsfastmath/blob/develop/LICENSE
+  [28-67]: https://github.com/libtom/tomsfastmath
+  [28-66]: https://github.com/libtom/libtommath/blob/develop/LICENSE
+  [28-65]: https://github.com/libtom/libtommath
+  [28-64]: https://github.com/imneme/pcg-c/blob/master/LICENSE.txt
+  [28-63]: https://github.com/imneme/pcg-c
+  [28-62]: https://github.com/imneme/pcg-c-basic/blob/master/LICENSE.txt
+  [28-61]: https://github.com/imneme/pcg-c-basic
+  [28-60]: N/A
+  [28-59]: N/A
+  [28-58]: N/A
+  [28-57]: N/A
+  [28-56]: https://github.com/canonizer/libgpuvm
+  [28-55]: https://github.com/Lichtso/CCWT/blob/master/LICENSE
+  [28-54]: https://github.com/Lichtso/CCWT
+  [28-53]: https://github.com/JuliaMath/openlibm/blob/master/LICENSE.md
+  [28-52]: https://github.com/JuliaMath/openlibm
+  [28-51]: https://github.com/HdrHistogram/HdrHistogram_c/blob/master/LICENSE.txt
+  [28-50]: https://github.com/HdrHistogram/HdrHistogram_c
+  [28-49]: https://sourceforge.net/projects/gjrand/
+  [28-48]: https://sourceforge.net/projects/gjrand/
+  [28-47]: https://bitbucket.org/MDukhan/yeppp/src/7830144789416f9fbed3998a4c711147533cb546/LICENSE.txt?at=default&fileviewer=file-view-default
+  [28-46]: https://bitbucket.org/MDukhan/yeppp
+  [28-45]: https://people.sc.fsu.edu/~jburkardt/c_src/prob/prob.html
+  [28-44]: https://people.sc.fsu.edu/~jburkardt/c_src/prob/prob.html
+  [28-43]: https://www.mcs.anl.gov/petsc/documentation/license.html
+  [28-42]: https://www.mcs.anl.gov/petsc/
+  [28-41]: http://pari.math.u-bordeaux.fr/
+  [28-40]: http://pari.math.u-bordeaux.fr/
+  [28-39]: http://www.netlib.org/lapack/LICENSE.txt
+  [28-38]: http://www.netlib.org/lapack/lapacke.html
+  [28-37]: https://sourceforge.net/projects/kissfft/
+  [28-36]: https://sourceforge.net/projects/kissfft/
+  [28-35]: https://github.com/igraph/igraph/blob/master/COPYING
+  [28-34]: https://github.com/igraph/igraph
+  [28-33]: http://git.savannah.gnu.org/cgit/gsl.git/tree/COPYING
+  [28-32]: http://www.gnu.org/software/gsl/
+  [28-31]: https://www.gnu.org/software/mpria/
+  [28-30]: https://www.gnu.org/software/mpria/
+  [28-29]: https://www.mpfr.org/index.html#intro
+  [28-28]: https://www.mpfr.org/index.html
+  [28-27]: http://www.multiprecision.org/mpc/
+  [28-26]: http://www.multiprecision.org/mpc/
+  [28-25]: https://gmplib.org/repo/gmp/file/tip
+  [28-24]: https://gmplib.org/
+  [28-23]: https://ftp.gnu.org/gnu/glpk/
+  [28-22]: https://www.gnu.org/software/glpk/
+  [28-21]: https://github.com/wbhart/flint2/blob/trunk/LICENSE
+  [28-20]: http://flintlib.org/
+  [28-19]: https://github.com/FFTW/fftw3/blob/master/COPYING
+  [28-18]: http://www.fftw.org/
+  [28-17]: https://github.com/adis300/fft-c/blob/master/LICENSE
+  [28-16]: https://github.com/adis300/fft-c
+  [28-15]: http://www.feynarts.de/cuba/
+  [28-14]: http://www.feynarts.de/cuba/
+  [28-13]: https://github.com/ScientificC/cmathl/blob/master/LICENSE
+  [28-12]: https://github.com/ScientificC/cmathl
+  [28-11]: https://people.sc.fsu.edu/~jburkardt/c_src/cdflib/cdflib.html
+  [28-10]: https://bitbucket.org/slepc/slepc/src/d7223e0d001456999ded7111aa33c2b4cd3dcbfa/LICENSE?at=master&fileviewer=file-view-default
+  [28-9]: http://slepc.upv.es/
+  [28-8]: http://www.netlib.org/blas/#_licensing
+  [28-7]: http://www.netlib.org/blas/
+  [28-6]: https://sourceforge.net/projects/math-atlas/
+  [28-5]: http://math-atlas.sourceforge.net/
+  [28-4]: https://github.com/b-k/apophenia/blob/master/install/COPYING
+  [28-3]: https://github.com/b-k/apophenia
+  [28-2]: https://github.com/fredrik-johansson/arb/blob/master/LICENSE
+  [28-1]: https://github.com/fredrik-johansson/arb
 </details>
 
 <a id="compression"></a>
@@ -1511,77 +1512,77 @@ Incorporated lists:
   "next generation" systems. [`Zlib`][29-69]
   * [facebook/zstd][29-31] - Fast real-time compression algorithm. [`BSD 3-Clause`][29-32]
 
-  [29-1]: https://github.com/Blosc/bcolz
-  [29-2]: https://github.com/Blosc/bcolz/tree/master/LICENSES
-  [29-3]: http://lzip.nongnu.org/clzip.html
-  [29-4]: http://lzip.nongnu.org/clzip.html
-  [29-5]: https://github.com/Cyan4973/FiniteStateEntropy
-  [29-6]: https://github.com/Cyan4973/FiniteStateEntropy/blob/dev/LICENSE
-  [29-7]: https://github.com/gildor2/fast_zlib
-  [29-8]: https://github.com/gildor2/fast_zlib/blob/master/LICENSE.txt
-  [29-9]: https://github.com/adamierymenko/huffandpuff
-  [29-10]: https://github.com/adamierymenko/huffandpuff/blob/master/huffman.h
-  [29-11]: http://www.bzip.org/
-  [29-12]: https://sourceforge.net/projects/bzip2/files/
-  [29-13]: https://github.com/inikep/lizard
-  [29-14]: https://github.com/inikep/lizard/blob/lizard/LICENSE
-  [29-15]: https://github.com/vasi/pixz
-  [29-16]: https://github.com/vasi/pixz/blob/master/LICENSE
-  [29-17]: http://ed-von-schleck.github.io/shoco
-  [29-18]: https://github.com/Ed-von-Schleck/shoco/blob/master/LICENSE
-  [29-19]: https://github.com/lemire/simdcomp
-  [29-20]: https://github.com/lemire/simdcomp/blob/master/LICENSE
-  [29-21]: https://github.com/quixdb/squash
-  [29-22]: https://github.com/quixdb/squash/blob/master/COPYING
-  [29-23]: https://github.com/powturbo/TurboPFor
-  [29-24]: https://github.com/powturbo/TurboPFor/blob/master/fp.c
-  [29-25]: https://github.com/nih-at/libzip
-  [29-26]: https://github.com/nih-at/libzip/blob/master/LICENSE
-  [29-27]: http://www.oberhumer.com/opensource/lzo/
-  [29-28]: http://www.oberhumer.com/opensource/lzo/#abstract
-  [29-29]: https://github.com/madler/zlib
-  [29-30]: http://zlib.net/zlib_license.html
-  [29-31]: https://github.com/facebook/zstd
-  [29-32]: https://github.com/facebook/zstd/blob/dev/LICENSE
-  [29-33]: https://github.com/google/brotli
-  [29-34]: https://github.com/google/brotli/blob/master/LICENSE
-  [29-35]: http://www.quicklz.com/index.php
-  [29-36]: http://www.quicklz.com/quicklz.c
-  [29-37]: https://github.com/Blosc/c-blosc
-  [29-38]: https://github.com/Blosc/c-blosc/tree/master/LICENSES
-  [29-39]: https://github.com/RoaringBitmap/CRoaring
-  [29-40]: https://github.com/RoaringBitmap/CRoaring/blob/master/LICENSE
-  [29-41]: https://github.com/adnanozsoy/CUDA_Compression
-  [29-42]: https://github.com/adnanozsoy/CUDA_Compression/blob/master/culzss.c
-  [29-43]: https://github.com/andikleen/snappy-c
-  [29-44]: https://github.com/andikleen/snappy-c/blob/master/LICENSE
-  [29-45]: https://github.com/antirez/smaz
-  [29-46]: https://github.com/antirez/smaz/blob/master/COPYING
-  [29-47]: https://github.com/atomicobject/heatshrink
-  [29-48]: https://github.com/atomicobject/heatshrink/blob/master/LICENSE
-  [29-49]: https://github.com/centaurean/density
-  [29-50]: https://github.com/centaurean/density/blob/master/LICENSE.md
-  [29-51]: https://github.com/kiyo-masui/bitshuffle
-  [29-52]: https://github.com/kiyo-masui/bitshuffle/blob/master/LICENSE
-  [29-53]: https://github.com/kuba--/zip
-  [29-54]: https://github.com/kuba--/zip/blob/master/UNLICENSE
-  [29-55]: https://github.com/libarchive/libarchive
-  [29-56]: https://github.com/libarchive/libarchive/blob/master/COPYING
-  [29-57]: https://github.com/lz4/lz4
-  [29-58]: https://github.com/lz4/lz4/blob/dev/LICENSE
-  [29-59]: https://github.com/mist64/pucrunch
-  [29-60]: https://github.com/mist64/pucrunch/blob/master/pucrunch.c
-  [29-61]: https://github.com/moinakg/pcompress
-  [29-62]: https://github.com/moinakg/pcompress/blob/master/COPYING
-  [29-63]: https://github.com/richgel999/miniz
-  [29-64]: https://github.com/richgel999/miniz/blob/master/LICENSE
-  [29-65]: https://github.com/richox/comprox
-  [29-66]: https://github.com/richox/comprox/blob/master/LICENSE
-  [29-67]: https://github.com/rjsikarwar/gpu_compression
-  [29-68]: https://github.com/zlib-ng/zlib-ng
-  [29-69]: https://github.com/zlib-ng/zlib-ng/blob/develop/LICENSE.md
-  [29-70]: https://github.com/powturbo/TurboRLE
   [29-71]: https://github.com/powturbo/TurboRLE/blob/master/trle.h
+  [29-70]: https://github.com/powturbo/TurboRLE
+  [29-69]: https://github.com/zlib-ng/zlib-ng/blob/develop/LICENSE.md
+  [29-68]: https://github.com/zlib-ng/zlib-ng
+  [29-67]: https://github.com/rjsikarwar/gpu_compression
+  [29-66]: https://github.com/richox/comprox/blob/master/LICENSE
+  [29-65]: https://github.com/richox/comprox
+  [29-64]: https://github.com/richgel999/miniz/blob/master/LICENSE
+  [29-63]: https://github.com/richgel999/miniz
+  [29-62]: https://github.com/moinakg/pcompress/blob/master/COPYING
+  [29-61]: https://github.com/moinakg/pcompress
+  [29-60]: https://github.com/mist64/pucrunch/blob/master/pucrunch.c
+  [29-59]: https://github.com/mist64/pucrunch
+  [29-58]: https://github.com/lz4/lz4/blob/dev/LICENSE
+  [29-57]: https://github.com/lz4/lz4
+  [29-56]: https://github.com/libarchive/libarchive/blob/master/COPYING
+  [29-55]: https://github.com/libarchive/libarchive
+  [29-54]: https://github.com/kuba--/zip/blob/master/UNLICENSE
+  [29-53]: https://github.com/kuba--/zip
+  [29-52]: https://github.com/kiyo-masui/bitshuffle/blob/master/LICENSE
+  [29-51]: https://github.com/kiyo-masui/bitshuffle
+  [29-50]: https://github.com/centaurean/density/blob/master/LICENSE.md
+  [29-49]: https://github.com/centaurean/density
+  [29-48]: https://github.com/atomicobject/heatshrink/blob/master/LICENSE
+  [29-47]: https://github.com/atomicobject/heatshrink
+  [29-46]: https://github.com/antirez/smaz/blob/master/COPYING
+  [29-45]: https://github.com/antirez/smaz
+  [29-44]: https://github.com/andikleen/snappy-c/blob/master/LICENSE
+  [29-43]: https://github.com/andikleen/snappy-c
+  [29-42]: https://github.com/adnanozsoy/CUDA_Compression/blob/master/culzss.c
+  [29-41]: https://github.com/adnanozsoy/CUDA_Compression
+  [29-40]: https://github.com/RoaringBitmap/CRoaring/blob/master/LICENSE
+  [29-39]: https://github.com/RoaringBitmap/CRoaring
+  [29-38]: https://github.com/Blosc/c-blosc/tree/master/LICENSES
+  [29-37]: https://github.com/Blosc/c-blosc
+  [29-36]: http://www.quicklz.com/quicklz.c
+  [29-35]: http://www.quicklz.com/index.php
+  [29-34]: https://github.com/google/brotli/blob/master/LICENSE
+  [29-33]: https://github.com/google/brotli
+  [29-32]: https://github.com/facebook/zstd/blob/dev/LICENSE
+  [29-31]: https://github.com/facebook/zstd
+  [29-30]: http://zlib.net/zlib_license.html
+  [29-29]: https://github.com/madler/zlib
+  [29-28]: http://www.oberhumer.com/opensource/lzo/#abstract
+  [29-27]: http://www.oberhumer.com/opensource/lzo/
+  [29-26]: https://github.com/nih-at/libzip/blob/master/LICENSE
+  [29-25]: https://github.com/nih-at/libzip
+  [29-24]: https://github.com/powturbo/TurboPFor/blob/master/fp.c
+  [29-23]: https://github.com/powturbo/TurboPFor
+  [29-22]: https://github.com/quixdb/squash/blob/master/COPYING
+  [29-21]: https://github.com/quixdb/squash
+  [29-20]: https://github.com/lemire/simdcomp/blob/master/LICENSE
+  [29-19]: https://github.com/lemire/simdcomp
+  [29-18]: https://github.com/Ed-von-Schleck/shoco/blob/master/LICENSE
+  [29-17]: http://ed-von-schleck.github.io/shoco
+  [29-16]: https://github.com/vasi/pixz/blob/master/LICENSE
+  [29-15]: https://github.com/vasi/pixz
+  [29-14]: https://github.com/inikep/lizard/blob/lizard/LICENSE
+  [29-13]: https://github.com/inikep/lizard
+  [29-12]: https://sourceforge.net/projects/bzip2/files/
+  [29-11]: http://www.bzip.org/
+  [29-10]: https://github.com/adamierymenko/huffandpuff/blob/master/huffman.h
+  [29-9]: https://github.com/adamierymenko/huffandpuff
+  [29-8]: https://github.com/gildor2/fast_zlib/blob/master/LICENSE.txt
+  [29-7]: https://github.com/gildor2/fast_zlib
+  [29-6]: https://github.com/Cyan4973/FiniteStateEntropy/blob/dev/LICENSE
+  [29-5]: https://github.com/Cyan4973/FiniteStateEntropy
+  [29-4]: http://lzip.nongnu.org/clzip.html
+  [29-3]: http://lzip.nongnu.org/clzip.html
+  [29-2]: https://github.com/Blosc/bcolz/tree/master/LICENSES
+  [29-1]: https://github.com/Blosc/bcolz
 </details>
 
 <a id="concurrency-and-parallelism"></a>
@@ -1643,62 +1644,62 @@ Incorporated lists:
   * [parallella/pal][30-55] - An optimized C library for math, parallel
   processing and data movement. [`Apache 2`][30-56]
 
-  [30-1]: https://github.com/yosefk/checkedthreads
-  [30-2]: https://github.com/yosefk/checkedthreads/blob/master/LICENSE.txt
-  [30-3]: http://www.shlomifish.org/rwlock/
-  [30-4]: https://bitbucket.org/shlomif/fcfs-rwlock/src/65dd5211852781b82ef0fd732a0b0d542e9c726c/LICENSE?at=default&fileviewer=file-view-default
-  [30-5]: https://github.com/sharow/libconcurrent
-  [30-6]: https://github.com/sharow/libconcurrent/blob/master/LICENSE
-  [30-7]: http://liburcu.org/
-  [30-8]: http://liburcu.org/
-  [30-9]: http://repo.hu/projects/cchan/
-  [30-10]: http://repo.hu/projects/cchan/
-  [30-11]: https://github.com/pmodels/mpich
-  [30-12]: https://github.com/pmodels/mpich/blob/master/COPYRIGHT
-  [30-13]: https://github.com/open-mpi
-  [30-14]: https://github.com/open-mpi/ompi/blob/master/LICENSE
-  [30-15]: https://www.gnu.org/software/pth/
-  [30-16]: ftp://ftp.gnu.org/gnu/pth/
-  [30-17]: https://en.wikipedia.org/wiki/POSIX_Threads
-  [30-18]: https://github.com/tinycthread/tinycthread
-  [30-19]: https://github.com/tinycthread/tinycthread
-  [30-20]: https://github.com/Pithikos/C-Thread-Pool
-  [30-21]: https://github.com/Pithikos/C-Thread-Pool/blob/master/LICENSE
-  [30-22]: https://github.com/baruch/libwire
-  [30-23]: https://github.com/baruch/libwire/blob/master/LICENSE
-  [30-24]: https://github.com/bjoernknafla/amp
-  [30-25]: https://github.com/bjoernknafla/amp/blob/master/COPYRIGHT.txt
-  [30-26]: https://github.com/bjoernknafla/peak
-  [30-27]: https://github.com/bjoernknafla/peak/blob/master/COPYRIGHT.txt
-  [30-28]: https://github.com/cloudwu/coroutine
-  [30-29]: https://github.com/cloudwu/coroutine/blob/master/LICENSE
-  [30-30]: https://github.com/concurrencykit/ck
-  [30-31]: https://github.com/concurrencykit/ck/blob/master/LICENSE
-  [30-32]: https://github.com/etmc/lemon
-  [30-33]: https://github.com/etmc/lemon/blob/master/COPYING
-  [30-34]: https://github.com/geertj/cgreenlet
-  [30-35]: https://github.com/geertj/cgreenlet/blob/master/LICENSE
-  [30-36]: https://github.com/halayli/lthread
-  [30-37]: https://github.com/halayli/lthread/blob/master/LICENSE
-  [30-38]: https://github.com/hnes/libaco
-  [30-39]: https://github.com/hnes/libaco/blob/master/LICENSE
-  [30-40]: https://github.com/jtsiomb/c11threads
-  [30-41]: https://github.com/jtsiomb/c11threads
-  [30-42]: https://github.com/matianfu/FUNK
-  [30-43]: https://github.com/matianfu/FUNK/blob/master/LICENSE
-  [30-44]: https://github.com/mbrossard/threadpool
-  [30-45]: https://github.com/mbrossard/threadpool/blob/master/LICENSE
-  [30-46]: https://github.com/oneoo/alilua-coevent-module
-  [30-47]: https://github.com/oneoo/alilua-coevent-module/blob/master/LICENSE
-  [30-48]: https://github.com/ramonza/libcoro
-  [30-49]: https://github.com/ramonza/libcoro/blob/master/LICENSE
-  [30-50]: https://github.com/sustrik/libdill
-  [30-51]: https://github.com/sustrik/libdill/blob/master/COPYING
-  [30-52]: https://github.com/sustrik/libmill
-  [30-53]: https://github.com/sustrik/libmill/blob/master/COPYING
-  [30-54]: https://github.com/stevedekorte/coroutine
-  [30-55]: https://github.com/parallella/pal
   [30-56]: https://github.com/parallella/pal/blob/master/LICENSE
+  [30-55]: https://github.com/parallella/pal
+  [30-54]: https://github.com/stevedekorte/coroutine
+  [30-53]: https://github.com/sustrik/libmill/blob/master/COPYING
+  [30-52]: https://github.com/sustrik/libmill
+  [30-51]: https://github.com/sustrik/libdill/blob/master/COPYING
+  [30-50]: https://github.com/sustrik/libdill
+  [30-49]: https://github.com/ramonza/libcoro/blob/master/LICENSE
+  [30-48]: https://github.com/ramonza/libcoro
+  [30-47]: https://github.com/oneoo/alilua-coevent-module/blob/master/LICENSE
+  [30-46]: https://github.com/oneoo/alilua-coevent-module
+  [30-45]: https://github.com/mbrossard/threadpool/blob/master/LICENSE
+  [30-44]: https://github.com/mbrossard/threadpool
+  [30-43]: https://github.com/matianfu/FUNK/blob/master/LICENSE
+  [30-42]: https://github.com/matianfu/FUNK
+  [30-41]: https://github.com/jtsiomb/c11threads
+  [30-40]: https://github.com/jtsiomb/c11threads
+  [30-39]: https://github.com/hnes/libaco/blob/master/LICENSE
+  [30-38]: https://github.com/hnes/libaco
+  [30-37]: https://github.com/halayli/lthread/blob/master/LICENSE
+  [30-36]: https://github.com/halayli/lthread
+  [30-35]: https://github.com/geertj/cgreenlet/blob/master/LICENSE
+  [30-34]: https://github.com/geertj/cgreenlet
+  [30-33]: https://github.com/etmc/lemon/blob/master/COPYING
+  [30-32]: https://github.com/etmc/lemon
+  [30-31]: https://github.com/concurrencykit/ck/blob/master/LICENSE
+  [30-30]: https://github.com/concurrencykit/ck
+  [30-29]: https://github.com/cloudwu/coroutine/blob/master/LICENSE
+  [30-28]: https://github.com/cloudwu/coroutine
+  [30-27]: https://github.com/bjoernknafla/peak/blob/master/COPYRIGHT.txt
+  [30-26]: https://github.com/bjoernknafla/peak
+  [30-25]: https://github.com/bjoernknafla/amp/blob/master/COPYRIGHT.txt
+  [30-24]: https://github.com/bjoernknafla/amp
+  [30-23]: https://github.com/baruch/libwire/blob/master/LICENSE
+  [30-22]: https://github.com/baruch/libwire
+  [30-21]: https://github.com/Pithikos/C-Thread-Pool/blob/master/LICENSE
+  [30-20]: https://github.com/Pithikos/C-Thread-Pool
+  [30-19]: https://github.com/tinycthread/tinycthread
+  [30-18]: https://github.com/tinycthread/tinycthread
+  [30-17]: https://en.wikipedia.org/wiki/POSIX_Threads
+  [30-16]: ftp://ftp.gnu.org/gnu/pth/
+  [30-15]: https://www.gnu.org/software/pth/
+  [30-14]: https://github.com/open-mpi/ompi/blob/master/LICENSE
+  [30-13]: https://github.com/open-mpi
+  [30-12]: https://github.com/pmodels/mpich/blob/master/COPYRIGHT
+  [30-11]: https://github.com/pmodels/mpich
+  [30-10]: http://repo.hu/projects/cchan/
+  [30-9]: http://repo.hu/projects/cchan/
+  [30-8]: http://liburcu.org/
+  [30-7]: http://liburcu.org/
+  [30-6]: https://github.com/sharow/libconcurrent/blob/master/LICENSE
+  [30-5]: https://github.com/sharow/libconcurrent
+  [30-4]: https://bitbucket.org/shlomif/fcfs-rwlock/src/65dd5211852781b82ef0fd732a0b0d542e9c726c/LICENSE?at=default&fileviewer=file-view-default
+  [30-3]: http://www.shlomifish.org/rwlock/
+  [30-2]: https://github.com/yosefk/checkedthreads/blob/master/LICENSE.txt
+  [30-1]: https://github.com/yosefk/checkedthreads
 </details>
 
 <a id="opencl"></a>
@@ -1716,16 +1717,16 @@ Incorporated lists:
   * [emrainey/OpenCL-Environment][31-9] - A series of utilities aimed at making
   OpenCL easier to use. [`Apache 2`][31-10]
 
-  [31-1]: https://github.com/fakenmc/cf4ocl
-  [31-2]: https://github.com/fakenmc/cf4ocl/blob/master/COPYING
-  [31-3]: https://github.com/clMathLibraries/clRNG
-  [31-4]: https://github.com/clMathLibraries/clRNG/blob/master/LICENSE
-  [31-5]: https://github.com/tuxfan/ocl-mla
-  [31-6]: https://github.com/tuxfan/ocl-mla/blob/master/LICENSE
-  [31-7]: https://github.com/matze/oclkit
-  [31-8]: https://github.com/matze/oclkit/blob/master/COPYING
-  [31-9]: https://github.com/emrainey/OpenCL-Environment
   [31-10]: https://github.com/emrainey/OpenCL-Environment/blob/master/LICENSE-2.0.txt
+  [31-9]: https://github.com/emrainey/OpenCL-Environment
+  [31-8]: https://github.com/matze/oclkit/blob/master/COPYING
+  [31-7]: https://github.com/matze/oclkit
+  [31-6]: https://github.com/tuxfan/ocl-mla/blob/master/LICENSE
+  [31-5]: https://github.com/tuxfan/ocl-mla
+  [31-4]: https://github.com/clMathLibraries/clRNG/blob/master/LICENSE
+  [31-3]: https://github.com/clMathLibraries/clRNG
+  [31-2]: https://github.com/fakenmc/cf4ocl/blob/master/COPYING
+  [31-1]: https://github.com/fakenmc/cf4ocl
 </details>
 
 <a id="crypto"></a>
@@ -1788,60 +1789,60 @@ Incorporated lists:
   * [wolfSSL/wolfssl][32-53] - wolfSSL (formerly CyaSSL) is a small, fast,
   portable implementation of TLS/SSL for embedded devices to the cloud. [`GPL 2`][32-54]
 
-  [32-1]: https://www.gnu.org/software/gsasl
-  [32-2]: https://www.gnu.org/software/gsasl/#TOCnews
-  [32-3]: https://github.com/aidansteele/sphlib
-  [32-4]: https://github.com/aidansteele/sphlib/blob/master/LICENSE.txt
-  [32-5]: https://www.gnutls.org/
-  [32-6]: https://www.gnutls.org/
-  [32-7]: https://gnupg.org/related_software/libgcrypt/
-  [32-8]: https://gnupg.org/related_software/libgcrypt/
-  [32-9]: https://www.openssl.org
-  [32-10]: https://www.openssl.org/source/license.txt
-  [32-11]: https://github.com/jedisct1/libsodium
-  [32-12]: https://github.com/jedisct1/libsodium/blob/master/LICENSE
-  [32-13]: https://github.com/ARMmbed/mbedtls
-  [32-14]: https://github.com/ARMmbed/mbedtls/blob/development/LICENSE
-  [32-15]: https://github.com/B-Con/crypto-algorithms
-  [32-16]: https://github.com/WickrInc/wickr-crypto-c
-  [32-17]: https://github.com/WickrInc/wickr-crypto-c/blob/master/LICENSE
-  [32-18]: https://github.com/ashwinraghav/Parallel_Open_SSL
-  [32-19]: https://github.com/ashwinraghav/Parallel_Open_SSL/blob/master/LICENSE
-  [32-20]: https://github.com/awslabs/s2n
-  [32-21]: https://github.com/awslabs/s2n/blob/master/LICENSE
-  [32-22]: https://github.com/bitcoin-core/secp256k1
-  [32-23]: https://github.com/bitcoin-core/secp256k1/blob/master/COPYING
-  [32-24]: https://github.com/cloudflare/keyless
-  [32-25]: https://github.com/cloudflare/keyless/blob/master/LICENSE
-  [32-26]: https://github.com/ctz/cifra
-  [32-27]: https://github.com/ctz/cifra/blob/master/COPYING
-  [32-28]: https://github.com/cyassl/cyassl
-  [32-29]: https://github.com/cyassl/cyassl/blob/master/COPYING
-  [32-30]: https://github.com/eduardsui/tlse
-  [32-31]: https://github.com/eduardsui/tlse/blob/master/LICENSE
-  [32-32]: https://github.com/h2o/picotls
-  [32-33]: https://github.com/h2o/picotls/blob/master/lib/picotls.c
-  [32-34]: https://github.com/jedisct1/libhydrogen
-  [32-35]: https://github.com/jedisct1/libhydrogen/blob/master/LICENSE
-  [32-36]: https://github.com/libressl-portable/openbsd
-  [32-37]: https://en.wikipedia.org/wiki/LibreSSL
-  [32-38]: https://github.com/libtom/libtomcrypt
-  [32-39]: https://github.com/libtom/libtomcrypt/blob/develop/LICENSE
-  [32-40]: https://github.com/maciejczyzewski/retter
-  [32-41]: https://github.com/mikeryan/crackle
-  [32-42]: https://github.com/mikeryan/crackle/blob/master/LICENSE
-  [32-43]: https://github.com/open-quantum-safe/liboqs
-  [32-44]: https://github.com/open-quantum-safe/liboqs/blob/master/LICENSE.txt
-  [32-45]: https://github.com/tbuktu/libntru
-  [32-46]: https://github.com/tbuktu/libntru/blob/master/LICENSE
-  [32-47]: https://github.com/trezor/trezor-crypto
-  [32-48]: https://github.com/trezor/trezor-crypto/blob/master/LICENSE
-  [32-49]: https://github.com/droe/sslsplit
-  [32-50]: https://github.com/droe/sslsplit/blob/develop/LICENSE
-  [32-51]: https://github.com/orlp/ed25519
-  [32-52]: https://github.com/orlp/ed25519/blob/master/license.txt
-  [32-53]: https://github.com/wolfSSL/wolfssl
   [32-54]: https://github.com/wolfSSL/wolfssl/blob/master/COPYING
+  [32-53]: https://github.com/wolfSSL/wolfssl
+  [32-52]: https://github.com/orlp/ed25519/blob/master/license.txt
+  [32-51]: https://github.com/orlp/ed25519
+  [32-50]: https://github.com/droe/sslsplit/blob/develop/LICENSE
+  [32-49]: https://github.com/droe/sslsplit
+  [32-48]: https://github.com/trezor/trezor-crypto/blob/master/LICENSE
+  [32-47]: https://github.com/trezor/trezor-crypto
+  [32-46]: https://github.com/tbuktu/libntru/blob/master/LICENSE
+  [32-45]: https://github.com/tbuktu/libntru
+  [32-44]: https://github.com/open-quantum-safe/liboqs/blob/master/LICENSE.txt
+  [32-43]: https://github.com/open-quantum-safe/liboqs
+  [32-42]: https://github.com/mikeryan/crackle/blob/master/LICENSE
+  [32-41]: https://github.com/mikeryan/crackle
+  [32-40]: https://github.com/maciejczyzewski/retter
+  [32-39]: https://github.com/libtom/libtomcrypt/blob/develop/LICENSE
+  [32-38]: https://github.com/libtom/libtomcrypt
+  [32-37]: https://en.wikipedia.org/wiki/LibreSSL
+  [32-36]: https://github.com/libressl-portable/openbsd
+  [32-35]: https://github.com/jedisct1/libhydrogen/blob/master/LICENSE
+  [32-34]: https://github.com/jedisct1/libhydrogen
+  [32-33]: https://github.com/h2o/picotls/blob/master/lib/picotls.c
+  [32-32]: https://github.com/h2o/picotls
+  [32-31]: https://github.com/eduardsui/tlse/blob/master/LICENSE
+  [32-30]: https://github.com/eduardsui/tlse
+  [32-29]: https://github.com/cyassl/cyassl/blob/master/COPYING
+  [32-28]: https://github.com/cyassl/cyassl
+  [32-27]: https://github.com/ctz/cifra/blob/master/COPYING
+  [32-26]: https://github.com/ctz/cifra
+  [32-25]: https://github.com/cloudflare/keyless/blob/master/LICENSE
+  [32-24]: https://github.com/cloudflare/keyless
+  [32-23]: https://github.com/bitcoin-core/secp256k1/blob/master/COPYING
+  [32-22]: https://github.com/bitcoin-core/secp256k1
+  [32-21]: https://github.com/awslabs/s2n/blob/master/LICENSE
+  [32-20]: https://github.com/awslabs/s2n
+  [32-19]: https://github.com/ashwinraghav/Parallel_Open_SSL/blob/master/LICENSE
+  [32-18]: https://github.com/ashwinraghav/Parallel_Open_SSL
+  [32-17]: https://github.com/WickrInc/wickr-crypto-c/blob/master/LICENSE
+  [32-16]: https://github.com/WickrInc/wickr-crypto-c
+  [32-15]: https://github.com/B-Con/crypto-algorithms
+  [32-14]: https://github.com/ARMmbed/mbedtls/blob/development/LICENSE
+  [32-13]: https://github.com/ARMmbed/mbedtls
+  [32-12]: https://github.com/jedisct1/libsodium/blob/master/LICENSE
+  [32-11]: https://github.com/jedisct1/libsodium
+  [32-10]: https://www.openssl.org/source/license.txt
+  [32-9]: https://www.openssl.org
+  [32-8]: https://gnupg.org/related_software/libgcrypt/
+  [32-7]: https://gnupg.org/related_software/libgcrypt/
+  [32-6]: https://www.gnutls.org/
+  [32-5]: https://www.gnutls.org/
+  [32-4]: https://github.com/aidansteele/sphlib/blob/master/LICENSE.txt
+  [32-3]: https://github.com/aidansteele/sphlib
+  [32-2]: https://www.gnu.org/software/gsasl/#TOCnews
+  [32-1]: https://www.gnu.org/software/gsasl
 </details>
 
 <a id="databases"></a>
@@ -1880,42 +1881,42 @@ Incorporated lists:
   Oracle databases. [`Apache 2`][33-34]
   * [symisc/vedis][33-35] - An Embedded Implementation of Redis. [`License`][33-36]
 
-  [33-1]: https://github.com/priitj/whitedb
-  [33-2]: https://github.com/priitj/whitedb/blob/master/COPYING
-  [33-3]: https://github.com/mongodb/mongo-c-driver
-  [33-4]: https://github.com/mongodb/mongo-c-driver/blob/master/COPYING
-  [33-5]: https://www.sqlite.org/about.html
-  [33-6]: https://www.sqlite.org/copyright.html
-  [33-7]: https://github.com/symisc/unqlite
-  [33-8]: https://github.com/symisc/unqlite/blob/master/LICENSE
-  [33-9]: https://github.com/Akash91/CoSQL
-  [33-10]: https://github.com/GNOME/libgda
-  [33-11]: https://github.com/GNOME/libgda/blob/master/COPYING
-  [33-12]: https://github.com/Softmotions/ejdb
-  [33-13]: https://github.com/Softmotions/ejdb/blob/master/LICENSE
-  [33-14]: https://github.com/aerospike/aerospike-client-c
-  [33-15]: https://github.com/aerospike/aerospike-client-c/blob/master/LICENSE.md
-  [33-16]: https://github.com/bcmpinc/dagdb
-  [33-17]: https://github.com/bcmpinc/dagdb/blob/master/LICENSE
-  [33-18]: https://github.com/maciejczyzewski/hashbase
-  [33-19]: https://github.com/maciejczyzewski/hashbase/blob/master/LICENSE
-  [33-20]: https://github.com/maxmind/libmaxminddb
-  [33-21]: https://github.com/maxmind/libmaxminddb/blob/master/LICENSE
-  [33-22]: https://github.com/pmwkaa/sophia
-  [33-23]: https://github.com/pmwkaa/sophia/blob/master/LICENSE
-  [33-24]: https://github.com/redis/hiredis
-  [33-25]: https://github.com/redis/hiredis/blob/master/COPYING
-  [33-26]: https://github.com/seppo0010/rlite
-  [33-27]: https://github.com/seppo0010/rlite/blob/master/LICENSE
-  [33-28]: https://github.com/sqlcipher/sqlcipher
-  [33-29]: https://github.com/sqlcipher/sqlcipher/blob/master/LICENSE
-  [33-30]: https://github.com/tglman/orientdb-c
-  [33-31]: https://github.com/spotify/sparkey
-  [33-32]: https://github.com/spotify/sparkey/blob/master/LICENSE
-  [33-33]: https://github.com/vrogier/ocilib
-  [33-34]: https://github.com/vrogier/ocilib/blob/master/LICENSE
-  [33-35]: https://github.com/symisc/vedis
   [33-36]: https://github.com/symisc/vedis/blob/master/license.txt
+  [33-35]: https://github.com/symisc/vedis
+  [33-34]: https://github.com/vrogier/ocilib/blob/master/LICENSE
+  [33-33]: https://github.com/vrogier/ocilib
+  [33-32]: https://github.com/spotify/sparkey/blob/master/LICENSE
+  [33-31]: https://github.com/spotify/sparkey
+  [33-30]: https://github.com/tglman/orientdb-c
+  [33-29]: https://github.com/sqlcipher/sqlcipher/blob/master/LICENSE
+  [33-28]: https://github.com/sqlcipher/sqlcipher
+  [33-27]: https://github.com/seppo0010/rlite/blob/master/LICENSE
+  [33-26]: https://github.com/seppo0010/rlite
+  [33-25]: https://github.com/redis/hiredis/blob/master/COPYING
+  [33-24]: https://github.com/redis/hiredis
+  [33-23]: https://github.com/pmwkaa/sophia/blob/master/LICENSE
+  [33-22]: https://github.com/pmwkaa/sophia
+  [33-21]: https://github.com/maxmind/libmaxminddb/blob/master/LICENSE
+  [33-20]: https://github.com/maxmind/libmaxminddb
+  [33-19]: https://github.com/maciejczyzewski/hashbase/blob/master/LICENSE
+  [33-18]: https://github.com/maciejczyzewski/hashbase
+  [33-17]: https://github.com/bcmpinc/dagdb/blob/master/LICENSE
+  [33-16]: https://github.com/bcmpinc/dagdb
+  [33-15]: https://github.com/aerospike/aerospike-client-c/blob/master/LICENSE.md
+  [33-14]: https://github.com/aerospike/aerospike-client-c
+  [33-13]: https://github.com/Softmotions/ejdb/blob/master/LICENSE
+  [33-12]: https://github.com/Softmotions/ejdb
+  [33-11]: https://github.com/GNOME/libgda/blob/master/COPYING
+  [33-10]: https://github.com/GNOME/libgda
+  [33-9]: https://github.com/Akash91/CoSQL
+  [33-8]: https://github.com/symisc/unqlite/blob/master/LICENSE
+  [33-7]: https://github.com/symisc/unqlite
+  [33-6]: https://www.sqlite.org/copyright.html
+  [33-5]: https://www.sqlite.org/about.html
+  [33-4]: https://github.com/mongodb/mongo-c-driver/blob/master/COPYING
+  [33-3]: https://github.com/mongodb/mongo-c-driver
+  [33-2]: https://github.com/priitj/whitedb/blob/master/COPYING
+  [33-1]: https://github.com/priitj/whitedb
 </details>
 
 <a id="data-structures"></a>
@@ -2019,96 +2020,103 @@ Incorporated lists:
   * [Snaipe/libcsptr](https://github.com/Snaipe/libcsptr) - Smart pointers in C
   * [C-Macro-Collections](https://github.com/LeoVen/C-Macro-Collections) - Generate simple and generic data structures using macros. [``MIT``][MIT]
 
-  [34-1]: https://github.com/recp/ds
-  [34-2]: https://github.com/recp/ds/blob/master/LICENSE
-  [34-3]: https://github.com/P-p-H-d/mlib
-  [34-4]: https://github.com/P-p-H-d/mlib/blob/master/LICENSE
-  [34-5]: https://github.com/faragon/libsrt
-  [34-6]: https://github.com/faragon/libsrt/blob/master/LICENSE
-  [34-7]: https://github.com/nbulischeck/list.h
-  [34-8]: https://github.com/nbulischeck/list.h/blob/master/LICENSE
-  [34-9]: https://github.com/gpakosz/PackedArray
-  [34-10]: https://github.com/gpakosz/PackedArray/blob/master/LICENSE
-  [34-11]: https://github.com/swenson/vector.h
-  [34-12]: https://github.com/swenson/vector.h/blob/master/LICENSE
-  [34-13]: https://github.com/20centaurifux/datatypes
-  [34-14]: https://github.com/20centaurifux/datatypes/blob/master/COPYING
-  [34-15]: https://github.com/ClickerMonkey/CDSL
-  [34-16]: https://github.com/ClickerMonkey/CDSL/blob/master/lib/vector.c
-  [34-17]: https://github.com/Incarnation-p-lee/libds
-  [34-18]: https://github.com/Incarnation-p-lee/libds/blob/master/LICENSE
-  [34-19]: https://github.com/LPD-EPFL/ASCYLIB
-  [34-20]: https://github.com/LPD-EPFL/ASCYLIB/blob/master/LICENSE
-  [34-21]: https://github.com/MichaelJWelsh/cdsa
-  [34-22]: https://github.com/MichaelJWelsh/cdsa/blob/master/LICENSE
-  [34-23]: https://github.com/ZSShen/C-Common-Data-Structures
-  [34-24]: https://github.com/agl/critbit
-  [34-25]: https://github.com/antirez/rax
-  [34-26]: https://github.com/antirez/rax/blob/master/COPYING
-  [34-27]: https://github.com/armon/libart
-  [34-28]: https://github.com/armon/libart/blob/master/LICENSE
-  [34-29]: https://github.com/ashinkarov/trie
-  [34-30]: https://github.com/ashinkarov/trie/blob/master/trie.h
-  [34-31]: https://github.com/bcopeland/em_misc
-  [34-32]: https://github.com/begeekmyfriend/bplustree
-  [34-33]: https://github.com/begeekmyfriend/bplustree/blob/disk-io/LICENSE
-  [34-34]: https://github.com/chrismoos/hash-ring
-  [34-35]: https://github.com/chrismoos/hash-ring/blob/master/LICENSE
-  [34-36]: https://github.com/chriso/bitset
-  [34-37]: https://github.com/chriso/bitset#license
-  [34-38]: https://github.com/codeprepper/data-structures
-  [34-39]: https://github.com/codeprepper/data-structures/blob/master/LICENSE
-  [34-40]: https://github.com/dminor/skip-quadtree
-  [34-41]: https://github.com/dminor/skip-quadtree/blob/master/include/quadtree.h
-  [34-42]: https://github.com/douglascrockford/DEC64
-  [34-43]: https://github.com/fmela/libdict
-  [34-44]: https://github.com/fmela/libdict/blob/master/LICENSE
-  [34-45]: https://github.com/fragglet/c-algorithms
-  [34-46]: https://github.com/fragglet/c-algorithms/blob/master/COPYING
-  [34-47]: https://github.com/gnudennis/ds_c
-  [34-48]: https://github.com/graphitemaster/libintrusive
-  [34-49]: https://github.com/graphitemaster/libintrusive/blob/master/LICENSE
-  [34-50]: https://github.com/grundprinzip/bitcompressedvector
-  [34-51]: https://github.com/grundprinzip/bitcompressedvector#licence
-  [34-52]: https://github.com/hacatu/haclib
-  [34-53]: https://github.com/hacatu/haclib/blob/master/LICENSE.txt
-  [34-54]: https://github.com/hypirion/c-rrb
-  [34-55]: https://github.com/hypirion/c-rrb/blob/development/COPYING
-  [34-56]: https://github.com/hypirion/roulette-tree
-  [34-57]: https://github.com/hypirion/roulette-tree/blob/master/COPYING
-  [34-58]: https://github.com/jarun/dslib
-  [34-59]: https://github.com/jarun/dslib/blob/master/LICENSE
-  [34-60]: https://github.com/johnj/llds
-  [34-61]: https://github.com/johnj/llds/blob/master/LICENSE
-  [34-62]: https://github.com/jtsiomb/kdtree
-  [34-63]: https://github.com/jtsiomb/kdtree/blob/master/COPYING
-  [34-64]: https://github.com/jvirkki/libbloom
-  [34-65]: https://github.com/jvirkki/libbloom/blob/master/LICENSE
-  [34-66]: https://github.com/ksheedlo/kmdata
-  [34-67]: https://github.com/louiswins/RB-Tree
-  [34-68]: https://github.com/livioso/datastructures-in-C
-  [34-69]: https://github.com/malbrain/Btree-source-code
-  [34-70]: https://github.com/malbrain/Btree-source-code/blob/master/btree2/btree2v.c
-  [34-71]: https://github.com/michaeltyson/TPCircularBuffer
-  [34-72]: https://github.com/michaeltyson/TPCircularBuffer/blob/master/TPCircularBuffer.c
-  [34-73]: https://github.com/mikedlowis/libcds
-  [34-74]: https://github.com/mikedlowis/libcds/blob/master/LICENSE.md
-  [34-75]: https://github.com/naraing/dsLib
-  [34-76]: https://github.com/naraing/dsLib/blob/master/COPYING
-  [34-77]: https://github.com/noporpoise/BitArray
-  [34-78]: https://github.com/noporpoise/BitArray/blob/master/LICENSE
-  [34-79]: https://github.com/orangejulius/cs_fundamentals
-  [34-80]: https://github.com/orangejulius/cs_fundamentals/blob/master/COPYING
-  [34-81]: https://github.com/asmuth-archive/libsmatrix
-  [34-82]: https://github.com/asmuth-archive/libsmatrix/blob/master/src/smatrix.c
-  [34-83]: https://github.com/pcdavid/data-structures
-  [34-84]: https://github.com/pcdavid/data-structures/blob/master/COPYING
-  [34-85]: https://github.com/petewarden/c_hashmap
-  [34-86]: https://github.com/petewarden/c_hashmap/blob/master/License.md
-  [34-87]: https://github.com/rxi/map
-  [34-88]: https://github.com/rxi/map/blob/master/LICENSE
-  [34-89]: https://github.com/rxi/vec
+  [34-97]: https://github.com/wasabiz/xrope
+  [34-96]: https://github.com/steven-schronk/C-Data-Structures/blob/master/COPYING
+  [34-95]: https://github.com/steven-schronk/C-Data-Structures
+  [34-94]: https://github.com/srdja/Collections-C/blob/master/COPYING
+  [34-93]: https://github.com/srdja/Collections-C
+  [34-92]: https://github.com/siganakis/tny/blob/master/src/main.c
+  [34-91]: https://github.com/siganakis/tny
   [34-90]: https://github.com/rxi/vec/blob/master/LICENSE
+  [34-89]: https://github.com/rxi/vec
+  [34-88]: https://github.com/rxi/map/blob/master/LICENSE
+  [34-87]: https://github.com/rxi/map
+  [34-86]: https://github.com/petewarden/c_hashmap/blob/master/License.md
+  [34-85]: https://github.com/petewarden/c_hashmap
+  [34-84]: https://github.com/pcdavid/data-structures/blob/master/COPYING
+  [34-83]: https://github.com/pcdavid/data-structures
+  [34-82]: https://github.com/asmuth-archive/libsmatrix/blob/master/src/smatrix.c
+  [34-81]: https://github.com/asmuth-archive/libsmatrix
+  [34-80]: https://github.com/orangejulius/cs_fundamentals/blob/master/COPYING
+  [34-79]: https://github.com/orangejulius/cs_fundamentals
+  [34-78]: https://github.com/noporpoise/BitArray/blob/master/LICENSE
+  [34-77]: https://github.com/noporpoise/BitArray
+  [34-76]: https://github.com/naraing/dsLib/blob/master/COPYING
+  [34-75]: https://github.com/naraing/dsLib
+  [34-74]: https://github.com/mikedlowis/libcds/blob/master/LICENSE.md
+  [34-73]: https://github.com/mikedlowis/libcds
+  [34-72]: https://github.com/michaeltyson/TPCircularBuffer/blob/master/TPCircularBuffer.c
+  [34-71]: https://github.com/michaeltyson/TPCircularBuffer
+  [34-70]: https://github.com/malbrain/Btree-source-code/blob/master/btree2/btree2v.c
+  [34-69]: https://github.com/malbrain/Btree-source-code
+  [34-68]: https://github.com/livioso/datastructures-in-C
+  [34-67]: https://github.com/louiswins/RB-Tree
+  [34-66]: https://github.com/ksheedlo/kmdata
+  [34-65]: https://github.com/jvirkki/libbloom/blob/master/LICENSE
+  [34-64]: https://github.com/jvirkki/libbloom
+  [34-63]: https://github.com/jtsiomb/kdtree/blob/master/COPYING
+  [34-62]: https://github.com/jtsiomb/kdtree
+  [34-61]: https://github.com/johnj/llds/blob/master/LICENSE
+  [34-60]: https://github.com/johnj/llds
+  [34-59]: https://github.com/jarun/dslib/blob/master/LICENSE
+  [34-58]: https://github.com/jarun/dslib
+  [34-57]: https://github.com/hypirion/roulette-tree/blob/master/COPYING
+  [34-56]: https://github.com/hypirion/roulette-tree
+  [34-55]: https://github.com/hypirion/c-rrb/blob/development/COPYING
+  [34-54]: https://github.com/hypirion/c-rrb
+  [34-53]: https://github.com/hacatu/haclib/blob/master/LICENSE.txt
+  [34-52]: https://github.com/hacatu/haclib
+  [34-51]: https://github.com/grundprinzip/bitcompressedvector#licence
+  [34-50]: https://github.com/grundprinzip/bitcompressedvector
+  [34-49]: https://github.com/graphitemaster/libintrusive/blob/master/LICENSE
+  [34-48]: https://github.com/graphitemaster/libintrusive
+  [34-47]: https://github.com/gnudennis/ds_c
+  [34-46]: https://github.com/fragglet/c-algorithms/blob/master/COPYING
+  [34-45]: https://github.com/fragglet/c-algorithms
+  [34-44]: https://github.com/fmela/libdict/blob/master/LICENSE
+  [34-43]: https://github.com/fmela/libdict
+  [34-42]: https://github.com/douglascrockford/DEC64
+  [34-41]: https://github.com/dminor/skip-quadtree/blob/master/include/quadtree.h
+  [34-40]: https://github.com/dminor/skip-quadtree
+  [34-39]: https://github.com/codeprepper/data-structures/blob/master/LICENSE
+  [34-38]: https://github.com/codeprepper/data-structures
+  [34-37]: https://github.com/chriso/bitset#license
+  [34-36]: https://github.com/chriso/bitset
+  [34-35]: https://github.com/chrismoos/hash-ring/blob/master/LICENSE
+  [34-34]: https://github.com/chrismoos/hash-ring
+  [34-33]: https://github.com/begeekmyfriend/bplustree/blob/disk-io/LICENSE
+  [34-32]: https://github.com/begeekmyfriend/bplustree
+  [34-31]: https://github.com/bcopeland/em_misc
+  [34-30]: https://github.com/ashinkarov/trie/blob/master/trie.h
+  [34-29]: https://github.com/ashinkarov/trie
+  [34-28]: https://github.com/armon/libart/blob/master/LICENSE
+  [34-27]: https://github.com/armon/libart
+  [34-26]: https://github.com/antirez/rax/blob/master/COPYING
+  [34-25]: https://github.com/antirez/rax
+  [34-24]: https://github.com/agl/critbit
+  [34-23]: https://github.com/ZSShen/C-Common-Data-Structures
+  [34-22]: https://github.com/MichaelJWelsh/cdsa/blob/master/LICENSE
+  [34-21]: https://github.com/MichaelJWelsh/cdsa
+  [34-20]: https://github.com/LPD-EPFL/ASCYLIB/blob/master/LICENSE
+  [34-19]: https://github.com/LPD-EPFL/ASCYLIB
+  [34-18]: https://github.com/Incarnation-p-lee/libds/blob/master/LICENSE
+  [34-17]: https://github.com/Incarnation-p-lee/libds
+  [34-16]: https://github.com/ClickerMonkey/CDSL/blob/master/lib/vector.c
+  [34-15]: https://github.com/ClickerMonkey/CDSL
+  [34-14]: https://github.com/20centaurifux/datatypes/blob/master/COPYING
+  [34-13]: https://github.com/20centaurifux/datatypes
+  [34-12]: https://github.com/swenson/vector.h/blob/master/LICENSE
+  [34-11]: https://github.com/swenson/vector.h
+  [34-10]: https://github.com/gpakosz/PackedArray/blob/master/LICENSE
+  [34-9]: https://github.com/gpakosz/PackedArray
+  [34-8]: https://github.com/nbulischeck/list.h/blob/master/LICENSE
+  [34-7]: https://github.com/nbulischeck/list.h
+  [34-6]: https://github.com/faragon/libsrt/blob/master/LICENSE
+  [34-5]: https://github.com/faragon/libsrt
+  [34-4]: https://github.com/P-p-H-d/mlib/blob/master/LICENSE
+  [34-3]: https://github.com/P-p-H-d/mlib
+  [34-2]: https://github.com/recp/ds/blob/master/LICENSE
+  [34-1]: https://github.com/recp/ds
 </details>
 
 ## Events ##
@@ -3075,6 +3083,7 @@ Audio and video processing
 * [harnold/generic-c](https://github.com/harnold/generic-c) - A library of generic data structures and algorithms for C, in the spirit of the STL
 * [pforemski/libpjf](https://github.com/pforemski/libpjf) - A C library of data structures with tools (based on libasn)
 * [rgantt/compsci.c](https://github.com/rgantt/compsci.c) - data structures, algorithms, and musings in C
+* [stevedekorte/basekit](https://github.com/stevedekorte/basekit) - C based OO portable data structure library
 
 ## Scientific ##
 Math mostly located in *Calculations* category
