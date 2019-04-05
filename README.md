@@ -1970,15 +1970,12 @@ Incorporated lists:
   * [hacatu/haclib][34-52] - A utility library providing data types C should
   have been made with such as vectors and sequences, mostly as macros. [`MPL 2`][34-53]
   * [hyPiRion/c-rrb][34-54] - RRB-tree implemented as a library in C. [`MIT`][34-55]
-  * [hyPiRion/persistencia](https://github.com/hyPiRion/persistencia) - Repository with implementations to understand persistent data structures.
-  * [hyPiRion/roulette-tree](https://github.com/hyPiRion/roulette-tree) - Data structure for efficient fitness-proportionate selection.
-  * [igorsobreira/iclib](https://github.com/igorsobreira/iclib) - Library with useful C data structures
-  * [jaimz/core_ds](https://github.com/jaimz/core_ds) - Simple C data structure library
-  * [jarun/dslib](https://github.com/jarun/dslib) - A library of handy data structures
-  * [johnj/llds](https://github.com/johnj/llds) - Low-Level Data Structure - efficient data structures, and fast data access in the 2.6/3.0 kernel
-  * [joshdk/libmap](https://github.com/joshdk/libmap) - A map (data structure) library written in c
-  * [jtsiomb/kdtree](https://github.com/jtsiomb/kdtree) - A simple C library for working with KD-Trees
-  * [jsvennevid/filearchive](https://github.com/jsvennevid/filearchive) - File archive library allowing for easy creation and access to data stored inside a container through a simple API.
+  * [hyPiRion/roulette-tree][34-56] - Data structure for efficient
+  fitness-proportionate selection. [`MIT`][34-57]
+  * [jarun/dslib][34-58] - A library of handy data structures. [`GPL 3`][34-58]
+  * [johnj/llds][34-60] - Low-Level Data Structure - efficient data structures,
+  and fast data access in the 2.6/3.0 kernel. [`License`][34-61]
+  * [jtsiomb/kdtree][34-62] - A simple C library for working with KD-Trees. [`License`][34-63]
   * [jvirkki/libbloom](https://github.com/jvirkki/libbloom) - A simple and small bloom filter implementation in plain C.
   * [ksheedlo/kmdata](https://github.com/ksheedlo/kmdata) - Data structures for C programmers, by C programmers.
   * [louiswins/RB-Tree](https://github.com/louiswins/RB-Tree) - An implementation of the Red-Black Tree data structure.
@@ -2086,6 +2083,14 @@ Incorporated lists:
   [34-53]: https://github.com/hacatu/haclib/blob/master/LICENSE.txt
   [34-54]: https://github.com/hypirion/c-rrb
   [34-55]: https://github.com/hypirion/c-rrb/blob/development/COPYING
+  [34-56]: https://github.com/hypirion/roulette-tree
+  [34-57]: https://github.com/hypirion/roulette-tree/blob/master/COPYING
+  [34-58]: https://github.com/jarun/dslib
+  [34-59]: https://github.com/jarun/dslib/blob/master/LICENSE
+  [34-60]: https://github.com/johnj/llds
+  [34-61]: https://github.com/johnj/llds/blob/master/LICENSE
+  [34-62]: https://github.com/jtsiomb/kdtree
+  [34-63]: https://github.com/jtsiomb/kdtree/blob/master/COPYING
 </details>
 
 ## Events ##
@@ -2583,6 +2588,7 @@ can be found in the Crypto section.
 * [reverbrain/smack](https://github.com/reverbrain/smack) - Low-level IO storage which packs data into sorted (zlib/bzip2/snappy compressed) blobs
 * [tronkko/dirent](https://github.com/tronkko/dirent) - C/C++ library for retrieving information on files and directories
 * [vi/fdlinecombine](https://github.com/vi/fdlinecombine) - Read multiple fds and print data to stdout linewise.
+* [jsvennevid/filearchive](https://github.com/jsvennevid/filearchive) - File archive library allowing for easy creation and access to data stored inside a container through a simple API.
 
 ## Lexing and Parsing ##
 Generic lexers and parsers
