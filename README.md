@@ -2021,7 +2021,6 @@ Incorporated lists:
   * [C-Macro-Collections][34-113] - Generate simple and generic data structures
   using macros. [`MIT`][34-114]
 
-  []
   [34-114]: https://github.com/LeoVen/C-Macro-Collections/blob/master/LICENSE
   [34-113]: https://github.com/LeoVen/C-Macro-Collections
   [34-112]: https://github.com/Snaipe/libcsptr/blob/master/LICENSE
