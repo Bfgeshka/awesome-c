@@ -2001,15 +2001,10 @@ Incorporated lists:
   * [petewarden/c_hashmap][34-85] - A simple string hashmap in C. [`Public domain`][34-86]
   * [rxi/map][34-87] - A type-safe hash map implementation for C. [`MIT`][34-88]
   * [rxi/vec][34-89] - A type-safe dynamic array implementation for C. [`MIT`][34-90]
-  * [siganakis/tny](https://github.com/siganakis/tny) - Tiny data structures that pack a punch!
-  * [smtlaissezfaire/c_type_sizes](https://github.com/smtlaissezfaire/c_type_sizes) - show the sizes of C data types
-  * [srdja/Collections-C](https://github.com/srdja/Collections-C) - A library of generic data structures.
-  * [starnight/simple-data-structure](https://github.com/starnight/simple-data-structure) - Simple Data Structure library
-  * [steven-schronk/C-Data-Structures](https://github.com/steven-schronk/C-Data-Structures) - Collection of basic data structures in C.
-  * [wasabiz/xrope](https://github.com/wasabiz/xrope) - rope data structure
-  * [stevedekorte/basekit](https://github.com/stevedekorte/basekit) - C based OO portable data structure library
-  * [theck01/offbrand_lib](https://github.com/theck01/offbrand_lib) - A collecton of generic reference counted data structures, tools to create compatible C style classes, and demo applications
-  * [tiancaiamao/datastruct](https://github.com/tiancaiamao/datastruct) - some useful data struct piece of code
+  * [siganakis/tny][34-91] - Tiny data structures that pack a punch! [`License`][34-92]
+  * [srdja/Collections-C][34-93] - A library of generic data structures. [`LGPL 3`][34-94]
+  * [steven-schronk/C-Data-Structures][34-95] - Collection of basic data structures in C. [`GPL 3`][34-96]
+  * [wasabiz/xrope][34-97] - rope data structure. `No license`
   * [torch/tds](https://github.com/torch/tds) - Torch C data structures
   * [troydhanson/uthash](https://github.com/troydhanson/uthash) - C macros for hash tables and more
   * [watmough/jwHash](https://github.com/watmough/jwHash) - Simple hash table implementation for C.
