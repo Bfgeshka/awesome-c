@@ -1946,7 +1946,7 @@ Incorporated lists:
   manipulation. `No license`
   * [agl/critbit][34-24] - Critbit trees in C. `No license`
   * [antirez/rax][34-25] - A radix tree implementation in ANSI C. [`BSD 2-Clause`][34-26]
-  * [armon/libart][34-27] - Adaptive Radix Trees implemented in C. [`BSD 3-Clause][34-28]
+  * [armon/libart][34-27] - Adaptive Radix Trees implemented in C. [`BSD 3-Clause`][34-28]
   * [arnimarj/py-pointless](https://github.com/arnimarj/py-pointless) - A fast and efficient read-only relocatable data structure for JSON like data, with C and Python APIs
   * [ashinkarov/trie](https://github.com/ashinkarov/trie) - Simple implementation of trie data structure in C
   * [bcopeland/em_misc](https://github.com/bcopeland/em_misc) - external memory data structure playground
