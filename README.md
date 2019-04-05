@@ -726,7 +726,9 @@ Incorporated lists:
   * [C FAQ - comp.lang.c Frequently Asked Questions][17-19]
   * [Akagi201/learning-cmake][17-20] - CMake examples
   * [Let's build a database][17-21]
+  * [nikhilm/uvbook][17-22] - An Introduction to libuv
 
+  [17-22]: https://github.com/nikhilm/uvbook
   [17-21]: https://cstack.github.io/db_tutorial/
   [17-20]: https://github.com/Akagi201/learning-cmake
   [17-19]: http://c-faq.com/
@@ -2145,13 +2147,13 @@ Incorporated lists:
   * [libev][35-1] - Yet another event loop. [`BSD 2-Clause`][35-2]
   * [libevent][35-3] - Event loop replacement for network servers. [`BSD 3-Clause`][35-4]
   * [Lupus/libevfibers][35-5] - Small C fiber library that uses libev based event loop and libcoro based coroutine context switching. [`Apache 2`][35-6]
-  * [facebook/libphenom](https://github.com/facebook/libphenom) - An eventing framework for building high performance and high scalability systems in C.
-  * [joyent/libuv](https://github.com/joyent/libuv) - Go to
-  * [libuv/libuv](https://github.com/libuv/libuv) - Cross-platform asychronous I/O
-  * [nmathewson/Libevent](https://github.com/nmathewson/Libevent) - Nick's public libevent repository.  The official repository is at         git://levent.git.sourceforge.net/gitroot/levent/libevent
-  * [douban/greenify](https://github.com/douban/greenify) - Make blocking C library work with gevent
-  * [nikhilm/uvbook](https://github.com/nikhilm/uvbook) - An Introduction to libuv
+  * [facebook/libphenom][35-7] - An eventing framework for building high performance and high scalability systems in C. [`Apache 2`][35-8]
+  * [libuv/libuv][35-9] - Cross-platform asychronous I/O. [`Licenses`][35-10]
 
+  [35-10]: https://github.com/libuv/libuv/blob/v1.x/LICENSE
+  [35-9]: https://github.com/libuv/libuv
+  [35-8]: https://github.com/facebookarchive/libphenom/blob/master/LICENSE
+  [35-7]: https://github.com/facebookarchive/libphenom/
   [35-6]: https://github.com/Lupus/libevfibers/blob/master/LICENSE
   [35-5]: https://github.com/Lupus/libevfibers
   [35-4]: http://libevent.org/LICENSE.txt
