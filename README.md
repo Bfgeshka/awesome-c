@@ -2137,16 +2137,28 @@ Incorporated lists:
   [34-1]: https://github.com/recp/ds
 </details>
 
-## Events ##
-* [libev][399] - Yet another event loop. [``BSD-2-Clause``][BSD-2-Clause]
-* [libevent][400] - Event loop replacement for network servers. [``BSD-3-Clause``][BSD-3-Clause]
-* [Lupus/libevfibers](https://github.com/Lupus/libevfibers) - Small C fiber library that uses libev based event loop and libcoro based coroutine context switching.
-* [facebook/libphenom](https://github.com/facebook/libphenom) - An eventing framework for building high performance and high scalability systems in C.
-* [joyent/libuv](https://github.com/joyent/libuv) - Go to
-* [libuv/libuv](https://github.com/libuv/libuv) - Cross-platform asychronous I/O
-* [nmathewson/Libevent](https://github.com/nmathewson/Libevent) - Nick's public libevent repository.  The official repository is at         git://levent.git.sourceforge.net/gitroot/levent/libevent
-* [douban/greenify](https://github.com/douban/greenify) - Make blocking C library work with gevent
-* [nikhilm/uvbook](https://github.com/nikhilm/uvbook) - An Introduction to libuv
+<a id="events"></a>
+<details>
+  <summary>Events</summary>
+
+  ## <a href="#-">`^`</a> Events ##
+  * [libev][35-1] - Yet another event loop. [`BSD 2-Clause`][35-2]
+  * [libevent][35-3] - Event loop replacement for network servers. [`BSD 3-Clause`][35-4]
+  * [Lupus/libevfibers][35-5] - Small C fiber library that uses libev based event loop and libcoro based coroutine context switching. [`Apache 2`][35-6]
+  * [facebook/libphenom](https://github.com/facebook/libphenom) - An eventing framework for building high performance and high scalability systems in C.
+  * [joyent/libuv](https://github.com/joyent/libuv) - Go to
+  * [libuv/libuv](https://github.com/libuv/libuv) - Cross-platform asychronous I/O
+  * [nmathewson/Libevent](https://github.com/nmathewson/Libevent) - Nick's public libevent repository.  The official repository is at         git://levent.git.sourceforge.net/gitroot/levent/libevent
+  * [douban/greenify](https://github.com/douban/greenify) - Make blocking C library work with gevent
+  * [nikhilm/uvbook](https://github.com/nikhilm/uvbook) - An Introduction to libuv
+
+  [35-6]: https://github.com/Lupus/libevfibers/blob/master/LICENSE
+  [35-5]: https://github.com/Lupus/libevfibers
+  [35-4]: http://libevent.org/LICENSE.txt
+  [35-3]: http://libevent.org/
+  [35-2]: http://cvs.schmorp.de/libev/LICENSE?view=markup
+  [35-1]: http://software.schmorp.de/pkg/libev.html
+</details>
 
 ## FFI ##
 Foreign function interfaces, also know as binding interfaces.
@@ -3393,8 +3405,6 @@ Comprehensive and integrated solutions for building web application in C.
 [402]: https://github.com/dmw/caffeine
 [401]: http://savannah.nongnu.org/projects/attr/
 
-[400]: http://libevent.org/
-[399]: http://software.schmorp.de/pkg/libev.html
 [398]: http://facebook.github.io/libphenom/index.html
 [397]: http://libuv.org
 
