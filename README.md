@@ -1990,17 +1990,15 @@ Incorporated lists:
   implementation. [`License`][34-72]
   * [mikedlowis/data-structures][34-73] - A collection of data structures
   implemented in C to be included in multiple projects. [`BSD 2-Clause`][34-74]
-  * [naraing/dsLib](https://github.com/naraing/dsLib) - An algorithm library with core data-sttructures and common algortihm implementations on those data structures
-  * [natehardison/data-structures](https://github.com/natehardison/data-structures) - A bunch of data structure implementations, just for fun.
-  * [noporpoise/BitArray](https://github.com/noporpoise/BitArray) - C bit array structs and methods
-  * [noporpoise/madcrowlib](https://github.com/noporpoise/madcrowlib) - Common C data structure macros
-  * [orangejulius/cs_fundamentals](https://github.com/orangejulius/cs_fundamentals) - simple implementations of common data structures/algorithms
-  * [paulasmuth/libsmatrix](https://github.com/paulasmuth/libsmatrix) - thread-safe sparse matrix data structure
-  * [pcdavid/data-structures](https://github.com/pcdavid/data-structures) - Sample implementations of classical data structures in C.
-  * [pcostesi/c-data-structures](https://github.com/pcostesi/c-data-structures) - Simple Data Structures
-  * [petewarden/c_hashmap](https://github.com/petewarden/c_hashmap) - A simple string hashmap in C
-  * [pforemski/libpjf](https://github.com/pforemski/libpjf) - A C library of data structures with tools (based on libasn)
-  * [pi8027/libdatastruct](https://github.com/pi8027/libdatastruct) - libdatastruct is an ANSI C library for abstract data types.
+  * [naraing/dsLib][34-75] - An algorithm library with core data-sttructures and
+  common algortihm implementations on those data structures. [`GPL 3`][34-76]
+  * [noporpoise/BitArray][34-77] - C bit array structs and methods. [`License`][34-78]
+  * [orangejulius/cs_fundamentals][34-79] - simple implementations of common
+  data structures/algorithms. [`GPL 3`][34-80]
+  * [paulasmuth/libsmatrix][34-81] - thread-safe sparse matrix data structure. [`MIT`][34-82]
+  * [pcdavid/data-structures][34-83] - Sample implementations of classical data
+  structures in C. [`WTFPL`][34-84]
+  * [petewarden/c_hashmap][34-85] - A simple string hashmap in C. [`Public domain`][34-86]
   * [pseudomuto/c-data-structures](https://github.com/pseudomuto/c-data-structures) - A simple library of data structures for C
   * [questor/ringbuffer](https://github.com/questor/ringbuffer) - simple ringbuffer with possibility to get all data and/or only updates
   * [r-medina/ll](https://github.com/r-medina/ll) - Thread safe linked list data structure for C
@@ -2107,6 +2105,18 @@ Incorporated lists:
   [34-72]: https://github.com/michaeltyson/TPCircularBuffer/blob/master/TPCircularBuffer.c
   [34-73]: https://github.com/mikedlowis/libcds
   [34-74]: https://github.com/mikedlowis/libcds/blob/master/LICENSE.md
+  [34-75]: https://github.com/naraing/dsLib
+  [34-76]: https://github.com/naraing/dsLib/blob/master/COPYING
+  [34-77]: https://github.com/noporpoise/BitArray
+  [34-78]: https://github.com/noporpoise/BitArray/blob/master/LICENSE
+  [34-79]: https://github.com/orangejulius/cs_fundamentals
+  [34-80]: https://github.com/orangejulius/cs_fundamentals/blob/master/COPYING
+  [34-81]: https://github.com/asmuth-archive/libsmatrix
+  [34-82]: https://github.com/asmuth-archive/libsmatrix/blob/master/src/smatrix.c
+  [34-83]: https://github.com/pcdavid/data-structures
+  [34-84]: https://github.com/pcdavid/data-structures/blob/master/COPYING
+  [34-85]: https://github.com/petewarden/c_hashmap
+  [34-86]: https://github.com/petewarden/c_hashmap/blob/master/License.md
 </details>
 
 ## Events ##
@@ -3071,6 +3081,7 @@ Audio and video processing
 * [Krakonos/cutils](https://github.com/Krakonos/cutils) - C utilities and data structures
 * [angelortega/mpdm](https://github.com/angelortega/mpdm) - Minimum Profit Data Manager
 * [harnold/generic-c](https://github.com/harnold/generic-c) - A library of generic data structures and algorithms for C, in the spirit of the STL
+* [pforemski/libpjf](https://github.com/pforemski/libpjf) - A C library of data structures with tools (based on libasn)
 
 ## Scientific ##
 Math mostly located in *Calculations* category
