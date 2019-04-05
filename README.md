@@ -2004,22 +2004,41 @@ Incorporated lists:
   * [rxi/vec][34-89] - A type-safe dynamic array implementation for C. [`MIT`][34-90]
   * [siganakis/tny][34-91] - Tiny data structures that pack a punch! [`License`][34-92]
   * [srdja/Collections-C][34-93] - A library of generic data structures. [`LGPL 3`][34-94]
-  * [steven-schronk/C-Data-Structures][34-95] - Collection of basic data structures in C. [`GPL 3`][34-96]
+  * [steven-schronk/C-Data-Structures][34-95] - Collection of basic data
+  structures in C. [`GPL 3`][34-96]
   * [wasabiz/xrope][34-97] - rope data structure. `No license`
-  * [torch/tds](https://github.com/torch/tds) - Torch C data structures
-  * [troydhanson/uthash](https://github.com/troydhanson/uthash) - C macros for hash tables and more
-  * [watmough/jwHash](https://github.com/watmough/jwHash) - Simple hash table implementation for C.
-  * [ufjf-dcc/dsgraph](https://github.com/ufjf-dcc/dsgraph) - DSGraph is an C/C++ library for visualizing data structures.
-  * [vhmth/Lego-Box](https://github.com/vhmth/Lego-Box) - Write up all the data structures!
-  * [zhemao/libds](https://github.com/zhemao/libds) - Simple, memory-safe data-structures in C.
-  * [vndmtrx/libadt](https://github.com/vndmtrx/libadt) - :vertical_traffic_light:libadt - an abstract data types library
-  * [willemt/cbuffer](https://github.com/willemt/cbuffer) - A circular buffer written in C using Posix calls to create a contiguously mapped memory space. BSD Licensed.
-  * [xant/libhl](https://github.com/xant/libhl) - Simple and fast C library implementing a thread-safe API to manage hash-tables, linked lists, lock-free ring buffers and queues
-  * [yuyuyu101/C-Buffered-tree](https://github.com/yuyuyu101/C-Buffered-tree) - A buffered-tree implemented in dictionary type and more
-  * [MagerValp/AsmHeap](https://github.com/MagerValp/AsmHeap) - Heap data structure in 6502 assembler
-  * [Snaipe/libcsptr](https://github.com/Snaipe/libcsptr) - Smart pointers in C
-  * [C-Macro-Collections](https://github.com/LeoVen/C-Macro-Collections) - Generate simple and generic data structures using macros. [``MIT``][MIT]
+  * [torch/tds][34-98] - Torch C data structures. [`License`][34-99]
+  * [watmough/jwHash][34-100] - Simple hash table implementation for C. [`Apache 2`][34-101]
+  * [zhemao/libds][34-102] - Simple, memory-safe data-structures in C. [`MIT`][34-103]
+  * [willemt/cbuffer][34-104] - A circular buffer written in C using Posix calls
+  to create a contiguously mapped memory space. BSD Licensed. [`License`][34-105]
+  * [xant/libhl][34-106] - Simple and fast C library implementing a thread-safe
+  API to manage hash-tables, linked lists, lock-free ring buffers and queues. [`LGPL 3`][34-107]
+  * [yuyuyu101/C-Buffered-tree][34-108] - A buffered-tree implemented in
+  dictionary type and more. [`MIT`][34-109]
+  * [MagerValp/AsmHeap][34-110] - Heap data structure in 6502 assembler. `No license`
+  * [Snaipe/libcsptr][34-111] - Smart pointers in C. [`MIT`][34-112]
+  * [C-Macro-Collections][34-113] - Generate simple and generic data structures
+  using macros. [`MIT`][34-114]
 
+  []
+  [34-114]: https://github.com/LeoVen/C-Macro-Collections/blob/master/LICENSE
+  [34-113]: https://github.com/LeoVen/C-Macro-Collections
+  [34-112]: https://github.com/Snaipe/libcsptr/blob/master/LICENSE
+  [34-111]: https://github.com/Snaipe/libcsptr
+  [34-110]: https://github.com/MagerValp/AsmHeap
+  [34-109]: https://github.com/yuyuyu101/C-Buffered-tree/blob/master/LICENSE
+  [34-108]: https://github.com/yuyuyu101/C-Buffered-tree
+  [34-107]: https://github.com/xant/libhl/blob/master/LICENSE
+  [34-106]: https://github.com/xant/libhl
+  [34-105]: https://github.com/willemt/cbuffer/blob/master/LICENSE
+  [34-104]: https://github.com/willemt/cbuffer
+  [34-103]: https://github.com/zhemao/libds/blob/master/LICENSE
+  [34-102]: https://github.com/zhemao/libds
+  [34-101]: https://github.com/watmough/jwHash/blob/master/LICENSE
+  [34-100]: https://github.com/watmough/jwHash
+  [34-99]: https://github.com/torch/tds/blob/master/LICENSE
+  [34-98]: https://github.com/torch/tds/
   [34-97]: https://github.com/wasabiz/xrope
   [34-96]: https://github.com/steven-schronk/C-Data-Structures/blob/master/COPYING
   [34-95]: https://github.com/steven-schronk/C-Data-Structures
