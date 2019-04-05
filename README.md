@@ -1961,17 +1961,15 @@ Incorporated lists:
   * [douglascrockford/DEC64][34-42] - Decimal floating point. `No license`
   * [fmela/libdict][34-43] - C library of key-value data structures with an
   object-oriented interface. [`BSD 2-Clause`][34-44]
-  * [fragglet/c-algorithms](https://github.com/fragglet/c-algorithms) - A library of common data structures and algorithms written in C.
-  * [freels/ruby_trie](https://github.com/freels/ruby_trie) - Native C implementation of a trie data structure.
-  * [fritz0705/libf](https://github.com/fritz0705/libf) - Library to make programming simpler and cleaner (and slower, because I was too lazy to implement usable data structures)
-  * [fubarwrangler/datastruct](https://github.com/fubarwrangler/datastruct) - A silly project to code some data structures to help brush up on my C
-  * [ghostrong/algorithm](https://github.com/ghostrong/algorithm) - Data Structure and Algorithms
-  * [gnudennis/ds_c](https://github.com/gnudennis/ds_c) - Data Structure In C
-  * [graphitemaster/libintrusive](https://github.com/graphitemaster/libintrusive) - Intrusive data structures for C
-  * [grundprinzip/bitcompressedvector](https://github.com/grundprinzip/bitcompressedvector) - Provide a container for integral data types that applies light-weight bit compression
-  * [hacatu/haclib](https://github.com/hacatu/haclib) - A utility library providing data types C should have been made with such as vectors and sequences, mostly as macros.
-  * [harnold/generic-c](https://github.com/harnold/generic-c) - A library of generic data structures and algorithms for C, in the spirit of the STL
-  * [hyPiRion/c-rrb](https://github.com/hyPiRion/c-rrb) - RRB-tree implemented as a library in C.
+  * [fragglet/c-algorithms][34-45] - A library of common data structures and
+  algorithms written in C. [`ISC`][34-46]
+  * [gnudennis/ds_c][34-47] - Data Structure In C. `No license`
+  * [graphitemaster/libintrusive][34-48] - Intrusive data structures for C. [`Unlicense`][34-49]
+  * [grundprinzip/bitcompressedvector][34-50] - Provide a container for integral
+  data types that applies light-weight bit compression. [`License`][34-51]
+  * [hacatu/haclib][34-52] - A utility library providing data types C should
+  have been made with such as vectors and sequences, mostly as macros. [`MPL 2`][34-53]
+  * [hyPiRion/c-rrb][34-54] - RRB-tree implemented as a library in C. [`MIT`][34-55]
   * [hyPiRion/persistencia](https://github.com/hyPiRion/persistencia) - Repository with implementations to understand persistent data structures.
   * [hyPiRion/roulette-tree](https://github.com/hyPiRion/roulette-tree) - Data structure for efficient fitness-proportionate selection.
   * [igorsobreira/iclib](https://github.com/igorsobreira/iclib) - Library with useful C data structures
@@ -2077,6 +2075,17 @@ Incorporated lists:
   [34-42]: https://github.com/douglascrockford/DEC64
   [34-43]: https://github.com/fmela/libdict
   [34-44]: https://github.com/fmela/libdict/blob/master/LICENSE
+  [34-45]: https://github.com/fragglet/c-algorithms
+  [34-46]: https://github.com/fragglet/c-algorithms/blob/master/COPYING
+  [34-47]: https://github.com/gnudennis/ds_c
+  [34-48]: https://github.com/graphitemaster/libintrusive
+  [34-49]: https://github.com/graphitemaster/libintrusive/blob/master/LICENSE
+  [34-50]: https://github.com/grundprinzip/bitcompressedvector
+  [34-51]: https://github.com/grundprinzip/bitcompressedvector#licence
+  [34-52]: https://github.com/hacatu/haclib
+  [34-53]: https://github.com/hacatu/haclib/blob/master/LICENSE.txt
+  [34-54]: https://github.com/hypirion/c-rrb
+  [34-55]: https://github.com/hypirion/c-rrb/blob/development/COPYING
 </details>
 
 ## Events ##
@@ -3039,6 +3048,7 @@ Audio and video processing
 * [lbrito1/cstuff](https://github.com/lbrito1/cstuff) - Algorithms & data structures in C
 * [Krakonos/cutils](https://github.com/Krakonos/cutils) - C utilities and data structures
 * [angelortega/mpdm](https://github.com/angelortega/mpdm) - Minimum Profit Data Manager
+* [harnold/generic-c](https://github.com/harnold/generic-c) - A library of generic data structures and algorithms for C, in the spirit of the STL
 
 ## Scientific ##
 Math mostly located in *Calculations* category
