@@ -2194,17 +2194,22 @@ Incorporated lists:
 --------------------------------------------------------------------------------
 
 ## Filetype Targets ##
-Libraries for working with specific filetypes
+Libraries for working with specific filetypes or classes of filetypes
 
-### Binaries ###
-* [bfd][436] - Library for manipulating binary object files. Part of GNU
+<a id="binaries"></a>
+<details>
+  <summary>Binaries</summary>
+
+  ### <a href="#-">`^`</a> Binaries ###
+  * [bfd][436] - Library for manipulating binary object files. Part of GNU
   binutils. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [libelf][337] - Simple library for parsing ELF files. [``MIT``][MIT]
-* [anjos/arithmetic_coding](https://github.com/anjos/arithmetic_coding) - Library to perform arithmetic coding and decoding of text or binary data
-* [beave/barnyard2-extra](https://github.com/beave/barnyard2-extra) - Barnyard2 with "Extra Data" support and other enhancements.
-* [fuzxxl/memf](https://github.com/fuzxxl/memf) - Portable scanf/printf-like functions to marshal binary data
-* [nicklockwood/FastCoding](https://github.com/nicklockwood/FastCoding) - A faster and more flexible binary file format replacement for NSCoding, Property Lists and JSON
-* [hammer](https://github.com/abiggerhammer/hammer) - Parser combinators for binary formats. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+  * [libelf][337] - Simple library for parsing ELF files. [``MIT``][MIT]
+  * [anjos/arithmetic_coding](https://github.com/anjos/arithmetic_coding) - Library to perform arithmetic coding and decoding of text or binary data
+  * [beave/barnyard2-extra](https://github.com/beave/barnyard2-extra) - Barnyard2 with "Extra Data" support and other enhancements.
+  * [fuzxxl/memf](https://github.com/fuzxxl/memf) - Portable scanf/printf-like functions to marshal binary data
+  * [nicklockwood/FastCoding](https://github.com/nicklockwood/FastCoding) - A faster and more flexible binary file format replacement for NSCoding, Property Lists and JSON
+  * [hammer](https://github.com/abiggerhammer/hammer) - Parser combinators for binary formats. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+</details>
 
 ### CSV ###
 * [libcsv][322] - Simple, streaming CSV parser. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
