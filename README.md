@@ -2162,15 +2162,36 @@ Incorporated lists:
   [35-1]: http://software.schmorp.de/pkg/libev.html
 </details>
 
-## FFI ##
-Foreign function interfaces, also know as binding interfaces.
-* [GNU Libffcall][405] - Collection of libraries for building foreign function
-  interfaces. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [dyncall][406] - Another foreign function interface library. [``MIT``][MIT]
-* [atgreen/libffi](https://github.com/atgreen/libffi) - A portable foreign-function interface library.
-* [dyu/ffi-overhead](https://github.com/dyu/ffi-overhead) - comparing the c ffi (foreign function interface) overhead on various programming languages
-* [jmckaskill/luaffi](https://github.com/jmckaskill/luaffi) - Standalone FFI library for calling C functions from lua. Compatible with the luajit FFI interface.
-* [taviso/ctypes.sh](https://github.com/taviso/ctypes.sh) - A foreign function interface for bash.
+<a id="ffi"></a>
+<details>
+  <summary>Foreign Function Interfaces</summary>
+
+  ## <a href="#-">`^`</a> Foreign Function Interfaces ##
+  * [GNU Libffcall][36-1] - Collection of libraries for building foreign
+  function interfaces. [`GPL 3`][36-2]
+  * [dyncall][36-3] - Another foreign function interface library. [`License`][36-4]
+  * [atgreen/libffi][36-5] - A portable foreign-function interface library. [`License`][36-6]
+  * [dyu/ffi-overhead][36-7] - comparing the c ffi overhead on various
+  programming languages. [`Apache 2`][36-8]
+  * [jmckaskill/luaffi][36-9] - Standalone FFI library for calling C functions
+  from lua. Compatible with the luajit FFI interface. [`License`][36-10]
+  * [taviso/ctypes.sh][36-11] - A foreign function interface for bash. [`MIT`][36-12]
+
+  [36-12]: https://github.com/taviso/ctypes.sh/blob/master/COPYING
+  [36-11]: https://github.com/taviso/ctypes.sh
+  [36-10]: https://github.com/jmckaskill/luaffi/blob/master/ffi.h
+  [36-9]: https://github.com/jmckaskill/luaffi
+  [36-8]: https://github.com/dyu/ffi-overhead/blob/master/LICENSE
+  [36-7]: https://github.com/dyu/ffi-overhead
+  [36-6]: https://github.com/atgreen/libffi/blob/master/LICENSE
+  [36-5]: https://github.com/atgreen/libffi
+  [36-4]: http://hg.dyncall.org/pub/dyncall/dyncall/file/b104c5beec8b/LICENSE
+  [36-3]: http://www.dyncall.org/
+  [36-2]: https://www.gnu.org/software/libffcall/
+  [36-1]: https://gnu.org/software/libffcall/
+</details>
+
+--------------------------------------------------------------------------------
 
 ## Filetype Targets ##
 Libraries for working with specific filetypes
@@ -3399,8 +3420,6 @@ Comprehensive and integrated solutions for building web application in C.
 [408]: https://github.com/libimobiledevice/libimobiledevice
 [407]: https://libusb.info/
 
-[406]: http://www.dyncall.org/
-[405]: https://gnu.org/software/libffcall/
 [404]: https://github.com/atgreen/libffi
 
 [403]: http://libcox.symisc.net/
