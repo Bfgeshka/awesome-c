@@ -1940,15 +1940,13 @@ Incorporated lists:
   * [LPD-EPFL/ASCYLIB][34-19] - Concurrent-search data-structure library with
   over 30 implementantions of linked lists, hash tables, skip lists, and binary
   search trees. [`GPL 2`][34-20]
-  * [MichaelJWelsh/cdsa](https://github.com/MichaelJWelsh/cdsa) - A library of generic intrusive data structures and algorithms in ANSI C
-  * [Tarsnap/kivaloo](https://github.com/Tarsnap/kivaloo) - Kivaloo is a collection of utilities which together form a data store associating keys of up to 255 bytes with values of up to 255 bytes.
-  * [ZSShen/C-Common-Data-Structures](https://github.com/ZSShen/C-Common-Data-Structures) - Uniform C APIs for data structure manipulation
-  * [agl/critbit](https://github.com/agl/critbit) - Critbit trees in C
-  * [alexanderb14/cCollections](https://github.com/alexanderb14/cCollections) - lightweight dynamic data structures for C
-  * [angelortega/mpdm](https://github.com/angelortega/mpdm) - Minimum Profit Data Manager
-  * [antirez/rax](https://github.com/antirez/rax) - A radix tree implementation in ANSI C
-  * [argv0/nbds](https://github.com/argv0/nbds) - C implementations of several scalable non-blocking data structures for x86 and x86-64.
-  * [armon/libart](https://github.com/armon/libart) - Adaptive Radix Trees implemented in C
+  * [MichaelJWelsh/cdsa][34-21] - A library of generic intrusive data structures
+  and algorithms in ANSI C. [`ISC`][34-22]
+  * [ZSShen/C-Common-Data-Structures][34-23] - Uniform C APIs for data structure
+  manipulation. `No license`
+  * [agl/critbit][34-24] - Critbit trees in C. `No license`
+  * [antirez/rax][34-25] - A radix tree implementation in ANSI C. [`BSD 2-Clause`][34-26]
+  * [armon/libart][34-27] - Adaptive Radix Trees implemented in C. [`BSD 3-Clause][34-28]
   * [arnimarj/py-pointless](https://github.com/arnimarj/py-pointless) - A fast and efficient read-only relocatable data structure for JSON like data, with C and Python APIs
   * [ashinkarov/trie](https://github.com/ashinkarov/trie) - Simple implementation of trie data structure in C
   * [bcopeland/em_misc](https://github.com/bcopeland/em_misc) - external memory data structure playground
@@ -2064,6 +2062,14 @@ Incorporated lists:
   [34-18]: https://github.com/Incarnation-p-lee/libds/blob/master/LICENSE
   [34-19]: https://github.com/LPD-EPFL/ASCYLIB
   [34-20]: https://github.com/LPD-EPFL/ASCYLIB/blob/master/LICENSE
+  [34-21]: https://github.com/MichaelJWelsh/cdsa
+  [34-22]: https://github.com/MichaelJWelsh/cdsa/blob/master/LICENSE
+  [34-23]: https://github.com/ZSShen/C-Common-Data-Structures
+  [34-24]: https://github.com/agl/critbit
+  [34-25]: https://github.com/antirez/rax
+  [34-26]: https://github.com/antirez/rax/blob/master/COPYING
+  [34-27]: https://github.com/armon/libart
+  [34-28]: https://github.com/armon/libart/blob/master/LICENSE
 </details>
 
 ## Events ##
@@ -3024,6 +3030,7 @@ Audio and video processing
 * [cirosantilli/cpp-cheat](https://github.com/cirosantilli/cpp-cheat) - C, C++, POSIX and Linux system programming minimal examples. Asserts used wherever possible. Hello worlds for cool third party libraries and build systems. Cheatsheets, tutorials and mini-projects.
 * [lbrito1/cstuff](https://github.com/lbrito1/cstuff) - Algorithms & data structures in C
 * [Krakonos/cutils](https://github.com/Krakonos/cutils) - C utilities and data structures
+* [angelortega/mpdm](https://github.com/angelortega/mpdm) - Minimum Profit Data Manager
 
 ## Scientific ##
 Math mostly located in *Calculations* category
