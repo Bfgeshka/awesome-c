@@ -1947,16 +1947,13 @@ Incorporated lists:
   * [agl/critbit][34-24] - Critbit trees in C. `No license`
   * [antirez/rax][34-25] - A radix tree implementation in ANSI C. [`BSD 2-Clause`][34-26]
   * [armon/libart][34-27] - Adaptive Radix Trees implemented in C. [`BSD 3-Clause`][34-28]
-  * [arnimarj/py-pointless](https://github.com/arnimarj/py-pointless) - A fast and efficient read-only relocatable data structure for JSON like data, with C and Python APIs
-  * [ashinkarov/trie](https://github.com/ashinkarov/trie) - Simple implementation of trie data structure in C
-  * [bcopeland/em_misc](https://github.com/bcopeland/em_misc) - external memory data structure playground
-  * [begeekmyfriend/bplustree](https://github.com/begeekmyfriend/bplustree) - A minimal but extreme fast B+ tree indexing structure demo for billions of key-value storage
-  * [bpudream/pat](https://github.com/bpudream/pat) - Data Structure
-  * [breckinloggins/ngtemplate](https://github.com/breckinloggins/ngtemplate) - ngtemplate - A template engine written in C designed to be syntax-compatible with Google CTemplate
-  * [cengek/CKDatastruct](https://github.com/cengek/CKDatastruct) - The using of data structure in C from our class
-  * [cbgbt/DataStructures](https://github.com/cbgbt/DataStructures) - A data structures library written in C.
-  * [chrismoos/hash-ring](https://github.com/chrismoos/hash-ring) - C hash ring library
-  * [chriso/bitset](https://github.com/chriso/bitset) - A compressed bitset with supporting data structures and algorithms
+  * [ashinkarov/trie][34-29] - Simple implementation of trie data structure. [`License`][34-30]
+  * [bcopeland/em_misc][34-31] - external memory data structure playground. `No license`
+  * [begeekmyfriend/bplustree][34-32] - A minimal but extreme fast B+ tree
+  indexing structure demo for billions of key-value storage. [`MIT`][34-33]
+  * [chrismoos/hash-ring][34-34] - C hash ring library. [`Apache 2`][34-35]
+  * [chriso/bitset][34-36] - A compressed bitset with supporting data structures
+  and algorithms. [`LGPL`][34-37]
   * [chucknthem/Data-structures-algorithms](https://github.com/chucknthem/Data-structures-algorithms) - Collection of Data structures, algorithms and interesting bits of code.
   * [clibs/list](https://github.com/clibs/list) - C doubly linked list
   * [codeprepper/data-structures](https://github.com/codeprepper/data-structures) - arrays, linked lists, stacks and queues
@@ -2070,6 +2067,15 @@ Incorporated lists:
   [34-26]: https://github.com/antirez/rax/blob/master/COPYING
   [34-27]: https://github.com/armon/libart
   [34-28]: https://github.com/armon/libart/blob/master/LICENSE
+  [34-29]: https://github.com/ashinkarov/trie
+  [34-30]: https://github.com/ashinkarov/trie/blob/master/trie.h
+  [34-31]: https://github.com/bcopeland/em_misc
+  [34-32]: https://github.com/begeekmyfriend/bplustree
+  [34-33]: https://github.com/begeekmyfriend/bplustree/blob/disk-io/LICENSE
+  [34-34]: https://github.com/chrismoos/hash-ring
+  [34-35]: https://github.com/chrismoos/hash-ring/blob/master/LICENSE
+  [34-36]: https://github.com/chriso/bitset
+  [34-37]: https://github.com/chriso/bitset#license
 </details>
 
 ## Events ##
@@ -2238,6 +2244,7 @@ Libraries for working with specific filetypes
 * [cesanta/mjs](https://github.com/cesanta/mjs) - Embedded JavaScript engine for C/C++
 * [graphitemaster/incbin](https://github.com/graphitemaster/incbin) - Include binary files in C/C++
 * [pkrumins/bithacks.h](https://github.com/pkrumins/bithacks.h) - bithacks.h is a C header file containing useful bit manipulation macros
+* [breckinloggins/ngtemplate](https://github.com/breckinloggins/ngtemplate) - ngtemplate - A template engine written in C designed to be syntax-compatible with Google CTemplate
 
 ## Game Development ##
 Engines, libraries and other helpful things specifically for making games.
