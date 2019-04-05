@@ -1948,25 +1948,19 @@ Incorporated lists:
   * [antirez/rax][34-25] - A radix tree implementation in ANSI C. [`BSD 2-Clause`][34-26]
   * [armon/libart][34-27] - Adaptive Radix Trees implemented in C. [`BSD 3-Clause`][34-28]
   * [ashinkarov/trie][34-29] - Simple implementation of trie data structure. [`License`][34-30]
-  * [bcopeland/em_misc][34-31] - external memory data structure playground. `No license`
+  * [bcopeland/em_misc][34-31] - External memory data structure playground. `No license`
   * [begeekmyfriend/bplustree][34-32] - A minimal but extreme fast B+ tree
   indexing structure demo for billions of key-value storage. [`MIT`][34-33]
   * [chrismoos/hash-ring][34-34] - C hash ring library. [`Apache 2`][34-35]
   * [chriso/bitset][34-36] - A compressed bitset with supporting data structures
   and algorithms. [`LGPL`][34-37]
-  * [chucknthem/Data-structures-algorithms](https://github.com/chucknthem/Data-structures-algorithms) - Collection of Data structures, algorithms and interesting bits of code.
-  * [clibs/list](https://github.com/clibs/list) - C doubly linked list
-  * [codeprepper/data-structures](https://github.com/codeprepper/data-structures) - arrays, linked lists, stacks and queues
-  * [coderaven/B-Tree](https://github.com/coderaven/B-Tree) - B-Tree Implementation in C. A project in Data Structures.
-  * [corks/corc.ds](https://github.com/corks/corc.ds) - A data structure library written in C.
-  * [cstavish/c_data_structs](https://github.com/cstavish/c_data_structs) - singly/doubly linked list and hash table implementations...more to come
-  * [davidar/c-hashtable](https://github.com/davidar/c-hashtable) - Git mirror of the hash table data structure in C by Christopher Clark
-  * [dhbikoff/Generic-C-Library](https://github.com/dhbikoff/Generic-C-Library) - A library of generic data structures in C
-  * [dgvncsz0f/lift](https://github.com/dgvncsz0f/lift) - Implementation of some data structures in C
-  * [dminor/skip-quadtree](https://github.com/dminor/skip-quadtree) - Implementation of the skip quadtree and compressed quadtree data structures.
-  * [douglascrockford/DEC64](https://github.com/douglascrockford/DEC64) - Decimal floating point
-  * [esheldon/meds](https://github.com/esheldon/meds) - Python and C libraries to work with Multi Epoch Data Structures
-  * [fmela/libdict](https://github.com/fmela/libdict) - C library of key-value data structures with an object-oriented interface.
+  * [codeprepper/data-structures][34-38] - Arrays, linked lists, stacks and
+  queues. [`MIT`][34-39]
+  * [dminor/skip-quadtree][34-40] - Implementation of the skip quadtree and
+  compressed quadtree data structures. [`License`][34-41]
+  * [douglascrockford/DEC64][34-42] - Decimal floating point. `No license`
+  * [fmela/libdict][34-43] - C library of key-value data structures with an
+  object-oriented interface. [`BSD 2-Clause`][34-44]
   * [fragglet/c-algorithms](https://github.com/fragglet/c-algorithms) - A library of common data structures and algorithms written in C.
   * [freels/ruby_trie](https://github.com/freels/ruby_trie) - Native C implementation of a trie data structure.
   * [fritz0705/libf](https://github.com/fritz0705/libf) - Library to make programming simpler and cleaner (and slower, because I was too lazy to implement usable data structures)
@@ -2076,6 +2070,13 @@ Incorporated lists:
   [34-35]: https://github.com/chrismoos/hash-ring/blob/master/LICENSE
   [34-36]: https://github.com/chriso/bitset
   [34-37]: https://github.com/chriso/bitset#license
+  [34-38]: https://github.com/codeprepper/data-structures
+  [34-39]: https://github.com/codeprepper/data-structures/blob/master/LICENSE
+  [34-40]: https://github.com/dminor/skip-quadtree
+  [34-41]: https://github.com/dminor/skip-quadtree/blob/master/include/quadtree.h
+  [34-42]: https://github.com/douglascrockford/DEC64
+  [34-43]: https://github.com/fmela/libdict
+  [34-44]: https://github.com/fmela/libdict/blob/master/LICENSE
 </details>
 
 ## Events ##
