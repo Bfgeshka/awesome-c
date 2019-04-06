@@ -2022,7 +2022,10 @@ Incorporated lists:
   * [Snaipe/libcsptr][34-111] - Smart pointers in C. [`MIT`][34-112]
   * [C-Macro-Collections][34-113] - Generate simple and generic data structures
   using macros. [`MIT`][34-114]
+  * [troydhanson/uthash][34-115] - C macros for hash tables and more. [`License`][34-116]
 
+  [34-116]: https://github.com/troydhanson/uthash/blob/master/LICENSE
+  [34-115]: https://github.com/troydhanson/uthash
   [34-114]: https://github.com/LeoVen/C-Macro-Collections/blob/master/LICENSE
   [34-113]: https://github.com/LeoVen/C-Macro-Collections
   [34-112]: https://github.com/Snaipe/libcsptr/blob/master/LICENSE
