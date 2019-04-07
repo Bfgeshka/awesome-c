@@ -2455,6 +2455,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [Craft](https://github.com/fogleman/Craft) - minecraft clone writen in C
 * [littlewolf](https://github.com/glouw/littlewolf) - The tiny software graphics and game engine
 * [q2vkpt](https://github.com/cschied/q2vkpt) - Real-time path tracer VKPT integrated into q2pro Quake 2 client.
+* [nem0/OpenFBX](https://github.com/nem0/OpenFBX) - Lightweight open source FBX importer.
 
 ## Geography ##
 Geodata, street maps, navigation and so on
