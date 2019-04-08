@@ -2551,14 +2551,17 @@ Engines, libraries and other helpful things specifically for making games.
   engine in pure c. [`MIT`][45-12]
   * [HerculesWS/Hercules][45-13] - Creation of a robust massively multiplayer
   online role playing game (MMORPG) server package. [`GPL 3`][45-14]
-  * [Olde-Skuul/doom3do](https://github.com/Olde-Skuul/doom3do) - The complete archive for DOOM for the 3DO
-  * [RandyGaul/AsciiEngine](https://github.com/RandyGaul/AsciiEngine) - Game engine written in C to create Ascii art games within the Windows console.
-  * [littlewolf](https://github.com/glouw/littlewolf) - The tiny software graphics and game engine
-  * [eduard-permyakov/permafrost-engine](https://github.com/eduard-permyakov/permafrost-engine) - An OpenGL 3.3 RTS game engine written in C
-  * [ejoy/ejoy2d](https://github.com/ejoy/ejoy2d) - A 2D Graphics Engine for Mobile Game
-  * [etlegacy/etlegacy](https://github.com/etlegacy/etlegacy) - ET: Legacy is based on the source code of the Wolfenstein: Enemy Territory which was released under the GPLv3 license.
-  * [fabiensanglard/chocolate_duke3D](https://github.com/fabiensanglard/chocolate_duke3D) - chocolate Duke Nukem,3D
-  * [a-nikolaev/curseofwar](https://github.com/a-nikolaev/curseofwar) - A Real Time Strategy game for Linux.
+  * [Olde-Skuul/doom3do][45-15] - The complete archive for DOOM for the 3DO. [`MIT`][45-16]
+  * [RandyGaul/AsciiEngine][45-17] - Game engine written in C to create Ascii
+  art games within the Windows console. [`MIT`][45-18]
+  * [littlewolf][45-19] - The tiny software graphics and game engine. [`MIT`][45-20]
+  * [eduard-permyakov/permafrost-engine][45-21] - An OpenGL 3.3 RTS game engine
+  written in C. [`GPL 3`][45-22]
+  * [ejoy/ejoy2d][45-23] - A 2D Graphics Engine for Mobile Game. [`MIT`][45-24]
+  * [etlegacy/etlegacy][45-25] - ET: Legacy is based on the source code of the
+  Wolfenstein: Enemy Territory which was released under the GPLv3 license. [`GPL 3`][45-26]
+  * [fabiensanglard/chocolate_duke3D][45-27] - chocolate Duke Nukem 3D. [`License`][45-28]
+  * [a-nikolaev/curseofwar][45-29] - A Real Time Strategy game for Linux. [`GPL 3`][45-30]
   * [cadwallion/spinel](https://github.com/cadwallion/spinel) - A free and open source game engine using mruby and C/C++
   * [chocolate-doom/chocolate-doom](https://github.com/chocolate-doom/chocolate-doom) - Chocolate Doom is a Doom source port that is minimalist and historically accurate.
   * [cxong/cdogs-sdl](https://github.com/cxong/cdogs-sdl) - Classic overhead run-and-gun game
@@ -2587,6 +2590,22 @@ Engines, libraries and other helpful things specifically for making games.
   * [nesbox/tic.computer](https://github.com/nesbox/tic.computer) - Public TIC-80 issues tracker
   * [q2vkpt](https://github.com/cschied/q2vkpt) - Real-time path tracer VKPT integrated into q2pro Quake 2 client.
 
+  [45-30]: https://github.com/a-nikolaev/curseofwar/blob/master/LICENSE
+  [45-29]: https://github.com/a-nikolaev/curseofwar
+  [45-28]: https://github.com/fabiensanglard/chocolate_duke3D/blob/master/Game/src/duke3d.h
+  [45-27]: https://github.com/fabiensanglard/chocolate_duke3D
+  [45-26]: https://github.com/etlegacy/etlegacy/blob/master/COPYING.txt
+  [45-25]: https://github.com/etlegacy/etlegacy
+  [45-24]: https://github.com/ejoy/ejoy2d/blob/master/LICENSE
+  [45-23]: https://github.com/ejoy/ejoy2d
+  [45-22]: https://github.com/eduard-permyakov/permafrost-engine/blob/master/LICENSE.txt
+  [45-21]: https://github.com/eduard-permyakov/permafrost-engine
+  [45-20]: https://github.com/glouw/littlewolf/blob/master/LICENSE
+  [45-19]: https://github.com/glouw/littlewolf
+  [45-18]: https://github.com/RandyGaul/AsciiEngine/blob/master/LICENSE.txt
+  [45-17]: https://github.com/RandyGaul/AsciiEngine
+  [45-16]: https://github.com/Olde-Skuul/doom3do/blob/master/LICENSE
+  [45-15]: https://github.com/Olde-Skuul/doom3do
   [45-14]: https://github.com/HerculesWS/Hercules/blob/stable/LICENSE
   [45-13]: https://github.com/HerculesWS/Hercules
   [45-12]: https://github.com/MarilynDafa/Bulllord-Engine/blob/master/LICENSE
