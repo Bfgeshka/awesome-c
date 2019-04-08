@@ -2394,26 +2394,30 @@ Libraries for working with specific filetypes or classes of filetypes
   decides at runtime what output style should be produced. [`BSD 2-Clause`][43-10]
   * [brechtsanders/xlsxio][43-11] - Cross-platform library for reading and
   writing .xlsx files. [`MIT`][43-12]
-  * [google/gumbo-parser][43-13] - HTML5 parsing library in C99. [`Apache 2`][43-14]
-  * [mpc](https://github.com/orangeduck/mpc) - Parser combinator library. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
-  * [StefanKarpinski/odb](https://github.com/StefanKarpinski/odb) - ODB: On-Disk Binary Data Tool
-  * [WizardMac/ReadStat](https://github.com/WizardMac/ReadStat) - Command-line tool (+ C library) for converting SAS, Stata, and SPSS files
-  * [arrbee/diff-match-patch-c](https://github.com/arrbee/diff-match-patch-c) - C language port of google-diff-match-patch library
-  * [clarkgrubb/data-tools](https://github.com/clarkgrubb/data-tools) - File format conversion tools
-  * [fileability/self-ml](https://github.com/fileability/self-ml) - A human data language
-  * [hach-que/configd](https://github.com/hach-que/configd) - Generates configuration files in /etc based on YAML data and XSLT transformations.
-  * [hyperrealm/libconfig](https://github.com/hyperrealm/libconfig) - C/C++ library for processing configuration files
-  * [jedwing/CHMLib](https://github.com/jedwing/CHMLib) - Library for reading Microsoft ITSS/CHM format files.
-  * [jmcnamara/libxlsxwriter](https://github.com/jmcnamara/libxlsxwriter) - A C library for creating Excel XLSX files.
-  * [jwerle/fs.c](https://github.com/jwerle/fs.c) - File system API much like Node's fs module
-  * [libharu/libharu](https://github.com/libharu/libharu) - libharu - free PDF library
-  * [mw55309/c_fast5](https://github.com/mw55309/c_fast5) - C code to extract data from fast5 files
-  * [samtools/htslib](https://github.com/samtools/htslib) - C library for high-throughput sequencing data formats
-  * [sisong/HDiffPatch](https://github.com/sisong/HDiffPatch) - a C\C++ library and command-line tools for binary data Diff & Patch; fast and create small delta/differential; support large files and limit memory requires when diff&patch.
-  * [tbeu/ExternData](https://github.com/tbeu/ExternData) - Modelica library for reading data from INI, JSON, XML and Excel XLS files
+  * [arrbee/diff-match-patch-c][43-13] - C language port of
+  google-diff-match-patch library. [`License`][43-14]
+  * [hyperrealm/libconfig][43-15] - C/C++ library for processing configuration
+  files. [`LGPL 2.1`][43-16]
+  * [jedwing/CHMLib][43-17] - Library for reading Microsoft ITSS/CHM format
+  files. [`LGPL 2.1`][43-18]
+  * [jmcnamara/libxlsxwriter][43-19] - A C library for creating
+  Excel XLSX files. [`License`][43-20]
+  * [libharu/libharu][43-21] - Free PDF library. [`Zlib`][43-22]
+  * [samtools/htslib][43-23] - C library for high-throughput sequencing data
+  formats. [43-24]
 
-  [43-14]: https://github.com/google/gumbo-parser/blob/master/COPYING
-  [43-13]: https://github.com/google/gumbo-parser
+  [43-24]: https://github.com/samtools/htslib/blob/develop/LICENSE
+  [43-23]: https://github.com/samtools/htslib
+  [43-22]: https://github.com/libharu/libharu/blob/master/LICENCE
+  [43-21]: https://github.com/libharu/libharu
+  [43-20]: https://github.com/jmcnamara/libxlsxwriter/blob/master/License.txt
+  [43-19]: https://github.com/jmcnamara/libxlsxwriter
+  [43-18]: https://github.com/jedwing/CHMLib/blob/master/COPYING
+  [43-17]: https://github.com/jedwing/CHMLib
+  [43-16]: https://github.com/hyperrealm/libconfig/blob/master/LICENSE
+  [43-15]: https://github.com/hyperrealm/libconfig
+  [43-14]: https://github.com/arrbee/diff-match-patch-c/blob/master/LICENSE
+  [43-13]: https://github.com/arrbee/diff-match-patch-c
   [43-12]: https://github.com/brechtsanders/xlsxio/blob/master/LICENSE.txt
   [43-11]: https://github.com/brechtsanders/xlsxio
   [43-10]: https://github.com/Juniper/libxo/blob/master/LICENSE
@@ -2793,6 +2797,7 @@ can be found in the Crypto section.
 * [tronkko/dirent](https://github.com/tronkko/dirent) - C/C++ library for retrieving information on files and directories
 * [vi/fdlinecombine](https://github.com/vi/fdlinecombine) - Read multiple fds and print data to stdout linewise.
 * [jsvennevid/filearchive](https://github.com/jsvennevid/filearchive) - File archive library allowing for easy creation and access to data stored inside a container through a simple API.
+* [jwerle/fs.c](https://github.com/jwerle/fs.c) - File system API much like Node's fs module
 
 ## Lexing and Parsing ##
 Generic lexers and parsers
@@ -2809,9 +2814,9 @@ Generic lexers and parsers
 * [burtonsamograd/sxc](https://github.com/burtonsamograd/sxc) - sxc is an 'S-Expression C' transpiler for generating C code using macros written in Common Lisp
 * [dcreager/libpush](https://github.com/dcreager/libpush) - An arrow-based parser combinator library for C
 * [kmussel/Moment](https://github.com/kmussel/Moment) - Natural Language Date Parser Using Lex/Yacc/C
-* [orangeduck/mpc](https://github.com/orangeduck/mpc) - A Parser Combinator library for C
 * [skvadrik/re2c](https://github.com/skvadrik/re2c) - lexer generator for C/C++
 * [westes/flex](https://github.com/westes/flex) - The Fast Lexical Analyzer - scanner generator for lexing in C and C++
+* [orangeduck/mpc](https://github.com/orangeduck/mpc) - Parser combinator library. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
 
 ## Memory Management ##
 * [Boehm GC][212] - Garbage collection for C. Various licenses, all open source.
@@ -3083,6 +3088,7 @@ Audio and video processing
 * [bovine/datapipe](https://github.com/bovine/datapipe) - Network TCP port forwarding
 * [hoxnox/rawsock_recv_example](https://github.com/hoxnox/rawsock_recv_example) - SOCK_RAW IPPROTO_UDP socket data transmission example
 * [LiamBindle/MQTT-C](https://github.com/LiamBindle/MQTT-C) - MQTT protocol implementation.
+* [google/gumbo-parser](https://github.com/google/gumbo-parser) - HTML5 parsing library in C99.
 
 ### RPC ###
 * [hmng/jsonrpc-c](https://github.com/hmng/jsonrpc-c) - JSON-RPC in C (server only for now)
