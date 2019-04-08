@@ -2263,14 +2263,24 @@ Libraries for working with specific filetypes or classes of filetypes
   * [kgabis/parson][39-21] - Lightweight JSON library written in C. [`MIT`][39-22]
   * [kevinbirch/kanabo][39-23] - query JSON/YAML data with JSONPath. [`License`][39-24]
   * [lloyd/yajl][39-25] - A fast streaming JSON parsing library in C. [`ISC`][39-26]
-  * [mysqludf/lib_mysqludf_json](https://github.com/mysqludf/lib_mysqludf_json) - A UDF library of functions to map relational data to the JSON format.
-  * [orangeduck/json2c](https://github.com/orangeduck/json2c) - Convert JSON to C data literals
-  * [quartzjer/js0n](https://github.com/quartzjer/js0n) - Flexible Zero-Footprint JSON Parser in C
-  * [remicollet/pecl-json-c](https://github.com/remicollet/pecl-json-c) - JSON-C wrapper
-  * [sheredom/json.h](https://github.com/sheredom/json.h) - json parser for C and C++
-  * [vincenthz/libjson](https://github.com/vincenthz/libjson) - a JSON parser and printer library in C. easy to integrate with any model.
-  * [udp/json-parser](https://github.com/udp/json-parser) - Very low footprint JSON parser written in portable ANSI
+  * [orangeduck/json2c][39-27] - Convert JSON to C data literals. [`BSD 3-Clause`][39-28]
+  * [quartzjer/js0n][39-29] - Flexible Zero-Footprint JSON Parser in C. [`Unlicense`][39-30]
+  * [sheredom/json.h][39-31] - json parser for C and C++. [`Unlicense`][39-32]
+  * [vincenthz/libjson][39-33] - a JSON parser and printer library in C. Easy to
+  integrate with any model. [`License`][39-34]
+  * [udp/json-parser][39-35] - Very low footprint JSON parser written in
+  portable ANSI. [`License`][39-36]
 
+  [39-36]: https://github.com/udp/json-parser/blob/master/LICENSE
+  [39-35]: https://github.com/udp/json-parser
+  [39-34]: https://github.com/vincenthz/libjson/blob/master/json.h
+  [39-33]: https://github.com/vincenthz/libjson
+  [39-32]: https://github.com/sheredom/json.h/blob/master/LICENSE
+  [39-31]: https://github.com/sheredom/json.h/
+  [39-30]: https://github.com/quartzjer/js0n/blob/master/UNLICENSE
+  [39-29]: https://github.com/quartzjer/js0n
+  [39-28]: https://github.com/orangeduck/json2c/blob/master/LICENSE
+  [39-27]: https://github.com/orangeduck/json2c
   [39-26]: https://github.com/lloyd/yajl/blob/master/COPYING
   [39-25]: https://github.com/lloyd/yajl
   [39-24]: https://github.com/kevinbirch/kanabo/blob/master/LICENSE.md
