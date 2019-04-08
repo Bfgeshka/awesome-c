@@ -2562,22 +2562,25 @@ Engines, libraries and other helpful things specifically for making games.
   Wolfenstein: Enemy Territory which was released under the GPLv3 license. [`GPL 3`][45-26]
   * [fabiensanglard/chocolate_duke3D][45-27] - chocolate Duke Nukem 3D. [`License`][45-28]
   * [a-nikolaev/curseofwar][45-29] - A Real Time Strategy game for Linux. [`GPL 3`][45-30]
-  * [cadwallion/spinel](https://github.com/cadwallion/spinel) - A free and open source game engine using mruby and C/C++
-  * [chocolate-doom/chocolate-doom](https://github.com/chocolate-doom/chocolate-doom) - Chocolate Doom is a Doom source port that is minimalist and historically accurate.
-  * [cxong/cdogs-sdl](https://github.com/cxong/cdogs-sdl) - Classic overhead run-and-gun game
-  * [dalerank/caesaria-game](https://github.com/dalerank/caesaria-game) - Caesar III (Open source remake)
-  * [fogleman/Craft](https://github.com/fogleman/Craft) - A simple Minecraft clone written in C using modern OpenGL (shaders).
-  * [id-Software/DOOM](https://github.com/id-Software/DOOM) - DOOM Open Source Release
-  * [id-Software/Quake-2](https://github.com/id-Software/Quake-2) - Quake 2 GPL Source Release
-  * [id-Software/Quake-III-Arena](https://github.com/id-Software/Quake-III-Arena) - Quake III Arena GPL Source Release
-  * [id-Software/Quake](https://github.com/id-Software/Quake) - Quake GPL Source Release
-  * [keendreams/keen](https://github.com/keendreams/keen) - Keen Dreams on Greenlight!
-  * [linleyh/liberation-circuit](https://github.com/linleyh/liberation-circuit) - Trapped in a hostile computer system, you must make a way out - RTS/coding game
-  * [martincohen/Punity](https://github.com/martincohen/Punity) - A tiny game engine in C.
-  * [orangeduck/Corange](https://github.com/orangeduck/Corange) - Pure C Game Engine
-  * [naev/naev](https://github.com/naev/naev) - Naev is a 2d action/rpg space game that combines elements from the action, rpg and simulation genres.
-  * [nikki93/cgame](https://github.com/nikki93/cgame) - some ideas involving games and C
-  * [scottcgi/Mojoc](https://github.com/scottcgi/Mojoc) - A cross-platform, open-source, pure C  game engine for mobile game.
+  * [chocolate-doom/chocolate-doom][45-31] - Chocolate Doom is a Doom source
+  port that is minimalist and historically accurate. [`GPL 2`][45-32]
+  * [cxong/cdogs-sdl][45-33] - Classic overhead run-and-gun game. [`GPL 2`][45-34]
+  * [fogleman/Craft][45-35] - A simple Minecraft clone written in C using modern
+  OpenGL (shaders). [`MIT`][45-36]
+  * [id-Software/DOOM][45-37] - DOOM Open Source Release. [`License`][45-38]
+  * [id-Software/Quake-2][45-39] - Quake 2 GPL Source Release. [`GPL 2`][45-40]
+  * [id-Software/Quake-III-Arena][45-41] - Quake III Arena GPL Source Release. [`GPL 2`][45-42]
+  * [id-Software/Quake][45-43] - Quake GPL Source Release. [`GPL 2`][45-44]
+  * [keendreams/keen][45-45] - Keen Dreams on Greenlight! [`GPL 2`][45-46]
+  * [linleyh/liberation-circuit][45-47] - Trapped in a hostile computer system,
+  you must make a way out - RTS/coding game. [`GPL 3`][45-48]
+  * [martincohen/Punity][45-49] - A tiny game engine in C. [`MIT`][45-50]
+  * [orangeduck/Corange][45-51] - Pure C Game Engine. [`License`][45-52]
+  * [naev/naev][45-53] - Naev is a 2d action/rpg space game that combines
+  elements from the action, rpg and simulation genres. [`GPL 3`][45-54]
+  * [nikki93/cgame][45-55] - some ideas involving games and C. `No license`
+  * [scottcgi/Mojoc][45-56] - A cross-platform, open-source, pure C  game engine
+  for mobile game. [`MIT`][45-57]
   * [septag/darkhammer](https://github.com/septag/darkhammer) - darkHAMMER is a lightweight, open-source, multiplatform game engine. written in C (C99) language, supports python and C# bindings and lua scripts. Runs on windows and linux
   * [stepmania/stepmania](https://github.com/stepmania/stepmania) - Advanced rhythm game for Windows, Linux and OS X. Designed for both home and arcade use.
   * [taylor001/crown](https://github.com/taylor001/crown) - The flexible game engine.
@@ -2590,6 +2593,33 @@ Engines, libraries and other helpful things specifically for making games.
   * [nesbox/tic.computer](https://github.com/nesbox/tic.computer) - Public TIC-80 issues tracker
   * [q2vkpt](https://github.com/cschied/q2vkpt) - Real-time path tracer VKPT integrated into q2pro Quake 2 client.
 
+  [45-57]: https://github.com/scottcgi/Mojoc/blob/master/LICENSE
+  [45-56]: https://github.com/scottcgi/Mojoc
+  [45-55]: https://github.com/nikki93/cgame
+  [45-54]: https://github.com/naev/naev/blob/master/LICENSE
+  [45-53]: https://github.com/naev/naev
+  [45-52]: https://github.com/orangeduck/Corange/blob/master/LICENCE.md
+  [45-51]: https://github.com/orangeduck/Corange
+  [45-50]: https://github.com/martincohen/Punity/blob/master/LICENSE.md
+  [45-49]: https://github.com/martincohen/Punity
+  [45-48]: https://github.com/linleyh/liberation-circuit/blob/master/LICENSE.md
+  [45-47]: https://github.com/linleyh/liberation-circuit
+  [45-46]: https://github.com/keendreams/keen/blob/master/LICENSE
+  [45-45]: https://github.com/keendreams/keen
+  [45-44]: https://github.com/id-Software/Quake/blob/master/gnu.txt
+  [45-43]: https://github.com/id-Software/Quake
+  [45-42]: https://github.com/id-Software/Quake-III-Arena/blob/master/COPYING.txt
+  [45-41]: https://github.com/id-Software/Quake-III-Arena
+  [45-40]: https://github.com/id-Software/Quake-2/blob/master/gnu.txt
+  [45-39]: https://github.com/id-Software/Quake-2
+  [45-38]: https://github.com/id-Software/DOOM/blob/master/linuxdoom-1.10/DOOMLIC.TXT
+  [45-37]: https://github.com/id-Software/DOOM
+  [45-36]: https://github.com/fogleman/Craft/blob/master/LICENSE.md
+  [45-35]: https://github.com/fogleman/Craft
+  [45-34]: https://github.com/cxong/cdogs-sdl/blob/master/COPYING
+  [45-33]: https://github.com/cxong/cdogs-sdl
+  [45-32]: https://github.com/chocolate-doom/chocolate-doom/blob/master/COPYING.md
+  [45-31]: https://github.com/chocolate-doom/chocolate-doom
   [45-30]: https://github.com/a-nikolaev/curseofwar/blob/master/LICENSE
   [45-29]: https://github.com/a-nikolaev/curseofwar
   [45-28]: https://github.com/fabiensanglard/chocolate_duke3D/blob/master/Game/src/duke3d.h
