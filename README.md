@@ -2541,13 +2541,16 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>Game Engines</summary>
 
   ### <a href="#-">`^`</a> Game Engines ###
-  * [Darkplaces](https://icculus.org/twilight/darkplaces/) - Modified version of the Quake2 engine. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-  * [ioquake3](https://ioquake3.org/) - The Quake3 engine, freed at last. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-  * [Orx](http://orx-project.org/) - Portable, lightweight, plugin-based, data-driven, 2D-oriented game engine. [`zlib`](https://directory.fsf.org/wiki/License:Zlib)
-  * [Spearmint](https://clover.moe/spearmint/) - Engine designed for FPS games. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
-  * [Gigoteur/UnicornConsole](https://github.com/Gigoteur/UnicornConsole) - Unicorn Console: create quick game !
-  * [MarilynDafa/Bulllord-Engine](https://github.com/MarilynDafa/Bulllord-Engine) - lightspeed lightweight elegant  game engine in pure c
-  * [HerculesWS/Hercules](https://github.com/HerculesWS/Hercules) - Creation of a robust massively multiplayer online role playing game (MMORPG) server package.
+  * [xonotic/darkplaces][45-1] - Modified version of the Quake2 engine. [`GPL 2`][45-2]
+  * [ioquake/ioq3][45-3] - The Quake3 engine, freed at last. [`GPL 2`][45-4]
+  * [orx/orx][45-5] - Portable, lightweight, plugin-based, data-driven,
+  2D-oriented game engine. [`License`][45-6]
+  * [zturtleman/spearmint][45-7] - Engine designed for FPS games. [`GPL 3`][45-8]
+  * [Gigoteur/UnicornConsole][45-9] - Unicorn Console: create quick game! [`MIT`][45-10]
+  * [MarilynDafa/Bulllord-Engine][45-11] - lightspeed lightweight elegant game
+  engine in pure c. [`MIT`][45-12]
+  * [HerculesWS/Hercules][45-13] - Creation of a robust massively multiplayer
+  online role playing game (MMORPG) server package. [`GPL 3`][45-14]
   * [Olde-Skuul/doom3do](https://github.com/Olde-Skuul/doom3do) - The complete archive for DOOM for the 3DO
   * [RandyGaul/AsciiEngine](https://github.com/RandyGaul/AsciiEngine) - Game engine written in C to create Ascii art games within the Windows console.
   * [littlewolf](https://github.com/glouw/littlewolf) - The tiny software graphics and game engine
@@ -2583,6 +2586,21 @@ Engines, libraries and other helpful things specifically for making games.
   * [angband/angband](https://github.com/angband/angband) - A free, single-player roguelike dungeon exploration game
   * [nesbox/tic.computer](https://github.com/nesbox/tic.computer) - Public TIC-80 issues tracker
   * [q2vkpt](https://github.com/cschied/q2vkpt) - Real-time path tracer VKPT integrated into q2pro Quake 2 client.
+
+  [45-14]: https://github.com/HerculesWS/Hercules/blob/stable/LICENSE
+  [45-13]: https://github.com/HerculesWS/Hercules
+  [45-12]: https://github.com/MarilynDafa/Bulllord-Engine/blob/master/LICENSE
+  [45-11]: https://github.com/MarilynDafa/Bulllord-Engine
+  [45-10]: https://github.com/Gigoteur/UnicornConsole/blob/master/LICENSE.md
+  [45-9]: https://github.com/Gigoteur/UnicornConsole
+  [45-8]: https://github.com/zturtleman/spearmint/blob/master/COPYING.txt
+  [45-7]: https://github.com/zturtleman/spearmint
+  [45-6]: https://github.com/orx/orx/blob/master/LICENSE
+  [45-5]: https://github.com/orx/orx
+  [45-4]: https://github.com/ioquake/ioq3/blob/master/COPYING.txt
+  [45-3]: https://github.com/ioquake/ioq3
+  [45-2]: https://github.com/xonotic/darkplaces/blob/master/COPYING
+  [45-1]: https://github.com/xonotic/darkplaces
 </details>
 
 <a id="gamedev-rendering"></a>
