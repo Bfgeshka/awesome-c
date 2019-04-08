@@ -2315,7 +2315,7 @@ Libraries for working with specific filetypes or classes of filetypes
 
   ### <a href="#-">`^`</a> INI ###
   * [ndevilla/iniparser][40-1] - Parser for .ini files. [`MIT`][40-2]
-  * [libconfini][40-3] - Yet another INI parser. [`GPL 3`][40-4]
+  * [madmurphy/libconfini][40-3] - Yet another INI parser. [`GPL 3`][40-4]
   * [benhoyt/inih][40-5] - Simple .INI file parser in C, good for embedded
   systems. [`License`][40-6]
 
@@ -2380,41 +2380,53 @@ Libraries for working with specific filetypes or classes of filetypes
   [42-1]: https://github.com/libexpat/libexpat
 </details>
 
-### YAML ###
-* [libYAML][334] - YAML 1.1 parser and emitter. [``MIT``][MIT]
-* [yaml/libyaml](https://github.com/yaml/libyaml) - Canonical source repository for LibYAML
+<a id="other-filetypes"></a>
+<details>
+  <summary>Other Filetypes</summary>
 
-### Other Filetypes ###
-* [libbson][335] - BSON utility library. [``Apache-2.0``][Apache-2.0]
-* [libconfuse][336] - Small configuration file parser library. [``ISC``][ISC]
-* [libucl][338] - Universal configuration library parser. [``BSD-2-Clause``][BSD-2-Clause]
-* [libxo][339] - Allows an application to generate plain text, XML, JSON and
-  HTML output using a common set of function calls. The application decides at
-  runtime what output style should be produced. [``BSD-2-Clause``][BSD-2-Clause]
-* [XLSX I/O][413] - Cross-platform library for reading and writing .xlsx files. [``MIT``][MIT]
-* [gumbo-parser][416] - HTML5 parsing library in C99. [``Apache-2.0``][Apache-2.0]
-* [iniparser](https://github.com/ndevilla/iniparser) - Parser for `.ini` files. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-* [libconfini](https://github.com/madmurphy/libconfini) - Yet another INI parser. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
-* [libYAML](https://pyyaml.org/wiki/LibYAML) - YAML 1.1 parser and emitter. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-* [mpc](https://github.com/orangeduck/mpc) - Parser combinator library. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
-* [libucl](https://github.com/vstakhov/libucl) - Universal configuration library parser. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
-* [StefanKarpinski/odb](https://github.com/StefanKarpinski/odb) - ODB: On-Disk Binary Data Tool
-* [WizardMac/ReadStat](https://github.com/WizardMac/ReadStat) - Command-line tool (+ C library) for converting SAS, Stata, and SPSS files
-* [arrbee/diff-match-patch-c](https://github.com/arrbee/diff-match-patch-c) - C language port of google-diff-match-patch library
-* [clarkgrubb/data-tools](https://github.com/clarkgrubb/data-tools) - File format conversion tools
-* [fileability/self-ml](https://github.com/fileability/self-ml) - A human data language
-* [hach-que/configd](https://github.com/hach-que/configd) - Generates configuration files in /etc based on YAML data and XSLT transformations.
-* [hyperrealm/libconfig](https://github.com/hyperrealm/libconfig) - C/C++ library for processing configuration files
-* [jedwing/CHMLib](https://github.com/jedwing/CHMLib) - Library for reading Microsoft ITSS/CHM format files.
-* [jmcnamara/libxlsxwriter](https://github.com/jmcnamara/libxlsxwriter) - A C library for creating Excel XLSX files.
-* [jwerle/fs.c](https://github.com/jwerle/fs.c) - File system API much like Node's fs module
-* [libharu/libharu](https://github.com/libharu/libharu) - libharu - free PDF library
-* [martinh/libconfuse](https://github.com/martinh/libconfuse) - Small configuration file parser library for C.
-* [mw55309/c_fast5](https://github.com/mw55309/c_fast5) - C code to extract data from fast5 files
-* [samtools/htslib](https://github.com/samtools/htslib) - C library for high-throughput sequencing data formats
-* [sisong/HDiffPatch](https://github.com/sisong/HDiffPatch) - a C\C++ library and command-line tools for binary data Diff & Patch; fast and create small delta/differential; support large files and limit memory requires when diff&patch.
-* [tbeu/ExternData](https://github.com/tbeu/ExternData) - Modelica library for reading data from INI, JSON, XML and Excel XLS files
-* [vstakhov/libucl](https://github.com/vstakhov/libucl) - Universal configuration library parser
+  ### <a href="#-">`^`</a> Other Filetypes ###
+  * [yaml/libyaml][43-1] - Canonical source repository for LibYAML. [`MIT`][43-2]
+  * [mongodb/libbson][43-3] - BSON utility library. [`Apache 2`][43-4]
+  * [martinh/libconfuse][43-5] - Small configuration file parser library. [`ISC`][43-6]
+  * [vstakhov/libucl][43-7] - Universal configuration library parser. [`BSD 2-Clause`][43-8]
+  * [Juniper/libxo][43-9] - Allows an application to generate plain text, XML,
+  JSON and HTML output using a common set of function calls. The application
+  decides at runtime what output style should be produced. [`BSD 2-Clause`][43-10]
+  * [brechtsanders/xlsxio][43-11] - Cross-platform library for reading and
+  writing .xlsx files. [`MIT`][43-12]
+  * [google/gumbo-parser][43-13] - HTML5 parsing library in C99. [`Apache 2`][43-14]
+  * [mpc](https://github.com/orangeduck/mpc) - Parser combinator library. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
+  * [StefanKarpinski/odb](https://github.com/StefanKarpinski/odb) - ODB: On-Disk Binary Data Tool
+  * [WizardMac/ReadStat](https://github.com/WizardMac/ReadStat) - Command-line tool (+ C library) for converting SAS, Stata, and SPSS files
+  * [arrbee/diff-match-patch-c](https://github.com/arrbee/diff-match-patch-c) - C language port of google-diff-match-patch library
+  * [clarkgrubb/data-tools](https://github.com/clarkgrubb/data-tools) - File format conversion tools
+  * [fileability/self-ml](https://github.com/fileability/self-ml) - A human data language
+  * [hach-que/configd](https://github.com/hach-que/configd) - Generates configuration files in /etc based on YAML data and XSLT transformations.
+  * [hyperrealm/libconfig](https://github.com/hyperrealm/libconfig) - C/C++ library for processing configuration files
+  * [jedwing/CHMLib](https://github.com/jedwing/CHMLib) - Library for reading Microsoft ITSS/CHM format files.
+  * [jmcnamara/libxlsxwriter](https://github.com/jmcnamara/libxlsxwriter) - A C library for creating Excel XLSX files.
+  * [jwerle/fs.c](https://github.com/jwerle/fs.c) - File system API much like Node's fs module
+  * [libharu/libharu](https://github.com/libharu/libharu) - libharu - free PDF library
+  * [mw55309/c_fast5](https://github.com/mw55309/c_fast5) - C code to extract data from fast5 files
+  * [samtools/htslib](https://github.com/samtools/htslib) - C library for high-throughput sequencing data formats
+  * [sisong/HDiffPatch](https://github.com/sisong/HDiffPatch) - a C\C++ library and command-line tools for binary data Diff & Patch; fast and create small delta/differential; support large files and limit memory requires when diff&patch.
+  * [tbeu/ExternData](https://github.com/tbeu/ExternData) - Modelica library for reading data from INI, JSON, XML and Excel XLS files
+
+  [43-14]: https://github.com/google/gumbo-parser/blob/master/COPYING
+  [43-13]: https://github.com/google/gumbo-parser
+  [43-12]: https://github.com/brechtsanders/xlsxio/blob/master/LICENSE.txt
+  [43-11]: https://github.com/brechtsanders/xlsxio
+  [43-10]: https://github.com/Juniper/libxo/blob/master/LICENSE
+  [43-9]: https://github.com/Juniper/libxo
+  [43-8]: https://github.com/vstakhov/libucl/blob/master/COPYING
+  [43-7]: https://github.com/vstakhov/libucl
+  [43-6]: https://github.com/martinh/libconfuse/blob/master/LICENSE
+  [43-5]: https://github.com/martinh/libconfuse
+  [43-4]: https://github.com/mongodb/libbson/blob/master/COPYING
+  [43-3]: https://github.com/mongodb/libbson
+  [43-2]: https://github.com/yaml/libyaml/blob/master/LICENSE
+  [43-1]: https://github.com/yaml/libyaml
+</details>
 
 --------------------------------------------------------------------------------
 
@@ -3522,10 +3534,8 @@ Comprehensive and integrated solutions for building web application in C.
 [421]: https://github.com/commonmark/cmark/blob/master/COPYING
 [420]: https://github.com/commonmark/cmark
 [417]: https://github.com/simplegeo/libgeohash
-[416]: https://github.com/google/gumbo-parser
 [415]: https://glade.gnome.org/
 [414]: https://www.gnu.org/software/gperf/
-[413]: https://brechtsanders.github.io/xlsxio/
 
 
 [409]: https://github.com/google/cpu_features
@@ -3598,11 +3608,6 @@ Comprehensive and integrated solutions for building web application in C.
 [341]: https://libcheck.github.io/check
 [340]: http://users.jyu.fi/~sapekiis/cheat
 
-[339]: https://github.com/Juniper/libxo
-[338]: https://github.com/vstakhov/libucl
-[336]: https://github.com/martinh/libconfuse
-[335]: https://github.com/mongodb/libbson
-[334]: https://www.pyyaml.org/wiki/LibYAML
 [329]: https://github.com/benhoyt/inih
 [328]: https://lloyd.github.io/yajl/
 [327]: https://github.com/netmail-open/wjelement/
