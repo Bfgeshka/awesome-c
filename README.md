@@ -2225,9 +2225,19 @@ Libraries for working with specific filetypes or classes of filetypes
   [37-1]: https://www.gnu.org/software/binutils/
 </details>
 
-### CSV ###
-* [libcsv][322] - Simple, streaming CSV parser. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
-* [tadasv/csv_parser](https://github.com/tadasv/csv_parser) - Callback based (SAX like) CSV Parser for C
+<a id="csv"></a>
+<details>
+  <summary>CSV</summary>
+
+  ### <a href="#-">`^`</a> CSV ###
+  * [rgamble/libcsv][38-1] - Simple, streaming CSV parser. [`LGPL 2.1`][38-2]
+  * [tadasv/csv_parser][38-3] - Callback based (SAX like) CSV Parser for C. [`MIT`][38-4]
+
+  [38-4]: https://github.com/tadasv/csv_parser/blob/master/LICENSE
+  [38-3]: https://github.com/tadasv/csv_parser
+  [38-2]: https://github.com/rgamble/libcsv/blob/master/LICENSE
+  [38-1]: https://github.com/rgamble/libcsv
+</details>
 
 ### JSON ###
 * [jfes][324] - JSON For Embedded Systems; simple JSON engine without any
@@ -3523,7 +3533,6 @@ Comprehensive and integrated solutions for building web application in C.
 [325]: https://zserge.com/jsmn.html
 [324]: https://github.com/NeonMercury/jfes
 [323]: http://www.digip.org/jansson/
-[322]: https://github.com/rgamble/libcsv
 
 [321]: https://github.com/JuliaLang/utf8proc
 [320]: https://github.com/sheredom/utf8.h
