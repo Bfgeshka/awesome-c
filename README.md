@@ -2309,10 +2309,23 @@ Libraries for working with specific filetypes or classes of filetypes
   [39-1]: https://github.com/NeonMercury/jfes
 </details>
 
-### INI ###
-* [iniparser][330] - Parser for .ini files. [``MIT``][MIT]
-* [libconfini][331] - Yet another INI parser. [``GPL-3.0-only``][GPL-3.0-only]
-* [benhoyt/inih](https://github.com/benhoyt/inih) - Simple .INI file parser in C, good for embedded systems
+<a id="ini"></a>
+<details>
+  <summary>INI</summary>
+
+  ### <a href="#-">`^`</a> INI ###
+  * [ndevilla/iniparser][40-1] - Parser for .ini files. [`MIT`][40-2]
+  * [libconfini][40-3] - Yet another INI parser. [`GPL 3`][40-4]
+  * [benhoyt/inih][40-5] - Simple .INI file parser in C, good for embedded
+  systems. [`License`][40-6]
+
+  [40-6]: https://github.com/benhoyt/inih/blob/master/LICENSE.txt
+  [40-5]: https://github.com/benhoyt/inih
+  [40-4]: https://github.com/madmurphy/libconfini/blob/master/COPYING
+  [40-3]: https://github.com/madmurphy/libconfini
+  [40-2]: https://github.com/ndevilla/iniparser/blob/master/LICENSE
+  [40-1]: https://github.com/ndevilla/iniparser
+</details>
 
 ### Markdown ###
 * [Hoedown][375] - Fully standards-compliant, extension-supporting, UTF-8
@@ -3565,8 +3578,6 @@ Comprehensive and integrated solutions for building web application in C.
 [334]: https://www.pyyaml.org/wiki/LibYAML
 [333]: http://xmlsoft.org/
 [332]: http://expat.sourceforge.net/
-[331]: https://madmurphy.github.io/libconfini/html/index.html
-[330]: https://github.com/ndevilla/iniparser
 [329]: https://github.com/benhoyt/inih
 [328]: https://lloyd.github.io/yajl/
 [327]: https://github.com/netmail-open/wjelement/
