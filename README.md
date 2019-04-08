@@ -2204,14 +2204,25 @@ Libraries for working with specific filetypes or classes of filetypes
   <summary>Binaries</summary>
 
   ### <a href="#-">`^`</a> Binaries ###
-  * [bfd][436] - Library for manipulating binary object files. Part of GNU
-  binutils. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-  * [libelf][337] - Simple library for parsing ELF files. [``MIT``][MIT]
-  * [anjos/arithmetic_coding](https://github.com/anjos/arithmetic_coding) - Library to perform arithmetic coding and decoding of text or binary data
-  * [beave/barnyard2-extra](https://github.com/beave/barnyard2-extra) - Barnyard2 with "Extra Data" support and other enhancements.
-  * [fuzxxl/memf](https://github.com/fuzxxl/memf) - Portable scanf/printf-like functions to marshal binary data
-  * [nicklockwood/FastCoding](https://github.com/nicklockwood/FastCoding) - A faster and more flexible binary file format replacement for NSCoding, Property Lists and JSON
-  * [hammer](https://github.com/abiggerhammer/hammer) - Parser combinators for binary formats. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+  * [bfd][37-1] - Library for manipulating binary object files. Part of GNU
+  binutils. [`Licenses`][37-2]
+  * [0intro/libelf][37-3] - Simple library for parsing ELF files. [`MIT`][37-4]
+  * [fuzxxl/memf][37-5] - Portable scanf/printf-like functions to marshal
+  binary data. [`BSD 2-Clause`][37-6]
+  * [nicklockwood/FastCoding][37-7] - A faster and more flexible binary file
+  format replacement for NSCoding, Property Lists and JSON. [`License`][37-8]
+  * [abiggerhammer/hammer][37-9] - Parser combinators for binary formats. [`GPL 2`][37-10]
+
+  [37-10]: https://github.com/abiggerhammer/hammer/blob/master/LICENSE
+  [37-7]: https://github.com/abiggerhammer/hammer
+  [37-8]: https://github.com/nicklockwood/FastCoding/blob/master/LICENCE.md
+  [37-7]: https://github.com/nicklockwood/FastCoding
+  [37-6]: https://github.com/fuzxxl/memf/blob/master/COPYING
+  [37-5]: https://github.com/fuzxxl/memf
+  [37-4]: https://github.com/0intro/libelf/blob/master/LICENSE
+  [37-3]: https://github.com/0intro/libelf
+  [37-2]: https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git;a=tree
+  [37-1]: https://www.gnu.org/software/binutils/
 </details>
 
 ### CSV ###
@@ -3403,7 +3414,6 @@ Comprehensive and integrated solutions for building web application in C.
 [439]: https://github.com/dertuxmalwieder/libvldmail
 [438]: https://github.com/nfc-tools/libnfc
 [437]: https://github.com/cloudwu/pbc
-[436]: http://sourceware.org/binutils/docs/bfd/
 [435]: https://gnu.org/software/gss/
 [433]: https://github.com/antirez/linenoise
 [432]: https://github.com/recp/tm
@@ -3499,7 +3509,6 @@ Comprehensive and integrated solutions for building web application in C.
 
 [339]: https://github.com/Juniper/libxo
 [338]: https://github.com/vstakhov/libucl
-[337]: https://github.com/0intro/libelf
 [336]: https://github.com/martinh/libconfuse
 [335]: https://github.com/mongodb/libbson
 [334]: https://www.pyyaml.org/wiki/LibYAML
