@@ -82,7 +82,7 @@ Incorporated lists:
 	* [XML](#xml)
 	* [YAML](#yaml)
 	* [Other Filetypes](#other-filetypes)
-* [Flow Control and Language Extension](#flow-control-and-language-extension)
+* [Flow Control and Language Extension](#flow-control)
 * [Game Development](#game-development)
 * [Graphics](#graphics)
 * [GUI](#gui)
@@ -2434,39 +2434,53 @@ Libraries for working with specific filetypes or classes of filetypes
 
 --------------------------------------------------------------------------------
 
-## Flow Control and Language Extension ##
-* [libCello][429] - Library introducing higher-level programming to C. [``BSD-3-Clause``][BSD-3-Clause]
-* [Ragel][430] - DSL for state machines that compiles to C. [``GPL-2.0-only``][GPL-2.0-only]
-* [Kitsune][431] - Efficient, general-purpose framework for dynamic software
-  updating. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
-* [yasm](http://yasm.tortall.net/) - Yasm Modular Assembler Project. [`2-clause BSD`](https://directory.fsf.org/wiki/License:BSD-2-Clause)
-* [P99](http://p99.gforge.inria.fr/) - Suite of macros to implement advanced features like default function arguments, scope-bound resources, etc. (Requires C99) [`Q Public License`](https://tldrlegal.com/license/q-public-license-1.0-(qpl-1.0)#summary)
-* [orangeduck/Cello](https://github.com/orangeduck/Cello) - Higher level programming in C
-* [CObjectSystem/COS](https://github.com/CObjectSystem/COS) - C Object System
-* [H2CO3/Sparkling](https://github.com/H2CO3/Sparkling) - Lightweight extension language
-* [LuaDist/lua](https://github.com/LuaDist/lua) - The Lua programming language with CMake based build
-* [LuaDist/luajit](https://github.com/LuaDist/luajit) - LuaJIT is JIT compiler for the Lua language.
-* [LuaDist/toluapp](https://github.com/LuaDist/toluapp) - tolua++ is an extension of toLua, a tool to integrate C/Cpp code with Lua
-* [Zeex/subhook](https://github.com/Zeex/subhook) - Simple hooking library for C/C++ (x86 only, 32/64-bit, no dependencies)
-* [alexanderchuranov/Metaresc](https://github.com/alexanderchuranov/Metaresc) - META data and RESource library for  C language
-* [arnaudbrejeon/cspec](https://github.com/arnaudbrejeon/cspec) - Behavior driven development in C
-* [cioc/functionalC](https://github.com/cioc/functionalC) - Not because it is good, but because we can...
-* [comex/substitute](https://github.com/comex/substitute) - A free runtime modification library.
-* [elua/elua](https://github.com/elua/elua) - eLua Project on GitHub
-* [eudoxia0/magma](https://github.com/eudoxia0/magma) - Extending C with cmacro
-* [graphitemaster/lambdapp](https://github.com/graphitemaster/lambdapp) - Anonymous functions in C
-* [guillermocalvo/exceptions4c](https://github.com/guillermocalvo/exceptions4c) - :bomb: An exception handling framework for C
-* [orangeduck/LuaAutoC](https://github.com/orangeduck/LuaAutoC) - Automagically use C Functions and Structs with the Lua API
-* [pfultz2/Cloak](https://github.com/pfultz2/Cloak) - A mini-preprocessor library to demostrate the recursive capabilites of the preprocessor
-* [robrix/RXPreprocessing](https://github.com/robrix/RXPreprocessing) - A variety of utilities for the C preprocessor.
-* [skeeto/interactive-c-demo](https://github.com/skeeto/interactive-c-demo) - Demonstration of interactive C programming
-* [symisc/PH7](https://github.com/symisc/PH7) - An Embedded Implementation of PHP (C Library)
-* [yasm/yasm](https://github.com/yasm/yasm) - Yasm Assembler mainline development tree
-* [zserge/partcl](https://github.com/zserge/partcl) - ParTcl - a micro Tcl implementation
-* [cesanta/mjs](https://github.com/cesanta/mjs) - Embedded JavaScript engine for C/C++
-* [graphitemaster/incbin](https://github.com/graphitemaster/incbin) - Include binary files in C/C++
-* [pkrumins/bithacks.h](https://github.com/pkrumins/bithacks.h) - bithacks.h is a C header file containing useful bit manipulation macros
-* [breckinloggins/ngtemplate](https://github.com/breckinloggins/ngtemplate) - ngtemplate - A template engine written in C designed to be syntax-compatible with Google CTemplate
+<a id="flow-control"></a>
+<details>
+  <summary>Flow Control and Language Extension</summary>
+
+  ## <a href="#-">`^`</a> Flow Control and Language Extension ##
+  * [orangeduck/Cello][44-1] - Library introducing higher-level
+  programming to C. [`BSD 2-Clause`][44-2]
+  * [Ragel][44-3] - DSL for state machines that compiles to C. [`License`][44-4]
+  * [kitsune-dsu/kitsune-core][44-5] - Efficient, general-purpose framework for
+  dynamic software updating. [`License`][44-6]
+  * [P99][44-7] - Suite of macros to implement advanced features like default
+  function arguments, scope-bound resources, etc. [`License`][44-8]
+  * [CObjectSystem/COS](https://github.com/CObjectSystem/COS) - C Object System
+  * [H2CO3/Sparkling](https://github.com/H2CO3/Sparkling) - Lightweight extension language
+  * [LuaDist/lua](https://github.com/LuaDist/lua) - The Lua programming language with CMake based build
+  * [LuaDist/luajit](https://github.com/LuaDist/luajit) - LuaJIT is JIT compiler for the Lua language.
+  * [LuaDist/toluapp](https://github.com/LuaDist/toluapp) - tolua++ is an extension of toLua, a tool to integrate C/Cpp code with Lua
+  * [Zeex/subhook](https://github.com/Zeex/subhook) - Simple hooking library for C/C++ (x86 only, 32/64-bit, no dependencies)
+  * [alexanderchuranov/Metaresc](https://github.com/alexanderchuranov/Metaresc) - META data and RESource library for  C language
+  * [arnaudbrejeon/cspec](https://github.com/arnaudbrejeon/cspec) - Behavior driven development in C
+  * [cioc/functionalC](https://github.com/cioc/functionalC) - Not because it is good, but because we can...
+  * [comex/substitute](https://github.com/comex/substitute) - A free runtime modification library.
+  * [elua/elua](https://github.com/elua/elua) - eLua Project on GitHub
+  * [eudoxia0/magma](https://github.com/eudoxia0/magma) - Extending C with cmacro
+  * [graphitemaster/lambdapp](https://github.com/graphitemaster/lambdapp) - Anonymous functions in C
+  * [guillermocalvo/exceptions4c](https://github.com/guillermocalvo/exceptions4c) - :bomb: An exception handling framework for C
+  * [orangeduck/LuaAutoC](https://github.com/orangeduck/LuaAutoC) - Automagically use C Functions and Structs with the Lua API
+  * [pfultz2/Cloak](https://github.com/pfultz2/Cloak) - A mini-preprocessor library to demostrate the recursive capabilites of the preprocessor
+  * [robrix/RXPreprocessing](https://github.com/robrix/RXPreprocessing) - A variety of utilities for the C preprocessor.
+  * [skeeto/interactive-c-demo](https://github.com/skeeto/interactive-c-demo) - Demonstration of interactive C programming
+  * [symisc/PH7](https://github.com/symisc/PH7) - An Embedded Implementation of PHP (C Library)
+  * [yasm/yasm](https://github.com/yasm/yasm) - Yasm Assembler mainline development tree
+  * [zserge/partcl](https://github.com/zserge/partcl) - ParTcl - a micro Tcl implementation
+  * [cesanta/mjs](https://github.com/cesanta/mjs) - Embedded JavaScript engine for C/C++
+  * [graphitemaster/incbin](https://github.com/graphitemaster/incbin) - Include binary files in C/C++
+  * [pkrumins/bithacks.h](https://github.com/pkrumins/bithacks.h) - bithacks.h is a C header file containing useful bit manipulation macros
+  * [breckinloggins/ngtemplate](https://github.com/breckinloggins/ngtemplate) - ngtemplate - A template engine written in C designed to be syntax-compatible with Google
+
+  [44-8]: http://p99.gforge.inria.fr/p99-html/
+  [44-7]: http://p99.gforge.inria.fr/
+  [44-6]: https://github.com/kitsune-dsu/kitsune-core/blob/master/LICENSE
+  [44-5]: http://kitsune-dsu.com/
+  [44-4]: https://www.colm.net/open-source/ragel/
+  [44-3]: https://www.colm.net/open-source/ragel/
+  [44-2]: https://github.com/orangeduck/Cello/blob/master/LICENSE.md
+  [44-1]: https://github.com/orangeduck/Cello
+</details>
 
 ## Game Development ##
 Engines, libraries and other helpful things specifically for making games.
@@ -3528,9 +3542,6 @@ Comprehensive and integrated solutions for building web application in C.
 [435]: https://gnu.org/software/gss/
 [433]: https://github.com/antirez/linenoise
 [432]: https://github.com/recp/tm
-[431]: http://kitsune-dsu.com/
-[430]: http://www.colm.net/open-source/ragel/
-[429]: http://libcello.org/
 [428]: https://github.com/jeremyevans/ape_tag_libs/tree/master/c
 [427]: https://criu.org/Main_Page
 [426]: https://github.com/sinemetu1/twitc
