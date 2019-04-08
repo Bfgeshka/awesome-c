@@ -2202,6 +2202,7 @@ Incorporated lists:
 
 --------------------------------------------------------------------------------
 
+<a id="filetype-targets"></a>
 ## Filetype Targets ##
 Libraries for working with specific filetypes or classes of filetypes
 
@@ -2531,6 +2532,7 @@ Libraries for working with specific filetypes or classes of filetypes
 
 --------------------------------------------------------------------------------
 
+<a id="gamedev"></a>
 ## Game Development ##
 Engines, libraries and other helpful things specifically for making games.
 
