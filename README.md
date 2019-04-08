@@ -2214,7 +2214,7 @@ Libraries for working with specific filetypes or classes of filetypes
   * [abiggerhammer/hammer][37-9] - Parser combinators for binary formats. [`GPL 2`][37-10]
 
   [37-10]: https://github.com/abiggerhammer/hammer/blob/master/LICENSE
-  [37-7]: https://github.com/abiggerhammer/hammer
+  [37-9]: https://github.com/abiggerhammer/hammer
   [37-8]: https://github.com/nicklockwood/FastCoding/blob/master/LICENCE.md
   [37-7]: https://github.com/nicklockwood/FastCoding
   [37-6]: https://github.com/fuzxxl/memf/blob/master/COPYING
