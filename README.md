@@ -84,11 +84,13 @@ Incorporated lists:
 	* [JSON](#json)
 	* [INI](#ini)
 	* [XML](#xml)
-	* [YAML](#yaml)
 	* [Other Filetypes](#other-filetypes)
 * [Flow Control and Language Extension](#flow-control)
-* [Game Development](#game-development)
-* [Graphics](#graphics)
+* [Game Development](#gamedev)
+	* [Engines](#gamedev-engines)
+	* [Graphics Rendering](#gamedev-rendering)
+	* [Helping Libraries](#gamedev-helping-libraries)
+* [Geography](#geography)
 * [GUI](#gui)
 * [Hardware Oriented](#hardware-oriented)
 * [Hashing](#hashing)
@@ -2527,114 +2529,156 @@ Libraries for working with specific filetypes or classes of filetypes
   [44-1]: https://github.com/orangeduck/Cello
 </details>
 
+--------------------------------------------------------------------------------
+
 ## Game Development ##
 Engines, libraries and other helpful things specifically for making games.
-* [Allegro][170] - Cross-platform, game development and multimedia library. [``Zlib``][Zlib]
-* [cglm][171] - Optimized OpenGL/Graphics Math (glm) for C. [``MIT``][MIT]
-* [Chipmunk2D][172] - Fast and lightweight 2D game physics library. [``MIT``][MIT]
-* [Corange][173] - Game engine in pure C. [``BSD-2-Clause``][BSD-2-Clause]
-* [CSFML][174] - Binding for [SFML][175]. [``Zlib``][Zlib]
-* [Darkplaces][176] - Modified version of the Quake2 engine. [``GPL-2.0-only``][GPL-2.0-only]
-* [Epoxy][177] - Library for handling OpenGL function pointer management. [``MIT``][MIT]
-* [Freecell Solver][178] - Set of libraries and command-line programs for
-  automatically solving FreeCell and some similar variants of card Solitaire. [``MIT``][MIT]
-* [MATHC][184] - Math library for 2D and 3D programming. [``ZLib``][Zlib]
-* [raylib][188] - Simple library to learn video game programming. [``Zlib``][Zlib]
-* [RetroArch][189] - Reference frontend for [libretro][190]. [``GPL-3.0-only``][GPL-3.0-only]
-* [SDL2][191] - Cross-platform library designed to provide low-level access to
-  audio, keyboard, mouse, joystick and graphics hardware via OpenGL. [``Zlib``][Zlib]
-* [sdl-gpu][192] - Library for high-performance, modern 2D graphics. Based on
+
+<a id="gamedev-engines"></a>
+<details>
+  <summary>Game Engines</summary>
+
+  ### <a href="#-">`^`</a> Game Engines ###
+  * [Darkplaces](https://icculus.org/twilight/darkplaces/) - Modified version of the Quake2 engine. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+  * [ioquake3](https://ioquake3.org/) - The Quake3 engine, freed at last. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+  * [Orx](http://orx-project.org/) - Portable, lightweight, plugin-based, data-driven, 2D-oriented game engine. [`zlib`](https://directory.fsf.org/wiki/License:Zlib)
+  * [Spearmint](https://clover.moe/spearmint/) - Engine designed for FPS games. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
+  * [Gigoteur/UnicornConsole](https://github.com/Gigoteur/UnicornConsole) - Unicorn Console: create quick game !
+  * [MarilynDafa/Bulllord-Engine](https://github.com/MarilynDafa/Bulllord-Engine) - lightspeed lightweight elegant  game engine in pure c
+  * [HerculesWS/Hercules](https://github.com/HerculesWS/Hercules) - Creation of a robust massively multiplayer online role playing game (MMORPG) server package.
+  * [Olde-Skuul/doom3do](https://github.com/Olde-Skuul/doom3do) - The complete archive for DOOM for the 3DO
+  * [RandyGaul/AsciiEngine](https://github.com/RandyGaul/AsciiEngine) - Game engine written in C to create Ascii art games within the Windows console.
+  * [littlewolf](https://github.com/glouw/littlewolf) - The tiny software graphics and game engine
+  * [eduard-permyakov/permafrost-engine](https://github.com/eduard-permyakov/permafrost-engine) - An OpenGL 3.3 RTS game engine written in C
+  * [ejoy/ejoy2d](https://github.com/ejoy/ejoy2d) - A 2D Graphics Engine for Mobile Game
+  * [etlegacy/etlegacy](https://github.com/etlegacy/etlegacy) - ET: Legacy is based on the source code of the Wolfenstein: Enemy Territory which was released under the GPLv3 license.
+  * [fabiensanglard/chocolate_duke3D](https://github.com/fabiensanglard/chocolate_duke3D) - chocolate Duke Nukem,3D
+  * [a-nikolaev/curseofwar](https://github.com/a-nikolaev/curseofwar) - A Real Time Strategy game for Linux.
+  * [cadwallion/spinel](https://github.com/cadwallion/spinel) - A free and open source game engine using mruby and C/C++
+  * [chocolate-doom/chocolate-doom](https://github.com/chocolate-doom/chocolate-doom) - Chocolate Doom is a Doom source port that is minimalist and historically accurate.
+  * [cxong/cdogs-sdl](https://github.com/cxong/cdogs-sdl) - Classic overhead run-and-gun game
+  * [dalerank/caesaria-game](https://github.com/dalerank/caesaria-game) - Caesar III (Open source remake)
+  * [fogleman/Craft](https://github.com/fogleman/Craft) - A simple Minecraft clone written in C using modern OpenGL (shaders).
+  * [id-Software/DOOM](https://github.com/id-Software/DOOM) - DOOM Open Source Release
+  * [id-Software/Quake-2](https://github.com/id-Software/Quake-2) - Quake 2 GPL Source Release
+  * [id-Software/Quake-III-Arena](https://github.com/id-Software/Quake-III-Arena) - Quake III Arena GPL Source Release
+  * [id-Software/Quake](https://github.com/id-Software/Quake) - Quake GPL Source Release
+  * [keendreams/keen](https://github.com/keendreams/keen) - Keen Dreams on Greenlight!
+  * [linleyh/liberation-circuit](https://github.com/linleyh/liberation-circuit) - Trapped in a hostile computer system, you must make a way out - RTS/coding game
+  * [martincohen/Punity](https://github.com/martincohen/Punity) - A tiny game engine in C.
+  * [orangeduck/Corange](https://github.com/orangeduck/Corange) - Pure C Game Engine
+  * [naev/naev](https://github.com/naev/naev) - Naev is a 2d action/rpg space game that combines elements from the action, rpg and simulation genres.
+  * [nikki93/cgame](https://github.com/nikki93/cgame) - some ideas involving games and C
+  * [scottcgi/Mojoc](https://github.com/scottcgi/Mojoc) - A cross-platform, open-source, pure C  game engine for mobile game.
+  * [septag/darkhammer](https://github.com/septag/darkhammer) - darkHAMMER is a lightweight, open-source, multiplatform game engine. written in C (C99) language, supports python and C# bindings and lua scripts. Runs on windows and linux
+  * [stepmania/stepmania](https://github.com/stepmania/stepmania) - Advanced rhythm game for Windows, Linux and OS X. Designed for both home and arcade use.
+  * [taylor001/crown](https://github.com/taylor001/crown) - The flexible game engine.
+  * [theunamedguy/market-sim](https://github.com/theunamedguy/market-sim) - A retro stock-trading game utilizing live market data
+  * [tizian/Cendric2](https://github.com/tizian/Cendric2) - 2D Game
+  * [zaphire/Monocle-Engine](https://github.com/zaphire/Monocle-Engine) - Open source game engine for lush 2D. Inspired by Aquaria, FlashPunk and Unity.
+  * [tpoindex/crobots](https://github.com/tpoindex/crobots) - CROBOTS is a programming game, for programmers (or aspiring programmers.)
+  * [andwn/cave-story-md](https://github.com/andwn/cave-story-md) - A fan port of Cave Story for the Sega Mega Drive
+  * [angband/angband](https://github.com/angband/angband) - A free, single-player roguelike dungeon exploration game
+  * [nesbox/tic.computer](https://github.com/nesbox/tic.computer) - Public TIC-80 issues tracker
+  * [q2vkpt](https://github.com/cschied/q2vkpt) - Real-time path tracer VKPT integrated into q2pro Quake 2 client.
+</details>
+
+<a id="gamedev-rendering"></a>
+<details>
+  <summary>Graphics Rendering</summary>
+
+  ### <a href="#-">`^`</a> Graphics Rendering ###
+  Everything related to video rendering only.
+  * [sdl-gpu][192] - Library for high-performance, modern 2D graphics. Based on
   SDL. [``MIT``][MIT]
-* [SIGIL][193] - Sound, Input and Graphics Integration Library; a simple
+  * [FreeGLUT](http://freeglut.sourceforge.net/) - Alternative to the OpenGL Utility Toolkit. Allows the creation and management of windows with OpenGL contexts. [`X11`](https://directory.fsf.org/wiki/License:X11)
+  * [GLFW](https://www.glfw.org/) - Multi-platform library for creating windows with OpenGL contexts. [`zlib`](https://directory.fsf.org/wiki/License:Zlib)
+  * [MauriceGit/Cloth_Simulation](https://github.com/MauriceGit/Cloth_Simulation) - Cloth-Visualization via particle-simulation.
+  * [MauriceGit/Partikel_accelleration_on_GPU](https://github.com/MauriceGit/Partikel_accelleration_on_GPU) - Particle accelleration with OpenGL 4.3, using the compute shader to calculate particle movement on graphics hardware.
+  * [ands/lightmapper](https://github.com/ands/lightmapper) - A C/C++ single-file library for drop-in lightmap baking. Just use your existing OpenGL renderer to bounce light!
+  * [ands/seamoptimizer](https://github.com/ands/seamoptimizer) - A C/C++ single-file library that minimizes the hard transition errors of disjoint edges in lightmaps.
+  * [ebassi/graphene](https://github.com/ebassi/graphene) - A thin layer of graphic data types
+  * [mainroach/crabby](https://github.com/mainroach/crabby) - A texture compression algorithm for sprite sheets that allows decompression on the GPU during rendering.
+  * [Cairo][196] - 2D graphics library. [``LGPL-2.1-only``][LGPL-2.1-only] or [``MPL-1.1``][205]
+  * [libcaca][198] - ASCII renderer for terminal-based interfaces. [``WTFPL``][WTFPL]
+  * [libsixel][199] - Library implementing the SIXEL protocol, allowing beautiful graphics in your terminal. [``MIT``][MIT]
+  * [lightmapper][201] - Single-file library for lightmap baking, using an existing OpenGL renderer. Public domain.
+  * [libxmi][200] - Function library for rasterizing 2D vector
+  graphics. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+  * [nanovg][202] - Anti-aliased 2D vector drawing library on top of OpenGL, for
+  UI and visualizations. [``Zlib``][Zlib]
+  * [OpenGL][203] - Industry standard for high-performance graphics, with a
+  native C binding. [Various licenses][204].
+  * [OpenGL](https://www.opengl.org/) - Industry adopted 2D and 3D graphics API. More resources at [awesome-opengl](https://github.com/eug/awesome-opengl).
+  * [OpenGL ES](https://www.khronos.org/opengles/) - Industry adopted 2D and 3D graphics API for mobile and embedded devices.
+  * [OpenGL SC](https://www.khronos.org/openglsc/) - Graphic and compute standard for industry requiring system safety certification.
+  * [Vulkan](https://www.khronos.org/vulkan/) - Explicit graphic and compute API for modern cross-platform development. More resources at [awesome-vulkan](https://github.com/vinjn/awesome-vulkan).
+  * [Cairo](https://www.cairographics.org/) -2D graphics library. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html) or [`MPLv1.1`](https://directory.fsf.org/wiki/License:MPL-1.1)
+  * [Cogl](https://github.com/rib/cogl-web/wiki) - GPU graphics and utilities API. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
+  * [Clutter](https://blogs.gnome.org/clutter/get-it/) - UI library based on OpenGL. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
+  * [glfw/glfw](https://github.com/glfw/glfw) - A multi-platform library for OpenGL, OpenGL ES, Vulkan, window and input
+  * [nigels-com/glew](https://github.com/nigels-com/glew) - The OpenGL Extension Wrangler Library
+  * [anoek/ex-sdl-cairo-freetype-harfbuzz](https://github.com/anoek/ex-sdl-cairo-freetype-harfbuzz) - Example code which uses SDL, cairo, freetype, and harfbuzz to do ttf/otf text layout and rendering
+  * [ashima/webgl-noise](https://github.com/ashima/webgl-noise) - Procedural Noise Shader Routines compatible with WebGL
+  * [blodow/realtime_urdf_filter](https://github.com/blodow/realtime_urdf_filter) - ROS package that can filter geometry defined in URDF models from Kinect depth images. Can also preprocess data for the OpenNI tracker, to remove backgrounds, robots etc.
+  * [grz0zrg/fbg](https://github.com/grz0zrg/fbg) - Lightweight C 2D graphics API agnostic library with parallelism support
+  * [grimfang4/sdl-gpu](https://github.com/grimfang4/sdl-gpu) - A library for high-performance, modern 2D graphics with SDL written in C.
+  * [ileben/ShivaVG](https://github.com/ileben/ShivaVG) - OpenGL based ANSI C implementation of the OpenVG standard.
+  * [jpbruyere/vkvg](https://github.com/jpbruyere/vkvg) - Vulkan vector drawing, try to stay close to cairo api
+  * [libretro/common-shaders](https://github.com/libretro/common-shaders) - Collection of commonly used Cg shaders. These shaders are usable by either HLSL and/or Cg runtime compilers. The cg2glsl script will translate most of these into GLSL shaders.
+  * [memononen/nanovg](https://github.com/memononen/nanovg) - Antialiased 2D vector drawing library on top of OpenGL for UI and visualizations.
+  * [micahpearlman/MonkVG](https://github.com/micahpearlman/MonkVG) - MonkVG is an OpenVG 1.1 like vector graphics API implementation optimized for game use currently using an OpenGL ES backend that should be compatible with any HW that supports OpenGL ES 2.0 which includes most iOS and Android devices.
+  * [minusinf/opengl_dataviewer](https://github.com/minusinf/opengl_dataviewer) - A simple OpenGL xyzw dataviewer
+  * [randrew/layout](https://github.com/randrew/layout) - Single-file library for calculating 2D UI layouts using stacking boxes. Compiles as C99 or C++.
+  * [rougier/freetype-gl](https://github.com/rougier/freetype-gl) - OpenGL text using one vertex buffer, one texture and FreeType
+  * [simple2d/simple2d](https://github.com/simple2d/simple2d) - :video_game: Simple, open-source 2D graphics for everyone
+  * [sshirokov/csgtool](https://github.com/sshirokov/csgtool) - 3D CSG Tool
+  * [xelatihy/yocto-gl](https://github.com/xelatihy/yocto-gl) - A collection of C/C++ single-file libraries for building physically-based graphics applications
+  * [wdas/ptex](https://github.com/wdas/ptex) - Per-Face Texture Mapping for Production Rendering
+  * [juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders) - C, C++ headers and C# classes for icon fonts: Font Awesome, Fork Awesome, Material Design, Material Design icons, Kenney game icons and Ionicons
+  * [jakogut/tinyflock](https://github.com/jakogut/tinyflock) - A simple, high-performance, threaded, and interactive flocking demo written in C with GLFW.
+</details>
+
+<a id="gamedev-helping-libraries"></a>
+<details>
+  <summary>Gamedev Helping Libraries</summary>
+
+  ### <a href="#-">`^`</a> Gamedev Helping Libraries ###
+  * [Epoxy][177] - Library for handling OpenGL function pointer management. [``MIT``][MIT]
+  * [Freecell Solver][178] - Set of libraries and command-line programs for
+  automatically solving FreeCell and some similar variants of card Solitaire. [``MIT``][MIT]
+  * [MATHC][184] - Math library for 2D and 3D programming. [``ZLib``][Zlib]
+  * [SIGIL][193] - Sound, Input and Graphics Integration Library; a simple
   alternative to other libraries for doing all those things. Various licenses,
   all open source.
-* [Spearmint][194] - Engine designed for FPS games. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [Corange](https://github.com/orangeduck/Corange) - Game engine in pure C. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
-* [Darkplaces](https://icculus.org/twilight/darkplaces/) - Modified version of the Quake2 engine. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-* [ioquake3](https://ioquake3.org/) - The Quake3 engine, freed at last. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-* [Orx](http://orx-project.org/) - Portable, lightweight, plugin-based, data-driven, 2D-oriented game engine. [`zlib`](https://directory.fsf.org/wiki/License:Zlib)
-* [Quake](https://github.com/id-Software/Quake) - The Quake engine. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-* [Quake2](https://github.com/id-Software/Quake-2) - The Quake2 engine. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-* [Spearmint](https://clover.moe/spearmint/) - Engine designed for FPS games. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
-* [Allegro](https://liballeg.org/) - Cross-platform, video game development and multimedia library. [`zlib`](https://directory.fsf.org/wiki/License:Zlib)
-* [Chipmunk2D](http://chipmunk-physics.net/) - Fast and lightweight 2D game physics library. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-* [CSFML](https://www.sfml-dev.org/download/csfml/) - Binding for [SFML](https://www.sfml-dev.org/index.php) in C. [`zlib`](https://directory.fsf.org/wiki/License:Zlib)
-* [FreeGLUT](http://freeglut.sourceforge.net/) - Alternative to the OpenGL Utility Toolkit. Allows the creation and management of windows with OpenGL contexts. [`X11`](https://directory.fsf.org/wiki/License:X11)
-* [GLFW](https://www.glfw.org/) - Multi-platform library for creating windows with OpenGL contexts. [`zlib`](https://directory.fsf.org/wiki/License:Zlib)
-* [libao](https://xiph.org/ao/) - Cross-platform audio library with a wide variety of outputs. [`GNU GPL2.1 or later`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-* [RetroArch](https://www.libretro.com/) - The reference frontend for [libretro](https://www.libretro.com/). [`GNU GPL3`](http://www.gnu.org/licenses/gpl.html)
-* [SDL and SDL2](https://www.libsdl.org/) - Cross-platform development library designed to provide low-level access to audio, keyboard, mouse, joystick and graphics hardware via OpenGL. SDL2 is the most current version. [`zlib`](https://directory.fsf.org/wiki/License:Zlib)
-* [Gigoteur/UnicornConsole](https://github.com/Gigoteur/UnicornConsole) - Unicorn Console: create quick game !
-* [HBehrens/obj2opengl](https://github.com/HBehrens/obj2opengl) - script to convert 3D models of OBJ files to C/C++ float arrays (vertices, faces, texture) compatible with OpenGL ES glDrawArrays compatible with iPhone/iPad
-* [HerculesWS/Hercules](https://github.com/HerculesWS/Hercules) - Creation of a robust massively multiplayer online role playing game (MMORPG) server package.
-* [Kazade/kazmath](https://github.com/Kazade/kazmath) - A C math library targeted at games
-* [MarilynDafa/Bulllord-Engine](https://github.com/MarilynDafa/Bulllord-Engine) - lightspeed lightweight elegant  game engine in pure c
-* [MauriceGit/Cloth_Simulation](https://github.com/MauriceGit/Cloth_Simulation) - Cloth-Visualization via particle-simulation.
-* [MauriceGit/Partikel_accelleration_on_GPU](https://github.com/MauriceGit/Partikel_accelleration_on_GPU) - Particle accelleration with OpenGL 4.3, using the compute shader to calculate particle movement on graphics hardware.
-* [Olde-Skuul/doom3do](https://github.com/Olde-Skuul/doom3do) - The complete archive for DOOM for the 3DO
-* [R4stl1n/cAudio](https://github.com/R4stl1n/cAudio) - 3D Audio Engine Based on Openal
-* [RandyGaul/AsciiEngine](https://github.com/RandyGaul/AsciiEngine) - Game engine written in C to create Ascii art games within the Windows console.
-* [Tangent128/luasdl2](https://github.com/Tangent128/luasdl2) - A pure C binding of SDL 2.0 for Lua 5.1, Lua 5.2, and LuaJIT.
-* [a-nikolaev/curseofwar](https://github.com/a-nikolaev/curseofwar) - A Real Time Strategy game for Linux.
-* [ands/lightmapper](https://github.com/ands/lightmapper) - A C/C++ single-file library for drop-in lightmap baking. Just use your existing OpenGL renderer to bounce light!
-* [ands/seamoptimizer](https://github.com/ands/seamoptimizer) - A C/C++ single-file library that minimizes the hard transition errors of disjoint edges in lightmaps.
-* [cadwallion/spinel](https://github.com/cadwallion/spinel) - A free and open source game engine using mruby and C/C++
-* [ccore/ccore](https://github.com/ccore/ccore) - A cross platform low level game development library
-* [ccore/ccore_rewrite](https://github.com/ccore/ccore_rewrite) - A cross platform low level game development library
-* [chocolate-doom/chocolate-doom](https://github.com/chocolate-doom/chocolate-doom) - Chocolate Doom is a Doom source port that is minimalist and historically accurate.
-* [cloudwu/skynet](https://github.com/cloudwu/skynet) - A lightweight online game framework
-* [cxong/cdogs-sdl](https://github.com/cxong/cdogs-sdl) - Classic overhead run-and-gun game
-* [dalerank/caesaria-game](https://github.com/dalerank/caesaria-game) - Caesar III (Open source remake)
-* [dariomanesku/cmft](https://github.com/dariomanesku/cmft) - Cross-platform open-source command-line cubemap filtering tool.
-* [ebassi/graphene](https://github.com/ebassi/graphene) - A thin layer of graphic data types
-* [eduard-permyakov/permafrost-engine](https://github.com/eduard-permyakov/permafrost-engine) - An OpenGL 3.3 RTS game engine written in C
-* [ejoy/ejoy2d](https://github.com/ejoy/ejoy2d) - A 2D Graphics Engine for Mobile Game
-* [etlegacy/etlegacy](https://github.com/etlegacy/etlegacy) - ET: Legacy is based on the source code of the Wolfenstein: Enemy Territory which was released under the GPLv3 license.
-* [fabiensanglard/chocolate_duke3D](https://github.com/fabiensanglard/chocolate_duke3D) - chocolate Duke Nukem,3D
-* [felselva/mathc](https://github.com/felselva/mathc) - Pure C math library for 2D and 3D programming.
-* [floooh/chips](https://github.com/floooh/chips) - 8-bit chip and system emulators in standalone C headers
-* [fogleman/Craft](https://github.com/fogleman/Craft) - A simple Minecraft clone written in C using modern OpenGL (shaders).
-* [gabomdq/SDL_GameControllerDB](https://github.com/gabomdq/SDL_GameControllerDB) - A community sourced database of game controller mappings to be used with SDL2 Game Controller functionality
-* [geon/gloss](https://github.com/geon/gloss) - A bidirectional path tracer written in C.
-* [id-Software/DOOM](https://github.com/id-Software/DOOM) - DOOM Open Source Release
-* [id-Software/Quake-2](https://github.com/id-Software/Quake-2) - Quake 2 GPL Source Release
-* [id-Software/Quake-III-Arena](https://github.com/id-Software/Quake-III-Arena) - Quake III Arena GPL Source Release
-* [id-Software/Quake](https://github.com/id-Software/Quake) - Quake GPL Source Release
-* [jarikomppa/soloud](https://github.com/jarikomppa/soloud) - Free, easy, portable audio engine for games
-* [keendreams/keen](https://github.com/keendreams/keen) - Keen Dreams on Greenlight!
-* [libgdx/fbx-conv](https://github.com/libgdx/fbx-conv) - Command line utility using the FBX SDK to convert FBX/Collada/Obj files to a custom text/binary format for static, keyframed and skinned meshes.
-* [liballeg/allegro5](https://github.com/liballeg/allegro5) - The official Allegro 5 git repository. Pull requests welcome!
-* [linleyh/liberation-circuit](https://github.com/linleyh/liberation-circuit) - Trapped in a hostile computer system, you must make a way out - RTS/coding game
-* [mainroach/crabby](https://github.com/mainroach/crabby) - A texture compression algorithm for sprite sheets that allows decompression on the GPU during rendering.
-* [martincohen/Punity](https://github.com/martincohen/Punity) - A tiny game engine in C.
-* [mupen64plus/mupen64plus-core](https://github.com/mupen64plus/mupen64plus-core) - Core module of the Mupen64Plus project
-* [naev/naev](https://github.com/naev/naev) - Naev is a 2d action/rpg space game that combines elements from the action, rpg and simulation genres.
-* [nikki93/cgame](https://github.com/nikki93/cgame) - some ideas involving games and C
-* [orangeduck/Corange](https://github.com/orangeduck/Corange) - Pure C Game Engine
-* [recp/cglm](https://github.com/recp/cglm) - Highly Optimized Graphics Math (glm) for C
-* [rampantpixels/foundation_lib](https://github.com/rampantpixels/foundation_lib) - Cross-platform public domain foundation library in C providing basic support data types and functions to write applications and games in a platform-independent fashion.
-* [raysan5/raylib](https://github.com/raysan5/raylib) - A simple and easy-to-use library to enjoy videogames programming
-* [rxi/lovedos](https://github.com/rxi/lovedos) - A framework for making 2D DOS games in Lua
-* [scottcgi/Mojoc](https://github.com/scottcgi/Mojoc) - A cross-platform, open-source, pure C  game engine for mobile game.
-* [shaunlebron/blinky](https://github.com/shaunlebron/blinky) - Exploring peripheral vision in games (using Quake)
-* [septag/darkhammer](https://github.com/septag/darkhammer) - darkHAMMER is a lightweight, open-source, multiplatform game engine. written in C (C99) language, supports python and C# bindings and lua scripts. Runs on windows and linux
-* [slembcke/Chipmunk2D](https://github.com/slembcke/Chipmunk2D) - A fast and lightweight 2D game physics library.
-* [smistad/GPU-Marching-Cubes](https://github.com/smistad/GPU-Marching-Cubes) - A GPU implementation of the Marching Cubes algorithm for extracting surfaces from volumes using OpenCL and OpenGL
-* [sp4cerat/RLE-based-Voxel-Raycasting](https://github.com/sp4cerat/RLE-based-Voxel-Raycasting) - CUDA based Voxel Raycasting - Paper: Efficient, High-Quality, GPU-Based Visualization of Voxelized Surface Data
-* [stepmania/stepmania](https://github.com/stepmania/stepmania) - Advanced rhythm game for Windows, Linux and OS X. Designed for both home and arcade use.
-* [taylor001/crown](https://github.com/taylor001/crown) - The flexible game engine.
-* [theunamedguy/market-sim](https://github.com/theunamedguy/market-sim) - A retro stock-trading game utilizing live market data
-* [tizian/Cendric2](https://github.com/tizian/Cendric2) - 2D Game
-* [todace/G-CVSNT](https://github.com/todace/G-CVSNT) - G-CVSNT Gaijin (and Gamedev) CVSNT version - modified for large amounts of binary data (typically for gamedev)
-* [zaphire/Monocle-Engine](https://github.com/zaphire/Monocle-Engine) - Open source game engine for lush 2D. Inspired by Aquaria, FlashPunk and Unity.
-* [tpoindex/crobots](https://github.com/tpoindex/crobots) - CROBOTS is a programming game, for programmers (or aspiring programmers.)
-* [andwn/cave-story-md](https://github.com/andwn/cave-story-md) - A fan port of Cave Story for the Sega Mega Drive
-* [angband/angband](https://github.com/angband/angband) - A free, single-player roguelike dungeon exploration game
-* [nesbox/tic.computer](https://github.com/nesbox/tic.computer) - Public TIC-80 issues tracker
-* [Craft](https://github.com/fogleman/Craft) - minecraft clone writen in C
-* [littlewolf](https://github.com/glouw/littlewolf) - The tiny software graphics and game engine
-* [q2vkpt](https://github.com/cschied/q2vkpt) - Real-time path tracer VKPT integrated into q2pro Quake 2 client.
-* [nem0/OpenFBX](https://github.com/nem0/OpenFBX) - Lightweight open source FBX importer.
+  * [Allegro](https://liballeg.org/) - Cross-platform, video game development and multimedia library. [`zlib`](https://directory.fsf.org/wiki/License:Zlib)
+  * [Chipmunk2D](http://chipmunk-physics.net/) - Fast and lightweight 2D game physics library. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
+  * [CSFML](https://www.sfml-dev.org/download/csfml/) - Binding for [SFML](https://www.sfml-dev.org/index.php) in C. [`zlib`](https://directory.fsf.org/wiki/License:Zlib)
+  * [SDL and SDL2](https://www.libsdl.org/) - Cross-platform development library designed to provide low-level access to audio, keyboard, mouse, joystick and graphics hardware via OpenGL. SDL2 is the most current version. [`zlib`](https://directory.fsf.org/wiki/License:Zlib)
+  * [HBehrens/obj2opengl](https://github.com/HBehrens/obj2opengl) - script to convert 3D models of OBJ files to C/C++ float arrays (vertices, faces, texture) compatible with OpenGL ES glDrawArrays compatible with iPhone/iPad
+  * [Kazade/kazmath](https://github.com/Kazade/kazmath) - A C math library targeted at games
+  * [R4stl1n/cAudio](https://github.com/R4stl1n/cAudio) - 3D Audio Engine Based on Openal
+  * [Tangent128/luasdl2](https://github.com/Tangent128/luasdl2) - A pure C binding of SDL 2.0 for Lua 5.1, Lua 5.2, and LuaJIT.
+  * [ccore/ccore](https://github.com/ccore/ccore) - A cross platform low level game development library
+  * [ccore/ccore_rewrite](https://github.com/ccore/ccore_rewrite) - A cross platform low level game development library
+  * [cloudwu/skynet](https://github.com/cloudwu/skynet) - A lightweight online game framework
+  * [felselva/mathc](https://github.com/felselva/mathc) - Pure C math library for 2D and 3D programming.
+  * [floooh/chips](https://github.com/floooh/chips) - 8-bit chip and system emulators in standalone C headers
+  * [gabomdq/SDL_GameControllerDB](https://github.com/gabomdq/SDL_GameControllerDB) - A community sourced database of game controller mappings to be used with SDL2 Game Controller functionality
+  * [geon/gloss](https://github.com/geon/gloss) - A bidirectional path tracer written in C.
+  * [jarikomppa/soloud](https://github.com/jarikomppa/soloud) - Free, easy, portable audio engine for games
+  * [libgdx/fbx-conv](https://github.com/libgdx/fbx-conv) - Command line utility using the FBX SDK to convert FBX/Collada/Obj files to a custom text/binary format for static, keyframed and skinned meshes.
+  * [liballeg/allegro5](https://github.com/liballeg/allegro5) - The official Allegro 5 git repository. Pull requests welcome!
+  * [recp/cglm](https://github.com/recp/cglm) - Highly Optimized Graphics Math (glm) for C
+  * [raysan5/raylib](https://github.com/raysan5/raylib) - A simple and easy-to-use library to enjoy videogames programming
+  * [rxi/lovedos](https://github.com/rxi/lovedos) - A framework for making 2D DOS games in Lua
+  * [slembcke/Chipmunk2D](https://github.com/slembcke/Chipmunk2D) - A fast and lightweight 2D game physics library.
+  * [shaunlebron/blinky](https://github.com/shaunlebron/blinky) - Exploring peripheral vision in games (using Quake)
+  * [sp4cerat/RLE-based-Voxel-Raycasting](https://github.com/sp4cerat/RLE-based-Voxel-Raycasting) - CUDA based Voxel Raycasting - Paper: Efficient, High-Quality, GPU-Based Visualization of Voxelized Surface Data
+  * [nem0/OpenFBX](https://github.com/nem0/OpenFBX) - Lightweight open source FBX importer.
+</details>
+
+--------------------------------------------------------------------------------
 
 ## Geography ##
 Geodata, street maps, navigation and so on
@@ -2658,54 +2702,6 @@ Geodata, street maps, navigation and so on
 * [kosma/minmea](https://github.com/kosma/minmea) - a lightweight GPS NMEA 0183 parser library in pure C
 * [geocommons/geocoder](https://github.com/geocommons/geocoder) - Modular Street Address Geocoder
 * [bauerca/gridfloat](https://github.com/bauerca/gridfloat) - Slice and dice USGS elevation data from the command line.
-
-## Graphics ##
-Access to graphical APIs or other graphic rendering libraries.
-* [FreeGLUT][179] - Alternative to the OpenGL Utility Toolkit. Allows the
-  creation and management of windows with OpenGL contexts. [``X11``][X11]
-* [GLFW][180] - Multi-platform library for creating windows with OpenGL
-  contexts. [``Zlib``][Zlib]
-* [Cairo][196] - 2D graphics library. [``LGPL-2.1-only``][LGPL-2.1-only] or [``MPL-1.1``][205]
-* [graphene][197] - Thin layer of graphical data types. [``MIT``][MIT]
-* [libcaca][198] - ASCII renderer for terminal-based interfaces. [``WTFPL``][WTFPL]
-* [libsixel][199] - Library implementing the SIXEL protocol, allowing beautiful
-  graphics in your terminal. [``MIT``][MIT]
-* [libxmi][200] - Function library for rasterizing 2D vector
-  graphics. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [lightmapper][201] - Single-file library for lightmap baking, using an
-  existing OpenGL renderer. Public domain.
-* [nanovg][202] - Anti-aliased 2D vector drawing library on top of OpenGL, for
-  UI and visualizations. [``Zlib``][Zlib]
-* [OpenGL][203] - Industry standard for high-performance graphics, with a
-  native C binding. [Various licenses][204].
-* [OpenGL](https://www.opengl.org/) - Industry adopted 2D and 3D graphics API. More resources at [awesome-opengl](https://github.com/eug/awesome-opengl).
-* [OpenGL ES](https://www.khronos.org/opengles/) - Industry adopted 2D and 3D graphics API for mobile and embedded devices.
-* [OpenGL SC](https://www.khronos.org/openglsc/) - Graphic and compute standard for industry requiring system safety certification.
-* [Vulkan](https://www.khronos.org/vulkan/) - Explicit graphic and compute API for modern cross-platform development. More resources at [awesome-vulkan](https://github.com/vinjn/awesome-vulkan).
-* [Cairo](https://www.cairographics.org/) -2D graphics library. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html) or [`MPLv1.1`](https://directory.fsf.org/wiki/License:MPL-1.1)
-* [Cogl](https://github.com/rib/cogl-web/wiki) - GPU graphics and utilities API. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-* [Clutter](https://blogs.gnome.org/clutter/get-it/) - UI library based on OpenGL. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-* [glfw/glfw](https://github.com/glfw/glfw) - A multi-platform library for OpenGL, OpenGL ES, Vulkan, window and input
-* [nigels-com/glew](https://github.com/nigels-com/glew) - The OpenGL Extension Wrangler Library
-* [anoek/ex-sdl-cairo-freetype-harfbuzz](https://github.com/anoek/ex-sdl-cairo-freetype-harfbuzz) - Example code which uses SDL, cairo, freetype, and harfbuzz to do ttf/otf text layout and rendering
-* [ashima/webgl-noise](https://github.com/ashima/webgl-noise) - Procedural Noise Shader Routines compatible with WebGL
-* [blodow/realtime_urdf_filter](https://github.com/blodow/realtime_urdf_filter) - ROS package that can filter geometry defined in URDF models from Kinect depth images. Can also preprocess data for the OpenNI tracker, to remove backgrounds, robots etc.
-* [grz0zrg/fbg](https://github.com/grz0zrg/fbg) - Lightweight C 2D graphics API agnostic library with parallelism support
-* [grimfang4/sdl-gpu](https://github.com/grimfang4/sdl-gpu) - A library for high-performance, modern 2D graphics with SDL written in C.
-* [ileben/ShivaVG](https://github.com/ileben/ShivaVG) - OpenGL based ANSI C implementation of the OpenVG standard.
-* [jpbruyere/vkvg](https://github.com/jpbruyere/vkvg) - Vulkan vector drawing, try to stay close to cairo api
-* [libretro/common-shaders](https://github.com/libretro/common-shaders) - Collection of commonly used Cg shaders. These shaders are usable by either HLSL and/or Cg runtime compilers. The cg2glsl script will translate most of these into GLSL shaders.
-* [memononen/nanovg](https://github.com/memononen/nanovg) - Antialiased 2D vector drawing library on top of OpenGL for UI and visualizations.
-* [micahpearlman/MonkVG](https://github.com/micahpearlman/MonkVG) - MonkVG is an OpenVG 1.1 like vector graphics API implementation optimized for game use currently using an OpenGL ES backend that should be compatible with any HW that supports OpenGL ES 2.0 which includes most iOS and Android devices.
-* [minusinf/opengl_dataviewer](https://github.com/minusinf/opengl_dataviewer) - A simple OpenGL xyzw dataviewer
-* [randrew/layout](https://github.com/randrew/layout) - Single-file library for calculating 2D UI layouts using stacking boxes. Compiles as C99 or C++.
-* [rougier/freetype-gl](https://github.com/rougier/freetype-gl) - OpenGL text using one vertex buffer, one texture and FreeType
-* [simple2d/simple2d](https://github.com/simple2d/simple2d) - :video_game: Simple, open-source 2D graphics for everyone
-* [sshirokov/csgtool](https://github.com/sshirokov/csgtool) - 3D CSG Tool
-* [xelatihy/yocto-gl](https://github.com/xelatihy/yocto-gl) - A collection of C/C++ single-file libraries for building physically-based graphics applications
-* [wdas/ptex](https://github.com/wdas/ptex) - Per-Face Texture Mapping for Production Rendering
-* [juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders) - C, C++ headers and C# classes for icon fonts: Font Awesome, Fork Awesome, Material Design, Material Design icons, Kenney game icons and Ionicons
-* [jakogut/tinyflock](https://github.com/jakogut/tinyflock) - A simple, high-performance, threaded, and interactive flocking demo written in C with GLFW.
 
 ## GUI ##
 * [GTK+][206] - Cross-platform widget toolkit. [``LGPL-2.1-only``][LGPL-2.1-only]
@@ -2940,6 +2936,7 @@ Audio and video processing
 * [xiph/flac](https://github.com/xiph/flac) - Free Lossless Audio Codec
 * [xiph/opus](https://github.com/xiph/opus) - Modern audio compression for the internet.
 * [mhroth/tinyosc](https://github.com/mhroth/tinyosc) - A minimal Open Sound Control (OSC) library written in vanilla C.
+* [libao](https://xiph.org/ao/) - Cross-platform audio library with a wide variety of outputs. [`GNU GPL2.1 or later`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 
 ## Multiple Purpose Libraries ##
 * [pal][65] - Optimized library for maths, parallel processing and data
@@ -3328,6 +3325,7 @@ Audio and video processing
 * [pforemski/libpjf](https://github.com/pforemski/libpjf) - A C library of data structures with tools (based on libasn)
 * [rgantt/compsci.c](https://github.com/rgantt/compsci.c) - data structures, algorithms, and musings in C
 * [stevedekorte/basekit](https://github.com/stevedekorte/basekit) - C based OO portable data structure library
+* [rampantpixels/foundation_lib](https://github.com/rampantpixels/foundation_lib) - Cross-platform public domain foundation library in C providing basic support data types and functions to write applications and games in a platform-independent fashion.
 
 ## Scientific ##
 Math mostly located in *Calculations* category
