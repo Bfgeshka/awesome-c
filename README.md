@@ -2581,18 +2581,36 @@ Engines, libraries and other helpful things specifically for making games.
   * [nikki93/cgame][45-55] - some ideas involving games and C. `No license`
   * [scottcgi/Mojoc][45-56] - A cross-platform, open-source, pure C  game engine
   for mobile game. [`MIT`][45-57]
-  * [septag/darkhammer](https://github.com/septag/darkhammer) - darkHAMMER is a lightweight, open-source, multiplatform game engine. written in C (C99) language, supports python and C# bindings and lua scripts. Runs on windows and linux
-  * [stepmania/stepmania](https://github.com/stepmania/stepmania) - Advanced rhythm game for Windows, Linux and OS X. Designed for both home and arcade use.
-  * [taylor001/crown](https://github.com/taylor001/crown) - The flexible game engine.
-  * [theunamedguy/market-sim](https://github.com/theunamedguy/market-sim) - A retro stock-trading game utilizing live market data
-  * [tizian/Cendric2](https://github.com/tizian/Cendric2) - 2D Game
-  * [zaphire/Monocle-Engine](https://github.com/zaphire/Monocle-Engine) - Open source game engine for lush 2D. Inspired by Aquaria, FlashPunk and Unity.
-  * [tpoindex/crobots](https://github.com/tpoindex/crobots) - CROBOTS is a programming game, for programmers (or aspiring programmers.)
-  * [andwn/cave-story-md](https://github.com/andwn/cave-story-md) - A fan port of Cave Story for the Sega Mega Drive
-  * [angband/angband](https://github.com/angband/angband) - A free, single-player roguelike dungeon exploration game
-  * [nesbox/tic.computer](https://github.com/nesbox/tic.computer) - Public TIC-80 issues tracker
-  * [q2vkpt](https://github.com/cschied/q2vkpt) - Real-time path tracer VKPT integrated into q2pro Quake 2 client.
+  * [septag/darkhammer][45-58] - darkHAMMER is a lightweight, open-source,
+  multiplatform game engine. written in C (C99) language, supports python
+  and C# bindings and lua scripts. [`License`][45-59]
+  * [taylor001/crown][45-60] - The flexible game engine. [`MIT`][45-61]
+  * [theunamedguy/market-sim][45-62] - A retro stock-trading game utilizing
+  live market data. [`GPL 2`][45-63]
+  * [tpoindex/crobots][45-64] - CROBOTS is a programming game, for programmers
+  (or aspiring programmers). [`GPL 2`][45-65]
+  * [andwn/cave-story-md][45-66] - A fan port of Cave Story for the
+  Sega Mega Drive. [`License`][45-67]
+  * [angband/angband][45-68] - A free, single-player roguelike dungeon exploration game. [`License`][45-69]
+  * [nesbox/tic.computer][45-70] - Public TIC-80 issues tracker. [`MIT`][45-71]
+  * [q2vkpt][45-72] - Real-time path tracer VKPT integrated into q2pro Quake 2 client. [`GPL 2`][45-73]
 
+  [45-73]: https://github.com/cschied/q2vkpt/blob/master/LICENSE
+  [45-72]: https://github.com/cschied/q2vkpt
+  [45-71]: https://github.com/nesbox/TIC-80/blob/master/LICENSE
+  [45-70]: https://github.com/nesbox/TIC-80
+  [45-69]: https://github.com/angband/angband/blob/master/copying.txt
+  [45-68]: https://github.com/angband/angband
+  [45-67]: https://github.com/andwn/cave-story-md/blob/master/doc/LICENSE.md
+  [45-66]: https://github.com/andwn/cave-story-md
+  [45-65]: https://github.com/tpoindex/crobots/blob/master/LICENSE
+  [45-64]: https://github.com/tpoindex/crobots
+  [45-63]: https://github.com/built1n/market-sim/blob/master/LICENSE
+  [45-62]: https://github.com/built1n/market-sim
+  [45-61]: https://github.com/dbartolini/crown/blob/master/LICENSE
+  [45-60]: https://github.com/dbartolini/crown
+  [45-59]: https://github.com/septag/darkhammer/blob/master/LICENSE
+  [45-58]: https://github.com/septag/darkhammer
   [45-57]: https://github.com/scottcgi/Mojoc/blob/master/LICENSE
   [45-56]: https://github.com/scottcgi/Mojoc
   [45-55]: https://github.com/nikki93/cgame
