@@ -2458,14 +2458,16 @@ Libraries for working with specific filetypes or classes of filetypes
   * [arnaudbrejeon/cspec][44-17] - Behavior driven development in C. [`GPL 3`][44-18]
   * [comex/substitute][44-19] - A free runtime modification library. [`License`][44-20]
   * [elua/elua][44-21] - Highly portable version of Lua. [`License`][44-22]
-  * [eudoxia0/magma](https://github.com/eudoxia0/magma) - Extending C with cmacro
-  * [graphitemaster/lambdapp](https://github.com/graphitemaster/lambdapp) - Anonymous functions in C
-  * [guillermocalvo/exceptions4c](https://github.com/guillermocalvo/exceptions4c) - :bomb: An exception handling framework for C
-  * [orangeduck/LuaAutoC](https://github.com/orangeduck/LuaAutoC) - Automagically use C Functions and Structs with the Lua API
-  * [pfultz2/Cloak](https://github.com/pfultz2/Cloak) - A mini-preprocessor library to demostrate the recursive capabilites of the preprocessor
-  * [robrix/RXPreprocessing](https://github.com/robrix/RXPreprocessing) - A variety of utilities for the C preprocessor.
-  * [skeeto/interactive-c-demo](https://github.com/skeeto/interactive-c-demo) - Demonstration of interactive C programming
-  * [symisc/PH7](https://github.com/symisc/PH7) - An Embedded Implementation of PHP (C Library)
+  * [eudoxia0/magma][44-23] - Extending C with cmacro. [`License`][44-24]
+  * [graphitemaster/lambdapp][44-25] - Anonymous functions in C. [`Unlicense`][44-26]
+  * [guillermocalvo/exceptions4c][44-27] - Exception handling framework for C. [`LGPL 3`][44-28]
+  * [orangeduck/LuaAutoC][44-29] - Automagically use C Functions and Structs
+  with the Lua API. [`License`][44-30]
+  * [pfultz2/Cloak][44-31] - A mini-preprocessor library to demostrate the
+  recursive capabilites of the preprocessor. [`Boost`][44-32]
+  * [skeeto/interactive-c-demo][44-33] - Demonstration of interactive
+  C programming. [`Unlicense`][44-34]
+  * [symisc/PH7][44-35] - An Embedded Implementation of PHP (C Library). [`License`][44-36]
   * [yasm/yasm](https://github.com/yasm/yasm) - Yasm Assembler mainline development tree
   * [zserge/partcl](https://github.com/zserge/partcl) - ParTcl - a micro Tcl implementation
   * [cesanta/mjs](https://github.com/cesanta/mjs) - Embedded JavaScript engine for C/C++
@@ -2473,6 +2475,20 @@ Libraries for working with specific filetypes or classes of filetypes
   * [pkrumins/bithacks.h](https://github.com/pkrumins/bithacks.h) - bithacks.h is a C header file containing useful bit manipulation macros
   * [breckinloggins/ngtemplate](https://github.com/breckinloggins/ngtemplate) - ngtemplate - A template engine written in C designed to be syntax-compatible with Google
 
+  [44-36]: https://github.com/symisc/PH7/blob/master/license.txt
+  [44-35]: https://github.com/symisc/PH7
+  [44-34]: https://github.com/skeeto/interactive-c-demo/blob/master/UNLICENSE
+  [44-33]: https://github.com/skeeto/interactive-c-demo
+  [44-32]: https://github.com/pfultz2/Cloak/blob/master/cloak.h
+  [44-31]: https://github.com/pfultz2/Cloak
+  [44-30]: https://github.com/orangeduck/LuaAutoC/blob/master/LICENSE.md
+  [44-29]: https://github.com/orangeduck/LuaAutoC
+  [44-28]: https://github.com/guillermocalvo/exceptions4c/blob/master/COPYING
+  [44-27]: https://github.com/guillermocalvo/exceptions4c
+  [44-26]: https://github.com/graphitemaster/lambdapp/blob/master/LICENSE
+  [44-25]: https://github.com/graphitemaster/lambdapp
+  [44-24]: https://github.com/eudoxia0/magma#id40
+  [44-23]: https://github.com/eudoxia0/magma
   [44-22]: https://github.com/elua/elua/blob/master/LICENSE
   [44-21]: https://github.com/elua/elua
   [44-20]: https://github.com/comex/substitute/blob/master/LICENSE.txt
