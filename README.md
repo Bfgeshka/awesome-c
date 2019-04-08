@@ -2446,17 +2446,14 @@ Libraries for working with specific filetypes or classes of filetypes
   dynamic software updating. [`License`][44-6]
   * [P99][44-7] - Suite of macros to implement advanced features like default
   function arguments, scope-bound resources, etc. [`License`][44-8]
-  * [CObjectSystem/COS](https://github.com/CObjectSystem/COS) - C Object System
-  * [H2CO3/Sparkling](https://github.com/H2CO3/Sparkling) - Lightweight extension language
-  * [LuaDist/lua](https://github.com/LuaDist/lua) - The Lua programming language with CMake based build
-  * [LuaDist/luajit](https://github.com/LuaDist/luajit) - LuaJIT is JIT compiler for the Lua language.
-  * [LuaDist/toluapp](https://github.com/LuaDist/toluapp) - tolua++ is an extension of toLua, a tool to integrate C/Cpp code with Lua
-  * [Zeex/subhook](https://github.com/Zeex/subhook) - Simple hooking library for C/C++ (x86 only, 32/64-bit, no dependencies)
-  * [alexanderchuranov/Metaresc](https://github.com/alexanderchuranov/Metaresc) - META data and RESource library for  C language
-  * [arnaudbrejeon/cspec](https://github.com/arnaudbrejeon/cspec) - Behavior driven development in C
-  * [cioc/functionalC](https://github.com/cioc/functionalC) - Not because it is good, but because we can...
-  * [comex/substitute](https://github.com/comex/substitute) - A free runtime modification library.
-  * [elua/elua](https://github.com/elua/elua) - eLua Project on GitHub
+  * [CObjectSystem/COS][44-9] - C Object System. [`Apache 2`][44-10]
+  * [H2CO3/Sparkling][44-11] - Lightweight extension language. [`BSD 2-Clause`][44-12]
+  * [lua/lua][44-13] - Embeddable scripting programming language. [`License`][44-14]
+  * [Zeex/subhook][44-15] - Simple hooking library for C/C++
+  (x86 only, 32/64-bit, no dependencies). [`BSD 2-Clause`][44-16]
+  * [arnaudbrejeon/cspec][44-17] - Behavior driven development in C. [`GPL 3`][44-18]
+  * [comex/substitute][44-19] - A free runtime modification library. [`License`][44-20]
+  * [elua/elua][44-21] - Highly portable version of Lua. [`License`][44-22]
   * [eudoxia0/magma](https://github.com/eudoxia0/magma) - Extending C with cmacro
   * [graphitemaster/lambdapp](https://github.com/graphitemaster/lambdapp) - Anonymous functions in C
   * [guillermocalvo/exceptions4c](https://github.com/guillermocalvo/exceptions4c) - :bomb: An exception handling framework for C
@@ -2472,6 +2469,20 @@ Libraries for working with specific filetypes or classes of filetypes
   * [pkrumins/bithacks.h](https://github.com/pkrumins/bithacks.h) - bithacks.h is a C header file containing useful bit manipulation macros
   * [breckinloggins/ngtemplate](https://github.com/breckinloggins/ngtemplate) - ngtemplate - A template engine written in C designed to be syntax-compatible with Google
 
+  [44-22]: https://github.com/elua/elua/blob/master/LICENSE
+  [44-21]: https://github.com/elua/elua
+  [44-20]: https://github.com/comex/substitute/blob/master/LICENSE.txt
+  [44-19]: https://github.com/comex/substitute
+  [44-18]: https://github.com/arnaudbrejeon/cspec/blob/master/COPYING
+  [44-17]: https://github.com/arnaudbrejeon/cspec
+  [44-16]: https://github.com/Zeex/subhook/blob/master/LICENSE.txt
+  [44-15]: https://github.com/Zeex/subhook
+  [44-14]: https://www.lua.org/license.html
+  [44-13]: https://github.com/lua/lua
+  [44-12]: https://github.com/H2CO3/Sparkling/blob/master/LICENSE.txt
+  [44-11]: https://github.com/H2CO3/Sparkling
+  [44-10]: https://github.com/CObjectSystem/COS/blob/master/LICENSE
+  [44-9]: https://github.com/CObjectSystem/COS
   [44-8]: http://p99.gforge.inria.fr/p99-html/
   [44-7]: http://p99.gforge.inria.fr/
   [44-6]: https://github.com/kitsune-dsu/kitsune-core/blob/master/LICENSE
@@ -3231,6 +3242,7 @@ Audio and video processing
 * [nanopb/nanopb](https://github.com/nanopb/nanopb) - Protocol Buffers with small code size
 * [rfk/tnetstring](https://github.com/rfk/tnetstring) - data serialization using typed netstrings
 * [troydhanson/tpl](https://github.com/troydhanson/tpl) - tpl - a small binary serialization library for C
+* [alexanderchuranov/Metaresc](https://github.com/alexanderchuranov/Metaresc) - META data and RESource library for  C language
 
 ## Source Code Collections ##
 * [CCAN][292] - Modelled after Perl's CPAN, this is a big collection of code.
