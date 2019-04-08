@@ -2247,20 +2247,22 @@ Libraries for working with specific filetypes or classes of filetypes
   * [NeonMercury/jfes][39-1] - JSON For Embedded Systems; simple JSON engine
   without any dependencies. [`MIT`][39-2]
   * [zserge/jsmn][39-3] - Minimalistic JSON parser. [`MIT`][39-4]
-  * [WJElement][39-5] - Advanced JSON manipulation library, with support for
-  JSON Schema. [`Licenses`][39-6]
+  * [netmail-open/wjelement][39-5] - Advanced JSON manipulation library, with
+  support for JSON Schema. [`Licenses`][39-6]
   * [DaveGamble/cJSON][39-7] - Ultralightweight JSON parser in ANSI C. [`MIT`][39-8]
   * [akheron/jansson][39-9] - C library for encoding, decoding and manipulating
   JSON data. [`MIT`][39-10]
-  * [armink/struct2json](https://github.com/armink/struct2json) - A fast convert library between the JSON and C structure. Implement structure serialization and deserialization for C.
-  * [cesanta/frozen](https://github.com/cesanta/frozen) - JSON parser and generator for C/C++ with scanf/printf like interface. Targeting embedded systems.
-  * [cloudflare/lua-resty-json](https://github.com/cloudflare/lua-resty-json) - json lib for lua and C
-  * [esnme/ultrajson](https://github.com/esnme/ultrajson) - Ultra fast JSON decoder and encoder written in C with Python bindings
-  * [json-c/json-c](https://github.com/json-c/json-c) - https://github.com/json-c/json-c is the official code repository for json-c.  See the wiki for release tarballs for download.  API docs at http://json-c.github.io/json-c/
-  * [keenerd/jshon](https://github.com/keenerd/jshon) - Jshon is a JSON parser designed for maximum convenience within the shell.
-  * [kgabis/parson](https://github.com/kgabis/parson) - Lightweight JSON library written in C.
-  * [kevinbirch/kanabo](https://github.com/kevinbirch/kanabo) - query JSON/YAML data with JSONPath
-  * [lloyd/yajl](https://github.com/lloyd/yajl) - A fast streaming JSON parsing library in C.
+  * [armink/struct2json][39-11] - A fast convert library between the JSON and C
+  structure. Implement structure serialization and deserialization for C. [`MIT`][39-12]
+  * [cesanta/frozen][39-13] - JSON parser and generator for C/C++ with
+  scanf/printf like interface. Targeting embedded systems. [`Apache 2`][39-14]
+  * [cloudflare/lua-resty-json][39-15] - json lib for lua and C. [`BSD 2-Clause`][39-16]
+  * [json-c/json-c][39-17] - Official code repository for json-c. [`License`][39-18]
+  * [keenerd/jshon][39-19] - JSON parser designed for maximum convenience within
+  the shell. [`MIT`][39-20]
+  * [kgabis/parson][39-21] - Lightweight JSON library written in C. [`MIT`][39-22]
+  * [kevinbirch/kanabo][39-23] - query JSON/YAML data with JSONPath. [`License`][39-24]
+  * [lloyd/yajl][39-25] - A fast streaming JSON parsing library in C. [`ISC`][39-26]
   * [mysqludf/lib_mysqludf_json](https://github.com/mysqludf/lib_mysqludf_json) - A UDF library of functions to map relational data to the JSON format.
   * [orangeduck/json2c](https://github.com/orangeduck/json2c) - Convert JSON to C data literals
   * [quartzjer/js0n](https://github.com/quartzjer/js0n) - Flexible Zero-Footprint JSON Parser in C
@@ -2269,6 +2271,22 @@ Libraries for working with specific filetypes or classes of filetypes
   * [vincenthz/libjson](https://github.com/vincenthz/libjson) - a JSON parser and printer library in C. easy to integrate with any model.
   * [udp/json-parser](https://github.com/udp/json-parser) - Very low footprint JSON parser written in portable ANSI
 
+  [39-26]: https://github.com/lloyd/yajl/blob/master/COPYING
+  [39-25]: https://github.com/lloyd/yajl
+  [39-24]: https://github.com/kevinbirch/kanabo/blob/master/LICENSE.md
+  [39-23]: https://github.com/kevinbirch/kanabo
+  [39-22]: https://github.com/kgabis/parson/blob/master/LICENSE
+  [39-21]: https://github.com/kgabis/parson
+  [39-20]: https://github.com/keenerd/jshon/blob/master/LICENSE
+  [39-19]: https://github.com/keenerd/jshon
+  [39-18]: https://github.com/json-c/json-c/blob/master/COPYING
+  [39-17]: https://github.com/json-c/json-c
+  [39-16]: https://github.com/cloudflare/lua-resty-json/blob/master/LICENSE
+  [39-15]: https://github.com/cloudflare/lua-resty-json
+  [39-14]: https://github.com/cesanta/frozen/blob/master/LICENSE
+  [39-13]: https://github.com/cesanta/frozen
+  [39-12]: https://github.com/armink/struct2json/blob/master/LICENSE
+  [39-11]: https://github.com/armink/struct2json
   [39-10]: https://github.com/akheron/jansson/blob/master/LICENSE
   [39-9]: https://github.com/akheron/jansson
   [39-8]: https://github.com/DaveGamble/cJSON/blob/master/LICENSE
