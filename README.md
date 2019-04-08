@@ -2,6 +2,10 @@
 
 A curated list of C good stuff.
 
+**An important note:** this list is WIP in a sense of validating entries and
+creating uniform look. I'm trying to finish it ASAP, but it takes time, so keep
+it in mind.
+
 **An important note:** first and foremost linked resources are for C, therefore
 C++ is an afterthought.
 
