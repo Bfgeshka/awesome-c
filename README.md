@@ -2468,13 +2468,27 @@ Libraries for working with specific filetypes or classes of filetypes
   * [skeeto/interactive-c-demo][44-33] - Demonstration of interactive
   C programming. [`Unlicense`][44-34]
   * [symisc/PH7][44-35] - An Embedded Implementation of PHP (C Library). [`License`][44-36]
-  * [yasm/yasm](https://github.com/yasm/yasm) - Yasm Assembler mainline development tree
-  * [zserge/partcl](https://github.com/zserge/partcl) - ParTcl - a micro Tcl implementation
-  * [cesanta/mjs](https://github.com/cesanta/mjs) - Embedded JavaScript engine for C/C++
-  * [graphitemaster/incbin](https://github.com/graphitemaster/incbin) - Include binary files in C/C++
-  * [pkrumins/bithacks.h](https://github.com/pkrumins/bithacks.h) - bithacks.h is a C header file containing useful bit manipulation macros
-  * [breckinloggins/ngtemplate](https://github.com/breckinloggins/ngtemplate) - ngtemplate - A template engine written in C designed to be syntax-compatible with Google
+  * [yasm/yasm][44-37] - Provides libyasm - embeddable YASM engine. [`License`][44-38]
+  * [zserge/partcl][44-39] - Micro Tcl implementation. [`MIT`][44-40]
+  * [cesanta/mjs][44-41] - Embedded JavaScript engine for C/C++. [`License`][44-42]
+  * [graphitemaster/incbin][44-43] - Include binary files in C/C++. [`Unlicense`][44-44]
+  * [pkrumins/bithacks.h][44-45] - bithacks.h is a C header file containing
+  useful bit manipulation macros. [`MIT`][44-46]
+  * [breckinloggins/ngtemplate][44-47] - A template engine written in C designed
+  to be syntax-compatible with Google CTemplate. [`MIT`][44-48]
 
+  [44-48]: https://github.com/breckinloggins/ngtemplate/blob/master/LICENSE
+  [44-47]: https://github.com/breckinloggins/ngtemplate
+  [44-46]: https://github.com/pkrumins/bithacks.h/blob/master/bithacks.h
+  [44-45]: https://github.com/pkrumins/bithacks.h
+  [44-44]: https://github.com/graphitemaster/incbin/blob/master/UNLICENSE
+  [44-43]: https://github.com/graphitemaster/incbin
+  [44-42]: https://github.com/cesanta/mjs/blob/master/LICENSE
+  [44-41]: https://github.com/cesanta/mjs
+  [44-40]: https://github.com/zserge/partcl/blob/master/LICENSE
+  [44-39]: https://github.com/zserge/partcl
+  [44-38]: https://github.com/yasm/yasm/blob/master/COPYING
+  [44-37]: https://github.com/yasm/yasm
   [44-36]: https://github.com/symisc/PH7/blob/master/license.txt
   [44-35]: https://github.com/symisc/PH7
   [44-34]: https://github.com/skeeto/interactive-c-demo/blob/master/UNLICENSE
