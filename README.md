@@ -2404,7 +2404,7 @@ Libraries for working with specific filetypes or classes of filetypes
   Excel XLSX files. [`License`][43-20]
   * [libharu/libharu][43-21] - Free PDF library. [`Zlib`][43-22]
   * [samtools/htslib][43-23] - C library for high-throughput sequencing data
-  formats. [43-24]
+  formats. [`License`][43-24]
 
   [43-24]: https://github.com/samtools/htslib/blob/develop/LICENSE
   [43-23]: https://github.com/samtools/htslib
