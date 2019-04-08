@@ -2327,21 +2327,26 @@ Libraries for working with specific filetypes or classes of filetypes
   [40-1]: https://github.com/ndevilla/iniparser
 </details>
 
-### Markdown ###
-* [Hoedown][375] - Fully standards-compliant, extension-supporting, UTF-8
+<a id="markdown"></a>
+<details>
+  <summary>Markdown</summary>
+
+  ### <a href="#-">`^`</a> Markdown ###
+  * [Hoedown][375] - Fully standards-compliant, extension-supporting, UTF-8
   aware, fast Markdown parser. [``MIT``][MIT]
-* [libcmark][376] - Library for parsing the CommonMark dialect of
+  * [libcmark][376] - Library for parsing the CommonMark dialect of
   Markdown. [``BSD-2-Clause``][BSD-2-Clause]
-* [Orc/discount](https://github.com/Orc/discount) - My C implementation of John Gruber's Markdown markup language
-* [ali-rantakari/peg-markdown-highlight](https://github.com/ali-rantakari/peg-markdown-highlight) - C library for Markdown syntax highlighting, using a recursive-descent parser.
-* [commonmark/cmark](https://github.com/commonmark/cmark) - CommonMark parsing and rendering library and program in C
-* [commonsguy/cwac-anddown](https://github.com/commonsguy/cwac-anddown) - CWAC AndDown: Markdown Utility Library
-* [fletcher/MultiMarkdown-4](https://github.com/fletcher/MultiMarkdown-4) - C implementation of MultiMarkdown; almost complete rewrite of MMD 3 (which was aka "peg-multimarkdown").
-* [jgm/cmark](https://github.com/jgm/cmark) - CommonMark parsing and rendering library and program in C
-* [jgm/peg-markdown](https://github.com/jgm/peg-markdown) - An implementation of markdown in C, using a PEG grammar
-* [toland/qlmarkdown](https://github.com/toland/qlmarkdown) - QuickLook generator for Markdown files.
-* [vmg/redcarpet](https://github.com/vmg/redcarpet) - The safe Markdown parser, reloaded.
-* [vmg/sundown](https://github.com/vmg/sundown) - Standards compliant, fast, secure markdown processing library in C
+  * [Orc/discount](https://github.com/Orc/discount) - My C implementation of John Gruber's Markdown markup language
+  * [ali-rantakari/peg-markdown-highlight](https://github.com/ali-rantakari/peg-markdown-highlight) - C library for Markdown syntax highlighting, using a recursive-descent parser.
+  * [commonmark/cmark](https://github.com/commonmark/cmark) - CommonMark parsing and rendering library and program in C
+  * [commonsguy/cwac-anddown](https://github.com/commonsguy/cwac-anddown) - CWAC AndDown: Markdown Utility Library
+  * [fletcher/MultiMarkdown-4](https://github.com/fletcher/MultiMarkdown-4) - C implementation of MultiMarkdown; almost complete rewrite of MMD 3 (which was aka "peg-multimarkdown").
+  * [jgm/cmark](https://github.com/jgm/cmark) - CommonMark parsing and rendering library and program in C
+  * [jgm/peg-markdown](https://github.com/jgm/peg-markdown) - An implementation of markdown in C, using a PEG grammar
+  * [toland/qlmarkdown](https://github.com/toland/qlmarkdown) - QuickLook generator for Markdown files.
+  * [vmg/redcarpet](https://github.com/vmg/redcarpet) - The safe Markdown parser, reloaded.
+  * [vmg/sundown](https://github.com/vmg/sundown) - Standards compliant, fast, secure markdown processing library in C
+</details>
 
 ### XML ###
 * [Expat][332] - Stream-oriented XML parser. [MIT][MIT]
