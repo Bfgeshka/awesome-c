@@ -2332,29 +2332,53 @@ Libraries for working with specific filetypes or classes of filetypes
   <summary>Markdown</summary>
 
   ### <a href="#-">`^`</a> Markdown ###
-  * [Hoedown][375] - Fully standards-compliant, extension-supporting, UTF-8
-  aware, fast Markdown parser. [``MIT``][MIT]
-  * [libcmark][376] - Library for parsing the CommonMark dialect of
-  Markdown. [``BSD-2-Clause``][BSD-2-Clause]
-  * [Orc/discount](https://github.com/Orc/discount) - My C implementation of John Gruber's Markdown markup language
-  * [ali-rantakari/peg-markdown-highlight](https://github.com/ali-rantakari/peg-markdown-highlight) - C library for Markdown syntax highlighting, using a recursive-descent parser.
-  * [commonmark/cmark](https://github.com/commonmark/cmark) - CommonMark parsing and rendering library and program in C
-  * [commonsguy/cwac-anddown](https://github.com/commonsguy/cwac-anddown) - CWAC AndDown: Markdown Utility Library
-  * [fletcher/MultiMarkdown-4](https://github.com/fletcher/MultiMarkdown-4) - C implementation of MultiMarkdown; almost complete rewrite of MMD 3 (which was aka "peg-multimarkdown").
-  * [jgm/cmark](https://github.com/jgm/cmark) - CommonMark parsing and rendering library and program in C
-  * [jgm/peg-markdown](https://github.com/jgm/peg-markdown) - An implementation of markdown in C, using a PEG grammar
-  * [toland/qlmarkdown](https://github.com/toland/qlmarkdown) - QuickLook generator for Markdown files.
-  * [vmg/redcarpet](https://github.com/vmg/redcarpet) - The safe Markdown parser, reloaded.
-  * [vmg/sundown](https://github.com/vmg/sundown) - Standards compliant, fast, secure markdown processing library in C
+  * [hoedown/hoedown][41-1] - Fully standards-compliant, extension-supporting,
+  UTF-8 aware, fast Markdown parser. [`ISC`][41-2]
+  * [commonmark/cmark][41-3] - Library for parsing the CommonMark dialect of
+  Markdown. [`License`][41-4]
+  * [Orc/discount][41-5]- My C implementation of John Gruber's Markdown markup
+  language. [`License`][41-6]
+  * [commonsguy/cwac-anddown][41-7] - CWAC AndDown: Markdown Utility Library. [`Apache 2`][41-8]
+  * [fletcher/MultiMarkdown-6][41-9] - Lightweight markup processor to produce
+  HTML, LaTeX, and more. [`License`][41-10]
+  * [jgm/peg-markdown][41-11] - An implementation of markdown in C, using a
+  PEG grammar. [`Licenses`][41-12]
+  * [vmg/sundown][41-13] - Standards compliant, fast, secure markdown processing
+  library in C. [`License`][41-14]
+
+  [41-14]: https://github.com/vmg/sundown#license
+  [41-13]: https://github.com/vmg/sundown
+  [41-12]: https://github.com/jgm/peg-markdown/blob/master/LICENSE
+  [41-11]: https://github.com/jgm/peg-markdown
+  [41-10]: https://github.com/fletcher/MultiMarkdown-6/blob/develop/LICENSE.txt
+  [41-9]: https://github.com/fletcher/MultiMarkdown-6
+  [41-8]: https://github.com/commonsguy/cwac-anddown/blob/master/LICENSE
+  [41-7]: https://github.com/commonsguy/cwac-anddown
+  [41-6]: https://github.com/Orc/discount/blob/master/COPYRIGHT
+  [41-5]: https://github.com/Orc/discount
+  [41-4]: https://github.com/commonmark/cmark/blob/master/COPYING
+  [41-3]: https://github.com/commonmark/cmark
+  [41-2]: https://github.com/hoedown/hoedown/blob/master/LICENSE
+  [41-1]: https://github.com/hoedown/hoedown
 </details>
 
-### XML ###
-* [Expat][332] - Stream-oriented XML parser. [MIT][MIT]
-* [libxml2][333] - Standards-compliant, portable XML parser. [MIT][MIT]
-* [mini-xml](https://github.com/michaelrsweet/mxml) - Small XML reading and writing library. No dependencies aside from C standard library. [`GNU LGPL2.1 with static linking exception`](https://github.com/michaelrsweet/mxml/blob/master/COPYING)
-* [CastXML/CastXML](https://github.com/CastXML/CastXML) - C-family Abstract Syntax Tree XML Output
-* [TouchCode/TouchXML](https://github.com/TouchCode/TouchXML) - Official "clone" of TouchXML from TouchCode
-* [libexpat/libexpat](https://github.com/libexpat/libexpat) - :herb: Expat library: Fast streaming XML parser written in C; in the process of migrating from SourceForge to GitHub
+<a id="xml"></a>
+<details>
+  <summary>XML</summary>
+
+  ### <a href="#-">`^`</a> XML ###
+  * [libexpat/libexpat][42-1] - Stream-oriented XML parser. [`License`][42-2]
+  * [libxml2][42-3] - Standards-compliant, portable XML parser. [`MIT`][42-4]
+  * [michaelrsweet/mxml][42-5] - Small XML reading and writing library.
+  No dependencies aside from C standard library. [`Apache 2`][42-6]
+
+  [42-6]: https://github.com/michaelrsweet/mxml/blob/master/LICENSE
+  [42-5]: https://github.com/michaelrsweet/mxml
+  [42-4]: https://gitlab.gnome.org/GNOME/libxml2/blob/master/Copyright
+  [42-3]: http://xmlsoft.org/
+  [42-2]: https://github.com/libexpat/libexpat/blob/master/expat/COPYING
+  [42-1]: https://github.com/libexpat/libexpat
+</details>
 
 ### YAML ###
 * [libYAML][334] - YAML 1.1 parser and emitter. [``MIT``][MIT]
@@ -3539,8 +3563,6 @@ Comprehensive and integrated solutions for building web application in C.
 
 [378]: https://github.com/riolet/WAFer
 [377]: http://www.pell.portland.or.us/~orc/Code/discount/
-[376]: https://github.com/jgm/cmark
-[375]: https://github.com/hoedown/hoedown
 [374]: https://github.com/nsf/termbox
 [373]: https://gnu.org/software/ncurses/
 [372]: https://github.com/sabotage-linux/netbsd-curses
@@ -3581,8 +3603,6 @@ Comprehensive and integrated solutions for building web application in C.
 [336]: https://github.com/martinh/libconfuse
 [335]: https://github.com/mongodb/libbson
 [334]: https://www.pyyaml.org/wiki/LibYAML
-[333]: http://xmlsoft.org/
-[332]: http://expat.sourceforge.net/
 [329]: https://github.com/benhoyt/inih
 [328]: https://lloyd.github.io/yajl/
 [327]: https://github.com/netmail-open/wjelement/
