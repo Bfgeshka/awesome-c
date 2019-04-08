@@ -2244,33 +2244,41 @@ Libraries for working with specific filetypes or classes of filetypes
   <summary>JSON</summary>
 
   ### <a href="#-">`^`</a> JSON ###
-  * [jfes][324] - JSON For Embedded Systems; simple JSON engine without any
-  dependencies. [``MIT``][MIT]
-  * [json.h][326] - Single-file non-streaming JSON parser. [``Unlicense``][Unlicense]
-  * [Jansson](http://www.digip.org/jansson/) - C library for encoding, decoding and manipulating JSON. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-  * [jsmn](https://zserge.com/jsmn.html) - Minimalistic JSON parser. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-  * [WJElement](https://github.com/netmail-open/wjelement/wiki) - Advanced JSON manipulation library, with support for JSON Schema. [`LGPL, any version`](https://github.com/netmail-open/wjelement/)
-  * [YAJL](https://lloyd.github.io/yajl/) - Fast C JSON streaming parser library. [`ISC`](https://directory.fsf.org/wiki/License:ISC)
-  * [DaveGamble/cJSON](https://github.com/DaveGamble/cJSON) - Ultralightweight JSON parser in ANSI C
-  * [akheron/jansson](https://github.com/akheron/jansson) - C library for encoding, decoding and manipulating JSON data
+  * [NeonMercury/jfes][39-1] - JSON For Embedded Systems; simple JSON engine
+  without any dependencies. [`MIT`][39-2]
+  * [zserge/jsmn][39-3] - Minimalistic JSON parser. [`MIT`][39-4]
+  * [WJElement][39-5] - Advanced JSON manipulation library, with support for
+  JSON Schema. [`Licenses`][39-6]
+  * [DaveGamble/cJSON][39-7] - Ultralightweight JSON parser in ANSI C. [`MIT`][39-8]
+  * [akheron/jansson][39-9] - C library for encoding, decoding and manipulating
+  JSON data. [`MIT`][39-10]
   * [armink/struct2json](https://github.com/armink/struct2json) - A fast convert library between the JSON and C structure. Implement structure serialization and deserialization for C.
   * [cesanta/frozen](https://github.com/cesanta/frozen) - JSON parser and generator for C/C++ with scanf/printf like interface. Targeting embedded systems.
   * [cloudflare/lua-resty-json](https://github.com/cloudflare/lua-resty-json) - json lib for lua and C
   * [esnme/ultrajson](https://github.com/esnme/ultrajson) - Ultra fast JSON decoder and encoder written in C with Python bindings
   * [json-c/json-c](https://github.com/json-c/json-c) - https://github.com/json-c/json-c is the official code repository for json-c.  See the wiki for release tarballs for download.  API docs at http://json-c.github.io/json-c/
-  * [kbranigan/cJSON](https://github.com/kbranigan/cJSON) - I did not write this code, but I like it.
   * [keenerd/jshon](https://github.com/keenerd/jshon) - Jshon is a JSON parser designed for maximum convenience within the shell.
   * [kgabis/parson](https://github.com/kgabis/parson) - Lightweight JSON library written in C.
   * [kevinbirch/kanabo](https://github.com/kevinbirch/kanabo) - query JSON/YAML data with JSONPath
   * [lloyd/yajl](https://github.com/lloyd/yajl) - A fast streaming JSON parsing library in C.
   * [mysqludf/lib_mysqludf_json](https://github.com/mysqludf/lib_mysqludf_json) - A UDF library of functions to map relational data to the JSON format.
-  * [netmail-open/wjelement](https://github.com/netmail-open/wjelement) - advanced, flexible JSON manipulation in C
   * [orangeduck/json2c](https://github.com/orangeduck/json2c) - Convert JSON to C data literals
   * [quartzjer/js0n](https://github.com/quartzjer/js0n) - Flexible Zero-Footprint JSON Parser in C
   * [remicollet/pecl-json-c](https://github.com/remicollet/pecl-json-c) - JSON-C wrapper
   * [sheredom/json.h](https://github.com/sheredom/json.h) - json parser for C and C++
   * [vincenthz/libjson](https://github.com/vincenthz/libjson) - a JSON parser and printer library in C. easy to integrate with any model.
-  * [udp/json-parser](https://github.com/udp/json-parser) - Very low footprint JSON parser written in portable ANSI C
+  * [udp/json-parser](https://github.com/udp/json-parser) - Very low footprint JSON parser written in portable ANSI
+
+  [39-10]: https://github.com/akheron/jansson/blob/master/LICENSE
+  [39-9]: https://github.com/akheron/jansson
+  [39-8]: https://github.com/DaveGamble/cJSON/blob/master/LICENSE
+  [39-7]: https://github.com/DaveGamble/cJSON
+  [39-6]: https://github.com/netmail-open/wjelement
+  [39-5]: https://github.com/netmail-open/wjelement
+  [39-4]: https://github.com/zserge/jsmn/blob/master/LICENSE
+  [39-3]: https://github.com/zserge/jsmn
+  [39-2]: https://github.com/NeonMercury/jfes/blob/master/LICENSE
+  [39-1]: https://github.com/NeonMercury/jfes
 </details>
 
 ### INI ###
@@ -3536,7 +3544,6 @@ Comprehensive and integrated solutions for building web application in C.
 [327]: https://github.com/netmail-open/wjelement/
 [326]: https://github.com/sheredom/json.h
 [325]: https://zserge.com/jsmn.html
-[324]: https://github.com/NeonMercury/jfes
 [323]: http://www.digip.org/jansson/
 
 [321]: https://github.com/JuliaLang/utf8proc
