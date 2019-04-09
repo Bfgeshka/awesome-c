@@ -2208,7 +2208,7 @@ Libraries for working with specific filetypes or classes of filetypes
 
 <a id="binaries"></a>
 <details>
-  <summary>Binaries</summary>
+  <summary>╠════ Binaries</summary>
 
   ### <a href="#-">`^`</a> Binaries ###
   * [bfd][37-1] - Library for manipulating binary object files. Part of GNU
@@ -2234,7 +2234,7 @@ Libraries for working with specific filetypes or classes of filetypes
 
 <a id="csv"></a>
 <details>
-  <summary>CSV</summary>
+  <summary>╠════ CSV</summary>
 
   ### <a href="#-">`^`</a> CSV ###
   * [rgamble/libcsv][38-1] - Simple, streaming CSV parser. [`LGPL 2.1`][38-2]
@@ -2248,7 +2248,7 @@ Libraries for working with specific filetypes or classes of filetypes
 
 <a id="json"></a>
 <details>
-  <summary>JSON</summary>
+  <summary>╠════ JSON</summary>
 
   ### <a href="#-">`^`</a> JSON ###
   * [NeonMercury/jfes][39-1] - JSON For Embedded Systems; simple JSON engine
@@ -2318,7 +2318,7 @@ Libraries for working with specific filetypes or classes of filetypes
 
 <a id="ini"></a>
 <details>
-  <summary>INI</summary>
+  <summary>╠════ INI</summary>
 
   ### <a href="#-">`^`</a> INI ###
   * [ndevilla/iniparser][40-1] - Parser for .ini files. [`MIT`][40-2]
@@ -2336,7 +2336,7 @@ Libraries for working with specific filetypes or classes of filetypes
 
 <a id="markdown"></a>
 <details>
-  <summary>Markdown</summary>
+  <summary>╠════ Markdown</summary>
 
   ### <a href="#-">`^`</a> Markdown ###
   * [hoedown/hoedown][41-1] - Fully standards-compliant, extension-supporting,
@@ -2371,7 +2371,7 @@ Libraries for working with specific filetypes or classes of filetypes
 
 <a id="xml"></a>
 <details>
-  <summary>XML</summary>
+  <summary>╠════ XML</summary>
 
   ### <a href="#-">`^`</a> XML ###
   * [libexpat/libexpat][42-1] - Stream-oriented XML parser. [`License`][42-2]
@@ -2389,7 +2389,7 @@ Libraries for working with specific filetypes or classes of filetypes
 
 <a id="other-filetypes"></a>
 <details>
-  <summary>Other Filetypes</summary>
+  <summary>╚════ Other Filetypes</summary>
 
   ### <a href="#-">`^`</a> Other Filetypes ###
   * [yaml/libyaml][43-1] - Canonical source repository for LibYAML. [`MIT`][43-2]
