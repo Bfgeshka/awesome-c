@@ -2715,19 +2715,30 @@ Engines, libraries and other helpful things specifically for making games.
   standard. [`LGPL 2.1`][46-35]
   * [jpbruyere/vkvg][46-36] - Vulkan vector drawing, try to stay close to
   cairo api. [`MIT`][46-37]
-  * [libretro/common-shaders](https://github.com/libretro/common-shaders) - Collection of commonly used Cg shaders. These shaders are usable by either HLSL and/or Cg runtime compilers. The cg2glsl script will translate most of these into GLSL shaders.
-  * [memononen/nanovg](https://github.com/memononen/nanovg) - Antialiased 2D vector drawing library on top of OpenGL for UI and visualizations.
-  * [micahpearlman/MonkVG](https://github.com/micahpearlman/MonkVG) - MonkVG is an OpenVG 1.1 like vector graphics API implementation optimized for game use currently using an OpenGL ES backend that should be compatible with any HW that supports OpenGL ES 2.0 which includes most iOS and Android devices.
-  * [minusinf/opengl_dataviewer](https://github.com/minusinf/opengl_dataviewer) - A simple OpenGL xyzw dataviewer
-  * [randrew/layout](https://github.com/randrew/layout) - Single-file library for calculating 2D UI layouts using stacking boxes. Compiles as C99 or C++.
-  * [rougier/freetype-gl](https://github.com/rougier/freetype-gl) - OpenGL text using one vertex buffer, one texture and FreeType
-  * [simple2d/simple2d](https://github.com/simple2d/simple2d) - :video_game: Simple, open-source 2D graphics for everyone
-  * [sshirokov/csgtool](https://github.com/sshirokov/csgtool) - 3D CSG Tool
-  * [xelatihy/yocto-gl](https://github.com/xelatihy/yocto-gl) - A collection of C/C++ single-file libraries for building physically-based graphics applications
-  * [wdas/ptex](https://github.com/wdas/ptex) - Per-Face Texture Mapping for Production Rendering
-  * [juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders) - C, C++ headers and C# classes for icon fonts: Font Awesome, Fork Awesome, Material Design, Material Design icons, Kenney game icons and Ionicons
-  * [jakogut/tinyflock](https://github.com/jakogut/tinyflock) - A simple, high-performance, threaded, and interactive flocking demo written in C with GLFW.
+  * [memononen/nanovg][46-38] - Antialiased 2D vector drawing library on top of
+  OpenGL for UI and visualizations. [`Zlib`][46-39]
+  * [micahpearlman/MonkVG][46-40] - OpenVG 1.1 like vector graphics API
+  implementation optimized for game use currently using an OpenGL ES backend
+  that should be compatible with any HW that supports OpenGL ES 2.0 which
+  includes most iOS and Android devices. [`License`][46-41]
+  * [minusinf/opengl_dataviewer][46-42] - A simple OpenGL xyzw dataviewer. [`GPL 3`][46-43]
+  * [rougier/freetype-gl][46-44] - OpenGL text using one vertex buffer, one
+  texture and FreeType. [`License`][46-45]
+  * [simple2d/simple2d][46-46] - Simple, open-source 2D graphics for everyone. [`MIT`][46-47]
+  * [jakogut/tinyflock][46-48] - A simple, high-performance, threaded, and
+  interactive flocking demo written in C with GLFW. `No license`
 
+  [46-48]: https://github.com/jakogut/tinyflock
+  [46-47]: https://github.com/simple2d/simple2d/blob/master/LICENSE.md
+  [46-46]: https://github.com/simple2d/simple2d
+  [46-45]: https://github.com/rougier/freetype-gl/blob/master/LICENSE
+  [46-44]: https://github.com/rougier/freetype-gl
+  [46-43]: https://github.com/pspoerri/opengl_dataviewer/blob/master/src/main.h
+  [46-42]: https://github.com/pspoerri/opengl_dataviewer
+  [46-41]: https://github.com/micahpearlman/MonkVG/blob/master/LICENSE
+  [46-40]: https://github.com/micahpearlman/MonkVG
+  [46-39]: https://github.com/memononen/nanovg/blob/master/LICENSE.txt
+  [46-38]: https://github.com/memononen/nanovg
   [46-37]: https://github.com/jpbruyere/vkvg/blob/master/LICENSE.md
   [46-36]: https://github.com/jpbruyere/vkvg
   [46-35]: https://github.com/ileben/ShivaVG/blob/master/COPYING
@@ -2851,6 +2862,7 @@ Geodata, street maps, navigation and so on
 * [Tk](http://www.tcl.tk/) - Basic widget toolkit. Part of Tcl/Tk. [`Tcl/Tk License`](http://www.tcl.tk/software/tcltk/license.html)
 * [XForms Toolkit](http://xforms-toolkit.org/) - Widget toolkit designed for the XWindow system. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
 * [Clutter](https://blogs.gnome.org/clutter/get-it/) - UI library based on OpenGL. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
+* [randrew/layout](https://github.com/randrew/layout) - Single-file library for calculating 2D UI layouts using stacking boxes. Compiles as C99 or C++.
 
 ## Hardware Oriented ##
 * [libcoap][423] - Implementation of the [Constrained Application Protocol][424].
@@ -3687,6 +3699,7 @@ Comprehensive and integrated solutions for building web application in C.
 * [vmg/houdini](https://github.com/vmg/houdini) - The Escapist
 * [luke-jr/bfgminer](https://github.com/luke-jr/bfgminer) - Modular ASIC/FPGA miner written in C, featuring overclocking, monitoring, fan speed control and remote interface capabilities.
 * [pornin/CTTK](https://github.com/pornin/CTTK) - Constant-Time Toolkit
+* [juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders) - C, C++ headers and C# classes for icon fonts: Font Awesome, Fork Awesome, Material Design, Material Design icons, Kenney game icons and Ionicons.
 
 [484]: https://www.codeproject.com/Articles/6154/Writing-Efficient-C-and-C-Code-Optimization
 [483]: https://docs.google.com/presentation/d/1h49gY3TSiayLMXYmRMaAEMl05FaJ-Z6jDOWOz3EsqqQ/edit?pli=1#slide=id.p
