@@ -3139,15 +3139,22 @@ Engines, libraries and other helpful things specifically for making games.
   * [pornel/giflossy][52-32] - Lossy GIF compressor. [`GPL 2`][52-33]
   * [pornel/pngquant][52-34] - Lossy PNG compressor. [`License`][52-35]
   * [rflynn/imgmin][52-36] - Lossy image optimization. [`MIT`][52-37]
-  * [rmagick-temp/rmagick](https://github.com/rmagick-temp/rmagick) - An interface to the ImageMagick and GraphicsMagick image processing libraries.
-  * [tjko/jpegoptim](https://github.com/tjko/jpegoptim) - jpegoptim - utility to optimize/compress JPEG files
-  * [uclouvain/openjpeg](https://github.com/uclouvain/openjpeg) - Official repository of the OpenJPEG project
-  * [vlfeat/vlfeat](https://github.com/vlfeat/vlfeat) - An open library of computer vision algorithms
-  * [zardus/preeny](https://github.com/zardus/preeny) - Some helpful preload libraries for pwning stuff.
-  * [libspng](https://libspng.org/) - Secure PNG reading/writing
-  * [ImageMagick](https://github.com/ImageMagick/ImageMagick) - Image processing suite with C interface
-  * [libsixel][199] - Library implementing the SIXEL protocol, allowing beautiful graphics in your terminal. [``MIT``][MIT]
+  * [uclouvain/openjpeg][52-38] - Official repository of the OpenJPEG project. [`BSD 2-Clause`][52-39]
+  * [vlfeat/vlfeat][52-40] - An open library of computer vision algorithms. [`BSD 2-Clause`][52-41]
+  * [libspng][52-42] - Secure PNG reading/writing. [`BSD 2-Clause`][52-43]
+  * [ImageMagick/ImageMagick][52-44] - Image processing suite with C interface. [`License`][52-45]
+  * [saitoha/libsixel][52-46] - Library implementing the SIXEL protocol, allowing beautiful graphics in your terminal. [`License`][52-47]
 
+  [52-47]: https://github.com/saitoha/libsixel/blob/master/LICENSE
+  [52-46]: https://github.com/saitoha/libsixel
+  [52-45]: https://github.com/ImageMagick/ImageMagick/blob/master/LICENSE
+  [52-44]: https://github.com/ImageMagick/ImageMagick
+  [52-43]: https://gitlab.com/randy408/libspng/blob/master/LICENSE
+  [52-42]: https://libspng.org/
+  [52-41]: https://github.com/vlfeat/vlfeat/blob/master/COPYING
+  [52-40]: https://github.com/vlfeat/vlfeat
+  [52-39]: https://github.com/uclouvain/openjpeg/blob/master/LICENSE
+  [52-38]: https://github.com/uclouvain/openjpeg
   [52-37]: https://github.com/rflynn/imgmin/blob/master/LICENSE-MIT.txt
   [52-36]: https://github.com/rflynn/imgmin
   [52-35]: https://github.com/kornelski/pngquant/blob/master/COPYRIGHT
@@ -3565,6 +3572,7 @@ Audio and video processing
 * [warmcat/libwebsockets](https://github.com/warmcat/libwebsockets) - canonical libwebsockets.org websocket library
 * [wengkai/ACLLib](https://github.com/wengkai/ACLLib) - ACLLib is a bunch of C functions covers Win32API and provides simpler API to beginners for programming Windows GUI applications. It compiles with MinGW and MS Visual Studio Express
 * [Keruspe/GPaste](https://github.com/Keruspe/GPaste) - Clipboard management system
+* [zardus/preeny](https://github.com/zardus/preeny) - Some helpful preload libraries for pwning stuff.
 
 ## Procedural Generation ##
 * [heman][382] - Tiny library of image utilities dealing with height maps,
@@ -4164,7 +4172,6 @@ Comprehensive and integrated solutions for building web application in C.
 [203]: https://www.opengl.org/
 [202]: https://github.com/memononen/nanovg
 [201]: https://github.com/ands/lightmapper
-[199]: https://github.com/saitoha/libsixel
 [197]: http://ebassi.github.io/graphene/
 [196]: http://cairographics.org/
 
