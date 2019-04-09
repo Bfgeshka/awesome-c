@@ -2979,22 +2979,25 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>Hardware Oriented</summary>
 
   ## <a href="#-">`^`</a> Hardware Oriented ##
-  * [libcoap][423] - Implementation of the [Constrained Application Protocol][424].
-  [``GPL-2.0-or-later``][GPL-2.0-or-later] or [``BSD-2-Clause``][BSD-2-Clause]
-  * [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) - Display and control your Android device
-  * [Azure/azure-iot-sdk-c](https://github.com/Azure/azure-iot-sdk-c) - A C99 SDK for connecting devices to Microsoft Azure IoT services
-  * [Eugnis/spectre-attack](https://github.com/Eugnis/spectre-attack) - Example of using revealed "Spectre" exploit (CVE-2017-5753 and CVE-2017-5715)
-  * [FoxelSA/libfastcal](https://github.com/FoxelSA/libfastcal) - Fast calibration data access
-  * [OpenSC/OpenSC](https://github.com/OpenSC/OpenSC) - Open source smart card tools and middleware. PKCS#11/MiniDriver/Tokend
-  * [OpenSecurityResearch/iclass_dump](https://github.com/OpenSecurityResearch/iclass_dump) - Tools to pull data from HID iClass readers
-  * [Stephane-D/SGDK](https://github.com/Stephane-D/SGDK) - SGDK: A small, open and free development kit for the Sega Megadrive
-  * [alonbl/pkcs11-data](https://github.com/alonbl/pkcs11-data) - PKCS#11 data object manipulator
-  * [andygock/avr-uart](https://github.com/andygock/avr-uart) - AVR UART C Library
-  * [anrieff/libcpuid](https://github.com/anrieff/libcpuid) - a small C library for x86 CPU detection and feature extraction
-  * [coocox/cox](https://github.com/coocox/cox) - CoX is an peripherals library with a unified standard interface specially for ARM Cortex M.
-  * [edorfaus/TEMPered](https://github.com/edorfaus/TEMPered) - C library and program for reading the TEMPer family of thermometer and hygrometer devices.
-  * [google/cpu_features](https://github.com/google/cpu_features) - A cross platform C99 library to get cpu features at runtime.
-  * [jackmitch/libsoc](https://github.com/jackmitch/libsoc) - libsoc: C library for interfacing with common SoC peripherals through generic kernel interfaces
+  * [obgm/libcoap][50-1] - Implementation of the Constrained Application
+  Protocol. [`License`][50-2]
+  * [Genymobile/scrcpy][50-3] - Display and control your Android device. [`Apache 2`][50-4]
+  * [Azure/azure-iot-sdk-c][50-5] - A C99 SDK for connecting devices to
+  Microsoft Azure IoT services. [`MIT`][50-6]
+  * [FoxelSA/libfastcal][50-7] - Fast calibration data access. [`AGPL 3`][50-8]
+  * [Stephane-D/SGDK][50-9] - SGDK: A small, open and free development kit for
+  the Sega Megadrive. [`MIT`][50-10]
+  * [andygock/avr-uart][50-11] - AVR UART C Library. [`License`][50-12]
+  * [anrieff/libcpuid][50-13] - a small C library for x86 CPU detection and
+  feature extraction. [`BSD 2-Clause`][50-14]
+  * [coocox/cox][50-15] - CoX is an peripherals library with a unified standard
+  interface specially for ARM Cortex M. [`BSD 3-Clause`][50-16]
+  * [edorfaus/TEMPered][50-17] - C library and program for reading the TEMPer
+  family of thermometer and hygrometer devices. [`BSD 2-Clause`][50-18]
+  * [google/cpu_features][50-19] - A cross platform C99 library to get cpu
+  features at runtime. [`Apache 2`][50-20]
+  * [jackmitch/libsoc][50-21] - libsoc: C library for interfacing with common
+  SoC peripherals through generic kernel interfaces. [`LGPL 2.1`][50-22]
   * [joan2937/pigpio](https://github.com/joan2937/pigpio) - pigpio is a C library for the Raspberry which allows control of the General Purpose Input Outputs (GPIO).
   * [leaflabs/libmaple](https://github.com/leaflabs/libmaple) - [INACTIVE] C and C++ library for STM32 ARM Cortex-M3 development boards.
   * [libimobiledevice/libimobiledevice](https://github.com/libimobiledevice/libimobiledevice) - A cross-platform protocol library to communicate with iOS devices
@@ -3007,6 +3010,26 @@ Engines, libraries and other helpful things specifically for making games.
   * [wiiudev/libwiiu](https://github.com/wiiudev/libwiiu) - Build system and examples for running C code on the Wii U
   * [floooh/chips](https://github.com/floooh/chips) - 8-bit chip and system emulators in standalone C headers
 
+  [50-22]: https://github.com/jackmitch/libsoc/blob/master/LICENCE
+  [50-21]: https://github.com/jackmitch/libsoc
+  [50-20]: https://github.com/google/cpu_features/blob/master/LICENSE
+  [50-19]: https://github.com/google/cpu_features
+  [50-18]: https://github.com/edorfaus/TEMPered/blob/master/LICENSE
+  [50-17]: https://github.com/edorfaus/TEMPered
+  [50-16]: https://github.com/coocox/cox/blob/master/LICENSE
+  [50-15]: https://github.com/coocox/cox
+  [50-14]: https://github.com/anrieff/libcpuid/blob/master/COPYING
+  [50-13]: https://github.com/anrieff/libcpuid
+  [50-12]: https://github.com/andygock/avr-uart/blob/master/LICENSE.txt
+  [50-11]: https://github.com/andygock/avr-uart
+  [50-10]: https://github.com/Stephane-D/SGDK/blob/master/license.txt
+  [50-9]: https://github.com/Stephane-D/SGDK
+  [50-8]: https://github.com/FoxelSA/libfastcal/blob/master/LICENSE
+  [50-7]: https://github.com/FoxelSA/libfastcal
+  [50-6]: https://github.com/Azure/azure-iot-sdk-c/blob/master/LICENSE
+  [50-5]: https://github.com/Azure/azure-iot-sdk-c
+  [50-4]: https://github.com/Genymobile/scrcpy/blob/master/LICENSE
+  [50-3]: https://github.com/Genymobile/scrcpy
   [50-2]: https://github.com/obgm/libcoap/blob/develop/LICENSE
   [50-1]: https://github.com/obgm/libcoap
 </details>
@@ -3853,7 +3876,6 @@ Comprehensive and integrated solutions for building web application in C.
 [427]: https://criu.org/Main_Page
 [426]: https://github.com/sinemetu1/twitc
 [425]: https://www.gnu.org/software/gnulib/
-[423]: https://github.com/obgm/libcoap
 [422]: https://gnu.org/software/freeipmi/index.html
 [421]: https://github.com/commonmark/cmark/blob/master/COPYING
 [420]: https://github.com/commonmark/cmark
