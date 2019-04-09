@@ -2538,7 +2538,7 @@ Engines, libraries and other helpful things specifically for making games.
 
 <a id="gamedev-engines"></a>
 <details>
-  <summary>Game Engines</summary>
+  <summary>╚═══ Game Engines</summary>
 
   ### <a href="#-">`^`</a> Game Engines ###
   * [xonotic/darkplaces][45-1] - Modified version of the Quake2 engine. [`GPL 2`][45-2]
