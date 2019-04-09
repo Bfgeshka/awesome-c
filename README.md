@@ -3201,29 +3201,39 @@ Engines, libraries and other helpful things specifically for making games.
   ## <a href="#-">`^`</a> Integrated Debugging and Logging ##
   * [gpakosz/whereami][53-1] - One-file library for locating the current
   executable on the file system. [`MIT`][53-2]
-  * [zlog][391] - Reliable, pure C logging library. [``LGPL-2.1-only``][LGPL-2.1-only]
-  * [debug][392] - One-header library for easier 'printf debugging'. [``MIT``][MIT]
-  * [CException][393] - Implementation of exceptions. [``MIT``][MIT]
-  * [pblog](https://github.com/google/pblog) - Small, low overhead, structured logging library intended for logging formware events.[`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
-  * [0xmalloc/c-log](https://github.com/0xmalloc/c-log) - a fast ,stable and thread-safe log lib(logger) for C/C++ language
-  * [Celtoys/Remotery](https://github.com/Celtoys/Remotery) - Single C file, Realtime CPU/GPU Profiler with Remote Web Viewer
-  * [HardySimpson/zlog](https://github.com/HardySimpson/zlog) - A reliable, high-performance, thread safe, flexsible, clear-model, pure C logging library.
-  * [armink/CmBacktrace](https://github.com/armink/CmBacktrace) - Advanced fault backtrace library for ARM Cortex-M series MCU
+  * [HardySimpson/zlog][53-3] - Reliable, pure C logging library. [`LGPL 2.1`][53-4]
+  * [esneider/debug][53-5] - One-header library for easier 'printf debugging'. [`MIT`][53-6]
+  * [ThrowTheSwitch/CException][53-7] - Implementation of exceptions. [`License`][53-8]
+  * [pblog][53-9] - Small, low overhead, structured logging library intended for
+  logging formware events. [`Apache 2`][53-10]
+  * [0xmalloc/c-log][53-11] - a fast ,stable and thread-safe log lib(logger)
+  for C/C++ language. [`Apache 2`][53-12]
+  * [Celtoys/Remotery](https://github.com/Celtoys/Remotery) - Single C file, Realtime CPU/GPU Profiler with Remote Web Viewer.
+  * [armink/CmBacktrace](https://github.com/armink/CmBacktrace) - Advanced fault backtrace library for ARM Cortex-M series MCU.
   * [armink/EasyLogger](https://github.com/armink/EasyLogger) - A ultra-lightweight(ROM<1.6K, RAM<0.3k), high-performance C/C++ log library.
-  * [cyrus-and/prof](https://github.com/cyrus-and/prof) - Self-contained C/C++ profiler library for Linux
-  * [esneider/debug](https://github.com/esneider/debug) - Debugging like a sir (in C)
+  * [cyrus-and/prof](https://github.com/cyrus-and/prof) - Self-contained C/C++ profiler library for Linux.
   * [facebook/liblogfaf](https://github.com/facebook/liblogfaf) - A library that logs messages using non-blocking UDP datagrams.
-  * [kmcallister/embedded-breakpoints](https://github.com/kmcallister/embedded-breakpoints) - Embed GDB breakpoints in C source code
-  * [ntpeters/SimpleLogger](https://github.com/ntpeters/SimpleLogger) - Basic logger for C and C++ projects
+  * [kmcallister/embedded-breakpoints](https://github.com/kmcallister/embedded-breakpoints) - Embed GDB breakpoints in C source code.
+  * [ntpeters/SimpleLogger](https://github.com/ntpeters/SimpleLogger) - Basic logger for C and C++ projects.
   * [openjudge/sandbox](https://github.com/openjudge/sandbox) - Open-source suite of software components for C/C++ and Python developers to create automated profiling tools and watchdog programs.
-  * [rxi/log.c](https://github.com/rxi/log.c) - A simple logging library implemented in C99
-  * [stephenrkell/liballocs](https://github.com/stephenrkell/liballocs) - Runtime and toolchain for whole-program monitoring of allocations and their data types
-  * [wc-duck/dbgtools](https://github.com/wc-duck/dbgtools) - Small collection of debug-related drop-in c/c++-utils
-  * [yosefk/checkedthreads](https://github.com/yosefk/checkedthreads) - checkedthreads: no race condition goes unnoticed! Simple API, automatic load balancing, Valgrind-based checking
+  * [rxi/log.c](https://github.com/rxi/log.c) - A simple logging library implemented in C99.
+  * [stephenrkell/liballocs](https://github.com/stephenrkell/liballocs) - Runtime and toolchain for whole-program monitoring of allocations and their data types.
+  * [wc-duck/dbgtools](https://github.com/wc-duck/dbgtools) - Small collection of debug-related drop-in c/c++-utils.
+  * [yosefk/checkedthreads](https://github.com/yosefk/checkedthreads) - checkedthreads: no race condition goes unnoticed! Simple API, automatic load balancing, Valgrind-based checking.
   * [Firm](https://pp.ipd.kit.edu/firm/) - Library that provides a graph-based intermediate
   representation, optimizations and assembly code generation suitable for use in
   compilers. Comes with an example C front-end under the same license. [``LGPL-2.1-only``][LGPL-2.1-only]
 
+  [53-12]: https://github.com/0xmalloc/c-log/blob/master/LICENSE
+  [53-11]: https://github.com/0xmalloc/c-log
+  [53-10]: https://github.com/google/pblog/blob/master/LICENSE
+  [53-9]: https://github.com/google/pblog
+  [53-8]: https://github.com/ThrowTheSwitch/CException/blob/master/LICENSE.txt
+  [53-7]: https://github.com/ThrowTheSwitch/CException
+  [53-6]: https://github.com/esneider/debug/blob/master/debug.h
+  [53-5]: https://github.com/esneider/debug
+  [53-4]: https://github.com/HardySimpson/zlog/blob/master/COPYING
+  [53-3]: https://github.com/HardySimpson/zlog
   [53-2]: https://github.com/gpakosz/whereami/blob/master/LICENSE.MIT
   [53-1]: https://github.com/gpakosz/whereami
 </details>
@@ -3999,9 +4009,6 @@ Comprehensive and integrated solutions for building web application in C.
 [395]: http://libtrading.org/
 [394]: https://tulipindicators.org/
 
-[393]: http://www.throwtheswitch.org/cexception
-[392]: https://github.com/esneider/debug
-[391]: http://hardysimpson.github.io/zlog/
 
 [388]: https://github.com/mozilla/mozjpeg
 [387]: http://www.vips.ecs.soton.ac.uk/index.php?title=VIPS
