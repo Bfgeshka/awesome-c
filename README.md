@@ -2694,20 +2694,27 @@ Engines, libraries and other helpful things specifically for making games.
   * [ebassi/graphene][46-13] - A thin layer of graphic data types. [`MIT`][46-14]
   * [cacalabs/libcaca][46-15] - ASCII renderer for terminal-based interfaces. [`WTFPL`][46-16]
   * [OpenGL][46-17] - Industry adopted 2D and 3D graphics API. `Graphics API`
-  * [OpenGL ES][46-18] - Industry adopted 2D and 3D graphics API for mobile and embedded devices. `Graphics API`
-  * [OpenGL SC][46-19] - Graphic and compute standard for industry requiring system safety certification. `Graphics API`
-  * [Vulkan][46-20] - Explicit graphic and compute API for modern cross-platform development. `Graphics API`
+  * [OpenGL ES][46-18] - Industry adopted 2D and 3D graphics API for mobile and
+  embedded devices. `Graphics API`
+  * [OpenGL SC][46-19] - Graphic and compute standard for industry requiring
+  system safety certification. `Graphics API`
+  * [Vulkan][46-20] - Explicit graphic and compute API for modern cross-platform
+  development. `Graphics API`
   * [Cairo][46-21] -2D graphics library. [`Licenses`][46-22]
-  * [Cogl](https://github.com/rib/cogl-web/wiki) - GPU graphics and utilities API. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-  * [Clutter](https://blogs.gnome.org/clutter/get-it/) - UI library based on OpenGL. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-  * [glfw/glfw](https://github.com/glfw/glfw) - A multi-platform library for OpenGL, OpenGL ES, Vulkan, window and input
-  * [nigels-com/glew](https://github.com/nigels-com/glew) - The OpenGL Extension Wrangler Library
-  * [anoek/ex-sdl-cairo-freetype-harfbuzz](https://github.com/anoek/ex-sdl-cairo-freetype-harfbuzz) - Example code which uses SDL, cairo, freetype, and harfbuzz to do ttf/otf text layout and rendering
-  * [ashima/webgl-noise](https://github.com/ashima/webgl-noise) - Procedural Noise Shader Routines compatible with WebGL
-  * [blodow/realtime_urdf_filter](https://github.com/blodow/realtime_urdf_filter) - ROS package that can filter geometry defined in URDF models from Kinect depth images. Can also preprocess data for the OpenNI tracker, to remove backgrounds, robots etc.
-  * [grz0zrg/fbg](https://github.com/grz0zrg/fbg) - Lightweight C 2D graphics API agnostic library with parallelism support
-  * [ileben/ShivaVG](https://github.com/ileben/ShivaVG) - OpenGL based ANSI C implementation of the OpenVG standard.
-  * [jpbruyere/vkvg](https://github.com/jpbruyere/vkvg) - Vulkan vector drawing, try to stay close to cairo api
+  * [Cogl][46-23] - GPU graphics and utilities API. [`License`][46-24]
+  * [glfw/glfw][46-25] - A multi-platform library for OpenGL, OpenGL ES, Vulkan,
+  window and input. [`Zlib`][46-26]
+  * [nigels-com/glew][46-27] - The OpenGL Extension Wrangler Library. [`License`][46-28]
+  * [anoek/ex-sdl-cairo-freetype-harfbuzz][46-29] - Example code which uses SDL,
+  cairo, freetype, and harfbuzz to do ttf/otf text layout and rendering. `No license`
+  * [ashima/webgl-noise][46-30] - Procedural Noise Shader Routines compatible
+  with WebGL. [`MIT`][46-31]
+  * [grz0zrg/fbg][46-32] - Lightweight C 2D graphics API agnostic library with
+  parallelism support. [`BSD 3-Clause`][46-33]
+  * [ileben/ShivaVG][46-34] - OpenGL based ANSI C implementation of the OpenVG
+  standard. [`LGPL 2.1`][46-35]
+  * [jpbruyere/vkvg][46-36] - Vulkan vector drawing, try to stay close to
+  cairo api. [`MIT`][46-37]
   * [libretro/common-shaders](https://github.com/libretro/common-shaders) - Collection of commonly used Cg shaders. These shaders are usable by either HLSL and/or Cg runtime compilers. The cg2glsl script will translate most of these into GLSL shaders.
   * [memononen/nanovg](https://github.com/memononen/nanovg) - Antialiased 2D vector drawing library on top of OpenGL for UI and visualizations.
   * [micahpearlman/MonkVG](https://github.com/micahpearlman/MonkVG) - MonkVG is an OpenVG 1.1 like vector graphics API implementation optimized for game use currently using an OpenGL ES backend that should be compatible with any HW that supports OpenGL ES 2.0 which includes most iOS and Android devices.
@@ -2721,6 +2728,21 @@ Engines, libraries and other helpful things specifically for making games.
   * [juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders) - C, C++ headers and C# classes for icon fonts: Font Awesome, Fork Awesome, Material Design, Material Design icons, Kenney game icons and Ionicons
   * [jakogut/tinyflock](https://github.com/jakogut/tinyflock) - A simple, high-performance, threaded, and interactive flocking demo written in C with GLFW.
 
+  [46-37]: https://github.com/jpbruyere/vkvg/blob/master/LICENSE.md
+  [46-36]: https://github.com/jpbruyere/vkvg
+  [46-35]: https://github.com/ileben/ShivaVG/blob/master/COPYING
+  [46-34]: https://github.com/ileben/ShivaVG
+  [46-33]: https://github.com/grz0zrg/fbg/blob/master/LICENSE
+  [46-32]: https://github.com/grz0zrg/fbg
+  [46-31]: https://github.com/ashima/webgl-noise/blob/master/LICENSE
+  [46-30]: https://github.com/ashima/webgl-noise
+  [46-29]: https://github.com/anoek/ex-sdl-cairo-freetype-harfbuzz
+  [46-28]: https://github.com/nigels-com/glew/blob/master/LICENSE.txt
+  [46-27]: https://github.com/nigels-com/glew
+  [46-26]: https://github.com/glfw/glfw/blob/master/LICENSE.md
+  [46-25]: https://github.com/glfw/glfw
+  [46-24]: https://gitlab.gnome.org/GNOME/cogl/blob/master/COPYING
+  [46-23]: https://gitlab.gnome.org/GNOME/cogl
   [46-22]: https://www.cairographics.org/
   [46-21]: https://www.cairographics.org/
   [46-20]: https://www.khronos.org/vulkan/
@@ -2828,6 +2850,7 @@ Geodata, street maps, navigation and so on
 * [IUP](http://webserver2.tecgraf.puc-rio.br/iup/) - Another cross-platform widget toolkit. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
 * [Tk](http://www.tcl.tk/) - Basic widget toolkit. Part of Tcl/Tk. [`Tcl/Tk License`](http://www.tcl.tk/software/tcltk/license.html)
 * [XForms Toolkit](http://xforms-toolkit.org/) - Widget toolkit designed for the XWindow system. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
+* [Clutter](https://blogs.gnome.org/clutter/get-it/) - UI library based on OpenGL. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
 
 ## Hardware Oriented ##
 * [libcoap][423] - Implementation of the [Constrained Application Protocol][424].
