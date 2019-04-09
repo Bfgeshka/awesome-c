@@ -2728,7 +2728,7 @@ Engines, libraries and other helpful things specifically for making games.
   * [jakogut/tinyflock][46-48] - A simple, high-performance, threaded, and
   interactive flocking demo written in C with GLFW. `No license`
   * [anholt/libepoxy][46-49] - Library for handling OpenGL function pointer
-  management. [`License`]
+  management. [`License`][46-50]
 
   [46-50]: https://github.com/anholt/libepoxy/blob/master/COPYING
   [46-49]: https://github.com/anholt/libepoxy
@@ -2880,16 +2880,34 @@ Engines, libraries and other helpful things specifically for making games.
   * [maxmind/geoip-api-c][48-8] - GeoIP Legacy C API. [`License`][48-9]
   * [navit-gps/navit][48-10] - The open source (GPL v2) turn-by-turn navigation
   software for many OS. [`License`][48-11]
-  * [lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) - Ip2region is a offline IP location library with accuracy rate of 99.9% and 0.0x millseconds searching performance. DB file is less then 5Mb with all ip address stored. binding for Java,PHP,C,Python,Nodejs,Golang,C#,lua. Binary,B-tree,Memory searching algorithm
-  * [openvenues/libpostal](https://github.com/openvenues/libpostal) - A C library for parsing/normalizing street addresses around the world. Powered by statistical NLP and open geo data.
-  * [propublica/simple-tiles](https://github.com/propublica/simple-tiles) - Simple tile generation for maps.
-  * [simplegeo/libgeohash](https://github.com/simplegeo/libgeohash) - A pure C implementation of the Geohash algorithm.
-  * [webglearth/gdaldem_web](https://github.com/webglearth/gdaldem_web) - Utility for encoding elevation data (DEM) for use on the web (with WebGL Earth). Elevation value is encoded into RGB.
-  * [cloudyourcar/minmea](https://github.com/cloudyourcar/minmea) - a lightweight GPS NMEA 0183 parser library in pure C
-  * [kosma/minmea](https://github.com/kosma/minmea) - a lightweight GPS NMEA 0183 parser library in pure C
-  * [geocommons/geocoder](https://github.com/geocommons/geocoder) - Modular Street Address Geocoder
-  * [bauerca/gridfloat](https://github.com/bauerca/gridfloat) - Slice and dice USGS elevation data from the command line.
+  * [lionsoul2014/ip2region][48-12] - Offline IP location library with accuracy
+  rate of 99.9% and 0.0x millseconds searching performance. DB file is less then
+  5Mb with all ip address stored. binding for Java, PHP, C, Python, Nodejs,
+  Golang, C#, lua. Binary, B-tree, Memory searching algorithm. [`Apache 2`][48-13]
+  * [openvenues/libpostal][48-14] - A C library for parsing/normalizing street
+  addresses around the world. Powered by statistical NLP and open geo data. [`MIT`][48-15]
+  * [propublica/simple-tiles][48-16] - Simple tile generation for maps. [`MIT`][48-17]
+  * [simplegeo/libgeohash][48-18] - A pure C implementation of the Geohash
+  algorithm. [`BSD 3-Clause`][48-19]
+  * [kosma/minmea][48-20] - Lightweight GPS NMEA 0183 parser library in pure C. [`WTFPL`][48-21]
+  * [geocommons/geocoder][48-22] - Modular Street Address Geocoder. [`LGPL 3`][48-23]
+  * [bauerca/gridfloat][48-24] - Slice and dice USGS elevation data from the
+  command line. [`MIT`][48-25]
 
+  [48-25]: https://github.com/bauerca/gridfloat/blob/master/LICENSE
+  [48-24]: https://github.com/bauerca/gridfloat
+  [48-23]: https://github.com/geocommons/geocoder/blob/master/LICENSE.txt
+  [48-22]: https://github.com/geocommons/geocoder
+  [48-21]: https://github.com/kosma/minmea/blob/master/COPYING
+  [48-20]: https://github.com/kosma/minmea
+  [48-19]: https://github.com/simplegeo/libgeohash/blob/master/LICENSE
+  [48-18]: https://github.com/simplegeo/libgeohash
+  [48-17]: https://github.com/propublica/simple-tiles/blob/master/LICENSE
+  [48-16]: https://github.com/propublica/simple-tiles
+  [48-15]: https://github.com/openvenues/libpostal/blob/master/LICENSE
+  [48-14]: https://github.com/openvenues/libpostal
+  [48-13]: https://github.com/lionsoul2014/ip2region/blob/master/LICENSE.md
+  [48-12]: https://github.com/lionsoul2014/ip2region
   [48-11]: https://github.com/navit-gps/navit/blob/trunk/COPYING
   [48-10]: https://github.com/navit-gps/navit
   [48-9]: https://github.com/maxmind/geoip-api-c/blob/master/LICENSE
