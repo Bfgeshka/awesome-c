@@ -2538,7 +2538,7 @@ Engines, libraries and other helpful things specifically for making games.
 
 <a id="gamedev-engines"></a>
 <details>
-  <summary>╚═══ Game Engines</summary>
+  <summary>╠════ Game Engines</summary>
 
   ### <a href="#-">`^`</a> Game Engines ###
   * [xonotic/darkplaces][45-1] - Modified version of the Quake2 engine. [`GPL 2`][45-2]
@@ -2672,7 +2672,7 @@ Engines, libraries and other helpful things specifically for making games.
 
 <a id="gamedev-rendering"></a>
 <details>
-  <summary>Graphics Rendering</summary>
+  <summary>╠════ Graphics Rendering</summary>
 
   ### <a href="#-">`^`</a> Graphics Rendering ###
   Everything related to video rendering only. Also visit
@@ -2784,7 +2784,7 @@ Engines, libraries and other helpful things specifically for making games.
 
 <a id="gamedev-helping-libraries"></a>
 <details>
-  <summary>Gamedev Helping Libraries</summary>
+  <summary>╚════ Gamedev Helping Libraries</summary>
 
   ### <a href="#-">`^`</a> Gamedev Helping Libraries ###
   * [sigil][47-1] - Sound, Input and Graphics Integration Library; a simple
