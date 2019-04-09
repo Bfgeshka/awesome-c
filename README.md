@@ -2937,17 +2937,31 @@ Engines, libraries and other helpful things specifically for making games.
   easy-to-use graphical elements, beautiful visual effects and low memory
   footprint. It offers anti-aliasing, opacity, and animations using only one
   frame buffer. [`MIT`][49-10]
-  * [ocornut/imgui_club](https://github.com/ocornut/imgui_club) - Nice things to use along dear imgui
-  * [vurtun/zahnrad](https://github.com/vurtun/zahnrad) - A small ANSI C gui toolkit
-  * [vurtun/gui](https://github.com/vurtun/gui) - A lightweight ANSI C imgui toolkit
-  * [GTK+](https://www.gtk.org/) - Cross-platform widget toolkit. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-  * [IUP](http://webserver2.tecgraf.puc-rio.br/iup/) - Another cross-platform widget toolkit. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-  * [Tk](http://www.tcl.tk/) - Basic widget toolkit. Part of Tcl/Tk. [`Tcl/Tk License`](http://www.tcl.tk/software/tcltk/license.html)
-  * [XForms Toolkit](http://xforms-toolkit.org/) - Widget toolkit designed for the XWindow system. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-  * [Clutter](https://blogs.gnome.org/clutter/get-it/) - UI library based on OpenGL. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-  * [randrew/layout](https://github.com/randrew/layout) - Single-file library for calculating 2D UI layouts using stacking boxes. Compiles as C99 or C++.
-  * [cimgui/cimgui](https://github.com/cimgui/cimgui) - c-api for imgui.
+  * [ocornut/imgui_club][49-11] - Nice things to use along dear imgui. `No license`
+  * [GTK+][49-12] - Cross-platform widget toolkit. [`License`][49-13]
+  * [IUP][49-14] - Another cross-platform widget toolkit. [`License`][49-15]
+  * [Tk][49-16] - Basic widget toolkit. Part of Tcl/Tk. [`License`][49-17]
+  * [XForms Toolkit][49-18] - Widget toolkit designed for the XWindow system. [`LGPL 2.1`][49-19]
+  * [Clutter][49-20] - UI library based on OpenGL. [`LGPL 2.1`][49-21]
+  * [randrew/layout][49-22] - Single-file library for calculating 2D UI layouts
+  using stacking boxes. Compiles as C99 or C++. [`License`][49-23]
+  * [cimgui/cimgui][49-24] - c-api for imgui. [`MIT`][49-25]
 
+  [49-25]: https://github.com/cimgui/cimgui/blob/master/LICENSE
+  [49-24]: https://github.com/cimgui/cimgui
+  [49-23]: https://github.com/randrew/layout/blob/master/license.md
+  [49-22]: https://github.com/randrew/layout
+  [49-21]: https://gitlab.gnome.org/GNOME/clutter/blob/master/COPYING
+  [49-20]: https://gitlab.gnome.org/GNOME/clutter
+  [49-19]: http://git.savannah.nongnu.org/cgit/xforms.git/tree/COPYING.LIB
+  [49-18]: http://xforms-toolkit.org/
+  [49-17]: https://github.com/tcltk/tk/blob/master/license.terms
+  [49-16]: http://www.tcl.tk/
+  [49-15]: http://webserver2.tecgraf.puc-rio.br/iup/en/copyright.html
+  [49-14]: http://webserver2.tecgraf.puc-rio.br/iup/
+  [49-13]: https://gitlab.gnome.org/GNOME/gtk/blob/master/COPYING
+  [49-12]: https://www.gtk.org
+  [49-11]: https://github.com/ocornut/imgui_club
   [49-10]: https://github.com/littlevgl/lvgl/blob/master/LICENCE.txt
   [49-9]: https://github.com/littlevgl/lvgl
   [49-8]: https://github.com/lc-soft/LCUI/blob/develop/LICENSE.TXT
