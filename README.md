@@ -3006,36 +3006,40 @@ Engines, libraries and other helpful things specifically for making games.
   * [signal11/hidapi](https://github.com/signal11/hidapi) - A Simple library for communicating with USB and Bluetooth HID devices on Linux, Mac, and Windows.
   * [wiiudev/libwiiu](https://github.com/wiiudev/libwiiu) - Build system and examples for running C code on the Wii U
   * [floooh/chips](https://github.com/floooh/chips) - 8-bit chip and system emulators in standalone C headers
+
+  [50-2]: https://github.com/obgm/libcoap/blob/develop/LICENSE
+  [50-1]: https://github.com/obgm/libcoap
 </details>
 
-## Hashing ##
-Hash function implementations for *non*-crypto purposes. Cryptographic hashes
-can be found in the Crypto section.
-* [CLHash][165] - Library implementing fast CLHash hashing function. Only works
-  on Intel Haswell or newer. [``Apache-2.0``][Apache-2.0]
-* [HighwayHash][166] - Fast, strong, SIMD-using hash function. Also contains an
+<a id="hashing"></a>
+<details>
+  <summary>Hashing</summary>
+
+  ## <a href="#-">`^`</a> Hashing ##
+  Hash function implementations for non-cryptographic purposes. Cryptographic hashes
+  can be found in the Crypto section.
+  * [HighwayHash][166] - Fast, strong, SIMD-using hash function. Also contains an
   implementation of SipHash. [``Apache-2.0``][Apache-2.0]
-* [SpookyHash][167] - Fast hash function. [``BSD-3-Clause``][BSD-3-Clause]
-* [t1ha][168] - Fast Positive Hash - a portable, fast hash function. [``BSD-3-Clause``][BSD-3-Clause]
-* [xxHash][169] - Fast 32 and 64 bit hashing algorithm. [``BSD-2-Clause``][BSD-2-Clause]
-* [GNU gperf][414] - Perfect hash function generator, given a list of strings.
+  * [SpookyHash][167] - Fast hash function. [``BSD-3-Clause``][BSD-3-Clause]
+  * [t1ha][168] - Fast Positive Hash - a portable, fast hash function. [``BSD-3-Clause``][BSD-3-Clause]
+  * [GNU gperf][414] - Perfect hash function generator, given a list of strings.
   Outputs C code. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [jwHash](https://github.com/watmough/jwHash) - Fast hashtable implementation. [`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
-* [xxHash](http://cyan4973.github.io/xxHash/) - Extremely fast non-cryptographic hash algorithm. [`2-clause BSD`](https://directory.fsf.org/wiki/License:BSD-2-Clause)
-* [libcrc](https://github.com/PeterScott/murmur3) - Multi platform CRC library. [`MIT`](https://raw.githubusercontent.com/atom/atom/master/LICENSE.md)
-* [murmur](https://github.com/ispc/ispc) - C implementation of MurMur Hashing. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
-* [Cyan4973/xxHash](https://github.com/Cyan4973/xxHash) - Extremely fast non-cryptographic hash algorithm
-* [PeterScott/murmur3](https://github.com/PeterScott/murmur3) - Murmur3 hash in C
-* [RJ/ketama](https://github.com/RJ/ketama) - C library for consistent hashing, and langauge bindings
-* [begeekmyfriend/CuckooFilter](https://github.com/begeekmyfriend/CuckooFilter) - Substitute for bloom filter.
-* [bitly/dablooms](https://github.com/bitly/dablooms) - scaling, counting, bloom filter library
-* [clibs/hash](https://github.com/clibs/hash) - C hash implementation based on khash
-* [cr-marcstevens/sha1collisiondetection](https://github.com/cr-marcstevens/sha1collisiondetection) - Library and command line tool to detect SHA-1 collision in a file
-* [lemire/clhash](https://github.com/lemire/clhash) - C library implementing the ridiculously fast CLHash  hashing function
-* [mattsta/crcspeed](https://github.com/mattsta/crcspeed) - This make CRC be fast.  Included implementations: CRC-64-Jones and CRC-16-CCITT
-* [plashchynski/str2hex](https://github.com/plashchynski/str2hex) - Data formats convertion utility
-* [rg3/bcrypt](https://github.com/rg3/bcrypt) - bcrypt password hash C library
-* [vdrolia/speed_hash](https://github.com/vdrolia/speed_hash) - Hash a lot of data as fast as you can
+  * [jwHash](https://github.com/watmough/jwHash) - Fast hashtable implementation. [`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
+  * [libcrc](https://github.com/PeterScott/murmur3) - Multi platform CRC library. [`MIT`](https://raw.githubusercontent.com/atom/atom/master/LICENSE.md)
+  * [murmur](https://github.com/ispc/ispc) - C implementation of MurMur Hashing. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
+  * [Cyan4973/xxHash](https://github.com/Cyan4973/xxHash) - Extremely fast non-cryptographic hash algorithm
+  * [PeterScott/murmur3](https://github.com/PeterScott/murmur3) - Murmur3 hash in C
+  * [RJ/ketama](https://github.com/RJ/ketama) - C library for consistent hashing, and langauge bindings
+  * [begeekmyfriend/CuckooFilter](https://github.com/begeekmyfriend/CuckooFilter) - Substitute for bloom filter.
+  * [bitly/dablooms](https://github.com/bitly/dablooms) - scaling, counting, bloom filter library
+  * [clibs/hash](https://github.com/clibs/hash) - C hash implementation based on khash
+  * [cr-marcstevens/sha1collisiondetection](https://github.com/cr-marcstevens/sha1collisiondetection) - Library and command line tool to detect SHA-1 collision in a file
+  * [lemire/clhash](https://github.com/lemire/clhash) - C library implementing the ridiculously fast CLHash  hashing function
+  * [mattsta/crcspeed](https://github.com/mattsta/crcspeed) - This make CRC be fast.  Included implementations: CRC-64-Jones and CRC-16-CCITT
+  * [plashchynski/str2hex](https://github.com/plashchynski/str2hex) - Data formats convertion utility
+  * [rg3/bcrypt](https://github.com/rg3/bcrypt) - bcrypt password hash C library
+  * [vdrolia/speed_hash](https://github.com/vdrolia/speed_hash) - Hash a lot of data as fast as you can
+</details>
 
 ## Image Processing and Computer Vision ##
 * [libgd][380] - Library for the dynamic creation of images by programmers. [``MIT``][MIT]
