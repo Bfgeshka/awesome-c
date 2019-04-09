@@ -94,7 +94,7 @@ Incorporated lists:
 * [GUI](#gui)
 * [Hardware Oriented](#hardware-oriented)
 * [Hashing](#hashing)
-* [Image Processing and Computer Vision](#image-processing-and-computer-vision)
+* [Image Processing and Computer Vision](#image-processing)
 * [Integrated Debugging](#integrated-debugging)
 * [Lexing and Parsing](#lexing-and-parsing)
 * [Memory Management](#memory-management)
@@ -3108,43 +3108,47 @@ Engines, libraries and other helpful things specifically for making games.
   [51-1]: https://github.com/centaurean/spookyhash
 </details>
 
-## Image Processing and Computer Vision ##
-* [libgd][380] - Library for the dynamic creation of images by programmers. [``MIT``][MIT]
-* [giflib][381] - Library for reading and writing gif images. [``MIT``][MIT]
-* [libRSVG][386] - Library to render SVG files using Cairo. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
-* [lodepng][389] - Simple PNG image decoder and encoder, requiring no other
+<a id="image-processing"></a>
+<details>
+  <summary>Image Processing and Computer Vision</summary>
+
+  ## <a href="#-">`^`</a> Image Processing and Computer Vision ##
+  * [libgd][380] - Library for the dynamic creation of images by programmers. [``MIT``][MIT]
+  * [giflib][381] - Library for reading and writing gif images. [``MIT``][MIT]
+  * [libRSVG][386] - Library to render SVG files using Cairo. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+  * [lodepng][389] - Simple PNG image decoder and encoder, requiring no other
   dependencies. [``BSD-3-Clause``][BSD-3-Clause]
-* [libimagequant](https://pngquant.org/lib/) - Small, portable library for high-quality conversion of RGBA images to 8-bit indexed colour images. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
-* [libjpeg-turbo](https://libjpeg-turbo.org/) - Faster library for reading and writing JPEG files. [`Various Licenses`](https://libjpeg-turbo.org/About/License)
-* [libpng](http://www.libpng.org) - The official PNG reference library. [`libpng license`](http://www.libpng.org/pub/png/src/libpng-LICENSE.txt)
-* [libxmi](https://www.gnu.org/software/libxmi/) - Function library for rasterizing 2D vector graphics. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
-* [libccv](http://libccv.org) - Modern Computer Vision Library. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
-* [liuliu/ccv](https://github.com/liuliu/ccv) - C-based/Cached/Core Computer Vision Library, A Modern Computer Vision Library
-* [MartinMittring/dcraw_exif](https://github.com/MartinMittring/dcraw_exif) - dcraw (Camera RAW format processor) from Dave Coffin with updates, additionally maintain exif data for using it with Agisoft PhotoScan
-* [Phildo/pixQL](https://github.com/Phildo/pixQL) - SQL for image processing
-* [XadillaX/byakuren](https://github.com/XadillaX/byakuren) - 🎭 A theme color extracting library implemented by C.
-* [ansilove/AnsiLove-C](https://github.com/ansilove/AnsiLove-C) - ANSi / ASCII art to PNG converter in C
-* [ansilove/ansilove](https://github.com/ansilove/ansilove) - ANSi / ASCII art to PNG converter in C
-* [bluesmoon/pngtocss](https://github.com/bluesmoon/pngtocss) - Read in a gradient from a png file and spit out CSS for it
-* [brendangregg/Dump2PNG](https://github.com/brendangregg/Dump2PNG) - Visualize file data as a PNG
-* [buaazp/zimg](https://github.com/buaazp/zimg) - A lightweight and high performance image storage and processing system.
-* [dbohdan/s2png](https://github.com/dbohdan/s2png) - Store data of any kind inside PNG images.
-* [derekmolloy/boneCV](https://github.com/derekmolloy/boneCV) - Beaglebone Webcam and OpenCV Examples Repository
-* [ginsweater/gif-h](https://github.com/ginsweater/gif-h) - Simple C++ one-header library for the creation of animated GIFs from image data.
-* [jcupitt/libvips](https://github.com/jcupitt/libvips) - A fast image processing library with low memory needs.
-* [mozilla/mozjpeg](https://github.com/mozilla/mozjpeg) - Improved JPEG encoder.
-* [openslide/openslide](https://github.com/openslide/openslide) - C library for reading virtual slide images
-* [pornel/giflossy](https://github.com/pornel/giflossy) - Lossy GIF compressor
-* [pornel/pngquant](https://github.com/pornel/pngquant) - Lossy PNG compressor — pngquant command and libimagequant library
-* [rflynn/imgmin](https://github.com/rflynn/imgmin) - Lossy image optimization
-* [rmagick-temp/rmagick](https://github.com/rmagick-temp/rmagick) - An interface to the ImageMagick and GraphicsMagick image processing libraries.
-* [tjko/jpegoptim](https://github.com/tjko/jpegoptim) - jpegoptim - utility to optimize/compress JPEG files
-* [uclouvain/openjpeg](https://github.com/uclouvain/openjpeg) - Official repository of the OpenJPEG project
-* [vlfeat/vlfeat](https://github.com/vlfeat/vlfeat) - An open library of computer vision algorithms
-* [zardus/preeny](https://github.com/zardus/preeny) - Some helpful preload libraries for pwning stuff.
-* [libspng](https://libspng.org/) - Secure PNG reading/writing
-* [ImageMagick](https://github.com/ImageMagick/ImageMagick) - Image processing suite with C interface
-* [libsixel][199] - Library implementing the SIXEL protocol, allowing beautiful graphics in your terminal. [``MIT``][MIT]
+  * [libjpeg-turbo](https://libjpeg-turbo.org/) - Faster library for reading and writing JPEG files. [`Various Licenses`](https://libjpeg-turbo.org/About/License)
+  * [libpng](http://www.libpng.org) - The official PNG reference library. [`libpng license`](http://www.libpng.org/pub/png/src/libpng-LICENSE.txt)
+  * [libxmi](https://www.gnu.org/software/libxmi/) - Function library for rasterizing 2D vector graphics. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
+  * [libccv](http://libccv.org) - Modern Computer Vision Library. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
+  * [liuliu/ccv](https://github.com/liuliu/ccv) - C-based/Cached/Core Computer Vision Library, A Modern Computer Vision Library
+  * [MartinMittring/dcraw_exif](https://github.com/MartinMittring/dcraw_exif) - dcraw (Camera RAW format processor) from Dave Coffin with updates, additionally maintain exif data for using it with Agisoft PhotoScan
+  * [Phildo/pixQL](https://github.com/Phildo/pixQL) - SQL for image processing
+  * [XadillaX/byakuren](https://github.com/XadillaX/byakuren) -  A theme color extracting library implemented by C.
+  * [ansilove/AnsiLove-C](https://github.com/ansilove/AnsiLove-C) - ANSi / ASCII art to PNG converter in C
+  * [ansilove/ansilove](https://github.com/ansilove/ansilove) - ANSi / ASCII art to PNG converter in C
+  * [bluesmoon/pngtocss](https://github.com/bluesmoon/pngtocss) - Read in a gradient from a png file and spit out CSS for it
+  * [brendangregg/Dump2PNG](https://github.com/brendangregg/Dump2PNG) - Visualize file data as a PNG
+  * [buaazp/zimg](https://github.com/buaazp/zimg) - A lightweight and high performance image storage and processing system.
+  * [dbohdan/s2png](https://github.com/dbohdan/s2png) - Store data of any kind inside PNG images.
+  * [derekmolloy/boneCV](https://github.com/derekmolloy/boneCV) - Beaglebone Webcam and OpenCV Examples Repository
+  * [ginsweater/gif-h](https://github.com/ginsweater/gif-h) - Simple C++ one-header library for the creation of animated GIFs from image data.
+  * [jcupitt/libvips](https://github.com/jcupitt/libvips) - A fast image processing library with low memory needs.
+  * [mozilla/mozjpeg](https://github.com/mozilla/mozjpeg) - Improved JPEG encoder.
+  * [openslide/openslide](https://github.com/openslide/openslide) - C library for reading virtual slide images
+  * [pornel/giflossy](https://github.com/pornel/giflossy) - Lossy GIF compressor
+  * [pornel/pngquant](https://github.com/pornel/pngquant) - Lossy PNG compressor — pngquant command and libimagequant library
+  * [rflynn/imgmin](https://github.com/rflynn/imgmin) - Lossy image optimization
+  * [rmagick-temp/rmagick](https://github.com/rmagick-temp/rmagick) - An interface to the ImageMagick and GraphicsMagick image processing libraries.
+  * [tjko/jpegoptim](https://github.com/tjko/jpegoptim) - jpegoptim - utility to optimize/compress JPEG files
+  * [uclouvain/openjpeg](https://github.com/uclouvain/openjpeg) - Official repository of the OpenJPEG project
+  * [vlfeat/vlfeat](https://github.com/vlfeat/vlfeat) - An open library of computer vision algorithms
+  * [zardus/preeny](https://github.com/zardus/preeny) - Some helpful preload libraries for pwning stuff.
+  * [libspng](https://libspng.org/) - Secure PNG reading/writing
+  * [ImageMagick](https://github.com/ImageMagick/ImageMagick) - Image processing suite with C interface
+  * [libsixel][199] - Library implementing the SIXEL protocol, allowing beautiful graphics in your terminal. [``MIT``][MIT]
+</details>
 
 ## Integrated Debugging and Logging ##
 * [whereami][390] - One-file library for locating the current executable on the
