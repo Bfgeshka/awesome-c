@@ -2727,7 +2727,11 @@ Engines, libraries and other helpful things specifically for making games.
   * [simple2d/simple2d][46-46] - Simple, open-source 2D graphics for everyone. [`MIT`][46-47]
   * [jakogut/tinyflock][46-48] - A simple, high-performance, threaded, and
   interactive flocking demo written in C with GLFW. `No license`
+  * [anholt/libepoxy][46-49] - Library for handling OpenGL function pointer
+  management. [`License`]
 
+  [46-50]: https://github.com/anholt/libepoxy/blob/master/COPYING
+  [46-49]: https://github.com/anholt/libepoxy
   [46-48]: https://github.com/jakogut/tinyflock
   [46-47]: https://github.com/simple2d/simple2d/blob/master/LICENSE.md
   [46-46]: https://github.com/simple2d/simple2d
@@ -2783,19 +2787,17 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>Gamedev Helping Libraries</summary>
 
   ### <a href="#-">`^`</a> Gamedev Helping Libraries ###
-  * [Epoxy][177] - Library for handling OpenGL function pointer management. [``MIT``][MIT]
-  * [Freecell Solver][178] - Set of libraries and command-line programs for
-  automatically solving FreeCell and some similar variants of card Solitaire. [``MIT``][MIT]
-  * [MATHC][184] - Math library for 2D and 3D programming. [``ZLib``][Zlib]
-  * [SIGIL][193] - Sound, Input and Graphics Integration Library; a simple
+  * [sigil][47-1] - Sound, Input and Graphics Integration Library; a simple
   alternative to other libraries for doing all those things. Various licenses,
-  all open source.
-  * [Allegro](https://liballeg.org/) - Cross-platform, video game development and multimedia library. [`zlib`](https://directory.fsf.org/wiki/License:Zlib)
-  * [Chipmunk2D](http://chipmunk-physics.net/) - Fast and lightweight 2D game physics library. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-  * [CSFML](https://www.sfml-dev.org/download/csfml/) - Binding for [SFML](https://www.sfml-dev.org/index.php) in C. [`zlib`](https://directory.fsf.org/wiki/License:Zlib)
-  * [SDL and SDL2](https://www.libsdl.org/) - Cross-platform development library designed to provide low-level access to audio, keyboard, mouse, joystick and graphics hardware via OpenGL. SDL2 is the most current version. [`zlib`](https://directory.fsf.org/wiki/License:Zlib)
-  * [HBehrens/obj2opengl](https://github.com/HBehrens/obj2opengl) - script to convert 3D models of OBJ files to C/C++ float arrays (vertices, faces, texture) compatible with OpenGL ES glDrawArrays compatible with iPhone/iPad
-  * [Kazade/kazmath](https://github.com/Kazade/kazmath) - A C math library targeted at games
+  all open source. [`Licenses`][47-2]
+  * [SFML/CSFML][47-3] - Binding for SFML in C. [`License`][47-4]
+  * [SDL][47-5] - Cross-platform development library designed to provide
+  low-level access to audio, keyboard, mouse, joystick and graphics hardware via
+  OpenGL. SDL2 is the most current version. [`Zlib`][47-6]
+  * [HBehrens/obj2opengl][47-7] - script to convert 3D models of OBJ files to
+  C/C++ float arrays (vertices, faces, texture) compatible with OpenGL ES
+  glDrawArrays compatible with iPhone/iPad. [`GPL 3`][47-8]
+  * [Kazade/kazmath][47-9] - A C math library targeted at games. [`BSD 2-Clause`][47-10]
   * [R4stl1n/cAudio](https://github.com/R4stl1n/cAudio) - 3D Audio Engine Based on Openal
   * [Tangent128/luasdl2](https://github.com/Tangent128/luasdl2) - A pure C binding of SDL 2.0 for Lua 5.1, Lua 5.2, and LuaJIT.
   * [ccore/ccore](https://github.com/ccore/ccore) - A cross platform low level game development library
@@ -2815,6 +2817,17 @@ Engines, libraries and other helpful things specifically for making games.
   * [shaunlebron/blinky](https://github.com/shaunlebron/blinky) - Exploring peripheral vision in games (using Quake)
   * [sp4cerat/RLE-based-Voxel-Raycasting](https://github.com/sp4cerat/RLE-based-Voxel-Raycasting) - CUDA based Voxel Raycasting - Paper: Efficient, High-Quality, GPU-Based Visualization of Voxelized Surface Data
   * [nem0/OpenFBX](https://github.com/nem0/OpenFBX) - Lightweight open source FBX importer.
+
+  [47-10]: https://github.com/Kazade/kazmath/blob/master/LICENSE.md
+  [47-9]: https://github.com/Kazade/kazmath
+  [47-8]: https://github.com/HBehrens/obj2opengl/blob/master/LICENSE.txt
+  [47-7]: https://github.com/HBehrens/obj2opengl
+  [47-6]: https://www.libsdl.org/license.php
+  [47-5]: https://www.libsdl.org
+  [47-4]: https://github.com/SFML/CSFML/blob/master/license.txt
+  [47-3]: https://github.com/SFML/CSFML
+  [47-2]: https://gitlab.com/geoff-nagy/sigil/blob/master/LICENSES.txt
+  [47-1]: http://www.libsigil.com/
 </details>
 
 --------------------------------------------------------------------------------
@@ -3950,7 +3963,6 @@ Comprehensive and integrated solutions for building web application in C.
 [196]: http://cairographics.org/
 
 [194]: https://clover.moe/spearmint
-[193]: http://www.libsigil.com/
 [191]: https://www.libsdl.org/
 [190]: https://www.libretro.com/
 [189]: https://github.com/libretro/RetroArch
@@ -3958,14 +3970,11 @@ Comprehensive and integrated solutions for building web application in C.
 [187]: https://github.com/id-Software/Quake-2
 [186]: https://github.com/id-Software/Quake
 [185]: http://orx-project.org
-[184]: https://github.com/ferreiradaselva/mathc
 [183]: https://xiph.org/ao/
 [182]: https://github.com/Kazade/kazmath
 [181]: https://ioquake3.org
 [180]: https://www.glfw.org/
 [179]: http://freeglut.sourceforge.net
-[178]: https://github.com/shlomif/fc-solve
-[177]: https://github.com/anholt/libepoxy
 [176]: https://icculus.org/twilight/darkplaces/
 [175]: https://www.sfml-dev.org/index.php
 [174]: https://www.sfml-dev.org/download/csfml/
