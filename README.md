@@ -3113,15 +3113,12 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>Image Processing and Computer Vision</summary>
 
   ## <a href="#-">`^`</a> Image Processing and Computer Vision ##
-  * [libgd][380] - Library for the dynamic creation of images by programmers. [``MIT``][MIT]
-  * [giflib][381] - Library for reading and writing gif images. [``MIT``][MIT]
-  * [libRSVG][386] - Library to render SVG files using Cairo. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
-  * [lodepng][389] - Simple PNG image decoder and encoder, requiring no other
-  dependencies. [``BSD-3-Clause``][BSD-3-Clause]
-  * [libjpeg-turbo](https://libjpeg-turbo.org/) - Faster library for reading and writing JPEG files. [`Various Licenses`](https://libjpeg-turbo.org/About/License)
-  * [libpng](http://www.libpng.org) - The official PNG reference library. [`libpng license`](http://www.libpng.org/pub/png/src/libpng-LICENSE.txt)
-  * [libxmi](https://www.gnu.org/software/libxmi/) - Function library for rasterizing 2D vector graphics. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
-  * [libccv](http://libccv.org) - Modern Computer Vision Library. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
+  * [libgd/libgd][52-1] - Library for the dynamic creation of images by
+  programmers. [`License`][52-2]
+  * [giflib][52-3] - Library for reading and writing gif images. [`License`][52-4]
+  * [libjpeg-turbo/libjpeg-turbo][52-5] - Faster library for reading and
+  writing JPEG files. [`Licenses`][52-6]
+  * [libpng][52-7] - The official PNG reference library. [`License`][52-8]
   * [liuliu/ccv](https://github.com/liuliu/ccv) - C-based/Cached/Core Computer Vision Library, A Modern Computer Vision Library
   * [MartinMittring/dcraw_exif](https://github.com/MartinMittring/dcraw_exif) - dcraw (Camera RAW format processor) from Dave Coffin with updates, additionally maintain exif data for using it with Agisoft PhotoScan
   * [Phildo/pixQL](https://github.com/Phildo/pixQL) - SQL for image processing
@@ -3148,6 +3145,15 @@ Engines, libraries and other helpful things specifically for making games.
   * [libspng](https://libspng.org/) - Secure PNG reading/writing
   * [ImageMagick](https://github.com/ImageMagick/ImageMagick) - Image processing suite with C interface
   * [libsixel][199] - Library implementing the SIXEL protocol, allowing beautiful graphics in your terminal. [``MIT``][MIT]
+
+  [52-8]: https://sourceforge.net/p/libpng/code/ci/master/tree/LICENSE
+  [52-7]: http://www.libpng.org
+  [52-6]: https://github.com/libjpeg-turbo/libjpeg-turbo/blob/master/LICENSE.md
+  [52-5]: https://github.com/libjpeg-turbo/libjpeg-turbo
+  [52-4]: https://sourceforge.net/p/giflib/code/ci/master/tree/COPYING
+  [52-3]: https://sourceforge.net/projects/giflib/
+  [52-2]: https://github.com/libgd/libgd/blob/master/COPYING
+  [52-1]: https://github.com/libgd/libgd
 </details>
 
 ## Integrated Debugging and Logging ##
@@ -3951,16 +3957,12 @@ Comprehensive and integrated solutions for building web application in C.
 [391]: http://hardysimpson.github.io/zlog/
 [390]: https://github.com/gpakosz/whereami
 
-[389]: https://lodev.org/lodepng/
 [388]: https://github.com/mozilla/mozjpeg
 [387]: http://www.vips.ecs.soton.ac.uk/index.php?title=VIPS
-[386]: https://wiki.gnome.org/action/show/Projects/LibRsvg?action=show&redirect=LibRsvg
 [385]: http://www.libpng.org/
 [384]: https://libjpeg-turbo.virtualgl.org/
 [383]: https://pngquant.org/lib/
 [382]: https://github.com/prideout/heman
-[381]: https://sourceforge.net/projects/giflib/
-[380]: https://github.com/libgd/libgd
 
 [378]: https://github.com/riolet/WAFer
 [377]: http://www.pell.portland.or.us/~orc/Code/discount/
