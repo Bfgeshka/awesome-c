@@ -2676,26 +2676,25 @@ Engines, libraries and other helpful things specifically for making games.
 
   ### <a href="#-">`^`</a> Graphics Rendering ###
   Everything related to video rendering only.
-  * [sdl-gpu][192] - Library for high-performance, modern 2D graphics. Based on
-  SDL. [``MIT``][MIT]
-  * [FreeGLUT](http://freeglut.sourceforge.net/) - Alternative to the OpenGL Utility Toolkit. Allows the creation and management of windows with OpenGL contexts. [`X11`](https://directory.fsf.org/wiki/License:X11)
-  * [GLFW](https://www.glfw.org/) - Multi-platform library for creating windows with OpenGL contexts. [`zlib`](https://directory.fsf.org/wiki/License:Zlib)
-  * [MauriceGit/Cloth_Simulation](https://github.com/MauriceGit/Cloth_Simulation) - Cloth-Visualization via particle-simulation.
-  * [MauriceGit/Partikel_accelleration_on_GPU](https://github.com/MauriceGit/Partikel_accelleration_on_GPU) - Particle accelleration with OpenGL 4.3, using the compute shader to calculate particle movement on graphics hardware.
-  * [ands/lightmapper](https://github.com/ands/lightmapper) - A C/C++ single-file library for drop-in lightmap baking. Just use your existing OpenGL renderer to bounce light!
-  * [ands/seamoptimizer](https://github.com/ands/seamoptimizer) - A C/C++ single-file library that minimizes the hard transition errors of disjoint edges in lightmaps.
+  * [grimfang4/sdl-gpu][46-1] - Library for high-performance, modern 2D
+  graphics. Based on SDL. [`MIT`][46-2]
+  * [dcnieho/FreeGLUT][46-3] - Alternative to the OpenGL Utility Toolkit. Allows
+  the creation and management of windows with OpenGL contexts. [`License`][46-4]
+  * [MauriceGit/Cloth_Simulation][46-5] - Cloth-Visualization via
+  particle-simulation. [`ISC`][46-6]
+  * [MauriceGit/Partikel_accelleration_on_GPU][46-7] - Particle accelleration
+  with OpenGL 4.3, using the compute shader to calculate particle movement on
+  graphics hardware. [`ISC`][46-8]
+  * [ands/lightmapper][46-9] - A C/C++ single-file library for drop-in lightmap
+  baking. Just use your existing OpenGL renderer to bounce light! [`Public domain`][46-10]
+  * [ands/seamoptimizer][46-11] - A C/C++ single-file library that minimizes the
+  hard transition errors of disjoint edges in lightmaps. [`Public domain`][46-12]
   * [ebassi/graphene](https://github.com/ebassi/graphene) - A thin layer of graphic data types
   * [mainroach/crabby](https://github.com/mainroach/crabby) - A texture compression algorithm for sprite sheets that allows decompression on the GPU during rendering.
-  * [Cairo][196] - 2D graphics library. [``LGPL-2.1-only``][LGPL-2.1-only] or [``MPL-1.1``][205]
   * [libcaca][198] - ASCII renderer for terminal-based interfaces. [``WTFPL``][WTFPL]
   * [libsixel][199] - Library implementing the SIXEL protocol, allowing beautiful graphics in your terminal. [``MIT``][MIT]
-  * [lightmapper][201] - Single-file library for lightmap baking, using an existing OpenGL renderer. Public domain.
   * [libxmi][200] - Function library for rasterizing 2D vector
   graphics. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-  * [nanovg][202] - Anti-aliased 2D vector drawing library on top of OpenGL, for
-  UI and visualizations. [``Zlib``][Zlib]
-  * [OpenGL][203] - Industry standard for high-performance graphics, with a
-  native C binding. [Various licenses][204].
   * [OpenGL](https://www.opengl.org/) - Industry adopted 2D and 3D graphics API. More resources at [awesome-opengl](https://github.com/eug/awesome-opengl).
   * [OpenGL ES](https://www.khronos.org/opengles/) - Industry adopted 2D and 3D graphics API for mobile and embedded devices.
   * [OpenGL SC](https://www.khronos.org/openglsc/) - Graphic and compute standard for industry requiring system safety certification.
@@ -2709,7 +2708,6 @@ Engines, libraries and other helpful things specifically for making games.
   * [ashima/webgl-noise](https://github.com/ashima/webgl-noise) - Procedural Noise Shader Routines compatible with WebGL
   * [blodow/realtime_urdf_filter](https://github.com/blodow/realtime_urdf_filter) - ROS package that can filter geometry defined in URDF models from Kinect depth images. Can also preprocess data for the OpenNI tracker, to remove backgrounds, robots etc.
   * [grz0zrg/fbg](https://github.com/grz0zrg/fbg) - Lightweight C 2D graphics API agnostic library with parallelism support
-  * [grimfang4/sdl-gpu](https://github.com/grimfang4/sdl-gpu) - A library for high-performance, modern 2D graphics with SDL written in C.
   * [ileben/ShivaVG](https://github.com/ileben/ShivaVG) - OpenGL based ANSI C implementation of the OpenVG standard.
   * [jpbruyere/vkvg](https://github.com/jpbruyere/vkvg) - Vulkan vector drawing, try to stay close to cairo api
   * [libretro/common-shaders](https://github.com/libretro/common-shaders) - Collection of commonly used Cg shaders. These shaders are usable by either HLSL and/or Cg runtime compilers. The cg2glsl script will translate most of these into GLSL shaders.
@@ -2724,6 +2722,19 @@ Engines, libraries and other helpful things specifically for making games.
   * [wdas/ptex](https://github.com/wdas/ptex) - Per-Face Texture Mapping for Production Rendering
   * [juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders) - C, C++ headers and C# classes for icon fonts: Font Awesome, Fork Awesome, Material Design, Material Design icons, Kenney game icons and Ionicons
   * [jakogut/tinyflock](https://github.com/jakogut/tinyflock) - A simple, high-performance, threaded, and interactive flocking demo written in C with GLFW.
+
+  [46-12]: https://github.com/ands/seamoptimizer/blob/master/seamoptimizer.h
+  [46-11]: https://github.com/ands/seamoptimizer
+  [46-10]: https://github.com/ands/lightmapper/blob/master/lightmapper.h
+  [46-9]: https://github.com/ands/lightmapper
+  [46-8]: https://github.com/MauriceGit/Partikel_accelleration_on_GPU/blob/master/LICENSE
+  [46-7]: https://github.com/MauriceGit/Partikel_accelleration_on_GPU
+  [46-6]: https://github.com/MauriceGit/Cloth_Simulation/blob/master/LICENSE
+  [46-5]: https://github.com/MauriceGit/Cloth_Simulation
+  [46-4]: https://github.com/dcnieho/FreeGLUT/blob/git_master/freeglut/freeglut/COPYING
+  [46-3]: https://github.com/dcnieho/FreeGLUT
+  [46-2]: https://github.com/grimfang4/sdl-gpu/blob/master/LICENSE.txt
+  [46-1]: https://github.com/grimfang4/sdl-gpu
 </details>
 
 <a id="gamedev-helping-libraries"></a>
@@ -3897,7 +3908,6 @@ Comprehensive and integrated solutions for building web application in C.
 
 [194]: https://clover.moe/spearmint
 [193]: http://www.libsigil.com/
-[192]: https://github.com/grimfang4/sdl-gpu
 [191]: https://www.libsdl.org/
 [190]: https://www.libretro.com/
 [189]: https://github.com/libretro/RetroArch
