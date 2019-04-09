@@ -3218,15 +3218,24 @@ Engines, libraries and other helpful things specifically for making games.
   * [kmcallister/embedded-breakpoints][53-21] - Embed GDB breakpoints in C
   source code. [`BSD 3-Clause`][53-22]
   * [ntpeters/SimpleLogger][53-23] - Basic logger for C and C++ projects. [`MIT`][53-24]
-  * [openjudge/sandbox](https://github.com/openjudge/sandbox) - Open-source suite of software components for C/C++ and Python developers to create automated profiling tools and watchdog programs.
-  * [rxi/log.c](https://github.com/rxi/log.c) - A simple logging library implemented in C99.
-  * [stephenrkell/liballocs](https://github.com/stephenrkell/liballocs) - Runtime and toolchain for whole-program monitoring of allocations and their data types.
-  * [wc-duck/dbgtools](https://github.com/wc-duck/dbgtools) - Small collection of debug-related drop-in c/c++-utils.
-  * [yosefk/checkedthreads](https://github.com/yosefk/checkedthreads) - checkedthreads: no race condition goes unnoticed! Simple API, automatic load balancing, Valgrind-based checking.
-  * [Firm](https://pp.ipd.kit.edu/firm/) - Library that provides a graph-based intermediate
+  * [openjudge/sandbox][53-25] - Open-source suite of software components for
+  C/C++ and Python developers to create automated profiling tools and watchdog
+  programs. [`BSD 3-Clause`][53-26]
+  * [rxi/log.c][53-27] - A simple logging library implemented in C99. [`MIT`][53-28]
+  * [yosefk/checkedthreads][53-29] - checkedthreads: no race condition goes
+  unnoticed! Simple API, automatic load balancing, Valgrind-based checking. [`BSD 2-Clause`][53-30]
+  * [libFirm][53-31] - Library that provides a graph-based intermediate
   representation, optimizations and assembly code generation suitable for use in
-  compilers. Comes with an example C front-end under the same license. [``LGPL-2.1-only``][LGPL-2.1-only]
+  compilers. Comes with an example C front-end under the same license. [`GPL 2`][53-32]
 
+  [53-32]: https://pp.ipd.kit.edu/git/cparser/tree/COPYING
+  [53-31]: https://pp.ipd.kit.edu/firm/
+  [53-30]: https://github.com/yosefk/checkedthreads/blob/master/LICENSE.txt
+  [53-29]: https://github.com/yosefk/checkedthreads
+  [53-28]: https://github.com/rxi/log.c/blob/master/LICENSE
+  [53-27]: https://github.com/rxi/log.c
+  [53-26]: https://github.com/openjudge/sandbox/blob/V_0_3_x/sample2.c
+  [53-25]: https://github.com/openjudge/sandbox
   [53-24]: https://github.com/ntpeters/SimpleLogger/blob/master/LICENSE
   [53-23]: https://github.com/ntpeters/SimpleLogger
   [53-22]: https://github.com/kmcallister/embedded-breakpoints/blob/master/LICENSE
