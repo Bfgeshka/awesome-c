@@ -2798,19 +2798,19 @@ Engines, libraries and other helpful things specifically for making games.
   C/C++ float arrays (vertices, faces, texture) compatible with OpenGL ES
   glDrawArrays compatible with iPhone/iPad. [`GPL 3`][47-8]
   * [Kazade/kazmath][47-9] - A C math library targeted at games. [`BSD 2-Clause`][47-10]
-  * [R4stl1n/cAudio](https://github.com/R4stl1n/cAudio) - 3D Audio Engine Based on Openal
-  * [Tangent128/luasdl2](https://github.com/Tangent128/luasdl2) - A pure C binding of SDL 2.0 for Lua 5.1, Lua 5.2, and LuaJIT.
-  * [ccore/ccore](https://github.com/ccore/ccore) - A cross platform low level game development library
-  * [ccore/ccore_rewrite](https://github.com/ccore/ccore_rewrite) - A cross platform low level game development library
-  * [cloudwu/skynet](https://github.com/cloudwu/skynet) - A lightweight online game framework
-  * [felselva/mathc](https://github.com/felselva/mathc) - Pure C math library for 2D and 3D programming.
-  * [floooh/chips](https://github.com/floooh/chips) - 8-bit chip and system emulators in standalone C headers
-  * [gabomdq/SDL_GameControllerDB](https://github.com/gabomdq/SDL_GameControllerDB) - A community sourced database of game controller mappings to be used with SDL2 Game Controller functionality
-  * [geon/gloss](https://github.com/geon/gloss) - A bidirectional path tracer written in C.
-  * [jarikomppa/soloud](https://github.com/jarikomppa/soloud) - Free, easy, portable audio engine for games
-  * [libgdx/fbx-conv](https://github.com/libgdx/fbx-conv) - Command line utility using the FBX SDK to convert FBX/Collada/Obj files to a custom text/binary format for static, keyframed and skinned meshes.
-  * [liballeg/allegro5](https://github.com/liballeg/allegro5) - The official Allegro 5 git repository. Pull requests welcome!
-  * [recp/cglm](https://github.com/recp/cglm) - Highly Optimized Graphics Math (glm) for C
+  * [R4stl1n/cAudio][47-11] - 3D Audio Engine Based on Openal. [`Zlib`][47-12]
+  * [Tangent128/luasdl2][47-13] - A pure C binding of SDL 2.0 for Lua 5.1,
+  Lua 5.2, and LuaJIT. [`ISC`][47-14]
+  * [ccore/ccore_rewrite][47-15] - A cross platform low level game development
+  library. [`BSD 3-Clause`][47-16]
+  * [cloudwu/skynet][47-17] - A lightweight online game framework. [`MIT`][47-18]
+  * [felselva/mathc][47-19] - Pure C math library for 2D and 3D programming. [`Zlib`][47-20]
+  * [gabomdq/SDL_GameControllerDB][47-21] - A community sourced database of game
+  controller mappings to be used with SDL2 Game Controller functionality. [`License`][47-22]
+  * [geon/gloss][47-23] - A bidirectional path tracer written in C. [`MIT`][47-24]
+  * [jarikomppa/soloud][47-25] - Free, easy, portable audio engine for games. [`License`][47-26]
+  * [liballeg/allegro5][47-27] - The official Allegro 5 git repository. [`License`][47-28]
+  * [recp/cglm][47-29] - Highly Optimized Graphics Math (glm) for C. [`MIT`][47-30]
   * [raysan5/raylib](https://github.com/raysan5/raylib) - A simple and easy-to-use library to enjoy videogames programming
   * [rxi/lovedos](https://github.com/rxi/lovedos) - A framework for making 2D DOS games in Lua
   * [slembcke/Chipmunk2D](https://github.com/slembcke/Chipmunk2D) - A fast and lightweight 2D game physics library.
@@ -2818,6 +2818,26 @@ Engines, libraries and other helpful things specifically for making games.
   * [sp4cerat/RLE-based-Voxel-Raycasting](https://github.com/sp4cerat/RLE-based-Voxel-Raycasting) - CUDA based Voxel Raycasting - Paper: Efficient, High-Quality, GPU-Based Visualization of Voxelized Surface Data
   * [nem0/OpenFBX](https://github.com/nem0/OpenFBX) - Lightweight open source FBX importer.
 
+  [47-30]: https://github.com/recp/cglm/blob/master/LICENSE
+  [47-29]: https://github.com/recp/cglm
+  [47-28]: https://github.com/liballeg/allegro5/blob/master/LICENSE.txt
+  [47-27]: https://github.com/liballeg/allegro5
+  [47-26]: https://github.com/jarikomppa/soloud/blob/master/LICENSE
+  [47-25]: https://github.com/jarikomppa/soloud
+  [47-24]: https://github.com/geon/gloss/blob/master/LICENSE.md
+  [47-23]: https://github.com/geon/gloss
+  [47-22]: https://github.com/gabomdq/SDL_GameControllerDB/blob/master/LICENSE
+  [47-21]: https://github.com/gabomdq/SDL_GameControllerDB
+  [47-20]: https://github.com/felselva/mathc/blob/master/LICENSE
+  [47-19]: https://github.com/felselva/mathc
+  [47-18]: https://github.com/cloudwu/skynet/blob/master/LICENSE
+  [47-17]: https://github.com/cloudwu/skynet
+  [47-16]: https://github.com/ccore/ccore_rewrite/blob/master/LICENSE
+  [47-15]: https://github.com/ccore/ccore_rewrite
+  [47-14]: https://github.com/Tangent128/luasdl2/blob/master/LICENSE
+  [47-13]: https://github.com/Tangent128/luasdl2
+  [47-12]: https://github.com/R4stl1n/cAudio/blob/master/License.txt
+  [47-11]: https://github.com/R4stl1n/cAudio
   [47-10]: https://github.com/Kazade/kazmath/blob/master/LICENSE.md
   [47-9]: https://github.com/Kazade/kazmath
   [47-8]: https://github.com/HBehrens/obj2opengl/blob/master/LICENSE.txt
@@ -2904,6 +2924,7 @@ Geodata, street maps, navigation and so on
 * [openyou/libomron](https://github.com/openyou/libomron) - Libraries for accessing data from Omron medical devices
 * [signal11/hidapi](https://github.com/signal11/hidapi) - A Simple library for communicating with USB and Bluetooth HID devices on Linux, Mac, and Windows.
 * [wiiudev/libwiiu](https://github.com/wiiudev/libwiiu) - Build system and examples for running C code on the Wii U
+* [floooh/chips](https://github.com/floooh/chips) - 8-bit chip and system emulators in standalone C headers
 
 ## Hashing ##
 Hash function implementations for *non*-crypto purposes. Cryptographic hashes
