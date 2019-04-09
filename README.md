@@ -3204,17 +3204,20 @@ Engines, libraries and other helpful things specifically for making games.
   * [HardySimpson/zlog][53-3] - Reliable, pure C logging library. [`LGPL 2.1`][53-4]
   * [esneider/debug][53-5] - One-header library for easier 'printf debugging'. [`MIT`][53-6]
   * [ThrowTheSwitch/CException][53-7] - Implementation of exceptions. [`License`][53-8]
-  * [pblog][53-9] - Small, low overhead, structured logging library intended for
-  logging formware events. [`Apache 2`][53-10]
+  * [google/pblog][53-9] - Small, low overhead, structured logging library
+  intended for logging formware events. [`Apache 2`][53-10]
   * [0xmalloc/c-log][53-11] - a fast ,stable and thread-safe log lib(logger)
   for C/C++ language. [`Apache 2`][53-12]
-  * [Celtoys/Remotery](https://github.com/Celtoys/Remotery) - Single C file, Realtime CPU/GPU Profiler with Remote Web Viewer.
-  * [armink/CmBacktrace](https://github.com/armink/CmBacktrace) - Advanced fault backtrace library for ARM Cortex-M series MCU.
-  * [armink/EasyLogger](https://github.com/armink/EasyLogger) - A ultra-lightweight(ROM<1.6K, RAM<0.3k), high-performance C/C++ log library.
-  * [cyrus-and/prof](https://github.com/cyrus-and/prof) - Self-contained C/C++ profiler library for Linux.
-  * [facebook/liblogfaf](https://github.com/facebook/liblogfaf) - A library that logs messages using non-blocking UDP datagrams.
-  * [kmcallister/embedded-breakpoints](https://github.com/kmcallister/embedded-breakpoints) - Embed GDB breakpoints in C source code.
-  * [ntpeters/SimpleLogger](https://github.com/ntpeters/SimpleLogger) - Basic logger for C and C++ projects.
+  * [Celtoys/Remotery][53-13] - Single C file, Realtime CPU/GPU Profiler with
+  Remote Web Viewer. [`Apache 2`][53-14]
+  * [armink/EasyLogger][53-15] - A ultra-lightweight(ROM<1.6K, RAM<0.3k),
+  high-performance C/C++ log library. [`MIT`][53-16]
+  * [cyrus-and/prof][53-17] - Self-contained C/C++ profiler library for Linux. [`License`][53-18]
+  * [facebook/liblogfaf][53-19] - A library that logs messages using
+  non-blocking UDP datagrams. [`BSD 3-Clause`][53-20]
+  * [kmcallister/embedded-breakpoints][53-21] - Embed GDB breakpoints in C
+  source code. [`BSD 3-Clause`][53-22]
+  * [ntpeters/SimpleLogger][53-23] - Basic logger for C and C++ projects. [`MIT`][53-24]
   * [openjudge/sandbox](https://github.com/openjudge/sandbox) - Open-source suite of software components for C/C++ and Python developers to create automated profiling tools and watchdog programs.
   * [rxi/log.c](https://github.com/rxi/log.c) - A simple logging library implemented in C99.
   * [stephenrkell/liballocs](https://github.com/stephenrkell/liballocs) - Runtime and toolchain for whole-program monitoring of allocations and their data types.
@@ -3224,6 +3227,18 @@ Engines, libraries and other helpful things specifically for making games.
   representation, optimizations and assembly code generation suitable for use in
   compilers. Comes with an example C front-end under the same license. [``LGPL-2.1-only``][LGPL-2.1-only]
 
+  [53-24]: https://github.com/ntpeters/SimpleLogger/blob/master/LICENSE
+  [53-23]: https://github.com/ntpeters/SimpleLogger
+  [53-22]: https://github.com/kmcallister/embedded-breakpoints/blob/master/LICENSE
+  [53-21]: https://github.com/kmcallister/embedded-breakpoints
+  [53-20]: https://github.com/facebook/liblogfaf/blob/master/LICENSE
+  [53-19]: https://github.com/facebook/liblogfaf
+  [53-18]: https://github.com/cyrus-and/prof#license
+  [53-17]: https://github.com/cyrus-and/prof
+  [53-16]: https://github.com/armink/EasyLogger/blob/master/LICENSE
+  [53-15]: https://github.com/armink/EasyLogger
+  [53-14]: https://github.com/Celtoys/Remotery/blob/master/LICENSE
+  [53-13]: https://github.com/Celtoys/Remotery
   [53-12]: https://github.com/0xmalloc/c-log/blob/master/LICENSE
   [53-11]: https://github.com/0xmalloc/c-log
   [53-10]: https://github.com/google/pblog/blob/master/LICENSE
