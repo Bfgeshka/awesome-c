@@ -3119,16 +3119,17 @@ Engines, libraries and other helpful things specifically for making games.
   * [libjpeg-turbo/libjpeg-turbo][52-5] - Faster library for reading and
   writing JPEG files. [`Licenses`][52-6]
   * [libpng][52-7] - The official PNG reference library. [`License`][52-8]
-  * [liuliu/ccv](https://github.com/liuliu/ccv) - C-based/Cached/Core Computer Vision Library, A Modern Computer Vision Library
-  * [MartinMittring/dcraw_exif](https://github.com/MartinMittring/dcraw_exif) - dcraw (Camera RAW format processor) from Dave Coffin with updates, additionally maintain exif data for using it with Agisoft PhotoScan
-  * [Phildo/pixQL](https://github.com/Phildo/pixQL) - SQL for image processing
-  * [XadillaX/byakuren](https://github.com/XadillaX/byakuren) -  A theme color extracting library implemented by C.
-  * [ansilove/AnsiLove-C](https://github.com/ansilove/AnsiLove-C) - ANSi / ASCII art to PNG converter in C
-  * [ansilove/ansilove](https://github.com/ansilove/ansilove) - ANSi / ASCII art to PNG converter in C
-  * [bluesmoon/pngtocss](https://github.com/bluesmoon/pngtocss) - Read in a gradient from a png file and spit out CSS for it
-  * [brendangregg/Dump2PNG](https://github.com/brendangregg/Dump2PNG) - Visualize file data as a PNG
-  * [buaazp/zimg](https://github.com/buaazp/zimg) - A lightweight and high performance image storage and processing system.
-  * [dbohdan/s2png](https://github.com/dbohdan/s2png) - Store data of any kind inside PNG images.
+  * [liuliu/ccv][52-9] - C-based/Cached/Core Computer Vision Library, A Modern
+  Computer Vision Library. [`License`][52-10]
+  * [Phildo/pixQL][52-11] - SQL for image processing. `No license`
+  * [XadillaX/byakuren][52-12] -  A theme color extracting library. [`MIT`][52-13]
+  * [ansilove/ansilove][52-14] - ANSi / ASCII art to PNG converter. [`BSD 2-Clause`][52-15]
+  * [bluesmoon/pngtocss][52-16] - Read in a gradient from a png file and spit
+  out CSS for it. [`BSD`][52-17]
+  * [brendangregg/Dump2PNG][52-18] - Visualize file data as a PNG. [`License`][52-19]
+  * [buaazp/zimg][52-20] - A lightweight and high performance image storage and
+  processing system. [`BSD 3-Clause`][52-21]
+  * [dbohdan/s2png][52-22] - Store data of any kind inside PNG images. [`GPL 2`][52-23]
   * [derekmolloy/boneCV](https://github.com/derekmolloy/boneCV) - Beaglebone Webcam and OpenCV Examples Repository
   * [ginsweater/gif-h](https://github.com/ginsweater/gif-h) - Simple C++ one-header library for the creation of animated GIFs from image data.
   * [jcupitt/libvips](https://github.com/jcupitt/libvips) - A fast image processing library with low memory needs.
@@ -3146,6 +3147,21 @@ Engines, libraries and other helpful things specifically for making games.
   * [ImageMagick](https://github.com/ImageMagick/ImageMagick) - Image processing suite with C interface
   * [libsixel][199] - Library implementing the SIXEL protocol, allowing beautiful graphics in your terminal. [``MIT``][MIT]
 
+  [52-23]: https://github.com/dbohdan/s2png/blob/master/LICENSE
+  [52-22]: https://github.com/dbohdan/s2png
+  [52-21]: https://github.com/buaazp/zimg/blob/master/LICENSE
+  [52-20]: https://github.com/buaazp/zimg
+  [52-19]: https://github.com/brendangregg/Dump2PNG/blob/master/dump2png.c
+  [52-18]: https://github.com/brendangregg/Dump2PNG
+  [52-17]: https://github.com/bluesmoon/pngtocss#license
+  [52-16]: https://github.com/bluesmoon/pngtocss
+  [52-15]: https://github.com/ansilove/ansilove/blob/master/LICENSE
+  [52-14]: https://github.com/ansilove/ansilove
+  [52-13]: https://github.com/XadillaX/byakuren/blob/master/LICENSE
+  [52-12]: https://github.com/XadillaX/byakuren
+  [52-11]: https://github.com/Phildo/pixQL
+  [52-10]: https://github.com/liuliu/ccv/blob/unstable/COPYING
+  [52-9]: https://github.com/liuliu/ccv
   [52-8]: https://sourceforge.net/p/libpng/code/ci/master/tree/LICENSE
   [52-7]: http://www.libpng.org
   [52-6]: https://github.com/libjpeg-turbo/libjpeg-turbo/blob/master/LICENSE.md
