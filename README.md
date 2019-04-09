@@ -2996,20 +2996,43 @@ Engines, libraries and other helpful things specifically for making games.
   family of thermometer and hygrometer devices. [`BSD 2-Clause`][50-18]
   * [google/cpu_features][50-19] - A cross platform C99 library to get cpu
   features at runtime. [`Apache 2`][50-20]
-  * [jackmitch/libsoc][50-21] - libsoc: C library for interfacing with common
-  SoC peripherals through generic kernel interfaces. [`LGPL 2.1`][50-22]
-  * [joan2937/pigpio](https://github.com/joan2937/pigpio) - pigpio is a C library for the Raspberry which allows control of the General Purpose Input Outputs (GPIO).
-  * [leaflabs/libmaple](https://github.com/leaflabs/libmaple) - [INACTIVE] C and C++ library for STM32 ARM Cortex-M3 development boards.
-  * [libimobiledevice/libimobiledevice](https://github.com/libimobiledevice/libimobiledevice) - A cross-platform protocol library to communicate with iOS devices
-  * [libopencm3/libopencm3](https://github.com/libopencm3/libopencm3) - Open Source ARM cortex m microcontroller library
-  * [libusb/libusb](https://github.com/libusb/libusb) - A cross-platform library to access USB devices
-  * [micronucleus/micronucleus](https://github.com/micronucleus/micronucleus) - ATTiny usb bootloader with a strong emphasis on bootloader compactness.
-  * [nfc-tools/libnfc](https://github.com/nfc-tools/libnfc) - Platform independent Near Field Communication (NFC) library
-  * [openyou/libomron](https://github.com/openyou/libomron) - Libraries for accessing data from Omron medical devices
-  * [signal11/hidapi](https://github.com/signal11/hidapi) - A Simple library for communicating with USB and Bluetooth HID devices on Linux, Mac, and Windows.
-  * [wiiudev/libwiiu](https://github.com/wiiudev/libwiiu) - Build system and examples for running C code on the Wii U
-  * [floooh/chips](https://github.com/floooh/chips) - 8-bit chip and system emulators in standalone C headers
+  * [jackmitch/libsoc][50-21] - C library for interfacing with common SoC
+  peripherals through generic kernel interfaces. [`LGPL 2.1`][50-22]
+  * [joan2937/pigpio][50-23] - C library for the Raspberry which allows control
+  of the General Purpose Input Outputs (GPIO). [`Unlicense`][50-24]
+  * [libimobiledevice/libimobiledevice][50-25] - A cross-platform protocol
+  library to communicate with iOS devices. [`LGPL 2.1`][50-26]
+  * [libopencm3/libopencm3][50-27] - Open Source ARM cortex m microcontroller
+  library. [`GPL 3`][50-28]
+  * [libusb/libusb][50-29] - A cross-platform library to access USB devices. [`LGPL 2.1`][50-30]
+  * [micronucleus/micronucleus][50-31] - ATTiny usb bootloader with a strong
+  emphasis on bootloader compactness. [`License`][50-32]
+  * [nfc-tools/libnfc][50-33] - Platform independent Near Field Communication
+  library. [`LGPL 3`][50-34]
+  * [signal11/hidapi][50-35] - A Simple library for communicating with USB and
+  Bluetooth HID devices on Linux, Mac, and Windows. [`Licenses`][50-36]
+  * [wiiudev/libwiiu][50-37] - Build system and examples for running C code
+  on the Wii U. `No license`
+  * [floooh/chips][50-38] - 8-bit chip and system emulators in standalone
+  C headers. [`Zlib`][50-39]
 
+  [50-39]: https://github.com/floooh/chips/blob/master/LICENSE
+  [50-38]: https://github.com/floooh/chips
+  [50-37]: https://github.com/wiiudev/libwiiu
+  [50-36]: https://github.com/signal11/hidapi/blob/master/LICENSE.txt
+  [50-35]: https://github.com/signal11/hidapi
+  [50-34]: https://github.com/nfc-tools/libnfc/blob/master/COPYING
+  [50-33]: https://github.com/nfc-tools/libnfc
+  [50-32]: https://github.com/micronucleus/micronucleus/blob/master/License.txt
+  [50-31]: https://github.com/micronucleus/micronucleus
+  [50-30]: https://github.com/libusb/libusb/blob/master/COPYING
+  [50-29]: https://github.com/libusb/libusb
+  [50-28]: https://github.com/libopencm3/libopencm3/blob/master/COPYING.GPL3
+  [50-27]: https://github.com/libopencm3/libopencm3
+  [50-26]: https://github.com/libimobiledevice/libimobiledevice/blob/master/COPYING
+  [50-25]: https://github.com/libimobiledevice/libimobiledevice
+  [50-24]: https://github.com/joan2937/pigpio/blob/master/UNLICENCE
+  [50-23]: https://github.com/joan2937/pigpio
   [50-22]: https://github.com/jackmitch/libsoc/blob/master/LICENCE
   [50-21]: https://github.com/jackmitch/libsoc
   [50-20]: https://github.com/google/cpu_features/blob/master/LICENSE
