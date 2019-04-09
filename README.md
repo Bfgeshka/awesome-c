@@ -3130,14 +3130,15 @@ Engines, libraries and other helpful things specifically for making games.
   * [buaazp/zimg][52-20] - A lightweight and high performance image storage and
   processing system. [`BSD 3-Clause`][52-21]
   * [dbohdan/s2png][52-22] - Store data of any kind inside PNG images. [`GPL 2`][52-23]
-  * [derekmolloy/boneCV](https://github.com/derekmolloy/boneCV) - Beaglebone Webcam and OpenCV Examples Repository
-  * [ginsweater/gif-h](https://github.com/ginsweater/gif-h) - Simple C++ one-header library for the creation of animated GIFs from image data.
-  * [jcupitt/libvips](https://github.com/jcupitt/libvips) - A fast image processing library with low memory needs.
-  * [mozilla/mozjpeg](https://github.com/mozilla/mozjpeg) - Improved JPEG encoder.
-  * [openslide/openslide](https://github.com/openslide/openslide) - C library for reading virtual slide images
-  * [pornel/giflossy](https://github.com/pornel/giflossy) - Lossy GIF compressor
-  * [pornel/pngquant](https://github.com/pornel/pngquant) - Lossy PNG compressor — pngquant command and libimagequant library
-  * [rflynn/imgmin](https://github.com/rflynn/imgmin) - Lossy image optimization
+  * [ginsweater/gif-h][52-24] - Simple C++ one-header library for the creation
+  of animated GIFs from image data. [`Unlicense`][52-25]
+  * [libvips/libvips][52-26] - A fast image processing library with low memory
+  needs. [`LGPL 2.1`][52-27]
+  * [mozilla/mozjpeg][52-28] - Improved JPEG encoder. [`Licenses`][52-29]
+  * [openslide/openslide][52-30] - C library for reading virtual slide images. [`License`][52-31]
+  * [pornel/giflossy][52-32] - Lossy GIF compressor. [`GPL 2`][52-33]
+  * [pornel/pngquant][52-34] - Lossy PNG compressor. [`License`][52-35]
+  * [rflynn/imgmin][52-36] - Lossy image optimization. [`MIT`][52-37]
   * [rmagick-temp/rmagick](https://github.com/rmagick-temp/rmagick) - An interface to the ImageMagick and GraphicsMagick image processing libraries.
   * [tjko/jpegoptim](https://github.com/tjko/jpegoptim) - jpegoptim - utility to optimize/compress JPEG files
   * [uclouvain/openjpeg](https://github.com/uclouvain/openjpeg) - Official repository of the OpenJPEG project
@@ -3147,6 +3148,20 @@ Engines, libraries and other helpful things specifically for making games.
   * [ImageMagick](https://github.com/ImageMagick/ImageMagick) - Image processing suite with C interface
   * [libsixel][199] - Library implementing the SIXEL protocol, allowing beautiful graphics in your terminal. [``MIT``][MIT]
 
+  [52-37]: https://github.com/rflynn/imgmin/blob/master/LICENSE-MIT.txt
+  [52-36]: https://github.com/rflynn/imgmin
+  [52-35]: https://github.com/kornelski/pngquant/blob/master/COPYRIGHT
+  [52-34]: https://github.com/kornelski/pngquant
+  [52-33]: https://github.com/kornelski/giflossy/blob/master/COPYING
+  [52-32]: https://github.com/kornelski/giflossy
+  [52-31]: https://github.com/openslide/openslide/blob/master/LICENSE.txt
+  [52-30]: https://github.com/openslide/openslide
+  [52-29]: https://github.com/mozilla/mozjpeg/blob/master/LICENSE.md
+  [52-28]: https://github.com/mozilla/mozjpeg
+  [52-27]: https://github.com/libvips/libvips/blob/master/COPYING
+  [52-26]: https://github.com/libvips/libvips
+  [52-25]: https://github.com/ginsweater/gif-h/blob/master/LICENSE
+  [52-24]: https://github.com/ginsweater/gif-h
   [52-23]: https://github.com/dbohdan/s2png/blob/master/LICENSE
   [52-22]: https://github.com/dbohdan/s2png
   [52-21]: https://github.com/buaazp/zimg/blob/master/LICENSE
@@ -3182,8 +3197,8 @@ Engines, libraries and other helpful things specifically for making games.
 * [0xmalloc/c-log](https://github.com/0xmalloc/c-log) - a fast ,stable and thread-safe log lib(logger) for C/C++ language
 * [Celtoys/Remotery](https://github.com/Celtoys/Remotery) - Single C file, Realtime CPU/GPU Profiler with Remote Web Viewer
 * [HardySimpson/zlog](https://github.com/HardySimpson/zlog) - A reliable, high-performance, thread safe, flexsible, clear-model, pure C logging library.
-* [armink/CmBacktrace](https://github.com/armink/CmBacktrace) - Advanced fault backtrace library for ARM Cortex-M series MCU | ARM Cortex-M 系列 MCU 错误追踪库
-* [armink/EasyLogger](https://github.com/armink/EasyLogger) - A ultra-lightweight(ROM<1.6K, RAM<0.3k), high-performance C/C++ log library. | 一款超轻量级(ROM<1.6K, RAM<0.3k)、高性能的 C/C++ 日志库
+* [armink/CmBacktrace](https://github.com/armink/CmBacktrace) - Advanced fault backtrace library for ARM Cortex-M series MCU
+* [armink/EasyLogger](https://github.com/armink/EasyLogger) - A ultra-lightweight(ROM<1.6K, RAM<0.3k), high-performance C/C++ log library.
 * [cyrus-and/prof](https://github.com/cyrus-and/prof) - Self-contained C/C++ profiler library for Linux
 * [esneider/debug](https://github.com/esneider/debug) - Debugging like a sir (in C)
 * [facebook/liblogfaf](https://github.com/facebook/liblogfaf) - A library that logs messages using non-blocking UDP datagrams.
