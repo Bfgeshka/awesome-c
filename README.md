@@ -2869,15 +2869,17 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>Geography</summary>
 
   ## <a href="#-">`^`</a> Geography ##
-Geodata, street maps, navigation and so on
-  * [Jahor/osm-tools](https://github.com/Jahor/osm-tools) - Tools to operate OpenStreetMap data
-  * [Unidata/gempak](https://github.com/Unidata/gempak) - Analysis, display, and product generation package for meteorological data.
-  * [aaronstanton/sualft](https://github.com/aaronstanton/sualft) - reconstruction of irregularly sampled seismic data using the Anti-Leakage Fourier Transform (ALFT)
-  * [evanmiller/ProjCL](https://github.com/evanmiller/ProjCL) - Crazy-fast map projections and geodesic calculations
-  * [olofsj/GLMap](https://github.com/olofsj/GLMap) - An OpenGL ES 2.0 renderer for Openstreetmap data
-  * [olofsj/Whichway](https://github.com/olofsj/Whichway) - C library for flexible (bike, foot, car) routing in road networks from Openstreetmap data.
-  * [maxmind/geoip-api-c](https://github.com/maxmind/geoip-api-c) - GeoIP Legacy C API
-  * [navit-gps/navit](https://github.com/navit-gps/navit) - The open source (GPL v2) turn-by-turn navigation software for many OS
+  Geodata, street maps, navigation and so on
+  * [Unidata/gempak][48-1] - Analysis, display, and product generation package
+  for meteorological data. [`BSD 3-Clause`][48-2]
+  * [evanmiller/ProjCL][48-3] - Crazy-fast map projections and geodesic
+  calculations. [`License`][48-4]
+  * [olofsj/GLMap][48-5] - An OpenGL ES 2.0 renderer for Openstreetmap data. [`LGPL 3`][48-6]
+  * [olofsj/Whichway][48-7] - C library for flexible (bike, foot, car) routing
+  in road networks from Openstreetmap data. `No license`
+  * [maxmind/geoip-api-c][48-8] - GeoIP Legacy C API. [`License`][48-9]
+  * [navit-gps/navit][48-10] - The open source (GPL v2) turn-by-turn navigation
+  software for many OS. [`License`][48-11]
   * [lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) - Ip2region is a offline IP location library with accuracy rate of 99.9% and 0.0x millseconds searching performance. DB file is less then 5Mb with all ip address stored. binding for Java,PHP,C,Python,Nodejs,Golang,C#,lua. Binary,B-tree,Memory searching algorithm
   * [openvenues/libpostal](https://github.com/openvenues/libpostal) - A C library for parsing/normalizing street addresses around the world. Powered by statistical NLP and open geo data.
   * [propublica/simple-tiles](https://github.com/propublica/simple-tiles) - Simple tile generation for maps.
@@ -2887,6 +2889,18 @@ Geodata, street maps, navigation and so on
   * [kosma/minmea](https://github.com/kosma/minmea) - a lightweight GPS NMEA 0183 parser library in pure C
   * [geocommons/geocoder](https://github.com/geocommons/geocoder) - Modular Street Address Geocoder
   * [bauerca/gridfloat](https://github.com/bauerca/gridfloat) - Slice and dice USGS elevation data from the command line.
+
+  [48-11]: https://github.com/navit-gps/navit/blob/trunk/COPYING
+  [48-10]: https://github.com/navit-gps/navit
+  [48-9]: https://github.com/maxmind/geoip-api-c/blob/master/LICENSE
+  [48-8]: https://github.com/maxmind/geoip-api-c
+  [48-7]: https://github.com/olofsj/Whichway
+  [48-6]: https://github.com/olofsj/GLMap/blob/master/COPYING
+  [48-5]: https://github.com/olofsj/GLMap
+  [48-4]: https://github.com/evanmiller/ProjCL/blob/master/LICENSE
+  [48-3]: https://github.com/evanmiller/ProjCL
+  [48-2]: https://github.com/Unidata/gempak/blob/master/LICENSE
+  [48-1]: https://github.com/Unidata/gempak
 </details>
 
 ## GUI ##
