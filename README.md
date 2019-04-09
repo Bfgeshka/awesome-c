@@ -3074,7 +3074,7 @@ Engines, libraries and other helpful things specifically for making games.
   Hash function implementations for non-cryptographic purposes.
   * [centaurean/spookyhash][51-1] - Fast hash function. [`BSD 3-Clause`][51-2]
   * [leo-yuriev/t1ha][51-3] - Fast Positive Hash - a portable, fast hash
-  function. [`BSD 3-Clause][51-4]
+  function. [`BSD 3-Clause`][51-4]
   * [Cyan4973/xxHash][51-5] - Extremely fast non-cryptographic hash algorithm. [`BSD 2-Clause`][51-6]
   * [PeterScott/murmur3][51-7] - Murmur3 hash in C. [`Public domain`][51-8]
   * [RJ/ketama][51-9] - C library for consistent hashing, and langauge bindings. [`BSD 2-Clause`][51-10]
