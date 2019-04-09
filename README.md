@@ -2675,7 +2675,9 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>Graphics Rendering</summary>
 
   ### <a href="#-">`^`</a> Graphics Rendering ###
-  Everything related to video rendering only.
+  Everything related to video rendering only. Also visit
+  [awesome-opengl](https://github.com/eug/awesome-opengl) and
+  [awesome-vulkan](https://github.com/vinjn/awesome-vulkan).
   * [grimfang4/sdl-gpu][46-1] - Library for high-performance, modern 2D
   graphics. Based on SDL. [`MIT`][46-2]
   * [dcnieho/FreeGLUT][46-3] - Alternative to the OpenGL Utility Toolkit. Allows
@@ -2689,17 +2691,13 @@ Engines, libraries and other helpful things specifically for making games.
   baking. Just use your existing OpenGL renderer to bounce light! [`Public domain`][46-10]
   * [ands/seamoptimizer][46-11] - A C/C++ single-file library that minimizes the
   hard transition errors of disjoint edges in lightmaps. [`Public domain`][46-12]
-  * [ebassi/graphene](https://github.com/ebassi/graphene) - A thin layer of graphic data types
-  * [mainroach/crabby](https://github.com/mainroach/crabby) - A texture compression algorithm for sprite sheets that allows decompression on the GPU during rendering.
-  * [libcaca][198] - ASCII renderer for terminal-based interfaces. [``WTFPL``][WTFPL]
-  * [libsixel][199] - Library implementing the SIXEL protocol, allowing beautiful graphics in your terminal. [``MIT``][MIT]
-  * [libxmi][200] - Function library for rasterizing 2D vector
-  graphics. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-  * [OpenGL](https://www.opengl.org/) - Industry adopted 2D and 3D graphics API. More resources at [awesome-opengl](https://github.com/eug/awesome-opengl).
-  * [OpenGL ES](https://www.khronos.org/opengles/) - Industry adopted 2D and 3D graphics API for mobile and embedded devices.
-  * [OpenGL SC](https://www.khronos.org/openglsc/) - Graphic and compute standard for industry requiring system safety certification.
-  * [Vulkan](https://www.khronos.org/vulkan/) - Explicit graphic and compute API for modern cross-platform development. More resources at [awesome-vulkan](https://github.com/vinjn/awesome-vulkan).
-  * [Cairo](https://www.cairographics.org/) -2D graphics library. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html) or [`MPLv1.1`](https://directory.fsf.org/wiki/License:MPL-1.1)
+  * [ebassi/graphene][46-13] - A thin layer of graphic data types. [`MIT`][46-14]
+  * [cacalabs/libcaca][46-15] - ASCII renderer for terminal-based interfaces. [`WTFPL`][46-16]
+  * [OpenGL][46-17] - Industry adopted 2D and 3D graphics API. `Graphics API`
+  * [OpenGL ES][46-18] - Industry adopted 2D and 3D graphics API for mobile and embedded devices. `Graphics API`
+  * [OpenGL SC][46-19] - Graphic and compute standard for industry requiring system safety certification. `Graphics API`
+  * [Vulkan][46-20] - Explicit graphic and compute API for modern cross-platform development. `Graphics API`
+  * [Cairo][46-21] -2D graphics library. [`Licenses`][46-22]
   * [Cogl](https://github.com/rib/cogl-web/wiki) - GPU graphics and utilities API. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
   * [Clutter](https://blogs.gnome.org/clutter/get-it/) - UI library based on OpenGL. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
   * [glfw/glfw](https://github.com/glfw/glfw) - A multi-platform library for OpenGL, OpenGL ES, Vulkan, window and input
@@ -2723,6 +2721,16 @@ Engines, libraries and other helpful things specifically for making games.
   * [juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders) - C, C++ headers and C# classes for icon fonts: Font Awesome, Fork Awesome, Material Design, Material Design icons, Kenney game icons and Ionicons
   * [jakogut/tinyflock](https://github.com/jakogut/tinyflock) - A simple, high-performance, threaded, and interactive flocking demo written in C with GLFW.
 
+  [46-22]: https://www.cairographics.org/
+  [46-21]: https://www.cairographics.org/
+  [46-20]: https://www.khronos.org/vulkan/
+  [46-19]: https://www.khronos.org/openglsc/
+  [46-18]: https://www.khronos.org/opengles/
+  [46-17]: https://www.opengl.org/
+  [46-16]: https://github.com/cacalabs/libcaca/blob/master/COPYING
+  [46-15]: https://github.com/cacalabs/libcaca
+  [46-14]: https://github.com/ebassi/graphene/blob/master/LICENSE
+  [46-13]: https://github.com/ebassi/graphene
   [46-12]: https://github.com/ands/seamoptimizer/blob/master/seamoptimizer.h
   [46-11]: https://github.com/ands/seamoptimizer
   [46-10]: https://github.com/ands/lightmapper/blob/master/lightmapper.h
@@ -2914,6 +2922,7 @@ can be found in the Crypto section.
 * [zardus/preeny](https://github.com/zardus/preeny) - Some helpful preload libraries for pwning stuff.
 * [libspng](https://libspng.org/) - Secure PNG reading/writing
 * [ImageMagick](https://github.com/ImageMagick/ImageMagick) - Image processing suite with C interface
+* [libsixel][199] - Library implementing the SIXEL protocol, allowing beautiful graphics in your terminal. [``MIT``][MIT]
 
 ## Integrated Debugging and Logging ##
 * [whereami][390] - One-file library for locating the current executable on the
@@ -3900,9 +3909,7 @@ Comprehensive and integrated solutions for building web application in C.
 [203]: https://www.opengl.org/
 [202]: https://github.com/memononen/nanovg
 [201]: https://github.com/ands/lightmapper
-[200]: https://gnu.org/software/libxmi/
 [199]: https://github.com/saitoha/libsixel
-[198]: https://github.com/cacalabs/libcaca
 [197]: http://ebassi.github.io/graphene/
 [196]: http://cairographics.org/
 
