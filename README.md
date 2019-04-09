@@ -2946,6 +2946,7 @@ Engines, libraries and other helpful things specifically for making games.
   * [XForms Toolkit](http://xforms-toolkit.org/) - Widget toolkit designed for the XWindow system. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
   * [Clutter](https://blogs.gnome.org/clutter/get-it/) - UI library based on OpenGL. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
   * [randrew/layout](https://github.com/randrew/layout) - Single-file library for calculating 2D UI layouts using stacking boxes. Compiles as C99 or C++.
+  * [cimgui/cimgui](https://github.com/cimgui/cimgui) - c-api for imgui.
 
   [49-10]: https://github.com/littlevgl/lvgl/blob/master/LICENCE.txt
   [49-9]: https://github.com/littlevgl/lvgl
