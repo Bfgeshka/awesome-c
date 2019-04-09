@@ -2029,7 +2029,13 @@ Incorporated lists:
   * [C-Macro-Collections][34-113] - Generate simple and generic data structures
   using macros. [`MIT`][34-114]
   * [troydhanson/uthash][34-115] - C macros for hash tables and more. [`License`][34-116]
+  * [begeekmyfriend/CuckooFilter][34-117] - Substitute for bloom filter. [`License`][34-118]
+  * [bitly/dablooms][34-119] - scaling, counting, bloom filter library. [`MIT`][34-120]
 
+  [34-120]: https://github.com/bitly/dablooms/blob/master/LICENSE
+  [34-119]: https://github.com/bitly/dablooms
+  [34-118]: https://github.com/begeekmyfriend/CuckooFilter/blob/master/LICENSE
+  [34-117]: https://github.com/begeekmyfriend/CuckooFilter
   [34-116]: https://github.com/troydhanson/uthash/blob/master/LICENSE
   [34-115]: https://github.com/troydhanson/uthash
   [34-114]: https://github.com/LeoVen/C-Macro-Collections/blob/master/LICENSE
@@ -2204,7 +2210,7 @@ Incorporated lists:
 
 <a id="filetype-targets"></a>
 ## Filetype Targets ##
-Libraries for working with specific filetypes or classes of filetypes
+Libraries for working with specific filetypes or classes of filetypes.
 
 <a id="binaries"></a>
 <details>
@@ -3062,22 +3068,13 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>Hashing</summary>
 
   ## <a href="#-">`^`</a> Hashing ##
-  Hash function implementations for non-cryptographic purposes. Cryptographic hashes
-  can be found in the Crypto section.
-  * [HighwayHash][166] - Fast, strong, SIMD-using hash function. Also contains an
-  implementation of SipHash. [``Apache-2.0``][Apache-2.0]
-  * [SpookyHash][167] - Fast hash function. [``BSD-3-Clause``][BSD-3-Clause]
-  * [t1ha][168] - Fast Positive Hash - a portable, fast hash function. [``BSD-3-Clause``][BSD-3-Clause]
-  * [GNU gperf][414] - Perfect hash function generator, given a list of strings.
-  Outputs C code. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-  * [jwHash](https://github.com/watmough/jwHash) - Fast hashtable implementation. [`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
-  * [libcrc](https://github.com/PeterScott/murmur3) - Multi platform CRC library. [`MIT`](https://raw.githubusercontent.com/atom/atom/master/LICENSE.md)
-  * [murmur](https://github.com/ispc/ispc) - C implementation of MurMur Hashing. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
-  * [Cyan4973/xxHash](https://github.com/Cyan4973/xxHash) - Extremely fast non-cryptographic hash algorithm
-  * [PeterScott/murmur3](https://github.com/PeterScott/murmur3) - Murmur3 hash in C
-  * [RJ/ketama](https://github.com/RJ/ketama) - C library for consistent hashing, and langauge bindings
-  * [begeekmyfriend/CuckooFilter](https://github.com/begeekmyfriend/CuckooFilter) - Substitute for bloom filter.
-  * [bitly/dablooms](https://github.com/bitly/dablooms) - scaling, counting, bloom filter library
+  Hash function implementations for non-cryptographic purposes.
+  * [centaurean/spookyhash][51-1] - Fast hash function. [`BSD 3-Clause`][51-2]
+  * [leo-yuriev/t1ha][51-3] - Fast Positive Hash - a portable, fast hash
+  function. [`BSD 3-Clause][51-4]
+  * [Cyan4973/xxHash][51-5] - Extremely fast non-cryptographic hash algorithm. [`BSD 2-Clause`][51-6]
+  * [PeterScott/murmur3][51-7] - Murmur3 hash in C. [`Public domain`][51-8]
+  * [RJ/ketama][51-9] - C library for consistent hashing, and langauge bindings. [`BSD 2-Clause`][51-10]
   * [clibs/hash](https://github.com/clibs/hash) - C hash implementation based on khash
   * [cr-marcstevens/sha1collisiondetection](https://github.com/cr-marcstevens/sha1collisiondetection) - Library and command line tool to detect SHA-1 collision in a file
   * [lemire/clhash](https://github.com/lemire/clhash) - C library implementing the ridiculously fast CLHash  hashing function
@@ -3085,6 +3082,17 @@ Engines, libraries and other helpful things specifically for making games.
   * [plashchynski/str2hex](https://github.com/plashchynski/str2hex) - Data formats convertion utility
   * [rg3/bcrypt](https://github.com/rg3/bcrypt) - bcrypt password hash C library
   * [vdrolia/speed_hash](https://github.com/vdrolia/speed_hash) - Hash a lot of data as fast as you can
+
+  [51-10]: https://github.com/RJ/ketama/blob/master/LICENSE.txt
+  [51-9]: https://github.com/RJ/ketama
+  [51-8]: https://github.com/PeterScott/murmur3/blob/master/murmur3.h
+  [51-7]: https://github.com/PeterScott/murmur3
+  [51-6]: https://github.com/Cyan4973/xxHash/blob/dev/LICENSE
+  [51-5]: https://github.com/Cyan4973/xxHash
+  [51-4]: https://github.com/leo-yuriev/t1ha/blob/master/LICENSE
+  [51-3]: https://github.com/leo-yuriev/t1ha
+  [51-2]: https://github.com/centaurean/spookyhash/blob/master/LICENSE.md
+  [51-1]: https://github.com/centaurean/spookyhash
 </details>
 
 ## Image Processing and Computer Vision ##
@@ -3903,7 +3911,6 @@ Comprehensive and integrated solutions for building web application in C.
 [421]: https://github.com/commonmark/cmark/blob/master/COPYING
 [420]: https://github.com/commonmark/cmark
 [417]: https://github.com/simplegeo/libgeohash
-[414]: https://www.gnu.org/software/gperf/
 
 
 [409]: https://github.com/google/cpu_features
@@ -4133,9 +4140,6 @@ Comprehensive and integrated solutions for building web application in C.
 [170]: https://liballeg.org
 
 [169]: http://cyan4973.github.io/xxHash
-[168]: https://github.com/leo-yuriev/t1ha
-[167]: https://github.com/centaurean/spookyhash
-[166]: https://github.com/google/highwayhash
 [165]: https://github.com/lemire/clhash
 
 [164]: https://github.com/waruqi/tbox
