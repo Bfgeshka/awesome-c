@@ -2811,13 +2811,25 @@ Engines, libraries and other helpful things specifically for making games.
   * [jarikomppa/soloud][47-25] - Free, easy, portable audio engine for games. [`License`][47-26]
   * [liballeg/allegro5][47-27] - The official Allegro 5 git repository. [`License`][47-28]
   * [recp/cglm][47-29] - Highly Optimized Graphics Math (glm) for C. [`MIT`][47-30]
-  * [raysan5/raylib](https://github.com/raysan5/raylib) - A simple and easy-to-use library to enjoy videogames programming
-  * [rxi/lovedos](https://github.com/rxi/lovedos) - A framework for making 2D DOS games in Lua
-  * [slembcke/Chipmunk2D](https://github.com/slembcke/Chipmunk2D) - A fast and lightweight 2D game physics library.
-  * [shaunlebron/blinky](https://github.com/shaunlebron/blinky) - Exploring peripheral vision in games (using Quake)
-  * [sp4cerat/RLE-based-Voxel-Raycasting](https://github.com/sp4cerat/RLE-based-Voxel-Raycasting) - CUDA based Voxel Raycasting - Paper: Efficient, High-Quality, GPU-Based Visualization of Voxelized Surface Data
-  * [nem0/OpenFBX](https://github.com/nem0/OpenFBX) - Lightweight open source FBX importer.
+  * [raysan5/raylib][47-31] - A simple and easy-to-use library to enjoy
+  videogames programming. [`Zlib`][47-32]
+  * [rxi/lovedos][47-33] - A framework for making 2D DOS games in Lua. [`MIT`][47-34]
+  * [slembcke/Chipmunk2D][47-35] - A fast and lightweight 2D game physics
+  library. [`MIT`][47-36]
+  * [shaunlebron/blinky][47-37] - Exploring peripheral vision in games
+  (using Quake). [`MIT`][47-38]
+  * [nem0/OpenFBX][47-39] - Lightweight open source FBX importer. [`MIT`][47-40]
 
+  [47-40]: https://github.com/nem0/OpenFBX/blob/master/LICENSE
+  [47-39]: https://github.com/nem0/OpenFBX
+  [47-38]: https://github.com/shaunlebron/blinky/blob/master/LICENSE
+  [47-37]: https://github.com/shaunlebron/blinky
+  [47-36]: https://github.com/slembcke/Chipmunk2D/blob/master/LICENSE.txt
+  [47-35]: https://github.com/slembcke/Chipmunk2D
+  [47-34]: https://github.com/rxi/lovedos/blob/master/LICENSE
+  [47-33]: https://github.com/rxi/lovedos
+  [47-32]: https://github.com/raysan5/raylib/blob/master/LICENSE.md
+  [47-31]: https://github.com/raysan5/raylib
   [47-30]: https://github.com/recp/cglm/blob/master/LICENSE
   [47-29]: https://github.com/recp/cglm
   [47-28]: https://github.com/liballeg/allegro5/blob/master/LICENSE.txt
