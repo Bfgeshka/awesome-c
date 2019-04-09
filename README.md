@@ -2926,17 +2926,17 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>GUI</summary>
 
   ## <a href="#-">`^`</a> GUI ##
-  * [GTK+][206] - Cross-platform widget toolkit. [``LGPL-2.1-only``][LGPL-2.1-only]
-  * [IUP][207] - Another cross-platform widget toolkit. [``MIT``][MIT]
-  * [tinyfiledialogs][209] - Single-file library for simple dialogs. Compatible
-  with many other toolkits and OSes. [``Zlib``][Zlib]
-  * [Tk][210] - Basic widget toolkit. Part of Tcl/Tk. [``TCL``][TCL]
-  * [XForms Toolkit][211] - Widget toolkit designed for the XWindow system. [``LGPL-2.1-only``][LGPL-2.1-only]
-  * [Glade][415] - RAD tool to enable quick development of GTK+ GUIs. [``GPL-2.0-only``][GPL-2.0-only]
-  * [vurtun/nuklear](https://github.com/vurtun/nuklear) - A single-header ANSI C gui library
-  * [andlabs/libui](https://github.com/andlabs/libui) - Simple and portable (but not inflexible) GUI library in C that uses the native GUI technologies of each platform it supports.
-  * [lc-soft/LCUI](https://github.com/lc-soft/LCUI) - A small C library for building user interfaces with C, XML and CSS.
-  * [littlevgl/lvgl](https://github.com/littlevgl/lvgl) - Graphics library to create an embedded GUI with easy-to-use graphical elements, beautiful visual effects and low memory footprint. It offers anti-aliasing, opacity, and animations using only one frame buffer.
+  * [tinyfiledialogs][49-1] - Single-file library for simple dialogs. Compatible
+  with many other toolkits and OSes. [`Zlib`][49-2]
+  * [vurtun/nuklear][49-3] - A single-header ANSI C gui library. [`Licenses`][49-4]
+  * [andlabs/libui][49-5] - Simple and portable (but not inflexible) GUI library
+  in C that uses the native GUI technologies of each platform it supports. [`License`][49-6]
+  * [lc-soft/LCUI][49-7] - A small C library for building user interfaces with
+  C, XML and CSS. [`MIT`][49-8]
+  * [littlevgl/lvgl][49-9] - Graphics library to create an embedded GUI with
+  easy-to-use graphical elements, beautiful visual effects and low memory
+  footprint. It offers anti-aliasing, opacity, and animations using only one
+  frame buffer. [`MIT`][49-10]
   * [ocornut/imgui_club](https://github.com/ocornut/imgui_club) - Nice things to use along dear imgui
   * [vurtun/zahnrad](https://github.com/vurtun/zahnrad) - A small ANSI C gui toolkit
   * [vurtun/gui](https://github.com/vurtun/gui) - A lightweight ANSI C imgui toolkit
@@ -2946,6 +2946,17 @@ Engines, libraries and other helpful things specifically for making games.
   * [XForms Toolkit](http://xforms-toolkit.org/) - Widget toolkit designed for the XWindow system. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
   * [Clutter](https://blogs.gnome.org/clutter/get-it/) - UI library based on OpenGL. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
   * [randrew/layout](https://github.com/randrew/layout) - Single-file library for calculating 2D UI layouts using stacking boxes. Compiles as C99 or C++.
+
+  [49-10]: https://github.com/littlevgl/lvgl/blob/master/LICENCE.txt
+  [49-9]: https://github.com/littlevgl/lvgl
+  [49-8]: https://github.com/lc-soft/LCUI/blob/develop/LICENSE.TXT
+  [49-7]: https://github.com/lc-soft/LCUI
+  [49-6]: https://github.com/andlabs/libui/blob/master/LICENSE
+  [49-5]: https://github.com/andlabs/libui
+  [49-4]: https://github.com/vurtun/nuklear#license
+  [49-3]: https://github.com/vurtun/nuklear
+  [49-2]: https://sourceforge.net/projects/tinyfiledialogs/
+  [49-1]: https://sourceforge.net/projects/tinyfiledialogs/
 </details>
 
 ## Hardware Oriented ##
@@ -3823,7 +3834,6 @@ Comprehensive and integrated solutions for building web application in C.
 [421]: https://github.com/commonmark/cmark/blob/master/COPYING
 [420]: https://github.com/commonmark/cmark
 [417]: https://github.com/simplegeo/libgeohash
-[415]: https://glade.gnome.org/
 [414]: https://www.gnu.org/software/gperf/
 
 
@@ -4019,7 +4029,6 @@ Comprehensive and integrated solutions for building web application in C.
 
 [211]: http://xforms-toolkit.org/
 [210]: http://www.tcl.tk/
-[209]: https://sourceforge.net/projects/tinyfiledialogs/
 [208]: https://github.com/vurtun/nuklear
 [207]: http://webserver2.tecgraf.puc-rio.br/iup/
 [206]: https://www.gtk.org/
