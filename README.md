@@ -1796,7 +1796,10 @@ Incorporated lists:
   high-security public-key signature system. [`Zlib`][32-52]
   * [wolfSSL/wolfssl][32-53] - wolfSSL (formerly CyaSSL) is a small, fast,
   portable implementation of TLS/SSL for embedded devices to the cloud. [`GPL 2`][32-54]
+  * [rg3/bcrypt][32-55] - bcrypt password hash C library. [`License`][32-56]
 
+  [32-56]: https://github.com/rg3/libbcrypt/blob/master/COPYING
+  [32-55]: https://github.com/rg3/bcrypt
   [32-54]: https://github.com/wolfSSL/wolfssl/blob/master/COPYING
   [32-53]: https://github.com/wolfSSL/wolfssl
   [32-52]: https://github.com/orlp/ed25519/blob/master/license.txt
@@ -3075,14 +3078,24 @@ Engines, libraries and other helpful things specifically for making games.
   * [Cyan4973/xxHash][51-5] - Extremely fast non-cryptographic hash algorithm. [`BSD 2-Clause`][51-6]
   * [PeterScott/murmur3][51-7] - Murmur3 hash in C. [`Public domain`][51-8]
   * [RJ/ketama][51-9] - C library for consistent hashing, and langauge bindings. [`BSD 2-Clause`][51-10]
-  * [clibs/hash](https://github.com/clibs/hash) - C hash implementation based on khash
-  * [cr-marcstevens/sha1collisiondetection](https://github.com/cr-marcstevens/sha1collisiondetection) - Library and command line tool to detect SHA-1 collision in a file
-  * [lemire/clhash](https://github.com/lemire/clhash) - C library implementing the ridiculously fast CLHash  hashing function
-  * [mattsta/crcspeed](https://github.com/mattsta/crcspeed) - This make CRC be fast.  Included implementations: CRC-64-Jones and CRC-16-CCITT
-  * [plashchynski/str2hex](https://github.com/plashchynski/str2hex) - Data formats convertion utility
-  * [rg3/bcrypt](https://github.com/rg3/bcrypt) - bcrypt password hash C library
-  * [vdrolia/speed_hash](https://github.com/vdrolia/speed_hash) - Hash a lot of data as fast as you can
+  * [cr-marcstevens/sha1collisiondetection][51-11] - Library and command line
+  tool to detect SHA-1 collision in a file. [`MIT`][51-12]
+  * [clibs/hash][51-13] - C hash implementation based on khash. [`MIT`][51-14]
+  * [lemire/clhash][51-15] - C library implementing fast CLHash function. [`Apache 2`][51-16]
+  * [mattsta/crcspeed][51-17] - This make CRC be fast. Included implementations:
+  CRC-64-Jones and CRC-16-CCITT. [`BSD 3-Clause`][51-18]
+  * [plashchynski/str2hex][51-19] - Data formats convertion utility. [`Apache 2`][51-20]
 
+  [51-20]: https://github.com/plashchynski/str2hex/blob/master/LICENSE
+  [51-19]: https://github.com/plashchynski/str2hex
+  [51-18]: https://github.com/mattsta/crcspeed/blob/master/crcspeed.h
+  [51-17]: https://github.com/mattsta/crcspeed
+  [51-16]: https://github.com/lemire/clhash/blob/master/LICENSE
+  [51-15]: https://github.com/lemire/clhash
+  [51-14]: https://github.com/clibs/hash/blob/master/khash.h
+  [51-13]: https://github.com/clibs/hash
+  [51-12]: https://github.com/cr-marcstevens/sha1collisiondetection/blob/master/LICENSE.txt
+  [51-11]: https://github.com/cr-marcstevens/sha1collisiondetection
   [51-10]: https://github.com/RJ/ketama/blob/master/LICENSE.txt
   [51-9]: https://github.com/RJ/ketama
   [51-8]: https://github.com/PeterScott/murmur3/blob/master/murmur3.h
