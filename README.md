@@ -3334,17 +3334,19 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>Memory Management</summary>
 
   ## <a href="#-">`^`</a> Memory Management ##
-  * [Boehm GC][212] - Garbage collection for C. Various licenses, all open source.
-  * [Lockless Memory Allocator][214] - Efficient memory allocator. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-  * [rpmalloc][215] - Thread-caching, fast memory allocator, naturally aligned on
-  32-byte boundaries. Public domain.
-  * [talloc][216] - Hierarchical, reference-counted memory pool system with
-  destructors. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
-  * [tlsf][217] - Two-Level Segregated Fit allocator; a general-purpose, dynamic
-  memory allocator designed to meet real-time requirements.
-  [Up-to-date implementation][218]. [``BSD-3-Clause``][BSD-3-Clause]
-  * [jemalloc](http://jemalloc.net/) - General purpose malloc(3) implementation that emphasizes fragmentation avoidance and scalable concurrency support, commonly used in production systems. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
-  * [dlmalloc](http://g.oswego.edu/pub/misc/malloc.c) - Doug Lea's malloc(3) implementation, useful for academic and research purposes. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
+  * [Boehm GC][56-1] - Garbage collection for C. Various licenses, all open
+  source. [`License`][56-2]
+  * [Lockless Memory Allocator][56-3] - Efficient memory allocator. [`GPL 3`][56-4]
+  * [talloc][56-5] - Hierarchical, reference-counted memory pool system with
+  destructors. [`LGPL 3`][56-6]
+  * [mattconte/tlsf][56-7] - Two-Level Segregated Fit allocator; a
+  general-purpose, dynamic memory allocator designed to meet real-time
+  requirements. [`BSD 3-Clause`][56-8]
+  * [jemalloc/jemalloc][56-9] - General purpose malloc(3) implementation that
+  emphasizes fragmentation avoidance and scalable concurrency support, commonly
+  used in production systems. [`License`][56-10]
+  * [dlmalloc][56-11] - Doug Lea's malloc(3) implementation, useful for academic
+  and research purposes. [`Public domain`][56-12]
   * [Hoard](http://hoard.org/) - A Fast, Scalable, and Memory-efficient Malloc for Linux, Windows, Mac, and Solaris. [`GNU GPL2`](http://www.gnu.org/licenses/gpl.html)
   * [CCareaga/heap_allocator](https://github.com/CCareaga/heap_allocator) - A simple heap memory allocator in ~200 lines.
   * [ivmai/bdwgc](https://github.com/ivmai/bdwgc) - The Boehm-Demers-Weiser conservative C/C++ Garbage Collector (libgc, bdwgc, boehm-gc)
@@ -3356,6 +3358,19 @@ Engines, libraries and other helpful things specifically for making games.
   * [rampantpixels/rpmalloc](https://github.com/rampantpixels/rpmalloc) - Public domain cross platform lock free thread caching 32-byte aligned memory allocator implemented in C
   * [stevedekorte/garbagecollector](https://github.com/stevedekorte/garbagecollector) - Incrementall garbage collector library in C for use by high level language implementions.
   * [wbhart/Cesium3](https://github.com/wbhart/Cesium3) - Fast interpreter with macros, local type inference, LLVM backend.
+
+  [56-12]: http://g.oswego.edu/pub/misc/malloc.c
+  [56-11]: http://g.oswego.edu/pub/misc/malloc.c
+  [56-10]: https://github.com/jemalloc/jemalloc/blob/dev/COPYING
+  [56-9]: https://github.com/jemalloc/jemalloc
+  [56-8]: https://github.com/mattconte/tlsf/blob/master/tlsf.h
+  [56-7]: https://github.com/mattconte/tlsf
+  [56-6]: https://www.samba.org/ftp/talloc/
+  [56-5]: https://talloc.samba.org/talloc/doc/html/index.html
+  [56-4]: https://locklessinc.com/gpl3.shtml
+  [56-3]: https://locklessinc.com/
+  [56-2]: https://www.hboehm.info/gc/license.txt
+  [56-1]: https://www.hboehm.info/gc/
 </details>
 
 ## Multimedia ##
@@ -4232,13 +4247,8 @@ Comprehensive and integrated solutions for building web application in C.
 [220]: https://www.ffmpeg.org/
 [219]: https://github.com/aubio/aubio
 
-[218]: https://github.com/minad/tlsf
-[217]: http://www.gii.upv.es/tlsf/
-[216]: https://talloc.samba.org/talloc/doc/html/index.html
 [215]: https://github.com/rampantpixels/rpmalloc
-[214]: https://locklessinc.com/
 [213]: http://jemalloc.net
-[212]: https://www.hboehm.info/gc/
 
 [211]: http://xforms-toolkit.org/
 [210]: http://www.tcl.tk/
