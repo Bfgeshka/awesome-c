@@ -3434,18 +3434,36 @@ Engines, libraries and other helpful things specifically for making games.
   and encoding audio data using Xiph.org codecs (FLAC, Speex and Vorbis). [`BSD 3-Clause`][57-38]
   * [libass/libass][57-39] - libass is a portable subtitle renderer for the
   ASS/SSA (Advanced Substation Alpha/Substation Alpha) subtitle format. [`ISC`][57-40]
-  * [libav/libav](https://github.com/libav/libav) - Libav github mirror, clone of git://git.libav.org/libav.
-  * [libpd/libpd](https://github.com/libpd/libpd) - Pure Data embeddable audio synthesis library.
-  * [mltframework/mlt](https://github.com/mltframework/mlt) - MLT Multimedia Framework.
-  * [sahib/glyr](https://github.com/sahib/glyr) - Glyr is a music related metadata searchengine, both with commandline interface and C API.
-  * [simonyiszk/csdr](https://github.com/simonyiszk/csdr) - A simple DSP library and command-line tool for Software Defined Radio.
-  * [strands-project/data_compression](https://github.com/strands-project/data_compression) - Video encoding for 8 bit RGB images, 16 bit grayscale depth images and possibly more.
-  * [sptim/mp3hash](https://github.com/sptim/mp3hash) - Command line tool to calculate the hash of the music data in mp3 files (without id3v1 & id3v2 metadata). Useful to find dupes with e.g. different genre names.
-  * [xiph/flac](https://github.com/xiph/flac) - Free Lossless Audio Codec.
-  * [xiph/opus](https://github.com/xiph/opus) - Modern audio compression for the internet.
-  * [mhroth/tinyosc](https://github.com/mhroth/tinyosc) - A minimal Open Sound Control (OSC) library written in vanilla C.
-  * [libao](https://xiph.org/ao/) - Cross-platform audio library with a wide variety of outputs. [`GNU GPL2.1 or later`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+  * [libav/libav][57-41] - Collection of libraries and tools to process
+  multimedia content such as audio, video, subtitles and related metadata. [`License`][57-42]
+  * [mltframework/mlt][57-43] - MLT Multimedia Framework. [`LGPL 2.1`][57-44]
+  * [sahib/glyr][57-45] - Glyr is a music related metadata searchengine, both
+  with commandline interface and C API. [`LGPL 3`][57-46]
+  * [simonyiszk/csdr][57-47] - A simple DSP library and command-line tool for
+  Software Defined Radio. [`License`][57-48]
+  * [xiph/flac][57-49] - Free Lossless Audio Codec. [`License`][57-50]
+  * [xiph/opus][57-51] - Modern audio compression for the internet. [`License`][57-52]
+  * [mhroth/tinyosc][57-53] - A minimal Open Sound Control (OSC) library written
+  in vanilla C. [`ISC`][57-54]
+  * [libao][57-55] - Cross-platform audio library with a wide variety of
+  outputs. [`GPL 2`][57-56]
 
+  [57-56]: https://git.xiph.org/?p=libao.git;a=blob;f=COPYING;h=d60c31a97a544b53039088d14fe9114583c0efc3;hb=HEAD
+  [57-55]: https://xiph.org/ao/
+  [57-54]: https://github.com/mhroth/tinyosc/blob/master/LICENSE
+  [57-53]: https://github.com/mhroth/tinyosc
+  [57-52]: https://github.com/xiph/opus/blob/master/COPYING
+  [57-51]: https://github.com/xiph/opus
+  [57-50]: https://github.com/xiph/flac/blob/master/COPYING.Xiph
+  [57-49]: https://github.com/xiph/flac
+  [57-48]: https://github.com/simonyiszk/csdr#licensing
+  [57-47]: https://github.com/simonyiszk/csdr
+  [57-46]: https://github.com/sahib/glyr/blob/master/COPYING
+  [57-45]: https://github.com/sahib/glyr
+  [57-44]: https://github.com/mltframework/mlt/blob/master/COPYING
+  [57-43]: https://github.com/mltframework/mlt
+  [57-42]: https://github.com/libav/libav/blob/master/LICENSE
+  [57-41]: https://github.com/libav/libav
   [57-40]: https://github.com/libass/libass/blob/master/COPYING
   [57-39]: https://github.com/libass/libass
   [57-38]: https://github.com/kfish/libfishsound/blob/master/COPYING
