@@ -3400,24 +3400,23 @@ Engines, libraries and other helpful things specifically for making games.
 
   ## <a href="#-">`^`</a> Multimedia ##
   Audio and video processing
-  * [ApeTagLibs][428] - Library for working with APEv2 tags. [``MIT``][MIT]
-  * [libsndfile][223] - Library for reading and writing sound files. Supports
-  many formats. [``LGPL-2.1-only``][LGPL-2.1-only] or [``LGPL-3.0-only``][LGPL-3.0-only]
-  * [minimp3][225] - Lightweight MP3 decoder single header library. [``CC0-1.0``][CC0-1.0]
-  * [FFMPEG](https://www.ffmpeg.org/) - Complete, cross-platform solution to record, convert and stream audio and video. [`GNU LGPL2.1 or later`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html) or [`GNU GPL2.1 or later (some parts)`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-  * [GStreamer](https://gstreamer.freedesktop.org/) - Framework for audio and visual media. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-  * [lodepng](https://lodev.org/lodepng/) - Simple PNG image decoder and encoder, requiring no other dependencies. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
-  * [libsoup](https://wiki.gnome.org/action/show/Projects/libsoup?action=show&redirect=LibSoup) - GNOME HTTP client/server library. Uses GObject. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-  * [libmpv](https://mpv.io/) - Music-playing library. Compile with ``./waf configure --disable-cplayer --enable-libmpv-shared`` to not have the music player. [`GNU GPL2.1 or later`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-  * [libsoundio](http://libsound.io/) - Library for cross-platform, real-time audio input and output. Has a range of back-ends. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
+  * [jeremyevans/ape_tag_libs][57-1] - Library for working with APEv2 tags. [`MIT`][57-2]
+  * [lieff/minimp3][57-3] - Lightweight MP3 decoder single header library. [`License`][57-4]
+  * [FFMPEG][57-5] - Complete, cross-platform solution to record, convert and
+  stream audio and video. [`LGPL 2.1`][57-6]
+  * [GStreamer][57-7] - Framework for audio and visual media. [`LGPL 2`][57-8]
+  * [mpv-player/mpv][57-9] - Media player MPV with provided library libmpv.
+  Compile with ``./waf configure --disable-cplayer --enable-libmpv-shared`` to
+  not have the music player. [`License`][57-10]
+  * [andrewrk/libsoundio][57-11] - Library for cross-platform, real-time audio input and
+  output. Has a range of back-ends. [`MIT`][57-12]
   * [AVbin/AVbin](https://github.com/AVbin/AVbin) - AVbin is a C library that provides a thin, cross-platform wrapper around Libav’s video- and audio-decoding functionality, providing long-term binary compatibility for applications and languages that need it.  See also: Pyglet, a python media framework that makes extensive use of AVbin.
   * [LnxPrgr3/crossfeed](https://github.com/LnxPrgr3/crossfeed) - Headphone crossfeed filter
   * [PaulBatchelor/Soundpipe](https://github.com/PaulBatchelor/Soundpipe) - A lightweight music DSP library.
   * [Themaister/libfmsynth](https://github.com/Themaister/libfmsynth) - A C library which implements an FM synthesizer
   * [UniversalPrimer/flv-analyzer](https://github.com/UniversalPrimer/flv-analyzer) - Loads an FLV file into sane C data structures and outputs fields as human readable
   * [Vidvox/hap-qt-codec](https://github.com/Vidvox/hap-qt-codec) - A QuickTime codec for Hap video
-  * [acrisci/playerctl](https://github.com/acrisci/playerctl) - 🎧 mpris command-line controller and library for spotify, vlc, audacious, bmp, cmus, and others.
-  * [andrewrk/libsoundio](https://github.com/andrewrk/libsoundio) - C library for cross-platform real-time audio input and output
+  * [acrisci/playerctl](https://github.com/acrisci/playerctl) - mpris command-line controller and library for spotify, vlc, audacious, bmp, cmus, and others.
   * [aubio/aubio](https://github.com/aubio/aubio) - a library for audio and music analysis
   * [cmatsuoka/libxmp](https://github.com/cmatsuoka/libxmp) - Libxmp is a library that renders module files to PCM data.
   * [cnlohr/colorchord](https://github.com/cnlohr/colorchord) - Chromatic Sound to Light Conversion System
@@ -3438,6 +3437,19 @@ Engines, libraries and other helpful things specifically for making games.
   * [xiph/opus](https://github.com/xiph/opus) - Modern audio compression for the internet.
   * [mhroth/tinyosc](https://github.com/mhroth/tinyosc) - A minimal Open Sound Control (OSC) library written in vanilla C.
   * [libao](https://xiph.org/ao/) - Cross-platform audio library with a wide variety of outputs. [`GNU GPL2.1 or later`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+
+  [57-12]: https://github.com/andrewrk/libsoundio/blob/master/LICENSE
+  [57-11]: http://libsound.io/
+  [57-10]: https://github.com/mpv-player/mpv/blob/master/Copyright
+  [57-9]: https://github.com/mpv-player/mpv
+  [57-8]: https://gitlab.freedesktop.org/gstreamer/gstreamer/blob/master/COPYING
+  [57-7]: https://gstreamer.freedesktop.org/
+  [57-6]: https://www.ffmpeg.org/legal.html
+  [57-5]: https://www.ffmpeg.org/
+  [57-4]: https://github.com/lieff/minimp3/blob/master/LICENSE
+  [57-3]: https://github.com/lieff/minimp3
+  [57-2]: https://github.com/jeremyevans/ape_tag_libs/tree/master/c
+  [57-1]: https://github.com/jeremyevans/ape_tag_libs/tree/master/c
 </details>
 
 ## Multiple Purpose Libraries ##
@@ -3647,6 +3659,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [hoxnox/rawsock_recv_example](https://github.com/hoxnox/rawsock_recv_example) - SOCK_RAW IPPROTO_UDP socket data transmission example
 * [LiamBindle/MQTT-C](https://github.com/LiamBindle/MQTT-C) - MQTT protocol implementation.
 * [google/gumbo-parser](https://github.com/google/gumbo-parser) - HTML5 parsing library in C99.
+* [libsoup](https://wiki.gnome.org/action/show/Projects/libsoup?action=show&redirect=LibSoup) - GNOME HTTP client/server library. Uses GObject. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
 
 ### RPC ###
 * [hmng/jsonrpc-c](https://github.com/hmng/jsonrpc-c) - JSON-RPC in C (server only for now)
@@ -4090,7 +4103,6 @@ Comprehensive and integrated solutions for building web application in C.
 [435]: https://gnu.org/software/gss/
 [433]: https://github.com/antirez/linenoise
 [432]: https://github.com/recp/tm
-[428]: https://github.com/jeremyevans/ape_tag_libs/tree/master/c
 [427]: https://criu.org/Main_Page
 [426]: https://github.com/sinemetu1/twitc
 [425]: https://www.gnu.org/software/gnulib/
@@ -4265,9 +4277,7 @@ Comprehensive and integrated solutions for building web application in C.
 [227]: http://lionet.info/asn1c/compiler.html
 
 [226]: http://paulbatchelor.github.io/proj/soundpipe.html
-[225]: https://github.com/lieff/minimp3
 [224]: http://libsound.io
-[223]: http://www.mega-nerd.com/libsndfile/
 [222]: https://mpv.io
 [221]: https://gstreamer.freedesktop.org/
 [220]: https://www.ffmpeg.org/
