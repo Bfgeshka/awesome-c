@@ -3298,24 +3298,23 @@ Engines, libraries and other helpful things specifically for making games.
   [54-1]: https://github.com/Lajnold/falloc
 </details>
 
-## Lexing and Parsing ##
-Generic lexers and parsers
-* [flex][356] - Fast lexical analyzer generator. [``BSD-2-Clause``][BSD-2-Clause]
-* [GNU Bison][357] - General-purpose parser generator that converts an
+<a id="lexing-and-parsing"></a>
+<details>
+  <summary>Lexing and Parsing</summary>
+
+  ## <a href="#-">`^`</a> Lexing and Parsing ##
+  * [GNU Bison][357] - General-purpose parser generator that converts an
   annotated context-free grammar into a range of parsers. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [hammer][358] - Parser combinators for binary formats. [``GPL-2.0-only``][GPL-2.0-only]
-* [mpc][359] - Parser combinator library. [``BSD-2-Clause``][BSD-2-Clause]
-* [re2c][360] - Lexer generator, producing fast lexers, with access to its
-  internals. Public domain.
-* [MatzeB/cparser](https://github.com/MatzeB/cparser) - C99 parser and frontend for libfirm
-* [XVilka/cparse](https://github.com/XVilka/cparse) - Parser of C-syntax data definitions, C-syntax function definitions
-* [bbu/simple-interpreter](https://github.com/bbu/simple-interpreter) - A hackable and extensible lexer, parser and interpreter for a minimalistic, imperative, C-like language.
-* [burtonsamograd/sxc](https://github.com/burtonsamograd/sxc) - sxc is an 'S-Expression C' transpiler for generating C code using macros written in Common Lisp
-* [dcreager/libpush](https://github.com/dcreager/libpush) - An arrow-based parser combinator library for C
-* [kmussel/Moment](https://github.com/kmussel/Moment) - Natural Language Date Parser Using Lex/Yacc/C
-* [skvadrik/re2c](https://github.com/skvadrik/re2c) - lexer generator for C/C++
-* [westes/flex](https://github.com/westes/flex) - The Fast Lexical Analyzer - scanner generator for lexing in C and C++
-* [orangeduck/mpc](https://github.com/orangeduck/mpc) - Parser combinator library. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
+  * [MatzeB/cparser](https://github.com/MatzeB/cparser) - C99 parser and frontend for libfirm
+  * [XVilka/cparse](https://github.com/XVilka/cparse) - Parser of C-syntax data definitions, C-syntax function definitions
+  * [bbu/simple-interpreter](https://github.com/bbu/simple-interpreter) - A hackable and extensible lexer, parser and interpreter for a minimalistic, imperative, C-like language.
+  * [burtonsamograd/sxc](https://github.com/burtonsamograd/sxc) - sxc is an 'S-Expression C' transpiler for generating C code using macros written in Common Lisp
+  * [dcreager/libpush](https://github.com/dcreager/libpush) - An arrow-based parser combinator library for C
+  * [kmussel/Moment](https://github.com/kmussel/Moment) - Natural Language Date Parser Using Lex/Yacc/C
+  * [skvadrik/re2c](https://github.com/skvadrik/re2c) - lexer generator for C/C++
+  * [westes/flex](https://github.com/westes/flex) - The Fast Lexical Analyzer - scanner generator for lexing in C and C++
+  * [orangeduck/mpc](https://github.com/orangeduck/mpc) - Parser combinator library. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
+</details>
 
 ## Memory Management ##
 * [Boehm GC][212] - Garbage collection for C. Various licenses, all open source.
