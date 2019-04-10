@@ -1520,7 +1520,11 @@ Incorporated lists:
   * [zlib-ng/zlib-ng][29-68] - zlib replacement with optimizations for
   "next generation" systems. [`Zlib`][29-69]
   * [facebook/zstd][29-31] - Fast real-time compression algorithm. [`BSD 3-Clause`][29-32]
+  * [jsvennevid/filearchive][29-72] - File archive library allowing for easy
+  creation and access to data stored inside a container through a simple API. [`MIT`][29-73]
 
+  [29-73]: https://github.com/jsvennevid/filearchive/blob/master/LICENSE
+  [29-72]: https://github.com/jsvennevid/filearchive
   [29-71]: https://github.com/powturbo/TurboRLE/blob/master/trle.h
   [29-70]: https://github.com/powturbo/TurboRLE
   [29-69]: https://github.com/zlib-ng/zlib-ng/blob/develop/LICENSE.md
@@ -3268,15 +3272,30 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>I/O</summary>
 
   ## <a href="#-">`^`</a> I/O ##
-  * [Lajnold/falloc](https://github.com/Lajnold/falloc) - falloc creates files of a user-specified size. It uses the posix_fallocate syscall for allocating the right size directly, instead of copying data like the commonly used dd tool does (which, in my opinion, feels like a hack).
-  * [cgaebel/pipe](https://github.com/cgaebel/pipe) - A simple thread-safe FIFO in C.
-  * [cxong/tinydir](https://github.com/cxong/tinydir) - Lightweight, portable and easy to integrate C directory and file reader
-  * [reverbrain/eblob](https://github.com/reverbrain/eblob) - Eblob is an append-only low-level IO library, which saves data in blob files. Created as low-level backend for elliptics
-  * [reverbrain/smack](https://github.com/reverbrain/smack) - Low-level IO storage which packs data into sorted (zlib/bzip2/snappy compressed) blobs
-  * [tronkko/dirent](https://github.com/tronkko/dirent) - C/C++ library for retrieving information on files and directories
-  * [vi/fdlinecombine](https://github.com/vi/fdlinecombine) - Read multiple fds and print data to stdout linewise.
-  * [jsvennevid/filearchive](https://github.com/jsvennevid/filearchive) - File archive library allowing for easy creation and access to data stored inside a container through a simple API.
-  * [jwerle/fs.c](https://github.com/jwerle/fs.c) - File system API much like Node's fs module
+  * [Lajnold/falloc][54-1] - falloc creates files of a user-specified size. It
+  uses the posix_fallocate syscall for allocating the right size directly,
+  instead of copying data like the commonly used dd tool does. [`GPL 3`][54-2]
+  * [cgaebel/pipe][54-3] - A simple thread-safe FIFO in C. [`MIT`][54-4]
+  * [cxong/tinydir][54-5] - Lightweight, portable and easy to integrate C
+  directory and file reader. [`License`][54-6]
+  * [reverbrain/eblob][54-7] - Eblob is an append-only low-level IO library,
+  which saves data in blob files. Created as low-level backend for elliptics. [`LGPL 3`][54-8]
+  * [tronkko/dirent][54-9] - C/C++ library for retrieving information on files
+  and directories. [`MIT`][54-10]
+  * [jwerle/fs.c][54-11] - File system API much like Node's fs module. [`MIT`][54-12]
+
+  [54-12]: https://github.com/jwerle/fs.c/blob/master/LICENSE
+  [54-11]: https://github.com/jwerle/fs.c
+  [54-10]: https://github.com/tronkko/dirent/blob/master/LICENSE
+  [54-9]: https://github.com/tronkko/dirent
+  [54-8]: https://github.com/reverbrain/eblob/blob/master/LICENSE
+  [54-7]: https://github.com/reverbrain/eblob
+  [54-6]: https://github.com/cxong/tinydir/blob/master/COPYING
+  [54-5]: https://github.com/cxong/tinydir
+  [54-4]: https://github.com/cgaebel/pipe
+  [54-3]: https://github.com/cgaebel/pipe
+  [54-2]: https://github.com/Lajnold/falloc/blob/master/COPYING
+  [54-1]: https://github.com/Lajnold/falloc
 </details>
 
 ## Lexing and Parsing ##
