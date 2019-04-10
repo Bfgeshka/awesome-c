@@ -3408,36 +3408,54 @@ Engines, libraries and other helpful things specifically for making games.
   * [mpv-player/mpv][57-9] - Media player MPV with provided library libmpv.
   Compile with ``./waf configure --disable-cplayer --enable-libmpv-shared`` to
   not have the music player. [`License`][57-10]
-  * [andrewrk/libsoundio][57-11] - Library for cross-platform, real-time audio input and
-  output. Has a range of back-ends. [`MIT`][57-12]
-  * [AVbin/AVbin](https://github.com/AVbin/AVbin) - AVbin is a C library that provides a thin, cross-platform wrapper around Libav’s video- and audio-decoding functionality, providing long-term binary compatibility for applications and languages that need it.  See also: Pyglet, a python media framework that makes extensive use of AVbin.
-  * [LnxPrgr3/crossfeed](https://github.com/LnxPrgr3/crossfeed) - Headphone crossfeed filter
-  * [PaulBatchelor/Soundpipe](https://github.com/PaulBatchelor/Soundpipe) - A lightweight music DSP library.
-  * [Themaister/libfmsynth](https://github.com/Themaister/libfmsynth) - A C library which implements an FM synthesizer
-  * [UniversalPrimer/flv-analyzer](https://github.com/UniversalPrimer/flv-analyzer) - Loads an FLV file into sane C data structures and outputs fields as human readable
-  * [Vidvox/hap-qt-codec](https://github.com/Vidvox/hap-qt-codec) - A QuickTime codec for Hap video
-  * [acrisci/playerctl](https://github.com/acrisci/playerctl) - mpris command-line controller and library for spotify, vlc, audacious, bmp, cmus, and others.
-  * [aubio/aubio](https://github.com/aubio/aubio) - a library for audio and music analysis
+  * [andrewrk/libsoundio][57-11] - Library for cross-platform, real-time audio
+  input and output. Has a range of back-ends. [`MIT`][57-12]
+  * [AVbin/AVbin][57-13] - Thin, cross-platform wrapper around Libav’s
+  video- and audio-decoding functionality, providing long-term binary
+  compatibility for applications and languages that need it. [`LGPL 3`][57-14]
+  * [PaulBatchelor/Soundpipe][57-15] - A lightweight music DSP library. [`MIT`][57-16]
+  * [Themaister/libfmsynth][57-17] - A C library which implements an FM
+  synthesizer. [`MIT`][57-18]
+  * [UniversalPrimer/flv-analyzer][57-19] - Loads an FLV file into sane C data
+  structures and outputs fields as human readable. [`GPL 3`][57-20]
+  * [Vidvox/hap-qt-codec][57-21] - A QuickTime codec for Hap video. [`License`][57-22]
+  * [acrisci/playerctl][57-23] - mpris command-line controller and library for
+  spotify, vlc, audacious, bmp, cmus, and others. [`LGPL 3`][57-24]
+  * [aubio/aubio][57-25] - a library for audio and music analysis. [`GPL 3`][57-26]
   * [cmatsuoka/libxmp](https://github.com/cmatsuoka/libxmp) - Libxmp is a library that renders module files to PCM data.
-  * [cnlohr/colorchord](https://github.com/cnlohr/colorchord) - Chromatic Sound to Light Conversion System
-  * [csound/csound](https://github.com/csound/csound) - Main repository for Csound
+  * [cnlohr/colorchord](https://github.com/cnlohr/colorchord) - Chromatic Sound to Light Conversion System.
+  * [csound/csound](https://github.com/csound/csound) - Main repository for Csound.
   * [dxjia/ffmpeg-commands-executor-library](https://github.com/dxjia/ffmpeg-commands-executor-library) - execute ffmpeg commands through a jni shared library.
-  * [erikd/libsndfile](https://github.com/erikd/libsndfile) - A C library for reading and writing sound files containing sampled audio data..
-  * [imankulov/wav2rtp](https://github.com/imankulov/wav2rtp) - wav2rtp is a simple tool intended to convert speech data from wav files to RTP data stream
-  * [kfish/libfishsound](https://github.com/kfish/libfishsound) - A simple programming interface for decoding and encoding audio data using Xiph.org codecs (FLAC, Speex and Vorbis)
+  * [erikd/libsndfile](https://github.com/erikd/libsndfile) - A C library for reading and writing sound files containing sampled audio data.
+  * [imankulov/wav2rtp](https://github.com/imankulov/wav2rtp) - wav2rtp is a simple tool intended to convert speech data from wav files to RTP data stream.
+  * [kfish/libfishsound](https://github.com/kfish/libfishsound) - A simple programming interface for decoding and encoding audio data using Xiph.org codecs (FLAC, Speex and Vorbis).
   * [libass/libass](https://github.com/libass/libass) - libass is a portable subtitle renderer for the ASS/SSA (Advanced Substation Alpha/Substation Alpha) subtitle format.
-  * [libav/libav](https://github.com/libav/libav) - Libav github mirror, clone of git://git.libav.org/libav
-  * [libpd/libpd](https://github.com/libpd/libpd) - Pure Data embeddable audio synthesis library
-  * [mltframework/mlt](https://github.com/mltframework/mlt) - MLT Multimedia Framework
-  * [sahib/glyr](https://github.com/sahib/glyr) - Glyr is a music related metadata searchengine, both with commandline interface and C API
+  * [libav/libav](https://github.com/libav/libav) - Libav github mirror, clone of git://git.libav.org/libav.
+  * [libpd/libpd](https://github.com/libpd/libpd) - Pure Data embeddable audio synthesis library.
+  * [mltframework/mlt](https://github.com/mltframework/mlt) - MLT Multimedia Framework.
+  * [sahib/glyr](https://github.com/sahib/glyr) - Glyr is a music related metadata searchengine, both with commandline interface and C API.
   * [simonyiszk/csdr](https://github.com/simonyiszk/csdr) - A simple DSP library and command-line tool for Software Defined Radio.
   * [strands-project/data_compression](https://github.com/strands-project/data_compression) - Video encoding for 8 bit RGB images, 16 bit grayscale depth images and possibly more.
   * [sptim/mp3hash](https://github.com/sptim/mp3hash) - Command line tool to calculate the hash of the music data in mp3 files (without id3v1 & id3v2 metadata). Useful to find dupes with e.g. different genre names.
-  * [xiph/flac](https://github.com/xiph/flac) - Free Lossless Audio Codec
+  * [xiph/flac](https://github.com/xiph/flac) - Free Lossless Audio Codec.
   * [xiph/opus](https://github.com/xiph/opus) - Modern audio compression for the internet.
   * [mhroth/tinyosc](https://github.com/mhroth/tinyosc) - A minimal Open Sound Control (OSC) library written in vanilla C.
   * [libao](https://xiph.org/ao/) - Cross-platform audio library with a wide variety of outputs. [`GNU GPL2.1 or later`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 
+  [57-26]: https://github.com/aubio/aubio/blob/master/COPYING
+  [57-25]: https://github.com/aubio/aubio
+  [57-24]: https://github.com/acrisci/playerctl/blob/master/COPYING
+  [57-23]: https://github.com/acrisci/playerctl
+  [57-22]: https://github.com/Vidvox/hap-qt-codec/blob/master/LICENSE
+  [57-21]: https://github.com/Vidvox/hap-qt-codec
+  [57-20]: https://github.com/UniversalPrimer/flv-analyzer
+  [57-19]: https://github.com/UniversalPrimer/flv-analyzer
+  [57-18]: https://github.com/Themaister/libfmsynth/blob/master/COPYING
+  [57-17]: https://github.com/Themaister/libfmsynth
+  [57-16]: https://github.com/PaulBatchelor/Soundpipe/blob/master/LICENSE
+  [57-15]: https://github.com/PaulBatchelor/Soundpipe
+  [57-14]: https://github.com/AVbin/AVbin/blob/master/COPYING.LESSER
+  [57-13]: https://github.com/AVbin/AVbin
   [57-12]: https://github.com/andrewrk/libsoundio/blob/master/LICENSE
   [57-11]: http://libsound.io/
   [57-10]: https://github.com/mpv-player/mpv/blob/master/Copyright
