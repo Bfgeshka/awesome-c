@@ -3422,14 +3422,18 @@ Engines, libraries and other helpful things specifically for making games.
   * [acrisci/playerctl][57-23] - mpris command-line controller and library for
   spotify, vlc, audacious, bmp, cmus, and others. [`LGPL 3`][57-24]
   * [aubio/aubio][57-25] - a library for audio and music analysis. [`GPL 3`][57-26]
-  * [cmatsuoka/libxmp](https://github.com/cmatsuoka/libxmp) - Libxmp is a library that renders module files to PCM data.
-  * [cnlohr/colorchord](https://github.com/cnlohr/colorchord) - Chromatic Sound to Light Conversion System.
-  * [csound/csound](https://github.com/csound/csound) - Main repository for Csound.
-  * [dxjia/ffmpeg-commands-executor-library](https://github.com/dxjia/ffmpeg-commands-executor-library) - execute ffmpeg commands through a jni shared library.
-  * [erikd/libsndfile](https://github.com/erikd/libsndfile) - A C library for reading and writing sound files containing sampled audio data.
-  * [imankulov/wav2rtp](https://github.com/imankulov/wav2rtp) - wav2rtp is a simple tool intended to convert speech data from wav files to RTP data stream.
-  * [kfish/libfishsound](https://github.com/kfish/libfishsound) - A simple programming interface for decoding and encoding audio data using Xiph.org codecs (FLAC, Speex and Vorbis).
-  * [libass/libass](https://github.com/libass/libass) - libass is a portable subtitle renderer for the ASS/SSA (Advanced Substation Alpha/Substation Alpha) subtitle format.
+  * [cmatsuoka/libxmp][57-27] - Libxmp is a library that renders module files to
+  PCM data. [`License`][57-28]
+  * [cnlohr/colorchord][57-29] - Chromatic Sound to Light Conversion System. [`BSD 3-Clause`][57-30]
+  * [csound/csound][57-31] - A sound and music computing system. [`LGPL 2.1`][57-32]
+  * [dxjia/ffmpeg-commands-executor-library][57-33] - execute ffmpeg commands
+  through a jni shared library. [`Apache 2`][57-34]
+  * [erikd/libsndfile][57-35] - A C library for reading and writing sound files
+  containing sampled audio data. [`LGPL 2.1`][57-36]
+  * [kfish/libfishsound][57-37] - A simple programming interface for decoding
+  and encoding audio data using Xiph.org codecs (FLAC, Speex and Vorbis). [`BSD 3-Clause`][57-38]
+  * [libass/libass][57-39] - libass is a portable subtitle renderer for the
+  ASS/SSA (Advanced Substation Alpha/Substation Alpha) subtitle format. [`ISC`][57-40]
   * [libav/libav](https://github.com/libav/libav) - Libav github mirror, clone of git://git.libav.org/libav.
   * [libpd/libpd](https://github.com/libpd/libpd) - Pure Data embeddable audio synthesis library.
   * [mltframework/mlt](https://github.com/mltframework/mlt) - MLT Multimedia Framework.
@@ -3442,6 +3446,20 @@ Engines, libraries and other helpful things specifically for making games.
   * [mhroth/tinyosc](https://github.com/mhroth/tinyosc) - A minimal Open Sound Control (OSC) library written in vanilla C.
   * [libao](https://xiph.org/ao/) - Cross-platform audio library with a wide variety of outputs. [`GNU GPL2.1 or later`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 
+  [57-40]: https://github.com/libass/libass/blob/master/COPYING
+  [57-39]: https://github.com/libass/libass
+  [57-38]: https://github.com/kfish/libfishsound/blob/master/COPYING
+  [57-37]: https://github.com/kfish/libfishsound
+  [57-36]: https://github.com/erikd/libsndfile/blob/master/COPYING
+  [57-35]: https://github.com/erikd/libsndfile
+  [57-34]: https://github.com/dxjia/ffmpeg-commands-executor-library/blob/as-version/LICENSE
+  [57-33]: https://github.com/dxjia/ffmpeg-commands-executor-library
+  [57-32]: https://github.com/csound/csound/blob/develop/COPYING
+  [57-31]: https://github.com/csound/csound
+  [57-30]: https://github.com/cnlohr/colorchord/blob/master/LICENSE
+  [57-29]: https://github.com/cnlohr/colorchord
+  [57-28]: https://github.com/cmatsuoka/libxmp
+  [57-27]: https://github.com/cmatsuoka/libxmp
   [57-26]: https://github.com/aubio/aubio/blob/master/COPYING
   [57-25]: https://github.com/aubio/aubio
   [57-24]: https://github.com/acrisci/playerctl/blob/master/COPYING
