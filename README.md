@@ -3303,17 +3303,30 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>Lexing and Parsing</summary>
 
   ## <a href="#-">`^`</a> Lexing and Parsing ##
-  * [GNU Bison][357] - General-purpose parser generator that converts an
-  annotated context-free grammar into a range of parsers. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-  * [MatzeB/cparser](https://github.com/MatzeB/cparser) - C99 parser and frontend for libfirm
-  * [XVilka/cparse](https://github.com/XVilka/cparse) - Parser of C-syntax data definitions, C-syntax function definitions
-  * [bbu/simple-interpreter](https://github.com/bbu/simple-interpreter) - A hackable and extensible lexer, parser and interpreter for a minimalistic, imperative, C-like language.
-  * [burtonsamograd/sxc](https://github.com/burtonsamograd/sxc) - sxc is an 'S-Expression C' transpiler for generating C code using macros written in Common Lisp
-  * [dcreager/libpush](https://github.com/dcreager/libpush) - An arrow-based parser combinator library for C
-  * [kmussel/Moment](https://github.com/kmussel/Moment) - Natural Language Date Parser Using Lex/Yacc/C
-  * [skvadrik/re2c](https://github.com/skvadrik/re2c) - lexer generator for C/C++
-  * [westes/flex](https://github.com/westes/flex) - The Fast Lexical Analyzer - scanner generator for lexing in C and C++
-  * [orangeduck/mpc](https://github.com/orangeduck/mpc) - Parser combinator library. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
+  * [GNU Bison][55-1] - General-purpose parser generator that converts an
+  annotated context-free grammar into a range of parsers. [`GPL 3`][55-2]
+  * [bbu/simple-interpreter][55-3] - A hackable and extensible lexer, parser
+  and interpreter for a minimalistic, imperative, C-like language. `No license`
+  * [dcreager/libpush][55-4] - An arrow-based parser combinator library for C. [`BSD 3-Clause`][55-5]
+  * [kmussel/Moment][55-6] - Natural Language Date Parser Using Lex/Yacc/C. [`MIT`][55-7]
+  * [skvadrik/re2c][55-8] - lexer generator for C/C++. [`License`][55-9]
+  * [westes/flex][55-10] - The Fast Lexical Analyzer - scanner generator for
+  lexing in C and C++. [`License`][55-11]
+  * [orangeduck/mpc][55-12] - Parser combinator library. [`BSD 2-Clause`][55-13]
+
+  [55-13]: https://github.com/orangeduck/mpc/blob/master/LICENSE.md
+  [55-12]: https://github.com/orangeduck/mpc
+  [55-11]: https://github.com/westes/flex/blob/master/COPYING
+  [55-10]: https://github.com/westes/flex
+  [55-9]: https://github.com/skvadrik/re2c/blob/master/LICENSE
+  [55-8]: https://github.com/skvadrik/re2c
+  [55-7]: https://github.com/kmussel/Moment/blob/master/LICENSE
+  [55-6]: https://github.com/kmussel/Moment
+  [55-5]: https://github.com/dcreager/libpush/blob/master/LICENSE.txt
+  [55-4]: https://github.com/dcreager/libpush
+  [55-3]: https://github.com/bbu/simple-interpreter
+  [55-2]: https://www.gnu.org/software/bison/
+  [55-1]: https://www.gnu.org/software/bison/
 </details>
 
 ## Memory Management ##
@@ -4082,7 +4095,6 @@ Comprehensive and integrated solutions for building web application in C.
 [360]: http://re2c.org/index.html
 [359]: https://github.com/orangeduck/mpc
 [358]: https://github.com/abiggerhammer/hammer
-[357]: https://www.gnu.org/software/bison/
 [356]: https://github.com/westes/flex
 
 [355]: https://github.com/evolutional/utest
