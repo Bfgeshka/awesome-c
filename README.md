@@ -3347,18 +3347,39 @@ Engines, libraries and other helpful things specifically for making games.
   used in production systems. [`License`][56-10]
   * [dlmalloc][56-11] - Doug Lea's malloc(3) implementation, useful for academic
   and research purposes. [`Public domain`][56-12]
-  * [Hoard](http://hoard.org/) - A Fast, Scalable, and Memory-efficient Malloc for Linux, Windows, Mac, and Solaris. [`GNU GPL2`](http://www.gnu.org/licenses/gpl.html)
-  * [CCareaga/heap_allocator](https://github.com/CCareaga/heap_allocator) - A simple heap memory allocator in ~200 lines.
-  * [ivmai/bdwgc](https://github.com/ivmai/bdwgc) - The Boehm-Demers-Weiser conservative C/C++ Garbage Collector (libgc, bdwgc, boehm-gc)
-  * [mulle-nat/mulle-allocator](https://github.com/mulle-nat/mulle-allocator) - 🔄 Flexible C memory allocation scheme with leak checking
-  * [munificent/mark-sweep](https://github.com/munificent/mark-sweep) - A simple mark-sweep garbage collector in C
-  * [ned14/nedmalloc](https://github.com/ned14/nedmalloc) - An EXTREMELY FAST portable thread caching malloc implementation written in C for multiple threads without lock contention based on dlmalloc. Optimised for x86 and x64. Compatible with C++. Can patch itself into existing binaries on Windows.
-  * [orangeduck/tgc](https://github.com/orangeduck/tgc) - A Tiny Garbage Collector for C
-  * [priitj/whitedb](https://github.com/priitj/whitedb) - WhiteDB memory database
-  * [rampantpixels/rpmalloc](https://github.com/rampantpixels/rpmalloc) - Public domain cross platform lock free thread caching 32-byte aligned memory allocator implemented in C
-  * [stevedekorte/garbagecollector](https://github.com/stevedekorte/garbagecollector) - Incrementall garbage collector library in C for use by high level language implementions.
-  * [wbhart/Cesium3](https://github.com/wbhart/Cesium3) - Fast interpreter with macros, local type inference, LLVM backend.
+  * [CCareaga/heap_allocator][56-13] - A simple heap memory allocator in
+  ~200 lines. [`MIT`][56-14]
+  * [ivmai/bdwgc][56-15] - The Boehm-Demers-Weiser conservative C/C++ Garbage
+  Collector (libgc, bdwgc, boehm-gc). [`License`][56-16]
+  * [mulle-nat/mulle-allocator][56-17] - Flexible C memory allocation scheme
+  with leak checking. [`BSD 3-Clause`][56-18]
+  * [munificent/mark-sweep][56-19] - A simple mark-sweep garbage collector in C. [`MIT`][56-20]
+  * [ned14/nedmalloc][56-22] - Fast portable thread caching malloc
+  implementation written in C for multiple threads without lock contention based
+  on dlmalloc. Optimised for x86 and x64. Compatible with C++. Can patch itself
+  into existing binaries on Windows. [`Boost`][56-22]
+  * [orangeduck/tgc][56-23] - A Tiny Garbage Collector for C. [`BSD 2-Clause`][56-24]
+  * [rampantpixels/rpmalloc][56-25] - Public domain cross platform lock free
+  thread caching 32-byte aligned memory allocator implemented in C. [`License`][56-26]
+  * [stevedekorte/garbagecollector][56-27] - Incrementall garbage collector
+  library in C for use by high level language implementions. [`BSD 3-Clause`][56-28]
 
+  [56-28]: https://github.com/stevedekorte/garbagecollector/blob/master/source/Collector.h
+  [56-27]: https://github.com/stevedekorte/garbagecollector
+  [56-26]: https://github.com/rampantpixels/rpmalloc/blob/develop/LICENSE
+  [56-25]: https://github.com/rampantpixels/rpmalloc
+  [56-24]: https://github.com/orangeduck/tgc/blob/master/LICENSE.md
+  [56-23]: https://github.com/orangeduck/tgc
+  [56-22]: https://github.com/ned14/nedmalloc/blob/master/License.txt
+  [56-21]: https://github.com/ned14/nedmalloc
+  [56-20]: https://github.com/munificent/mark-sweep/blob/master/COPYRIGHT
+  [56-19]: https://github.com/munificent/mark-sweep
+  [56-18]: https://github.com/mulle-c/mulle-allocator/blob/release/LICENSE
+  [56-17]: https://github.com/mulle-c/mulle-allocator
+  [56-16]: https://github.com/ivmai/bdwgc#copyright--warranty
+  [56-15]: https://github.com/ivmai/bdwgc
+  [56-14]: https://github.com/CCareaga/heap_allocator/blob/master/LICENSE
+  [56-13]: https://github.com/CCareaga/heap_allocator
   [56-12]: http://g.oswego.edu/pub/misc/malloc.c
   [56-11]: http://g.oswego.edu/pub/misc/malloc.c
   [56-10]: https://github.com/jemalloc/jemalloc/blob/dev/COPYING
