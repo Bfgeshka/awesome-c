@@ -3329,29 +3329,34 @@ Engines, libraries and other helpful things specifically for making games.
   [55-1]: https://www.gnu.org/software/bison/
 </details>
 
-## Memory Management ##
-* [Boehm GC][212] - Garbage collection for C. Various licenses, all open source.
-* [Lockless Memory Allocator][214] - Efficient memory allocator. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [rpmalloc][215] - Thread-caching, fast memory allocator, naturally aligned on
+<a id="memory-management"></a>
+<details>
+  <summary>Memory Management</summary>
+
+  ## <a href="#-">`^`</a> Memory Management ##
+  * [Boehm GC][212] - Garbage collection for C. Various licenses, all open source.
+  * [Lockless Memory Allocator][214] - Efficient memory allocator. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+  * [rpmalloc][215] - Thread-caching, fast memory allocator, naturally aligned on
   32-byte boundaries. Public domain.
-* [talloc][216] - Hierarchical, reference-counted memory pool system with
+  * [talloc][216] - Hierarchical, reference-counted memory pool system with
   destructors. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
-* [tlsf][217] - Two-Level Segregated Fit allocator; a general-purpose, dynamic
+  * [tlsf][217] - Two-Level Segregated Fit allocator; a general-purpose, dynamic
   memory allocator designed to meet real-time requirements.
   [Up-to-date implementation][218]. [``BSD-3-Clause``][BSD-3-Clause]
-* [jemalloc](http://jemalloc.net/) - General purpose malloc(3) implementation that emphasizes fragmentation avoidance and scalable concurrency support, commonly used in production systems. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
-* [dlmalloc](http://g.oswego.edu/pub/misc/malloc.c) - Doug Lea's malloc(3) implementation, useful for academic and research purposes. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
-* [Hoard](http://hoard.org/) - A Fast, Scalable, and Memory-efficient Malloc for Linux, Windows, Mac, and Solaris. [`GNU GPL2`](http://www.gnu.org/licenses/gpl.html)
-* [CCareaga/heap_allocator](https://github.com/CCareaga/heap_allocator) - A simple heap memory allocator in ~200 lines.
-* [ivmai/bdwgc](https://github.com/ivmai/bdwgc) - The Boehm-Demers-Weiser conservative C/C++ Garbage Collector (libgc, bdwgc, boehm-gc)
-* [mulle-nat/mulle-allocator](https://github.com/mulle-nat/mulle-allocator) - 🔄 Flexible C memory allocation scheme with leak checking
-* [munificent/mark-sweep](https://github.com/munificent/mark-sweep) - A simple mark-sweep garbage collector in C
-* [ned14/nedmalloc](https://github.com/ned14/nedmalloc) - An EXTREMELY FAST portable thread caching malloc implementation written in C for multiple threads without lock contention based on dlmalloc. Optimised for x86 and x64. Compatible with C++. Can patch itself into existing binaries on Windows.
-* [orangeduck/tgc](https://github.com/orangeduck/tgc) - A Tiny Garbage Collector for C
-* [priitj/whitedb](https://github.com/priitj/whitedb) - WhiteDB memory database
-* [rampantpixels/rpmalloc](https://github.com/rampantpixels/rpmalloc) - Public domain cross platform lock free thread caching 32-byte aligned memory allocator implemented in C
-* [stevedekorte/garbagecollector](https://github.com/stevedekorte/garbagecollector) - Incrementall garbage collector library in C for use by high level language implementions.
-* [wbhart/Cesium3](https://github.com/wbhart/Cesium3) - Fast interpreter with macros, local type inference, LLVM backend.
+  * [jemalloc](http://jemalloc.net/) - General purpose malloc(3) implementation that emphasizes fragmentation avoidance and scalable concurrency support, commonly used in production systems. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
+  * [dlmalloc](http://g.oswego.edu/pub/misc/malloc.c) - Doug Lea's malloc(3) implementation, useful for academic and research purposes. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
+  * [Hoard](http://hoard.org/) - A Fast, Scalable, and Memory-efficient Malloc for Linux, Windows, Mac, and Solaris. [`GNU GPL2`](http://www.gnu.org/licenses/gpl.html)
+  * [CCareaga/heap_allocator](https://github.com/CCareaga/heap_allocator) - A simple heap memory allocator in ~200 lines.
+  * [ivmai/bdwgc](https://github.com/ivmai/bdwgc) - The Boehm-Demers-Weiser conservative C/C++ Garbage Collector (libgc, bdwgc, boehm-gc)
+  * [mulle-nat/mulle-allocator](https://github.com/mulle-nat/mulle-allocator) - 🔄 Flexible C memory allocation scheme with leak checking
+  * [munificent/mark-sweep](https://github.com/munificent/mark-sweep) - A simple mark-sweep garbage collector in C
+  * [ned14/nedmalloc](https://github.com/ned14/nedmalloc) - An EXTREMELY FAST portable thread caching malloc implementation written in C for multiple threads without lock contention based on dlmalloc. Optimised for x86 and x64. Compatible with C++. Can patch itself into existing binaries on Windows.
+  * [orangeduck/tgc](https://github.com/orangeduck/tgc) - A Tiny Garbage Collector for C
+  * [priitj/whitedb](https://github.com/priitj/whitedb) - WhiteDB memory database
+  * [rampantpixels/rpmalloc](https://github.com/rampantpixels/rpmalloc) - Public domain cross platform lock free thread caching 32-byte aligned memory allocator implemented in C
+  * [stevedekorte/garbagecollector](https://github.com/stevedekorte/garbagecollector) - Incrementall garbage collector library in C for use by high level language implementions.
+  * [wbhart/Cesium3](https://github.com/wbhart/Cesium3) - Fast interpreter with macros, local type inference, LLVM backend.
+</details>
 
 ## Multimedia ##
 Audio and video processing
