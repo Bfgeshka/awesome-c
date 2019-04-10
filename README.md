@@ -100,7 +100,7 @@ Incorporated lists:
 * [Lexing and Parsing](#lexing-and-parsing)
 * [Memory Management](#memory-management)
 * [Multimedia](#multimedia)
-* [Multiple Purpose Libraries](#multiple-purpose-libraries)
+* [Multiple Purpose Libraries](#multiple-purpose)
 * [Networking](#networking)
 	* [DNS](#dns)
 	* [HTTP](#http)
@@ -3399,7 +3399,7 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>Multimedia</summary>
 
   ## <a href="#-">`^`</a> Multimedia ##
-  Audio and video processing
+  Audio and video processing.
   * [jeremyevans/ape_tag_libs][57-1] - Library for working with APEv2 tags. [`MIT`][57-2]
   * [lieff/minimp3][57-3] - Lightweight MP3 decoder single header library. [`License`][57-4]
   * [FFMPEG][57-5] - Complete, cross-platform solution to record, convert and
@@ -3506,56 +3506,45 @@ Engines, libraries and other helpful things specifically for making games.
   [57-1]: https://github.com/jeremyevans/ape_tag_libs/tree/master/c
 </details>
 
-## Multiple Purpose Libraries ##
-* [pal][65] - Optimized library for maths, parallel processing and data
+<a id="multiple-purpose"></a>
+<details>
+  <summary>Multiple Purpose Libraries</summary>
+
+  ## <a href="#-">`^`</a> Multiple Purpose Libraries ##
+  * [pal][65] - Optimized library for maths, parallel processing and data
   movement. [``Apache-2.0``][Apache-2.0]
-* [APR][154] - Apache Portable Runtime; another library of cross-platform
-  utility functions. [``Apache-2.0``][Apache-2.0]
-* [C Algorithms][155] - Collection of common algorithms and data structures. [``ISC``][ISC]
-* [CPL][156] - The Common Pipeline Library; a set of libraries designed to be a
-  comprehensive, efficient and robust software toolkit. [``GPL-2.0-only``][GPL-2.0-only]
-* [EFL][157] - Large collection of useful data structures and functions. Various
-  licenses, all open source.
-* [klib][158] - Small and lightweight implementations of common algorithms and
+  * [klib][158] - Small and lightweight implementations of common algorithms and
   data structures. [``MIT``][MIT]
-* [libcork][159] - Utility functions and structures, designed for
+  * [libcork][159] - Utility functions and structures, designed for
   resource-constrained systems. Can be embedded. [``BSD-3-Clause``][BSD-3-Clause]
-* [libnih][160] - Lightweight library of functions and structures. [``GPL-2.0-only``][GPL-2.0-only]
-* [libU][161] - Small library of basic utilities, including memory allocation,
-  string manipulation and logging. [``BSD-3-Clause``][BSD-3-Clause]
-* [PBL][162] - Large library of utilities, featuring data structures, among
-  other things. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
-* [qlibc][163] - Simple and powerful library, designed as a replacement for GLib
-  while focusing on being small and light. [``BSD-2-Clause``][BSD-2-Clause]
-* [TBOX][164] - Multi-platform library with a large number of capabilities. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
-* [gnulib][425] - Collection of common GNU code. Various licenses, all
-  open source.
-* [APR](http://apr.apache.org/) - Apache Portable Runtime; another library of cross-platform utility functions. [`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
-* [C Algorithms](https://fragglet.github.io/c-algorithms/) - Collection of common algorithms and data structures for C. [`ISC`](https://directory.fsf.org/wiki/License:ISC)
-* [CPL](http://www.eso.org/sci/software/cpl/) - The Common Pipeline Library; a set of libraries designed to be a comprehensive, efficient and robust software toolkit. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-* [EFL](https://www.enlightenment.org/) - Large collection of useful data structures and functions.
-* [GLib](https://wiki.gnome.org/Projects/GLib) - Library of utility functions and structures, designed to be portable, efficient and powerful. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-* [GIO](https://developer.gnome.org/gio/) - Modern and easy-to-use VFS API. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-* [GObject](https://developer.gnome.org/gobject/stable/) - Object-oriented system and object model for C. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-* [libnih](https://github.com/keybuk/libnih) - Lightweight library of C functions and structures. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-* [libU](http://www.koanlogic.com/libu/) - Small library of basic utilities, including memory allocation, string manipulation and logging. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
-* [PBL](http://www.mission-base.com/peter/source/) - Large library of utilities, featuring data structures, among other things. [`GNU LGPL2.1 or later (library)`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html) or [`GNU GPL2.1 or later (test code)`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-* [qlibc](http://wolkykim.github.io/qlibc/) - Simple and powerful C library, designed as a replacement for GLib while focusing on being small and light. [`qLib license`](https://github.com/wolkykim/qlibc/blob/master/LICENSE) (similar to [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD))
-* [stb](https://github.com/nothings/stb) - Range of single-file libraries for C. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
-* [libsrt](https://faragon.github.io/libsrt.html) - Safe Real-Time library for C. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
-* [chutsu/cog](https://github.com/chutsu/cog) - C common library containing common data structures, sorting algorithms and utility functions
-* [cs50/libcs50](https://github.com/cs50/libcs50) - CS50 Library for C
-* [dcreager/libcork](https://github.com/dcreager/libcork) - A simple, easily embeddable cross-platform C library
-* [faragon/libsrt](https://github.com/faragon/libsrt) - libsrt is a C library for writing fast and safe C code, faster. It provides string, vector, bit set, set, map, hash set, and hash map handling. Suitable for soft and hard real-time. Allows both heap and stack allocation.  *BETA* (API still can change: suggestions are welcome)
-* [gregvirgin/libcork](https://github.com/gregvirgin/libcork) - A simple, easily embeddable cross-platform C library
-* [happyfish100/libfastcommon](https://github.com/happyfish100/libfastcommon) - c common functions library extracted from my open source project FastDFS. this library is very simple and stable.  functions including: string, logger, chain, hash, socket, ini file reader, base64 encode / decode, url encode / decode, fast timer, skiplist, object pool etc. detail info please see the c header files.
-* [koanlogic/libu](https://github.com/koanlogic/libu) - LibU is a multiplatform utility library written in C, with APIs for handling memory allocation, networking and URI parsing, string manipulation, debugging, and logging in a very compact way, plus many other miscellaneous tasks
-* [letoram/arcan](https://github.com/letoram/arcan) - Arcan - [Display Server, Multimedia Framework, Game Engine] -> "Desktop Engine"
-* [saprykin/plibsys](https://github.com/saprykin/plibsys) - Highly portable C system library: threads and synchronization primitives, sockets (TCP, UDP, SCTP), IPv4 and IPv6, IPC, hash functions (MD5, SHA-1, SHA-2, SHA-3, GOST), binary trees (RB, AVL) and more. Native code performance.
-* [tboox/tbox](https://github.com/tboox/tbox) - 🎁 A glib-like multi-platform c library
-* [waruqi/tbox](https://github.com/waruqi/tbox) - A glib-like multi-platform c library
-* [zpl-c/zpl](https://github.com/zpl-c/zpl) - 📐 Your C99 Powerkit
-* [dmw/caffeine](https://github.com/dmw/caffeine) - C Application Framework
+  * [TBOX][164] - Multi-platform library with a large number of capabilities. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+  * [APR](http://apr.apache.org/) - Apache Portable Runtime; another library of cross-platform utility functions. [`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
+  * [C Algorithms](https://fragglet.github.io/c-algorithms/) - Collection of common algorithms and data structures for C. [`ISC`](https://directory.fsf.org/wiki/License:ISC)
+  * [CPL](http://www.eso.org/sci/software/cpl/) - The Common Pipeline Library; a set of libraries designed to be a comprehensive, efficient and robust software toolkit. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+  * [EFL](https://www.enlightenment.org/) - Large collection of useful data structures and functions.
+  * [GLib](https://wiki.gnome.org/Projects/GLib) - Library of utility functions and structures, designed to be portable, efficient and powerful. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
+  * [GIO](https://developer.gnome.org/gio/) - Modern and easy-to-use VFS API. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
+  * [GObject](https://developer.gnome.org/gobject/stable/) - Object-oriented system and object model for C. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
+  * [libnih](https://github.com/keybuk/libnih) - Lightweight library of C functions and structures. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+  * [libU](http://www.koanlogic.com/libu/) - Small library of basic utilities, including memory allocation, string manipulation and logging. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
+  * [PBL](http://www.mission-base.com/peter/source/) - Large library of utilities, featuring data structures, among other things. [`GNU LGPL2.1 or later (library)`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html) or [`GNU GPL2.1 or later (test code)`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+  * [qlibc](http://wolkykim.github.io/qlibc/) - Simple and powerful C library, designed as a replacement for GLib while focusing on being small and light. [`qLib license`](https://github.com/wolkykim/qlibc/blob/master/LICENSE) (similar to [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD))
+  * [stb](https://github.com/nothings/stb) - Range of single-file libraries for C. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
+  * [libsrt](https://faragon.github.io/libsrt.html) - Safe Real-Time library for C. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
+  * [chutsu/cog](https://github.com/chutsu/cog) - C common library containing common data structures, sorting algorithms and utility functions
+  * [cs50/libcs50](https://github.com/cs50/libcs50) - CS50 Library for C
+  * [dcreager/libcork](https://github.com/dcreager/libcork) - A simple, easily embeddable cross-platform C library
+  * [faragon/libsrt](https://github.com/faragon/libsrt) - libsrt is a C library for writing fast and safe C code, faster. It provides string, vector, bit set, set, map, hash set, and hash map handling. Suitable for soft and hard real-time. Allows both heap and stack allocation.  *BETA* (API still can change: suggestions are welcome)
+  * [gregvirgin/libcork](https://github.com/gregvirgin/libcork) - A simple, easily embeddable cross-platform C library
+  * [happyfish100/libfastcommon](https://github.com/happyfish100/libfastcommon) - c common functions library extracted from my open source project FastDFS. this library is very simple and stable.  functions including: string, logger, chain, hash, socket, ini file reader, base64 encode / decode, url encode / decode, fast timer, skiplist, object pool etc. detail info please see the c header files.
+  * [koanlogic/libu](https://github.com/koanlogic/libu) - LibU is a multiplatform utility library written in C, with APIs for handling memory allocation, networking and URI parsing, string manipulation, debugging, and logging in a very compact way, plus many other miscellaneous tasks
+  * [letoram/arcan](https://github.com/letoram/arcan) - Arcan - [Display Server, Multimedia Framework, Game Engine] -> "Desktop Engine"
+  * [saprykin/plibsys](https://github.com/saprykin/plibsys) - Highly portable C system library: threads and synchronization primitives, sockets (TCP, UDP, SCTP), IPv4 and IPv6, IPC, hash functions (MD5, SHA-1, SHA-2, SHA-3, GOST), binary trees (RB, AVL) and more. Native code performance.
+  * [tboox/tbox](https://github.com/tboox/tbox) - 🎁 A glib-like multi-platform c library
+  * [waruqi/tbox](https://github.com/waruqi/tbox) - A glib-like multi-platform c library
+  * [zpl-c/zpl](https://github.com/zpl-c/zpl) - 📐 Your C99 Powerkit
+  * [dmw/caffeine](https://github.com/dmw/caffeine) - C Application Framework
+</details>
 
 ## Networking ##
 ### DNS ###
