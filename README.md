@@ -2494,7 +2494,10 @@ Libraries for working with specific filetypes or classes of filetypes.
   useful bit manipulation macros. [`MIT`][44-46]
   * [breckinloggins/ngtemplate][44-47] - A template engine written in C designed
   to be syntax-compatible with Google CTemplate. [`MIT`][44-48]
+  * [ccxvii/mujs][44-49] - An embeddable Javascript interpreter in C. [`ISC`][44-50]
 
+  [44-50]: https://github.com/ccxvii/mujs/blob/master/COPYING
+  [44-49]: https://github.com/ccxvii/mujs
   [44-48]: https://github.com/breckinloggins/ngtemplate/blob/master/LICENSE
   [44-47]: https://github.com/breckinloggins/ngtemplate
   [44-46]: https://github.com/pkrumins/bithacks.h/blob/master/bithacks.h
@@ -3617,10 +3620,7 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>HTTP</summary>
 
   ### <a href="#-">`^`</a> HTTP ###
-  * [lwan][242] - Experimental, scalable, high-performance HTTP server. [``GPL-2.0-only``][GPL-2.0-only]
   * [nodejs/http-parser](https://github.com/nodejs/http-parser) - http request/response parser for c
-  * [civetweb/civetweb](https://github.com/civetweb/civetweb) - Embedded C/C++ web server
-  * [h2o/h2o](https://github.com/h2o/h2o) - H2O - the optimized HTTP/1, HTTP/2 server
   * [h2o/picohttpparser](https://github.com/h2o/picohttpparser) - tiny HTTP parser written in C (used in HTTP::Parser::XS et al.)
   * [iafonov/multipart-parser-c](https://github.com/iafonov/multipart-parser-c) - Http multipart parser implemented in C
   * [joyent/http-parser](https://github.com/joyent/http-parser) - http request/response parser for c
@@ -3663,6 +3663,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [zyre][249] - Framework for proximity-based peer-to-peer applications. [``MPL-2.0``][MPL-2.0]
 * [GROX13/BitTorrent](https://github.com/GROX13/BitTorrent) - BitTorrent protocol.
 * [Librevault/librevault](https://github.com/Librevault/librevault) - Librevault - Peer-to-peer, decentralized and open source file sync.
+* [japeq/bencode-tools](https://github.com/japeq/bencode-tools) - bencode-tools is a collection of tools for manipulating bencoded data.
 
 ### Remote Desktops ###
 * [FreeRDP/FreeRDP](https://github.com/FreeRDP/FreeRDP) - FreeRDP is a free remote desktop protocol library and clients
@@ -3677,14 +3678,10 @@ Engines, libraries and other helpful things specifically for making games.
 
 ### Web Servers ###
 * [libsagui][239] - Library for cross-platform HTTP servers. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
-* [mongoose][243] - Embedded web server. [``GPL-2.0-only``][GPL-2.0-only]
-* [libonion][237] - HTTP server library, designed to be easy to use. [``Apache-2.0``][Apache-2.0]
 * [taf2/libebb](https://github.com/taf2/libebb) - a lightweight high-performance HTTP server library for C
 * [libhttpd](http://www.hughes.com.au/products/libhttpd/) - Library to add basic web server capabilities to an application or embedded device. [`GNU GPL2`](http://www.gnu.org/licenses/gpl.html)
 * [libmicrohttpd](https://www.gnu.org/software/libmicrohttpd/) - Small C library that makes it easy to run an HTTP server as part of another application. [`GNU LGPL2.1 or later`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
 * [libsagui](https://risoflora.github.io/libsagui/) - Sagui is a cross-platform C library which helps to develop web servers or frameworks. [`GNU LGPL3`](http://www.gnu.org/licenses/lgpl.html)
-* [lwan](https://lwan.ws/) - Experimental, scalable, high-performance HTTP server. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-* [mongoose](https://cesanta.com/) - Embedded web server for C. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 * [h2o](https://github.com/h2o/h2o/) - Optimized HTTP/1, HTTP/2 high performance server/library. [`MIT`](https://raw.githubusercontent.com/atom/atom/master/LICENSE.md)
 * [mongrel2/mongrel2](https://github.com/mongrel2/mongrel2) - The Mongrel2 Web Server Project
 * [shenfeng/tiny-web-server](https://github.com/shenfeng/tiny-web-server) - a tiny web server in C, for daily use.
@@ -3692,6 +3689,13 @@ Engines, libraries and other helpful things specifically for making games.
 * [monkey/monkey](https://github.com/monkey/monkey) - Monkey HTTP Server
 * [libsoup](https://wiki.gnome.org/action/show/Projects/libsoup?action=show&redirect=LibSoup) - GNOME HTTP client/server library. Uses GObject. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
 * [criticalstack/libevhtp](https://github.com/criticalstack/libevhtp) - Create extremely-fast and secure embedded HTTP servers with ease.
+* [civetweb/civetweb](https://github.com/civetweb/civetweb) - Embedded C/C++ web server
+* [lwan][242] - Experimental, scalable, high-performance HTTP server. [``GPL-2.0-only``][GPL-2.0-only]
+* [cesanta/mongoose](https://github.com/cesanta/mongoose) - Embedded web server for C/C++
+* [oneoo/alilua](https://github.com/oneoo/alilua) - epoll/kqueue+lua based web server
+* [haywire/haywire](https://github.com/haywire/haywire) - Haywire is an asynchronous HTTP server framework written in C that's built using the event loop based libuv platform layer that node.js is built on top of.
+* [davidmoreno/onion](https://github.com/davidmoreno/onion) - C library to create simple HTTP servers and Web Applications.
+* [onion](https://www.coralbits.com/libonion/) - C library to create simple HTTP servers and Web Applications. [`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
 
 ### Web Service APIs ###
 * [twitc][426] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
@@ -3729,21 +3733,23 @@ Engines, libraries and other helpful things specifically for making games.
 * [versatica/OverSIP](https://github.com/versatica/OverSIP) - OverSIP: the SIP framework you dreamed about
 * [libssh2/libssh2](https://github.com/libssh2/libssh2) - the SSH library
 * [fastos/fastsocket](https://github.com/fastos/fastsocket) - Fastsocket is a highly scalable socket and its underlying networking implementation of Linux kernel. With the straight linear scalability, Fastsocket can provide extremely good performance in multicore machines. In addition, it is very easy to use and maintain. As a result, it has been deployed in the production environment of SINA.
-
-### unsorted networking ###
-* [japeq/bencode-tools](https://github.com/japeq/bencode-tools) - bencode-tools is a collection of tools for manipulating bencoded data.
 * [lsalzman/enet](https://github.com/lsalzman/enet) - ENet reliable UDP networking library
-* [mopemope/meinheld](https://github.com/mopemope/meinheld) - meinheld is a high performance asynchronous WSGI Web Server (based on picoev)
-* [neilalexander/sigmavpn](https://github.com/neilalexander/sigmavpn) - Light-weight, secure and modular VPN solution which makes use of NaCl encryption (also available for Android using jnacl in "sigmavpn-android")
-* [nicolasff/river](https://github.com/nicolasff/river) - A simple “comet” server in C, streaming data to web clients
-* [obgm/libcoap](https://github.com/obgm/libcoap) - A CoAP (RFC 7252) implementation in C
+* [sch3m4/libntoh](https://github.com/sch3m4/libntoh) - User-friendly C Library to perform TCP streams reassembly and IPv4/6 defragmentation
+* [tass-belgium/picotcp](https://github.com/tass-belgium/picotcp) - PicoTCP is a free TCP/IP stack implementation
 * [opendp/dpdk-odp](https://github.com/opendp/dpdk-odp) - Open data plane on dpdk, TCP/IP stack for dpdk.
 * [rockdaboot/mget](https://github.com/rockdaboot/mget) - Multithreaded metalink/file/website downloader (like Wget) and C library
-* [sch3m4/libntoh](https://github.com/sch3m4/libntoh) - User-friendly C Library to perform TCP streams reassembly and IPv4/6 defragmentation
 * [seanmiddleditch/libtelnet](https://github.com/seanmiddleditch/libtelnet) - Simple RFC-complient TELNET implementation as a C library.
+* [bovine/datapipe](https://github.com/bovine/datapipe) - Network TCP port forwarding
+
+### HTML ###
+* [lexborisov/Modest](https://github.com/lexborisov/Modest) - Modest is a fast HTML renderer implemented as a pure C99 library with no outside dependencies.
+* [lexborisov/myhtml](https://github.com/lexborisov/myhtml) - Fast C/C++ HTML 5 Parser. Using threads.
+* [htacg/tidy-html5](https://github.com/htacg/tidy-html5) - The granddaddy of HTML tools, with support for modern standards
+* [google/gumbo-parser](https://github.com/google/gumbo-parser) - HTML5 parsing library in C99.
+
+### unsorted networking ###
 * [shadeslayer/libnice](https://github.com/shadeslayer/libnice) - Implementation of the IETF's Interactive Connectivity Establishment (ICE) standard (RFC 5245) and the Session Traversal Utilities for NAT (STUN) standard (RFC 5389).
 * [sustrik/msg_control](https://github.com/sustrik/msg_control) - Helper functions for dealing with socket ancillary data
-* [tass-belgium/picotcp](https://github.com/tass-belgium/picotcp) - PicoTCP is a free TCP/IP stack implementation
 * [stephane/libmodbus](https://github.com/stephane/libmodbus) - A Modbus library for Linux, Mac OS X, FreeBSD, QNX and Windows
 * [udp/lacewing](https://github.com/udp/lacewing) - Cross-platform network I/O library for C/C++
 * [verse/verse](https://github.com/verse/verse) - Network protocol for real-time sharing between graphical applications
@@ -3754,40 +3760,27 @@ Engines, libraries and other helpful things specifically for making games.
 * [eam/libcrange](https://github.com/eam/libcrange) - Range parsing library for managing sets of hostnames, ips, clusters, roles and other operational data.
 * [luohaha/CSpider](https://github.com/luohaha/CSpider) - A scalable and convenient crawler framework in C:).
 * [nitrogenlogic/cliserver](https://github.com/nitrogenlogic/cliserver) - A sample libevent-based network socket server that presents a simple command line interface to multiple connecting clients.
-* [bovine/datapipe](https://github.com/bovine/datapipe) - Network TCP port forwarding
 * [hoxnox/rawsock_recv_example](https://github.com/hoxnox/rawsock_recv_example) - SOCK_RAW IPPROTO_UDP socket data transmission example
 * [LiamBindle/MQTT-C](https://github.com/LiamBindle/MQTT-C) - MQTT protocol implementation.
-* [google/gumbo-parser](https://github.com/google/gumbo-parser) - HTML5 parsing library in C99.
 * [res0nat0r/tsunami-udp](https://github.com/res0nat0r/tsunami-udp) -  A fast user-space file transfer protocol that uses TCP control and UDP data for transfer over very high speed long distance networks (≥ 1 Gbps and even 10 GE), designed to provide more throughput than possible with TCP over the same networks.
 * [Cloudgizer][361] - Cloudgizer is a tool for building web applications as Apache modules, with emphasis on performance, small-footprint, and more productive and safer programming in C. [``Apache-2.0``][Apache-2.0]
 * [balde](https://balde.rgm.io/) - Microframework for C based on GLib. [`GNU LGPLv2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-* [onion](https://www.coralbits.com/libonion/) - C library to create simple HTTP servers and Web Applications. [`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
 * [kore](https://kore.io/) - Easy to use, scalable and secure web application framework for writing web APIs in C.
 * [klone](http://www.koanlogic.com/klone/) - KLone is a fully-featured, multiplatform, web application development framework.
 * [DanielWaterworth/Raphters](https://github.com/DanielWaterworth/Raphters) - [DEPRECATED] A web framework for C.
 * [babelouest/ulfius](https://github.com/babelouest/ulfius) - Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. Can stream large amount of data, integrate JSON data with Jansson, and create websocket services
 * [bitly/simplehttp](https://github.com/bitly/simplehttp) - a family of libraries and daemons for building scalable web infrastructure
 * [boazsegev/facil.io](https://github.com/boazsegev/facil.io) - Your high performance web application C framework
-* [ccxvii/mujs](https://github.com/ccxvii/mujs) - An embeddable Javascript interpreter in C.
-* [cesanta/mongoose](https://github.com/cesanta/mongoose) - Embedded web server for C/C++
-* [cesanta/smart.js](https://github.com/cesanta/smart.js) - Embedded Javascript engine for C/C++ with networking, file, database and device interfaces
-* [cesanta/v7](https://github.com/cesanta/v7) - Embedded JavaScript engine for C/C++
 * [danielwaterworth/Raphters](https://github.com/danielwaterworth/Raphters) - [DEPRECATED] A web framework for C.
-* [davidmoreno/onion](https://github.com/davidmoreno/onion) - C library to create simple HTTP servers and Web Applications.
 * [embedthis/appweb](https://github.com/embedthis/appweb) - Appweb Embedded Web Server
 * [haiwen/ccnet](https://github.com/haiwen/ccnet) - Ccnet is a framework for writing networked applications in C.
-* [haywire/haywire](https://github.com/haywire/haywire) - Haywire is an asynchronous HTTP server framework written in C that's built using the event loop based libuv platform layer that node.js is built on top of.
 * [iafonov/cosmonaut](https://github.com/iafonov/cosmonaut) - Fast web server & micro framework implemented in C. Just for fun.
 * [it4e/CHL](https://github.com/it4e/CHL) - C Hypertext Library - A library for writing web applications in C
 * [jorisvink/kore](https://github.com/jorisvink/kore) - An easy to use, scalable and secure web application framework for writing web APIs in C.
 * [kellabyte/Haywire](https://github.com/kellabyte/Haywire) - Asynchronous HTTP server framework written in C that's built using the event loop based libuv platform layer that node.js is built on top of.
 * [monkey/duda](https://github.com/monkey/duda) - Duda I/O is an event-driven and high performant web services framework which exposes a friendly C API
-* [oneoo/alilua](https://github.com/oneoo/alilua) - epoll/kqueue+lua based web server
 * [riolet/WAFer](https://github.com/riolet/WAFer) - WAFer is a C language-based software platform for scalable server-side and networking applications. Think node.js for C programmers.
 * [riolet/nope.c](https://github.com/riolet/nope.c) - nope.c is a C language-based software platform for scalable server-side and networking applications. Think node.js for C programmers.
-* [lexborisov/Modest](https://github.com/lexborisov/Modest) - Modest is a fast HTML renderer implemented as a pure C99 library with no outside dependencies.
-* [lexborisov/myhtml](https://github.com/lexborisov/myhtml) - Fast C/C++ HTML 5 Parser. Using threads.
-* [htacg/tidy-html5](https://github.com/htacg/tidy-html5) - The granddaddy of HTML tools, with support for modern standards
 
 --------------------------------------------------------------------------------
 
