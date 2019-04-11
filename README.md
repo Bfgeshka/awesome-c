@@ -2261,12 +2261,27 @@ Libraries for working with specific filetypes or classes of filetypes.
   [38-1]: https://github.com/rgamble/libcsv
 </details>
 
+<a id="html"></a>
+<details>
+  <summary>╠════ HTML</summary>
 
-### HTML ###
-* [lexborisov/Modest](https://github.com/lexborisov/Modest) - Modest is a fast HTML renderer implemented as a pure C99 library with no outside dependencies.
-* [lexborisov/myhtml](https://github.com/lexborisov/myhtml) - Fast C/C++ HTML 5 Parser. Using threads.
-* [htacg/tidy-html5](https://github.com/htacg/tidy-html5) - The granddaddy of HTML tools, with support for modern standards
-* [google/gumbo-parser](https://github.com/google/gumbo-parser) - HTML5 parsing library in C99.
+  ### <a href="#-">`^`</a> HTML ###
+  * [lexborisov/Modest][63-1] - Modest is a fast HTML renderer implemented as a
+  pure C99 library with no outside dependencies. [`LGPL 2.1`][63-2]
+  * [lexborisov/myhtml][63-3] - Fast C/C++ HTML 5 Parser. Using threads. [`LGPL 2.1`][63-3]
+  * [htacg/tidy-html5][63-5] - The granddaddy of HTML tools, with support for
+  modern standards. [`License`][63-6]
+  * [google/gumbo-parser][63-7] - HTML5 parsing library in C99. [`Apache 2`][63-8]
+
+  [63-8]: https://github.com/google/gumbo-parser/blob/master/COPYING
+  [63-7]: https://github.com/google/gumbo-parser
+  [63-6]: https://github.com/htacg/tidy-html5/blob/next/README/LICENSE.md
+  [63-5]: https://github.com/htacg/tidy-html5
+  [63-4]: https://github.com/lexborisov/myhtml/blob/master/LICENSE
+  [63-3]: https://github.com/lexborisov/myhtml
+  [63-2]: https://github.com/lexborisov/Modest/blob/master/LICENSE
+  [63-1]: https://github.com/lexborisov/Modest
+</details>
 
 <a id="json"></a>
 <details>
