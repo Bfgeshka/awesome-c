@@ -111,6 +111,7 @@ structure at all)
 	* [RPC](#rpc)
 	* [TCP, UDP and Sockets](#tcp-udp-sockets)
 	* [Web Servers](#web-servers)
+	* [Web Service APIs](#web-service-apis)
 	* [Websockets](#websockets)
 	* [Other Networking](#other-networking)
 * [OpenCL](#opencl)
@@ -3873,17 +3874,22 @@ Engines, libraries and other helpful things specifically for making games.
   [67-1]: https://github.com/taf2/libebb
 </details>
 
-### Web Service APIs ###
-* [twitc][426] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
-* [dajobe/flickcurl](https://github.com/dajobe/flickcurl) - Flickr C API library
-* [Cotix/cReddit](https://github.com/Cotix/cReddit) - CLI Reddit client written in C. Oh, crossplatform too!
-* [HalosGhost/shaman](https://github.com/HalosGhost/shaman) - A small, native C library and utility to fetch weather
-* [PromyLOPh/pianobar](https://github.com/PromyLOPh/pianobar) - Console-based pandora.com player
-* [TOTBWF/SteamCurses](https://github.com/TOTBWF/SteamCurses) - A Basic NCurses Client for Steam
-* [Yubico/yubico-c-client](https://github.com/Yubico/yubico-c-client) - Yubico C client library
-* [adobkin/libcapn](https://github.com/adobkin/libcapn) - A simple C Library for interact with the Apple Push Notification Service (APNs)
-* [andrewstone/AbqData](https://github.com/andrewstone/AbqData) - Tools to read ABQ Open Data Initiative city gov data
-* [aws/aws-iot-device-sdk-embedded-C](https://github.com/aws/aws-iot-device-sdk-embedded-C) - SDK for connecting to AWS IoT from a device using embedded C.
+<a id="web-service-apis"></a>
+<details>
+  <summary>Web Service APIs</summary>
+
+  ### <a href="#-">`^`</a> Web Service APIs ###
+  * [twitc][426] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
+  * [dajobe/flickcurl](https://github.com/dajobe/flickcurl) - Flickr C API library
+  * [Cotix/cReddit](https://github.com/Cotix/cReddit) - CLI Reddit client written in C. Oh, crossplatform too!
+  * [HalosGhost/shaman](https://github.com/HalosGhost/shaman) - A small, native C library and utility to fetch weather
+  * [PromyLOPh/pianobar](https://github.com/PromyLOPh/pianobar) - Console-based pandora.com player
+  * [TOTBWF/SteamCurses](https://github.com/TOTBWF/SteamCurses) - A Basic NCurses Client for Steam
+  * [Yubico/yubico-c-client](https://github.com/Yubico/yubico-c-client) - Yubico C client library
+  * [adobkin/libcapn](https://github.com/adobkin/libcapn) - A simple C Library for interact with the Apple Push Notification Service (APNs)
+  * [andrewstone/AbqData](https://github.com/andrewstone/AbqData) - Tools to read ABQ Open Data Initiative city gov data
+  * [aws/aws-iot-device-sdk-embedded-C](https://github.com/aws/aws-iot-device-sdk-embedded-C) - SDK for connecting to AWS IoT from a device using embedded C.
+</details>
 
 ### Websockets ###
 * [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
