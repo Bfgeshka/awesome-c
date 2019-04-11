@@ -3520,20 +3520,49 @@ Engines, libraries and other helpful things specifically for making games.
   * [keybuk/libnih][58-7] - Lightweight library of C functions and structures. [`GPL 2`][58-8]
   * [wolkykim/qlibc][58-9] - Simple and powerful C library, designed as a
   replacement for GLib while focusing on being small and light. [`License`][58-10]
-  * [chutsu/cog](https://github.com/chutsu/cog) - C common library containing common data structures, sorting algorithms and utility functions
-  * [cs50/libcs50](https://github.com/cs50/libcs50) - CS50 Library for C
-  * [dcreager/libcork](https://github.com/dcreager/libcork) - A simple, easily embeddable cross-platform C library
-  * [faragon/libsrt](https://github.com/faragon/libsrt) - libsrt is a C library for writing fast and safe C code, faster. It provides string, vector, bit set, set, map, hash set, and hash map handling. Suitable for soft and hard real-time. Allows both heap and stack allocation.  *BETA* (API still can change: suggestions are welcome)
-  * [gregvirgin/libcork](https://github.com/gregvirgin/libcork) - A simple, easily embeddable cross-platform C library
-  * [happyfish100/libfastcommon](https://github.com/happyfish100/libfastcommon) - c common functions library extracted from my open source project FastDFS. this library is very simple and stable.  functions including: string, logger, chain, hash, socket, ini file reader, base64 encode / decode, url encode / decode, fast timer, skiplist, object pool etc. detail info please see the c header files.
-  * [koanlogic/libu](https://github.com/koanlogic/libu) - LibU is a multiplatform utility library written in C, with APIs for handling memory allocation, networking and URI parsing, string manipulation, debugging, and logging in a very compact way, plus many other miscellaneous tasks
-  * [letoram/arcan](https://github.com/letoram/arcan) - Arcan - [Display Server, Multimedia Framework, Game Engine] -> "Desktop Engine"
-  * [saprykin/plibsys](https://github.com/saprykin/plibsys) - Highly portable C system library: threads and synchronization primitives, sockets (TCP, UDP, SCTP), IPv4 and IPv6, IPC, hash functions (MD5, SHA-1, SHA-2, SHA-3, GOST), binary trees (RB, AVL) and more. Native code performance.
-  * [tboox/tbox](https://github.com/tboox/tbox) - 🎁 A glib-like multi-platform c library
-  * [waruqi/tbox](https://github.com/waruqi/tbox) - A glib-like multi-platform c library
-  * [zpl-c/zpl](https://github.com/zpl-c/zpl) - 📐 Your C99 Powerkit
-  * [dmw/caffeine](https://github.com/dmw/caffeine) - C Application Framework
+  * [chutsu/cog][58-11] - C common library containing common data structures,
+  sorting algorithms and utility functions. [`MIT`][58-12]
+  * [cs50/libcs50][58-13] - CS50 Library for C. [`MIT`][58-14]
+  * [dcreager/libcork][58-15] - A simple, easily embeddable cross-platform C
+  library. [`BSD 3-Clause`][58-16]
+  * [faragon/libsrt][58-17] - C library for writing fast and safe C code,
+  faster. It provides string, vector, bit set, set, map, hash set, and hash map
+  handling. Suitable for soft and hard real-time. Allows both heap and stack
+  allocation. [`BSD 3-Clause`][58-18]
+  * [koanlogic/libu][58-19] - LibU is a multiplatform utility library written in
+  C, with APIs for handling memory allocation, networking and URI parsing,
+  string manipulation, debugging, and logging in a very compact way, plus many
+  other miscellaneous tasks. [`License`][58-20]
+  * [letoram/arcan][58-21] - Display Server, Multimedia Framework,
+  Game Engine-> "Desktop Engine". [`Licenses`][58-22]
+  * [saprykin/plibsys][58-23] - Highly portable C system library: threads and
+  synchronization primitives, sockets (TCP, UDP, SCTP), IPv4 and IPv6, IPC,
+  hash functions (MD5, SHA-1, SHA-2, SHA-3, GOST), binary trees (RB, AVL) and
+  more. Native code performance. [`MIT`][58-24]
+  * [tboox/tbox][58-25] - A glib-like multi-platform c library. [`Apache 2`][58-26]
+  * [zpl-c/zpl][58-27] - Your C99 Powerkit. [`Licenses`][58-28]
+  * [dmw/caffeine][58-29] - C Application Framework. [`LGPL 2.1`][58-30]
 
+  [58-30]: https://github.com/dmw/caffeine/blob/master/COPYING
+  [58-29]: https://github.com/dmw/caffeine
+  [58-28]: https://github.com/zpl-c/zpl/blob/master/LICENSE
+  [58-27]: https://github.com/zpl-c/zpl
+  [58-26]: https://github.com/tboox/tbox/blob/master/LICENSE.md
+  [58-25]: https://github.com/tboox/tbox
+  [58-24]: https://github.com/saprykin/plibsys/blob/master/COPYING
+  [58-23]: https://github.com/saprykin/plibsys
+  [58-22]: https://github.com/letoram/arcan/blob/master/COPYING
+  [58-21]: https://github.com/letoram/arcan
+  [58-20]: https://github.com/koanlogic/libu/blob/master/LICENSE
+  [58-19]: https://github.com/koanlogic/libu
+  [58-18]: https://github.com/faragon/libsrt/blob/master/LICENSE
+  [58-17]: https://github.com/faragon/libsrt
+  [58-16]: https://github.com/dcreager/libcork/blob/master/COPYING
+  [58-15]: https://github.com/dcreager/libcork
+  [58-14]: https://github.com/cs50/libcs50/blob/develop/LICENSE
+  [58-13]: https://github.com/cs50/libcs50
+  [58-12]: https://github.com/chutsu/cog/blob/master/LICENCE
+  [58-11]: https://github.com/chutsu/cog
   [58-10]: https://github.com/wolkykim/qlibc/blob/master/LICENSE
   [58-9]: https://github.com/wolkykim/qlibc
   [58-8]: https://github.com/keybuk/libnih/blob/master/COPYING
@@ -3886,6 +3915,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [rampantpixels/foundation_lib](https://github.com/rampantpixels/foundation_lib) - Cross-platform public domain foundation library in C providing basic support data types and functions to write applications and games in a platform-independent fashion.
 * [attractivechaos/klib](https://github.com/attractivechaos/klib) - Small and lightweight implementations of common algorithms and data structures. [`MIT`](https://github.com/attractivechaos/klib/#overview)
 * [stb](https://github.com/nothings/stb) - Range of single-file libraries for C. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
+* [happyfish100/libfastcommon](https://github.com/happyfish100/libfastcommon) - c common functions library extracted from my open source project FastDFS. this library is very simple and stable.  functions including: string, logger, chain, hash, socket, ini file reader, base64 encode / decode, url encode / decode, fast timer, skiplist, object pool etc. detail info please see the c header files.
 
 ## Scientific ##
 Math mostly located in *Calculations* category
