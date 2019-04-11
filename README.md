@@ -3511,17 +3511,10 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>Multiple Purpose Libraries</summary>
 
   ## <a href="#-">`^`</a> Multiple Purpose Libraries ##
-  * [pal][65] - Optimized library for maths, parallel processing and data
-  movement. [``Apache-2.0``][Apache-2.0]
-  * [klib][158] - Small and lightweight implementations of common algorithms and
-  data structures. [``MIT``][MIT]
-  * [libcork][159] - Utility functions and structures, designed for
-  resource-constrained systems. Can be embedded. [``BSD-3-Clause``][BSD-3-Clause]
-  * [TBOX][164] - Multi-platform library with a large number of capabilities. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
-  * [APR](http://apr.apache.org/) - Apache Portable Runtime; another library of cross-platform utility functions. [`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
-  * [C Algorithms](https://fragglet.github.io/c-algorithms/) - Collection of common algorithms and data structures for C. [`ISC`](https://directory.fsf.org/wiki/License:ISC)
-  * [CPL](http://www.eso.org/sci/software/cpl/) - The Common Pipeline Library; a set of libraries designed to be a comprehensive, efficient and robust software toolkit. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-  * [EFL](https://www.enlightenment.org/) - Large collection of useful data structures and functions.
+  * [parallella/pal][58-1] - Optimized library for maths, parallel processing
+  and data movement. [`Apache 2`][58-2]
+  * [APR][58-3] - Apache Portable Runtime; another library of cross-platform
+  utility functions. [`Apache 2`][58-4]
   * [GLib](https://wiki.gnome.org/Projects/GLib) - Library of utility functions and structures, designed to be portable, efficient and powerful. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
   * [GIO](https://developer.gnome.org/gio/) - Modern and easy-to-use VFS API. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
   * [GObject](https://developer.gnome.org/gobject/stable/) - Object-oriented system and object model for C. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
@@ -3544,6 +3537,11 @@ Engines, libraries and other helpful things specifically for making games.
   * [waruqi/tbox](https://github.com/waruqi/tbox) - A glib-like multi-platform c library
   * [zpl-c/zpl](https://github.com/zpl-c/zpl) - 📐 Your C99 Powerkit
   * [dmw/caffeine](https://github.com/dmw/caffeine) - C Application Framework
+
+  [58-4]: https://www.apache.org/licenses/LICENSE-2.0
+  [58-3]: https://apr.apache.org/
+  [58-2]: https://github.com/parallella/pal/blob/master/LICENSE
+  [58-1]: https://github.com/parallella/pal
 </details>
 
 ## Networking ##
@@ -3855,7 +3853,6 @@ Engines, libraries and other helpful things specifically for making games.
 * [libdjb](http://www.fefe.de/djb/) - Collection of libraries doing various things. [`(Apparently) Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
 * [BurntSushi/clibs](https://github.com/BurntSushi/clibs) - A smattering of miscellaneous C libraries. Includes sane argument parsing, a thread-safe multi-producer/multi-consumer queue, and implementation of common data structures (hashmaps, vectors and linked lists).
 * [RandyGaul/cute_headers](https://github.com/RandyGaul/cute_headers) - Collection of cross-platform one-file C/C++ libraries with no dependencies, primarily used for games
-* [attractivechaos/klib](https://github.com/attractivechaos/klib) - A standalone and lightweight C library
 * [breckinloggins/libuseful](https://github.com/breckinloggins/libuseful) - A collection of useful data structures, algorithms, and utilities for C programming
 * [chadjoan/C-Survival-Kit](https://github.com/chadjoan/C-Survival-Kit) - A set of useful functions, data structures, and macros aimed at allowing more expressive and reliable C code.  Portability targets are OpenVMS and Linux.
 * [clibs/clib](https://github.com/clibs/clib) - C package manager-ish
@@ -3885,6 +3882,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [rgantt/compsci.c](https://github.com/rgantt/compsci.c) - data structures, algorithms, and musings in C
 * [stevedekorte/basekit](https://github.com/stevedekorte/basekit) - C based OO portable data structure library
 * [rampantpixels/foundation_lib](https://github.com/rampantpixels/foundation_lib) - Cross-platform public domain foundation library in C providing basic support data types and functions to write applications and games in a platform-independent fashion.
+* [attractivechaos/klib](https://github.com/attractivechaos/klib) - Small and lightweight implementations of common algorithms and data structures. [`MIT`](https://github.com/attractivechaos/klib/#overview)
 
 ## Scientific ##
 Math mostly located in *Calculations* category
@@ -4372,13 +4370,10 @@ Comprehensive and integrated solutions for building web application in C.
 [162]: http://www.mission-base.com/peter/source/
 [161]: http://www.koanlogic.com/libu/
 [160]: https://github.com/keybuk/libnih
-[159]: http://libcork.readthedocs.io/en/0.14.0/
-[158]: http://attractivechaos.github.io/klib/#About
 [157]: https://www.enlightenment.org
 [156]: http://www.eso.org/sci/software/cpl/
 [155]: https://fragglet.github.io/c-algorithms
 [154]: http://apr.apache.org/
-[65]: https://github.com/parallella/pal
 
 [120]: http://www.doxygen.nl/
 [119]: https://hplgit.github.io/doconce/doc/web/index.html
