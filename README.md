@@ -3624,8 +3624,6 @@ Engines, libraries and other helpful things specifically for making games.
   * [h2o/picohttpparser](https://github.com/h2o/picohttpparser) - tiny HTTP parser written in C (used in HTTP::Parser::XS et al.)
   * [iafonov/multipart-parser-c](https://github.com/iafonov/multipart-parser-c) - Http multipart parser implemented in C
   * [joyent/http-parser](https://github.com/joyent/http-parser) - http request/response parser for c
-  * [zyearn/zaver](https://github.com/zyearn/zaver) - Yet another fast and efficient HTTP server
-  * [monkey/monkey](https://github.com/monkey/monkey) - Monkey HTTP Server
   * [reagent/http](https://github.com/reagent/http) - Simple HTTP client in C
   * [solusipse/ureq](https://github.com/solusipse/ureq) - Micro C library for handling HTTP requests on low resource systems.
   * [tatsuhiro-t/nghttp2](https://github.com/tatsuhiro-t/nghttp2) - nghttp2 - HTTP/2 C Library
@@ -3636,6 +3634,10 @@ Engines, libraries and other helpful things specifically for making games.
 * [Tox](https://tox.chat/) - Communication platform, designed to be a Skype-killer. [`GNU GPL3`](http://www.gnu.org/licenses/gpl.html)
 * [JFreegman/toxic](https://github.com/JFreegman/toxic) - An ncurses-based Tox client
 * [Tox/toxic](https://github.com/Tox/toxic) - CLI Tox client
+* [felipec/msn-pecan](https://github.com/felipec/msn-pecan) - MSN Messenger library in C
+* [chmduquesne/xmppipe](https://github.com/chmduquesne/xmppipe) - This program allows to pipe data through an xmpp tunnel
+* [vdloo/Beacontalk](https://github.com/vdloo/Beacontalk) - Peer to peer chat-program that sends data over Wi-Fi without associations.
+* [irungentoo/toxcore](https://github.com/irungentoo/toxcore) - The future of online communications.
 
 ### Mail ###
 * [LibEtPan][233] - Mail library providing an efficient network for IMAP, SMTP,
@@ -3647,7 +3649,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [LibEtPan](http://www.etpan.org/) - Mail library providing an efficient network for IMAP, SMTP, POP and NNTP. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
 * [libvldmail](https://github.com/dertuxmalwieder/libvldmail) - Your friendly e-mail address validation library. [`WTFPLv2`](http://www.wtfpl.net/txt/copying/)
 
-### Messaging ###
+### Messaging and Brokers ###
 * [NNG][245] - nanomsg-next-generation - lightweight brokerless messaging. [``MIT``][MIT]
 * [rabbitmq-c][440] - Client library for [RabbitMQ][229]. [``MIT``][MIT]
 * [zproto][370] - Protocol framework for ZeroMQ. [``MIT``][MIT]
@@ -3666,6 +3668,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [FreeRDP/FreeRDP](https://github.com/FreeRDP/FreeRDP) - FreeRDP is a free remote desktop protocol library and clients
 * [FreeRDP/Remmina](https://github.com/FreeRDP/Remmina) - The GTK+ Remmina Remote Desktop Client
 * [LibVNC/libvncserver](https://github.com/LibVNC/libvncserver) - LibVNCServer/LibVNCClient are cross-platform C libraries that allow you to easily implement VNC server or client functionality in your program.
+* [neutrinolabs/xrdp](https://github.com/neutrinolabs/xrdp) - xrdp: an open source RDP server
 
 ### RPC ###
 * [hmng/jsonrpc-c](https://github.com/hmng/jsonrpc-c) - JSON-RPC in C (server only for now)
@@ -3683,6 +3686,12 @@ Engines, libraries and other helpful things specifically for making games.
 * [lwan](https://lwan.ws/) - Experimental, scalable, high-performance HTTP server. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 * [mongoose](https://cesanta.com/) - Embedded web server for C. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 * [h2o](https://github.com/h2o/h2o/) - Optimized HTTP/1, HTTP/2 high performance server/library. [`MIT`](https://raw.githubusercontent.com/atom/atom/master/LICENSE.md)
+* [mongrel2/mongrel2](https://github.com/mongrel2/mongrel2) - The Mongrel2 Web Server Project
+* [shenfeng/tiny-web-server](https://github.com/shenfeng/tiny-web-server) - a tiny web server in C, for daily use.
+* [zyearn/zaver](https://github.com/zyearn/zaver) - Yet another fast and efficient HTTP server
+* [monkey/monkey](https://github.com/monkey/monkey) - Monkey HTTP Server
+* [libsoup](https://wiki.gnome.org/action/show/Projects/libsoup?action=show&redirect=LibSoup) - GNOME HTTP client/server library. Uses GObject. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
+* [criticalstack/libevhtp](https://github.com/criticalstack/libevhtp) - Create extremely-fast and secure embedded HTTP servers with ease.
 
 ### Web Service APIs ###
 * [twitc][426] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
@@ -3714,30 +3723,18 @@ Engines, libraries and other helpful things specifically for making games.
 * [51Degrees/Device-Detection](https://github.com/51Degrees/Device-Detection) - THE Fastest and most Accurate device detection for C / PHP / Perl / Python and Node.js - professionally maintained device data
 * [uriparser](https://uriparser.github.io) - Strictly RFC 3986-compliant URI parsing and handling library. [``BSD-3-Clause``][BSD-3-Clause]
 * [ElementsProject/lightning](https://github.com/ElementsProject/lightning) - c-lightning — a Lightning Network implementation in C
-
-### unsorted networking ###
-* [Netsukuku/netsukuku](https://github.com/Netsukuku/netsukuku) - Revived C-code
-* [armon/bloomd](https://github.com/armon/bloomd) - C network daemon for bloom filters
-* [armon/hlld](https://github.com/armon/hlld) - C network daemon for HyperLogLogs
-* [bagder/spindly](https://github.com/bagder/spindly) - a portable C library for SPDY transport (DEAD project!)
 * [boazsegev/c-server-tools](https://github.com/boazsegev/c-server-tools) - Write network services in C using dynamic protocols such as HTTP and Websockets
 * [c9s/r3](https://github.com/c9s/r3) - libr3 is a high-performance path dispatching library. It compiles your route paths into a prefix tree (trie). By using the constructed prefix trie in the start-up time, you may dispatch your routes with efficiency
-* [cesanta/fossa](https://github.com/cesanta/fossa) - Async non-blocking multi-protocol networking library for C/C++
-* [chmduquesne/xmppipe](https://github.com/chmduquesne/xmppipe) - This program allows to pipe data through an xmpp tunnel
 * [chokepoint/CryptHook](https://github.com/chokepoint/CryptHook) - TCP/UDP symmetric encryption tunnel wrapper
-* [clibs/dumpasn1](https://github.com/clibs/dumpasn1) - Display the contents of ASN.1 encoded data
-* [deltachat/deltachat-core](https://github.com/deltachat/deltachat-core) - Delta.Chat C-Library with e2e chat-over-email functionality & Python bindings
-* [fastos/fastsocket](https://github.com/fastos/fastsocket) - Fastsocket is a highly scalable socket and its underlying networking implementation of Linux kernel. With the straight linear scalability, Fastsocket can provide extremely good performance in multicore machines. In addition, it is very easy to use and maintain. As a result, it has been deployed in the production environment of SINA.
-* [felipec/msn-pecan](https://github.com/felipec/msn-pecan) - MSN Messenger library in C
-* [iem-projects/pd-iemrtp](https://github.com/iem-projects/pd-iemrtp) - RTP support for Pure Data
-* [irungentoo/toxcore](https://github.com/irungentoo/toxcore) - The future of online communications.
-* [japeq/bencode-tools](https://github.com/japeq/bencode-tools) - bencode-tools is a collection of tools for manipulating bencoded data.
+* [versatica/OverSIP](https://github.com/versatica/OverSIP) - OverSIP: the SIP framework you dreamed about
 * [libssh2/libssh2](https://github.com/libssh2/libssh2) - the SSH library
+* [fastos/fastsocket](https://github.com/fastos/fastsocket) - Fastsocket is a highly scalable socket and its underlying networking implementation of Linux kernel. With the straight linear scalability, Fastsocket can provide extremely good performance in multicore machines. In addition, it is very easy to use and maintain. As a result, it has been deployed in the production environment of SINA.
+
+### unsorted networking ###
+* [japeq/bencode-tools](https://github.com/japeq/bencode-tools) - bencode-tools is a collection of tools for manipulating bencoded data.
 * [lsalzman/enet](https://github.com/lsalzman/enet) - ENet reliable UDP networking library
 * [mopemope/meinheld](https://github.com/mopemope/meinheld) - meinheld is a high performance asynchronous WSGI Web Server (based on picoev)
-* [nanomsg/nanomsg](https://github.com/nanomsg/nanomsg) - nanomsg library
 * [neilalexander/sigmavpn](https://github.com/neilalexander/sigmavpn) - Light-weight, secure and modular VPN solution which makes use of NaCl encryption (also available for Android using jnacl in "sigmavpn-android")
-* [neutrinolabs/xrdp](https://github.com/neutrinolabs/xrdp) - xrdp: an open source RDP server
 * [nicolasff/river](https://github.com/nicolasff/river) - A simple “comet” server in C, streaming data to web clients
 * [obgm/libcoap](https://github.com/obgm/libcoap) - A CoAP (RFC 7252) implementation in C
 * [opendp/dpdk-odp](https://github.com/opendp/dpdk-odp) - Open data plane on dpdk, TCP/IP stack for dpdk.
@@ -3753,9 +3750,6 @@ Engines, libraries and other helpful things specifically for making games.
 * [the-tcpdump-group/libpcap](https://github.com/the-tcpdump-group/libpcap) - the LIBpcap interface to various kernel packet capture mechanism
 * [the-tcpdump-group/tcpdump](https://github.com/the-tcpdump-group/tcpdump) - the TCPdump network dissector
 * [unrealircd/unrealircd](https://github.com/unrealircd/unrealircd) - Official UnrealIRCd repository. Downloads are available from our site
-* [vdloo/Beacontalk](https://github.com/vdloo/Beacontalk) - Peer to peer chat-program that sends data over Wi-Fi without associations.
-* [vlm/asn1c](https://github.com/vlm/asn1c) - The ASN.1 Compiler
-* [versatica/OverSIP](https://github.com/versatica/OverSIP) - OverSIP: the SIP framework you dreamed about
 * [wolkykim/libasyncd](https://github.com/wolkykim/libasyncd) - Embeddable Event-based Asynchronous Message/HTTP Server library for C/C++
 * [eam/libcrange](https://github.com/eam/libcrange) - Range parsing library for managing sets of hostnames, ips, clusters, roles and other operational data.
 * [luohaha/CSpider](https://github.com/luohaha/CSpider) - A scalable and convenient crawler framework in C:).
@@ -3764,13 +3758,8 @@ Engines, libraries and other helpful things specifically for making games.
 * [hoxnox/rawsock_recv_example](https://github.com/hoxnox/rawsock_recv_example) - SOCK_RAW IPPROTO_UDP socket data transmission example
 * [LiamBindle/MQTT-C](https://github.com/LiamBindle/MQTT-C) - MQTT protocol implementation.
 * [google/gumbo-parser](https://github.com/google/gumbo-parser) - HTML5 parsing library in C99.
-* [libsoup](https://wiki.gnome.org/action/show/Projects/libsoup?action=show&redirect=LibSoup) - GNOME HTTP client/server library. Uses GObject. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
 * [res0nat0r/tsunami-udp](https://github.com/res0nat0r/tsunami-udp) -  A fast user-space file transfer protocol that uses TCP control and UDP data for transfer over very high speed long distance networks (≥ 1 Gbps and even 10 GE), designed to provide more throughput than possible with TCP over the same networks.
-* [Cloudgizer][361] - Cloudgizer is a tool for building web applications as
-  Apache modules, with emphasis on performance, small-footprint, and more
-  productive and safer programming in C. [``Apache-2.0``][Apache-2.0]
-* [Kore][364] - Easy-to-use web application framework for writing scalable
-  web APIs in C. [``ISC``][ISC]
+* [Cloudgizer][361] - Cloudgizer is a tool for building web applications as Apache modules, with emphasis on performance, small-footprint, and more productive and safer programming in C. [``Apache-2.0``][Apache-2.0]
 * [balde](https://balde.rgm.io/) - Microframework for C based on GLib. [`GNU LGPLv2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
 * [onion](https://www.coralbits.com/libonion/) - C library to create simple HTTP servers and Web Applications. [`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
 * [kore](https://kore.io/) - Easy to use, scalable and secure web application framework for writing web APIs in C.
@@ -3783,7 +3772,6 @@ Engines, libraries and other helpful things specifically for making games.
 * [cesanta/mongoose](https://github.com/cesanta/mongoose) - Embedded web server for C/C++
 * [cesanta/smart.js](https://github.com/cesanta/smart.js) - Embedded Javascript engine for C/C++ with networking, file, database and device interfaces
 * [cesanta/v7](https://github.com/cesanta/v7) - Embedded JavaScript engine for C/C++
-* [criticalstack/libevhtp](https://github.com/criticalstack/libevhtp) - Create extremely-fast and secure embedded HTTP servers with ease.
 * [danielwaterworth/Raphters](https://github.com/danielwaterworth/Raphters) - [DEPRECATED] A web framework for C.
 * [davidmoreno/onion](https://github.com/davidmoreno/onion) - C library to create simple HTTP servers and Web Applications.
 * [embedthis/appweb](https://github.com/embedthis/appweb) - Appweb Embedded Web Server
@@ -3800,8 +3788,6 @@ Engines, libraries and other helpful things specifically for making games.
 * [lexborisov/Modest](https://github.com/lexborisov/Modest) - Modest is a fast HTML renderer implemented as a pure C99 library with no outside dependencies.
 * [lexborisov/myhtml](https://github.com/lexborisov/myhtml) - Fast C/C++ HTML 5 Parser. Using threads.
 * [htacg/tidy-html5](https://github.com/htacg/tidy-html5) - The granddaddy of HTML tools, with support for modern standards
-* [mongrel2/mongrel2](https://github.com/mongrel2/mongrel2) - The Mongrel2 Web Server Project
-* [shenfeng/tiny-web-server](https://github.com/shenfeng/tiny-web-server) - a tiny web server in C, for daily use.
 
 --------------------------------------------------------------------------------
 
@@ -3919,6 +3905,8 @@ Engines, libraries and other helpful things specifically for making games.
 * [troydhanson/tpl](https://github.com/troydhanson/tpl) - tpl - a small binary serialization library for C
 * [alexanderchuranov/Metaresc](https://github.com/alexanderchuranov/Metaresc) - META data and RESource library for  C language
 * [asnlc](http://lionet.info/asn1c/compiler.html) - Compiler of ASN.1 specifications into C source code. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
+* [clibs/dumpasn1](https://github.com/clibs/dumpasn1) - Display the contents of ASN.1 encoded data
+* [vlm/asn1c](https://github.com/vlm/asn1c) - The ASN.1 Compiler
 
 ## Source Code Collections ##
 * [CCAN][292] - Modelled after Perl's CPAN, this is a big collection of code.
