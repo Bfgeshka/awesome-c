@@ -3649,24 +3649,25 @@ Engines, libraries and other helpful things specifically for making games.
   [60-1]: https://github.com/nodejs/http-parser
 </details>
 
-### IM ###
-* [Tox](https://tox.chat/) - Communication platform, designed to be a Skype-killer. [`GNU GPL3`](http://www.gnu.org/licenses/gpl.html)
-* [JFreegman/toxic](https://github.com/JFreegman/toxic) - An ncurses-based Tox client
-* [Tox/toxic](https://github.com/Tox/toxic) - CLI Tox client
-* [felipec/msn-pecan](https://github.com/felipec/msn-pecan) - MSN Messenger library in C
-* [chmduquesne/xmppipe](https://github.com/chmduquesne/xmppipe) - This program allows to pipe data through an xmpp tunnel
-* [vdloo/Beacontalk](https://github.com/vdloo/Beacontalk) - Peer to peer chat-program that sends data over Wi-Fi without associations.
-* [irungentoo/toxcore](https://github.com/irungentoo/toxcore) - The future of online communications.
+<a id="mail"></a>
+<details>
+  <summary>Mail</summary>
 
+  ### <a href="#-">`^`</a> Mail ###
 ### Mail ###
-* [LibEtPan][233] - Mail library providing an efficient network for IMAP, SMTP,
-  POP and NNTP. [``BSD-3-Clause``][BSD-3-Clause]
-* [libquickmail][238] - Library intended to give developers a way to send email
-  from their applications. Supports multiple To/Cc/Bcc recipients and
-  attachments without size limits. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [dinhviethoa/libetpan](https://github.com/dinhviethoa/libetpan) - Mail Framework for C Language
-* [LibEtPan](http://www.etpan.org/) - Mail library providing an efficient network for IMAP, SMTP, POP and NNTP. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
-* [libvldmail](https://github.com/dertuxmalwieder/libvldmail) - Your friendly e-mail address validation library. [`WTFPLv2`](http://www.wtfpl.net/txt/copying/)
+  * [libquickmail][61-1] - Library intended to give developers a way to send
+  email from their applications. Supports multiple To/Cc/Bcc recipients and
+  attachments without size limits. [`GPL 3`][61-2]
+  * [dinhviethoa/libetpan][61-3] - Mail Framework for C Language. [`License`][61-4]
+  * [libvldmail][61-5] - Your friendly e-mail address validation library. [`WTFPL`][61-6]
+
+  [61-6]: https://github.com/dertuxmalwieder/libvldmail/blob/master/COPYING
+  [61-5]: https://github.com/dertuxmalwieder/libvldmail
+  [61-4]: https://github.com/dinhviethoa/libetpan/blob/master/COPYRIGHT
+  [61-3]: https://github.com/dinhviethoa/libetpan
+  [61-2]: https://sourceforge.net/projects/libquickmail/
+  [61-1]: https://sourceforge.net/projects/libquickmail/
+</details>
 
 ### Messaging and Brokers ###
 * [NNG][245] - nanomsg-next-generation - lightweight brokerless messaging. [``MIT``][MIT]
@@ -3783,6 +3784,8 @@ Engines, libraries and other helpful things specifically for making games.
 * [it4e/CHL](https://github.com/it4e/CHL) - C Hypertext Library - A library for writing web applications in C
 * [jorisvink/kore](https://github.com/jorisvink/kore) - An easy to use, scalable and secure web application framework for writing web APIs in C.
 * [monkey/duda](https://github.com/monkey/duda) - Duda I/O is an event-driven and high performant web services framework which exposes a friendly C API
+* [chmduquesne/xmppipe](https://github.com/chmduquesne/xmppipe) - This program allows to pipe data through an xmpp tunnel
+* [vdloo/Beacontalk](https://github.com/vdloo/Beacontalk) - Peer to peer chat-program that sends data over Wi-Fi without associations.
 
 --------------------------------------------------------------------------------
 
@@ -4320,7 +4323,6 @@ Textual User Interface
 [241]: https://github.com/JonnyWhatshisface/libwebsock
 [240]: https://github.com/LibVNC/libvncserver
 [239]: https://risoflora.github.io/libsagui/
-[238]: http://sourceforge.net/projects/libquickmail/
 [237]: https://www.coralbits.com/libonion/
 [236]: https://gnu.org/software/libmicrohttpd/
 [235]: https://gnu.org/software/libidn/
