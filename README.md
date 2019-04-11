@@ -3759,13 +3759,28 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>TCP, UDP, Sockets</summary>
 
   ### <a href="#-">`^`</a> TCP, UDP, Sockets ###
-  * [chokepoint/CryptHook](https://github.com/chokepoint/CryptHook) - TCP/UDP symmetric encryption tunnel wrapper
-  * [bovine/datapipe](https://github.com/bovine/datapipe) - Network TCP port forwarding
-  * [sch3m4/libntoh](https://github.com/sch3m4/libntoh) - User-friendly C Library to perform TCP streams reassembly and IPv4/6 defragmentation
-  * [tass-belgium/picotcp](https://github.com/tass-belgium/picotcp) - PicoTCP is a free TCP/IP stack implementation
-  * [opendp/dpdk-odp](https://github.com/opendp/dpdk-odp) - Open data plane on dpdk, TCP/IP stack for dpdk.
-  * [lsalzman/enet](https://github.com/lsalzman/enet) - ENet reliable UDP networking library
-  * [hoxnox/rawsock_recv_example](https://github.com/hoxnox/rawsock_recv_example) - SOCK_RAW IPPROTO_UDP socket data transmission example
+  * [bovine/datapipe][66-1] - Network TCP port forwarding. [`Public domain`][66-2]
+  * [sch3m4/libntoh][66-3] - User-friendly C Library to perform TCP streams
+  reassembly and IPv4/6 defragmentation. [`License`][66-4]
+  * [tass-belgium/picotcp][66-5] - PicoTCP is a free TCP/IP stack
+  implementation. [`Licenses`][66-6]
+  * [opendp/dpdk-odp][66-7] - Open data plane on dpdk, TCP/IP stack for dpdk. [`BSD`][66-8]
+  * [lsalzman/enet][66-9] - ENet reliable UDP networking library. [`MIT`][66-10]
+  * [hoxnox/rawsock_recv_example][66-11] - SOCK_RAW IPPROTO_UDP socket data
+  transmission example. [`BSD 3-Clause`][66-12]
+
+  [66-12]: https://github.com/hoxnox/rawsock_recv_example/blob/master/nx_socket.h
+  [66-11]: https://github.com/hoxnox/rawsock_recv_example
+  [66-10]: https://github.com/lsalzman/enet/blob/master/LICENSE
+  [66-9]: https://github.com/lsalzman/enet
+  [66-8]: https://github.com/ansyun/dpdk-ans#support
+  [66-7]: https://github.com/ansyun/dpdk-ans
+  [66-6]: https://github.com/tass-belgium/picotcp/blob/master/COPYING
+  [66-5]: https://github.com/tass-belgium/picotcp
+  [66-4]: https://github.com/sch3m4/libntoh/blob/master/LICENSE
+  [66-3]: https://github.com/sch3m4/libntoh
+  [66-2]: https://github.com/bovine/datapipe/blob/master/license.txt
+  [66-1]: https://github.com/bovine/datapipe
 </details>
 
 ### Web Servers ###
