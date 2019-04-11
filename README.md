@@ -3609,14 +3609,7 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>HTTP</summary>
 
   ### <a href="#-">`^`</a> HTTP ###
-  * [libsagui][239] - Library for cross-platform HTTP servers. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
   * [lwan][242] - Experimental, scalable, high-performance HTTP server. [``GPL-2.0-only``][GPL-2.0-only]
-  * [mongoose][243] - Embedded web server. [``GPL-2.0-only``][GPL-2.0-only]
-  * [libhttpd][234] - Library to add basic web server capabilities to an
-  application or embedded device. [``GPL-2.0-only``][GPL-2.0-only]
-  * [libmicrohttpd][236] - Small library that makes it easy to run an HTTP
-  server as part of another application. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
-  * [libonion][237] - HTTP server library, designed to be easy to use. [``Apache-2.0``][Apache-2.0]
   * [nodejs/http-parser](https://github.com/nodejs/http-parser) - http request/response parser for c
   * [civetweb/civetweb](https://github.com/civetweb/civetweb) - Embedded C/C++ web server
   * [h2o/h2o](https://github.com/h2o/h2o) - H2O - the optimized HTTP/1, HTTP/2 server
@@ -3628,9 +3621,7 @@ Engines, libraries and other helpful things specifically for making games.
   * [reagent/http](https://github.com/reagent/http) - Simple HTTP client in C
   * [solusipse/ureq](https://github.com/solusipse/ureq) - Micro C library for handling HTTP requests on low resource systems.
   * [tatsuhiro-t/nghttp2](https://github.com/tatsuhiro-t/nghttp2) - nghttp2 - HTTP/2 C Library
-  * [taf2/libebb](https://github.com/taf2/libebb) - a lightweight high-performance HTTP server library for C
   * [wg/wrk](https://github.com/wg/wrk) - Modern HTTP benchmarking tool
-  * [http-parser](https://github.com/nodejs/http-parser) - HTTP request/response parser. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
 </details>
 
 ### IM ###
@@ -3656,10 +3647,23 @@ Engines, libraries and other helpful things specifically for making games.
 * [paulasmuth/fyrehose](https://github.com/paulasmuth/fyrehose) - message broker for JSON data streams
 * [zeromq/czmq](https://github.com/zeromq/czmq) - High-level C binding for ØMQ
 
+### P2P ###
+* [zyre][249] - Framework for proximity-based peer-to-peer applications. [``MPL-2.0``][MPL-2.0]
+
 ### RPC ###
 * [hmng/jsonrpc-c](https://github.com/hmng/jsonrpc-c) - JSON-RPC in C (server only for now)
 * [lopter/lightsd](https://github.com/lopter/lightsd) - A daemon with a JSON-RPC API to control your light bulbs
 * [studio-ousia/mprpc](https://github.com/studio-ousia/mprpc) - A fast MessagePack RPC library
+
+### Web Servers ###
+* [libsagui][239] - Library for cross-platform HTTP servers. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
+* [mongoose][243] - Embedded web server. [``GPL-2.0-only``][GPL-2.0-only]
+* [libhttpd][234] - Library to add basic web server capabilities to an
+application or embedded device. [``GPL-2.0-only``][GPL-2.0-only]
+* [libmicrohttpd][236] - Small library that makes it easy to run an HTTP
+server as part of another application. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [libonion][237] - HTTP server library, designed to be easy to use. [``Apache-2.0``][Apache-2.0]
+* [taf2/libebb](https://github.com/taf2/libebb) - a lightweight high-performance HTTP server library for C
 
 ### Web Frameworks ###
 Comprehensive and integrated solutions for building web application in C.
@@ -3724,11 +3728,6 @@ Comprehensive and integrated solutions for building web application in C.
 ### Uncategorized Networking ###
 
 ### unsorted networking ###
-* [CHL][228] - C Hypertext Library - A library for writing for web in C. [``GPL-3.0-only``][GPL-3.0-only]
-* [LibVNCServer][240] - Cross-platform libraries to implement VNC server and/or
-  client functionality. [``GPL-2.0-or-later``][GPL-2.0-or-later]
-* [zyre][249] - Framework for proximity-based peer-to-peer applications. [``MPL-2.0``][MPL-2.0]
-* [libgss][435] - Generic Security Service. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [asnlc](http://lionet.info/asn1c/compiler.html) - Compiler of ASN.1 specifications into C source code. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
 * [ldns](https://www.nlnetlabs.nl/projects/ldns/index.html) - Library to simplify DNS programming. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
 * [libcurl](https://curl.haxx.se/libcurl/) - Client-side URL transfer library, supporting a wide range of formats. [`curl license`](https://curl.haxx.se/docs/copyright.html)
