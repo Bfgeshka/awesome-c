@@ -3644,6 +3644,7 @@ Engines, libraries and other helpful things specifically for making games.
   from their applications. Supports multiple To/Cc/Bcc recipients and
   attachments without size limits. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [dinhviethoa/libetpan](https://github.com/dinhviethoa/libetpan) - Mail Framework for C Language
+* [LibEtPan](http://www.etpan.org/) - Mail library providing an efficient network for IMAP, SMTP, POP and NNTP. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
 
 ### Messaging ###
 * [NNG][245] - nanomsg-next-generation - lightweight brokerless messaging. [``MIT``][MIT]
@@ -3665,19 +3666,12 @@ Comprehensive and integrated solutions for building web application in C.
 * [Cloudgizer][361] - Cloudgizer is a tool for building web applications as
   Apache modules, with emphasis on performance, small-footprint, and more
   productive and safer programming in C. [``Apache-2.0``][Apache-2.0]
-* [facil.io][362] - Mini-framework for web applications. Includes a fast HTTP
-  and Websocket server, and also supports custom protocols. [``MIT``][MIT]
-* [KLone][363] - Fully featured, multi-platform, web application development
-  framework, targeted especially at embedded systems and appliances. [``BSD-3-Clause``][BSD-3-Clause]
 * [Kore][364] - Easy-to-use web application framework for writing scalable
   web APIs in C. [``ISC``][ISC]
-* [WAFer][378] - Ultra-light software platform for scalable server-side and
-  networking applications (think node.js for C programmers). [``GPL-2.0-only``][GPL-2.0-only]
 * [balde](https://balde.rgm.io/) - Microframework for C based on GLib. [`GNU LGPLv2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
 * [onion](https://www.coralbits.com/libonion/) - C library to create simple HTTP servers and Web Applications. [`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
 * [kore](https://kore.io/) - Easy to use, scalable and secure web application framework for writing web APIs in C.
 * [klone](http://www.koanlogic.com/klone/) - KLone is a fully-featured, multiplatform, web application development framework.
-* [duda](http://duda.io/) - Duda I/O is an event-driven and high performant web services framework written in C. [`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
 * [DanielWaterworth/Raphters](https://github.com/DanielWaterworth/Raphters) - [DEPRECATED] A web framework for C.
 * [babelouest/ulfius](https://github.com/babelouest/ulfius) - Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. Can stream large amount of data, integrate JSON data with Jansson, and create websocket services
 * [bitly/simplehttp](https://github.com/bitly/simplehttp) - a family of libraries and daemons for building scalable web infrastructure
@@ -3730,28 +3724,14 @@ Comprehensive and integrated solutions for building web application in C.
 ### Uncategorized Networking ###
 
 ### unsorted networking ###
-* [asnlc][227] - Compiler of ASN.1 specifications into C source code. [``BSD-2-Clause``][BSD-2-Clause]
 * [CHL][228] - C Hypertext Library - A library for writing for web in C. [``GPL-3.0-only``][GPL-3.0-only]
-* [libcurl][232] - Client-side URL transfer library, supporting a wide range of
-  formats. [``curl``][curl]
-* [libidn][235] - Implementation of the Stringprep, Punycode and IDNA
-  specifications. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [LibVNCServer][240] - Cross-platform libraries to implement VNC server and/or
   client functionality. [``GPL-2.0-or-later``][GPL-2.0-or-later]
-* [oSip][246] - SIP implementation without additional dependencies. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
-* [socket99][247] - C99 wrapper for the BSD sockets API. [``ISC``][ISC]
 * [zyre][249] - Framework for proximity-based peer-to-peer applications. [``MPL-2.0``][MPL-2.0]
 * [libgss][435] - Generic Security Service. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [asnlc](http://lionet.info/asn1c/compiler.html) - Compiler of ASN.1 specifications into C source code. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
-* [czmq](http://czmq.zeromq.org/) - High-level binding for ZeroMQ. [`MPL2.0`](https://www.gnu.org/licenses/license-list.html#MPL-2.0)
-* [GNU adns](https://www.gnu.org/software/adns/) - Advanced, easy-to-use, asynch-capable DNS client library and utilities. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
-* [GNU SASL](https://www.gnu.org/software/gsasl/) - Implementation of the Simple Authentication and Security Layer and a few common SASL mechanism. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
-* [GnuTLS](https://www.gnutls.org/) - Secure communication library, implementing SSL, TLS and DTLS. [`GNU LGPL2.1 or later`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
 * [ldns](https://www.nlnetlabs.nl/projects/ldns/index.html) - Library to simplify DNS programming. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
 * [libcurl](https://curl.haxx.se/libcurl/) - Client-side URL transfer library, supporting a wide range of formats. [`curl license`](https://curl.haxx.se/docs/copyright.html)
-* [LibEtPan](http://www.etpan.org/) - Mail library providing an efficient network for IMAP, SMTP, POP and NNTP. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
-* [libuv](http://libuv.org/) - Cross-platform asynchronous I/O. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-* [libevent](http://libevent.org/) - Event loop replacement for network servers. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
 * [libgss](https://www.gnu.org/software/gss/) - Generic Security Service. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
 * [libhttpd](http://www.hughes.com.au/products/libhttpd/) - Library to add basic web server capabilities to an application or embedded device. [`GNU GPL2`](http://www.gnu.org/licenses/gpl.html)
 * [libidn](https://www.gnu.org/software/libidn/) - Implementation of the Stringprep, Punycode and IDNA specifications. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
