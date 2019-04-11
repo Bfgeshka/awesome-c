@@ -3582,13 +3582,25 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>DNS</summary>
 
   ### <a href="#-">`^`</a> DNS ###
-  * [GNU adns][229] - Advanced, easy-to-use, asynch-capable DNS client library
-  and utilities. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-  * [ldns][231] - Library to simplify DNS programming. [``BSD-3-Clause``][BSD-3-Clause]
-  * [bagder/c-ares](https://github.com/bagder/c-ares) - c-ares is a C library for asynchronous DNS requests
-  * [farsightsec/dnstable](https://github.com/farsightsec/dnstable) - encoding format, library, and utilities for passive DNS data
-  * [res0nat0r/tsunami-udp](https://github.com/res0nat0r/tsunami-udp) -  A fast user-space file transfer protocol that uses TCP control and UDP data for transfer over very high speed long distance networks (≥ 1 Gbps and even 10 GE), designed to provide more throughput than possible with TCP over the same networks.
-  * [wahern/dns](https://github.com/wahern/dns) - dns.c: Single file non-blocking DNS C library without callbacks or external dependencies.
+  * [GNU adns][59-1] - Advanced, easy-to-use, asynch-capable DNS client library
+  and utilities. [`GPL 3`][59-2]
+  * [ldns][59-3] - Library to simplify DNS programming. [`BSD 3-Clause`][59-4]
+  * [bagder/c-ares][59-5] - Library for asynchronous DNS requests. [`License`][59-6]
+  * [farsightsec/dnstable][59-7] - encoding format, library, and utilities for
+  passive DNS data. [`Apache 2`][59-8]
+  * [wahern/dns][59-9] - Single file non-blocking DNS C library without
+  callbacks or external dependencies. [`MIT`][59-10]
+
+  [59-10]: https://github.com/wahern/dns/blob/master/LICENSE
+  [59-9]: https://github.com/wahern/dns
+  [59-8]: https://github.com/farsightsec/dnstable/blob/master/LICENSE
+  [59-7]: https://github.com/farsightsec/dnstable
+  [59-6]: https://github.com/c-ares/c-ares/blob/master/LICENSE.md
+  [59-5]: https://github.com/c-ares/c-ares
+  [59-4]: https://git.nlnetlabs.nl/ldns/tree/LICENSE
+  [59-3]: http://www.nlnetlabs.nl/projects/ldns/index.html
+  [59-2]: https://www.gnu.org/software/adns/
+  [59-1]: https://www.gnu.org/software/adns/
 </details>
 
 ### HTTP ###
@@ -3738,6 +3750,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [LiamBindle/MQTT-C](https://github.com/LiamBindle/MQTT-C) - MQTT protocol implementation.
 * [google/gumbo-parser](https://github.com/google/gumbo-parser) - HTML5 parsing library in C99.
 * [libsoup](https://wiki.gnome.org/action/show/Projects/libsoup?action=show&redirect=LibSoup) - GNOME HTTP client/server library. Uses GObject. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
+* [res0nat0r/tsunami-udp](https://github.com/res0nat0r/tsunami-udp) -  A fast user-space file transfer protocol that uses TCP control and UDP data for transfer over very high speed long distance networks (≥ 1 Gbps and even 10 GE), designed to provide more throughput than possible with TCP over the same networks.
 
 ### RPC ###
 * [hmng/jsonrpc-c](https://github.com/hmng/jsonrpc-c) - JSON-RPC in C (server only for now)
@@ -4350,9 +4363,7 @@ Comprehensive and integrated solutions for building web application in C.
 [234]: http://www.hughes.com.au/products/libhttpd/
 [233]: http://www.etpan.org
 [232]: https://curl.haxx.se/libcurl/
-[231]: http://www.nlnetlabs.nl/projects/ldns/index.html
 [230]: https://github.com/joyent/http-parser
-[229]: https://www.gnu.org/software/adns/
 [228]: https://github.com/it4e/CHL
 [227]: http://lionet.info/asn1c/compiler.html
 
