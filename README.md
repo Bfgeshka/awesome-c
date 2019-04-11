@@ -3515,15 +3515,11 @@ Engines, libraries and other helpful things specifically for making games.
   and data movement. [`Apache 2`][58-2]
   * [APR][58-3] - Apache Portable Runtime; another library of cross-platform
   utility functions. [`Apache 2`][58-4]
-  * [GLib](https://wiki.gnome.org/Projects/GLib) - Library of utility functions and structures, designed to be portable, efficient and powerful. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-  * [GIO](https://developer.gnome.org/gio/) - Modern and easy-to-use VFS API. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-  * [GObject](https://developer.gnome.org/gobject/stable/) - Object-oriented system and object model for C. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-  * [libnih](https://github.com/keybuk/libnih) - Lightweight library of C functions and structures. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-  * [libU](http://www.koanlogic.com/libu/) - Small library of basic utilities, including memory allocation, string manipulation and logging. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
-  * [PBL](http://www.mission-base.com/peter/source/) - Large library of utilities, featuring data structures, among other things. [`GNU LGPL2.1 or later (library)`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html) or [`GNU GPL2.1 or later (test code)`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-  * [qlibc](http://wolkykim.github.io/qlibc/) - Simple and powerful C library, designed as a replacement for GLib while focusing on being small and light. [`qLib license`](https://github.com/wolkykim/qlibc/blob/master/LICENSE) (similar to [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD))
-  * [stb](https://github.com/nothings/stb) - Range of single-file libraries for C. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
-  * [libsrt](https://faragon.github.io/libsrt.html) - Safe Real-Time library for C. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
+  * [GLib][58-5] - Library of utility functions and structures, designed to be
+  portable, efficient and powerful. [`LGPL 2.1`][58-6]
+  * [keybuk/libnih][58-7] - Lightweight library of C functions and structures. [`GPL 2`][58-8]
+  * [wolkykim/qlibc][58-9] - Simple and powerful C library, designed as a
+  replacement for GLib while focusing on being small and light. [`License`][58-10]
   * [chutsu/cog](https://github.com/chutsu/cog) - C common library containing common data structures, sorting algorithms and utility functions
   * [cs50/libcs50](https://github.com/cs50/libcs50) - CS50 Library for C
   * [dcreager/libcork](https://github.com/dcreager/libcork) - A simple, easily embeddable cross-platform C library
@@ -3538,6 +3534,12 @@ Engines, libraries and other helpful things specifically for making games.
   * [zpl-c/zpl](https://github.com/zpl-c/zpl) - 📐 Your C99 Powerkit
   * [dmw/caffeine](https://github.com/dmw/caffeine) - C Application Framework
 
+  [58-10]: https://github.com/wolkykim/qlibc/blob/master/LICENSE
+  [58-9]: https://github.com/wolkykim/qlibc
+  [58-8]: https://github.com/keybuk/libnih/blob/master/COPYING
+  [58-7]: https://github.com/keybuk/libnih
+  [58-6]: https://gitlab.gnome.org/GNOME/glib/blob/master/COPYING
+  [58-5]: https://wiki.gnome.org/Projects/GLib
   [58-4]: https://www.apache.org/licenses/LICENSE-2.0
   [58-3]: https://apr.apache.org/
   [58-2]: https://github.com/parallella/pal/blob/master/LICENSE
@@ -3883,6 +3885,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [stevedekorte/basekit](https://github.com/stevedekorte/basekit) - C based OO portable data structure library
 * [rampantpixels/foundation_lib](https://github.com/rampantpixels/foundation_lib) - Cross-platform public domain foundation library in C providing basic support data types and functions to write applications and games in a platform-independent fashion.
 * [attractivechaos/klib](https://github.com/attractivechaos/klib) - Small and lightweight implementations of common algorithms and data structures. [`MIT`](https://github.com/attractivechaos/klib/#overview)
+* [stb](https://github.com/nothings/stb) - Range of single-file libraries for C. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
 
 ## Scientific ##
 Math mostly located in *Calculations* category
