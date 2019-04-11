@@ -3913,14 +3913,28 @@ Engines, libraries and other helpful things specifically for making games.
   [68-1]: https://github.com/sinemetu1/twitc
 </details>
 
-### Websockets ###
-* [Wslay][248] - WebSocket library. Implements version 13 of the WebSocket
-  protocol, as described in RFC 6455. [``MIT``][MIT]
-* [libwebsock][241] - Easy-to-use and powerful web socket library. [``LGPL-3.0-only``][LGPL-3.0-only]
-* [m8rge/cwebsocket](https://github.com/m8rge/cwebsocket) - cWebsocket is lightweight websocket server library
-* [payden/libwebsock](https://github.com/payden/libwebsock) - C library for easy WebSockets server.
-* [tatsuhiro-t/wslay](https://github.com/tatsuhiro-t/wslay) - The WebSocket library in C
-* [zhaojh329/libuwsc](https://github.com/zhaojh329/libuwsc) - A Lightweight and fully asynchronous WebSocket client C library based on libubox for Embedded Linux.
+<a id="websockets"></a>
+<details>
+  <summary>Websockets</summary>
+
+  ### <a href="#-">`^`</a> Websockets ###
+  * [tatsuhiro-t/wslay][69-1] - WebSocket library. Implements version 13 of the
+  WebSocket protocol, as described in RFC 6455. [`MIT`][69-2]
+  * [JonnyWhatshisface/libwebsock][69-3] - Easy-to-use and powerful web socket
+  library. [`LGPL 3`][69-4]
+  * [m8rge/cwebsocket][69-5] - Lightweight websocket server library. [`MIT`][69-6]
+  * [zhaojh329/libuwsc][69-7] - A Lightweight and fully asynchronous WebSocket
+  client C library based on libubox for Embedded Linux. [`LGPL 2.1`][69-8]
+
+  [69-8]: https://github.com/zhaojh329/libuwsc/blob/master/LICENSE
+  [69-7]: https://github.com/zhaojh329/libuwsc
+  [69-6]: https://github.com/m8rge/cwebsocket/blob/master/LICENSE
+  [69-5]: https://github.com/m8rge/cwebsocket
+  [69-4]: https://github.com/JonnyWhatshisface/libwebsock/blob/master/COPYING
+  [69-3]: https://github.com/JonnyWhatshisface/libwebsock
+  [69-2]: https://github.com/tatsuhiro-t/wslay/blob/master/COPYING
+  [69-1]: https://tatsuhiro-t.github.io/wslay/
+</details>
 
 ### Uncategorized Networking ###
 * [libcurl](https://curl.haxx.se/libcurl/) - Client-side URL transfer library, supporting a wide range of formats. [`curl license`](https://curl.haxx.se/docs/copyright.html)
@@ -4478,12 +4492,10 @@ Textual User Interface
 [252]: http://math-atlas.sourceforge.net/
 [250]: http://apophenia.info
 
-[248]: https://tatsuhiro-t.github.io/wslay/
 [247]: https://github.com/silentbicycle/socket99
 [246]: https://gnu.org/software/osip/
 [244]: https://github.com/nanomsg/nanomsg
 [243]: https://cesanta.com
-[241]: https://github.com/JonnyWhatshisface/libwebsock
 [240]: https://github.com/LibVNC/libvncserver
 [239]: https://risoflora.github.io/libsagui/
 [237]: https://www.coralbits.com/libonion/
