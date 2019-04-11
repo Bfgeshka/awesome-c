@@ -3789,12 +3789,16 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>Web Servers</summary>
 
   ### <a href="#-">`^`</a> Web Servers ###
-  * [taf2/libebb](https://github.com/taf2/libebb) - a lightweight high-performance HTTP server library for C
-  * [libhttpd](http://www.hughes.com.au/products/libhttpd/) - Library to add basic web server capabilities to an application or embedded device. [`GNU GPL2`](http://www.gnu.org/licenses/gpl.html)
-  * [libmicrohttpd](https://www.gnu.org/software/libmicrohttpd/) - Small C library that makes it easy to run an HTTP server as part of another application. [`GNU LGPL2.1 or later`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-  * [libsagui](https://risoflora.github.io/libsagui/) - Sagui is a cross-platform C library which helps to develop web servers or frameworks. [`GNU LGPL3`](http://www.gnu.org/licenses/lgpl.html)
-  * [h2o](https://github.com/h2o/h2o/) - Optimized HTTP/1, HTTP/2 high performance server/library. [`MIT`](https://raw.githubusercontent.com/atom/atom/master/LICENSE.md)
-  * [mongrel2/mongrel2](https://github.com/mongrel2/mongrel2) - The Mongrel2 Web Server Project
+  * [taf2/libebb][67-1] - Lightweight high-performance HTTP server library
+  for C. [`MIT`][67-2]
+  * [libhttpd][67-3] - Library to add basic web server capabilities to an
+  application or embedded device. [`LGPL`][67-4]
+  * [libmicrohttpd][67-5] - Small C library that makes it easy to run an HTTP
+  server as part of another application. [`Licenses`][67-6]
+  * [risoflora/libsagui][67-7] - Cross-platform C library which helps to develop
+  web servers or frameworks. [`LGPL 3`][67-8]
+  * [h2o/h2o][67-9] - Optimized HTTP/1, HTTP/2 high performance server/library. [`MIT`][67-10]
+  * [mongrel2/mongrel2][67-11] - The Mongrel2 Web Server Project. [`BSD 3-Clause`][67-12]
   * [shenfeng/tiny-web-server](https://github.com/shenfeng/tiny-web-server) - a tiny web server in C, for daily use.
   * [zyearn/zaver](https://github.com/zyearn/zaver) - Yet another fast and efficient HTTP server
   * [monkey/monkey](https://github.com/monkey/monkey) - Monkey HTTP Server
@@ -3814,6 +3818,19 @@ Engines, libraries and other helpful things specifically for making games.
   * [boazsegev/facil.io](https://github.com/boazsegev/facil.io) - Your high performance web application C framework
   * [iafonov/cosmonaut](https://github.com/iafonov/cosmonaut) - Fast web server & micro framework implemented in C. Just for fun.
   * [riolet/WAFer](https://github.com/riolet/WAFer) - WAFer is a C language-based software platform for scalable server-side and networking applications. Think node.js for C programmers.
+
+  [67-12]: https://github.com/mongrel2/mongrel2/blob/master/LICENSE
+  [67-11]: https://github.com/mongrel2/mongrel2
+  [67-10]: https://github.com/h2o/h2o/blob/master/LICENSE
+  [67-9]: https://github.com/h2o/h2o
+  [67-8]: https://github.com/risoflora/libsagui/blob/master/LICENSE
+  [67-7]: https://github.com/risoflora/libsagui
+  [67-6]: https://www.gnu.org/software/libmicrohttpd/
+  [67-5]: https://www.gnu.org/software/libmicrohttpd/
+  [67-4]: https://hughes.com.au/products/libhttpd/
+  [67-3]: https://hughes.com.au/products/libhttpd/
+  [67-2]: https://github.com/taf2/libebb
+  [67-1]: https://github.com/taf2/libebb
 </details>
 
 ### Web Service APIs ###
