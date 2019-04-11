@@ -3604,29 +3604,33 @@ Engines, libraries and other helpful things specifically for making games.
   [59-1]: https://www.gnu.org/software/adns/
 </details>
 
-### HTTP ###
-* [http-parser][230] - HTTP request/response parser. [``MIT``][MIT]
-* [libsagui][239] - Library for cross-platform HTTP servers. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
-* [lwan][242] - Experimental, scalable, high-performance HTTP server. [``GPL-2.0-only``][GPL-2.0-only]
-* [mongoose][243] - Embedded web server. [``GPL-2.0-only``][GPL-2.0-only]
-* [libhttpd][234] - Library to add basic web server capabilities to an
+<a id="http"></a>
+<details>
+  <summary>HTTP</summary>
+
+  ### <a href="#-">`^`</a> HTTP ###
+  * [libsagui][239] - Library for cross-platform HTTP servers. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
+  * [lwan][242] - Experimental, scalable, high-performance HTTP server. [``GPL-2.0-only``][GPL-2.0-only]
+  * [mongoose][243] - Embedded web server. [``GPL-2.0-only``][GPL-2.0-only]
+  * [libhttpd][234] - Library to add basic web server capabilities to an
   application or embedded device. [``GPL-2.0-only``][GPL-2.0-only]
-* [libmicrohttpd][236] - Small library that makes it easy to run an HTTP
+  * [libmicrohttpd][236] - Small library that makes it easy to run an HTTP
   server as part of another application. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
-* [libonion][237] - HTTP server library, designed to be easy to use. [``Apache-2.0``][Apache-2.0]
-* [nodejs/http-parser](https://github.com/nodejs/http-parser) - http request/response parser for c
-* [civetweb/civetweb](https://github.com/civetweb/civetweb) - Embedded C/C++ web server
-* [h2o/h2o](https://github.com/h2o/h2o) - H2O - the optimized HTTP/1, HTTP/2 server
-* [h2o/picohttpparser](https://github.com/h2o/picohttpparser) - tiny HTTP parser written in C (used in HTTP::Parser::XS et al.)
-* [iafonov/multipart-parser-c](https://github.com/iafonov/multipart-parser-c) - Http multipart parser implemented in C
-* [joyent/http-parser](https://github.com/joyent/http-parser) - http request/response parser for c
-* [zyearn/zaver](https://github.com/zyearn/zaver) - Yet another fast and efficient HTTP server
-* [monkey/monkey](https://github.com/monkey/monkey) - Monkey HTTP Server
-* [reagent/http](https://github.com/reagent/http) - Simple HTTP client in C
-* [solusipse/ureq](https://github.com/solusipse/ureq) - Micro C library for handling HTTP requests on low resource systems.
-* [tatsuhiro-t/nghttp2](https://github.com/tatsuhiro-t/nghttp2) - nghttp2 - HTTP/2 C Library
-* [taf2/libebb](https://github.com/taf2/libebb) - a lightweight high-performance HTTP server library for C
-* [wg/wrk](https://github.com/wg/wrk) - Modern HTTP benchmarking tool
+  * [libonion][237] - HTTP server library, designed to be easy to use. [``Apache-2.0``][Apache-2.0]
+  * [nodejs/http-parser](https://github.com/nodejs/http-parser) - http request/response parser for c
+  * [civetweb/civetweb](https://github.com/civetweb/civetweb) - Embedded C/C++ web server
+  * [h2o/h2o](https://github.com/h2o/h2o) - H2O - the optimized HTTP/1, HTTP/2 server
+  * [h2o/picohttpparser](https://github.com/h2o/picohttpparser) - tiny HTTP parser written in C (used in HTTP::Parser::XS et al.)
+  * [iafonov/multipart-parser-c](https://github.com/iafonov/multipart-parser-c) - Http multipart parser implemented in C
+  * [joyent/http-parser](https://github.com/joyent/http-parser) - http request/response parser for c
+  * [zyearn/zaver](https://github.com/zyearn/zaver) - Yet another fast and efficient HTTP server
+  * [monkey/monkey](https://github.com/monkey/monkey) - Monkey HTTP Server
+  * [reagent/http](https://github.com/reagent/http) - Simple HTTP client in C
+  * [solusipse/ureq](https://github.com/solusipse/ureq) - Micro C library for handling HTTP requests on low resource systems.
+  * [tatsuhiro-t/nghttp2](https://github.com/tatsuhiro-t/nghttp2) - nghttp2 - HTTP/2 C Library
+  * [taf2/libebb](https://github.com/taf2/libebb) - a lightweight high-performance HTTP server library for C
+  * [wg/wrk](https://github.com/wg/wrk) - Modern HTTP benchmarking tool
+</details>
 
 ### Mail ###
 * [LibEtPan][233] - Mail library providing an efficient network for IMAP, SMTP,
