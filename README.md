@@ -3575,15 +3575,21 @@ Engines, libraries and other helpful things specifically for making games.
   [58-1]: https://github.com/parallella/pal
 </details>
 
+<a id="networking"></a>
 ## Networking ##
-### DNS ###
-* [GNU adns][229] - Advanced, easy-to-use, asynch-capable DNS client library
+<a id="dns"></a>
+<details>
+  <summary>DNS</summary>
+
+  ### <a href="#-">`^`</a> DNS ###
+  * [GNU adns][229] - Advanced, easy-to-use, asynch-capable DNS client library
   and utilities. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [ldns][231] - Library to simplify DNS programming. [``BSD-3-Clause``][BSD-3-Clause]
-* [bagder/c-ares](https://github.com/bagder/c-ares) - c-ares is a C library for asynchronous DNS requests
-* [farsightsec/dnstable](https://github.com/farsightsec/dnstable) - encoding format, library, and utilities for passive DNS data
-* [res0nat0r/tsunami-udp](https://github.com/res0nat0r/tsunami-udp) -  A fast user-space file transfer protocol that uses TCP control and UDP data for transfer over very high speed long distance networks (≥ 1 Gbps and even 10 GE), designed to provide more throughput than possible with TCP over the same networks.
-* [wahern/dns](https://github.com/wahern/dns) - dns.c: Single file non-blocking DNS C library without callbacks or external dependencies.
+  * [ldns][231] - Library to simplify DNS programming. [``BSD-3-Clause``][BSD-3-Clause]
+  * [bagder/c-ares](https://github.com/bagder/c-ares) - c-ares is a C library for asynchronous DNS requests
+  * [farsightsec/dnstable](https://github.com/farsightsec/dnstable) - encoding format, library, and utilities for passive DNS data
+  * [res0nat0r/tsunami-udp](https://github.com/res0nat0r/tsunami-udp) -  A fast user-space file transfer protocol that uses TCP control and UDP data for transfer over very high speed long distance networks (≥ 1 Gbps and even 10 GE), designed to provide more throughput than possible with TCP over the same networks.
+  * [wahern/dns](https://github.com/wahern/dns) - dns.c: Single file non-blocking DNS C library without callbacks or external dependencies.
+</details>
 
 ### HTTP ###
 * [http-parser][230] - HTTP request/response parser. [``MIT``][MIT]
