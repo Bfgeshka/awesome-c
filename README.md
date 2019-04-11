@@ -3809,17 +3809,40 @@ Engines, libraries and other helpful things specifically for making games.
   server. [`GPL 2`][67-24]
   * [cesanta/mongoose][67-25] - Embedded web server for C/C++. [`License`][67-26]
   * [oneoo/alilua][67-27] - epoll/kqueue+lua based web server. [`MIT`][67-28]
-  * [haywire/haywire](https://github.com/haywire/haywire) - Haywire is an asynchronous HTTP server framework written in C that's built using the event loop based libuv platform layer that node.js is built on top of.
-  * [davidmoreno/onion](https://github.com/davidmoreno/onion) - C library to create simple HTTP servers and Web Applications.
-  * [onion](https://www.coralbits.com/libonion/) - C library to create simple HTTP servers and Web Applications. [`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
-  * [embedthis/appweb](https://github.com/embedthis/appweb) - Appweb Embedded Web Server
-  * [wolkykim/libasyncd](https://github.com/wolkykim/libasyncd) - Embeddable Event-based Asynchronous Message/HTTP Server library for C/C++
-  * [balde](https://balde.rgm.io/) - Microframework for C based on GLib. [`GNU LGPLv2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-  * [bitly/simplehttp](https://github.com/bitly/simplehttp) - a family of libraries and daemons for building scalable web infrastructure
-  * [boazsegev/facil.io](https://github.com/boazsegev/facil.io) - Your high performance web application C framework
-  * [iafonov/cosmonaut](https://github.com/iafonov/cosmonaut) - Fast web server & micro framework implemented in C. Just for fun.
-  * [riolet/WAFer](https://github.com/riolet/WAFer) - WAFer is a C language-based software platform for scalable server-side and networking applications. Think node.js for C programmers.
+  * [haywire/haywire][67-29] - Haywire is an asynchronous HTTP server framework
+  written in C that's built using the event loop based libuv platform layer that
+  node.js is built on top of. [`Apache 2`][67-30]
+  * [davidmoreno/onion][67-31] - C library to create simple HTTP servers and Web
+  Applications. [`Licenses`][67-32]
+  * [wolkykim/libasyncd][67-33] - Embeddable Event-based Asynchronous
+  Message/HTTP Server library for C/C++. [`BSD 2-Clause`][67-34]
+  * [balde/balde][67-35] - Microframework for C based on GLib. [`LGPL 2.1`][67-36]
+  * [bitly/simplehttp][67-37] - A family of libraries and daemons for building
+  scalable web infrastructure. [`MIT`][67-38]
+  * [boazsegev/facil.io][67-39] - Your high performance web application C
+  framework. [`MIT`][67-40]
+  * [iafonov/cosmonaut][67-41] - Fast web server & micro framework implemented
+  in C. Just for fun. [`MIT`][67-42]
+  * [riolet/WAFer][67-43] - WAFer is a C language-based software platform for
+  scalable server-side and networking applications. Think node.js for C
+  programmers. [`GPL 2`][67-44]
 
+  [67-44]: https://github.com/riolet/WAFer/blob/master/LICENSE
+  [67-43]: https://github.com/riolet/WAFer
+  [67-42]: https://github.com/iafonov/cosmonaut#license--copyright
+  [67-41]: https://github.com/iafonov/cosmonaut
+  [67-40]: https://github.com/boazsegev/facil.io/blob/master/LICENSE
+  [67-39]: https://github.com/boazsegev/facil.io
+  [67-38]: https://github.com/bitly/simplehttp/blob/master/LICENSE
+  [67-37]: https://github.com/bitly/simplehttp
+  [67-36]: https://github.com/balde/balde/blob/master/COPYING
+  [67-35]: https://github.com/balde/balde
+  [67-34]: https://github.com/wolkykim/libasyncd/blob/master/LICENSE
+  [67-33]: https://github.com/wolkykim/libasyncd
+  [67-32]: https://github.com/davidmoreno/onion/blob/master/LICENSE.txt
+  [67-31]: https://github.com/davidmoreno/onion
+  [67-30]: https://github.com/haywire/haywire/blob/master/LICENSE.txt
+  [67-29]: https://github.com/haywire/haywire
   [67-28]: https://github.com/oneoo/alilua/blob/master/LICENSE
   [67-27]: https://github.com/oneoo/alilua
   [67-26]: https://github.com/cesanta/mongoose/blob/master/LICENSE
