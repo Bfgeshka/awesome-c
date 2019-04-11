@@ -3654,7 +3654,6 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>Mail</summary>
 
   ### <a href="#-">`^`</a> Mail ###
-### Mail ###
   * [libquickmail][61-1] - Library intended to give developers a way to send
   email from their applications. Supports multiple To/Cc/Bcc recipients and
   attachments without size limits. [`GPL 3`][61-2]
@@ -3669,16 +3668,35 @@ Engines, libraries and other helpful things specifically for making games.
   [61-1]: https://sourceforge.net/projects/libquickmail/
 </details>
 
-### Messaging and Brokers ###
-* [NNG][245] - nanomsg-next-generation - lightweight brokerless messaging. [``MIT``][MIT]
-* [rabbitmq-c][440] - Client library for [RabbitMQ][229]. [``MIT``][MIT]
-* [zproto][370] - Protocol framework for ZeroMQ. [``MIT``][MIT]
-* [antirez/disque](https://github.com/antirez/disque) - Disque is a distributed message broker
-* [circonus-labs/fq](https://github.com/circonus-labs/fq) - F@#$*&%Q (Message queue that is fast, brokered, in C and gets out of your way)
-* [paulasmuth/fyrehose](https://github.com/paulasmuth/fyrehose) - message broker for JSON data streams
-* [zeromq/czmq](https://github.com/zeromq/czmq) - High-level C binding for ØMQ
-* [nanomsg](https://github.com/nanomsg/nanomsg) - C-based implementation of ZeroMQ. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-* [LiamBindle/MQTT-C](https://github.com/LiamBindle/MQTT-C) - MQTT protocol implementation.
+<a id="messaging"></a>
+<details>
+  <summary>Messaging and Brokers</summary>
+
+  ### <a href="#-">`^`</a> Messaging and Brokers ###
+  * [nanomsg/nng][62-1] - Lightweight brokerless messaging. [`MIT`][62-2]
+  * [alanxz/rabbitmq-c][62-3] - Client library for RabbitMQ. [`License`][62-4]
+  * [antirez/disque][62-5] - Disque is a distributed message broker. [`BSD 3-Clause`][62-6]
+  * [circonus-labs/fq][62-7] - F@#$*&%Q (Message queue that is fast, brokered,
+  in C and gets out of your way). [`MIT`][62-8]
+  * [zeromq/czmq][62-9] - High-level C binding for ØMQ. [`License`][62-10]
+  * [nanomsg/nanomsg][62-11] - C-based implementation of ZeroMQ. [`License`][62-12]
+  * [LiamBindle/MQTT-C][62-13] - MQTT protocol implementation. [`MIT`][62-14]
+
+  [62-14]: https://github.com/LiamBindle/MQTT-C/blob/master/LICENSE
+  [62-13]: https://github.com/LiamBindle/MQTT-C
+  [62-12]: https://github.com/nanomsg/nanomsg/blob/master/COPYING
+  [62-11]: https://github.com/nanomsg/nanomsg
+  [62-10]: https://github.com/zeromq/czmq/blob/master/LICENSE
+  [62-9]: https://github.com/zeromq/czmq
+  [62-8]: https://github.com/circonus-labs/fq/blob/master/LICENSE
+  [62-7]: https://github.com/circonus-labs/fq
+  [62-6]: https://github.com/antirez/disque/blob/master/COPYING
+  [62-5]: https://github.com/antirez/disque
+  [62-4]: https://github.com/alanxz/rabbitmq-c/blob/master/LICENSE-MIT
+  [62-3]: https://github.com/alanxz/rabbitmq-c
+  [62-2]: https://github.com/nanomsg/nng/blob/master/LICENSE.txt
+  [62-1]: https://github.com/nanomsg/nng
+</details>
 
 ### P2P ###
 * [zyre][249] - Framework for proximity-based peer-to-peer applications. [``MPL-2.0``][MPL-2.0]
@@ -4156,7 +4174,6 @@ Textual User Interface
 
 [452]: http://c-faq.com/
 
-[440]: https://github.com/alanxz/rabbitmq-c
 [439]: https://github.com/dertuxmalwieder/libvldmail
 [438]: https://github.com/nfc-tools/libnfc
 [437]: https://github.com/cloudwu/pbc
@@ -4202,7 +4219,6 @@ Textual User Interface
 [373]: https://gnu.org/software/ncurses/
 [372]: https://github.com/sabotage-linux/netbsd-curses
 [371]: https://github.com/doches/progressbar
-[370]: https://github.com/zeromq/zproto
 
 
 [364]: https://kore.io/
@@ -4316,7 +4332,6 @@ Textual User Interface
 [248]: https://tatsuhiro-t.github.io/wslay/
 [247]: https://github.com/silentbicycle/socket99
 [246]: https://gnu.org/software/osip/
-[245]: https://nanomsg.github.io/nng/
 [244]: https://github.com/nanomsg/nanomsg
 [243]: https://cesanta.com
 [242]: https://lwan.ws
