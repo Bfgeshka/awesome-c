@@ -107,8 +107,11 @@ structure at all)
 	* [HTTP](#http)
 	* [Mail](#mail)
 	* [Messaging](#messaging)
-	* [Other Networking](#other-networking)
+	* [Remote Desktops](#remote-desktops)
+	* [RPC](#rpc)
+	* [TCP, UDP and Sockets](#tcp-udp-sockets)
 	* [Websockets](#websockets)
+	* [Other Networking](#other-networking)
 * [OpenCL](#opencl)
 * [OS Specifics](#os-specifics)
 * [Procedural Generation](#procedural-generation)
@@ -3720,26 +3723,50 @@ Engines, libraries and other helpful things specifically for making games.
   ### <a href="#-">`^`</a> Remote Desktops ###
   * [FreeRDP/FreeRDP][64-1] - FreeRDP is a free remote desktop protocol library
   and clients. [`Apache 2`][64-2]
-  * [FreeRDP/Remmina](https://github.com/FreeRDP/Remmina) - The GTK+ Remmina Remote Desktop Client
-  * [LibVNC/libvncserver](https://github.com/LibVNC/libvncserver) - LibVNCServer/LibVNCClient are cross-platform C libraries that allow you to easily implement VNC server or client functionality in your program.
-  * [neutrinolabs/xrdp](https://github.com/neutrinolabs/xrdp) - xrdp: an open source RDP server
+  * [LibVNC/libvncserver][64-3] - LibVNCServer/LibVNCClient are cross-platform
+  C libraries that allow you to easily implement VNC server or client
+  functionality in your program. [`GPL 2`][64-4]
+
+  [64-4]: https://github.com/LibVNC/libvncserver/blob/master/COPYING
+  [64-3]: https://github.com/LibVNC/libvncserver
   [64-2]: https://github.com/FreeRDP/FreeRDP/blob/master/LICENSE
   [64-1]: https://github.com/FreeRDP/FreeRDP
 </details>
 
-### RPC ###
-* [hmng/jsonrpc-c](https://github.com/hmng/jsonrpc-c) - JSON-RPC in C (server only for now)
-* [lopter/lightsd](https://github.com/lopter/lightsd) - A daemon with a JSON-RPC API to control your light bulbs
-* [studio-ousia/mprpc](https://github.com/studio-ousia/mprpc) - A fast MessagePack RPC library
+<a id="rpc"></a>
+<details>
+  <summary>RPC</summary>
 
-### TCP, UDP, Sockets ###
-* [chokepoint/CryptHook](https://github.com/chokepoint/CryptHook) - TCP/UDP symmetric encryption tunnel wrapper
-* [bovine/datapipe](https://github.com/bovine/datapipe) - Network TCP port forwarding
-* [sch3m4/libntoh](https://github.com/sch3m4/libntoh) - User-friendly C Library to perform TCP streams reassembly and IPv4/6 defragmentation
-* [tass-belgium/picotcp](https://github.com/tass-belgium/picotcp) - PicoTCP is a free TCP/IP stack implementation
-* [opendp/dpdk-odp](https://github.com/opendp/dpdk-odp) - Open data plane on dpdk, TCP/IP stack for dpdk.
-* [lsalzman/enet](https://github.com/lsalzman/enet) - ENet reliable UDP networking library
-* [hoxnox/rawsock_recv_example](https://github.com/hoxnox/rawsock_recv_example) - SOCK_RAW IPPROTO_UDP socket data transmission example
+  ### <a href="#-">`^`</a> RPC ###
+  * [hmng/jsonrpc-c][65-1] - JSON-RPC in C. [`MIT`][65-2]
+  * [lopter/lightsd][65-3] - A daemon with a JSON-RPC API to control your
+  light bulbs. [`GPL 3`][65-4]
+  * [laruence/yar][65-5] - RPC for C and PHP. [`License`][65-6]
+  * [protobuf-c/protobuf-c-rpc][65-7] - Using protobuf-c for RPC. [`License`][65-8]
+
+  [65-8]: https://github.com/protobuf-c/protobuf-c-rpc/blob/master/LICENSE
+  [65-7]: https://github.com/protobuf-c/protobuf-c-rpc
+  [65-6]: https://github.com/laruence/yar/blob/master/LICENSE
+  [65-5]: https://github.com/laruence/yar
+  [65-4]: https://github.com/lopter/lightsd/blob/master/COPYING
+  [65-3]: https://github.com/lopter/lightsd
+  [65-2]: https://github.com/hmng/jsonrpc-c/blob/master/LICENSE
+  [65-1]: https://github.com/hmng/jsonrpc-c
+</details>
+
+<a id="tcp-udp-sockets"></a>
+<details>
+  <summary>TCP, UDP, Sockets</summary>
+
+  ### <a href="#-">`^`</a> TCP, UDP, Sockets ###
+  * [chokepoint/CryptHook](https://github.com/chokepoint/CryptHook) - TCP/UDP symmetric encryption tunnel wrapper
+  * [bovine/datapipe](https://github.com/bovine/datapipe) - Network TCP port forwarding
+  * [sch3m4/libntoh](https://github.com/sch3m4/libntoh) - User-friendly C Library to perform TCP streams reassembly and IPv4/6 defragmentation
+  * [tass-belgium/picotcp](https://github.com/tass-belgium/picotcp) - PicoTCP is a free TCP/IP stack implementation
+  * [opendp/dpdk-odp](https://github.com/opendp/dpdk-odp) - Open data plane on dpdk, TCP/IP stack for dpdk.
+  * [lsalzman/enet](https://github.com/lsalzman/enet) - ENet reliable UDP networking library
+  * [hoxnox/rawsock_recv_example](https://github.com/hoxnox/rawsock_recv_example) - SOCK_RAW IPPROTO_UDP socket data transmission example
+</details>
 
 ### Web Servers ###
 * [libsagui][239] - Library for cross-platform HTTP servers. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
