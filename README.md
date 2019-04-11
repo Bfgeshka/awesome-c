@@ -3713,17 +3713,19 @@ Engines, libraries and other helpful things specifically for making games.
   [62-1]: https://github.com/nanomsg/nng
 </details>
 
-### P2P ###
-* [zyre][249] - Framework for proximity-based peer-to-peer applications. [``MPL-2.0``][MPL-2.0]
-* [GROX13/BitTorrent](https://github.com/GROX13/BitTorrent) - BitTorrent protocol.
-* [Librevault/librevault](https://github.com/Librevault/librevault) - Librevault - Peer-to-peer, decentralized and open source file sync.
-* [japeq/bencode-tools](https://github.com/japeq/bencode-tools) - bencode-tools is a collection of tools for manipulating bencoded data.
+<a id="remote-desktops"></a>
+<details>
+  <summary>Remote Desktops</summary>
 
-### Remote Desktops ###
-* [FreeRDP/FreeRDP](https://github.com/FreeRDP/FreeRDP) - FreeRDP is a free remote desktop protocol library and clients
-* [FreeRDP/Remmina](https://github.com/FreeRDP/Remmina) - The GTK+ Remmina Remote Desktop Client
-* [LibVNC/libvncserver](https://github.com/LibVNC/libvncserver) - LibVNCServer/LibVNCClient are cross-platform C libraries that allow you to easily implement VNC server or client functionality in your program.
-* [neutrinolabs/xrdp](https://github.com/neutrinolabs/xrdp) - xrdp: an open source RDP server
+  ### <a href="#-">`^`</a> Remote Desktops ###
+  * [FreeRDP/FreeRDP][64-1] - FreeRDP is a free remote desktop protocol library
+  and clients. [`Apache 2`][64-2]
+  * [FreeRDP/Remmina](https://github.com/FreeRDP/Remmina) - The GTK+ Remmina Remote Desktop Client
+  * [LibVNC/libvncserver](https://github.com/LibVNC/libvncserver) - LibVNCServer/LibVNCClient are cross-platform C libraries that allow you to easily implement VNC server or client functionality in your program.
+  * [neutrinolabs/xrdp](https://github.com/neutrinolabs/xrdp) - xrdp: an open source RDP server
+  [64-2]: https://github.com/FreeRDP/FreeRDP/blob/master/LICENSE
+  [64-1]: https://github.com/FreeRDP/FreeRDP
+</details>
 
 ### RPC ###
 * [hmng/jsonrpc-c](https://github.com/hmng/jsonrpc-c) - JSON-RPC in C (server only for now)
@@ -3819,6 +3821,8 @@ Engines, libraries and other helpful things specifically for making games.
 * [monkey/duda](https://github.com/monkey/duda) - Duda I/O is an event-driven and high performant web services framework which exposes a friendly C API
 * [chmduquesne/xmppipe](https://github.com/chmduquesne/xmppipe) - This program allows to pipe data through an xmpp tunnel
 * [vdloo/Beacontalk](https://github.com/vdloo/Beacontalk) - Peer to peer chat-program that sends data over Wi-Fi without associations.
+* [zeromq/zyre](https://github.com/zeromq/zyre) - Framework for proximity-based peer-to-peer applications. [`License`](https://github.com/zeromq/zyre/blob/master/LICENSE)
+* [japeq/bencode-tools](https://github.com/japeq/bencode-tools) - bencode-tools is a collection of tools for manipulating bencoded data.
 
 --------------------------------------------------------------------------------
 
@@ -4343,7 +4347,6 @@ Textual User Interface
 [252]: http://math-atlas.sourceforge.net/
 [250]: http://apophenia.info
 
-[249]: https://github.com/zeromq/zyre
 [248]: https://tatsuhiro-t.github.io/wslay/
 [247]: https://github.com/silentbicycle/socket99
 [246]: https://gnu.org/software/osip/
