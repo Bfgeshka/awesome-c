@@ -3799,15 +3799,16 @@ Engines, libraries and other helpful things specifically for making games.
   web servers or frameworks. [`LGPL 3`][67-8]
   * [h2o/h2o][67-9] - Optimized HTTP/1, HTTP/2 high performance server/library. [`MIT`][67-10]
   * [mongrel2/mongrel2][67-11] - The Mongrel2 Web Server Project. [`BSD 3-Clause`][67-12]
-  * [shenfeng/tiny-web-server](https://github.com/shenfeng/tiny-web-server) - a tiny web server in C, for daily use.
-  * [zyearn/zaver](https://github.com/zyearn/zaver) - Yet another fast and efficient HTTP server
-  * [monkey/monkey](https://github.com/monkey/monkey) - Monkey HTTP Server
-  * [libsoup](https://wiki.gnome.org/action/show/Projects/libsoup?action=show&redirect=LibSoup) - GNOME HTTP client/server library. Uses GObject. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-  * [criticalstack/libevhtp](https://github.com/criticalstack/libevhtp) - Create extremely-fast and secure embedded HTTP servers with ease.
-  * [civetweb/civetweb](https://github.com/civetweb/civetweb) - Embedded C/C++ web server
-  * [lwan][242] - Experimental, scalable, high-performance HTTP server. [``GPL-2.0-only``][GPL-2.0-only]
-  * [cesanta/mongoose](https://github.com/cesanta/mongoose) - Embedded web server for C/C++
-  * [oneoo/alilua](https://github.com/oneoo/alilua) - epoll/kqueue+lua based web server
+  * [shenfeng/tiny-web-server][67-13] - a tiny web server in C, for daily use. [`MIT`][67-14]
+  * [zyearn/zaver][67-15] - Yet another fast and efficient HTTP server. [`MIT`][67-16]
+  * [libsoup][67-17] - GNOME HTTP client/server library. Uses GObject. [`LGPL 2`][67-18]
+  * [criticalstack/libevhtp][67-19] - Create extremely-fast and secure embedded
+  HTTP servers with ease. [`BSD 3-Clause`][67-20]
+  * [civetweb/civetweb][67-21] - Embedded C/C++ web server. [`Licenses`][67-22]
+  * [lpereira/lwan][67-23] - Experimental, scalable, high-performance HTTP
+  server. [`GPL 2`][67-24]
+  * [cesanta/mongoose][67-25] - Embedded web server for C/C++. [`License`][67-26]
+  * [oneoo/alilua][67-27] - epoll/kqueue+lua based web server. [`MIT`][67-28]
   * [haywire/haywire](https://github.com/haywire/haywire) - Haywire is an asynchronous HTTP server framework written in C that's built using the event loop based libuv platform layer that node.js is built on top of.
   * [davidmoreno/onion](https://github.com/davidmoreno/onion) - C library to create simple HTTP servers and Web Applications.
   * [onion](https://www.coralbits.com/libonion/) - C library to create simple HTTP servers and Web Applications. [`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
@@ -3819,6 +3820,22 @@ Engines, libraries and other helpful things specifically for making games.
   * [iafonov/cosmonaut](https://github.com/iafonov/cosmonaut) - Fast web server & micro framework implemented in C. Just for fun.
   * [riolet/WAFer](https://github.com/riolet/WAFer) - WAFer is a C language-based software platform for scalable server-side and networking applications. Think node.js for C programmers.
 
+  [67-28]: https://github.com/oneoo/alilua/blob/master/LICENSE
+  [67-27]: https://github.com/oneoo/alilua
+  [67-26]: https://github.com/cesanta/mongoose/blob/master/LICENSE
+  [67-25]: https://github.com/cesanta/mongoose
+  [67-24]: https://github.com/lpereira/lwan/blob/master/COPYING
+  [67-23]: https://lwan.ws
+  [67-22]: https://github.com/civetweb/civetweb/blob/master/LICENSE.md
+  [67-21]: https://github.com/civetweb/civetweb
+  [67-20]: https://github.com/criticalstack/libevhtp/blob/develop/LICENSE
+  [67-19]: https://github.com/criticalstack/libevhtp
+  [67-18]: https://gitlab.gnome.org/GNOME/libsoup/blob/master/COPYING
+  [67-17]: https://wiki.gnome.org/action/show/Projects/libsoup?action=show&redirect=LibSoup
+  [67-16]: https://github.com/zyearn/zaver/blob/master/LICENSE
+  [67-15]: https://github.com/zyearn/zaver
+  [67-14]: https://github.com/shenfeng/tiny-web-server#license
+  [67-13]: https://github.com/shenfeng/tiny-web-server
   [67-12]: https://github.com/mongrel2/mongrel2/blob/master/LICENSE
   [67-11]: https://github.com/mongrel2/mongrel2
   [67-10]: https://github.com/h2o/h2o/blob/master/LICENSE
@@ -4416,7 +4433,6 @@ Textual User Interface
 [246]: https://gnu.org/software/osip/
 [244]: https://github.com/nanomsg/nanomsg
 [243]: https://cesanta.com
-[242]: https://lwan.ws
 [241]: https://github.com/JonnyWhatshisface/libwebsock
 [240]: https://github.com/LibVNC/libvncserver
 [239]: https://risoflora.github.io/libsagui/
