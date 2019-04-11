@@ -3627,14 +3627,26 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>HTTP</summary>
 
   ### <a href="#-">`^`</a> HTTP ###
-  * [nodejs/http-parser](https://github.com/nodejs/http-parser) - http request/response parser for c
-  * [h2o/picohttpparser](https://github.com/h2o/picohttpparser) - tiny HTTP parser written in C (used in HTTP::Parser::XS et al.)
-  * [iafonov/multipart-parser-c](https://github.com/iafonov/multipart-parser-c) - Http multipart parser implemented in C
-  * [joyent/http-parser](https://github.com/joyent/http-parser) - http request/response parser for c
-  * [reagent/http](https://github.com/reagent/http) - Simple HTTP client in C
-  * [solusipse/ureq](https://github.com/solusipse/ureq) - Micro C library for handling HTTP requests on low resource systems.
-  * [tatsuhiro-t/nghttp2](https://github.com/tatsuhiro-t/nghttp2) - nghttp2 - HTTP/2 C Library
-  * [wg/wrk](https://github.com/wg/wrk) - Modern HTTP benchmarking tool
+  * [nodejs/http-parser][60-1] - HTTP request/response parser for c. [`MIT`][60-2]
+  * [h2o/picohttpparser][60-3] - Tiny HTTP parser. [`MIT`][60-4]
+  * [iafonov/multipart-parser-c][60-5] - Http multipart parser implemented in C. [`MIT`][60-6]
+  * [solusipse/ureq][60-7] - Micro C library for handling HTTP requests on low
+  resource systems. [`MIT`][60-8]
+  * [nghttp2/nghttp2][60-9] - HTTP/2 C Library. [`MIT`][60-10]
+  * [wg/wrk][60-11] - Modern HTTP benchmarking tool. [`License`][60-12]
+
+  [60-12]: https://github.com/wg/wrk/blob/master/LICENSE
+  [60-11]: https://github.com/wg/wrk
+  [60-10]: https://github.com/nghttp2/nghttp2/blob/master/COPYING
+  [60-9]: https://github.com/nghttp2/nghttp2
+  [60-8]: https://github.com/solusipse/ureq/blob/master/LICENSE
+  [60-7]: https://github.com/solusipse/ureq
+  [60-6]: https://github.com/iafonov/multipart-parser-c/blob/master/multipart_parser.h
+  [60-5]: https://github.com/iafonov/multipart-parser-c
+  [60-4]: https://github.com/h2o/picohttpparser/blob/master/picohttpparser.h
+  [60-3]: https://github.com/h2o/picohttpparser
+  [60-2]: https://github.com/nodejs/http-parser/blob/master/LICENSE-MIT
+  [60-1]: https://github.com/nodejs/http-parser
 </details>
 
 ### IM ###
