@@ -3610,6 +3610,8 @@ Engines, libraries and other helpful things specifically for making games.
   [58-1]: https://github.com/parallella/pal
 </details>
 
+--------------------------------------------------------------------------------
+
 <a id="networking"></a>
 ## Networking ##
 <a id="dns"></a>
@@ -3879,16 +3881,36 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>Web Service APIs</summary>
 
   ### <a href="#-">`^`</a> Web Service APIs ###
-  * [twitc][426] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
-  * [dajobe/flickcurl](https://github.com/dajobe/flickcurl) - Flickr C API library
-  * [Cotix/cReddit](https://github.com/Cotix/cReddit) - CLI Reddit client written in C. Oh, crossplatform too!
-  * [HalosGhost/shaman](https://github.com/HalosGhost/shaman) - A small, native C library and utility to fetch weather
-  * [PromyLOPh/pianobar](https://github.com/PromyLOPh/pianobar) - Console-based pandora.com player
-  * [TOTBWF/SteamCurses](https://github.com/TOTBWF/SteamCurses) - A Basic NCurses Client for Steam
-  * [Yubico/yubico-c-client](https://github.com/Yubico/yubico-c-client) - Yubico C client library
-  * [adobkin/libcapn](https://github.com/adobkin/libcapn) - A simple C Library for interact with the Apple Push Notification Service (APNs)
-  * [andrewstone/AbqData](https://github.com/andrewstone/AbqData) - Tools to read ABQ Open Data Initiative city gov data
-  * [aws/aws-iot-device-sdk-embedded-C](https://github.com/aws/aws-iot-device-sdk-embedded-C) - SDK for connecting to AWS IoT from a device using embedded C.
+  * [sinemetu1/twitc][68-1] - Mini library for interacting with the Twitter
+  OAuth API. [`MIT`][68-2]
+  * [dajobe/flickcurl][68-3] - Flickr C API library. [`GPL 2`][68-4]
+  * [Cotix/cReddit][68-5] - CLI Reddit client written in C. Includes separated
+  library. [`License`][68-6]
+  * [HalosGhost/shaman][68-7] - A small, native C library and utility to fetch
+  weather. [`GPL 2`][68-8]
+  * [PromyLOPh/pianobar][68-9] - Console-based pandora.com player. [`License`][68-10]
+  * [Yubico/yubico-c-client][68-11] - Yubico C client library. [`BSD 2-Clause`][68-12]
+  * [adobkin/libcapn][68-13] - A simple C Library for interact with the Apple
+  Push Notification Service (APNs). [`MIT`][68-14]
+  * [aws/aws-iot-device-sdk-embedded-C][68-15] - SDK for connecting to AWS IoT
+  from a device using embedded C. [`Apache 2`][68-16]
+
+  [68-16]: https://github.com/aws/aws-iot-device-sdk-embedded-C/blob/master/LICENSE.txt
+  [68-15]: https://github.com/aws/aws-iot-device-sdk-embedded-C
+  [68-14]: https://github.com/adobkin/libcapn/blob/master/LICENSE
+  [68-13]: https://github.com/adobkin/libcapn
+  [68-12]: https://github.com/Yubico/yubico-c-client/blob/master/COPYING
+  [68-11]: https://github.com/Yubico/yubico-c-client
+  [68-10]: https://github.com/PromyLOPh/pianobar/blob/master/COPYING
+  [68-9]: https://github.com/PromyLOPh/pianobar
+  [68-8]: https://github.com/HalosGhost/shaman/blob/master/LICENSE
+  [68-7]: https://github.com/HalosGhost/shaman
+  [68-6]: https://github.com/Cotix/cReddit/blob/master/LICENSE
+  [68-5]: https://github.com/Cotix/cReddit
+  [68-4]: https://github.com/dajobe/flickcurl/blob/master/COPYING
+  [68-3]: https://github.com/dajobe/flickcurl
+  [68-2]: https://github.com/sinemetu1/twitc/blob/master/LICENSE
+  [68-1]: https://github.com/sinemetu1/twitc
 </details>
 
 ### Websockets ###
@@ -4310,7 +4332,6 @@ Textual User Interface
 [433]: https://github.com/antirez/linenoise
 [432]: https://github.com/recp/tm
 [427]: https://criu.org/Main_Page
-[426]: https://github.com/sinemetu1/twitc
 [425]: https://www.gnu.org/software/gnulib/
 [422]: https://gnu.org/software/freeipmi/index.html
 [421]: https://github.com/commonmark/cmark/blob/master/COPYING
