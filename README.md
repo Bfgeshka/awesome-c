@@ -121,6 +121,7 @@ structure at all)
 * [Regex and Search](#regex-and-search)
 * [Serialization](#serialization)
 * [Source Code Collections](#source-code-collections)
+* [Special Purpose Libraries](#special-purpose)
 * [Standard Libraries](#standart-libraries)
 * [String Manipulation](#string-manipulation)
 * [Testing](#testing)
@@ -4476,30 +4477,25 @@ Engines, libraries and other helpful things specifically for making games.
   [78-1]: https://github.com/TulipCharts/tulipindicators
 </details>
 
-## Standard Libraries ##
-Implementations of the C standarts
-* [Bionic][301] - Google's standard library, developed for Android. [``BSD-3-Clause``][BSD-3-Clause]
-* [cloudlibc][302] - Standard library based on the concept of
-  [capability-based security][303]. [``BSD-2-Clause``][BSD-2-Clause]
-* [dietlibc][304] - Standard library designed for the smallest possible
-  binaries. [``GPL-2.0-only``][GPL-2.0-only]
-* [glibc][305] - The GNU C Library; an implementation of the standard library. [``LGPL-2.1-only``][LGPL-2.1-only].
-* [musl][306] - Standard library, compatible with POSIX 2008 and C11. Designed
-  for static linking. [``MIT``][MIT]
-* [PDCLib][307] - The Public Domain C Library. Implements most of C99 and some
+<a id="standart-libraries"></a>
+<details>
+  <summary>Standard Libraries</summary>
+
+  ## <a href="#-">`^`</a> Standard Libraries ##
+  Implementations of the C standarts
+  * [PDCLib][307] - The Public Domain C Library. Implements most of C99 and some
   of C11. [``CC0-1.0``][CC0-1.0]
-* [uClibc-ng][308] - Small C library for developing embedded systems.
+  * [uClibc-ng][308] - Small C library for developing embedded systems.
   [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
-* [Bionic](https://github.com/aosp-mirror/platform_bionic) - Google's C standard library, developed for Android. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
-* [dietlibc](http://www.fefe.de/dietlibc/) - C standard library designed for the smallest possible binaries. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-* [glibc](http://www.gnu.org/software/libc/) - The GNU C Library; an implementation of the C standard library. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-* [musl](http://www.musl-libc.org/) - Standard C library, compatible with POSIX 2008 and C11. Designed for static linking. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-* [NuxiNL/cloudlibc](https://github.com/NuxiNL/cloudlibc) - CloudABI's standard C library
-* [marssaxman/startc](https://github.com/marssaxman/startc) - minimal freestanding C library for bare-metal i386 development
-* [olibc/olibc](https://github.com/olibc/olibc) - Another C Library optimized for Embedded Linux
-* [redjack/libcork](https://github.com/redjack/libcork) - A simple, easily embeddable cross-platform C library
-* [wolkykim/qlibc](https://github.com/wolkykim/qlibc) - qLibc is a simple and powerful C library
-* [lpsantil/rt0](https://github.com/lpsantil/rt0) - A minimal C runtime for Linux i386 & x86_64
+  * [Bionic](https://github.com/aosp-mirror/platform_bionic) - Google's C standard library, developed for Android. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
+  * [dietlibc](http://www.fefe.de/dietlibc/) - C standard library designed for the smallest possible binaries. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+  * [glibc](http://www.gnu.org/software/libc/) - The GNU C Library; an implementation of the C standard library. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
+  * [musl](http://www.musl-libc.org/) - Standard C library, compatible with POSIX 2008 and C11. Designed for static linking. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
+  * [NuxiNL/cloudlibc](https://github.com/NuxiNL/cloudlibc) - CloudABI's standard C library
+  * [marssaxman/startc](https://github.com/marssaxman/startc) - minimal freestanding C library for bare-metal i386 development
+  * [olibc/olibc](https://github.com/olibc/olibc) - Another C Library optimized for Embedded Linux
+  * [lpsantil/rt0](https://github.com/lpsantil/rt0) - A minimal C runtime for Linux i386 & x86_64
+</details>
 
 ## String Manipulation ##
 * [bstring][309] - The Better String Library. [``BSD-3-Clause``][BSD-3-Clause]
