@@ -4437,19 +4437,37 @@ Engines, libraries and other helpful things specifically for making games.
   structured data sets using parallel HDF5. ESIO is designed to support reading
   and writing turbulence simulation restart files within C, C++, and modern
   Fortran applications. [`LGPL 2.1`][78-6]
-  * [TPSully/SRTM2STL](https://github.com/TPSully/SRTM2STL) - Create STL files from SRTM data for the purpose of creating 3D relief maps.
-  * [TravisWhitaker/FermiShell](https://github.com/TravisWhitaker/FermiShell) - Retrieve, compare, calculate, analyze, graph, simulate, and experiment with chemical data.
-  * [Unidata/netcdf-c](https://github.com/Unidata/netcdf-c) - Official GitHub repository for netCDF-C libraries and utilities.
-  * [anza/metar](https://github.com/anza/metar) - METAR data fetcher and parser
-  * [cbuchner1/CudaMiner](https://github.com/cbuchner1/CudaMiner) - a CUDA accelerated litecoin mining application based on pooler's CPU miner
-  * [jgarzik/cpuminer](https://github.com/jgarzik/cpuminer) - CPU miner for bitcoin
-  * [jgarzik/picocoin](https://github.com/jgarzik/picocoin) - A bitcoin library in C, SPV wallet & more.
-  * [libtrading/libtrading](https://github.com/libtrading/libtrading) - Libtrading, an ultra low-latency trading connectivity library for C and C++.
-  * [nayuki/QR-Code-generator](https://github.com/nayuki/QR-Code-generator) - High-quality QR Code generator library in Java, JavaScript, Python, C++, C.
-  * [qiq/Czech-morphology](https://github.com/qiq/Czech-morphology) - Czech morphology library, using data files compatible with PDT 2.0
-  * [sleuthkit/sleuthkit](https://github.com/sleuthkit/sleuthkit) - The Sleuth Kit® (TSK) is a library and collection of command line digital forensics tools that allow you to investigate volume and file system data. The library can be incorporated into larger digital forensics tools and the command line tools can be directly used to find evidence.
-  * [hroptatyr/uterus](https://github.com/hroptatyr/uterus) - universal tick encoder library to efficiently transport huge amounts of tick data
+  * [Unidata/netcdf-c][78-7] - Official GitHub repository for netCDF-C libraries
+  and utilities. [`BSD 3-Clause`][78-8]
+  * [jgarzik/picocoin][78-9] - A bitcoin library in C, SPV wallet & more. [`License`][78-10]
+  * [libtrading/libtrading][78-11] - Ultra low-latency trading connectivity
+  library for C and C++. [`BSD 2-Clause`][78-12]
+  * [nayuki/QR-Code-generator][78-13] - High-quality QR Code generator library
+  in Java, JavaScript, Python, C++, C. [`MIT`][78-14]
+  * [qiq/Czech-morphology][78-15] - Czech morphology library, using data files
+  compatible with PDT 2.0 [`License`][78-16]
+  * [sleuthkit/sleuthkit][78-17] - The Sleuth Kit® (TSK) is a library and
+  collection of command line digital forensics tools that allow you to
+  investigate volume and file system data. The library can be incorporated into
+  larger digital forensics tools and the command line tools can be directly used
+  to find evidence. [`Licenses`][78-18]
+  * [hroptatyr/uterus][78-19] - universal tick encoder library to efficiently
+  transport huge amounts of tick data. [`BSD 3-Clause`][78-20]
 
+  [78-20]: https://github.com/hroptatyr/uterus/blob/master/src/ute.c
+  [78-19]: https://github.com/hroptatyr/uterus
+  [78-18]: https://github.com/sleuthkit/sleuthkit#license
+  [78-17]: https://github.com/sleuthkit/sleuthkit
+  [78-16]: https://github.com/qiq/Czech-morphology/blob/master/COPYING
+  [78-15]: https://github.com/qiq/Czech-morphology
+  [78-14]: https://github.com/nayuki/QR-Code-generator/blob/master/c/qrcodegen.h
+  [78-13]: https://github.com/nayuki/QR-Code-generator
+  [78-12]: https://github.com/libtrading/libtrading/blob/master/LICENSE
+  [78-11]: https://github.com/libtrading/libtrading
+  [78-10]: https://github.com/jgarzik/picocoin/blob/master/COPYING
+  [78-9]: https://github.com/jgarzik/picocoin
+  [78-8]: https://github.com/Unidata/netcdf-c/blob/master/COPYRIGHT
+  [78-7]: https://github.com/Unidata/netcdf-c
   [78-6]: https://github.com/RhysU/ESIO/blob/develop/COPYING
   [78-5]: https://github.com/RhysU/ESIO
   [78-4]: https://github.com/MatthewLM/cbitcoin/blob/master/LICENSE
