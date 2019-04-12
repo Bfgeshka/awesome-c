@@ -1721,33 +1721,6 @@ structure at all)
   [30-1]: https://github.com/yosefk/checkedthreads
 </details>
 
-<a id="opencl"></a>
-<details>
-  <summary>OpenCL</summary>
-
-  ## <a href="#-">`^`</a> OpenCL ##
-
-  OpenCL, CUDA, OpenMP and other similar APIs.
-  * [cf4ocl][31-1] - The C Framework for OpenCL. [`LGPL 3`][31-2]
-  * [clMathLibraries/clRNG][31-3] - an OpenCL based software library containing
-  random number generation functions. [`License`][31-4]
-  * [tuxfan/ocl-mla][31-5] - OpenCL Mid-Level Abstractions. [`License`][31-6]
-  * [matze/oclkit][31-7] - Two-file OpenCL wrapper. [`GPL 3`][31-8]
-  * [emrainey/OpenCL-Environment][31-9] - A series of utilities aimed at making
-  OpenCL easier to use. [`Apache 2`][31-10]
-
-  [31-10]: https://github.com/emrainey/OpenCL-Environment/blob/master/LICENSE-2.0.txt
-  [31-9]: https://github.com/emrainey/OpenCL-Environment
-  [31-8]: https://github.com/matze/oclkit/blob/master/COPYING
-  [31-7]: https://github.com/matze/oclkit
-  [31-6]: https://github.com/tuxfan/ocl-mla/blob/master/LICENSE
-  [31-5]: https://github.com/tuxfan/ocl-mla
-  [31-4]: https://github.com/clMathLibraries/clRNG/blob/master/LICENSE
-  [31-3]: https://github.com/clMathLibraries/clRNG
-  [31-2]: https://github.com/fakenmc/cf4ocl/blob/master/COPYING
-  [31-1]: https://github.com/fakenmc/cf4ocl
-</details>
-
 <a id="crypto"></a>
 <details>
   <summary>Cryptography</summary>
@@ -4054,6 +4027,33 @@ Engines, libraries and other helpful things specifically for making games.
 </details>
 
 --------------------------------------------------------------------------------
+
+<a id="opencl"></a>
+<details>
+  <summary>OpenCL</summary>
+
+  ## <a href="#-">`^`</a> OpenCL ##
+
+  OpenCL, CUDA, OpenMP and other similar APIs.
+  * [cf4ocl][31-1] - The C Framework for OpenCL. [`LGPL 3`][31-2]
+  * [clMathLibraries/clRNG][31-3] - an OpenCL based software library containing
+  random number generation functions. [`License`][31-4]
+  * [tuxfan/ocl-mla][31-5] - OpenCL Mid-Level Abstractions. [`License`][31-6]
+  * [matze/oclkit][31-7] - Two-file OpenCL wrapper. [`GPL 3`][31-8]
+  * [emrainey/OpenCL-Environment][31-9] - A series of utilities aimed at making
+  OpenCL easier to use. [`Apache 2`][31-10]
+
+  [31-10]: https://github.com/emrainey/OpenCL-Environment/blob/master/LICENSE-2.0.txt
+  [31-9]: https://github.com/emrainey/OpenCL-Environment
+  [31-8]: https://github.com/matze/oclkit/blob/master/COPYING
+  [31-7]: https://github.com/matze/oclkit
+  [31-6]: https://github.com/tuxfan/ocl-mla/blob/master/LICENSE
+  [31-5]: https://github.com/tuxfan/ocl-mla
+  [31-4]: https://github.com/clMathLibraries/clRNG/blob/master/LICENSE
+  [31-3]: https://github.com/clMathLibraries/clRNG
+  [31-2]: https://github.com/fakenmc/cf4ocl/blob/master/COPYING
+  [31-1]: https://github.com/fakenmc/cf4ocl
+</details>
 
 <a id="os-specifics"></a>
 <details>
