@@ -4229,13 +4229,13 @@ Engines, libraries and other helpful things specifically for making games.
   format in C. [`MIT`][75-17]
   * [cloudwu/pbc][75-18] - A protocol buffers library for C. [`MIT`][75-19]
   * [cloudwu/sproto][75-20] - Yet another protocol library like google protocol
-  buffers , but simple and fast. [`MIT`][75-21]
-  * [dryman/opic](https://github.com/dryman/opic) - Fast serialization framework for C
-  * [fredrikbk/libpack](https://github.com/fredrikbk/libpack) - Library that packs/serializes or unpacks/deserializes user-defined data layouts. The data layouts are specified using datatypes similar to MPI Datatypes. The library compiles the datatypes into efficient vectorized pack/unpack code at commit time using an LLVM-based online compiler.
-  * [google/upb](https://github.com/google/upb) - a small protobuf implementation in C
-  * [greghaynes/Afproto](https://github.com/greghaynes/Afproto) - Serial data framing protocol
-  * [ludocode/mpack](https://github.com/ludocode/mpack) - MPack - A C encoder/decoder for the MessagePack serialization format / msgpack.org[C]
-  * [nanopb/nanopb](https://github.com/nanopb/nanopb) - Protocol Buffers with small code size
+  buffers ,but simple and fast. [`MIT`][75-21]
+  * [dryman/opic][75-22] - Fast serialization framework for C. [`LGPL 3`][75-23]
+  * [google/upb][75-24] - Small protobuf implementation in C. [`BSD 3-Clause`][75-25]
+  * [greghaynes/Afproto][75-26] - Serial data framing protocol. [`License`][75-27]
+  * [ludocode/mpack[75-28] - Encoder/decoder for the MessagePack serialization
+  format. [`MIT`][75-29]
+  * [nanopb/nanopb][75-30] - Protocol Buffers with small code size. [`Zlib`][75-31]
   * [rfk/tnetstring](https://github.com/rfk/tnetstring) - data serialization using typed netstrings
   * [troydhanson/tpl](https://github.com/troydhanson/tpl) - tpl - a small binary serialization library for C
   * [alexanderchuranov/Metaresc](https://github.com/alexanderchuranov/Metaresc) - META data and RESource library for  C language
@@ -4243,6 +4243,16 @@ Engines, libraries and other helpful things specifically for making games.
   * [clibs/dumpasn1](https://github.com/clibs/dumpasn1) - Display the contents of ASN.1 encoded data
   * [vlm/asn1c](https://github.com/vlm/asn1c) - The ASN.1 Compiler
 
+  [75-31]: https://github.com/nanopb/nanopb/blob/master/LICENSE.txt
+  [75-30]: https://github.com/nanopb/nanopb
+  [75-29]: https://github.com/ludocode/mpack/blob/develop/LICENSE
+  [75-28]: https://github.com/ludocode/mpack
+  [75-27]: https://github.com/greghaynes/Afproto/blob/master/LICENSE
+  [75-26]: https://github.com/greghaynes/Afproto
+  [75-25]: https://github.com/protocolbuffers/upb/blob/master/LICENSE
+  [75-24]: https://github.com/protocolbuffers/upb
+  [75-23]: https://github.com/dryman/opic/blob/master/COPYING
+  [75-22]: https://github.com/dryman/opic
   [75-21]: https://github.com/cloudwu/sproto/blob/master/LICENSE
   [75-20]: https://github.com/cloudwu/sproto
   [75-19]: https://github.com/cloudwu/pbc/blob/master/license.txt
