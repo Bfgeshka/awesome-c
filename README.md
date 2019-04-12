@@ -4676,21 +4676,29 @@ Engines, libraries and other helpful things specifically for making games.
 
   ## <a href="#-">`^`</a> TUI ##
   Textual User Interface
-  * [sabotage-linux/netbsd-curses][82-1] - Simplified and small version of ncurses, with the same
-  interface. [`Licenses`][82-2]
-  * [ncurses][373] - Coloured terminal UI library. [``MIT``][MIT]
-  * [bartobri/bmenu](https://github.com/bartobri/bmenu) - A generic terminal menu written in C.
-  * [doches/progressbar](https://github.com/doches/progressbar) - An easy-to-use C library for displaying text progress bars.
-  * [hpjansson/chafa](https://github.com/hpjansson/chafa) - Terminal graphics for the 21st century.
-  * [jwerle/progress.c](https://github.com/jwerle/progress.c) - Progress display lib for c
-  * [nsf/termbox](https://github.com/nsf/termbox) - Library for writing text-based user interfaces
-  * [alandekok/recli](https://github.com/alandekok/recli) - A re-imagined CLI.  Customizable syntax, help, permissions, data types.
+  * [sabotage-linux/netbsd-curses][82-1] - Simplified and small version of
+  curses, with the same interface. [`Licenses`][82-2]
+  * [ncurses][82-3] - Coloured terminal UI library. [`Licenses`][82-4]
+  * [doches/progressbar][82-5] - An easy-to-use C library for displaying text
+  progress bars. [`BSD 3-Clause`][82-6]
+  * [jwerle/progress.c][82-7] - Progress display lib for c. [`MIT`][82-8]
+  * [nsf/termbox][82-9] - Library for writing text-based user interfaces. [`MIT`][82-10]
+  * [alandekok/recli][82-11] - A re-imagined CLI.  Customizable syntax, help,
+  permissions, data types. [`BSD 2-Clause`][82-12]
 
+  [82-12]: https://github.com/alandekok/recli/blob/master/LICENSE
+  [82-11]: https://github.com/alandekok/recli
+  [82-10]: https://github.com/nsf/termbox/blob/master/COPYING
+  [82-9]: https://github.com/nsf/termbox
+  [82-8]: https://github.com/jwerle/progress.c#license
+  [82-7]: https://github.com/jwerle/progress.c
+  [82-6]: https://github.com/doches/progressbar/blob/master/LICENSE
+  [82-5]: https://github.com/doches/progressbar
+  [82-4]: https://invisible-island.net/ncurses/ncurses-license.html
+  [82-3]: https://gnu.org/software/ncurses/
   [82-2]: https://github.com/sabotage-linux/netbsd-curses/blob/master/COPYING
   [82-1]: https://github.com/sabotage-linux/netbsd-curses
 </details>
-
-[424]: http://coap.technology/
 
 --------------------------------------------------------------------------------
 
@@ -4712,6 +4720,8 @@ Engines, libraries and other helpful things specifically for making games.
 * [juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders) - C, C++ headers and C# classes for icon fonts: Font Awesome, Fork Awesome, Material Design, Material Design icons, Kenney game icons and Ionicons.
 * [eam/libcrange](https://github.com/eam/libcrange) - Range parsing library for managing sets of hostnames, ips, clusters, roles and other operational data.
 
+
+[424]: http://coap.technology/
 [484]: https://www.codeproject.com/Articles/6154/Writing-Efficient-C-and-C-Code-Optimization
 [483]: https://docs.google.com/presentation/d/1h49gY3TSiayLMXYmRMaAEMl05FaJ-Z6jDOWOz3EsqqQ/edit?pli=1#slide=id.p
 [482]: https://www.chiark.greenend.org.uk/~sgtatham/mp/
@@ -4769,7 +4779,6 @@ Engines, libraries and other helpful things specifically for making games.
 [378]: https://github.com/riolet/WAFer
 [377]: http://www.pell.portland.or.us/~orc/Code/discount/
 [374]: https://github.com/nsf/termbox
-[373]: https://gnu.org/software/ncurses/
 [371]: https://github.com/doches/progressbar
 
 
