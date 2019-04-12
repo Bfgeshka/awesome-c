@@ -4209,49 +4209,44 @@ Engines, libraries and other helpful things specifically for making games.
   [74-1]: https://github.com/kkos/oniguruma
 </details>
 
-## Serialization ##
-* [binn][280] - Binary serialization format, meant to be compact, fast and
-  easy-to-use. [``Apache-2.0``][Apache-2.0]
-* [c-capnproto][281] - Implementation of the Cap'n Proto serialization protocol. [``MIT``][MIT]
-* [cmp][282] - Implementation of the [MessagePack][283] serialization protocol. [``MIT``][MIT]
-* [flatcc][284] - [FlatBuffers][285] compiler and library. [``Apache-2.0``][Apache-2.0]
-* [libavro][286] - Implementation of the Avro data serialization system. [``Apache-2.0``][Apache-2.0]
-* [mpack][287] - Another implementation of the [MessagePack][283] serialization
-  protocol. [``MIT``][MIT]
-* [OPIC][288] - Object Persistence in C; a revolutionary serialization
+<a id="serialization"></a>
+<details>
+  <summary>Serialization</summary>
+
+  ## <a href="#-">`^`</a> Serialization ##
+  * [flatcc][284] - [FlatBuffers][285] compiler and library. [``Apache-2.0``][Apache-2.0]
+  * [OPIC][288] - Object Persistence in C; a revolutionary serialization
   framework, with matching on-disk and in-memory representations. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [protobuf-c][289] - Implementation of Google Protocol Buffer. [``BSD-2-Clause``][BSD-2-Clause]
-* [tpl][290] - Small binary serialization library. [``MIT``][MIT]
-* [xdr][291] - External Data Representation; a standard for data serialization.
-  Standard (no license applicable).
-* [pbc][437] - Protocol buffers library. [``MIT``][MIT]
-* [binn](https://github.com/liteserver/binn) - Binary serialization format meant to be compact, fast and easy-to-use. [`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
-* [c-capnproto](https://github.com/jmckaskill/c-capnproto) - Implementation of the Cap'n Proto serialization protocol. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-* [cmp](https://github.com/camgunz/cmp) - Implementation of the [MessagePack](https://msgpack.org/) serialization protocol. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-* [libavro](http://avro.apache.org/docs/current/api/c/index.html#_introduction_to_avro_c) - C implementation of the Avro data serialization system. [`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
-* [mpack](https://github.com/ludocode/mpack) - Another implementation of the [MessagePack](https://msgpack.org/) serialization protocol. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-* [netstring-c](https://github.com/liteserver/netstring-c) - Netstring encoder and decoder. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
-* [protobuf-c](https://github.com/protobuf-c/protobuf-c) - Implementation of Google Protocol Buffer in C. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
-* [xdr](https://en.wikipedia.org/wiki/External_Data_Representation) - External Data Representation; a standard for data serialization.
-* [ErikDubbelboer/c-pack](https://github.com/ErikDubbelboer/c-pack) - Simple data packing/unpacking in C
-* [Xsoda/struct](https://github.com/Xsoda/struct) - pack and unpack packet data like python struct module.
-* [acg/lwpb](https://github.com/acg/lwpb) - Lightweight Protocol Buffers for C and Python
-* [camgunz/cmp](https://github.com/camgunz/cmp) - An implementation of the MessagePack serialization format in C / msgpack.org[C]
-* [cloudwu/atomdict](https://github.com/cloudwu/atomdict) - A data structure for data exchange between multi lua states.
-* [cloudwu/pbc](https://github.com/cloudwu/pbc) - A protocol buffers library for C
-* [cloudwu/sproto](https://github.com/cloudwu/sproto) - Yet another protocol library like google protocol buffers , but simple and fast.
-* [dryman/opic](https://github.com/dryman/opic) - Fast serialization framework for C
-* [fredrikbk/libpack](https://github.com/fredrikbk/libpack) - Library that packs/serializes or unpacks/deserializes user-defined data layouts. The data layouts are specified using datatypes similar to MPI Datatypes. The library compiles the datatypes into efficient vectorized pack/unpack code at commit time using an LLVM-based online compiler.
-* [google/upb](https://github.com/google/upb) - a small protobuf implementation in C
-* [greghaynes/Afproto](https://github.com/greghaynes/Afproto) - Serial data framing protocol
-* [ludocode/mpack](https://github.com/ludocode/mpack) - MPack - A C encoder/decoder for the MessagePack serialization format / msgpack.org[C]
-* [nanopb/nanopb](https://github.com/nanopb/nanopb) - Protocol Buffers with small code size
-* [rfk/tnetstring](https://github.com/rfk/tnetstring) - data serialization using typed netstrings
-* [troydhanson/tpl](https://github.com/troydhanson/tpl) - tpl - a small binary serialization library for C
-* [alexanderchuranov/Metaresc](https://github.com/alexanderchuranov/Metaresc) - META data and RESource library for  C language
-* [asnlc](http://lionet.info/asn1c/compiler.html) - Compiler of ASN.1 specifications into C source code. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
-* [clibs/dumpasn1](https://github.com/clibs/dumpasn1) - Display the contents of ASN.1 encoded data
-* [vlm/asn1c](https://github.com/vlm/asn1c) - The ASN.1 Compiler
+  * [tpl][290] - Small binary serialization library. [``MIT``][MIT]
+  * [pbc][437] - Protocol buffers library. [``MIT``][MIT]
+  * [binn](https://github.com/liteserver/binn) - Binary serialization format meant to be compact, fast and easy-to-use. [`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
+  * [c-capnproto](https://github.com/jmckaskill/c-capnproto) - Implementation of the Cap'n Proto serialization protocol. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
+  * [cmp](https://github.com/camgunz/cmp) - Implementation of the [MessagePack](https://msgpack.org/) serialization protocol. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
+  * [libavro](http://avro.apache.org/docs/current/api/c/index.html#_introduction_to_avro_c) - C implementation of the Avro data serialization system. [`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
+  * [mpack](https://github.com/ludocode/mpack) - Another implementation of the [MessagePack](https://msgpack.org/) serialization protocol. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
+  * [netstring-c](https://github.com/liteserver/netstring-c) - Netstring encoder and decoder. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
+  * [protobuf-c](https://github.com/protobuf-c/protobuf-c) - Implementation of Google Protocol Buffer in C. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
+  * [xdr](https://en.wikipedia.org/wiki/External_Data_Representation) - External Data Representation; a standard for data serialization.
+  * [ErikDubbelboer/c-pack](https://github.com/ErikDubbelboer/c-pack) - Simple data packing/unpacking in C
+  * [Xsoda/struct](https://github.com/Xsoda/struct) - pack and unpack packet data like python struct module.
+  * [acg/lwpb](https://github.com/acg/lwpb) - Lightweight Protocol Buffers for C and Python
+  * [camgunz/cmp](https://github.com/camgunz/cmp) - An implementation of the MessagePack serialization format in C / msgpack.org[C]
+  * [cloudwu/atomdict](https://github.com/cloudwu/atomdict) - A data structure for data exchange between multi lua states.
+  * [cloudwu/pbc](https://github.com/cloudwu/pbc) - A protocol buffers library for C
+  * [cloudwu/sproto](https://github.com/cloudwu/sproto) - Yet another protocol library like google protocol buffers , but simple and fast.
+  * [dryman/opic](https://github.com/dryman/opic) - Fast serialization framework for C
+  * [fredrikbk/libpack](https://github.com/fredrikbk/libpack) - Library that packs/serializes or unpacks/deserializes user-defined data layouts. The data layouts are specified using datatypes similar to MPI Datatypes. The library compiles the datatypes into efficient vectorized pack/unpack code at commit time using an LLVM-based online compiler.
+  * [google/upb](https://github.com/google/upb) - a small protobuf implementation in C
+  * [greghaynes/Afproto](https://github.com/greghaynes/Afproto) - Serial data framing protocol
+  * [ludocode/mpack](https://github.com/ludocode/mpack) - MPack - A C encoder/decoder for the MessagePack serialization format / msgpack.org[C]
+  * [nanopb/nanopb](https://github.com/nanopb/nanopb) - Protocol Buffers with small code size
+  * [rfk/tnetstring](https://github.com/rfk/tnetstring) - data serialization using typed netstrings
+  * [troydhanson/tpl](https://github.com/troydhanson/tpl) - tpl - a small binary serialization library for C
+  * [alexanderchuranov/Metaresc](https://github.com/alexanderchuranov/Metaresc) - META data and RESource library for  C language
+  * [asnlc](http://lionet.info/asn1c/compiler.html) - Compiler of ASN.1 specifications into C source code. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
+  * [clibs/dumpasn1](https://github.com/clibs/dumpasn1) - Display the contents of ASN.1 encoded data
+  * [vlm/asn1c](https://github.com/vlm/asn1c) - The ASN.1 Compiler
+</details>
 
 ## Source Code Collections ##
 * [CCAN][292] - Modelled after Perl's CPAN, this is a big collection of code.
