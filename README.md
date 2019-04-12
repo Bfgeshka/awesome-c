@@ -4523,15 +4523,13 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>String Manipulation</summary>
 
   ## <a href="#-">`^`</a> String Manipulation ##
-  * [levenstein.c][311] - [Levenstein distance][312] algorithm implementation. [``MIT``][MIT]
-  * [stmr.c][318] - [Porter Stemmer][319] algorithm implementation. [``MIT``][MIT]
-  * [utf8.h][320] - Single-header UTF-8 library, designed to mimic C-style string
-  functions. Public domain.
-  * [bstrlib](http://bstring.sourceforge.net/) - The Better String Library. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause) and [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-  * [ICU](http://site.icu-project.org/) - International Components for Unicode; a library for Unicode support. [`ICU license`](http://source.icu-project.org/repos/icu/icu/tags/latest/LICENSE)
-  * [libunistring](https://www.gnu.org/software/libunistring/) - Library for manipulating Unicode strings in C. [`GNU LGPL3`](http://www.gnu.org/licenses/lgpl.html)
-  * [libgiconv](https://www.gnu.org/software/libiconv/) - Text conversion library. [`GNU LGPL2.1 (library)`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html) or [`GNU GPL3 (*iconv* program)`](http://www.gnu.org/licenses/gpl.html)
-  * [SDS](https://github.com/antirez/sds) - Simple Dynamic Strings; a library for handling C strings in a simpler way, but one that is compatible with normal C string functions. Available via [clib](https://github.com/clibs/clib). [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
+  * [wooorm/levenstein.c][80-1] - Levenstein distance algorithm implementation. [`MIT`][80-2]
+  * [wooorm/stmr.c][80-3] - Porter Stemmer algorithm implementation. [`MIT`][80-4]
+  * [websnarf/bstrlib][80-5]- The Better String Library. [`BSD 3-Clause`][80-6]
+  * [ICU][80-7] - International Components for Unicode; a library for Unicode
+  support. [`License`][80-8]
+  * [libunistring][80-9] - Library for manipulating Unicode strings in C. [`Licenses`][80-10]
+  * [libgiconv][80-11] - Text conversion library. [`LGPL`][80-12]
   * [shoco](http://ed-von-schleck.github.io/shoco/) - Compressor for small text strings. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
   * [utf8proc](https://github.com/JuliaStrings/utf8proc) - Small, clean library for processing UTF-8 Unicode data. [`License`](https://github.com/JuliaStrings/utf8proc/blob/master/LICENSE.md)
   * [antirez/sds](https://github.com/antirez/sds) - Simple Dynamic Strings library for C
@@ -4545,6 +4543,19 @@ Engines, libraries and other helpful things specifically for making games.
   * [josephg/librope](https://github.com/josephg/librope) - UTF-8 rope library for C
   * [sheredom/utf8.h](https://github.com/sheredom/utf8.h) - single header utf8 string functions for C and C++
   * [branchless-utf8](https://github.com/skeeto/branchless-utf8) - Branchless UTF-8 decoder
+
+  [80-12]: https://www.gnu.org/software/libiconv/
+  [80-11]: https://www.gnu.org/software/libiconv/
+  [80-10]: http://git.savannah.gnu.org/cgit/libunistring.git/tree/
+  [80-9]: https://www.gnu.org/software/libunistring/
+  [80-8]: http://userguide.icu-project.org/icufaq
+  [80-7]: http://site.icu-project.org/
+  [80-6]: https://github.com/websnarf/bstrlib/blob/master/LICENSE
+  [80-5]: https://github.com/websnarf/bstrlib
+  [80-4]: https://github.com/wooorm/stmr.c/blob/master/LICENSE
+  [80-3]: https://github.com/wooorm/stmr.c
+  [80-2]: https://github.com/wooorm/levenshtein.c/blob/master/license
+  [80-1]: https://github.com/wooorm/levenshtein.c
 </details>
 
 ## Testing ##
@@ -4726,14 +4737,12 @@ Textual User Interface
 [321]: https://github.com/JuliaLang/utf8proc
 [320]: https://github.com/sheredom/utf8.h
 [319]: http://tartarus.org/martin/PorterStemmer/
-[318]: https://github.com/wooorm/stmr.c
 [317]: https://github.com/antirez/sds
 [316]: https://boyerjohn.github.io/rapidstring/index.html
 [315]: https://github.com/josephg/librope
 [314]: https://gnu.org/software/libiconv/
 [313]: https://gnu.org/software/libunistring/
 [312]: https://en.wikipedia.org/wiki/Levenshtein_distance
-[311]: https://github.com/wooorm/levenshtein.c
 [310]: http://site.icu-project.org/
 [309]: http://mike.steinert.ca/bstring/
 
