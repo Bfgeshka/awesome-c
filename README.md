@@ -4518,32 +4518,34 @@ Engines, libraries and other helpful things specifically for making games.
   [79-1]: https://rootdirectory.ddns.net/dokuwiki/doku.php?id=pdclib:start
 </details>
 
-## String Manipulation ##
-* [levenstein.c][311] - [Levenstein distance][312] algorithm implementation. [``MIT``][MIT].
-* [librope][315] - UTF-8 rope ('heavy' string) library. [``MIT``][MIT]
-* [stmr.c][318] - [Porter Stemmer][319] algorithm implementation. [``MIT``][MIT]
-* [utf8.h][320] - Single-header UTF-8 library, designed to mimic C-style string
+<a id="string-manipulation"></a>
+<details>
+  <summary>String Manipulation</summary>
+
+  ## <a href="#-">`^`</a> String Manipulation ##
+  * [levenstein.c][311] - [Levenstein distance][312] algorithm implementation. [``MIT``][MIT]
+  * [stmr.c][318] - [Porter Stemmer][319] algorithm implementation. [``MIT``][MIT]
+  * [utf8.h][320] - Single-header UTF-8 library, designed to mimic C-style string
   functions. Public domain.
-* [bstrlib](http://bstring.sourceforge.net/) - The Better String Library. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause) and [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-* [ICU](http://site.icu-project.org/) - International Components for Unicode; a library for Unicode support. [`ICU license`](http://source.icu-project.org/repos/icu/icu/tags/latest/LICENSE)
-* [libunistring](https://www.gnu.org/software/libunistring/) - Library for manipulating Unicode strings in C. [`GNU LGPL3`](http://www.gnu.org/licenses/lgpl.html)
-* [libgiconv](https://www.gnu.org/software/libiconv/) - Text conversion library. [`GNU LGPL2.1 (library)`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html) or [`GNU GPL3 (*iconv* program)`](http://www.gnu.org/licenses/gpl.html)
-* [SDS](https://github.com/antirez/sds) - Simple Dynamic Strings; a library for handling C strings in a simpler way, but one that is compatible with normal C string functions. Available via [clib](https://github.com/clibs/clib). [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
-* [shoco](http://ed-von-schleck.github.io/shoco/) - Compressor for small text strings. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-* [utf8.h](https://github.com/sheredom/utf8.h) - Single header utf8 string functions. [`Unlicense`](http://unlicense.org/)
-* [utf8proc](https://github.com/JuliaStrings/utf8proc) - Small, clean library for processing UTF-8 Unicode data. [`License`](https://github.com/JuliaStrings/utf8proc/blob/master/LICENSE.md)
-* [JuliaStrings/utf8proc](https://github.com/JuliaStrings/utf8proc) - a clean C library for processing UTF-8 Unicode data
-* [antirez/sds](https://github.com/antirez/sds) - Simple Dynamic Strings library for C
-* [boyerjohn/rapidstring](https://github.com/boyerjohn/rapidstring) - Maybe the fastest string library ever.
-* [clibs/buffer](https://github.com/clibs/buffer) - Tiny C string library
-* [cloudwu/cstring](https://github.com/cloudwu/cstring) - A simple C string lib
-* [chrisjmccormick/word2vec_commented](https://github.com/chrisjmccormick/word2vec_commented) - Commented (but unaltered) version of original word2vec C implementation.
-* [flori/amatch](https://github.com/flori/amatch) - Approximate String Matching library
-* [fontforge/libuninameslist](https://github.com/fontforge/libuninameslist) - A library with a large (sparse) array mapping each unicode code point to the annotation data for it provided in http://www.unicode.org/Public/UNIDATA/NamesList.txt
-* [jasonmaclafferty/String](https://github.com/jasonmaclafferty/String) - A dynamic string data type implementation for C.
-* [josephg/librope](https://github.com/josephg/librope) - UTF-8 rope library for C
-* [sheredom/utf8.h](https://github.com/sheredom/utf8.h) - single header utf8 string functions for C and C++
-* [branchless-utf8](https://github.com/skeeto/branchless-utf8) - Branchless UTF-8 decoder
+  * [bstrlib](http://bstring.sourceforge.net/) - The Better String Library. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause) and [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+  * [ICU](http://site.icu-project.org/) - International Components for Unicode; a library for Unicode support. [`ICU license`](http://source.icu-project.org/repos/icu/icu/tags/latest/LICENSE)
+  * [libunistring](https://www.gnu.org/software/libunistring/) - Library for manipulating Unicode strings in C. [`GNU LGPL3`](http://www.gnu.org/licenses/lgpl.html)
+  * [libgiconv](https://www.gnu.org/software/libiconv/) - Text conversion library. [`GNU LGPL2.1 (library)`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html) or [`GNU GPL3 (*iconv* program)`](http://www.gnu.org/licenses/gpl.html)
+  * [SDS](https://github.com/antirez/sds) - Simple Dynamic Strings; a library for handling C strings in a simpler way, but one that is compatible with normal C string functions. Available via [clib](https://github.com/clibs/clib). [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
+  * [shoco](http://ed-von-schleck.github.io/shoco/) - Compressor for small text strings. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
+  * [utf8proc](https://github.com/JuliaStrings/utf8proc) - Small, clean library for processing UTF-8 Unicode data. [`License`](https://github.com/JuliaStrings/utf8proc/blob/master/LICENSE.md)
+  * [antirez/sds](https://github.com/antirez/sds) - Simple Dynamic Strings library for C
+  * [boyerjohn/rapidstring](https://github.com/boyerjohn/rapidstring) - Maybe the fastest string library ever.
+  * [clibs/buffer](https://github.com/clibs/buffer) - Tiny C string library
+  * [cloudwu/cstring](https://github.com/cloudwu/cstring) - A simple C string lib
+  * [chrisjmccormick/word2vec_commented](https://github.com/chrisjmccormick/word2vec_commented) - Commented (but unaltered) version of original word2vec C implementation.
+  * [flori/amatch](https://github.com/flori/amatch) - Approximate String Matching library
+  * [fontforge/libuninameslist](https://github.com/fontforge/libuninameslist) - A library with a large (sparse) array mapping each unicode code point to the annotation data for it provided in http://www.unicode.org/Public/UNIDATA/NamesList.txt
+  * [jasonmaclafferty/String](https://github.com/jasonmaclafferty/String) - A dynamic string data type implementation for C.
+  * [josephg/librope](https://github.com/josephg/librope) - UTF-8 rope library for C
+  * [sheredom/utf8.h](https://github.com/sheredom/utf8.h) - single header utf8 string functions for C and C++
+  * [branchless-utf8](https://github.com/skeeto/branchless-utf8) - Branchless UTF-8 decoder
+</details>
 
 ## Testing ##
 * [CHEAT][340] - Simple unit testing framework. [``BSD-2-Clause``][BSD-2-Clause]
