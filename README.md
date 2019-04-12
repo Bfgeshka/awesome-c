@@ -4537,12 +4537,24 @@ Engines, libraries and other helpful things specifically for making games.
   * [clibs/buffer][80-19] - Tiny C string library. [`MIT`][80-20]
   * [chrisjmccormick/word2vec_commented][80-21] - Commented (but unaltered)
   version of original word2vec C implementation. [`Apache 2`][80-22]
-  * [fontforge/libuninameslist](https://github.com/fontforge/libuninameslist) - A library with a large (sparse) array mapping each unicode code point to the annotation data for it provided in http://www.unicode.org/Public/UNIDATA/NamesList.txt
-  * [jasonmaclafferty/String](https://github.com/jasonmaclafferty/String) - A dynamic string data type implementation for C.
-  * [josephg/librope](https://github.com/josephg/librope) - UTF-8 rope library for C
-  * [sheredom/utf8.h](https://github.com/sheredom/utf8.h) - single header utf8 string functions for C and C++
-  * [branchless-utf8](https://github.com/skeeto/branchless-utf8) - Branchless UTF-8 decoder
+  * [fontforge/libuninameslist][80-23] - A library with a large (sparse) array
+  mapping each unicode code point to the annotation data for it. [`BSD 3-Clause`][80-24]
+  * [jasonmaclafferty/String][80-25] - Dynamic string data type implementation. [`MIT`][80-26]
+  * [josephg/librope][80-27] - UTF-8 rope library for C. [`MIT`][80-28]
+  * [sheredom/utf8.h][80-29] - Single header utf8 string functions for C
+  and C++. [`Unlicense`][80-30]
+  * [branchless-utf8][80-31] - Branchless UTF-8 decoder. [`Unlicense`][80-32]
 
+  [80-32]: https://github.com/skeeto/branchless-utf8/blob/master/UNLICENSE
+  [80-31]: https://github.com/skeeto/branchless-utf8
+  [80-30]: https://github.com/sheredom/utf8.h/blob/master/LICENSE
+  [80-29]: https://github.com/sheredom/utf8.h
+  [80-28]: https://github.com/josephg/librope/blob/master/LICENSE
+  [80-27]: https://github.com/josephg/librope
+  [80-26]: https://github.com/jasonmaclafferty/String/blob/master/LICENSE.TXT
+  [80-25]: https://github.com/jasonmaclafferty/String
+  [80-24]: https://github.com/fontforge/libuninameslist/blob/master/LICENSE
+  [80-23]: https://github.com/fontforge/libuninameslist
   [80-22]: https://github.com/chrisjmccormick/word2vec_commented/blob/master/LICENSE
   [80-21]: https://github.com/chrisjmccormick/word2vec_commented
   [80-20]: https://github.com/clibs/buffer#license
