@@ -4702,23 +4702,28 @@ Engines, libraries and other helpful things specifically for making games.
 
 --------------------------------------------------------------------------------
 
-# Uncategorized #
-* [tm][432] -  Timer and Timeline Utils for C. [``MIT``][MIT]
-* [libgit2](https://libgit2.org/) - Pure C implementation of Git. [`GNU GPL2 only, with a linking exception`](https://github.com/libgit2/libgit2/blob/master/COPYING)
-* [ThomasHabets/monotonic_clock](https://github.com/ThomasHabets/monotonic_clock) - Portable C library for getting monotonic time
-* [ellson/graphviz](https://github.com/ellson/graphviz) - Graph Visualization Tools
-* [elvismt/slope](https://github.com/elvismt/slope) - A library to create charts from raw data using cairo. Can be shown in GtkDrawingArea
-* [h2non/semver.c](https://github.com/h2non/semver.c) - semantic version parser and serializer written in ANSI C
-* [libical/libical](https://github.com/libical/libical) - Libical is an Open Source implementation of the iCalendar protocols and protocol data units.
-* [jonpe960/ufsm](https://github.com/jonpe960/ufsm) - UML Statechart library in C and XMI importer
-* [locasto/libdisorder](https://github.com/locasto/libdisorder) - A simple C library for entropy measurement of byte streams and other data.
-* [lucasb-eyer/heatmap](https://github.com/lucasb-eyer/heatmap) - High performance C heatmap generation library. Supposed to be wrapped by higher-level languages.
-* [tailhook/objpath](https://github.com/tailhook/objpath) - A library that allows to traverse data structures by path
-* [vmg/houdini](https://github.com/vmg/houdini) - The Escapist
-* [luke-jr/bfgminer](https://github.com/luke-jr/bfgminer) - Modular ASIC/FPGA miner written in C, featuring overclocking, monitoring, fan speed control and remote interface capabilities.
-* [pornin/CTTK](https://github.com/pornin/CTTK) - Constant-Time Toolkit
-* [juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders) - C, C++ headers and C# classes for icon fonts: Font Awesome, Fork Awesome, Material Design, Material Design icons, Kenney game icons and Ionicons.
-* [eam/libcrange](https://github.com/eam/libcrange) - Range parsing library for managing sets of hostnames, ips, clusters, roles and other operational data.
+<a id="uncategorized"></a>
+<details>
+  <summary>Uncategorized</summary>
+
+  # <a href="#-">`^`</a> Uncategorized #
+  * [tm][432] -  Timer and Timeline Utils for C. [``MIT``][MIT]
+  * [libgit2](https://libgit2.org/) - Pure C implementation of Git. [`GNU GPL2 only, with a linking exception`](https://github.com/libgit2/libgit2/blob/master/COPYING)
+  * [ThomasHabets/monotonic_clock](https://github.com/ThomasHabets/monotonic_clock) - Portable C library for getting monotonic time
+  * [ellson/graphviz](https://github.com/ellson/graphviz) - Graph Visualization Tools
+  * [elvismt/slope](https://github.com/elvismt/slope) - A library to create charts from raw data using cairo. Can be shown in GtkDrawingArea
+  * [h2non/semver.c](https://github.com/h2non/semver.c) - semantic version parser and serializer written in ANSI C
+  * [libical/libical](https://github.com/libical/libical) - Libical is an Open Source implementation of the iCalendar protocols and protocol data units.
+  * [jonpe960/ufsm](https://github.com/jonpe960/ufsm) - UML Statechart library in C and XMI importer
+  * [locasto/libdisorder](https://github.com/locasto/libdisorder) - A simple C library for entropy measurement of byte streams and other data.
+  * [lucasb-eyer/heatmap](https://github.com/lucasb-eyer/heatmap) - High performance C heatmap generation library. Supposed to be wrapped by higher-level languages.
+  * [tailhook/objpath](https://github.com/tailhook/objpath) - A library that allows to traverse data structures by path
+  * [vmg/houdini](https://github.com/vmg/houdini) - The Escapist
+  * [luke-jr/bfgminer](https://github.com/luke-jr/bfgminer) - Modular ASIC/FPGA miner written in C, featuring overclocking, monitoring, fan speed control and remote interface capabilities.
+  * [pornin/CTTK](https://github.com/pornin/CTTK) - Constant-Time Toolkit
+  * [juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders) - C, C++ headers and C# classes for icon fonts: Font Awesome, Fork Awesome, Material Design, Material Design icons, Kenney game icons and Ionicons.
+  * [eam/libcrange](https://github.com/eam/libcrange) - Range parsing library for managing sets of hostnames, ips, clusters, roles and other operational data.
+</details>
 
 
 [424]: http://coap.technology/
