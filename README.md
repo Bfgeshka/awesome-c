@@ -4670,19 +4670,25 @@ Engines, libraries and other helpful things specifically for making games.
   [81-1]: https://github.com/yhfudev/cpp-ci-unit-test
 </details>
 
-## TUI ##
-Textual User Interface
-* [progressbar][371] - Easy-to-use library for displaying text progress bars. [``BSD-3-Clause``][BSD-3-Clause]
-* [netbsd-curses][372] - Simplified and small version of ncurses, with the same
-  interface. [``BSD-3-Clause``][BSD-3-Clause]
-* [ncurses][373] - Coloured terminal UI library. [``MIT``][MIT]
-* [termbox][374] - Library for writing text-based interfaces. [``MIT``][MIT]
-* [bartobri/bmenu](https://github.com/bartobri/bmenu) - A generic terminal menu written in C.
-* [doches/progressbar](https://github.com/doches/progressbar) - An easy-to-use C library for displaying text progress bars.
-* [hpjansson/chafa](https://github.com/hpjansson/chafa) - Terminal graphics for the 21st century.
-* [jwerle/progress.c](https://github.com/jwerle/progress.c) - Progress display lib for c
-* [nsf/termbox](https://github.com/nsf/termbox) - Library for writing text-based user interfaces
-* [alandekok/recli](https://github.com/alandekok/recli) - A re-imagined CLI.  Customizable syntax, help, permissions, data types.
+<a id="tui"></a>
+<details>
+  <summary>TUI</summary>
+
+  ## <a href="#-">`^`</a> TUI ##
+  Textual User Interface
+  * [sabotage-linux/netbsd-curses][82-1] - Simplified and small version of ncurses, with the same
+  interface. [`Licenses`][82-2]
+  * [ncurses][373] - Coloured terminal UI library. [``MIT``][MIT]
+  * [bartobri/bmenu](https://github.com/bartobri/bmenu) - A generic terminal menu written in C.
+  * [doches/progressbar](https://github.com/doches/progressbar) - An easy-to-use C library for displaying text progress bars.
+  * [hpjansson/chafa](https://github.com/hpjansson/chafa) - Terminal graphics for the 21st century.
+  * [jwerle/progress.c](https://github.com/jwerle/progress.c) - Progress display lib for c
+  * [nsf/termbox](https://github.com/nsf/termbox) - Library for writing text-based user interfaces
+  * [alandekok/recli](https://github.com/alandekok/recli) - A re-imagined CLI.  Customizable syntax, help, permissions, data types.
+
+  [82-2]: https://github.com/sabotage-linux/netbsd-curses/blob/master/COPYING
+  [82-1]: https://github.com/sabotage-linux/netbsd-curses
+</details>
 
 [424]: http://coap.technology/
 
@@ -4764,7 +4770,6 @@ Textual User Interface
 [377]: http://www.pell.portland.or.us/~orc/Code/discount/
 [374]: https://github.com/nsf/termbox
 [373]: https://gnu.org/software/ncurses/
-[372]: https://github.com/sabotage-linux/netbsd-curses
 [371]: https://github.com/doches/progressbar
 
 
