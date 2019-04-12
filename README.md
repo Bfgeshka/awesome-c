@@ -4397,14 +4397,19 @@ Engines, libraries and other helpful things specifically for making games.
   [76-1]: https://github.com/DanielGibson/Snippets/
 </details>
 
-## Scientific ##
-Math mostly located in *Calculations* category
-* [GuillaumeHolley/BloomFilterTrie](https://github.com/GuillaumeHolley/BloomFilterTrie) - A data structure for pan-genome storage
-* [noporpoise/seq_file](https://github.com/noporpoise/seq_file) - Library for Reading Bioinformatic Sequence Data in C
-* [r0nk/corvus](https://github.com/r0nk/corvus) - Genetic BF programming
-* [Netflix/dynomite](https://github.com/Netflix/dynomite) - A generic dynamo implementation for different k-v storage engines
-* [XenonofArcticus/DynamicTrack](https://github.com/XenonofArcticus/DynamicTrack) - Access sources of dynamically-updated data about discrete entities like GPSes, INSes, ADS-B sources.
-* [ericmandel/funtools](https://github.com/ericmandel/funtools) - A "minimal buy-in" FITS library and utility package for astronomical data analysis
+<a id="scientific"></a>
+<details>
+  <summary>Scientific</summary>
+
+  ## <a href="#-">`^`</a> Scientific ##
+  Math mostly located in *Calculations* category
+  * [GuillaumeHolley/BloomFilterTrie](https://github.com/GuillaumeHolley/BloomFilterTrie) - A data structure for pan-genome storage
+  * [noporpoise/seq_file](https://github.com/noporpoise/seq_file) - Library for Reading Bioinformatic Sequence Data in C
+  * [r0nk/corvus](https://github.com/r0nk/corvus) - Genetic BF programming
+  * [Netflix/dynomite](https://github.com/Netflix/dynomite) - A generic dynamo implementation for different k-v storage engines
+  * [XenonofArcticus/DynamicTrack](https://github.com/XenonofArcticus/DynamicTrack) - Access sources of dynamically-updated data about discrete entities like GPSes, INSes, ADS-B sources.
+  * [ericmandel/funtools](https://github.com/ericmandel/funtools) - A "minimal buy-in" FITS library and utility package for astronomical data analysis
+</details>
 
 ## Special Purpose ##
 * [Tulip Indicators][394] - Library of functions for technical analysis of
