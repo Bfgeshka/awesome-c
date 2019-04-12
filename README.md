@@ -3558,7 +3558,10 @@ Engines, libraries and other helpful things specifically for making games.
   * [dmw/caffeine][58-29] - C Application Framework. [`LGPL 2.1`][58-30]
   * [breckinloggins/libuseful][58-31] - A collection of useful data structures,
   algorithms, and utilities for C programming. [`MIT`][58-32]
+  * [erimatnor/libckit][58-33] - A kit of C-based utilities and data structures. [`Apache 2`][58-34]
 
+  [58-34]: https://github.com/erimatnor/libckit/blob/master/COPYING
+  [58-33]: https://github.com/erimatnor/libckit
   [58-32]: https://github.com/breckinloggins/libuseful/blob/master/LICENSE.txt
   [58-31]: https://github.com/breckinloggins/libuseful
   [58-30]: https://github.com/dmw/caffeine/blob/master/COPYING
@@ -4299,16 +4302,19 @@ Engines, libraries and other helpful things specifically for making games.
   linked lists). [`WTFPL`][76-7]
   * [RandyGaul/cute_headers][76-8] - Collection of cross-platform one-file C/C++
   libraries with no dependencies, primarily used for games. [`Licenses`][76-9]
-  * [chadjoan/C-Survival-Kit](https://github.com/chadjoan/C-Survival-Kit) - A set of useful functions, data structures, and macros aimed at allowing more expressive and reliable C code.  Portability targets are OpenVMS and Linux.
-  * [clibs/clib](https://github.com/clibs/clib) - C package manager-ish
-  * [erimatnor/libckit](https://github.com/erimatnor/libckit) - A kit of C-based utilities and data structures.
-  * [floooh/sokol](https://github.com/floooh/sokol) - minimal cross-platform standalone C headers
-  * [gingerBill/gb](https://github.com/gingerBill/gb) - gb single-file public domain libraries for C & C++
-  * [gozfree/libraries](https://github.com/gozfree/libraries) - Basic libraries all written in c by gozfree, including network, event, config, log, hash, ipc, rpc, mem,  and so on
-  * [mackron/dr_libs](https://github.com/mackron/dr_libs) - A collection of public domain single-file libraries for C/C++.
-  * [mattiasgustavsson/libs](https://github.com/mattiasgustavsson/libs) - Single-file public domain libraries for C/C++
-  * [matteobertozzi/carthage](https://github.com/matteobertozzi/carthage) - Pure C Data Structure and Utils
-  * [napsy/libhelper](https://github.com/napsy/libhelper) - General functions and data structures for C
+  * [chadjoan/C-Survival-Kit][76-10] - A set of useful functions, data
+  structures, and macros aimed at allowing more expressive and reliable C code.
+  Portability targets are OpenVMS and Linux. [`Boost`][76-11]
+  * [floooh/sokol][76-12] - Minimal cross-platform standalone C headers. [`Zlib`][76-13]
+  * [gingerBill/gb][76-14] - Single-file public domain libraries for C & C++. [`Public domain`][76-15]
+  * [gozfree/libraries][76-16] - Basic libraries all written in c by gozfree,
+  including network, event, config, log, hash, ipc, rpc, mem, and so on. [`MIT`][76-17]
+  * [mackron/dr_libs][76-18] - A collection of public domain single-file
+  libraries for C/C++. [`Public domain`][76-19]
+  * [mattiasgustavsson/libs][76-20] - Single-file public domain libraries for
+  C/C++. [`Public domain`][76-21]
+  * [matteobertozzi/carthage][76-22] - Pure C Data Structure and Utils. [`BSD`][76-23]
+  * [napsy/libhelper][76-24] - General functions and data structures for C. [`BSD 3-Clause`][76-25]
   * [niklasfrykholm/nflibs](https://github.com/niklasfrykholm/nflibs) - A collection of interoperable minimalistic C libraries
   * [nothings/stb](https://github.com/nothings/stb) - stb single-file public domain libraries for C/C++
   * [prideout/par](https://github.com/prideout/par) - single-file C libraries from Philip Allan Rideout
@@ -4330,6 +4336,22 @@ Engines, libraries and other helpful things specifically for making games.
   * [attractivechaos/klib](https://github.com/attractivechaos/klib) - Small and lightweight implementations of common algorithms and data structures. [`MIT`](https://github.com/attractivechaos/klib/#overview)
   * [happyfish100/libfastcommon](https://github.com/happyfish100/libfastcommon) - c common functions library extracted from my open source project FastDFS. this library is very simple and stable.  functions including: string, logger, chain, hash, socket, ini file reader, base64 encode / decode, url encode / decode, fast timer, skiplist, object pool etc. detail info please see the c header files.
 
+  [76-25]: https://github.com/napsy/libhelper/blob/master/LICENSE
+  [76-24]: https://github.com/napsy/libhelper
+  [76-23]: https://github.com/matteobertozzi/carthage
+  [76-22]: https://github.com/matteobertozzi/carthage
+  [76-21]: https://github.com/mattiasgustavsson/libs#libs
+  [76-20]: https://github.com/mattiasgustavsson/libs
+  [76-19]: https://github.com/mackron/dr_libs
+  [76-18]: https://github.com/mackron/dr_libs
+  [76-17]: https://github.com/gozfree/gear-lib/blob/master/LICENSE.MIT
+  [76-16]: https://github.com/gozfree/gear-lib
+  [76-15]: https://github.com/gingerBill/gb#whats-the-license
+  [76-14]: https://github.com/gingerBill/gb
+  [76-13]: https://github.com/floooh/sokol/blob/master/LICENSE
+  [76-12]: https://github.com/floooh/sokol
+  [76-11]: https://github.com/chadjoan/C-Survival-Kit/blob/master/license.txt
+  [76-10]: https://github.com/chadjoan/C-Survival-Kit
   [76-9]: https://github.com/RandyGaul/cute_headers#faq
   [76-8]: https://github.com/RandyGaul/cute_headers
   [76-7]: https://github.com/BurntSushi/clibs/blob/master/COPYING
