@@ -4258,7 +4258,7 @@ Engines, libraries and other helpful things specifically for making games.
   * [dryman/opic][75-22] - Fast serialization framework for C. [`LGPL 3`][75-23]
   * [google/upb][75-24] - Small protobuf implementation in C. [`BSD 3-Clause`][75-25]
   * [greghaynes/Afproto][75-26] - Serial data framing protocol. [`License`][75-27]
-  * [ludocode/mpack[75-28] - Encoder/decoder for the MessagePack serialization
+  * [ludocode/mpack][75-28] - Encoder/decoder for the MessagePack serialization
   format. [`MIT`][75-29]
   * [nanopb/nanopb][75-30] - Protocol Buffers with small code size. [`Zlib`][75-31]
   * [troydhanson/tpl][75-32] - Small binary serialization library for C. [`License`][75-33]
