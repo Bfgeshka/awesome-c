@@ -3773,7 +3773,11 @@ Engines, libraries and other helpful things specifically for making games.
   * [hoxnox/rawsock_recv_example][66-11] - SOCK_RAW IPPROTO_UDP socket data
   transmission example. [`BSD 3-Clause`][66-12]
   * [silentbicycle/socket99][66-13] - C99 wrapper for the BSD sockets API. [`ISC`][66-14]
+  * [fastos/fastsocket][66-15] - Fastsocket is a highly scalable socket and its
+  underlying networking implementation of Linux kernel. [`GPL 2`][66-16]
 
+  [66-16]: https://github.com/fastos/fastsocket/blob/master/COPYING
+  [66-15]: https://github.com/fastos/fastsocket
   [66-14]: https://github.com/silentbicycle/socket99#license
   [66-13]: https://github.com/silentbicycle/socket99
   [66-12]: https://github.com/hoxnox/rawsock_recv_example/blob/master/nx_socket.h
@@ -3952,13 +3956,13 @@ Engines, libraries and other helpful things specifically for making games.
   C / PHP / Perl / Python and Node.js - professionally maintained device data. [`License`][70-8]
   * [uriparser/uriparser][70-9] - Strictly RFC 3986-compliant URI parsing and
   handling library. [`BSD 3-Clause`][70-10]
-  * [ElementsProject/lightning](https://github.com/ElementsProject/lightning) - A Lightning Network implementation in C
-  * [boazsegev/c-server-tools](https://github.com/boazsegev/c-server-tools) - Write network services in C using dynamic protocols such as HTTP and Websockets
-  * [c9s/r3](https://github.com/c9s/r3) - libr3 is a high-performance path dispatching library. It compiles your route paths into a prefix tree (trie). By using the constructed prefix trie in the start-up time, you may dispatch your routes with efficiency
-  * [versatica/OverSIP](https://github.com/versatica/OverSIP) - OverSIP: the SIP framework you dreamed about
-  * [libssh2/libssh2](https://github.com/libssh2/libssh2) - the SSH library
-  * [fastos/fastsocket](https://github.com/fastos/fastsocket) - Fastsocket is a highly scalable socket and its underlying networking implementation of Linux kernel.
-  * [rockdaboot/mget](https://github.com/rockdaboot/mget) - Multithreaded metalink/file/website downloader (like Wget) and C library
+  * [c9s/r3][70-11] - High-performance path dispatching library. It compiles
+  your route paths into a prefix tree (trie). By using the constructed prefix
+  trie in the start-up time, you may dispatch your routes with efficiency. [`MIT`][70-12]
+  * [versatica/OverSIP][70-13]- OverSIP: the SIP framework you dreamed about. [`MIT`][70-14]
+  * [libssh2/libssh2][70-15] - the SSH library. [`BSD 3-Clause`][70-16]
+  * [rockdaboot/mget][70-17] - Multithreaded metalink/file/website downloader
+  (like Wget) and C library. [`LGPL 3`][70-18]
   * [seanmiddleditch/libtelnet](https://github.com/seanmiddleditch/libtelnet) - Simple RFC-complient TELNET implementation as a C library.
   * [shadeslayer/libnice](https://github.com/shadeslayer/libnice) - Implementation of the IETF's Interactive Connectivity Establishment (ICE) standard (RFC 5245) and the Session Traversal Utilities for NAT (STUN) standard (RFC 5389).
   * [sustrik/msg_control](https://github.com/sustrik/msg_control) - Helper functions for dealing with socket ancillary data
@@ -3978,6 +3982,14 @@ Engines, libraries and other helpful things specifically for making games.
   * [zeromq/zyre](https://github.com/zeromq/zyre) - Framework for proximity-based peer-to-peer applications. [`License`](https://github.com/zeromq/zyre/blob/master/LICENSE)
   * [japeq/bencode-tools](https://github.com/japeq/bencode-tools) - bencode-tools is a collection of tools for manipulating bencoded data.
 
+  [70-18]: https://github.com/rockdaboot/mget/blob/master/COPYING
+  [70-17]: https://github.com/rockdaboot/mget
+  [70-16]: https://github.com/libssh2/libssh2/blob/master/COPYING
+  [70-15]: https://github.com/libssh2/libssh2
+  [70-14]: https://github.com/versatica/OverSIP/blob/master/LICENSE
+  [70-13]: https://github.com/versatica/OverSIP
+  [70-12]: https://github.com/c9s/r3/blob/2.0/LICENSE
+  [70-11]: https://github.com/c9s/r3
   [70-10]: https://github.com/uriparser/uriparser/blob/master/COPYING
   [70-9]: https://github.com/uriparser/uriparser
   [70-8]: https://github.com/51Degrees/Device-Detection/blob/master/LICENSE
