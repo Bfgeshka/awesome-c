@@ -4236,13 +4236,16 @@ Engines, libraries and other helpful things specifically for making games.
   * [ludocode/mpack[75-28] - Encoder/decoder for the MessagePack serialization
   format. [`MIT`][75-29]
   * [nanopb/nanopb][75-30] - Protocol Buffers with small code size. [`Zlib`][75-31]
-  * [rfk/tnetstring](https://github.com/rfk/tnetstring) - data serialization using typed netstrings
-  * [troydhanson/tpl](https://github.com/troydhanson/tpl) - tpl - a small binary serialization library for C
-  * [alexanderchuranov/Metaresc](https://github.com/alexanderchuranov/Metaresc) - META data and RESource library for  C language
-  * [asnlc](http://lionet.info/asn1c/compiler.html) - Compiler of ASN.1 specifications into C source code. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
-  * [clibs/dumpasn1](https://github.com/clibs/dumpasn1) - Display the contents of ASN.1 encoded data
-  * [vlm/asn1c](https://github.com/vlm/asn1c) - The ASN.1 Compiler
+  * [troydhanson/tpl][75-32] - Small binary serialization library for C. [`License`][75-33]
+  * [clibs/dumpasn1][75-34] - Display the contents of ASN.1 encoded data. [`License`][75-35]
+  * [vlm/asn1c][75-36] - The ASN.1 Compiler. [`BSD 2-Clause`][75-37]
 
+  [75-37]: https://github.com/vlm/asn1c/blob/master/LICENSE
+  [75-36]: https://github.com/vlm/asn1c
+  [75-35]: https://github.com/clibs/dumpasn1/blob/master/dumpasn1.c
+  [75-34]: https://github.com/clibs/dumpasn1
+  [75-33]: https://github.com/troydhanson/tpl/blob/master/LICENSE
+  [75-32]: https://github.com/troydhanson/tpl
   [75-31]: https://github.com/nanopb/nanopb/blob/master/LICENSE.txt
   [75-30]: https://github.com/nanopb/nanopb
   [75-29]: https://github.com/ludocode/mpack/blob/develop/LICENSE
