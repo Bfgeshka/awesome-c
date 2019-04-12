@@ -4279,59 +4279,51 @@ Engines, libraries and other helpful things specifically for making games.
   [75-1]: https://github.com/dvidelabs/flatcc
 </details>
 
-## Source Code Collections ##
-* [CCAN][292] - Modelled after Perl's CPAN, this is a big collection of code.
-  Various licenses, all open source.
-* [clib][293] - Something of a package manager. Comes with a
-  [bunch of libraries of its own][294]. [``MIT``][MIT]
-* [libdjb][295] - Collection of libraries doing various things. (Apparently)
-  public domain.
-* [mmx][296] - Collection of single-header libraries. Various licenses, all
-  open source.
-* [par][297] - Bunch of single-file libraries. [``MIT``][MIT]
-* [Snippets][298] - Useful code snippets and header-only libraries.
+<a id="source-code-collections"></a>
+<details>
+  <summary>Source Code Collections</summary>
+
+  ## <a href="#-">`^`</a> Source Code Collections ##
+  * [Snippets][298] - Useful code snippets and header-only libraries.
   Public domain.
-* [stb][299] - Range of single-file libraries. Public domain.
-* [tinyheaders][300] - Collection of header-only libraries, primarily oriented
+  * [tinyheaders][300] - Collection of header-only libraries, primarily oriented
   toward game development. [``Zlib``][Zlib]
-* [CCAN](http://ccodearchive.net/) - Modelled after Perl's CPAN, this is a big collection of C code that does stuff. The full list is [here](http://ccodearchive.net/list.html).
-* [clib](https://github.com/clibs/clib) - Something of a package manager for C. Comes with a [bunch of libraries of its own](https://github.com/clibs/clib/wiki/Packages). [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-* [gnulib](https://www.gnu.org/software/gnulib/) - Collection of common GNU code.
-* [libdjb](http://www.fefe.de/djb/) - Collection of libraries doing various things. [`(Apparently) Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
-* [BurntSushi/clibs](https://github.com/BurntSushi/clibs) - A smattering of miscellaneous C libraries. Includes sane argument parsing, a thread-safe multi-producer/multi-consumer queue, and implementation of common data structures (hashmaps, vectors and linked lists).
-* [RandyGaul/cute_headers](https://github.com/RandyGaul/cute_headers) - Collection of cross-platform one-file C/C++ libraries with no dependencies, primarily used for games
-* [breckinloggins/libuseful](https://github.com/breckinloggins/libuseful) - A collection of useful data structures, algorithms, and utilities for C programming
-* [chadjoan/C-Survival-Kit](https://github.com/chadjoan/C-Survival-Kit) - A set of useful functions, data structures, and macros aimed at allowing more expressive and reliable C code.  Portability targets are OpenVMS and Linux.
-* [clibs/clib](https://github.com/clibs/clib) - C package manager-ish
-* [erimatnor/libckit](https://github.com/erimatnor/libckit) - A kit of C-based utilities and data structures.
-* [floooh/sokol](https://github.com/floooh/sokol) - minimal cross-platform standalone C headers
-* [gingerBill/gb](https://github.com/gingerBill/gb) - gb single-file public domain libraries for C & C++
-* [gozfree/libraries](https://github.com/gozfree/libraries) - Basic libraries all written in c by gozfree, including network, event, config, log, hash, ipc, rpc, mem,  and so on
-* [mackron/dr_libs](https://github.com/mackron/dr_libs) - A collection of public domain single-file libraries for C/C++.
-* [mattiasgustavsson/libs](https://github.com/mattiasgustavsson/libs) - Single-file public domain libraries for C/C++
-* [matteobertozzi/carthage](https://github.com/matteobertozzi/carthage) - Pure C Data Structure and Utils
-* [napsy/libhelper](https://github.com/napsy/libhelper) - General functions and data structures for C
-* [niklasfrykholm/nflibs](https://github.com/niklasfrykholm/nflibs) - A collection of interoperable minimalistic C libraries
-* [nothings/stb](https://github.com/nothings/stb) - stb single-file public domain libraries for C/C++
-* [prideout/par](https://github.com/prideout/par) - single-file C libraries from Philip Allan Rideout
-* [rmitton/rjm](https://github.com/rmitton/rjm) - Various single-file C libraries.
-* [rustyrussell/ccan](https://github.com/rustyrussell/ccan) - The C Code Archive Network
-* [vurtun/mmx](https://github.com/vurtun/mmx) - single header libraries for C/C++
-* [yl790/algorithms-and-data-structures](https://github.com/yl790/algorithms-and-data-structures) - for future reference
-* [rofl0r/libulz](https://github.com/rofl0r/libulz) - a collection of useful functions and data structures to create C apps faster. focus on simplicity, ability to statically link and minimal binary size.
-* [sdroege/snippets](https://github.com/sdroege/snippets) - Some algorithms and data structures
-* [cirosantilli/cpp-cheat](https://github.com/cirosantilli/cpp-cheat) - C, C++, POSIX and Linux system programming minimal examples. Asserts used wherever possible. Hello worlds for cool third party libraries and build systems. Cheatsheets, tutorials and mini-projects.
-* [lbrito1/cstuff](https://github.com/lbrito1/cstuff) - Algorithms & data structures in C
-* [Krakonos/cutils](https://github.com/Krakonos/cutils) - C utilities and data structures
-* [angelortega/mpdm](https://github.com/angelortega/mpdm) - Minimum Profit Data Manager
-* [harnold/generic-c](https://github.com/harnold/generic-c) - A library of generic data structures and algorithms for C, in the spirit of the STL
-* [pforemski/libpjf](https://github.com/pforemski/libpjf) - A C library of data structures with tools (based on libasn)
-* [rgantt/compsci.c](https://github.com/rgantt/compsci.c) - data structures, algorithms, and musings in C
-* [stevedekorte/basekit](https://github.com/stevedekorte/basekit) - C based OO portable data structure library
-* [rampantpixels/foundation_lib](https://github.com/rampantpixels/foundation_lib) - Cross-platform public domain foundation library in C providing basic support data types and functions to write applications and games in a platform-independent fashion.
-* [attractivechaos/klib](https://github.com/attractivechaos/klib) - Small and lightweight implementations of common algorithms and data structures. [`MIT`](https://github.com/attractivechaos/klib/#overview)
-* [stb](https://github.com/nothings/stb) - Range of single-file libraries for C. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
-* [happyfish100/libfastcommon](https://github.com/happyfish100/libfastcommon) - c common functions library extracted from my open source project FastDFS. this library is very simple and stable.  functions including: string, logger, chain, hash, socket, ini file reader, base64 encode / decode, url encode / decode, fast timer, skiplist, object pool etc. detail info please see the c header files.
+  * [CCAN](http://ccodearchive.net/) - Modelled after Perl's CPAN, this is a big collection of C code that does stuff. The full list is [here](http://ccodearchive.net/list.html).
+  * [libdjb](http://www.fefe.de/djb/) - Collection of libraries doing various things. [`(Apparently) Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
+  * [BurntSushi/clibs](https://github.com/BurntSushi/clibs) - A smattering of miscellaneous C libraries. Includes sane argument parsing, a thread-safe multi-producer/multi-consumer queue, and implementation of common data structures (hashmaps, vectors and linked lists).
+  * [RandyGaul/cute_headers](https://github.com/RandyGaul/cute_headers) - Collection of cross-platform one-file C/C++ libraries with no dependencies, primarily used for games
+  * [breckinloggins/libuseful](https://github.com/breckinloggins/libuseful) - A collection of useful data structures, algorithms, and utilities for C programming
+  * [chadjoan/C-Survival-Kit](https://github.com/chadjoan/C-Survival-Kit) - A set of useful functions, data structures, and macros aimed at allowing more expressive and reliable C code.  Portability targets are OpenVMS and Linux.
+  * [clibs/clib](https://github.com/clibs/clib) - C package manager-ish
+  * [erimatnor/libckit](https://github.com/erimatnor/libckit) - A kit of C-based utilities and data structures.
+  * [floooh/sokol](https://github.com/floooh/sokol) - minimal cross-platform standalone C headers
+  * [gingerBill/gb](https://github.com/gingerBill/gb) - gb single-file public domain libraries for C & C++
+  * [gozfree/libraries](https://github.com/gozfree/libraries) - Basic libraries all written in c by gozfree, including network, event, config, log, hash, ipc, rpc, mem,  and so on
+  * [mackron/dr_libs](https://github.com/mackron/dr_libs) - A collection of public domain single-file libraries for C/C++.
+  * [mattiasgustavsson/libs](https://github.com/mattiasgustavsson/libs) - Single-file public domain libraries for C/C++
+  * [matteobertozzi/carthage](https://github.com/matteobertozzi/carthage) - Pure C Data Structure and Utils
+  * [napsy/libhelper](https://github.com/napsy/libhelper) - General functions and data structures for C
+  * [niklasfrykholm/nflibs](https://github.com/niklasfrykholm/nflibs) - A collection of interoperable minimalistic C libraries
+  * [nothings/stb](https://github.com/nothings/stb) - stb single-file public domain libraries for C/C++
+  * [prideout/par](https://github.com/prideout/par) - single-file C libraries from Philip Allan Rideout
+  * [rmitton/rjm](https://github.com/rmitton/rjm) - Various single-file C libraries.
+  * [rustyrussell/ccan](https://github.com/rustyrussell/ccan) - The C Code Archive Network
+  * [vurtun/mmx](https://github.com/vurtun/mmx) - single header libraries for C/C++
+  * [yl790/algorithms-and-data-structures](https://github.com/yl790/algorithms-and-data-structures) - for future reference
+  * [rofl0r/libulz](https://github.com/rofl0r/libulz) - a collection of useful functions and data structures to create C apps faster. focus on simplicity, ability to statically link and minimal binary size.
+  * [sdroege/snippets](https://github.com/sdroege/snippets) - Some algorithms and data structures
+  * [cirosantilli/cpp-cheat](https://github.com/cirosantilli/cpp-cheat) - C, C++, POSIX and Linux system programming minimal examples. Asserts used wherever possible. Hello worlds for cool third party libraries and build systems. Cheatsheets, tutorials and mini-projects.
+  * [lbrito1/cstuff](https://github.com/lbrito1/cstuff) - Algorithms & data structures in C
+  * [Krakonos/cutils](https://github.com/Krakonos/cutils) - C utilities and data structures
+  * [angelortega/mpdm](https://github.com/angelortega/mpdm) - Minimum Profit Data Manager
+  * [harnold/generic-c](https://github.com/harnold/generic-c) - A library of generic data structures and algorithms for C, in the spirit of the STL
+  * [pforemski/libpjf](https://github.com/pforemski/libpjf) - A C library of data structures with tools (based on libasn)
+  * [rgantt/compsci.c](https://github.com/rgantt/compsci.c) - data structures, algorithms, and musings in C
+  * [stevedekorte/basekit](https://github.com/stevedekorte/basekit) - C based OO portable data structure library
+  * [rampantpixels/foundation_lib](https://github.com/rampantpixels/foundation_lib) - Cross-platform public domain foundation library in C providing basic support data types and functions to write applications and games in a platform-independent fashion.
+  * [attractivechaos/klib](https://github.com/attractivechaos/klib) - Small and lightweight implementations of common algorithms and data structures. [`MIT`](https://github.com/attractivechaos/klib/#overview)
+  * [happyfish100/libfastcommon](https://github.com/happyfish100/libfastcommon) - c common functions library extracted from my open source project FastDFS. this library is very simple and stable.  functions including: string, logger, chain, hash, socket, ini file reader, base64 encode / decode, url encode / decode, fast timer, skiplist, object pool etc. detail info please see the c header files.
+</details>
 
 ## Scientific ##
 Math mostly located in *Calculations* category
