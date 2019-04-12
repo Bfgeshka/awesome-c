@@ -4430,15 +4430,15 @@ Engines, libraries and other helpful things specifically for making games.
 
   ## <a href="#-">`^`</a> Special Purpose ##
   Libraries with very narrow non-generic purpose.
-  * [Tulip Indicators][394] - Library of functions for technical analysis of
-  financial data. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
-  * [AaronJackson/sage-in-c](https://github.com/AaronJackson/sage-in-c) - Simple library written in C for accessing invoices and company data created by Sage Accounts 50.
-  * [JayDDee/cpuminer-opt](https://github.com/JayDDee/cpuminer-opt) - Optimized multi algo CPU miner
-  * [MatthewLM/cbitcoin](https://github.com/MatthewLM/cbitcoin) - A low-level bitcoin library written in standard C.
-  * [RhysU/ESIO](https://github.com/RhysU/ESIO) - The ExaScale IO (ESIO) library provides simple, high throughput input and output of structured data sets using parallel HDF5. ESIO is designed to support reading and writing turbulence simulation restart files within C, C++, and modern Fortran applications.
+  * [TulipCharts/tulipindicators][78-1] - Library of functions for technical
+  analysis of financial data. [`LGPL 3`][78-2]
+  * [MatthewLM/cbitcoin][78-3] - Low-level bitcoin library written in C. [`MIT`][78-4]
+  * [RhysU/ESIO][78-5] - Provides simple, high throughput input and output of
+  structured data sets using parallel HDF5. ESIO is designed to support reading
+  and writing turbulence simulation restart files within C, C++, and modern
+  Fortran applications. [`LGPL 2.1`][78-6]
   * [TPSully/SRTM2STL](https://github.com/TPSully/SRTM2STL) - Create STL files from SRTM data for the purpose of creating 3D relief maps.
   * [TravisWhitaker/FermiShell](https://github.com/TravisWhitaker/FermiShell) - Retrieve, compare, calculate, analyze, graph, simulate, and experiment with chemical data.
-  * [TulipCharts/tulipindicators](https://github.com/TulipCharts/tulipindicators) - Technical Analysis Indicator Function Library in C
   * [Unidata/netcdf-c](https://github.com/Unidata/netcdf-c) - Official GitHub repository for netCDF-C libraries and utilities.
   * [anza/metar](https://github.com/anza/metar) - METAR data fetcher and parser
   * [cbuchner1/CudaMiner](https://github.com/cbuchner1/CudaMiner) - a CUDA accelerated litecoin mining application based on pooler's CPU miner
@@ -4449,6 +4449,13 @@ Engines, libraries and other helpful things specifically for making games.
   * [qiq/Czech-morphology](https://github.com/qiq/Czech-morphology) - Czech morphology library, using data files compatible with PDT 2.0
   * [sleuthkit/sleuthkit](https://github.com/sleuthkit/sleuthkit) - The Sleuth Kit® (TSK) is a library and collection of command line digital forensics tools that allow you to investigate volume and file system data. The library can be incorporated into larger digital forensics tools and the command line tools can be directly used to find evidence.
   * [hroptatyr/uterus](https://github.com/hroptatyr/uterus) - universal tick encoder library to efficiently transport huge amounts of tick data
+
+  [78-6]: https://github.com/RhysU/ESIO/blob/develop/COPYING
+  [78-5]: https://github.com/RhysU/ESIO
+  [78-4]: https://github.com/MatthewLM/cbitcoin/blob/master/LICENSE
+  [78-3]: https://github.com/MatthewLM/cbitcoin
+  [78-2]: https://github.com/TulipCharts/tulipindicators/blob/master/LICENSE
+  [78-1]: https://github.com/TulipCharts/tulipindicators
 </details>
 
 ## Standard Libraries ##
@@ -4639,7 +4646,6 @@ Textual User Interface
 [397]: http://libuv.org
 
 [395]: http://libtrading.org/
-[394]: https://tulipindicators.org/
 
 
 [388]: https://github.com/mozilla/mozjpeg
