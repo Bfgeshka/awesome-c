@@ -3626,7 +3626,7 @@ Engines, libraries and other helpful things specifically for making games.
 ## Networking ##
 <a id="dns"></a>
 <details>
-  <summary>DNS</summary>
+  <summary>╠════ DNS</summary>
 
   ### <a href="#-">`^`</a> DNS ###
   * [GNU adns][59-1] - Advanced, easy-to-use, asynch-capable DNS client library
@@ -3656,7 +3656,7 @@ Engines, libraries and other helpful things specifically for making games.
 
 <a id="http"></a>
 <details>
-  <summary>HTTP</summary>
+  <summary>╠════ HTTP</summary>
 
   ### <a href="#-">`^`</a> HTTP ###
   * [nodejs/http-parser][60-1] - HTTP request/response parser for c. [`MIT`][60-2]
@@ -3683,7 +3683,7 @@ Engines, libraries and other helpful things specifically for making games.
 
 <a id="mail"></a>
 <details>
-  <summary>Mail</summary>
+  <summary>╠════ Mail</summary>
 
   ### <a href="#-">`^`</a> Mail ###
   * [libquickmail][61-1] - Library intended to give developers a way to send
@@ -3703,7 +3703,7 @@ Engines, libraries and other helpful things specifically for making games.
 
 <a id="messaging"></a>
 <details>
-  <summary>Messaging and Brokers</summary>
+  <summary>╠════ Messaging and Brokers</summary>
 
   ### <a href="#-">`^`</a> Messaging and Brokers ###
   * [nanomsg/nng][62-1] - Lightweight brokerless messaging. [`MIT`][62-2]
@@ -3733,7 +3733,7 @@ Engines, libraries and other helpful things specifically for making games.
 
 <a id="remote-desktops"></a>
 <details>
-  <summary>Remote Desktops</summary>
+  <summary>╠════ Remote Desktops</summary>
 
   ### <a href="#-">`^`</a> Remote Desktops ###
   * [FreeRDP/FreeRDP][64-1] - FreeRDP is a free remote desktop protocol library
@@ -3750,7 +3750,7 @@ Engines, libraries and other helpful things specifically for making games.
 
 <a id="rpc"></a>
 <details>
-  <summary>RPC</summary>
+  <summary>╠════ RPC</summary>
 
   ### <a href="#-">`^`</a> RPC ###
   * [hmng/jsonrpc-c][65-1] - JSON-RPC in C. [`MIT`][65-2]
@@ -3771,7 +3771,7 @@ Engines, libraries and other helpful things specifically for making games.
 
 <a id="tcp-udp-sockets"></a>
 <details>
-  <summary>TCP, UDP, Sockets</summary>
+  <summary>╠════ TCP, UDP, Sockets</summary>
 
   ### <a href="#-">`^`</a> TCP, UDP, Sockets ###
   * [bovine/datapipe][66-1] - Network TCP port forwarding. [`Public domain`][66-2]
@@ -3811,7 +3811,7 @@ Engines, libraries and other helpful things specifically for making games.
 
 <a id="web-servers"></a>
 <details>
-  <summary>Web Servers</summary>
+  <summary>╠════ Web Servers</summary>
 
   ### <a href="#-">`^`</a> Web Servers ###
   * [taf2/libebb][67-1] - Lightweight high-performance HTTP server library
@@ -3900,7 +3900,7 @@ Engines, libraries and other helpful things specifically for making games.
 
 <a id="web-service-apis"></a>
 <details>
-  <summary>Web Service APIs</summary>
+  <summary>╠════ Web Service APIs</summary>
 
   ### <a href="#-">`^`</a> Web Service APIs ###
   * [sinemetu1/twitc][68-1] - Mini library for interacting with the Twitter
@@ -3937,7 +3937,7 @@ Engines, libraries and other helpful things specifically for making games.
 
 <a id="websockets"></a>
 <details>
-  <summary>Websockets</summary>
+  <summary>╠════ Websockets</summary>
 
   ### <a href="#-">`^`</a> Websockets ###
   * [tatsuhiro-t/wslay][69-1] - WebSocket library. Implements version 13 of the
@@ -3963,7 +3963,7 @@ Engines, libraries and other helpful things specifically for making games.
 
 <a id="uncategorized-networking"></a>
 <details>
-  <summary>Uncategorized Networking</summary>
+  <summary>╚════ Uncategorized Networking</summary>
 
   ### <a href="#-">`^`</a> Uncategorized Networking ###
   * [libcurl][70-1] - Client-side URL transfer library, supporting a wide range
