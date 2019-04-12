@@ -3978,7 +3978,10 @@ Engines, libraries and other helpful things specifically for making games.
   services framework which exposes a friendly C API. [`Apache 2`][70-44]
   * [zeromq/zyre][70-45] - Framework for proximity-based peer-to-peer
   applications. [`License`][70-46]
+  * [Maxime2/dataparksearch][70-47] - Open source, feature rich search engine. [`License`][70-48]
 
+  [70-48]: https://github.com/Maxime2/dataparksearch/blob/master/LICENSE
+  [70-47]: https://github.com/Maxime2/dataparksearch
   [70-46]: https://github.com/zeromq/zyre/blob/master/LICENSE
   [70-45]: https://github.com/zeromq/zyre
   [70-44]: https://github.com/monkey/duda/blob/master/LICENSE
@@ -4178,20 +4181,27 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>Regex and Search</summary>
 
   ## <a href="#-">`^`</a> Regex and Search ##
-  * [Oniguruma][276] - Regex library supporting a wide range of encodings, and
-  incorporating many security-oriented fixes. [``BSD-2-Clause``][BSD-2-Clause]
-  * [PCRE](http://www.pcre.org/) - Implementation of regexes identical to that of Perl 5. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
-  * [regexp4](https://github.com/nasciiboy/recursiveregexpraptor-4) - Simple and complete implementation of regular expressions with its own sintax. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
-  * [TRE](https://github.com/laurikari/tre/) - POSIX-compliant, feature-full regex library. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
-  * [JazzCore/ctrlp-cmatcher](https://github.com/JazzCore/ctrlp-cmatcher) - CtrlP C matching extension
-  * [Maxime2/dataparksearch](https://github.com/Maxime2/dataparksearch) - An open source, feature rich search engine.
+  * [kkos/oniguruma][74-1] - Regex library supporting a wide range of encodings,
+  and incorporating many security-oriented fixes. [`BSD 2-Clause`][74-2]
+  * [PCRE][74-3] - Implementation of regexes identical to that of Perl 5. [`License`][74-4]
+  * [nasciiboy/RecursiveRegexpRaptor-4][74-5] - Simple and complete
+  implementation of regular expressions with its own sintax. [`GPL 3`][74-6]
+  * [laurikari/tre][74-7] - POSIX-compliant, feature-full regex library. [`License`][74-8]
   * [cesanta/slre](https://github.com/cesanta/slre) - Super Light Regexp engine for C/C++
   * [k-takata/Onigmo](https://github.com/k-takata/Onigmo) - Onigmo is a regular expressions library forked from Oniguruma.
-  * [kkos/oniguruma](https://github.com/kkos/oniguruma) - regular expression library
   * [mbornet-hl/hl](https://github.com/mbornet-hl/hl) - Highlight (colorize) text data using regular expressions
   * [mptre/pick](https://github.com/mptre/pick) - A fuzzy search tool for the command-line
   * [openresty/sregex](https://github.com/openresty/sregex) - A non-backtracking NFA/DFA-based Perl-compatible regex engine matching on large data streams
-  * [plusvic/yara](https://github.com/plusvic/yara) - The pattern matching swiss knife
+  * [plusvic/yara](https://github.com/plusvic/yara) - The pattern matching swiss
+
+  [74-8]: https://github.com/laurikari/tre/blob/master/LICENSE
+  [74-7]: https://github.com/laurikari/tre
+  [74-6]: https://github.com/nasciiboy/RecursiveRegexpRaptor-4/blob/master/LICENSE.txt
+  [74-5]: https://github.com/nasciiboy/RecursiveRegexpRaptor-4
+  [74-4]: https://vcs.pcre.org/pcre2/code/trunk/LICENCE?view=annotate
+  [74-3]: http://www.pcre.org/
+  [74-2]: https://github.com/kkos/oniguruma/blob/master/COPYING
+  [74-1]: https://github.com/kkos/oniguruma
 </details>
 
 ## Serialization ##
@@ -4613,7 +4623,6 @@ Textual User Interface
 [279]: https://github.com/laurikari/tre/
 [278]: https://github.com/cesanta/slre
 [277]: http://www.pcre.org/
-[276]: https://github.com/kkos/oniguruma
 [275]: https://github.com/k-takata/Onigmo
 
 [274]: https://bitbucket.org/MDukhan/yeppp
