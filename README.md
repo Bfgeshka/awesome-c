@@ -3772,7 +3772,10 @@ Engines, libraries and other helpful things specifically for making games.
   * [lsalzman/enet][66-9] - ENet reliable UDP networking library. [`MIT`][66-10]
   * [hoxnox/rawsock_recv_example][66-11] - SOCK_RAW IPPROTO_UDP socket data
   transmission example. [`BSD 3-Clause`][66-12]
+  * [silentbicycle/socket99][66-13] - C99 wrapper for the BSD sockets API. [`ISC`][66-14]
 
+  [66-14]: https://github.com/silentbicycle/socket99#license
+  [66-13]: https://github.com/silentbicycle/socket99
   [66-12]: https://github.com/hoxnox/rawsock_recv_example/blob/master/nx_socket.h
   [66-11]: https://github.com/hoxnox/rawsock_recv_example
   [66-10]: https://github.com/lsalzman/enet/blob/master/LICENSE
@@ -3941,14 +3944,15 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>Uncategorized Networking</summary>
 
   ### <a href="#-">`^`</a> Uncategorized Networking ###
-  * [libcurl](https://curl.haxx.se/libcurl/) - Client-side URL transfer library, supporting a wide range of formats. [`curl license`](https://curl.haxx.se/docs/copyright.html)
-  * [oSip](https://www.gnu.org/software/osip/) - SIP implementation in C without additional dependencies. [`GNU LGPLv2.1 or later`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-  * [pig](https://github.com/rafael-santiago/pig) - Linux packet crafting tool. [`GPL2`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-  * [socket99](https://github.com/silentbicycle/socket99) - C99 wrapper for the BSD sockets API. [`ISC`](https://directory.fsf.org/wiki/License:ISC)
-  * [dyad](https://github.com/rxi/dyad) - Asynchronous networking library. [`MIT`](https://raw.githubusercontent.com/atom/atom/master/LICENSE.md)
-  * [51Degrees/Device-Detection](https://github.com/51Degrees/Device-Detection) - THE Fastest and most Accurate device detection for C / PHP / Perl / Python and Node.js - professionally maintained device data
-  * [uriparser](https://uriparser.github.io) - Strictly RFC 3986-compliant URI parsing and handling library. [``BSD-3-Clause``][BSD-3-Clause]
-  * [ElementsProject/lightning](https://github.com/ElementsProject/lightning) - c-lightning — a Lightning Network implementation in C
+  * [libcurl][70-1] - Client-side URL transfer library, supporting a wide range
+  of formats. [`License`][70-2]
+  * [oSip][70-3] - SIP implementation in C without additional dependencies. [`LGPL`][70-4]
+  * [rxi/dyad][70-5] - Asynchronous networking library. [`MIT`][70-6]
+  * [51Degrees/Device-Detection][70-7] - Device detection for
+  C / PHP / Perl / Python and Node.js - professionally maintained device data. [`License`][70-8]
+  * [uriparser/uriparser][70-9] - Strictly RFC 3986-compliant URI parsing and
+  handling library. [`BSD 3-Clause`][70-10]
+  * [ElementsProject/lightning](https://github.com/ElementsProject/lightning) - A Lightning Network implementation in C
   * [boazsegev/c-server-tools](https://github.com/boazsegev/c-server-tools) - Write network services in C using dynamic protocols such as HTTP and Websockets
   * [c9s/r3](https://github.com/c9s/r3) - libr3 is a high-performance path dispatching library. It compiles your route paths into a prefix tree (trie). By using the constructed prefix trie in the start-up time, you may dispatch your routes with efficiency
   * [versatica/OverSIP](https://github.com/versatica/OverSIP) - OverSIP: the SIP framework you dreamed about
@@ -3973,6 +3977,17 @@ Engines, libraries and other helpful things specifically for making games.
   * [vdloo/Beacontalk](https://github.com/vdloo/Beacontalk) - Peer to peer chat-program that sends data over Wi-Fi without associations.
   * [zeromq/zyre](https://github.com/zeromq/zyre) - Framework for proximity-based peer-to-peer applications. [`License`](https://github.com/zeromq/zyre/blob/master/LICENSE)
   * [japeq/bencode-tools](https://github.com/japeq/bencode-tools) - bencode-tools is a collection of tools for manipulating bencoded data.
+
+  [70-10]: https://github.com/uriparser/uriparser/blob/master/COPYING
+  [70-9]: https://github.com/uriparser/uriparser
+  [70-8]: https://github.com/51Degrees/Device-Detection/blob/master/LICENSE
+  [70-7]: https://github.com/51Degrees/Device-Detection
+  [70-6]: https://github.com/rxi/dyad/blob/master/LICENSE
+  [70-5]: https://github.com/rxi/dyad
+  [70-4]: https://www.gnu.org/software/osip/#TOCintroduction
+  [70-3]: https://www.gnu.org/software/osip/
+  [70-2]: https://curl.haxx.se/docs/copyright.html
+  [70-1]: https://curl.haxx.se/libcurl/
 </details>
 
 --------------------------------------------------------------------------------
