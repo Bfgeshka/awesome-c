@@ -3680,7 +3680,8 @@ Engines, libraries and other helpful things specifically for making games.
   email from their applications. Supports multiple To/Cc/Bcc recipients and
   attachments without size limits. [`GPL 3`][61-2]
   * [dinhviethoa/libetpan][61-3] - Mail Framework for C Language. [`License`][61-4]
-  * [libvldmail][61-5] - Your friendly e-mail address validation library. [`WTFPL`][61-6]
+  * [dertuxmalwieder/libvldmail][61-5] - Your friendly e-mail address validation
+  library. [`WTFPL`][61-6]
 
   [61-6]: https://github.com/dertuxmalwieder/libvldmail/blob/master/COPYING
   [61-5]: https://github.com/dertuxmalwieder/libvldmail
@@ -3979,17 +3980,37 @@ Engines, libraries and other helpful things specifically for making games.
   packet capture mechanism. [`BSD 3-Clause`][70-28]
   * [the-tcpdump-group/tcpdump][70-29] - the TCPdump network dissector. [`BSD 3-Clause`][70-30]
   * [luohaha/CSpider][70-31] - A scalable and convenient crawler framework. [`MIT`][70-32]
-  * [nitrogenlogic/cliserver](https://github.com/nitrogenlogic/cliserver) - A sample libevent-based network socket server that presents a simple command line interface to multiple connecting clients.
-  * [babelouest/ulfius](https://github.com/babelouest/ulfius) - Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. Can stream large amount of data, integrate JSON data with Jansson, and create websocket services
-  * [haiwen/ccnet](https://github.com/haiwen/ccnet) - Ccnet is a framework for writing networked applications in C.
-  * [it4e/CHL](https://github.com/it4e/CHL) - C Hypertext Library - A library for writing web applications in C
-  * [jorisvink/kore](https://github.com/jorisvink/kore) - An easy to use, scalable and secure web application framework for writing web APIs in C.
-  * [monkey/duda](https://github.com/monkey/duda) - Duda I/O is an event-driven and high performant web services framework which exposes a friendly C API
-  * [chmduquesne/xmppipe](https://github.com/chmduquesne/xmppipe) - This program allows to pipe data through an xmpp tunnel
-  * [vdloo/Beacontalk](https://github.com/vdloo/Beacontalk) - Peer to peer chat-program that sends data over Wi-Fi without associations.
-  * [zeromq/zyre](https://github.com/zeromq/zyre) - Framework for proximity-based peer-to-peer applications. [`License`](https://github.com/zeromq/zyre/blob/master/LICENSE)
-  * [japeq/bencode-tools](https://github.com/japeq/bencode-tools) - bencode-tools is a collection of tools for manipulating bencoded data.
+  * [nitrogenlogic/cliserver][70-33] - A sample libevent-based network socket
+  server that presents a simple command line interface to multiple connecting
+  clients. [`BSD 2-Clause`][70-34]
+  * [babelouest/ulfius][70-35] - Web Framework to build REST APIs, Webservices
+  or any HTTP endpoint in C language. Can stream large amount of data, integrate
+  JSON data with Jansson, and create websocket services. [`LGPL 2.1`][70-36]
+  * [haiwen/ccnet][70-37] - Ccnet is a framework for writing networked
+  applications in C. [`GPL 2`][70-38]
+  * [it4e/CHL][70-39] - C Hypertext Library - A library for writing web
+  applications in C. [`LGPL 3`][70-40]
+  * [jorisvink/kore][70-41] - An easy to use, scalable and secure web
+  application framework for writing web APIs in C. [`License`][70-42]
+  * [monkey/duda][70-43] - Duda I/O is an event-driven and high performant web
+  services framework which exposes a friendly C API. [`Apache 2`][70-44]
+  * [zeromq/zyre][70-45] - Framework for proximity-based peer-to-peer
+  applications. [`License`][70-46]
 
+  [70-46]: https://github.com/zeromq/zyre/blob/master/LICENSE
+  [70-45]: https://github.com/zeromq/zyre
+  [70-44]: https://github.com/monkey/duda/blob/master/LICENSE
+  [70-43]: https://github.com/monkey/duda
+  [70-42]: https://github.com/jorisvink/kore/blob/master/LICENSE
+  [70-41]: https://github.com/jorisvink/kore
+  [70-40]: https://github.com/it4e/CHL/blob/master/LICENSE.md
+  [70-39]: https://github.com/it4e/CHL
+  [70-38]: https://github.com/haiwen/ccnet/blob/master/LICENSE.txt
+  [70-37]: https://github.com/haiwen/ccnet
+  [70-36]: https://github.com/babelouest/ulfius/blob/master/LICENSE
+  [70-35]: https://github.com/babelouest/ulfius
+  [70-34]: https://github.com/mike-bourgeous/cliserver/blob/master/LICENSE
+  [70-33]: https://github.com/mike-bourgeous/cliserver
   [70-32]: https://github.com/luohaha/CSpider/blob/master/LICENSE
   [70-31]: https://github.com/luohaha/CSpider
   [70-30]: https://github.com/the-tcpdump-group/tcpdump/blob/master/LICENSE
