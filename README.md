@@ -4406,7 +4406,7 @@ Engines, libraries and other helpful things specifically for making games.
   * [GuillaumeHolley/BloomFilterTrie][77-1] - A data structure for pan-genome
   storage. [`MIT`][77-2]
   * [noporpoise/seq_file][77-3] - Library for Reading Bioinformatic Sequence
-  Data in C. [`Public domain][77-4]
+  Data in C. [`Public domain`][77-4]
   * [r0nk/corvus][77-5] - Genetic BF programming. `No license`
   * [XenonofArcticus/DynamicTrack][77-6] - Access sources of dynamically-updated
   data about discrete entities like GPSes, INSes, ADS-B sources. [`MIT`][77-7]
