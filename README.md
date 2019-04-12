@@ -3556,7 +3556,11 @@ Engines, libraries and other helpful things specifically for making games.
   * [tboox/tbox][58-25] - A glib-like multi-platform c library. [`Apache 2`][58-26]
   * [zpl-c/zpl][58-27] - Your C99 Powerkit. [`Licenses`][58-28]
   * [dmw/caffeine][58-29] - C Application Framework. [`LGPL 2.1`][58-30]
+  * [breckinloggins/libuseful][58-31] - A collection of useful data structures,
+  algorithms, and utilities for C programming. [`MIT`][58-32]
 
+  [58-32]: https://github.com/breckinloggins/libuseful/blob/master/LICENSE.txt
+  [58-31]: https://github.com/breckinloggins/libuseful
   [58-30]: https://github.com/dmw/caffeine/blob/master/COPYING
   [58-29]: https://github.com/dmw/caffeine
   [58-28]: https://github.com/zpl-c/zpl/blob/master/LICENSE
@@ -4284,15 +4288,17 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>Source Code Collections</summary>
 
   ## <a href="#-">`^`</a> Source Code Collections ##
-  * [Snippets][298] - Useful code snippets and header-only libraries.
-  Public domain.
-  * [tinyheaders][300] - Collection of header-only libraries, primarily oriented
-  toward game development. [``Zlib``][Zlib]
-  * [CCAN](http://ccodearchive.net/) - Modelled after Perl's CPAN, this is a big collection of C code that does stuff. The full list is [here](http://ccodearchive.net/list.html).
-  * [libdjb](http://www.fefe.de/djb/) - Collection of libraries doing various things. [`(Apparently) Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
-  * [BurntSushi/clibs](https://github.com/BurntSushi/clibs) - A smattering of miscellaneous C libraries. Includes sane argument parsing, a thread-safe multi-producer/multi-consumer queue, and implementation of common data structures (hashmaps, vectors and linked lists).
-  * [RandyGaul/cute_headers](https://github.com/RandyGaul/cute_headers) - Collection of cross-platform one-file C/C++ libraries with no dependencies, primarily used for games
-  * [breckinloggins/libuseful](https://github.com/breckinloggins/libuseful) - A collection of useful data structures, algorithms, and utilities for C programming
+  * [DanielGibson/Snippets][76-1] - Useful code snippets and header-only
+  libraries. [`Public domain`][76-2]
+  * [CCAN][76-3] - Modelled after Perl's CPAN, this is a big collection of C
+  code. `No license`
+  * [libdjb][76-4] - Collection of libraries doing various things. [`License`][76-5]
+  * [BurntSushi/clibs][76-6] - A smattering of miscellaneous C libraries.
+  Includes sane argument parsing, a thread-safe multi-producer/multi-consumer
+  queue, and implementation of common data structures (hashmaps, vectors and
+  linked lists). [`WTFPL`][76-7]
+  * [RandyGaul/cute_headers][76-8] - Collection of cross-platform one-file C/C++
+  libraries with no dependencies, primarily used for games. [`Licenses`][76-9]
   * [chadjoan/C-Survival-Kit](https://github.com/chadjoan/C-Survival-Kit) - A set of useful functions, data structures, and macros aimed at allowing more expressive and reliable C code.  Portability targets are OpenVMS and Linux.
   * [clibs/clib](https://github.com/clibs/clib) - C package manager-ish
   * [erimatnor/libckit](https://github.com/erimatnor/libckit) - A kit of C-based utilities and data structures.
@@ -4323,6 +4329,16 @@ Engines, libraries and other helpful things specifically for making games.
   * [rampantpixels/foundation_lib](https://github.com/rampantpixels/foundation_lib) - Cross-platform public domain foundation library in C providing basic support data types and functions to write applications and games in a platform-independent fashion.
   * [attractivechaos/klib](https://github.com/attractivechaos/klib) - Small and lightweight implementations of common algorithms and data structures. [`MIT`](https://github.com/attractivechaos/klib/#overview)
   * [happyfish100/libfastcommon](https://github.com/happyfish100/libfastcommon) - c common functions library extracted from my open source project FastDFS. this library is very simple and stable.  functions including: string, logger, chain, hash, socket, ini file reader, base64 encode / decode, url encode / decode, fast timer, skiplist, object pool etc. detail info please see the c header files.
+
+  [76-9]: https://github.com/RandyGaul/cute_headers#faq
+  [76-8]: https://github.com/RandyGaul/cute_headers
+  [76-7]: https://github.com/BurntSushi/clibs/blob/master/COPYING
+  [76-6]: https://github.com/BurntSushi/clibs
+  [76-5]: https://www.fefe.de/djb/
+  [76-4]: https://www.fefe.de/djb/
+  [76-3]: http://ccodearchive.net/
+  [76-2]: https://github.com/DanielGibson/Snippets/blob/master/DG_misc.h
+  [76-1]: https://github.com/DanielGibson/Snippets/
 </details>
 
 ## Scientific ##
@@ -4620,9 +4636,7 @@ Textual User Interface
 [302]: https://github.com/NuxiNL/cloudlibc
 [301]: https://github.com/aosp-mirror/platform_bionic
 
-[300]: https://github.com/RandyGaul/tinyheaders
 [299]: https://github.com/nothings/stb
-[298]: https://github.com/DanielGibson/Snippets/
 [297]: https://github.com/prideout/par
 [296]: https://github.com/vurtun/mmx
 [295]: http://www.fefe.de/djb/
