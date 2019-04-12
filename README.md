@@ -3559,7 +3559,25 @@ Engines, libraries and other helpful things specifically for making games.
   * [breckinloggins/libuseful][58-31] - A collection of useful data structures,
   algorithms, and utilities for C programming. [`MIT`][58-32]
   * [erimatnor/libckit][58-33] - A kit of C-based utilities and data structures. [`Apache 2`][58-34]
+  * [pforemski/libpjf][58-35] - A C library of data structures with tools
+  (based on libasn). [`GPL 3`][58-36]
+  * [stevedekorte/basekit][58-37] - C based OO portable data structure library. [`BSD 3-Clause`][58-38]
+  * [rampantpixels/foundation_lib][58-39] - Cross-platform foundation library in
+  C providing basic support data types and functions to write applications and
+  games in a platform-independent fashion. [`Unlicense`][58-40]
+  * [happyfish100/libfastcommon][58-41] - Functions including: string, logger,
+  chain, hash, socket, ini file reader, base64 encode / decode,
+  url encode / decode, fast timer, skiplist, object pool etc. detail info please
+  see the c header files. [`LGPL`][58-42]
 
+  [58-42]: https://github.com/happyfish100/libfastcommon
+  [58-41]: https://github.com/happyfish100/libfastcommon
+  [58-40]: https://github.com/rampantpixels/foundation_lib/blob/master/LICENSE
+  [58-39]: https://github.com/rampantpixels/foundation_lib
+  [58-38]: https://github.com/stevedekorte/basekit/blob/master/license/bsd_license.txt
+  [58-37]: https://github.com/stevedekorte/basekit
+  [58-36]: https://github.com/pforemski/libpjf/blob/master/LICENSE
+  [58-35]: https://github.com/pforemski/libpjf
   [58-34]: https://github.com/erimatnor/libckit/blob/master/COPYING
   [58-33]: https://github.com/erimatnor/libckit
   [58-32]: https://github.com/breckinloggins/libuseful/blob/master/LICENSE.txt
@@ -4327,18 +4345,17 @@ Engines, libraries and other helpful things specifically for making games.
   structures to create C apps faster. focus on simplicity, ability to statically
   link and minimal binary size. [`LGPL 2.1`][76-37]
   * [sdroege/snippets][76-38] - Some algorithms and data structures. [`LGPL 3`][76-39]
-  * [cirosantilli/cpp-cheat](https://github.com/cirosantilli/cpp-cheat) - C, C++, POSIX and Linux system programming minimal examples. Asserts used wherever possible. Hello worlds for cool third party libraries and build systems. Cheatsheets, tutorials and mini-projects.
-  * [lbrito1/cstuff](https://github.com/lbrito1/cstuff) - Algorithms & data structures in C
-  * [Krakonos/cutils](https://github.com/Krakonos/cutils) - C utilities and data structures
-  * [angelortega/mpdm](https://github.com/angelortega/mpdm) - Minimum Profit Data Manager
-  * [harnold/generic-c](https://github.com/harnold/generic-c) - A library of generic data structures and algorithms for C, in the spirit of the STL
-  * [pforemski/libpjf](https://github.com/pforemski/libpjf) - A C library of data structures with tools (based on libasn)
-  * [rgantt/compsci.c](https://github.com/rgantt/compsci.c) - data structures, algorithms, and musings in C
-  * [stevedekorte/basekit](https://github.com/stevedekorte/basekit) - C based OO portable data structure library
-  * [rampantpixels/foundation_lib](https://github.com/rampantpixels/foundation_lib) - Cross-platform public domain foundation library in C providing basic support data types and functions to write applications and games in a platform-independent fashion.
-  * [attractivechaos/klib](https://github.com/attractivechaos/klib) - Small and lightweight implementations of common algorithms and data structures. [`MIT`](https://github.com/attractivechaos/klib/#overview)
-  * [happyfish100/libfastcommon](https://github.com/happyfish100/libfastcommon) - c common functions library extracted from my open source project FastDFS. this library is very simple and stable.  functions including: string, logger, chain, hash, socket, ini file reader, base64 encode / decode, url encode / decode, fast timer, skiplist, object pool etc. detail info please see the c header files.
+  * [lbrito1/cstuff][76-40] - Algorithms & data structures in C. [`GPL 2`][76-41]
+  * [angelortega/mpdm][76-42] - Minimum Profit Data Manager. [`Public domain`][76-43]
+  * [attractivechaos/klib][76-44] - Small and lightweight implementations of
+  common algorithms and data structures. [`MIT`][76-45]
 
+  [76-45]: https://github.com/attractivechaos/klib#overview
+  [76-44]: https://github.com/attractivechaos/klib
+  [76-43]: https://github.com/angelortega/mpdm/blob/master/LICENSE
+  [76-42]: https://github.com/angelortega/mpdm
+  [76-41]: https://github.com/lbrito1/cstuff/blob/master/LICENSE
+  [76-40]: https://github.com/lbrito1/cstuff
   [76-39]: https://github.com/sdroege/snippets/blob/master/COPYING
   [76-38]: https://github.com/sdroege/snippets
   [76-37]: https://github.com/rofl0r/libulz/blob/master/COPYING
