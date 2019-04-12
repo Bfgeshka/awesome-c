@@ -118,7 +118,7 @@ structure at all)
 * [OS Specifics](#os-specifics)
 * [Procedural Generation](#procedural-generation)
 * [Processes and IPC](#processes-and-ipc)
-* [Regex](#regex)
+* [Regex and Search](#regex-and-search)
 * [Serialization](#serialization)
 * [Source Code Collections](#source-code-collections)
 * [Standard Libraries](#standart-libraries)
@@ -4173,21 +4173,26 @@ Engines, libraries and other helpful things specifically for making games.
   [73-1]: https://www.freedesktop.org/wiki/Software/dbus/
 </details>
 
-## Regex and Search ##
-* [Oniguruma][276] - Regex library supporting a wide range of encodings, and
+<a id="regex-and-search"></a>
+<details>
+  <summary>Regex and Search</summary>
+
+  ## <a href="#-">`^`</a> Regex and Search ##
+  * [Oniguruma][276] - Regex library supporting a wide range of encodings, and
   incorporating many security-oriented fixes. [``BSD-2-Clause``][BSD-2-Clause]
-* [PCRE](http://www.pcre.org/) - Implementation of regexes identical to that of Perl 5. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
-* [regexp4](https://github.com/nasciiboy/recursiveregexpraptor-4) - Simple and complete implementation of regular expressions with its own sintax. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
-* [TRE](https://github.com/laurikari/tre/) - POSIX-compliant, feature-full regex library. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
-* [JazzCore/ctrlp-cmatcher](https://github.com/JazzCore/ctrlp-cmatcher) - CtrlP C matching extension
-* [Maxime2/dataparksearch](https://github.com/Maxime2/dataparksearch) - An open source, feature rich search engine.
-* [cesanta/slre](https://github.com/cesanta/slre) - Super Light Regexp engine for C/C++
-* [k-takata/Onigmo](https://github.com/k-takata/Onigmo) - Onigmo is a regular expressions library forked from Oniguruma.
-* [kkos/oniguruma](https://github.com/kkos/oniguruma) - regular expression library
-* [mbornet-hl/hl](https://github.com/mbornet-hl/hl) - Highlight (colorize) text data using regular expressions
-* [mptre/pick](https://github.com/mptre/pick) - A fuzzy search tool for the command-line
-* [openresty/sregex](https://github.com/openresty/sregex) - A non-backtracking NFA/DFA-based Perl-compatible regex engine matching on large data streams
-* [plusvic/yara](https://github.com/plusvic/yara) - The pattern matching swiss knife
+  * [PCRE](http://www.pcre.org/) - Implementation of regexes identical to that of Perl 5. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
+  * [regexp4](https://github.com/nasciiboy/recursiveregexpraptor-4) - Simple and complete implementation of regular expressions with its own sintax. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
+  * [TRE](https://github.com/laurikari/tre/) - POSIX-compliant, feature-full regex library. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
+  * [JazzCore/ctrlp-cmatcher](https://github.com/JazzCore/ctrlp-cmatcher) - CtrlP C matching extension
+  * [Maxime2/dataparksearch](https://github.com/Maxime2/dataparksearch) - An open source, feature rich search engine.
+  * [cesanta/slre](https://github.com/cesanta/slre) - Super Light Regexp engine for C/C++
+  * [k-takata/Onigmo](https://github.com/k-takata/Onigmo) - Onigmo is a regular expressions library forked from Oniguruma.
+  * [kkos/oniguruma](https://github.com/kkos/oniguruma) - regular expression library
+  * [mbornet-hl/hl](https://github.com/mbornet-hl/hl) - Highlight (colorize) text data using regular expressions
+  * [mptre/pick](https://github.com/mptre/pick) - A fuzzy search tool for the command-line
+  * [openresty/sregex](https://github.com/openresty/sregex) - A non-backtracking NFA/DFA-based Perl-compatible regex engine matching on large data streams
+  * [plusvic/yara](https://github.com/plusvic/yara) - The pattern matching swiss knife
+</details>
 
 ## Serialization ##
 * [binn][280] - Binary serialization format, meant to be compact, fast and
