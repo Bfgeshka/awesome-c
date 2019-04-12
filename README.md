@@ -4403,12 +4403,25 @@ Engines, libraries and other helpful things specifically for making games.
 
   ## <a href="#-">`^`</a> Scientific ##
   Math mostly located in *Calculations* category
-  * [GuillaumeHolley/BloomFilterTrie](https://github.com/GuillaumeHolley/BloomFilterTrie) - A data structure for pan-genome storage
-  * [noporpoise/seq_file](https://github.com/noporpoise/seq_file) - Library for Reading Bioinformatic Sequence Data in C
-  * [r0nk/corvus](https://github.com/r0nk/corvus) - Genetic BF programming
-  * [Netflix/dynomite](https://github.com/Netflix/dynomite) - A generic dynamo implementation for different k-v storage engines
-  * [XenonofArcticus/DynamicTrack](https://github.com/XenonofArcticus/DynamicTrack) - Access sources of dynamically-updated data about discrete entities like GPSes, INSes, ADS-B sources.
-  * [ericmandel/funtools](https://github.com/ericmandel/funtools) - A "minimal buy-in" FITS library and utility package for astronomical data analysis
+  * [GuillaumeHolley/BloomFilterTrie][77-1] - A data structure for pan-genome
+  storage. [`MIT`][77-2]
+  * [noporpoise/seq_file][77-3] - Library for Reading Bioinformatic Sequence
+  Data in C. [`Public domain][77-4]
+  * [r0nk/corvus][77-5] - Genetic BF programming. `No license`
+  * [XenonofArcticus/DynamicTrack][77-6] - Access sources of dynamically-updated
+  data about discrete entities like GPSes, INSes, ADS-B sources. [`MIT`][77-7]
+  * [ericmandel/funtools][77-8] - A "minimal buy-in" FITS library and utility
+  package for astronomical data analysis. [`LGPL 2.1`][77-9]
+
+  [77-9]: https://github.com/ericmandel/funtools/blob/master/COPYING
+  [77-8]: https://github.com/ericmandel/funtools
+  [77-7]: https://github.com/XenonofArcticus/DynamicTrack#dynamictrack
+  [77-6]: https://github.com/XenonofArcticus/DynamicTrack
+  [77-5]: https://github.com/r0nk/corvus
+  [77-4]: https://github.com/noporpoise/seq_file#license
+  [77-3]: https://github.com/noporpoise/seq_file
+  [77-2]: https://github.com/GuillaumeHolley/BloomFilterTrie/blob/master/LICENSE
+  [77-1]: https://github.com/GuillaumeHolley/BloomFilterTrie
 </details>
 
 ## Special Purpose ##
