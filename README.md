@@ -4052,19 +4052,13 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>OS Specifics</summary>
 
   ## <a href="#-">`^`</a> OS Specifics ##
-  * [attr][401] - Commands for manipulating filesystem extended attributes. [``GPL-2.0-or-later``][GPL-2.0-or-later]
-  * [Caffeine][402] - Library for building daemons and services for Linux and
-  FreeBSD systems. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
-  * [libcox][403] - Library which permits cross-platform system calls and
-  standard utilities across different operating systems. [``BSD-2-Clause``][BSD-2-Clause]
-  * [GNU FreeIPMI][422] - In-band and out-of-band IPMI implementation. [``GPL-3.0-only``][GPL-3.0-only]
-  * [CRIU][427] - Checkpoint/Restore In Userspace; a software tool (with a C API)
-  for 'freezing' a running application to disk, then restoring it. Targeted for
-  Linux. [``GPL-2.0-only``][GPL-2.0-only] or [``LGPL-2.1-only``][LGPL-2.1-only]
-  * [linenoise][433] - Small, self-contained alternative to readline and libedit. [``BSD-2-Clause``][BSD-2-Clause]
-  * [alsa-lib](http://www.alsa-project.org/main/index.php/Main_Page) - Userspace library to interact with ALSA. [`LGPL2.1`](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html)
-  * [Leandros/WindowsHModular](https://github.com/Leandros/WindowsHModular) - A modular Windows.h Header. Licensed under Public Domain & MIT.
-  * [Microsoft/Windows-driver-samples](https://github.com/Microsoft/Windows-driver-samples) - This repo contains driver samples prepared for use with Microsoft Visual Studio and the Windows Driver Kit (WDK). It contains both Universal Windows Driver and desktop-only driver samples.
+  * [symisc/libcox][71-1] - Library which permits cross-platform system calls
+  and standard utilities across different operating systems. [`BSD 2-Clause`][71-2]
+  * [checkpoint-restore/criu][71-3] - Checkpoint/Restore In Userspace; a
+  software tool (with a C API) for 'freezing' a running application to disk,
+  then restoring it. Targeted for Linux. [`Licenses`][71-4]
+  * [alsa-lib][71-5] - Userspace library to interact with ALSA. [`LGPL 2.1`][71-6]
+  * [Leandros/WindowsHModular][71-7] - A modular Windows.h Header. [`License`][71-8]
   * [Microsoft/checkedc](https://github.com/Microsoft/checkedc) - Checked C is an extension to C that adds checking to detect or prevent common programming errors such as buffer overruns and out-of-bounds memory accesses.  This repo has a wiki for Checked C, sample code, the specification, and test code.
   * [Xfennec/progress](https://github.com/Xfennec/progress) - Linux tool to show progress for cp, rm, dd, ...
   * [a0rtega/pafish](https://github.com/a0rtega/pafish) - Pafish is a demonstration tool that employs several techniques to detect sandboxes and analysis environments in the same way as malware families do.
@@ -4085,6 +4079,15 @@ Engines, libraries and other helpful things specifically for making games.
   * [wengkai/ACLLib](https://github.com/wengkai/ACLLib) - ACLLib is a bunch of C functions covers Win32API and provides simpler API to beginners for programming Windows GUI applications. It compiles with MinGW and MS Visual Studio Express
   * [Keruspe/GPaste](https://github.com/Keruspe/GPaste) - Clipboard management system
   * [zardus/preeny](https://github.com/zardus/preeny) - Some helpful preload libraries for pwning stuff.
+
+  [71-8]: https://github.com/Leandros/WindowsHModular/blob/master/LICENSE
+  [71-7]: https://github.com/Leandros/WindowsHModular
+  [71-6]: https://git.alsa-project.org/?p=alsa-lib.git;a=blob;f=COPYING;h=ae23fcfda2da8599b52baff4c257847205d78c56;hb=HEAD
+  [71-5]: http://www.alsa-project.org/main/index.php/Main_Page
+  [71-4]: https://github.com/checkpoint-restore/criu/blob/criu-dev/COPYING
+  [71-3]: https://criu.org/Main_Page
+  [71-2]: https://github.com/symisc/libcox/blob/master/LICENSE
+  [71-1]: https://github.com/symisc/libcox
 </details>
 
 ## Procedural Generation ##
@@ -4425,7 +4428,6 @@ Textual User Interface
 [435]: https://gnu.org/software/gss/
 [433]: https://github.com/antirez/linenoise
 [432]: https://github.com/recp/tm
-[427]: https://criu.org/Main_Page
 [425]: https://www.gnu.org/software/gnulib/
 [422]: https://gnu.org/software/freeipmi/index.html
 [421]: https://github.com/commonmark/cmark/blob/master/COPYING
@@ -4439,8 +4441,6 @@ Textual User Interface
 
 [404]: https://github.com/atgreen/libffi
 
-[403]: http://libcox.symisc.net/
-[402]: https://github.com/dmw/caffeine
 [401]: http://savannah.nongnu.org/projects/attr/
 
 [398]: http://facebook.github.io/libphenom/index.html
