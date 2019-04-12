@@ -4586,32 +4586,64 @@ Engines, libraries and other helpful things specifically for making games.
   framework. [`MIT`][81-2]
   * [codeplea/minctest][81-3] - Unit testing microlibrary. [`Zlib`][81-4]
   * [evolutional/utest][81-5] - Single-header unit testing library. [`Unlicense`][81-6]
-  * [CHEAT](http://users.jyu.fi/~sapekiis/cheat/) - Very simple unit testing framework. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
-  * [Check](https://libcheck.github.io/check/) - Unit testing framework for C. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-  * [CMock](http://www.throwtheswitch.org/) - Mock/stub generator for C. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-  * [cmocka](https://cmocka.org/) - Unit testing framework with support for mock objects. [`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
-  * [CUnit](http://cunit.sourceforge.net/) - Another unit testing framework for C. [`GNU LGPL2.0`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-  * [Cutest](https://github.com/rafael-santiago/cutest) - Library for unit testing with memory leak detection (Linux, freeBSD and Windows). [`GPL2`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-  * [munit](https://nemequ.github.io/munit/) - Small but full-featured unit testing framework for C with no dependencies. [`MIT`](https://raw.githubusercontent.com/atom/atom/master/LICENSE.md)
-  * [zorgnax/libtap](https://github.com/zorgnax/libtap) - Write tests in C
-  * [Snaipe/Criterion](https://github.com/Snaipe/Criterion) - A cross-platform C and C++ unit testing framework for the 21th century
-  * [ThrowTheSwitch/Unity](https://github.com/ThrowTheSwitch/Unity) - Simple Unit Testing for C
-  * [bvdberg/ctest](https://github.com/bvdberg/ctest) - ctest is a unit test framework for software written in C.
-  * [clear-code/cutter](https://github.com/clear-code/cutter) - An easy to write and debug unit testing framework for C and C++.
-  * [compiler-dept/speck](https://github.com/compiler-dept/speck) - A small unit testing framework for C
-  * [joewalnes/tinytest](https://github.com/joewalnes/tinytest) - A tiny unit-testing framework for C
-  * [lpabon/cmockery2](https://github.com/lpabon/cmockery2) - Reviving cmockery unit test framework from Google
-  * [mcandre/qc](https://github.com/mcandre/qc) - qc - A C port of the QuickCheck unit test framework
+  * [Tuplanolla/cheat][81-7] - Very simple unit testing framework. [`BSD 2-Clause`][81-8]
+  * [libcheck/check][81-9] - Unit testing framework for C. [`LGPL 2.1`][81-10]
+  * [ThrowTheSwitch/CMock][81-11] - Mock/stub generator for C. [`MIT`][81-12]
+  * [cmocka][81-13] - Unit testing framework with support for mock objects. [`Apache 2`][81-14]
+  * [rafael-santiago/cutest][81-15] - Library for unit testing with memory leak
+  detection (Linux, FreeBSD and Windows). [`GPL 2`][81-16]
+  * [nemequ/munit][81-17] - Small but full-featured unit testing framework for C
+  with no dependencies. [`MIT`][81-18]
+  * [zorgnax/libtap][81-19] - Write tests in C. [`LGPL 3`][81-20]
+  * [Snaipe/Criterion][81-21] - A cross-platform C and C++ unit testing
+  framework for the 21th century. [`MIT`][81-22]
+  * [ThrowTheSwitch/Unity][81-23] - Simple Unit Testing for C. [`MIT`][81-24]
+  * [bvdberg/ctest][81-25] - Unit test framework for software written in C. [`Apache 2`][81-26]
+  * [clear-code/cutter][81-27] - An easy to write and debug unit testing
+  framework for C and C++. [`Licenses`][81-28]
+  * [compiler-dept/speck][81-29] - A small unit testing framework for C. [`MIT`][81-30]
+  * [joewalnes/tinytest][81-31] - A tiny unit-testing framework for C. `No license`
+  * [lpabon/cmockery2][81-32] - Reviving cmockery unit test framework from
+  Google. [`Apache 2`][81-33]
+  * [mcandre/qc][81-34] - C port of the QuickCheck unit test framework. [`BSD 2-Clause`][81-35]
   * [mchochlov/Gnucash](https://github.com/mchochlov/Gnucash) - Data model unit testing - GSoC 2011
   * [mortie/snow](https://github.com/mortie/snow) - A testing library for C.
   * [orangeduck/ptest](https://github.com/orangeduck/ptest) - DRY Microtesting Framework for C
-  * [pozorvlak/libtap](https://github.com/pozorvlak/libtap) - Testing library for C, implementing the Test Anything Protocol. Written by Nik Clayton.
   * [silentbicycle/greatest](https://github.com/silentbicycle/greatest) - A C testing library in 1 file. No dependencies, no dynamic allocation. ISC licensed.
   * [silentbicycle/theft](https://github.com/silentbicycle/theft) - property-based testing for C: generate input to find obscure bugs, then reduce to minimal failing input
   * [siu/minunit](https://github.com/siu/minunit) - Minimal unit testing framework for C
   * [stephenmathieson/describe.h](https://github.com/stephenmathieson/describe.h) - Simple BDD describe test thingy for C
   * [vmg/clar](https://github.com/vmg/clar) - What tests are made of.
 
+  [81-35]: https://github.com/mcandre/qc/blob/master/LICENSE.md
+  [81-34]: https://github.com/mcandre/qc
+  [81-33]: https://github.com/lpabon/cmockery2/blob/master/COPYING
+  [81-32]: https://github.com/lpabon/cmockery2
+  [81-31]: https://github.com/joewalnes/tinytest
+  [81-30]: https://github.com/compiler-dept/speck/blob/master/LICENSE
+  [81-29]: https://github.com/compiler-dept/speck
+  [81-28]: https://github.com/clear-code/cutter/tree/master/license
+  [81-27]: https://github.com/clear-code/cutter
+  [81-26]: https://github.com/bvdberg/ctest/blob/master/LICENSE
+  [81-25]: https://github.com/bvdberg/ctest
+  [81-24]: https://github.com/ThrowTheSwitch/Unity/blob/master/LICENSE.txt
+  [81-23]: https://github.com/ThrowTheSwitch/Unity
+  [81-22]: https://github.com/Snaipe/Criterion/blob/bleeding/LICENSE
+  [81-21]: https://github.com/Snaipe/Criterion
+  [81-20]: https://github.com/zorgnax/libtap/blob/master/COPYING
+  [81-19]: https://github.com/zorgnax/libtap
+  [81-18]: https://github.com/nemequ/munit/blob/master/COPYING
+  [81-17]: https://github.com/nemequ/munit
+  [81-16]: https://github.com/rafael-santiago/cutest/blob/master/COPYING
+  [81-15]: https://github.com/rafael-santiago/cutest
+  [81-14]: https://git.cryptomilk.org/projects/cmocka.git/tree/COPYING
+  [81-13]: https://cmocka.org
+  [81-12]: https://github.com/ThrowTheSwitch/CMock/blob/master/LICENSE.txt
+  [81-11]: https://github.com/ThrowTheSwitch/CMock
+  [81-10]: https://github.com/libcheck/check/blob/master/COPYING.LESSER
+  [81-9]: https://github.com/libcheck/check
+  [81-8]: https://github.com/Tuplanolla/cheat/blob/master/LICENSE
+  [81-7]: https://github.com/Tuplanolla/cheat
   [81-6]: https://github.com/evolutional/utest/blob/master/UNLICENSE
   [81-5]: https://github.com/evolutional/utest
   [81-4]: https://github.com/codeplea/minctest/blob/master/LICENSE
