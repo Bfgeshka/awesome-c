@@ -126,8 +126,6 @@ structure at all)
 * [String Manipulation](#string-manipulation)
 * [Testing](#testing)
 * [TUI](#tui)
-* [Web Frameworks](#web-frameworks)
-* [Web Service APIs](#web-service-apis)
 
 --------------------------------------------------------------------------------
 
@@ -4584,9 +4582,10 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>Testing</summary>
 
   ## <a href="#-">`^`</a> Testing ##
-  * [ciut][342] - A modern minimal hassle unit test framework. [``MIT``][MIT]
-  * [minctest][350] - Unit testing microlibrary. [``BSD-3-Clause``][BSD-3-Clause]
-  * [utest][355] - Single-header unit testing library. [``Unlicense``][Unlicense]
+  * [yhfudev/cpp-ci-unit-test][81-1] - A modern minimal hassle unit test
+  framework. [`MIT`][81-2]
+  * [codeplea/minctest][81-3] - Unit testing microlibrary. [`Zlib`][81-4]
+  * [evolutional/utest][81-5] - Single-header unit testing library. [`Unlicense`][81-6]
   * [CHEAT](http://users.jyu.fi/~sapekiis/cheat/) - Very simple unit testing framework. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
   * [Check](https://libcheck.github.io/check/) - Unit testing framework for C. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
   * [CMock](http://www.throwtheswitch.org/) - Mock/stub generator for C. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
@@ -4612,6 +4611,13 @@ Engines, libraries and other helpful things specifically for making games.
   * [siu/minunit](https://github.com/siu/minunit) - Minimal unit testing framework for C
   * [stephenmathieson/describe.h](https://github.com/stephenmathieson/describe.h) - Simple BDD describe test thingy for C
   * [vmg/clar](https://github.com/vmg/clar) - What tests are made of.
+
+  [81-6]: https://github.com/evolutional/utest/blob/master/UNLICENSE
+  [81-5]: https://github.com/evolutional/utest
+  [81-4]: https://github.com/codeplea/minctest/blob/master/LICENSE
+  [81-3]: https://github.com/codeplea/minctest
+  [81-2]: https://github.com/yhfudev/cpp-ci-unit-test/blob/master/COPYING
+  [81-1]: https://github.com/yhfudev/cpp-ci-unit-test
 </details>
 
 ## TUI ##
@@ -4623,12 +4629,14 @@ Textual User Interface
 * [termbox][374] - Library for writing text-based interfaces. [``MIT``][MIT]
 * [bartobri/bmenu](https://github.com/bartobri/bmenu) - A generic terminal menu written in C.
 * [doches/progressbar](https://github.com/doches/progressbar) - An easy-to-use C library for displaying text progress bars.
-* [hpjansson/chafa](https://github.com/hpjansson/chafa) - 📺🗿 Terminal graphics for the 21st century.
+* [hpjansson/chafa](https://github.com/hpjansson/chafa) - Terminal graphics for the 21st century.
 * [jwerle/progress.c](https://github.com/jwerle/progress.c) - Progress display lib for c
 * [nsf/termbox](https://github.com/nsf/termbox) - Library for writing text-based user interfaces
 * [alandekok/recli](https://github.com/alandekok/recli) - A re-imagined CLI.  Customizable syntax, help, permissions, data types.
 
 [424]: http://coap.technology/
+
+--------------------------------------------------------------------------------
 
 # Uncategorized #
 * [tm][432] -  Timer and Timeline Utils for C. [``MIT``][MIT]
@@ -4720,12 +4728,10 @@ Textual User Interface
 [358]: https://github.com/abiggerhammer/hammer
 [356]: https://github.com/westes/flex
 
-[355]: https://github.com/evolutional/utest
 [354]: http://www.throwtheswitch.org/unity
 [353]: https://wiki.haskell.org/Introduction_to_QuickCheck2
 [352]: https://github.com/silentbicycle/theft
 [351]: https://nemequ.github.io/munit
-[350]: https://github.com/codeplea/minctest
 [349]: https://github.com/silentbicycle/greatest
 [348]: http://cunit.sourceforge.net/
 [347]: https://github.com/bvdberg/ctest
@@ -4733,7 +4739,6 @@ Textual User Interface
 [345]: https://cmocka.org/
 [344]: http://www.throwtheswitch.org/cmock
 [343]: https://github.com/vmg/clar
-[342]: https://github.com/yhfudev/cpp-ci-unit-test.git
 [341]: https://libcheck.github.io/check
 [340]: http://users.jyu.fi/~sapekiis/cheat
 
