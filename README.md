@@ -4483,35 +4483,47 @@ Engines, libraries and other helpful things specifically for making games.
 
   ## <a href="#-">`^`</a> Standard Libraries ##
   Implementations of the C standarts
-  * [PDCLib][307] - The Public Domain C Library. Implements most of C99 and some
-  of C11. [``CC0-1.0``][CC0-1.0]
-  * [uClibc-ng][308] - Small C library for developing embedded systems.
-  [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
-  * [Bionic](https://github.com/aosp-mirror/platform_bionic) - Google's C standard library, developed for Android. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
-  * [dietlibc](http://www.fefe.de/dietlibc/) - C standard library designed for the smallest possible binaries. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-  * [glibc](http://www.gnu.org/software/libc/) - The GNU C Library; an implementation of the C standard library. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-  * [musl](http://www.musl-libc.org/) - Standard C library, compatible with POSIX 2008 and C11. Designed for static linking. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-  * [NuxiNL/cloudlibc](https://github.com/NuxiNL/cloudlibc) - CloudABI's standard C library
-  * [marssaxman/startc](https://github.com/marssaxman/startc) - minimal freestanding C library for bare-metal i386 development
-  * [olibc/olibc](https://github.com/olibc/olibc) - Another C Library optimized for Embedded Linux
-  * [lpsantil/rt0](https://github.com/lpsantil/rt0) - A minimal C runtime for Linux i386 & x86_64
+  * [PDCLib][79-1] - The Public Domain C Library. Implements most of C99 and
+  some of C11. [`License`][79-2]
+  * [uClibc-ng][79-3] - Small C library for developing embedded systems. [`LGPL 2.1`][79-4]
+  * [dietlibc][79-5] - C standard library designed for the smallest possible
+  binaries. [`GPL 2`][79-6]
+  * [glibc][79-7] - The GNU C Library; an implementation of the C standard
+  library. [`Licenses`][79-8]
+  * [musl][79-9] - Standard C library, compatible with POSIX 2008 and C11.
+  Designed for static linking. [`MIT`][79-10]
+  * [NuxiNL/cloudlibc][79-11] - CloudABI's standard C library. [`BSD 2-Clause`][79-12]
+  * [marssaxman/startc][79-13] - Minimal freestanding C library for bare-metal
+  i386 development. [`License`][79-14]
+  * [olibc/olibc][79-15] - Another C Library optimized for Embedded Linux. [`BSD`][79-16]
+  * [lpsantil/rt0][79-17] - A minimal C runtime for Linux i386 & x86_64. [`BSD 2-Clause`][79-18]
+
+  [79-18]: https://github.com/lpsantil/rt0/blob/master/LICENSE
+  [79-17]: https://github.com/lpsantil/rt0
+  [79-16]: https://github.com/olibc/olibc/blob/master/MODULE_LICENSE_BSD
+  [79-15]: https://github.com/olibc/olibc
+  [79-14]: https://github.com/marssaxman/startc/blob/master/include/stdint.h
+  [79-13]: https://github.com/marssaxman/startc
+  [79-12]: https://github.com/NuxiNL/cloudlibc/blob/master/LICENSE
+  [79-11]: https://github.com/NuxiNL/cloudlibc
+  [79-10]: http://git.musl-libc.org/cgit/musl/tree/COPYRIGHT
+  [79-9]: http://www.musl-libc.org/
+  [79-8]: https://sourceware.org/git/?p=glibc.git;a=tree
+  [79-7]: http://www.gnu.org/software/libc/
+  [79-6]: https://www.fefe.de/dietlibc/
+  [79-5]: https://www.fefe.de/dietlibc/
+  [79-4]: https://github.com/wbx-github/uclibc-ng/blob/master/COPYING.LIB
+  [79-3]: https://uclibc-ng.org/
+  [79-2]: https://rootdirectory.ddns.net/dokuwiki/doku.php?id=pdclib:start
+  [79-1]: https://rootdirectory.ddns.net/dokuwiki/doku.php?id=pdclib:start
 </details>
 
 ## String Manipulation ##
-* [bstring][309] - The Better String Library. [``BSD-3-Clause``][BSD-3-Clause]
-* [ICU][310] - International Components for Unicode; a library for Unicode
-  support. [``ICU``][ICU]
 * [levenstein.c][311] - [Levenstein distance][312] algorithm implementation. [``MIT``][MIT].
-* [libunistring][313] - Library for manipulating Unicode strings. [``LGPL-3.0-only``][LGPL-3.0-only]
-* [libgiconv][314] - Text conversion library. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [librope][315] - UTF-8 rope ('heavy' string) library. [``MIT``][MIT]
-* [rapidstring][316] - Maybe the fastest string library ever. [``MIT``][MIT]
-* [SDS][317] - Simple Dynamic Strings; a library for handling strings in a
-  simpler way, but one that is compatible with normal C string functions. [``BSD-2-Clause``][BSD-2-Clause]
 * [stmr.c][318] - [Porter Stemmer][319] algorithm implementation. [``MIT``][MIT]
 * [utf8.h][320] - Single-header UTF-8 library, designed to mimic C-style string
   functions. Public domain.
-* [utf8proc][321] - Library for processing UTF-8 data. [``MIT``][MIT]
 * [bstrlib](http://bstring.sourceforge.net/) - The Better String Library. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause) and [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 * [ICU](http://site.icu-project.org/) - International Components for Unicode; a library for Unicode support. [`ICU license`](http://source.icu-project.org/repos/icu/icu/tags/latest/LICENSE)
 * [libunistring](https://www.gnu.org/software/libunistring/) - Library for manipulating Unicode strings in C. [`GNU LGPL3`](http://www.gnu.org/licenses/lgpl.html)
@@ -4531,7 +4543,6 @@ Engines, libraries and other helpful things specifically for making games.
 * [jasonmaclafferty/String](https://github.com/jasonmaclafferty/String) - A dynamic string data type implementation for C.
 * [josephg/librope](https://github.com/josephg/librope) - UTF-8 rope library for C
 * [sheredom/utf8.h](https://github.com/sheredom/utf8.h) - single header utf8 string functions for C and C++
-* [sds](https://github.com/antirez/sds) - dynamic strings library
 * [branchless-utf8](https://github.com/skeeto/branchless-utf8) - Branchless UTF-8 decoder
 
 ## Testing ##
@@ -4724,8 +4735,6 @@ Textual User Interface
 [310]: http://site.icu-project.org/
 [309]: http://mike.steinert.ca/bstring/
 
-[308]: https://uclibc-ng.org/
-[307]: http://pdclib.e43.eu/
 [306]: https://www.musl-libc.org/
 [305]: https://www.gnu.org/software/libc/
 [304]: https://www.fefe.de/dietlibc/
