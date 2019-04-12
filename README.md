@@ -4315,15 +4315,18 @@ Engines, libraries and other helpful things specifically for making games.
   C/C++. [`Public domain`][76-21]
   * [matteobertozzi/carthage][76-22] - Pure C Data Structure and Utils. [`BSD`][76-23]
   * [napsy/libhelper][76-24] - General functions and data structures for C. [`BSD 3-Clause`][76-25]
-  * [niklasfrykholm/nflibs](https://github.com/niklasfrykholm/nflibs) - A collection of interoperable minimalistic C libraries
-  * [nothings/stb](https://github.com/nothings/stb) - stb single-file public domain libraries for C/C++
-  * [prideout/par](https://github.com/prideout/par) - single-file C libraries from Philip Allan Rideout
-  * [rmitton/rjm](https://github.com/rmitton/rjm) - Various single-file C libraries.
-  * [rustyrussell/ccan](https://github.com/rustyrussell/ccan) - The C Code Archive Network
-  * [vurtun/mmx](https://github.com/vurtun/mmx) - single header libraries for C/C++
-  * [yl790/algorithms-and-data-structures](https://github.com/yl790/algorithms-and-data-structures) - for future reference
-  * [rofl0r/libulz](https://github.com/rofl0r/libulz) - a collection of useful functions and data structures to create C apps faster. focus on simplicity, ability to statically link and minimal binary size.
-  * [sdroege/snippets](https://github.com/sdroege/snippets) - Some algorithms and data structures
+  * [niklasfrykholm/nflibs][76-26] - A collection of interoperable minimalistic
+  C libraries. [`Public domain][76-27]
+  * [nothings/stb][76-28] - Single-file public domain libraries for C/C++. [`Licenses`][76-29]
+  * [prideout/par][76-30] - Single-file C libraries from Philip Allan Rideout. [`MIT`][76-31]
+  * [rmitton/rjm][76-32] - Various single-file C libraries. [`Public domain`][76-33]
+  * [vurtun/mmx][76-34] - single header libraries for C/C++. `No license`
+  * [yl790/algorithms-and-data-structures][76-35] - Different algorithms & data
+  structures. `No license`
+  * [rofl0r/libulz][76-36] - a collection of useful functions and data
+  structures to create C apps faster. focus on simplicity, ability to statically
+  link and minimal binary size. [`LGPL 2.1`][76-37]
+  * [sdroege/snippets][76-38] - Some algorithms and data structures. [`LGPL 3`][76-39]
   * [cirosantilli/cpp-cheat](https://github.com/cirosantilli/cpp-cheat) - C, C++, POSIX and Linux system programming minimal examples. Asserts used wherever possible. Hello worlds for cool third party libraries and build systems. Cheatsheets, tutorials and mini-projects.
   * [lbrito1/cstuff](https://github.com/lbrito1/cstuff) - Algorithms & data structures in C
   * [Krakonos/cutils](https://github.com/Krakonos/cutils) - C utilities and data structures
@@ -4336,6 +4339,20 @@ Engines, libraries and other helpful things specifically for making games.
   * [attractivechaos/klib](https://github.com/attractivechaos/klib) - Small and lightweight implementations of common algorithms and data structures. [`MIT`](https://github.com/attractivechaos/klib/#overview)
   * [happyfish100/libfastcommon](https://github.com/happyfish100/libfastcommon) - c common functions library extracted from my open source project FastDFS. this library is very simple and stable.  functions including: string, logger, chain, hash, socket, ini file reader, base64 encode / decode, url encode / decode, fast timer, skiplist, object pool etc. detail info please see the c header files.
 
+  [76-39]: https://github.com/sdroege/snippets/blob/master/COPYING
+  [76-38]: https://github.com/sdroege/snippets
+  [76-37]: https://github.com/rofl0r/libulz/blob/master/COPYING
+  [76-36]: https://github.com/rofl0r/libulz
+  [76-35]: https://github.com/yl790/algorithms-and-data-structures
+  [76-34]: https://github.com/vurtun/mmx
+  [76-33]: https://github.com/rmitton/rjm#rjm
+  [76-32]: https://github.com/rmitton/rjm
+  [76-31]: https://github.com/prideout/par#par
+  [76-30]: https://github.com/prideout/par
+  [76-29]: https://github.com/nothings/stb#stb
+  [76-28]: https://github.com/nothings/stb
+  [76-27]: https://github.com/niklasfrykholm/nflibs#license
+  [76-26]: https://github.com/niklasfrykholm/nflibs
   [76-25]: https://github.com/napsy/libhelper/blob/master/LICENSE
   [76-24]: https://github.com/napsy/libhelper
   [76-23]: https://github.com/matteobertozzi/carthage
