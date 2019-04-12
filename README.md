@@ -2522,7 +2522,12 @@ Libraries for working with specific filetypes or classes of filetypes.
   * [breckinloggins/ngtemplate][44-47] - A template engine written in C designed
   to be syntax-compatible with Google CTemplate. [`MIT`][44-48]
   * [ccxvii/mujs][44-49] - An embeddable Javascript interpreter in C. [`ISC`][44-50]
+  * [Microsoft/checkedc][44-51] - Extension to C that adds checking to detect or
+  prevent common programming errors such as buffer overruns and out-of-bounds
+  memory accesses. [`MIT`][44-52]
 
+  [44-52]: https://github.com/Microsoft/checkedc#licensing
+  [44-51]: https://github.com/Microsoft/checkedc
   [44-50]: https://github.com/ccxvii/mujs/blob/master/COPYING
   [44-49]: https://github.com/ccxvii/mujs
   [44-48]: https://github.com/breckinloggins/ngtemplate/blob/master/LICENSE
@@ -4059,20 +4064,15 @@ Engines, libraries and other helpful things specifically for making games.
   then restoring it. Targeted for Linux. [`Licenses`][71-4]
   * [alsa-lib][71-5] - Userspace library to interact with ALSA. [`LGPL 2.1`][71-6]
   * [Leandros/WindowsHModular][71-7] - A modular Windows.h Header. [`License`][71-8]
-  * [Microsoft/checkedc](https://github.com/Microsoft/checkedc) - Checked C is an extension to C that adds checking to detect or prevent common programming errors such as buffer overruns and out-of-bounds memory accesses.  This repo has a wiki for Checked C, sample code, the specification, and test code.
-  * [Xfennec/progress](https://github.com/Xfennec/progress) - Linux tool to show progress for cp, rm, dd, ...
-  * [a0rtega/pafish](https://github.com/a0rtega/pafish) - Pafish is a demonstration tool that employs several techniques to detect sandboxes and analysis environments in the same way as malware families do.
-  * [adoxa/ansicon](https://github.com/adoxa/ansicon) - Process ANSI escape sequences for Windows console programs.
-  * [aidenbell/getdents](https://github.com/aidenbell/getdents) - Simple tool for listing large (millions) numbers of files on Linux systems without causing memory issues. Useful for shell scripting large data stores.
-  * [antirez/linenoise](https://github.com/antirez/linenoise) - A small self-contained alternative to readline and libedit
-  * [ardagnir/athame](https://github.com/ardagnir/athame) - Full vim for readline (bash, gdb, python, etc)
-  * [asamy/ksm](https://github.com/asamy/ksm) - A really simple and lightweight x64 hypervisor written in C.  Supports VMFUNC, EPTP switching, #VE EPT Violation, VT-x nesting and IDT shadowing.  VMFUNC backward compatibility also supported.
-  * [dtrace4linux/linux](https://github.com/dtrace4linux/linux) - dtrace for linux - kernel driver and userland tools
-  * [fancycode/MemoryModule](https://github.com/fancycode/MemoryModule) - Library to load a DLL from memory.
-  * [gentilkiwi/kekeo](https://github.com/gentilkiwi/kekeo) - A little toolbox to play with Microsoft Kerberos in C
-  * [jimon/osx_app_in_plain_c](https://github.com/jimon/osx_app_in_plain_c) - A simple showcase how to create a simple OS X app in plain C without any Objective-C
-  * [martinezjavier/ldd3](https://github.com/martinezjavier/ldd3) - Linux Device Drivers 3 examples updated to work in recent kernels
-  * [rvoicilas/inotify-tools](https://github.com/rvoicilas/inotify-tools) -   inotify-tools is a C library and a set of command-line programs for Linux providing a simple interface to inotify.
+  * [a0rtega/pafish][71-9] - Pafish is a demonstration tool that employs several
+  techniques to detect sandboxes and analysis environments in the same way as
+  malware families do. [`GPL 3`][71-10]
+  * [antirez/linenoise][71-11] - A small self-contained alternative to readline
+  and libedit. [`BSD 2-Clause`][71-12]
+  * [fancycode/MemoryModule][71-13] - Library to load a DLL from memory. [`License`][71-14]
+  * [jimon/osx_app_in_plain_c][71-15] - A simple showcase how to create a simple
+  OS X app in plain C without any Objective-C. `No license`
+  * [rvoicilas/inotify-tools](https://github.com/rvoicilas/inotify-tools) - Library and a set of command-line programs for Linux providing a simple interface to inotify.
   * [samuellab/InterProcess](https://github.com/samuellab/InterProcess) - A compact C library to share data between processes on Windows. Fast. Simple
   * [tinyalsa/tinyalsa](https://github.com/tinyalsa/tinyalsa) - Tiny library to interface with ALSA in the Linux kernel
   * [warmcat/libwebsockets](https://github.com/warmcat/libwebsockets) - canonical libwebsockets.org websocket library
@@ -4080,6 +4080,13 @@ Engines, libraries and other helpful things specifically for making games.
   * [Keruspe/GPaste](https://github.com/Keruspe/GPaste) - Clipboard management system
   * [zardus/preeny](https://github.com/zardus/preeny) - Some helpful preload libraries for pwning stuff.
 
+  [71-15]: https://github.com/jimon/osx_app_in_plain_c
+  [71-14]: https://github.com/fancycode/MemoryModule/blob/master/LICENSE.txt
+  [71-13]: https://github.com/fancycode/MemoryModule
+  [71-12]: https://github.com/antirez/linenoise/blob/master/LICENSE
+  [71-11]: https://github.com/antirez/linenoise
+  [71-10]: https://github.com/a0rtega/pafish/blob/master/LICENSE.txt
+  [71-9]: https://github.com/a0rtega/pafish
   [71-8]: https://github.com/Leandros/WindowsHModular/blob/master/LICENSE
   [71-7]: https://github.com/Leandros/WindowsHModular
   [71-6]: https://git.alsa-project.org/?p=alsa-lib.git;a=blob;f=COPYING;h=ae23fcfda2da8599b52baff4c257847205d78c56;hb=HEAD
