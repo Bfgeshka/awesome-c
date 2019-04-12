@@ -4187,13 +4187,18 @@ Engines, libraries and other helpful things specifically for making games.
   * [nasciiboy/RecursiveRegexpRaptor-4][74-5] - Simple and complete
   implementation of regular expressions with its own sintax. [`GPL 3`][74-6]
   * [laurikari/tre][74-7] - POSIX-compliant, feature-full regex library. [`License`][74-8]
-  * [cesanta/slre](https://github.com/cesanta/slre) - Super Light Regexp engine for C/C++
-  * [k-takata/Onigmo](https://github.com/k-takata/Onigmo) - Onigmo is a regular expressions library forked from Oniguruma.
-  * [mbornet-hl/hl](https://github.com/mbornet-hl/hl) - Highlight (colorize) text data using regular expressions
-  * [mptre/pick](https://github.com/mptre/pick) - A fuzzy search tool for the command-line
-  * [openresty/sregex](https://github.com/openresty/sregex) - A non-backtracking NFA/DFA-based Perl-compatible regex engine matching on large data streams
-  * [plusvic/yara](https://github.com/plusvic/yara) - The pattern matching swiss
+  * [cesanta/slre][74-9] - Super Light Regexp engine for C/C++. [`License`][74-10]
+  * [k-takata/Onigmo][74-11] - Regular expressions library forked from
+  Oniguruma. [`License`][74-12]
+  * [openresty/sregex][74-13] - A non-backtracking NFA/DFA-based Perl-compatible
+  regex engine matching on large data streams. [`BSD 3-Clause`][74-14]
 
+  [74-14]: https://github.com/openresty/sregex/blob/master/LICENSE
+  [74-13]: https://github.com/openresty/sregex
+  [74-12]: https://github.com/k-takata/Onigmo/blob/master/COPYING
+  [74-11]: https://github.com/k-takata/Onigmo
+  [74-10]: https://github.com/cesanta/slre/blob/master/LICENSE
+  [74-9]: https://github.com/cesanta/slre
   [74-8]: https://github.com/laurikari/tre/blob/master/LICENSE
   [74-7]: https://github.com/laurikari/tre
   [74-6]: https://github.com/nasciiboy/RecursiveRegexpRaptor-4/blob/master/LICENSE.txt
