@@ -4107,10 +4107,34 @@ Engines, libraries and other helpful things specifically for making games.
   [71-1]: https://github.com/symisc/libcox
 </details>
 
-## Procedural Generation ##
-* [heman][382] - Tiny library of image utilities dealing with height maps,
-  normal maps, distance fields and the like. [``MIT``][MIT]
-* [JCash/voronoi](https://github.com/JCash/voronoi) - A C implementation for creating 2D voronoi diagrams
+<a id="procedural-generation"></a>
+<details>
+  <summary>Procedural Generation</summary>
+
+  ## <a href="#-">`^`</a> Procedural Generation ##
+  * [prideout/heman][72-1] - Tiny library of image utilities dealing with
+  height maps, normal maps, distance fields and the like. [`MIT`][72-2]
+  * [JCash/voronoi][72-3] - A C implementation for creating 2D voronoi diagrams. [`MIT`][72-4]
+  * [Srekel/the-worldinator][72-5] - Procedural world generation experiment. [`Licenses`][72-6]
+  * [saxbophone/libsxbp][72-7] - Experimental generation of 2D spiralling lines
+  based on input binary data. [`License`][72-8]
+  * [ajxs/pbp][72-9] - Procedural Block Painter. Experiments in procedural art
+  generation. [`MIT`][72-10]
+  * [Tastyep/ProceduralNoise][72-11] - Useful functions for procedural
+  generation. `No license`
+
+  [72-11]: https://github.com/Tastyep/ProceduralNoise
+  [72-10]: https://github.com/ajxs/pbp/blob/master/LICENSE
+  [72-9]: https://github.com/ajxs/pbp
+  [72-8]: https://github.com/saxbophone/libsxbp/blob/master/LICENSE
+  [72-7]: https://github.com/saxbophone/libsxbp
+  [72-6]: https://github.com/Srekel/the-worldinator/blob/master/LICENSE
+  [72-5]: https://github.com/Srekel/the-worldinator
+  [72-4]: https://github.com/JCash/voronoi/blob/dev/LICENSE
+  [72-3]: https://github.com/JCash/voronoi
+  [72-2]: https://github.com/prideout/heman/blob/master/LICENSE
+  [72-1]: https://github.com/prideout/heman
+</details>
 
 ## Processes and IPC ##
 * [D-Bus][430] - Interprocess communications bus. [``AFL-2.1``][AFL-2.1] or [``GPL-2.0-or-later``][GPL-2.0-or-later]
@@ -4473,7 +4497,6 @@ Textual User Interface
 [385]: http://www.libpng.org/
 [384]: https://libjpeg-turbo.virtualgl.org/
 [383]: https://pngquant.org/lib/
-[382]: https://github.com/prideout/heman
 
 [378]: https://github.com/riolet/WAFer
 [377]: http://www.pell.portland.or.us/~orc/Code/discount/
