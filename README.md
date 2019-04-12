@@ -4579,51 +4579,40 @@ Engines, libraries and other helpful things specifically for making games.
   [80-1]: https://github.com/wooorm/levenshtein.c
 </details>
 
-## Testing ##
-* [CHEAT][340] - Simple unit testing framework. [``BSD-2-Clause``][BSD-2-Clause]
-* [Check][341] - Unit testing framework. [``LGPL-2.1-only``][LGPL-2.1-only]
-* [ciut][342] - A modern minimal hassle unit test framework. [``MIT``][MIT]
-* [clar][343] - Clear and simple unit testing framework. [``MIT``][MIT]
-* [CMock][344] - Mock/stub generator. [``MIT``][MIT]
-* [cmocka][345] - Unit testing framework with support for mock objects. [``Apache-2.0``][Apache-2.0]
-* [Criterion][346] - KISS, non-intrusive test framework. [``MIT``][MIT]
-* [ctest][347] - Yet another unit testing framework. [``Apache-2.0``][Apache-2.0]
-* [CUnit][348] - Another unit testing framework. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
-* [greatest][349] - Unit testing library in one file, with no memory allocation. [``MIT``][MIT]
-* [minctest][350] - Unit testing microlibrary. [``BSD-3-Clause``][BSD-3-Clause]
-* [munit][351] - Small unit testing framework. [``MIT``][MIT]
-* [theft][352] - Property-based testing (similar to [Quickcheck][353]). [``MIT``][MIT]
-* [Unity][354] - Simple unit testing framework. [``MIT``][MIT]
-* [utest][355] - Single-header unit testing library. [``Unlicense``][Unlicense]
-* [CHEAT](http://users.jyu.fi/~sapekiis/cheat/) - Very simple unit testing framework. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
-* [Check](https://libcheck.github.io/check/) - Unit testing framework for C. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-* [CMock](http://www.throwtheswitch.org/) - Mock/stub generator for C. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-* [cmocka](https://cmocka.org/) - Unit testing framework with support for mock objects. [`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
-* [Criterion](https://criterion.readthedocs.io/en/master/) - KISS, non-intrusive C test framework. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-* [CUnit](http://cunit.sourceforge.net/) - Another unit testing framework for C. [`GNU LGPL2.0`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-* [Cutest](https://github.com/rafael-santiago/cutest) - Library for unit testing with memory leak detection (Linux, freeBSD and Windows). [`GPL2`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-* [minunit](https://github.com/siu/minunit) - Minimal unit testing framework for C. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-* [munit](https://nemequ.github.io/munit/) - Small but full-featured unit testing framework for C with no dependencies. [`MIT`](https://raw.githubusercontent.com/atom/atom/master/LICENSE.md)
-* [Unity](http://www.throwtheswitch.org/) - Simple unit testing framework for C. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-* [zorgnax/libtap](https://github.com/zorgnax/libtap) - Write tests in C
-* [Snaipe/Criterion](https://github.com/Snaipe/Criterion) - A cross-platform C and C++ unit testing framework for the 21th century
-* [ThrowTheSwitch/Unity](https://github.com/ThrowTheSwitch/Unity) - Simple Unit Testing for C
-* [bvdberg/ctest](https://github.com/bvdberg/ctest) - ctest is a unit test framework for software written in C.
-* [clear-code/cutter](https://github.com/clear-code/cutter) - An easy to write and debug unit testing framework for C and C++.
-* [compiler-dept/speck](https://github.com/compiler-dept/speck) - A small unit testing framework for C
-* [joewalnes/tinytest](https://github.com/joewalnes/tinytest) - A tiny unit-testing framework for C
-* [libcheck/check](https://github.com/libcheck/check) - A unit testing framework for C
-* [lpabon/cmockery2](https://github.com/lpabon/cmockery2) - Reviving cmockery unit test framework from Google
-* [mcandre/qc](https://github.com/mcandre/qc) - qc - A C port of the QuickCheck unit test framework
-* [mchochlov/Gnucash](https://github.com/mchochlov/Gnucash) - Data model unit testing - GSoC 2011
-* [mortie/snow](https://github.com/mortie/snow) - A testing library for C.
-* [orangeduck/ptest](https://github.com/orangeduck/ptest) - DRY Microtesting Framework for C
-* [pozorvlak/libtap](https://github.com/pozorvlak/libtap) - Testing library for C, implementing the Test Anything Protocol. Written by Nik Clayton.
-* [silentbicycle/greatest](https://github.com/silentbicycle/greatest) - A C testing library in 1 file. No dependencies, no dynamic allocation. ISC licensed.
-* [silentbicycle/theft](https://github.com/silentbicycle/theft) - property-based testing for C: generate input to find obscure bugs, then reduce to minimal failing input
-* [siu/minunit](https://github.com/siu/minunit) - Minimal unit testing framework for C
-* [stephenmathieson/describe.h](https://github.com/stephenmathieson/describe.h) - Simple BDD describe test thingy for C
-* [vmg/clar](https://github.com/vmg/clar) - What tests are made of.
+<a id="testing"></a>
+<details>
+  <summary>Testing</summary>
+
+  ## <a href="#-">`^`</a> Testing ##
+  * [ciut][342] - A modern minimal hassle unit test framework. [``MIT``][MIT]
+  * [minctest][350] - Unit testing microlibrary. [``BSD-3-Clause``][BSD-3-Clause]
+  * [utest][355] - Single-header unit testing library. [``Unlicense``][Unlicense]
+  * [CHEAT](http://users.jyu.fi/~sapekiis/cheat/) - Very simple unit testing framework. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
+  * [Check](https://libcheck.github.io/check/) - Unit testing framework for C. [`GNU LGPL2.1`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
+  * [CMock](http://www.throwtheswitch.org/) - Mock/stub generator for C. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
+  * [cmocka](https://cmocka.org/) - Unit testing framework with support for mock objects. [`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
+  * [CUnit](http://cunit.sourceforge.net/) - Another unit testing framework for C. [`GNU LGPL2.0`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
+  * [Cutest](https://github.com/rafael-santiago/cutest) - Library for unit testing with memory leak detection (Linux, freeBSD and Windows). [`GPL2`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+  * [munit](https://nemequ.github.io/munit/) - Small but full-featured unit testing framework for C with no dependencies. [`MIT`](https://raw.githubusercontent.com/atom/atom/master/LICENSE.md)
+  * [zorgnax/libtap](https://github.com/zorgnax/libtap) - Write tests in C
+  * [Snaipe/Criterion](https://github.com/Snaipe/Criterion) - A cross-platform C and C++ unit testing framework for the 21th century
+  * [ThrowTheSwitch/Unity](https://github.com/ThrowTheSwitch/Unity) - Simple Unit Testing for C
+  * [bvdberg/ctest](https://github.com/bvdberg/ctest) - ctest is a unit test framework for software written in C.
+  * [clear-code/cutter](https://github.com/clear-code/cutter) - An easy to write and debug unit testing framework for C and C++.
+  * [compiler-dept/speck](https://github.com/compiler-dept/speck) - A small unit testing framework for C
+  * [joewalnes/tinytest](https://github.com/joewalnes/tinytest) - A tiny unit-testing framework for C
+  * [lpabon/cmockery2](https://github.com/lpabon/cmockery2) - Reviving cmockery unit test framework from Google
+  * [mcandre/qc](https://github.com/mcandre/qc) - qc - A C port of the QuickCheck unit test framework
+  * [mchochlov/Gnucash](https://github.com/mchochlov/Gnucash) - Data model unit testing - GSoC 2011
+  * [mortie/snow](https://github.com/mortie/snow) - A testing library for C.
+  * [orangeduck/ptest](https://github.com/orangeduck/ptest) - DRY Microtesting Framework for C
+  * [pozorvlak/libtap](https://github.com/pozorvlak/libtap) - Testing library for C, implementing the Test Anything Protocol. Written by Nik Clayton.
+  * [silentbicycle/greatest](https://github.com/silentbicycle/greatest) - A C testing library in 1 file. No dependencies, no dynamic allocation. ISC licensed.
+  * [silentbicycle/theft](https://github.com/silentbicycle/theft) - property-based testing for C: generate input to find obscure bugs, then reduce to minimal failing input
+  * [siu/minunit](https://github.com/siu/minunit) - Minimal unit testing framework for C
+  * [stephenmathieson/describe.h](https://github.com/stephenmathieson/describe.h) - Simple BDD describe test thingy for C
+  * [vmg/clar](https://github.com/vmg/clar) - What tests are made of.
+</details>
 
 ## TUI ##
 Textual User Interface
