@@ -4214,16 +4214,13 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>Serialization</summary>
 
   ## <a href="#-">`^`</a> Serialization ##
-  * [flatcc][284] - [FlatBuffers][285] compiler and library. [``Apache-2.0``][Apache-2.0]
-  * [OPIC][288] - Object Persistence in C; a revolutionary serialization
-  framework, with matching on-disk and in-memory representations. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-  * [tpl][290] - Small binary serialization library. [``MIT``][MIT]
-  * [pbc][437] - Protocol buffers library. [``MIT``][MIT]
-  * [binn](https://github.com/liteserver/binn) - Binary serialization format meant to be compact, fast and easy-to-use. [`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
-  * [c-capnproto](https://github.com/jmckaskill/c-capnproto) - Implementation of the Cap'n Proto serialization protocol. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-  * [cmp](https://github.com/camgunz/cmp) - Implementation of the [MessagePack](https://msgpack.org/) serialization protocol. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-  * [libavro](http://avro.apache.org/docs/current/api/c/index.html#_introduction_to_avro_c) - C implementation of the Avro data serialization system. [`Apache 2.0`](https://directory.fsf.org/wiki/License:Apache-2.0)
-  * [mpack](https://github.com/ludocode/mpack) - Another implementation of the [MessagePack](https://msgpack.org/) serialization protocol. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
+  * [dvidelabs/flatcc][75-1] - FlatBuffers compiler and library. [`Apache 2`][75-2]
+  * [liteserver/binn][75-3] - Binary serialization format meant to be compact,
+  fast and easy-to-use. [`Apache 2`][75-4]
+  * [jmckaskill/c-capnproto][75-5] - Implementation of the Cap'n Proto
+  serialization protocol. [`MIT`][75-6]
+  * [apache/avro][75-7] - Avro data serialization system for several languages,
+  including C. [`Apache 2`][75-8]
   * [netstring-c](https://github.com/liteserver/netstring-c) - Netstring encoder and decoder. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
   * [protobuf-c](https://github.com/protobuf-c/protobuf-c) - Implementation of Google Protocol Buffer in C. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
   * [xdr](https://en.wikipedia.org/wiki/External_Data_Representation) - External Data Representation; a standard for data serialization.
@@ -4246,6 +4243,15 @@ Engines, libraries and other helpful things specifically for making games.
   * [asnlc](http://lionet.info/asn1c/compiler.html) - Compiler of ASN.1 specifications into C source code. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
   * [clibs/dumpasn1](https://github.com/clibs/dumpasn1) - Display the contents of ASN.1 encoded data
   * [vlm/asn1c](https://github.com/vlm/asn1c) - The ASN.1 Compiler
+
+  [75-8]: https://github.com/apache/avro/blob/master/LICENSE.txt
+  [75-7]: https://github.com/apache/avro
+  [75-6]: https://github.com/jmckaskill/c-capnproto/blob/master/LICENSE
+  [75-5]: https://github.com/jmckaskill/c-capnproto
+  [75-4]: https://github.com/liteserver/binn/blob/master/LICENSE
+  [75-3]: https://github.com/liteserver/binn
+  [75-2]: https://github.com/dvidelabs/flatcc/blob/master/LICENSE
+  [75-1]: https://github.com/dvidelabs/flatcc
 </details>
 
 ## Source Code Collections ##
@@ -4610,11 +4616,9 @@ Textual User Interface
 [291]: https://en.wikipedia.org/wiki/External_Data_Representation
 [290]: https://github.com/troydhanson/tpl
 [289]: https://github.com/protobuf-c/protobuf-c
-[288]: http://opic.rocks/
 [287]: https://github.com/ludocode/mpack
 [286]: http://avro.apache.org/docs/current/api/c/index.html#_introduction_to_avro_c
 [285]: https://google.github.io/flatbuffers/
-[284]: https://github.com/dvidelabs/flatcc
 [283]: https://msgpack.org/
 [282]: https://github.com/camgunz/cmp
 [281]: https://github.com/jmckaskill/c-capnproto
