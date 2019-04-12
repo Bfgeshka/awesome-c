@@ -4530,20 +4530,29 @@ Engines, libraries and other helpful things specifically for making games.
   support. [`License`][80-8]
   * [libunistring][80-9] - Library for manipulating Unicode strings in C. [`Licenses`][80-10]
   * [libgiconv][80-11] - Text conversion library. [`LGPL`][80-12]
-  * [shoco](http://ed-von-schleck.github.io/shoco/) - Compressor for small text strings. [`Expat`](https://directory.fsf.org/wiki/License:Expat)
-  * [utf8proc](https://github.com/JuliaStrings/utf8proc) - Small, clean library for processing UTF-8 Unicode data. [`License`](https://github.com/JuliaStrings/utf8proc/blob/master/LICENSE.md)
-  * [antirez/sds](https://github.com/antirez/sds) - Simple Dynamic Strings library for C
-  * [boyerjohn/rapidstring](https://github.com/boyerjohn/rapidstring) - Maybe the fastest string library ever.
-  * [clibs/buffer](https://github.com/clibs/buffer) - Tiny C string library
-  * [cloudwu/cstring](https://github.com/cloudwu/cstring) - A simple C string lib
-  * [chrisjmccormick/word2vec_commented](https://github.com/chrisjmccormick/word2vec_commented) - Commented (but unaltered) version of original word2vec C implementation.
-  * [flori/amatch](https://github.com/flori/amatch) - Approximate String Matching library
+  * [JuliaStrings/utf8proc][80-13] - Small, clean library for processing UTF-8
+  Unicode data. [`License`][80-14]
+  * [antirez/sds][80-15] - Simple Dynamic Strings library for C. [`BSD 2-Clause`][80-16]
+  * [boyerjohn/rapidstring][80-17] - Maybe the fastest string library ever. [`MIT`][80-18]
+  * [clibs/buffer][80-19] - Tiny C string library. [`MIT`][80-20]
+  * [chrisjmccormick/word2vec_commented][80-21] - Commented (but unaltered)
+  version of original word2vec C implementation. [`Apache 2`][80-22]
   * [fontforge/libuninameslist](https://github.com/fontforge/libuninameslist) - A library with a large (sparse) array mapping each unicode code point to the annotation data for it provided in http://www.unicode.org/Public/UNIDATA/NamesList.txt
   * [jasonmaclafferty/String](https://github.com/jasonmaclafferty/String) - A dynamic string data type implementation for C.
   * [josephg/librope](https://github.com/josephg/librope) - UTF-8 rope library for C
   * [sheredom/utf8.h](https://github.com/sheredom/utf8.h) - single header utf8 string functions for C and C++
   * [branchless-utf8](https://github.com/skeeto/branchless-utf8) - Branchless UTF-8 decoder
 
+  [80-22]: https://github.com/chrisjmccormick/word2vec_commented/blob/master/LICENSE
+  [80-21]: https://github.com/chrisjmccormick/word2vec_commented
+  [80-20]: https://github.com/clibs/buffer#license
+  [80-19]: https://github.com/clibs/buffer
+  [80-18]: https://github.com/boyerjohn/rapidstring/blob/master/LICENSE
+  [80-17]: https://github.com/boyerjohn/rapidstring
+  [80-16]: https://github.com/antirez/sds/blob/master/LICENSE
+  [80-15]: https://github.com/antirez/sds
+  [80-14]: https://github.com/JuliaStrings/utf8proc/blob/master/LICENSE.md
+  [80-13]: https://github.com/JuliaStrings/utf8proc
   [80-12]: https://www.gnu.org/software/libiconv/
   [80-11]: https://www.gnu.org/software/libiconv/
   [80-10]: http://git.savannah.gnu.org/cgit/libunistring.git/tree/
