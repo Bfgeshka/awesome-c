@@ -4606,15 +4606,33 @@ Engines, libraries and other helpful things specifically for making games.
   * [lpabon/cmockery2][81-32] - Reviving cmockery unit test framework from
   Google. [`Apache 2`][81-33]
   * [mcandre/qc][81-34] - C port of the QuickCheck unit test framework. [`BSD 2-Clause`][81-35]
-  * [mchochlov/Gnucash](https://github.com/mchochlov/Gnucash) - Data model unit testing - GSoC 2011
-  * [mortie/snow](https://github.com/mortie/snow) - A testing library for C.
-  * [orangeduck/ptest](https://github.com/orangeduck/ptest) - DRY Microtesting Framework for C
-  * [silentbicycle/greatest](https://github.com/silentbicycle/greatest) - A C testing library in 1 file. No dependencies, no dynamic allocation. ISC licensed.
-  * [silentbicycle/theft](https://github.com/silentbicycle/theft) - property-based testing for C: generate input to find obscure bugs, then reduce to minimal failing input
-  * [siu/minunit](https://github.com/siu/minunit) - Minimal unit testing framework for C
-  * [stephenmathieson/describe.h](https://github.com/stephenmathieson/describe.h) - Simple BDD describe test thingy for C
-  * [vmg/clar](https://github.com/vmg/clar) - What tests are made of.
+  * [mchochlov/Gnucash][81-36] - Data model unit testing - GSoC 2011. [`Licenses`][81-37]
+  * [mortie/snow][81-38] - A testing library for C. [`MIT`][81-39]
+  * [orangeduck/ptest][81-40] - DRY Microtesting Framework for C. [`BSD 3-Clause`][81-41]
+  * [silentbicycle/greatest][81-42] - A C testing library in 1 file. No
+  dependencies, no dynamic allocation. [`ISC`][81-43]
+  * [silentbicycle/theft][81-44] - property-based testing for C: generate input
+  to find obscure bugs, then reduce to minimal failing input. [`ISC`][81-45]
+  * [siu/minunit][81-46] - Minimal unit testing framework for C. [`MIT`][81-47]
+  * [stephenmathieson/describe.h][81-48] - Simple BDD describe test. [`MIT`][81-49]
+  * [vmg/clar][81-50] - What tests are made of. [`ISC`][81-51]
 
+  [81-51]: https://github.com/vmg/clar/blob/master/COPYING
+  [81-50]: https://github.com/vmg/clar
+  [81-49]: https://github.com/stephenmathieson/describe.h#license
+  [81-48]: https://github.com/stephenmathieson/describe.h
+  [81-47]: https://github.com/siu/minunit/blob/master/MIT-LICENSE.txt
+  [81-46]: https://github.com/siu/minunit
+  [81-45]: https://github.com/silentbicycle/theft/blob/master/LICENSE
+  [81-44]: https://github.com/silentbicycle/theft
+  [81-43]: https://github.com/silentbicycle/greatest/blob/master/LICENSE
+  [81-42]: https://github.com/silentbicycle/greatest
+  [81-41]: https://github.com/orangeduck/ptest#license
+  [81-40]: https://github.com/orangeduck/ptest
+  [81-39]: https://github.com/mortie/snow/blob/master/LICENSE
+  [81-38]: https://github.com/mortie/snow
+  [81-37]: https://github.com/mchochlov/Gnucash/blob/dmut-gsoc2011/LICENSE
+  [81-36]: https://github.com/mchochlov/Gnucash
   [81-35]: https://github.com/mcandre/qc/blob/master/LICENSE.md
   [81-34]: https://github.com/mcandre/qc
   [81-33]: https://github.com/lpabon/cmockery2/blob/master/COPYING
