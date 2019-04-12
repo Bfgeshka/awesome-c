@@ -3775,7 +3775,11 @@ Engines, libraries and other helpful things specifically for making games.
   * [silentbicycle/socket99][66-13] - C99 wrapper for the BSD sockets API. [`ISC`][66-14]
   * [fastos/fastsocket][66-15] - Fastsocket is a highly scalable socket and its
   underlying networking implementation of Linux kernel. [`GPL 2`][66-16]
+  * [sustrik/msg_control][66-17] - Helper functions for dealing with socket
+  ancillary data. [`MIT`][66-18]
 
+  [66-18]: https://github.com/sustrik/msg_control#msg_control
+  [66-17]: https://github.com/sustrik/msg_control
   [66-16]: https://github.com/fastos/fastsocket/blob/master/COPYING
   [66-15]: https://github.com/fastos/fastsocket
   [66-14]: https://github.com/silentbicycle/socket99#license
@@ -3963,14 +3967,18 @@ Engines, libraries and other helpful things specifically for making games.
   * [libssh2/libssh2][70-15] - the SSH library. [`BSD 3-Clause`][70-16]
   * [rockdaboot/mget][70-17] - Multithreaded metalink/file/website downloader
   (like Wget) and C library. [`LGPL 3`][70-18]
-  * [seanmiddleditch/libtelnet](https://github.com/seanmiddleditch/libtelnet) - Simple RFC-complient TELNET implementation as a C library.
-  * [shadeslayer/libnice](https://github.com/shadeslayer/libnice) - Implementation of the IETF's Interactive Connectivity Establishment (ICE) standard (RFC 5245) and the Session Traversal Utilities for NAT (STUN) standard (RFC 5389).
-  * [sustrik/msg_control](https://github.com/sustrik/msg_control) - Helper functions for dealing with socket ancillary data
-  * [udp/lacewing](https://github.com/udp/lacewing) - Cross-platform network I/O library for C/C++
-  * [verse/verse](https://github.com/verse/verse) - Network protocol for real-time sharing between graphical applications
-  * [the-tcpdump-group/libpcap](https://github.com/the-tcpdump-group/libpcap) - the LIBpcap interface to various kernel packet capture mechanism
-  * [the-tcpdump-group/tcpdump](https://github.com/the-tcpdump-group/tcpdump) - the TCPdump network dissector
-  * [luohaha/CSpider](https://github.com/luohaha/CSpider) - A scalable and convenient crawler framework in C:).
+  * [seanmiddleditch/libtelnet][70-19] - Simple RFC-complient TELNET
+  implementation as a C library. [`Public domain`][70-20]
+  * [shadeslayer/libnice][70-21] - Implementation of the IETF's Interactive
+  Connectivity Establishment (ICE) standard (RFC 5245) and the Session Traversal
+  Utilities for NAT (STUN) standard (RFC 5389). [`Licenses`][70-22]
+  * [udp/lacewing][70-23] - Cross-platform network I/O library for C/C++. [`License`][70-24]
+  * [verse/verse][70-25] - Network protocol for real-time sharing between
+  graphical applications. [`Licenses`][70-26]
+  * [the-tcpdump-group/libpcap][70-27] - the LIBpcap interface to various kernel
+  packet capture mechanism. [`BSD 3-Clause`][70-28]
+  * [the-tcpdump-group/tcpdump][70-29] - the TCPdump network dissector. [`BSD 3-Clause`][70-30]
+  * [luohaha/CSpider][70-31] - A scalable and convenient crawler framework. [`MIT`][70-32]
   * [nitrogenlogic/cliserver](https://github.com/nitrogenlogic/cliserver) - A sample libevent-based network socket server that presents a simple command line interface to multiple connecting clients.
   * [babelouest/ulfius](https://github.com/babelouest/ulfius) - Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. Can stream large amount of data, integrate JSON data with Jansson, and create websocket services
   * [haiwen/ccnet](https://github.com/haiwen/ccnet) - Ccnet is a framework for writing networked applications in C.
@@ -3982,6 +3990,20 @@ Engines, libraries and other helpful things specifically for making games.
   * [zeromq/zyre](https://github.com/zeromq/zyre) - Framework for proximity-based peer-to-peer applications. [`License`](https://github.com/zeromq/zyre/blob/master/LICENSE)
   * [japeq/bencode-tools](https://github.com/japeq/bencode-tools) - bencode-tools is a collection of tools for manipulating bencoded data.
 
+  [70-32]: https://github.com/luohaha/CSpider/blob/master/LICENSE
+  [70-31]: https://github.com/luohaha/CSpider
+  [70-30]: https://github.com/the-tcpdump-group/tcpdump/blob/master/LICENSE
+  [70-29]: https://github.com/the-tcpdump-group/tcpdump
+  [70-28]: https://github.com/the-tcpdump-group/libpcap/blob/master/LICENSE
+  [70-27]: https://github.com/the-tcpdump-group/libpcap
+  [70-26]: https://github.com/verse/verse/blob/master/LICENSE
+  [70-25]: https://github.com/verse/verse
+  [70-24]: https://github.com/udp/lacewing/blob/master/LICENSE
+  [70-23]: https://github.com/udp/lacewing
+  [70-22]: https://github.com/shadeslayer/libnice/blob/master/COPYING
+  [70-21]: https://github.com/shadeslayer/libnice
+  [70-20]: https://github.com/seanmiddleditch/libtelnet/blob/develop/COPYING
+  [70-19]: https://github.com/seanmiddleditch/libtelnet
   [70-18]: https://github.com/rockdaboot/mget/blob/master/COPYING
   [70-17]: https://github.com/rockdaboot/mget
   [70-16]: https://github.com/libssh2/libssh2/blob/master/COPYING
