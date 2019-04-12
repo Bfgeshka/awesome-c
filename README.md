@@ -4221,16 +4221,15 @@ Engines, libraries and other helpful things specifically for making games.
   serialization protocol. [`MIT`][75-6]
   * [apache/avro][75-7] - Avro data serialization system for several languages,
   including C. [`Apache 2`][75-8]
-  * [netstring-c](https://github.com/liteserver/netstring-c) - Netstring encoder and decoder. [`Public Domain`](https://creativecommons.org/share-your-work/public-domain/)
-  * [protobuf-c](https://github.com/protobuf-c/protobuf-c) - Implementation of Google Protocol Buffer in C. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
-  * [xdr](https://en.wikipedia.org/wiki/External_Data_Representation) - External Data Representation; a standard for data serialization.
-  * [ErikDubbelboer/c-pack](https://github.com/ErikDubbelboer/c-pack) - Simple data packing/unpacking in C
-  * [Xsoda/struct](https://github.com/Xsoda/struct) - pack and unpack packet data like python struct module.
-  * [acg/lwpb](https://github.com/acg/lwpb) - Lightweight Protocol Buffers for C and Python
-  * [camgunz/cmp](https://github.com/camgunz/cmp) - An implementation of the MessagePack serialization format in C / msgpack.org[C]
-  * [cloudwu/atomdict](https://github.com/cloudwu/atomdict) - A data structure for data exchange between multi lua states.
-  * [cloudwu/pbc](https://github.com/cloudwu/pbc) - A protocol buffers library for C
-  * [cloudwu/sproto](https://github.com/cloudwu/sproto) - Yet another protocol library like google protocol buffers , but simple and fast.
+  * [liteserver/netstring-c][75-9] - Netstring encoder and decoder. [`Public domain`][75-10]
+  * [protobuf-c][75-11] - Implementation of Google Protocol Buffer in C. [`License`][75-12]
+  * [ErikDubbelboer/c-pack][75-13] - Simple data packing/unpacking in C. `No license`
+  * [acg/lwpb][75-14] - Lightweight Protocol Buffers for C and Python. [`Apache 2`][75-15]
+  * [camgunz/cmp][75-16] - An implementation of the MessagePack serialization
+  format in C. [`MIT`][75-17]
+  * [cloudwu/pbc][75-18] - A protocol buffers library for C. [`MIT`][75-19]
+  * [cloudwu/sproto][75-20] - Yet another protocol library like google protocol
+  buffers , but simple and fast. [`MIT`][75-21]
   * [dryman/opic](https://github.com/dryman/opic) - Fast serialization framework for C
   * [fredrikbk/libpack](https://github.com/fredrikbk/libpack) - Library that packs/serializes or unpacks/deserializes user-defined data layouts. The data layouts are specified using datatypes similar to MPI Datatypes. The library compiles the datatypes into efficient vectorized pack/unpack code at commit time using an LLVM-based online compiler.
   * [google/upb](https://github.com/google/upb) - a small protobuf implementation in C
@@ -4244,6 +4243,19 @@ Engines, libraries and other helpful things specifically for making games.
   * [clibs/dumpasn1](https://github.com/clibs/dumpasn1) - Display the contents of ASN.1 encoded data
   * [vlm/asn1c](https://github.com/vlm/asn1c) - The ASN.1 Compiler
 
+  [75-21]: https://github.com/cloudwu/sproto/blob/master/LICENSE
+  [75-20]: https://github.com/cloudwu/sproto
+  [75-19]: https://github.com/cloudwu/pbc/blob/master/license.txt
+  [75-18]: https://github.com/cloudwu/pbc
+  [75-17]: https://github.com/camgunz/cmp/blob/master/LICENSE
+  [75-16]: https://github.com/camgunz/cmp
+  [75-15]: https://github.com/acg/lwpb/blob/python/COPYING
+  [75-14]: https://github.com/acg/lwpb
+  [75-13]: https://github.com/ErikDubbelboer/c-pack
+  [75-12]: https://github.com/protobuf-c/protobuf-c/blob/master/LICENSE
+  [75-11]: https://github.com/protobuf-c/protobuf-c
+  [75-10]: https://github.com/liteserver/netstring-c#contributing
+  [75-9]: https://github.com/liteserver/netstring-c
   [75-8]: https://github.com/apache/avro/blob/master/LICENSE.txt
   [75-7]: https://github.com/apache/avro
   [75-6]: https://github.com/jmckaskill/c-capnproto/blob/master/LICENSE
