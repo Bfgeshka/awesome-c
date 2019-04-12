@@ -4707,10 +4707,11 @@ Engines, libraries and other helpful things specifically for making games.
   <summary>Uncategorized</summary>
 
   # <a href="#-">`^`</a> Uncategorized #
-  * [tm][432] -  Timer and Timeline Utils for C. [``MIT``][MIT]
-  * [libgit2](https://libgit2.org/) - Pure C implementation of Git. [`GNU GPL2 only, with a linking exception`](https://github.com/libgit2/libgit2/blob/master/COPYING)
-  * [ThomasHabets/monotonic_clock](https://github.com/ThomasHabets/monotonic_clock) - Portable C library for getting monotonic time
-  * [ellson/graphviz](https://github.com/ellson/graphviz) - Graph Visualization Tools
+  * [recp/tm][83-1] - Timer and Timeline Utils for C. [`MIT`][83-2]
+  * [libgit2/libgit2][83-3] - Pure C implementation of Git. [`License`][83-4]
+  * [ThomasHabets/monotonic_clock][83-5] - Portable C library for getting
+  monotonic time. [`BSD 3-Clause`][83-6]
+  * [graphviz][83-7] - Graph Visualization Tools. [`License`][83-8]
   * [elvismt/slope](https://github.com/elvismt/slope) - A library to create charts from raw data using cairo. Can be shown in GtkDrawingArea
   * [h2non/semver.c](https://github.com/h2non/semver.c) - semantic version parser and serializer written in ANSI C
   * [libical/libical](https://github.com/libical/libical) - Libical is an Open Source implementation of the iCalendar protocols and protocol data units.
@@ -4723,6 +4724,15 @@ Engines, libraries and other helpful things specifically for making games.
   * [pornin/CTTK](https://github.com/pornin/CTTK) - Constant-Time Toolkit
   * [juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders) - C, C++ headers and C# classes for icon fonts: Font Awesome, Fork Awesome, Material Design, Material Design icons, Kenney game icons and Ionicons.
   * [eam/libcrange](https://github.com/eam/libcrange) - Range parsing library for managing sets of hostnames, ips, clusters, roles and other operational data.
+
+  [83-8]: https://gitlab.com/graphviz/graphviz/blob/master/LICENSE
+  [83-7]: https://gitlab.com/graphviz/graphviz
+  [83-6]: https://github.com/ThomasHabets/monotonic_clock/blob/master/LICENSE
+  [83-5]: https://github.com/ThomasHabets/monotonic_clock
+  [83-4]: https://github.com/libgit2/libgit2/blob/master/COPYING
+  [83-3]: https://github.com/libgit2/libgit2
+  [83-2]: https://github.com/recp/tm/blob/master/LICENSE
+  [83-1]: https://github.com/recp/tm
 </details>
 
 
@@ -4753,7 +4763,6 @@ Engines, libraries and other helpful things specifically for making games.
 [437]: https://github.com/cloudwu/pbc
 [435]: https://gnu.org/software/gss/
 [433]: https://github.com/antirez/linenoise
-[432]: https://github.com/recp/tm
 [425]: https://www.gnu.org/software/gnulib/
 [422]: https://gnu.org/software/freeipmi/index.html
 [421]: https://github.com/commonmark/cmark/blob/master/COPYING
