@@ -2427,7 +2427,10 @@ Libraries for working with specific filetypes or classes of filetypes.
   * [libharu/libharu][43-21] - Free PDF library. [`Zlib`][43-22]
   * [samtools/htslib][43-23] - C library for high-throughput sequencing data
   formats. [`License`][43-24]
+  * [vmg/houdini][43-25] - API for escaping text for the web. [`MIT`][43-26]
 
+  [43-26]: https://github.com/vmg/houdini/blob/master/COPYING
+  [43-25]: https://github.com/vmg/houdini
   [43-24]: https://github.com/samtools/htslib/blob/develop/LICENSE
   [43-23]: https://github.com/samtools/htslib
   [43-22]: https://github.com/libharu/libharu/blob/master/LICENCE
@@ -2973,7 +2976,11 @@ Engines, libraries and other helpful things specifically for making games.
   * [randrew/layout][49-22] - Single-file library for calculating 2D UI layouts
   using stacking boxes. Compiles as C99 or C++. [`License`][49-23]
   * [cimgui/cimgui][49-24] - c-api for imgui. [`MIT`][49-25]
+  * [elvismt/slope][49-26] - A library to create charts from raw data using
+  cairo. Can be shown in GtkDrawingArea [`LGPL 3`][49-27]
 
+  [49-27]: https://github.com/bytebrew/slope/blob/master/LICENSE
+  [49-26]: https://github.com/elvismt/slope
   [49-25]: https://github.com/cimgui/cimgui/blob/master/LICENSE
   [49-24]: https://github.com/cimgui/cimgui
   [49-23]: https://github.com/randrew/layout/blob/master/license.md
@@ -4452,7 +4459,11 @@ Engines, libraries and other helpful things specifically for making games.
   to find evidence. [`Licenses`][78-18]
   * [hroptatyr/uterus][78-19] - universal tick encoder library to efficiently
   transport huge amounts of tick data. [`BSD 3-Clause`][78-20]
+  * [luke-jr/bfgminer][78-21] - Modular ASIC/FPGA miner written in C, featuring
+  overclocking, monitoring, fan speed control and remote interface capabilities. [`GPL 3`][78-22]
 
+  [78-22]:https://github.com/luke-jr/bfgminer/blob/bfgminer/LICENSE
+  [78-21]: https://github.com/luke-jr/bfgminer
   [78-20]: https://github.com/hroptatyr/uterus/blob/master/src/ute.c
   [78-19]: https://github.com/hroptatyr/uterus
   [78-18]: https://github.com/sleuthkit/sleuthkit#license
@@ -4712,19 +4723,42 @@ Engines, libraries and other helpful things specifically for making games.
   * [ThomasHabets/monotonic_clock][83-5] - Portable C library for getting
   monotonic time. [`BSD 3-Clause`][83-6]
   * [graphviz][83-7] - Graph Visualization Tools. [`License`][83-8]
-  * [elvismt/slope](https://github.com/elvismt/slope) - A library to create charts from raw data using cairo. Can be shown in GtkDrawingArea
-  * [h2non/semver.c](https://github.com/h2non/semver.c) - semantic version parser and serializer written in ANSI C
-  * [libical/libical](https://github.com/libical/libical) - Libical is an Open Source implementation of the iCalendar protocols and protocol data units.
-  * [jonpe960/ufsm](https://github.com/jonpe960/ufsm) - UML Statechart library in C and XMI importer
-  * [locasto/libdisorder](https://github.com/locasto/libdisorder) - A simple C library for entropy measurement of byte streams and other data.
-  * [lucasb-eyer/heatmap](https://github.com/lucasb-eyer/heatmap) - High performance C heatmap generation library. Supposed to be wrapped by higher-level languages.
-  * [tailhook/objpath](https://github.com/tailhook/objpath) - A library that allows to traverse data structures by path
-  * [vmg/houdini](https://github.com/vmg/houdini) - The Escapist
-  * [luke-jr/bfgminer](https://github.com/luke-jr/bfgminer) - Modular ASIC/FPGA miner written in C, featuring overclocking, monitoring, fan speed control and remote interface capabilities.
-  * [pornin/CTTK](https://github.com/pornin/CTTK) - Constant-Time Toolkit
-  * [juliettef/IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders) - C, C++ headers and C# classes for icon fonts: Font Awesome, Fork Awesome, Material Design, Material Design icons, Kenney game icons and Ionicons.
-  * [eam/libcrange](https://github.com/eam/libcrange) - Range parsing library for managing sets of hostnames, ips, clusters, roles and other operational data.
+  * [h2non/semver.c][83-9] - semantic version parser and serializer written in
+  ANSI C. [`MIT`][83-10]
+  * [libical/libical][83-11] - Libical is an Open Source implementation of the
+  iCalendar protocols and protocol data units. [`Licenses`][83-12]
+  * [jonpe960/ufsm][83-13] - UML Statechart library in C and XMI importer. [`BSD 3-Clause`][83-14]
+  * [locasto/libdisorder][83-15] - A simple C library for entropy measurement
+  of byte streams and other data. [`GPL 2`][83-16]
+  * [lucasb-eyer/heatmap][83-17] - High performance C heatmap generation
+  library. Supposed to be wrapped by higher-level languages. [`MIT`][83-18]
+  * [tailhook/objpath][83-19] - A library that allows to traverse data
+  structures by path. [`MIT`][83-20]
+  * [pornin/CTTK][83-21] - Constant-Time Toolkit. [`MIT`][83-22]
+  * [juliettef/IconFontCppHeaders][83-23] - C, C++ headers and C# classes for
+  icon fonts: Font Awesome, Fork Awesome, Material Design, Material Design
+  icons, Kenney game icons and Ionicons. [`Zlib`][83-24]
+  * [eam/libcrange][83-25] - Range parsing library for managing sets of
+  ostnames, ips, clusters, roles and other operational data. [`BSD 3-Clause`][83-26]
 
+  [83-26]: https://github.com/eam/libcrange/blob/master/LICENSE.txt
+  [83-25]: https://github.com/eam/libcrange
+  [83-24]: https://github.com/juliettef/IconFontCppHeaders/blob/master/licence.txt
+  [83-23]: https://github.com/juliettef/IconFontCppHeaders
+  [83-22]: https://github.com/pornin/CTTK/blob/master/LICENSE.md
+  [83-21]: https://github.com/pornin/CTTK
+  [83-20]: https://github.com/tailhook/objpath/blob/master/LICENSE
+  [83-19]: https://github.com/tailhook/objpath
+  [83-18]: https://github.com/lucasb-eyer/heatmap/blob/master/LICENSE
+  [83-17]: https://github.com/lucasb-eyer/heatmap
+  [83-16]: https://github.com/locasto/libdisorder/blob/master/code/LICENSE
+  [83-15]: https://github.com/locasto/libdisorder
+  [83-14]: https://github.com/jonpe960/ufsm/blob/master/LICENSE
+  [83-13]: https://github.com/jonpe960/ufsm
+  [83-12]: https://github.com/libical/libical/blob/master/LICENSE
+  [83-11]: https://github.com/libical/libical
+  [83-10]: https://github.com/h2non/semver.c/blob/master/LICENSE
+  [83-9]: https://github.com/h2non/semver.c
   [83-8]: https://gitlab.com/graphviz/graphviz/blob/master/LICENSE
   [83-7]: https://gitlab.com/graphviz/graphviz
   [83-6]: https://github.com/ThomasHabets/monotonic_clock/blob/master/LICENSE
