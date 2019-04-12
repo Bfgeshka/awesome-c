@@ -3942,7 +3942,10 @@ Engines, libraries and other helpful things specifically for making games.
   * [m8rge/cwebsocket][69-5] - Lightweight websocket server library. [`MIT`][69-6]
   * [zhaojh329/libuwsc][69-7] - A Lightweight and fully asynchronous WebSocket
   client C library based on libubox for Embedded Linux. [`LGPL 2.1`][69-8]
+  * [warmcat/libwebsockets][69-9] - Canonical websocket library. [`License][69-10]
 
+  [69-10]: https://github.com/warmcat/libwebsockets/blob/master/LICENSE
+  [69-9]: https://github.com/warmcat/libwebsockets
   [69-8]: https://github.com/zhaojh329/libuwsc/blob/master/LICENSE
   [69-7]: https://github.com/zhaojh329/libuwsc
   [69-6]: https://github.com/m8rge/cwebsocket/blob/master/LICENSE
@@ -4072,14 +4075,21 @@ Engines, libraries and other helpful things specifically for making games.
   * [fancycode/MemoryModule][71-13] - Library to load a DLL from memory. [`License`][71-14]
   * [jimon/osx_app_in_plain_c][71-15] - A simple showcase how to create a simple
   OS X app in plain C without any Objective-C. `No license`
-  * [rvoicilas/inotify-tools](https://github.com/rvoicilas/inotify-tools) - Library and a set of command-line programs for Linux providing a simple interface to inotify.
-  * [samuellab/InterProcess](https://github.com/samuellab/InterProcess) - A compact C library to share data between processes on Windows. Fast. Simple
-  * [tinyalsa/tinyalsa](https://github.com/tinyalsa/tinyalsa) - Tiny library to interface with ALSA in the Linux kernel
-  * [warmcat/libwebsockets](https://github.com/warmcat/libwebsockets) - canonical libwebsockets.org websocket library
-  * [wengkai/ACLLib](https://github.com/wengkai/ACLLib) - ACLLib is a bunch of C functions covers Win32API and provides simpler API to beginners for programming Windows GUI applications. It compiles with MinGW and MS Visual Studio Express
-  * [Keruspe/GPaste](https://github.com/Keruspe/GPaste) - Clipboard management system
-  * [zardus/preeny](https://github.com/zardus/preeny) - Some helpful preload libraries for pwning stuff.
+  * [rvoicilas/inotify-tools][71-16] - Library and a set of command-line
+  programs for Linux providing a simple interface to inotify. [`GPL 2`][71-17]
+  * [tinyalsa/tinyalsa][71-18] - Tiny library to interface with ALSA in the
+  Linux kernel. `No license`
+  * [wengkai/ACLLib][71-19] - A bunch of C functions covers Win32API and
+  provides simpler API to beginners for programming Windows GUI applications. [`GPL 3`][71-20]
+  * [zardus/preeny][71-21] - Some helpful preload libraries for pwning stuff. [`BSD 2-Clause`][71-22]
 
+  [71-22]: https://github.com/zardus/preeny/blob/master/LICENSE
+  [71-21]: https://github.com/zardus/preeny
+  [71-20]: https://github.com/wengkai/ACLLib/blob/master/src/acllib.c
+  [71-19]: https://github.com/wengkai/ACLLib
+  [71-18]: https://github.com/tinyalsa/tinyalsa
+  [71-17]: https://github.com/rvoicilas/inotify-tools/blob/master/COPYING
+  [71-16]: https://github.com/rvoicilas/inotify-tools
   [71-15]: https://github.com/jimon/osx_app_in_plain_c
   [71-14]: https://github.com/fancycode/MemoryModule/blob/master/LICENSE.txt
   [71-13]: https://github.com/fancycode/MemoryModule
@@ -4111,6 +4121,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [sheredom/process.h](https://github.com/sheredom/process.h) - A simple one header solution to launching processes and interacting with them for C and C++.
 * [troydhanson/kvspool](https://github.com/troydhanson/kvspool) - A library to support streaming data applications
 * [xroche/coffeecatch](https://github.com/xroche/coffeecatch) - CoffeeCatch, a tiny native POSIX signal catcher (especially useful for JNI code on Android/Dalvik)
+* [samuellab/InterProcess](https://github.com/samuellab/InterProcess) - A compact C library to share data between processes on Windows. Fast. Simple
 
 ## Regex and Search ##
 * [Onigmo][275] - Fork of Oniguruma, supporting more advanced regexps. [``BSD-2-Clause``][BSD-2-Clause]
