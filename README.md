@@ -117,6 +117,7 @@ structure at all)
 * [OpenCL](#opencl)
 * [OS Specifics](#os-specifics)
 * [Procedural Generation](#procedural-generation)
+* [Processes and IPC](#processes-and-ipc)
 * [Regex](#regex)
 * [Serialization](#serialization)
 * [Source Code Collections](#source-code-collections)
@@ -4136,30 +4137,48 @@ Engines, libraries and other helpful things specifically for making games.
   [72-1]: https://github.com/prideout/heman
 </details>
 
-## Processes and IPC ##
-* [D-Bus][430] - Interprocess communications bus. [``AFL-2.1``][AFL-2.1] or [``GPL-2.0-or-later``][GPL-2.0-or-later]
-* [WhisperSystems/libsignal-protocol-c](https://github.com/WhisperSystems/libsignal-protocol-c) - Signal Protocol C Library
-* [bus1/dbus-broker](https://github.com/bus1/dbus-broker) - Linux D-Bus Message Broker
-* [signalapp/libsignal-protocol-c](https://github.com/signalapp/libsignal-protocol-c) - Signal Protocol C Library
-* [sharvil/flingfd](https://github.com/sharvil/flingfd) - A tiny library to send file descriptors across processes
-* [sheredom/process.h](https://github.com/sheredom/process.h) - A simple one header solution to launching processes and interacting with them for C and C++.
-* [troydhanson/kvspool](https://github.com/troydhanson/kvspool) - A library to support streaming data applications
-* [xroche/coffeecatch](https://github.com/xroche/coffeecatch) - CoffeeCatch, a tiny native POSIX signal catcher (especially useful for JNI code on Android/Dalvik)
-* [samuellab/InterProcess](https://github.com/samuellab/InterProcess) - A compact C library to share data between processes on Windows. Fast. Simple
+<a id="processes-and-ipc"></a>
+<details>
+  <summary>Processes and IPC</summary>
+
+  ## <a href="#-">`^`</a> Processes and IPC ##
+  * [D-Bus][73-1] - Interprocess communications bus. [`Licenses`][73-2]
+  * [bus1/dbus-broker][73-3] - Linux D-Bus Message Broker. [`Apache 2`][73-4]
+  * [signalapp/libsignal-protocol-c][73-5] - Signal Protocol C Library. [`GPL 3`][73-6]
+  * [sharvil/flingfd][73-7] - A tiny library to send file descriptors across
+  processes. [`Apache 2`][73-8]
+  * [sheredom/process.h][73-9] - A simple one header solution to launching
+  processes and interacting with them for C and C++. [`Unlicense`][73-10]
+  * [troydhanson/kvspool][73-11] - A library to support streaming data
+  applications. [`MIT`][73-12]
+  * [xroche/coffeecatch][73-13] - Tiny native POSIX signal catcher (especially
+  useful for JNI code on Android/Dalvik). [`BSD 2-Clause`][73-14]
+  * [samuellab/InterProcess][73-15] - A compact C library to share data between processes on Windows. [`GPL 3`][73-16]
+
+  [73-16]: https://github.com/samuellab/InterProcess/blob/master/COPYING.GPL3
+  [73-15]: https://github.com/samuellab/InterProcess
+  [73-14]: https://github.com/xroche/coffeecatch/blob/master/LICENSE
+  [73-13]: https://github.com/xroche/coffeecatch
+  [73-12]: https://github.com/troydhanson/kvspool/blob/master/LICENSE
+  [73-11]: https://github.com/troydhanson/kvspool
+  [73-10]: https://github.com/sheredom/process.h/blob/master/LICENSE
+  [73-9]: https://github.com/sheredom/process.h
+  [73-8]: https://github.com/sharvil/flingfd/blob/master/LICENSE
+  [73-7]: https://github.com/sharvil/flingfd
+  [73-6]: https://github.com/signalapp/libsignal-protocol-c/blob/master/LICENSE
+  [73-5]: https://github.com/signalapp/libsignal-protocol-c
+  [73-4]: https://github.com/bus1/dbus-broker/blob/master/LICENSE
+  [73-3]: https://github.com/bus1/dbus-broker
+  [73-2]: https://gitlab.freedesktop.org/dbus/dbus/blob/master/COPYING
+  [73-1]: https://www.freedesktop.org/wiki/Software/dbus/
+</details>
 
 ## Regex and Search ##
-* [Onigmo][275] - Fork of Oniguruma, supporting more advanced regexps. [``BSD-2-Clause``][BSD-2-Clause]
 * [Oniguruma][276] - Regex library supporting a wide range of encodings, and
   incorporating many security-oriented fixes. [``BSD-2-Clause``][BSD-2-Clause]
-* [PCRE][277] - Implementation of regexes identical to that of Perl 5. [``BSD-3-Clause``][BSD-3-Clause]
-* [SLRE][278] - Super Light Regular Expression library; a small implementation
-  of a subset of Perl regex syntax. [``GPL-2.0-only``][GPL-2.0-only]
-* [TRE][279] - POSIX-compliant, feature-full regex library. [``BSD-2-Clause``][BSD-2-Clause]
 * [PCRE](http://www.pcre.org/) - Implementation of regexes identical to that of Perl 5. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
 * [regexp4](https://github.com/nasciiboy/recursiveregexpraptor-4) - Simple and complete implementation of regular expressions with its own sintax. [`GNU GPL3 or later`](http://www.gnu.org/licenses/gpl.html)
-* [SLRE](https://github.com/cesanta/slre) - Super Light Regular Expression library; a very small implementation of a subset of Perl regex syntax. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 * [TRE](https://github.com/laurikari/tre/) - POSIX-compliant, feature-full regex library. [`FreeBSD`](https://directory.fsf.org/wiki?title=License:FreeBSD)
-* [sregex](https://github.com/openresty/sregex) - Non-backtracking NFA/DFA-based Perl-compatible regex engine library. [`3-clause BSD`](https://opensource.org/licenses/BSD-3-Clause)
 * [JazzCore/ctrlp-cmatcher](https://github.com/JazzCore/ctrlp-cmatcher) - CtrlP C matching extension
 * [Maxime2/dataparksearch](https://github.com/Maxime2/dataparksearch) - An open source, feature rich search engine.
 * [cesanta/slre](https://github.com/cesanta/slre) - Super Light Regexp engine for C/C++
