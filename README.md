@@ -2657,7 +2657,15 @@ Engines, libraries and other helpful things specifically for making games.
   * [bvschaik/julius][45-82] - An open source re-implementation of Caesar III. [`AGPL 3`][45-83]
   * [simple2d/simple2d][45-84] - Simple, open-source 2D graphics for everyone. [`MIT`][45-85]
   * [exezin/exengine][45-86] - A C99 3D game engine. [`MIT`][45-87]
+  * [NightDiveStudios/shockmac][45-88] - System Shock (PowerMac version Official
+  GPL Release). [`GPL 3`][45-89]
+  * [blinry/gish][45-90] - Open Source version of the award-winning physics
+  platformer. [`Licenses`][45-91]
 
+  [45-91]: https://github.com/blinry/gish/blob/master/License.txt
+  [45-90]: https://github.com/blinry/gish
+  [45-89]: https://github.com/NightDiveStudios/shockmac/blob/master/LICENSE
+  [45-88]: https://github.com/NightDiveStudios/shockmac
   [45-87]: https://github.com/exezin/exengine/blob/master/LICENSE
   [45-86]: https://github.com/exezin/exengine
   [45-85]: https://github.com/simple2d/simple2d/blob/master/LICENSE.md
@@ -2807,7 +2815,10 @@ Engines, libraries and other helpful things specifically for making games.
   * [anholt/libepoxy][46-49] - Library for handling OpenGL function pointer
   management. [`License`][46-50]
   * [felselva/gfw][46-51] - Pure C Minimal Graphics Framework (OpenGL). [`Zlib`][46-52]
+  * [karimnaaji/voxelizer][46-53] - Header only mesh voxelizer in c99. [`MIT`][46-54]
 
+  [46-54]: https://github.com/karimnaaji/voxelizer/blob/master/voxelizer.h
+  [46-53]: https://github.com/karimnaaji/voxelizer
   [46-52]: https://github.com/felselva/gfw/blob/master/LICENSE
   [46-51]: https://github.com/felselva/gfw
   [46-50]: https://github.com/anholt/libepoxy/blob/master/COPYING
@@ -3241,7 +3252,13 @@ Engines, libraries and other helpful things specifically for making games.
   allowing beautiful graphics in your terminal. [`License`][52-47]
   * [jedisct1/libpuzzle][52-48] - A library to quickly find visually similar
   images. [`ISC`][52-49]
+  * [mattes/epeg][52-50] - Fast JPEG/ JPG thumbnail scaling with the minimum
+  fuss and CPU overhead. It makes use of libjpeg features of being able to load
+  an image by only decoding the DCT coefficients needed to reconstruct an image
+  of the size desired. [`License`][52-51]
 
+  [52-51]: https://github.com/mattes/epeg/blob/master/COPYING
+  [52-50]: https://github.com/mattes/epeg
   [52-49]: https://github.com/jedisct1/libpuzzle/blob/master/COPYING
   [52-48]: https://github.com/jedisct1/libpuzzle
   [52-47]: https://github.com/saitoha/libsixel/blob/master/LICENSE
@@ -3380,7 +3397,10 @@ Engines, libraries and other helpful things specifically for making games.
   * [tronkko/dirent][54-9] - C/C++ library for retrieving information on files
   and directories. [`MIT`][54-10]
   * [jwerle/fs.c][54-11] - File system API much like Node's fs module. [`MIT`][54-12]
+  * [zevv/duc][54-13] - Library and suite of tools for inspecting disk usage. [`LGPL 3`][54-14]
 
+  [54-14]: https://github.com/zevv/duc/blob/master/LICENSE
+  [54-13]: https://github.com/zevv/duc
   [54-12]: https://github.com/jwerle/fs.c/blob/master/LICENSE
   [54-11]: https://github.com/jwerle/fs.c
   [54-10]: https://github.com/tronkko/dirent/blob/master/LICENSE
