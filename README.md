@@ -2288,7 +2288,11 @@ Libraries for working with specific filetypes or classes of filetypes.
   integrate with any model. [`License`][39-34]
   * [udp/json-parser][39-35] - Very low footprint JSON parser written in
   portable ANSI. [`License`][39-36]
+  * [garnetius/jsong][39-37] - Faster than light streaming JSON & USON parser
+  and writer with rich and trivial to use API plus SSE optimizations. [`BSD 2-Clause`][39-38]
 
+  [39-38]: https://github.com/garnetius/jsong/blob/master/LICENSE.txt
+  [39-37]: https://github.com/garnetius/jsong
   [39-36]: https://github.com/udp/json-parser/blob/master/LICENSE
   [39-35]: https://github.com/udp/json-parser
   [39-34]: https://github.com/vincenthz/libjson/blob/master/json.h
@@ -2336,7 +2340,11 @@ Libraries for working with specific filetypes or classes of filetypes.
   * [madmurphy/libconfini][40-3] - Yet another INI parser. [`GPL 3`][40-4]
   * [benhoyt/inih][40-5] - Simple .INI file parser in C, good for embedded
   systems. [`License`][40-6]
+  * [LloydLabs/librini][40-7] - Tiny, non-libc dependant, .ini file parser
+  programmed from scratch in C99. [`MIT`][40-8]
 
+  [40-8]: https://github.com/LloydLabs/librini/blob/master/LICENSE
+  [40-7]: https://github.com/LloydLabs/librini
   [40-6]: https://github.com/benhoyt/inih/blob/master/LICENSE.txt
   [40-5]: https://github.com/benhoyt/inih
   [40-4]: https://github.com/madmurphy/libconfini/blob/master/COPYING
@@ -2854,7 +2862,18 @@ Engines, libraries and other helpful things specifically for making games.
   * [nem0/OpenFBX][47-39] - Lightweight open source FBX importer. [`MIT`][47-40]
   * [librg/librg][47-41] - Library for building simple and elegant
   cross-platform mmo client-server solutions. [`Apache 2`][47-42]
+  * [Srekel/phyxed-2d][47-43] - 2d physics engine with fixed-point support. [`Licenses`][47-44]
+  * [recp/AssetKit][47-45] - 3D asset importer/exporter/util library based on
+  COLLADA/glTF specs. [`MIT`][47-46]
+  * [olofson/audiality2][47-47] - A realtime scripted modular audio engine for
+  video games and musical applications. [`Zlib`][47-48]
 
+  [47-48]: https://github.com/olofson/audiality2/blob/master/LICENSE.txt
+  [47-47]: https://github.com/olofson/audiality2
+  [47-46]: https://github.com/recp/AssetKit/blob/master/LICENSE
+  [47-45]: https://github.com/recp/AssetKit
+  [47-44]: https://github.com/Srekel/phyxed-2d#license
+  [47-43]: https://github.com/Srekel/phyxed-2d
   [47-42]: https://github.com/librg/librg/blob/master/LICENSE
   [47-41]: https://github.com/librg/librg
   [47-40]: https://github.com/nem0/OpenFBX/blob/master/LICENSE
@@ -3343,7 +3362,15 @@ Engines, libraries and other helpful things specifically for making games.
   * [westes/flex][55-10] - The Fast Lexical Analyzer - scanner generator for
   lexing in C and C++. [`License`][55-11]
   * [orangeduck/mpc][55-12] - Parser combinator library. [`BSD 2-Clause`][55-13]
+  * [transceptor-technology/libcleri][55-14] - Libcleri is a powerful tool to
+  build languages. From a built language, libcleri can automatically create
+  parse trees, which are data structures representing how a grammar matches
+  input. It also provides feedback in case the input does not match the
+  language. This can be useful for auto-completion, suggestions or error
+  handling. [`MIT`][55-15]
 
+  [55-15]: https://github.com/transceptor-technology/libcleri/blob/master/LICENSE.md
+  [55-14]: https://github.com/transceptor-technology/libcleri
   [55-13]: https://github.com/orangeduck/mpc/blob/master/LICENSE.md
   [55-12]: https://github.com/orangeduck/mpc
   [55-11]: https://github.com/westes/flex/blob/master/COPYING
@@ -3393,7 +3420,14 @@ Engines, libraries and other helpful things specifically for making games.
   thread caching 32-byte aligned memory allocator implemented in C. [`License`][56-26]
   * [stevedekorte/garbagecollector][56-27] - Incrementall garbage collector
   library in C for use by high level language implementions. [`BSD 3-Clause`][56-28]
+  * [Simon-Swenson-8351/tralloc][56-29] - A binary tree based memory allocator. [`BSD 3-Clause`][56-30]
+  * [Qqwy/raii_with][56-31] - A simple library to provide RAII in
+  standard-compliant C99. [`MIT`][56-32]
 
+  [56-32]: https://github.com/Qqwy/raii_with/blob/master/LICENSE
+  [56-31]: https://github.com/Qqwy/raii_with
+  [56-30]: https://github.com/Simon-Swenson-8351/tralloc
+  [56-29]: https://github.com/Simon-Swenson-8351/tralloc
   [56-28]: https://github.com/stevedekorte/garbagecollector/blob/master/source/Collector.h
   [56-27]: https://github.com/stevedekorte/garbagecollector
   [56-26]: https://github.com/rampantpixels/rpmalloc/blob/develop/LICENSE
