@@ -2389,7 +2389,15 @@ Libraries for working with specific filetypes or classes of filetypes.
   * [libxml2][42-3] - Standards-compliant, portable XML parser. [`MIT`][42-4]
   * [michaelrsweet/mxml][42-5] - Small XML reading and writing library.
   No dependencies aside from C standard library. [`Apache 2`][42-6]
+  * [ooxi/xml.c][42-7] - Simple XML subset parser comparable to glib's Markup
+  parser. [`License`][42-8]
+  * [bakulf/libmrss][42-9] - C library for parsing, writing and creating RSS
+  files or streams. [`LGPL 2.1`][42-10]
 
+  [42-10]: https://github.com/bakulf/libmrss/blob/master/COPYING
+  [42-9]: https://github.com/bakulf/libmrss
+  [42-8]: https://github.com/ooxi/xml.c/blob/master/LICENSE
+  [42-7]: https://github.com/ooxi/xml.c
   [42-6]: https://github.com/michaelrsweet/mxml/blob/master/LICENSE
   [42-5]: https://github.com/michaelrsweet/mxml
   [42-4]: https://gitlab.gnome.org/GNOME/libxml2/blob/master/Copyright
@@ -2751,7 +2759,10 @@ Engines, libraries and other helpful things specifically for making games.
   interactive flocking demo written in C with GLFW. `No license`
   * [anholt/libepoxy][46-49] - Library for handling OpenGL function pointer
   management. [`License`][46-50]
+  * [felselva/gfw][46-51] - Pure C Minimal Graphics Framework (OpenGL). [`Zlib`][46-52]
 
+  [46-52]: https://github.com/felselva/gfw/blob/master/LICENSE
+  [46-51]: https://github.com/felselva/gfw
   [46-50]: https://github.com/anholt/libepoxy/blob/master/COPYING
   [46-49]: https://github.com/anholt/libepoxy
   [46-48]: https://github.com/jakogut/tinyflock
@@ -3248,7 +3259,10 @@ Engines, libraries and other helpful things specifically for making games.
   * [libFirm][53-31] - Library that provides a graph-based intermediate
   representation, optimizations and assembly code generation suitable for use in
   compilers. Comes with an example C front-end under the same license. [`GPL 2`][53-32]
+  * [daddinuz/watchdog][53-33] - Memory tracer, leaks hunter. [`MIT`][53-34]
 
+  [53-34]: https://github.com/daddinuz/watchdog/blob/master/LICENSE
+  [53-33]: https://github.com/daddinuz/watchdog
   [53-32]: https://pp.ipd.kit.edu/git/cparser/tree/COPYING
   [53-31]: https://pp.ipd.kit.edu/firm/
   [53-30]: https://github.com/yosefk/checkedthreads/blob/master/LICENSE.txt
