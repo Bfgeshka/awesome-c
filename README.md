@@ -173,17 +173,20 @@ structure at all)
   derived from the original Perforce version of Jam. [`License`][2-28]
   * [Libtool][2-11] - Generic library support script. Part of the Autotools. [`GPL 2`][2-30]
   * [Meson][2-12] - Build system based on Ninja and Python. [`Apache 2`][2-31]
-  * [Ninja][2-13] - Small, simple build system with a focus on speed. [`Apache 2`][2-32]
+  * [ninja-build/ninja][2-13] - Small, simple build system with a focus on speed. [`Apache 2`][2-32]
   * [Premake][2-14] - Generates project files for Visual Studio, Xcode and GNU
   Make. Targets suppport can be extended via modules. [`BSD 3-Clause`][2-33]
   * [Qbs][2-15] - Modern build tool for software projects. [`Licenses`][2-34]
   * [qmake][2-16] - Build system included with the Qt Framework. [`Licenses`][2-35]
-  * [SCons][2-18] - Software construction tool based on Python. [`License`][2-36]
+  * [SCons/scons][2-18] - Software construction tool based on Python. [`License`][2-36]
   * [gittup/tup][2-37] - Tup is a file-based build system. [`GPL 2`][2-38]
-  * [xmake][2-19] - Cross-platform build utility based on Lua. [`Apache 2`][2-39]
-  * [zproject][2-20] - Project generator and build system support tool for
-  ZeroMQ project. [`MPL 2`][2-40]
+  * [xmake-io/xmake][2-19] - Cross-platform build utility based on Lua. [`Apache 2`][2-39]
+  * [zeromq/zproject][2-20] - Project generator and build system support tool
+  for ZeroMQ project. [`MPL 2`][2-40]
+  * [michaelforney/samurai][2-41] - ninja-compatible build tool written in C. [`Licenses`][2-42]
 
+  [2-42]: https://github.com/michaelforney/samurai/blob/master/LICENSE
+  [2-41]: https://github.com/michaelforney/samurai
   [2-40]: https://github.com/zeromq/zproject/blob/master/LICENSE
   [2-39]: https://github.com/xmake-io/xmake/blob/master/LICENSE.md
   [2-38]: https://github.com/gittup/tup/blob/master/COPYING
@@ -1384,7 +1387,11 @@ structure at all)
   * [tinyexpr][28-75] - Tiny recursive-descent parser, compiler and evaluation
   engine for simple mathematical expressions. [`Zlib`][28-76]
   * [Yeppp!][28-46] - Very fast, SIMD-optimized mathematical library. [`License`][28-47]
+  * [PetteriAimonen/libfixmath][28-77] - Cross Platform Fixed Point Maths
+  Library.[`MIT`][28-78]
 
+  [28-78]: https://github.com/PetteriAimonen/libfixmath#libfixmath
+  [28-77]: https://github.com/PetteriAimonen/libfixmath
   [28-76]: https://github.com/codeplea/tinyexpr/blob/master/LICENSE
   [28-75]: https://github.com/codeplea/tinyexpr
   [28-74]: https://github.com/slim-curve/slim-curve/blob/master/LICENSE.txt
@@ -1658,7 +1665,11 @@ structure at all)
   via ucontext, fibers or setjmp. `No license`
   * [parallella/pal][30-55] - An optimized C library for math, parallel
   processing and data movement. [`Apache 2`][30-56]
+  * [danluu/setjmp-longjmp-ucontext-snippets][30-57] - Implementing coroutines,
+  channels, message passing, etc.[`Apache 2`][30-58]
 
+  [30-58]: https://github.com/danluu/setjmp-longjmp-ucontext-snippets/blob/master/LICENSE
+  [30-57]: https://github.com/danluu/setjmp-longjmp-ucontext-snippets
   [30-56]: https://github.com/parallella/pal/blob/master/LICENSE
   [30-55]: https://github.com/parallella/pal
   [30-54]: https://github.com/stevedekorte/coroutine
@@ -1777,7 +1788,11 @@ structure at all)
   * [wolfSSL/wolfssl][32-53] - wolfSSL (formerly CyaSSL) is a small, fast,
   portable implementation of TLS/SSL for embedded devices to the cloud. [`GPL 2`][32-54]
   * [rg3/bcrypt][32-55] - bcrypt password hash C library. [`License`][32-56]
+  * [LoupVaillant/Monocypher][32-57] - An easy to use, easy to deploy crypto
+  library. [`Licenses`][32-58]
 
+  [32-58]: https://github.com/LoupVaillant/Monocypher/blob/master/LICENCE.md
+  [32-57]: https://github.com/LoupVaillant/Monocypher
   [32-56]: https://github.com/rg3/libbcrypt/blob/master/COPYING
   [32-55]: https://github.com/rg3/bcrypt
   [32-54]: https://github.com/wolfSSL/wolfssl/blob/master/COPYING
@@ -2629,10 +2644,34 @@ Engines, libraries and other helpful things specifically for making games.
   (or aspiring programmers). [`GPL 2`][45-65]
   * [andwn/cave-story-md][45-66] - A fan port of Cave Story for the
   Sega Mega Drive. [`License`][45-67]
-  * [angband/angband][45-68] - A free, single-player roguelike dungeon exploration game. [`License`][45-69]
+  * [angband/angband][45-68] - A free, single-player roguelike dungeon
+  exploration game. [`License`][45-69]
   * [nesbox/tic.computer][45-70] - Public TIC-80 issues tracker. [`MIT`][45-71]
-  * [q2vkpt][45-72] - Real-time path tracer VKPT integrated into q2pro Quake 2 client. [`GPL 2`][45-73]
+  * [cschied/q2vkpt][45-72] - Real-time path tracer VKPT integrated into q2pro
+  Quake 2 client. [`GPL 2`][45-73]
+  * [ec-/Quake3e][45-74] - Improved Quake III Arena engine. [`GPL 2`][45-75]
+  * [skullernet/q2pro][45-76] - Enhanced Quake 2 client and server focused on
+  multiplayer. [`GPL 2`][45-77]
+  * [jdolan/quake2][45-78] - Classic Quake II for Mac and Linux. [`GPL 2`][45-79]
+  * [nothings/obbg][45-80] - Block/voxel-based game. [`Public domain`][45-81]
+  * [bvschaik/julius][45-82] - An open source re-implementation of Caesar III. [`AGPL 3`][45-83]
+  * [simple2d/simple2d][45-84] - Simple, open-source 2D graphics for everyone. [`MIT`][45-85]
+  * [exezin/exengine][45-86] - A C99 3D game engine. [`MIT`][45-87]
 
+  [45-87]: https://github.com/exezin/exengine/blob/master/LICENSE
+  [45-86]: https://github.com/exezin/exengine
+  [45-85]: https://github.com/simple2d/simple2d/blob/master/LICENSE.md
+  [45-84]: https://github.com/simple2d/simple2d
+  [45-83]: https://github.com/bvschaik/julius/blob/master/LICENSE.txt
+  [45-82]: https://github.com/bvschaik/julius
+  [45-81]: https://github.com/nothings/obbg#license
+  [45-80]: https://github.com/nothings/obbg
+  [45-79]: https://github.com/jdolan/quake2/blob/master/LICENSE
+  [45-78]: https://github.com/jdolan/quake2
+  [45-77]: https://github.com/skullernet/q2pro/blob/master/LICENSE
+  [45-76]: https://github.com/skullernet/q2pro
+  [45-75]: https://github.com/ec-/Quake3e/blob/master/COPYING.txt
+  [45-74]: https://github.com/ec-/Quake3e
   [45-73]: https://github.com/cschied/q2vkpt/blob/master/LICENSE
   [45-72]: https://github.com/cschied/q2vkpt
   [45-71]: https://github.com/nesbox/TIC-80/blob/master/LICENSE
@@ -3004,7 +3043,11 @@ Engines, libraries and other helpful things specifically for making games.
   * [cimgui/cimgui][49-24] - c-api for imgui. [`MIT`][49-25]
   * [elvismt/slope][49-26] - A library to create charts from raw data using
   cairo. Can be shown in GtkDrawingArea [`LGPL 3`][49-27]
+  * [DeXP/nuklear_cross][49-28] - Nuklear+ (read as "Nuklear cross") is a
+  front-end overlay for Nuklear GUI library. [`Licenses`][49-29]
 
+  [49-29]: https://github.com/DeXP/nuklear_cross#license
+  [49-28]: https://github.com/DeXP/nuklear_cross
   [49-27]: https://github.com/bytebrew/slope/blob/master/LICENSE
   [49-26]: https://github.com/elvismt/slope
   [49-25]: https://github.com/cimgui/cimgui/blob/master/LICENSE
@@ -3194,8 +3237,13 @@ Engines, libraries and other helpful things specifically for making games.
   * [vlfeat/vlfeat][52-40] - An open library of computer vision algorithms. [`BSD 2-Clause`][52-41]
   * [libspng][52-42] - Secure PNG reading/writing. [`BSD 2-Clause`][52-43]
   * [ImageMagick/ImageMagick][52-44] - Image processing suite with C interface. [`License`][52-45]
-  * [saitoha/libsixel][52-46] - Library implementing the SIXEL protocol, allowing beautiful graphics in your terminal. [`License`][52-47]
+  * [saitoha/libsixel][52-46] - Library implementing the SIXEL protocol,
+  allowing beautiful graphics in your terminal. [`License`][52-47]
+  * [jedisct1/libpuzzle][52-48] - A library to quickly find visually similar
+  images. [`ISC`][52-49]
 
+  [52-49]: https://github.com/jedisct1/libpuzzle/blob/master/COPYING
+  [52-48]: https://github.com/jedisct1/libpuzzle
   [52-47]: https://github.com/saitoha/libsixel/blob/master/LICENSE
   [52-46]: https://github.com/saitoha/libsixel
   [52-45]: https://github.com/ImageMagick/ImageMagick/blob/master/LICENSE
@@ -4399,7 +4447,10 @@ Engines, libraries and other helpful things specifically for making games.
   * [angelortega/mpdm][76-42] - Minimum Profit Data Manager. [`Public domain`][76-43]
   * [attractivechaos/klib][76-44] - Small and lightweight implementations of
   common algorithms and data structures. [`MIT`][76-45]
+  * [f1nalspace/final_game_tech][76-46] - Game related libraries. [`MIT`][76-47]
 
+  [76-47]: https://github.com/f1nalspace/final_game_tech/blob/master/LICENSE
+  [76-46]: https://github.com/f1nalspace/final_game_tech
   [76-45]: https://github.com/attractivechaos/klib#overview
   [76-44]: https://github.com/attractivechaos/klib
   [76-43]: https://github.com/angelortega/mpdm/blob/master/LICENSE
