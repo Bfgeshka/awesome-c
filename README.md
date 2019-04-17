@@ -4814,7 +4814,11 @@ Engines, libraries and other helpful things specifically for making games.
   * [nsf/termbox][82-9] - Library for writing text-based user interfaces. [`MIT`][82-10]
   * [alandekok/recli][82-11] - A re-imagined CLI.  Customizable syntax, help,
   permissions, data types. [`BSD 2-Clause`][82-12]
+  * [matthiasbock/ucurses][82-13] - Very small and simple text-based user
+  interface (TUI) library for microcontrollers. [`GPL 3`][82-14]
 
+  [82-14]: https://github.com/matthiasbock/ucurses/blob/master/LICENSE
+  [82-13]: https://github.com/matthiasbock/ucurses
   [82-12]: https://github.com/alandekok/recli/blob/master/LICENSE
   [82-11]: https://github.com/alandekok/recli
   [82-10]: https://github.com/nsf/termbox/blob/master/COPYING
