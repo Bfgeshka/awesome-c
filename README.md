@@ -4816,7 +4816,22 @@ Engines, libraries and other helpful things specifically for making games.
   permissions, data types. [`BSD 2-Clause`][82-12]
   * [matthiasbock/ucurses][82-13] - Very small and simple text-based user
   interface (TUI) library for microcontrollers. [`GPL 3`][82-14]
+  * [serameo/TUI][82-15] - Text User Interface using curses for UNIX. [`GPL 3`][82-16]
+  * [jakubfi/emui][82-17] - Text user interface toolkit. [`License`][82-18]
+  * [nejohnson/stui][82-19] - Simple Text User Interface. [`BSD 3-Clause`][82-20]
+  * [tboox/ltui][82-21] - A cross-platform terminal ui library based on Lua. [`Apache 2`][82-22]
+  * [okbob/ncurses-st-menu][82-23] - ncurses based library for CUA look menu. [`BSD 2-Clause`][82-24]
 
+  [82-24]: https://github.com/okbob/ncurses-st-menu/blob/master/LICENSE
+  [82-23]: https://github.com/okbob/ncurses-st-menu
+  [82-22]: https://github.com/tboox/ltui/blob/master/LICENSE.md
+  [82-21]: https://github.com/tboox/ltui
+  [82-20]: https://github.com/nejohnson/stui/blob/master/include/stui.h
+  [82-19]: https://github.com/nejohnson/stui
+  [82-18]: https://github.com/jakubfi/emui/blob/master/src/emui.c
+  [82-17]: https://github.com/jakubfi/emui
+  [82-16]: https://github.com/serameo/TUI/blob/master/LICENSE
+  [82-15]: https://github.com/serameo/TUI
   [82-14]: https://github.com/matthiasbock/ucurses/blob/master/LICENSE
   [82-13]: https://github.com/matthiasbock/ucurses
   [82-12]: https://github.com/alandekok/recli/blob/master/LICENSE
