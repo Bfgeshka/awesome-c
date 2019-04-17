@@ -1,6 +1,6 @@
 # Awesome C #
 
-A curated list of C good stuff.
+A curated list of C good stuff. Contributions are welcome.
 
 **An important note:** first and foremost linked resources are for C, therefore
 C++ is an afterthought.
