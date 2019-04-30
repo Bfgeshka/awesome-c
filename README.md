@@ -2416,7 +2416,16 @@ Libraries for working with specific filetypes or classes of filetypes.
   parser. [`License`][42-8]
   * [bakulf/libmrss][42-9] - C library for parsing, writing and creating RSS
   files or streams. [`LGPL 2.1`][42-10]
+  * [mmuszkow/librss][42-11] - RSS and ATOM parsing library. `No license`
+  * [bakulf/libnxml][42-12] - Library for parsing, writing and creating XML 1.0
+  and 1.1 documents. [`LGPL 2.1`][42-13]
+  * [anton/rss_aggregator][42-14] - Feed reader lib written in C with use of
+  libxml2 and utlist. `No license`
 
+  [42-14]: https://github.com/anton/rss_aggregator
+  [42-13]: https://github.com/bakulf/libnxml/blob/master/COPYING
+  [42-12]: https://github.com/bakulf/libnxml
+  [42-11]: https://github.com/mmuszkow/librss
   [42-10]: https://github.com/bakulf/libmrss/blob/master/COPYING
   [42-9]: https://github.com/bakulf/libmrss
   [42-8]: https://github.com/ooxi/xml.c/blob/master/LICENSE
@@ -2661,7 +2670,10 @@ Engines, libraries and other helpful things specifically for making games.
   GPL Release). [`GPL 3`][45-89]
   * [blinry/gish][45-90] - Open Source version of the award-winning physics
   platformer. [`Licenses`][45-91]
+  * [ambethia/aposelene][45-92] - Experimental 2D Engine in C. [`MIT`][45-93]
 
+  [45-93]: https://github.com/ambethia/aposelene/blob/master/LICENSE.txt
+  [45-92]: https://github.com/ambethia/aposelene
   [45-91]: https://github.com/blinry/gish/blob/master/License.txt
   [45-90]: https://github.com/blinry/gish
   [45-89]: https://github.com/NightDiveStudios/shockmac/blob/master/LICENSE
