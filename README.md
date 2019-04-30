@@ -2671,7 +2671,11 @@ Engines, libraries and other helpful things specifically for making games.
   * [blinry/gish][45-90] - Open Source version of the award-winning physics
   platformer. [`Licenses`][45-91]
   * [ambethia/aposelene][45-92] - Experimental 2D Engine in C. [`MIT`][45-93]
+  * [klaussilveira/qengine][45-94] - Retro game engine for developers that enjoy
+  creating games like it's 1997. [`GPL 2`][45-95]
 
+  [45-95]: https://github.com/klaussilveira/qengine/blob/master/LICENSE
+  [45-94]: https://github.com/klaussilveira/qengine
   [45-93]: https://github.com/ambethia/aposelene/blob/master/LICENSE.txt
   [45-92]: https://github.com/ambethia/aposelene
   [45-91]: https://github.com/blinry/gish/blob/master/License.txt
