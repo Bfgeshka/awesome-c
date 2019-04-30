@@ -3507,7 +3507,10 @@ Engines, libraries and other helpful things specifically for making games.
   * [Simon-Swenson-8351/tralloc][56-29] - A binary tree based memory allocator. [`BSD 3-Clause`][56-30]
   * [Qqwy/raii_with][56-31] - A simple library to provide RAII in
   standard-compliant C99. [`MIT`][56-32]
+  * [emeryberger/Malloc-Implementations][56-33] - A collection of memory
+  allocators. `No license`
 
+  [56-33]: https://github.com/emeryberger/Malloc-Implementations
   [56-32]: https://github.com/Qqwy/raii_with/blob/master/LICENSE
   [56-31]: https://github.com/Qqwy/raii_with
   [56-30]: https://github.com/Simon-Swenson-8351/tralloc
