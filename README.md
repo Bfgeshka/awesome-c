@@ -3072,7 +3072,11 @@ Engines, libraries and other helpful things specifically for making games.
   cairo. Can be shown in GtkDrawingArea [`LGPL 3`][49-27]
   * [DeXP/nuklear_cross][49-28] - Nuklear+ (read as "Nuklear cross") is a
   front-end overlay for Nuklear GUI library. [`Licenses`][49-29]
+  * [xkbcommon/libxkbcommon][49-30] - Keymap handling library for toolkits and
+  window systems. [`License`][49-31]
 
+  [49-31]: https://github.com/xkbcommon/libxkbcommon/blob/master/LICENSE
+  [49-30]: https://github.com/xkbcommon/libxkbcommon
   [49-29]: https://github.com/DeXP/nuklear_cross#license
   [49-28]: https://github.com/DeXP/nuklear_cross
   [49-27]: https://github.com/bytebrew/slope/blob/master/LICENSE
