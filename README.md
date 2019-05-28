@@ -4765,7 +4765,7 @@ Engines, libraries and other helpful things specifically for making games.
   * [siu/minunit][81-46] - Minimal unit testing framework for C. [`MIT`][81-47]
   * [stephenmathieson/describe.h][81-48] - Simple BDD describe test. [`MIT`][81-49]
   * [vmg/clar][81-50] - What tests are made of. [`ISC`][81-51]
-  * [CuTest] - C Unit Testing Framework [`Licenses`][81-53]
+  * [CuTest][81-52] - C Unit Testing Framework [`Licenses`][81-53]
 
   [81-53]: https://sourceforge.net/projects/cutest/
   [81-52]: http://cutest.sourceforge.net/
