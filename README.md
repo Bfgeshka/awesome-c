@@ -2305,7 +2305,10 @@ Libraries for working with specific filetypes or classes of filetypes.
   portable ANSI. [`License`][39-36]
   * [garnetius/jsong][39-37] - Faster than light streaming JSON & USON parser
   and writer with rich and trivial to use API plus SSE optimizations. [`BSD 2-Clause`][39-38]
+  * [recp/json][39-39] - parses JSON files into DOM-like data structures. [`MIT`][39-40]
 
+  [39-40]: https://github.com/recp/json/blob/master/LICENSE
+  [39-39]: https://github.com/recp/json
   [39-38]: https://github.com/garnetius/jsong/blob/master/LICENSE.txt
   [39-37]: https://github.com/garnetius/jsong
   [39-36]: https://github.com/udp/json-parser/blob/master/LICENSE
