@@ -2540,7 +2540,11 @@ Libraries for working with specific filetypes or classes of filetypes.
   * [Microsoft/checkedc][44-51] - Extension to C that adds checking to detect or
   prevent common programming errors such as buffer overruns and out-of-bounds
   memory accesses. [`MIT`][44-52]
+  * [hexspeakerg/ONLY_ONCE][44-53] - ONLY_ONCE macro makes it so that the block
+  of code is only run once across threads. [`MIT`][44-54]
 
+  [44-54]: https://github.com/hexspeakerg/ONLY_ONCE/blob/master/LICENSE
+  [44-53]: https://github.com/hexspeakerg/ONLY_ONCE
   [44-52]: https://github.com/Microsoft/checkedc#licensing
   [44-51]: https://github.com/Microsoft/checkedc
   [44-50]: https://github.com/ccxvii/mujs/blob/master/COPYING
