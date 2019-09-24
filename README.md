@@ -3371,7 +3371,10 @@ Engines, libraries and other helpful things specifically for making games.
   representation, optimizations and assembly code generation suitable for use in
   compilers. Comes with an example C front-end under the same license. [`GPL 2`][53-32]
   * [daddinuz/watchdog][53-33] - Memory tracer, leaks hunter. [`MIT`][53-34]
+  * [okuvshynov/b63][53-35] - Lightweight benchmarking tool for C. [`Apache 2`][53-36]
 
+  [53-36]: https://github.com/okuvshynov/b63/blob/master/LICENSE
+  [53-35]: https://github.com/okuvshynov/b63
   [53-34]: https://github.com/daddinuz/watchdog/blob/master/LICENSE
   [53-33]: https://github.com/daddinuz/watchdog
   [53-32]: https://pp.ipd.kit.edu/git/cparser/tree/COPYING
