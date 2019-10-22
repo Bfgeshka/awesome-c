@@ -3612,7 +3612,10 @@ Engines, libraries and other helpful things specifically for making games.
   in vanilla C. [`ISC`][57-54]
   * [libao][57-55] - Cross-platform audio library with a wide variety of
   outputs. [`GPL 2`][57-56]
+  * [libvlc][57-57] - VLC player library. [`Licenses`][57-58]
 
+  [57-58]: https://git.videolan.org/?p=vlc.git;a=tree
+  [57-57]: https://wiki.videolan.org/LibVLC
   [57-56]: https://git.xiph.org/?p=libao.git;a=blob;f=COPYING;h=d60c31a97a544b53039088d14fe9114583c0efc3;hb=HEAD
   [57-55]: https://xiph.org/ao/
   [57-54]: https://github.com/mhroth/tinyosc/blob/master/LICENSE
