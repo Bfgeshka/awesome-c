@@ -4415,7 +4415,10 @@ Engines, libraries and other helpful things specifically for making games.
   * [troydhanson/tpl][75-32] - Small binary serialization library for C. [`License`][75-33]
   * [clibs/dumpasn1][75-34] - Display the contents of ASN.1 encoded data. [`License`][75-35]
   * [vlm/asn1c][75-36] - The ASN.1 Compiler. [`BSD 2-Clause`][75-37]
+  * [eerimoq/pbtools][75-38] - Google protobuf tools. [`MIT`][75-39]
 
+  [75-39]: https://github.com/eerimoq/pbtools/blob/master/LICENSE
+  [75-38]: https://github.com/eerimoq/pbtools
   [75-37]: https://github.com/vlm/asn1c/blob/master/LICENSE
   [75-36]: https://github.com/vlm/asn1c
   [75-35]: https://github.com/clibs/dumpasn1/blob/master/dumpasn1.c
