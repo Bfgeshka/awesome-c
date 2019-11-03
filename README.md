@@ -2365,7 +2365,11 @@ Libraries for working with specific filetypes or classes of filetypes.
   systems. [`License`][40-6]
   * [LloydLabs/librini][40-7] - Tiny, non-libc dependant, .ini file parser
   programmed from scratch in C99. [`MIT`][40-8]
+  * [compuphase/minIni][40-9] - A small and portable INI file library with
+  read/write support. [`Apache 2`][40-10]
 
+  [40-10]: https://github.com/compuphase/minIni/blob/master/LICENSE
+  [40-9]: https://github.com/compuphase/minIni
   [40-8]: https://github.com/LloydLabs/librini/blob/master/LICENSE
   [40-7]: https://github.com/LloydLabs/librini
   [40-6]: https://github.com/benhoyt/inih/blob/master/LICENSE.txt
