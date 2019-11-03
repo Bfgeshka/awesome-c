@@ -1533,7 +1533,10 @@ structure at all)
   * [facebook/zstd][29-31] - Fast real-time compression algorithm. [`BSD 3-Clause`][29-32]
   * [jsvennevid/filearchive][29-72] - File archive library allowing for easy
   creation and access to data stored inside a container through a simple API. [`MIT`][29-73]
+  * [ariya/FastLZ][29-74] - Byte-aligned LZ77 compression. [`License`][29-75]
 
+  [29-75]: https://github.com/ariya/FastLZ/blob/master/LICENSE
+  [29-74]: https://github.com/ariya/FastLZ
   [29-73]: https://github.com/jsvennevid/filearchive/blob/master/LICENSE
   [29-72]: https://github.com/jsvennevid/filearchive
   [29-71]: https://github.com/powturbo/TurboRLE/blob/master/trle.h
