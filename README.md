@@ -4695,7 +4695,11 @@ Engines, libraries and other helpful things specifically for making games.
   i386 development. [`License`][79-14]
   * [olibc/olibc][79-15] - Another C Library optimized for Embedded Linux. [`BSD`][79-16]
   * [lpsantil/rt0][79-17] - A minimal C runtime for Linux i386 & x86_64. [`BSD 2-Clause`][79-18]
+  * [keith-packard/picolibc][79-19] - Standard C library APIs that targets
+  small embedded systems with limited RAM. [`Licenses`][79-20]
 
+  [79-20]: https://github.com/keith-packard/picolibc
+  [79-19]: https://github.com/keith-packard/picolibc
   [79-18]: https://github.com/lpsantil/rt0/blob/master/LICENSE
   [79-17]: https://github.com/lpsantil/rt0
   [79-16]: https://github.com/olibc/olibc/blob/master/MODULE_LICENSE_BSD
