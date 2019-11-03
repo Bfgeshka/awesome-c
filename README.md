@@ -1137,7 +1137,11 @@ structure at all)
   * [iunderstand/SWE][25-30] - Learning Semantic Word Embeddings based on
   Ordinal Knowledge Constraints. [`Apache 2`][25-31]
   * [glouw/tinn][25-28] - The tiny neural network library. [`MIT`][25-29]
+  * [canyalniz/CNN-Inference-Didactic][25-44] - A readable CNN Inference
+  implementation in C. [`GPL 3`][25-45]
 
+  [25-45]: https://github.com/canyalniz/CNN-Inference-Didactic/blob/master/LICENSE
+  [25-44]: https://github.com/canyalniz/CNN-Inference-Didactic
   [25-43]: https://github.com/pjreddie/darknet/blob/master/LICENSE
   [25-42]: https://github.com/pjreddie/darknet
   [25-41]: https://github.com/yusugomori/DeepLearning/blob/master/LICENSE.txt
