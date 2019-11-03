@@ -1676,7 +1676,11 @@ structure at all)
   processing and data movement. [`Apache 2`][30-56]
   * [danluu/setjmp-longjmp-ucontext-snippets][30-57] - Implementing coroutines,
   channels, message passing, etc.[`Apache 2`][30-58]
+  * [Precisamento/cpthreads][30-59] - Cross Platform (e.g. Windows) support
+  for C11 threads. [`MIT`][30-60]
 
+  [30-60]: https://github.com/Precisamento/cpthreads/blob/master/LICENSE
+  [30-59]: https://github.com/Precisamento/cpthreads
   [30-58]: https://github.com/danluu/setjmp-longjmp-ucontext-snippets/blob/master/LICENSE
   [30-57]: https://github.com/danluu/setjmp-longjmp-ucontext-snippets
   [30-56]: https://github.com/parallella/pal/blob/master/LICENSE
