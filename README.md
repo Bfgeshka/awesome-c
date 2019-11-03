@@ -2559,7 +2559,11 @@ Libraries for working with specific filetypes or classes of filetypes.
   * [hexspeakerg/ONLY_ONCE][44-53] - ONLY_ONCE macro makes it so that the block
   of code is only run once across threads. [`MIT`][44-54]
   * [SanderMertens/flecs][44-55] - An Entity Component System with a dashboard. [`MIT`][44-56]
+  * [akeep/scheme-to-c][44-57] - A small nanopass compiler from a subset of
+  Scheme to C. [`MIT`][44-58]
 
+  [44-58]: https://github.com/akeep/scheme-to-c/blob/master/Copyright
+  [44-57]: https://github.com/akeep/scheme-to-c
   [44-56]: https://github.com/SanderMertens/flecs/blob/master/LICENSE
   [44-55]: https://github.com/SanderMertens/flecs
   [44-54]: https://github.com/hexspeakerg/ONLY_ONCE/blob/master/LICENSE
