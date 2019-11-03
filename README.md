@@ -2033,8 +2033,11 @@ structure at all)
   using macros. [`MIT`][34-114]
   * [troydhanson/uthash][34-115] - C macros for hash tables and more. [`License`][34-116]
   * [begeekmyfriend/CuckooFilter][34-117] - Substitute for bloom filter. [`License`][34-118]
-  * [bitly/dablooms][34-119] - scaling, counting, bloom filter library. [`MIT`][34-120]
+  * [bitly/dablooms][34-119] - Scaling, counting, bloom filter library. [`MIT`][34-120]
+  * [krglaws/KyleStructs][34-121] - Simple data structures written for
+  educational purposes. `No license`
 
+  [34-121]: https://github.com/krglaws/KyleStructs
   [34-120]: https://github.com/bitly/dablooms/blob/master/LICENSE
   [34-119]: https://github.com/bitly/dablooms
   [34-118]: https://github.com/begeekmyfriend/CuckooFilter/blob/master/LICENSE
