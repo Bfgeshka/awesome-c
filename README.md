@@ -3440,7 +3440,11 @@ Engines, libraries and other helpful things specifically for making games.
   and directories. [`MIT`][54-10]
   * [jwerle/fs.c][54-11] - File system API much like Node's fs module. [`MIT`][54-12]
   * [zevv/duc][54-13] - Library and suite of tools for inspecting disk usage. [`LGPL 3`][54-14]
+  * [kwhat/libuiohook][54-15] - A multi-platform C library to provide global
+  keyboard and mouse hooks from userland.[`GPL 3`][54-16]
 
+  [54-16]: https://github.com/kwhat/libuiohook/blob/master/COPYING.md
+  [54-15]: https://github.com/kwhat/libuiohook
   [54-14]: https://github.com/zevv/duc/blob/master/LICENSE
   [54-13]: https://github.com/zevv/duc
   [54-12]: https://github.com/jwerle/fs.c/blob/master/LICENSE
