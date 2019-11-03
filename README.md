@@ -904,7 +904,9 @@ structure at all)
   * [robm/dzen][21-9] - Dzen is a general purpose messaging, notification and
   menuing program for X11.
   * [McNopper/OpenGL][21-10] - OpenGL 3 and 4 with GLSL.
+  * [superjer/tinyc.games][21-11] - Tiny C games you can compile and run.
 
+  [21-11]: https://github.com/superjer/tinyc.games
   [21-10]: https://github.com/McNopper/OpenGL
   [21-9]: https://github.com/robm/dzen
   [21-8]: https://github.com/island-org/island
