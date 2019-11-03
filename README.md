@@ -4872,7 +4872,10 @@ Engines, libraries and other helpful things specifically for making games.
   * [nejohnson/stui][82-19] - Simple Text User Interface. [`BSD 3-Clause`][82-20]
   * [tboox/ltui][82-21] - A cross-platform terminal ui library based on Lua. [`Apache 2`][82-22]
   * [okbob/ncurses-st-menu][82-23] - ncurses based library for CUA look menu. [`BSD 2-Clause`][82-24]
+  * [LionyxML/nocurses][82-25] - A terminal screen manipulation library. [`GPL 2`][82-26]
 
+  [82-26]: https://github.com/LionyxML/nocurses/blob/master/LICENSE.txt
+  [82-25]: https://github.com/LionyxML/nocurses
   [82-24]: https://github.com/okbob/ncurses-st-menu/blob/master/LICENSE
   [82-23]: https://github.com/okbob/ncurses-st-menu
   [82-22]: https://github.com/tboox/ltui/blob/master/LICENSE.md
