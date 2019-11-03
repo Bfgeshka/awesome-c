@@ -2542,7 +2542,10 @@ Libraries for working with specific filetypes or classes of filetypes.
   memory accesses. [`MIT`][44-52]
   * [hexspeakerg/ONLY_ONCE][44-53] - ONLY_ONCE macro makes it so that the block
   of code is only run once across threads. [`MIT`][44-54]
+  * [SanderMertens/flecs][44-55] - An Entity Component System with a dashboard. [`MIT`][44-56]
 
+  [44-56]: https://github.com/SanderMertens/flecs/blob/master/LICENSE
+  [44-55]: https://github.com/SanderMertens/flecs
   [44-54]: https://github.com/hexspeakerg/ONLY_ONCE/blob/master/LICENSE
   [44-53]: https://github.com/hexspeakerg/ONLY_ONCE
   [44-52]: https://github.com/Microsoft/checkedc#licensing
