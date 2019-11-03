@@ -2022,7 +2022,7 @@ structure at all)
   * [watmough/jwHash][34-100] - Simple hash table implementation for C. [`Apache 2`][34-101]
   * [zhemao/libds][34-102] - Simple, memory-safe data-structures in C. [`MIT`][34-103]
   * [willemt/cbuffer][34-104] - A circular buffer written in C using Posix calls
-  to create a contiguously mapped memory space. BSD Licensed. [`License`][34-105]
+  to create a contiguously mapped memory space. [`License`][34-105]
   * [xant/libhl][34-106] - Simple and fast C library implementing a thread-safe
   API to manage hash-tables, linked lists, lock-free ring buffers and queues. [`LGPL 3`][34-107]
   * [yuyuyu101/C-Buffered-tree][34-108] - A buffered-tree implemented in
@@ -2036,7 +2036,11 @@ structure at all)
   * [bitly/dablooms][34-119] - Scaling, counting, bloom filter library. [`MIT`][34-120]
   * [krglaws/KyleStructs][34-121] - Simple data structures written for
   educational purposes. `No license`
+  * [armon/c-minheap-array][34-122] - Implements a Min-Heap / Priority Queue
+  in C using a simple array. [`BSD 3-Clause`][34-123]
 
+  [34-123]: https://github.com/armon/c-minheap-array/blob/master/LICENSE
+  [34-122]: https://github.com/armon/c-minheap-array
   [34-121]: https://github.com/krglaws/KyleStructs
   [34-120]: https://github.com/bitly/dablooms/blob/master/LICENSE
   [34-119]: https://github.com/bitly/dablooms
