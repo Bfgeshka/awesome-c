@@ -2048,7 +2048,10 @@ structure at all)
   educational purposes. `No license`
   * [armon/c-minheap-array][34-122] - Implements a Min-Heap / Priority Queue
   in C using a simple array. [`BSD 3-Clause`][34-123]
+  * [jstimpfle/rb3ptr][34-124] - Red-black tree in C. [`License`][34-125]
 
+  [34-125]: https://github.com/jstimpfle/rb3ptr/blob/master/rb3ptr.c
+  [34-124]: https://github.com/jstimpfle/rb3ptr
   [34-123]: https://github.com/armon/c-minheap-array/blob/master/LICENSE
   [34-122]: https://github.com/armon/c-minheap-array
   [34-121]: https://github.com/krglaws/KyleStructs
