@@ -36,7 +36,7 @@ structure at all)
 ## Index ##
 
 * [Meta](#meta)
-	* [Standarts](#standarts)
+	* [Standards](#standards)
 	* [Tooling](#tooling)
 		* [Build Systems](#build-systems)
 		* [Compilers](#compilers)
@@ -118,7 +118,7 @@ structure at all)
 * [Serialization](#serialization)
 * [Source Code Collections](#source-code-collections)
 * [Special Purpose Libraries](#special-purpose)
-* [Standard Libraries](#standart-libraries)
+* [Standard Libraries](#standard-libraries)
 * [String Manipulation](#string-manipulation)
 * [Testing](#testing)
 * [TUI](#tui)
@@ -131,11 +131,11 @@ structure at all)
 
 <a id="meta"/></a>
 ## Meta ##
-<a id="standarts"/></a>
+<a id="standards"/></a>
 <details>
-  <summary>Standarts</summary>
+  <summary>Standards</summary>
 
-  ### <a href="#-">`^`</a> Standarts ###
+  ### <a href="#-">`^`</a> Standards ###
   * [Draft C89 standard][1-1]
   * [Draft C99 standard][1-2]
   * [Draft C11 standard][1-3]
@@ -626,7 +626,7 @@ structure at all)
   * [C Primer Plus 6E][12-1] - Complete tutorial on programming in C11.
   * [C Programming: A Modern Approach][12-2] - Book to learn the basics of C.
   * [Head First C][12-3] - 'Head-first' style book for learning C.
-  * [The GNU C Programming Tutorial][12-4] - Beware, GNU C is not standart C. (PDF)
+  * [The GNU C Programming Tutorial][12-4] - Beware, GNU C is not standard C. (PDF)
 
   [12-4]: http://www.crasseux.com/books/ctut.pdf
   [12-3]: http://shop.oreilly.com/product/0636920015482.do
@@ -4680,12 +4680,12 @@ Engines, libraries and other helpful things specifically for making games.
   [78-1]: https://github.com/TulipCharts/tulipindicators
 </details>
 
-<a id="standart-libraries"></a>
+<a id="standard-libraries"></a>
 <details>
   <summary>Standard Libraries</summary>
 
   ## <a href="#-">`^`</a> Standard Libraries ##
-  Implementations of the C standarts
+  Implementations of the C standards
   * [PDCLib][79-1] - The Public Domain C Library. Implements most of C99 and
   some of C11. [`License`][79-2]
   * [uClibc-ng][79-3] - Small C library for developing embedded systems. [`LGPL 2.1`][79-4]
