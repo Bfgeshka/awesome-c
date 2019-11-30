@@ -4825,10 +4825,18 @@ Engines, libraries and other helpful things specifically for making games.
   * [siu/minunit][81-46] - Minimal unit testing framework for C. [`MIT`][81-47]
   * [stephenmathieson/describe.h][81-48] - Simple BDD describe test. [`MIT`][81-49]
   * [vmg/clar][81-50] - What tests are made of. [`ISC`][81-51]
-  * [CuTest][81-52] - C Unit Testing Framework [`Licenses`][81-53]
+  * [CuTest][81-52] - C Unit Testing Framework. [`Licenses`][81-53]
   * [eerimoq/nala][81-54] - Test framework for C projects. Based on narwhal and
-  narmock.[`MIT`][81-55]
+  narmock. [`MIT`][81-55]
+  * [vberlier/narwhal][81-56] - Framework for writing readable and maintainable
+  tests for C programs and libraries. [`MIT`][81-57]
+  * [vberlier/narmock][81-58] - Finds the functions mocked in your tests and
+  generates mocks. [`MIT`][81-59]
 
+  [81-59]: https://github.com/vberlier/narmock/blob/master/LICENSE
+  [81-58]: https://github.com/vberlier/narmock
+  [81-57]: https://github.com/vberlier/narwhal/blob/master/LICENSE
+  [81-56]: https://github.com/vberlier/narwhal
   [81-55]: https://github.com/eerimoq/nala/blob/master/LICENSE
   [81-54]: https://github.com/eerimoq/nala
   [81-53]: https://sourceforge.net/projects/cutest/
