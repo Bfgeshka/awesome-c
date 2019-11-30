@@ -905,7 +905,9 @@ structure at all)
   menuing program for X11.
   * [McNopper/OpenGL][21-10] - OpenGL 3 and 4 with GLSL.
   * [superjer/tinyc.games][21-11] - Tiny C games you can compile and run.
+  * [DanteFalzone0/physics][21-12] - An simple, interactive physics simulation.
 
+  [21-12]: https://github.com/DanteFalzone0/physics
   [21-11]: https://github.com/superjer/tinyc.games
   [21-10]: https://github.com/McNopper/OpenGL
   [21-9]: https://github.com/robm/dzen
