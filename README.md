@@ -4826,7 +4826,11 @@ Engines, libraries and other helpful things specifically for making games.
   * [stephenmathieson/describe.h][81-48] - Simple BDD describe test. [`MIT`][81-49]
   * [vmg/clar][81-50] - What tests are made of. [`ISC`][81-51]
   * [CuTest][81-52] - C Unit Testing Framework [`Licenses`][81-53]
+  * [eerimoq/nala][81-54] - Test framework for C projects. Based on narwhal and
+  narmock.[`MIT`][81-55]
 
+  [81-55]: https://github.com/eerimoq/nala/blob/master/LICENSE
+  [81-54]: https://github.com/eerimoq/nala
   [81-53]: https://sourceforge.net/projects/cutest/
   [81-52]: http://cutest.sourceforge.net/
   [81-51]: https://github.com/vmg/clar/blob/master/COPYING
