@@ -4300,11 +4300,12 @@ Engines, libraries and other helpful things specifically for making games.
   * [rvoicilas/inotify-tools][71-16] - Library and a set of command-line
   programs for Linux providing a simple interface to inotify. [`GPL 2`][71-17]
   * [tinyalsa/tinyalsa][71-18] - Tiny library to interface with ALSA in the
-  Linux kernel. `No license`
+  Linux kernel. [`BSD 3-Clause`][71-23]
   * [wengkai/ACLLib][71-19] - A bunch of C functions covers Win32API and
   provides simpler API to beginners for programming Windows GUI applications. [`GPL 3`][71-20]
   * [zardus/preeny][71-21] - Some helpful preload libraries for pwning stuff. [`BSD 2-Clause`][71-22]
 
+  [71-23]: https://github.com/tinyalsa/tinyalsa/blob/master/NOTICE
   [71-22]: https://github.com/zardus/preeny/blob/master/LICENSE
   [71-21]: https://github.com/zardus/preeny
   [71-20]: https://github.com/wengkai/ACLLib/blob/master/src/acllib.c
