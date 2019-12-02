@@ -866,7 +866,9 @@ structure at all)
   * [swetland/dcpu16][20-13] - Virtual Machine and Assembler for Notch's DCPU-16
   Architecture.
   * [AlexAltea/orbital][20-14] - PS4 emulator.
+  * [superzazu/8080][20-15] - Intel 8080 emulator.
 
+  [20-15]: https://github.com/superzazu/8080
   [20-14]: https://github.com/AlexAltea/orbital
   [20-13]: https://github.com/swetland/dcpu16
   [20-12]: https://github.com/wkoszek/cpu60
