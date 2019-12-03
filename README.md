@@ -184,7 +184,10 @@ structure at all)
   * [zeromq/zproject][2-20] - Project generator and build system support tool
   for ZeroMQ project. [`MPL 2`][2-40]
   * [michaelforney/samurai][2-41] - ninja-compatible build tool written in C. [`Licenses`][2-42]
+  * [matricks/bam][2-43] - Build system with Lua scripting. [`License`][2-44]
 
+  [2-44]: https://github.com/matricks/bam/blob/master/COPYING
+  [2-43]: https://github.com/matricks/bam
   [2-42]: https://github.com/michaelforney/samurai/blob/master/LICENSE
   [2-41]: https://github.com/michaelforney/samurai
   [2-40]: https://github.com/zeromq/zproject/blob/master/LICENSE
