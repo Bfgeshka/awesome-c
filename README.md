@@ -3672,7 +3672,15 @@ Engines, libraries and other helpful things specifically for making games.
   * [libao][57-55] - Cross-platform audio library with a wide variety of
   outputs. [`GPL 2`][57-56]
   * [libvlc][57-57] - VLC player library. [`Licenses`][57-58]
+  * [raysan5/raudio][57-59] - A simple and easy-to-use audio library based on
+  miniaudio. [`Zlib`][57-60]
+  * [dr-soft/miniaudio][57-61] - Single file audio playback and capture
+  library written in C. [`Licenses`][57-62]
 
+  [57-62]: https://github.com/dr-soft/miniaudio/blob/master/LICENSE
+  [57-61]: https://github.com/dr-soft/miniaudio
+  [57-60]: https://github.com/raysan5/raudio/blob/master/LICENSE
+  [57-59]: https://github.com/raysan5/raudio
   [57-58]: https://git.videolan.org/?p=vlc.git;a=tree
   [57-57]: https://wiki.videolan.org/LibVLC
   [57-56]: https://git.xiph.org/?p=libao.git;a=blob;f=COPYING;h=d60c31a97a544b53039088d14fe9114583c0efc3;hb=HEAD
