@@ -2721,7 +2721,10 @@ Engines, libraries and other helpful things specifically for making games.
   * [ambethia/aposelene][45-92] - Experimental 2D Engine in C. [`MIT`][45-93]
   * [klaussilveira/qengine][45-94] - Retro game engine for developers that enjoy
   creating games like it's 1997. [`GPL 2`][45-95]
+  * [sebbekarlsson/coelum][45-96] - Game engine for 2d and 3d written in C. [`GPL 3`][45-97]
 
+  [45-97]: https://github.com/sebbekarlsson/coelum/blob/master/LICENSE.md
+  [45-96]: https://github.com/sebbekarlsson/coelum
   [45-95]: https://github.com/klaussilveira/qengine/blob/master/LICENSE
   [45-94]: https://github.com/klaussilveira/qengine
   [45-93]: https://github.com/ambethia/aposelene/blob/master/LICENSE.txt
@@ -2880,7 +2883,11 @@ Engines, libraries and other helpful things specifically for making games.
   management. [`License`][46-50]
   * [felselva/gfw][46-51] - Pure C Minimal Graphics Framework (OpenGL). [`Zlib`][46-52]
   * [karimnaaji/voxelizer][46-53] - Header only mesh voxelizer in c99. [`MIT`][46-54]
+  * [kbernholm/leloup][46-55] - All the C functions needed for drawing
+  solid 3D vector graphics.[`MIT`][46-56]
 
+  [46-56]: https://github.com/kbernholm/leloup/blob/master/LICENSE
+  [46-55]: https://github.com/kbernholm/leloup
   [46-54]: https://github.com/karimnaaji/voxelizer/blob/master/voxelizer.h
   [46-53]: https://github.com/karimnaaji/voxelizer
   [46-52]: https://github.com/felselva/gfw/blob/master/LICENSE
@@ -3122,7 +3129,10 @@ Engines, libraries and other helpful things specifically for making games.
   front-end overlay for Nuklear GUI library. [`Licenses`][49-29]
   * [xkbcommon/libxkbcommon][49-30] - Keymap handling library for toolkits and
   window systems. [`License`][49-31]
+  * [raysan5/raygui][49-32] - Immediate GUI library from raylib author. [`Zlib`][49-33]
 
+  [49-33]: https://github.com/raysan5/raygui/blob/master/LICENSE
+  [49-32]: https://github.com/raysan5/raygui
   [49-31]: https://github.com/xkbcommon/libxkbcommon/blob/master/LICENSE
   [49-30]: https://github.com/xkbcommon/libxkbcommon
   [49-29]: https://github.com/DeXP/nuklear_cross#license
@@ -4145,7 +4155,11 @@ Engines, libraries and other helpful things specifically for making games.
   * [zhaojh329/libuwsc][69-7] - A Lightweight and fully asynchronous WebSocket
   client C library based on libubox for Embedded Linux. [`LGPL 2.1`][69-8]
   * [warmcat/libwebsockets][69-9] - Canonical websocket library. [`License][69-10]
+  * [wbudd/RingSocket][69-11] - Lockless multi-threaded C11 Linux WebSocket
+  server. [`MIT`][69-12]
 
+  [69-12]: https://github.com/wbudd/RingSocket/blob/master/LICENSE
+  [69-11]: https://github.com/wbudd/RingSocket
   [69-10]: https://github.com/warmcat/libwebsockets/blob/master/LICENSE
   [69-9]: https://github.com/warmcat/libwebsockets
   [69-8]: https://github.com/zhaojh329/libuwsc/blob/master/LICENSE
@@ -4761,7 +4775,11 @@ Engines, libraries and other helpful things specifically for making games.
   * [sheredom/utf8.h][80-29] - Single header utf8 string functions for C
   and C++. [`Unlicense`][80-30]
   * [branchless-utf8][80-31] - Branchless UTF-8 decoder. [`Unlicense`][80-32]
+  * [g-berthiaume/strsepf][80-33] - Single header string parsing function with
+  memory safety of strsep and the convenience of a sscanf-like interface. [`MIT`][80-34]
 
+  [80-34]: https://github.com/g-berthiaume/strsepf/blob/master/LICENSE
+  [80-33]: https://github.com/g-berthiaume/strsepf
   [80-32]: https://github.com/skeeto/branchless-utf8/blob/master/UNLICENSE
   [80-31]: https://github.com/skeeto/branchless-utf8
   [80-30]: https://github.com/sheredom/utf8.h/blob/master/LICENSE
@@ -4927,7 +4945,11 @@ Engines, libraries and other helpful things specifically for making games.
   * [tboox/ltui][82-21] - A cross-platform terminal ui library based on Lua. [`Apache 2`][82-22]
   * [okbob/ncurses-st-menu][82-23] - ncurses based library for CUA look menu. [`BSD 2-Clause`][82-24]
   * [LionyxML/nocurses][82-25] - A terminal screen manipulation library. [`GPL 2`][82-26]
+  * [seleznevae/libfort][82-27] - Crossplatform library for formatted
+  text tables creation. [`MIT`][82-28]
 
+  [82-28]: https://github.com/seleznevae/libfort/blob/develop/LICENSE
+  [82-27]: https://github.com/seleznevae/libfort
   [82-26]: https://github.com/LionyxML/nocurses/blob/master/LICENSE.txt
   [82-25]: https://github.com/LionyxML/nocurses
   [82-24]: https://github.com/okbob/ncurses-st-menu/blob/master/LICENSE
