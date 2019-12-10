@@ -2722,7 +2722,10 @@ Engines, libraries and other helpful things specifically for making games.
   * [klaussilveira/qengine][45-94] - Retro game engine for developers that enjoy
   creating games like it's 1997. [`GPL 2`][45-95]
   * [sebbekarlsson/coelum][45-96] - Game engine for 2d and 3d written in C. [`GPL 3`][45-97]
+  * [bjornbytes/lovr][45-98] - Virtual Reality Engine. [`MIT`][45-99]
 
+  [45-99]: https://github.com/bjornbytes/lovr/blob/master/LICENSE
+  [45-98]: https://github.com/bjornbytes/lovr
   [45-97]: https://github.com/sebbekarlsson/coelum/blob/master/LICENSE.md
   [45-96]: https://github.com/sebbekarlsson/coelum
   [45-95]: https://github.com/klaussilveira/qengine/blob/master/LICENSE
