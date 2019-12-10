@@ -3596,7 +3596,10 @@ Engines, libraries and other helpful things specifically for making games.
   standard-compliant C99. [`MIT`][56-32]
   * [emeryberger/Malloc-Implementations][56-33] - A collection of memory
   allocators. `No license`
+  * [microsoft/mimalloc][56-34] - Compact general purpose allocator by Microsoft. [`MIT`][56-35]
 
+  [56-35]: https://github.com/microsoft/mimalloc/blob/master/LICENSE
+  [56-34]: https://github.com/microsoft/mimalloc
   [56-33]: https://github.com/emeryberger/Malloc-Implementations
   [56-32]: https://github.com/Qqwy/raii_with/blob/master/LICENSE
   [56-31]: https://github.com/Qqwy/raii_with
