@@ -2724,7 +2724,11 @@ Engines, libraries and other helpful things specifically for making games.
   * [sebbekarlsson/coelum][45-96] - Game engine for 2d and 3d written in C. [`GPL 3`][45-97]
   * [bjornbytes/lovr][45-98] - Virtual Reality Engine. [`MIT`][45-99]
   * [EvilPudding/candle][45-100] - Game engine based on GLEW and SDL. [`MIT`][45-101]
+  * [zauonlok/renderer][45-102] - Shader-based software renderer in C89 with
+  minimal dependencies. [`MIT`][45-103]
 
+  [45-103]: https://github.com/zauonlok/renderer/blob/master/LICENSE
+  [45-102]: https://github.com/zauonlok/renderer
   [45-101]: https://github.com/EvilPudding/candle/blob/master/LICENSE
   [45-100]: https://github.com/EvilPudding/candle
   [45-99]: https://github.com/bjornbytes/lovr/blob/master/LICENSE
