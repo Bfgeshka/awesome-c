@@ -2894,8 +2894,17 @@ Engines, libraries and other helpful things specifically for making games.
   * [felselva/gfw][46-51] - Pure C Minimal Graphics Framework (OpenGL). [`Zlib`][46-52]
   * [karimnaaji/voxelizer][46-53] - Header only mesh voxelizer in c99. [`MIT`][46-54]
   * [kbernholm/leloup][46-55] - All the C functions needed for drawing
-  solid 3D vector graphics.[`MIT`][46-56]
+  solid 3D vector graphics. [`MIT`][46-56]
+  * [dr-soft/glbind][46-57] - Single file OpenGL API loader. [`Licenses`][46-58]
+  * [dr-soft/vkbind][46-59] - Single file Vulkan API loader. [`Licenses`][46-60]
+  * [dr-soft/minidraw][46-61] - Single file 2D graphics library written in C. [`Licenses`][46-62]
 
+  [46-62]: https://github.com/dr-soft/minidraw/blob/master/LICENSE
+  [46-61]: https://github.com/dr-soft/minidraw
+  [46-60]: https://github.com/dr-soft/vkbind#license
+  [46-59]: https://github.com/dr-soft/vkbind
+  [46-58]: https://github.com/dr-soft/glbind#license
+  [46-57]: https://github.com/dr-soft/glbind
   [46-56]: https://github.com/kbernholm/leloup/blob/master/LICENSE
   [46-55]: https://github.com/kbernholm/leloup
   [46-54]: https://github.com/karimnaaji/voxelizer/blob/master/voxelizer.h
@@ -2998,7 +3007,10 @@ Engines, libraries and other helpful things specifically for making games.
   COLLADA/glTF specs. [`MIT`][47-46]
   * [olofson/audiality2][47-47] - A realtime scripted modular audio engine for
   video games and musical applications. [`Zlib`][47-48]
+  * [dr-soft/miniobj][47-49] - Simple library for loading OBJ mesh files. [`Public Domain`][47-50]
 
+  [47-50]: https://github.com/dr-soft/miniobj/blob/master/miniobj.h
+  [47-49]: https://github.com/dr-soft/miniobj
   [47-48]: https://github.com/olofson/audiality2/blob/master/LICENSE.txt
   [47-47]: https://github.com/olofson/audiality2
   [47-46]: https://github.com/recp/AssetKit/blob/master/LICENSE
@@ -3344,7 +3356,10 @@ Engines, libraries and other helpful things specifically for making games.
   fuss and CPU overhead. It makes use of libjpeg features of being able to load
   an image by only decoding the DCT coefficients needed to reconstruct an image
   of the size desired. [`License`][52-51]
+  * [dr-soft/dr_pcx][52-52] - Single file PCX image loader. [`Public Domain`][52-53]
 
+  [52-53]: https://github.com/dr-soft/dr_pcx/blob/master/dr_pcx.h
+  [52-52]: https://github.com/dr-soft/dr_pcx
   [52-51]: https://github.com/mattes/epeg/blob/master/COPYING
   [52-50]: https://github.com/mattes/epeg
   [52-49]: https://github.com/jedisct1/libpuzzle/blob/master/COPYING
@@ -3499,7 +3514,11 @@ Engines, libraries and other helpful things specifically for making games.
   * [zevv/duc][54-13] - Library and suite of tools for inspecting disk usage. [`LGPL 3`][54-14]
   * [kwhat/libuiohook][54-15] - A multi-platform C library to provide global
   keyboard and mouse hooks from userland.[`GPL 3`][54-16]
+  * [dr-soft/dr_fs][54-17] - Single file libraries for working with file
+  system. [`Public Domain`][54-18]
 
+  [54-18]: https://github.com/dr-soft/dr_fs/blob/master/dr_fs.h
+  [54-17]: https://github.com/dr-soft/dr_fs
   [54-16]: https://github.com/kwhat/libuiohook/blob/master/COPYING.md
   [54-15]: https://github.com/kwhat/libuiohook
   [54-14]: https://github.com/zevv/duc/blob/master/LICENSE
