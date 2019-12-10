@@ -2723,7 +2723,10 @@ Engines, libraries and other helpful things specifically for making games.
   creating games like it's 1997. [`GPL 2`][45-95]
   * [sebbekarlsson/coelum][45-96] - Game engine for 2d and 3d written in C. [`GPL 3`][45-97]
   * [bjornbytes/lovr][45-98] - Virtual Reality Engine. [`MIT`][45-99]
+  * [EvilPudding/candle][45-100] - Game engine based on GLEW and SDL. [`MIT`][45-101]
 
+  [45-101]: https://github.com/EvilPudding/candle/blob/master/LICENSE
+  [45-100]: https://github.com/EvilPudding/candle
   [45-99]: https://github.com/bjornbytes/lovr/blob/master/LICENSE
   [45-98]: https://github.com/bjornbytes/lovr
   [45-97]: https://github.com/sebbekarlsson/coelum/blob/master/LICENSE.md
