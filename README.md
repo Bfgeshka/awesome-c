@@ -3428,7 +3428,11 @@ Engines, libraries and other helpful things specifically for making games.
   * [okuvshynov/b63][53-35] - Lightweight benchmarking tool for C. [`Apache 2`][53-36]
   * [stephenrkell/trap-syscalls][53-37] - Monitor, rewrite and/or otherwise trap
   system calls. [`Licenses`][53-38]
+  * [immunityinc/libptrace][53-39] - An event driven multi-core process
+  debugging, tracing, and manipulation framework. [`LGPL 2.1`][53-40]
 
+  [53-40]: https://github.com/immunityinc/libptrace/blob/master/COPYING
+  [53-39]: https://github.com/immunityinc/libptrace
   [53-38]: https://github.com/stephenrkell/trap-syscalls
   [53-37]: https://github.com/stephenrkell/trap-syscalls
   [53-36]: https://github.com/okuvshynov/b63/blob/master/LICENSE
