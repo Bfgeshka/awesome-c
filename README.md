@@ -5000,7 +5000,9 @@ Engines, libraries and other helpful things specifically for making games.
   text tables creation. [`MIT`][82-28]
   * [LiquidityC/termesc][82-29] - ANSI escape TUI library. `No license`
   * [tryggth/newt][82-30] - TUI library made by RedHat. [`License`][82-31]
+  * [serameo/TUI2][82-32] - TUI fox Unix. `No license`
 
+  [82-32]: https://github.com/serameo/TUI2
   [82-31]: https://github.com/tryggth/newt/blob/master/COPYING
   [82-30]: https://github.com/tryggth/newt
   [82-29]: https://github.com/LiquidityC/termesc
