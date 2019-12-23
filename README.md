@@ -4102,7 +4102,11 @@ Engines, libraries and other helpful things specifically for making games.
   * [riolet/WAFer][67-43] - WAFer is a C language-based software platform for
   scalable server-side and networking applications. Think node.js for C
   programmers. [`GPL 2`][67-44]
+  * [jeremycw/httpserver.h][67-45] - Single header library for writing
+  non-blocking HTTP servers in C. [`MIT`][67-46]
 
+  [67-46]: https://github.com/jeremycw/httpserver.h/blob/master/LICENSE
+  [67-45]: https://github.com/jeremycw/httpserver.h
   [67-44]: https://github.com/riolet/WAFer/blob/master/LICENSE
   [67-43]: https://github.com/riolet/WAFer
   [67-42]: https://github.com/iafonov/cosmonaut#license--copyright
