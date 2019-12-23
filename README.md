@@ -4998,7 +4998,9 @@ Engines, libraries and other helpful things specifically for making games.
   * [LionyxML/nocurses][82-25] - A terminal screen manipulation library. [`GPL 2`][82-26]
   * [seleznevae/libfort][82-27] - Crossplatform library for formatted
   text tables creation. [`MIT`][82-28]
+  * [LiquidityC/termesc][82-29] - ANSI escape TUI library. `No license`
 
+  [82-29]: https://github.com/LiquidityC/termesc
   [82-28]: https://github.com/seleznevae/libfort/blob/develop/LICENSE
   [82-27]: https://github.com/seleznevae/libfort
   [82-26]: https://github.com/LionyxML/nocurses/blob/master/LICENSE.txt
