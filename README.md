@@ -2726,7 +2726,10 @@ Engines, libraries and other helpful things specifically for making games.
   * [EvilPudding/candle][45-100] - Game engine based on GLEW and SDL. [`MIT`][45-101]
   * [zauonlok/renderer][45-102] - Shader-based software renderer in C89 with
   minimal dependencies. [`MIT`][45-103]
+  * [cdev-tux/q3lite][45-104] - Quake 3 engine rendered in OpenGL ES. [`GPL 3`][45-105]
 
+  [45-105]: https://github.com/cdev-tux/q3lite/blob/dev/COPYING.txt
+  [45-104]: https://github.com/cdev-tux/q3lite
   [45-103]: https://github.com/zauonlok/renderer/blob/master/LICENSE
   [45-102]: https://github.com/zauonlok/renderer
   [45-101]: https://github.com/EvilPudding/candle/blob/master/LICENSE
