@@ -4999,7 +4999,10 @@ Engines, libraries and other helpful things specifically for making games.
   * [seleznevae/libfort][82-27] - Crossplatform library for formatted
   text tables creation. [`MIT`][82-28]
   * [LiquidityC/termesc][82-29] - ANSI escape TUI library. `No license`
+  * [tryggth/newt][82-30] - TUI library made by RedHat. [`License`][82-31]
 
+  [82-31]: https://github.com/tryggth/newt/blob/master/COPYING
+  [82-30]: https://github.com/tryggth/newt
   [82-29]: https://github.com/LiquidityC/termesc
   [82-28]: https://github.com/seleznevae/libfort/blob/develop/LICENSE
   [82-27]: https://github.com/seleznevae/libfort
