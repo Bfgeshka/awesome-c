@@ -2901,7 +2901,10 @@ Engines, libraries and other helpful things specifically for making games.
   * [dr-soft/glbind][46-57] - Single file OpenGL API loader. [`Licenses`][46-58]
   * [dr-soft/vkbind][46-59] - Single file Vulkan API loader. [`Licenses`][46-60]
   * [dr-soft/minidraw][46-61] - Single file 2D graphics library written in C. [`Licenses`][46-62]
+  * [glouw/gel][46-63] - N64-like software renderer. [`MIT`][46-64]
 
+  [46-64]: https://github.com/glouw/gel/blob/master/LICENSE
+  [46-63]: https://github.com/glouw/gel
   [46-62]: https://github.com/dr-soft/minidraw/blob/master/LICENSE
   [46-61]: https://github.com/dr-soft/minidraw
   [46-60]: https://github.com/dr-soft/vkbind#license
