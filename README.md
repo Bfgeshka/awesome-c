@@ -3558,7 +3558,10 @@ Engines, libraries and other helpful things specifically for making games.
   input. It also provides feedback in case the input does not match the
   language. This can be useful for auto-completion, suggestions or error
   handling. [`MIT`][55-15]
+  * [dr-soft/url][55-16] - URL parsing in C. [`BSD 2-Clause`][55-17]
 
+  [55-17]: https://github.com/dr-soft/url/blob/master/LICENSE
+  [55-16]: https://github.com/dr-soft/url
   [55-15]: https://github.com/transceptor-technology/libcleri/blob/master/LICENSE.md
   [55-14]: https://github.com/transceptor-technology/libcleri
   [55-13]: https://github.com/orangeduck/mpc/blob/master/LICENSE.md
