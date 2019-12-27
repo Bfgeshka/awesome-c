@@ -3628,7 +3628,11 @@ Engines, libraries and other helpful things specifically for making games.
   * [emeryberger/Malloc-Implementations][56-33] - A collection of memory
   allocators. `No license`
   * [microsoft/mimalloc][56-34] - Compact general purpose allocator by Microsoft. [`MIT`][56-35]
+  * [mjansson/rpmalloc][56-36] - Cross platform lock free thread caching 16-byte
+  aligned memory allocator. [`License`][56-37]
 
+  [56-37]: https://github.com/mjansson/rpmalloc/blob/develop/LICENSE
+  [56-36]: https://github.com/mjansson/rpmalloc
   [56-35]: https://github.com/microsoft/mimalloc/blob/master/LICENSE
   [56-34]: https://github.com/microsoft/mimalloc
   [56-33]: https://github.com/emeryberger/Malloc-Implementations
