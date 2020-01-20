@@ -3326,7 +3326,10 @@ Engines, libraries and other helpful things specifically for making games.
   * [mattsta/crcspeed][51-17] - This make CRC be fast. Included implementations:
   CRC-64-Jones and CRC-16-CCITT. [`BSD 3-Clause`][51-18]
   * [plashchynski/str2hex][51-19] - Data formats convertion utility. [`Apache 2`][51-20]
+  * [tzvetkoff/hashids.c][51-21] - Port of the Hashids library. [`MIT`][51-22]
 
+  [51-22]: https://github.com/tzvetkoff/hashids.c/blob/master/LICENSE.md
+  [51-21]: https://github.com/tzvetkoff/hashids.c
   [51-20]: https://github.com/plashchynski/str2hex/blob/master/LICENSE
   [51-19]: https://github.com/plashchynski/str2hex
   [51-18]: https://github.com/mattsta/crcspeed/blob/master/crcspeed.h
