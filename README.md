@@ -3659,7 +3659,10 @@ Engines, libraries and other helpful things specifically for making games.
   * [mjansson/rpmalloc][56-36] - Cross platform lock free thread caching 16-byte
   aligned memory allocator. [`License`][56-37]
   * [yvan-sraka/malloc][56-38] - malloc implementation with reduced dependencies. [`GPL 3`][56-39]
+  * [AlxHnr/CRegion][56-40] - Region-based memory management library. [`License`][56-41]
 
+  [56-41]: https://github.com/AlxHnr/CRegion/blob/master/LICENSE
+  [56-40]: https://github.com/AlxHnr/CRegion
   [56-39]: https://github.com/yvan-sraka/malloc/blob/master/LICENSE
   [56-38]: https://github.com/yvan-sraka/malloc
   [56-37]: https://github.com/mjansson/rpmalloc/blob/develop/LICENSE
