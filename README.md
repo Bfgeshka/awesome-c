@@ -1913,7 +1913,9 @@ structure at all)
   Oracle databases. [`Apache 2`][33-34]
   * [symisc/vedis][33-35] - An Embedded Implementation of Redis. [`License`][33-36]
   * [orca-zhang/influxdb-c][33-37] - C write client for InfluxDB. [`MIT`][33-38]
+  * [t3rm1n4l/lightkv][33-39] - Key-value data storage. `No license`
 
+  [33-39]: https://github.com/t3rm1n4l/lightkv
   [33-38]: https://github.com/orca-zhang/influxdb-c/blob/master/LICENSE
   [33-37]: https://github.com/orca-zhang/influxdb-c
   [33-36]: https://github.com/symisc/vedis/blob/master/license.txt
