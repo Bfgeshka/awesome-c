@@ -3546,7 +3546,11 @@ Engines, libraries and other helpful things specifically for making games.
   keyboard and mouse hooks from userland.[`GPL 3`][54-16]
   * [dr-soft/dr_fs][54-17] - Single file libraries for working with file
   system. [`Public Domain`][54-18]
+  * [mpaland/printf][54-19] - Standalone printf, sprintf and (v)snprintf
+  implementation. [`MIT`][54-20]
 
+  [54-20]: https://github.com/mpaland/printf/blob/master/LICENSE
+  [54-19]: https://github.com/mpaland/printf
   [54-18]: https://github.com/dr-soft/dr_fs/blob/master/dr_fs.h
   [54-17]: https://github.com/dr-soft/dr_fs
   [54-16]: https://github.com/kwhat/libuiohook/blob/master/COPYING.md
