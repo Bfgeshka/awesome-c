@@ -4141,7 +4141,10 @@ Engines, libraries and other helpful things specifically for making games.
   programmers. [`GPL 2`][67-44]
   * [jeremycw/httpserver.h][67-45] - Single header library for writing
   non-blocking HTTP servers in C. [`MIT`][67-46]
+  * [lammertb/libhttp][67-47] - Crossplatform HTTP and HTTPS library. [`MIT`][67-48]
 
+  [67-48]: https://github.com/lammertb/libhttp/blob/master/LICENSE.md
+  [67-47]: https://github.com/lammertb/libhttp
   [67-46]: https://github.com/jeremycw/httpserver.h/blob/master/LICENSE
   [67-45]: https://github.com/jeremycw/httpserver.h
   [67-44]: https://github.com/riolet/WAFer/blob/master/LICENSE
