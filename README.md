@@ -1250,7 +1250,10 @@ structure at all)
   Bézier curves with interfaces for C++, C#, D, Java, Lua, Octave, PHP, Python,
   R, and Ruby. [`MIT`][26-43]
   * [ferreiradaselva/uastar][26-7] - Minimal A\* implementation. [`Zlib`][26-8]
+  * [madler/crcany][26-53] - CRC calculation library. [`Zlib`][26-54]
 
+  [26-54]: https://github.com/madler/crcany#license
+  [26-53]: https://github.com/madler/crcany
   [26-52]: https://github.com/tsuraan/Jerasure/blob/master/License.txt
   [26-51]: https://github.com/tsuraan/Jerasure
   [26-50]: https://github.com/tarequeh/DES/blob/master/LICENSE
