@@ -1402,7 +1402,10 @@ structure at all)
   * [Yeppp!][28-46] - Very fast, SIMD-optimized mathematical library. [`License`][28-47]
   * [PetteriAimonen/libfixmath][28-77] - Cross Platform Fixed Point Maths
   Library.[`MIT`][28-78]
+  * [datenwolf/linmath.h][28-79] - Linear math as required for computer graphics. [`WTFPL`][28-80]
 
+  [28-80]: https://github.com/datenwolf/linmath.h/blob/master/LICENCE
+  [28-79]: https://github.com/datenwolf/linmath.h
   [28-78]: https://github.com/PetteriAimonen/libfixmath#libfixmath
   [28-77]: https://github.com/PetteriAimonen/libfixmath
   [28-76]: https://github.com/codeplea/tinyexpr/blob/master/LICENSE
