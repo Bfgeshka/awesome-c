@@ -4956,7 +4956,10 @@ Engines, libraries and other helpful things specifically for making games.
   * [vberlier/narmock][81-58] - Finds the functions mocked in your tests and
   generates mocks. [`MIT`][81-59]
   * [sheredom/utest.h][81-60] - Single header unit testing framework. [`Unlicense`][80-61]
+  * [Koldar/crashc][81-62] - Automatic C source code testing framework. [`MIT`][81-63]
 
+  [81-63]: https://github.com/Koldar/crashc/blob/master/LICENSE.md
+  [81-62]: https://github.com/Koldar/crashc
   [81-61]: https://github.com/sheredom/utest.h/blob/master/LICENSE
   [81-60]: https://github.com/sheredom/utest.h
   [81-59]: https://github.com/vberlier/narmock/blob/master/LICENSE
