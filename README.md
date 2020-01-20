@@ -3387,7 +3387,10 @@ Engines, libraries and other helpful things specifically for making games.
   an image by only decoding the DCT coefficients needed to reconstruct an image
   of the size desired. [`License`][52-51]
   * [dr-soft/dr_pcx][52-52] - Single file PCX image loader. [`Public Domain`][52-53]
+  * [cbraudo/qdbmp][52-54] - Cross-platform C library for handling BMP files. [`MIT`][52-55]
 
+  [52-55]: https://github.com/cbraudo/qdbmp/blob/master/LICENSE
+  [52-54]: https://github.com/cbraudo/qdbmp
   [52-53]: https://github.com/dr-soft/dr_pcx/blob/master/dr_pcx.h
   [52-52]: https://github.com/dr-soft/dr_pcx
   [52-51]: https://github.com/mattes/epeg/blob/master/COPYING
