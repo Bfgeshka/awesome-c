@@ -3166,7 +3166,10 @@ Engines, libraries and other helpful things specifically for making games.
   * [xkbcommon/libxkbcommon][49-30] - Keymap handling library for toolkits and
   window systems. [`License`][49-31]
   * [raysan5/raygui][49-32] - Immediate GUI library from raylib author. [`Zlib`][49-33]
+  * [rxi/microui][49-34] - Immediate-mode UI ANSI C library. [`MIT`][49-35]
 
+  [49-35]: https://github.com/rxi/microui/blob/master/LICENSE
+  [49-34]: https://github.com/rxi/microui
   [49-33]: https://github.com/raysan5/raygui/blob/master/LICENSE
   [49-32]: https://github.com/raysan5/raygui
   [49-31]: https://github.com/xkbcommon/libxkbcommon/blob/master/LICENSE
