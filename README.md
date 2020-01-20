@@ -4224,7 +4224,10 @@ Engines, libraries and other helpful things specifically for making games.
   Push Notification Service (APNs). [`MIT`][68-14]
   * [aws/aws-iot-device-sdk-embedded-C][68-15] - SDK for connecting to AWS IoT
   from a device using embedded C. [`Apache 2`][68-16]
+  * [domsson/libtwirc][68-17] - Twitch IRC library for Linux. [`License`][68-18]
 
+  [68-18]: https://github.com/domsson/libtwirc/blob/master/LICENSE
+  [68-17]: https://github.com/domsson/libtwirc
   [68-16]: https://github.com/aws/aws-iot-device-sdk-embedded-C/blob/master/LICENSE.txt
   [68-15]: https://github.com/aws/aws-iot-device-sdk-embedded-C
   [68-14]: https://github.com/adobkin/libcapn/blob/master/LICENSE
