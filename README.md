@@ -4669,7 +4669,10 @@ Engines, libraries and other helpful things specifically for making games.
   * [attractivechaos/klib][76-44] - Small and lightweight implementations of
   common algorithms and data structures. [`MIT`][76-45]
   * [f1nalspace/final_game_tech][76-46] - Game related libraries. [`MIT`][76-47]
+  * [QwertyQaz414/anv][76-48] - Collection of header-only utility libraries. [`MIT`][76-49]
 
+  [76-49]: https://github.com/QwertyQaz414/anv/blob/master/LICENSE
+  [76-48]: https://github.com/QwertyQaz414/anv
   [76-47]: https://github.com/f1nalspace/final_game_tech/blob/master/LICENSE
   [76-46]: https://github.com/f1nalspace/final_game_tech
   [76-45]: https://github.com/attractivechaos/klib#overview
