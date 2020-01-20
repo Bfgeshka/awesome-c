@@ -3167,7 +3167,11 @@ Engines, libraries and other helpful things specifically for making games.
   window systems. [`License`][49-31]
   * [raysan5/raygui][49-32] - Immediate GUI library from raylib author. [`Zlib`][49-33]
   * [rxi/microui][49-34] - Immediate-mode UI ANSI C library. [`MIT`][49-35]
+  * [VincentWei/minigui][49-36] - Crossplatform windowing and GUI library
+  targeted for embed usage. [`GPL 3`][49-37]
 
+  [49-37]: https://github.com/VincentWei/minigui#authors-and-copying
+  [49-36]: https://github.com/VincentWei/minigui
   [49-35]: https://github.com/rxi/microui/blob/master/LICENSE
   [49-34]: https://github.com/rxi/microui
   [49-33]: https://github.com/raysan5/raygui/blob/master/LICENSE
