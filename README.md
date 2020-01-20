@@ -3246,7 +3246,10 @@ Engines, libraries and other helpful things specifically for making games.
   on the Wii U. `No license`
   * [floooh/chips][50-38] - 8-bit chip and system emulators in standalone
   C headers. [`Zlib`][50-39]
+  * [rofl0r/endianness.h][50-40] - Endianness detection and conversion. [`Licenses`][50-41]
 
+  [50-41]: https://github.com/rofl0r/endianness.h#license
+  [50-40]: https://github.com/rofl0r/endianness.h
   [50-39]: https://github.com/floooh/chips/blob/master/LICENSE
   [50-38]: https://github.com/floooh/chips
   [50-37]: https://github.com/wiiudev/libwiiu
