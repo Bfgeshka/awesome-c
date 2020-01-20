@@ -4252,7 +4252,10 @@ Engines, libraries and other helpful things specifically for making games.
   * [warmcat/libwebsockets][69-9] - Canonical websocket library. [`License][69-10]
   * [wbudd/RingSocket][69-11] - Lockless multi-threaded C11 Linux WebSocket
   server. [`MIT`][69-12]
+  * [clemenskresser/ezwebsocket][69-13] - Websocket server library in C. [`MIT`][69-14]
 
+  [69-14]: https://github.com/clemenskresser/ezwebsocket/blob/master/COPYING
+  [69-13]: https://github.com/clemenskresser/ezwebsocket
   [69-12]: https://github.com/wbudd/RingSocket/blob/master/LICENSE
   [69-11]: https://github.com/wbudd/RingSocket
   [69-10]: https://github.com/warmcat/libwebsockets/blob/master/LICENSE
