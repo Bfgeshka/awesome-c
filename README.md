@@ -3178,7 +3178,10 @@ Engines, libraries and other helpful things specifically for making games.
   * [rxi/microui][49-34] - Immediate-mode UI ANSI C library. [`MIT`][49-35]
   * [VincentWei/minigui][49-36] - Crossplatform windowing and GUI library
   targeted for embed usage. [`GPL 3`][49-37]
+  * [achimdoebler/UGUI][49-38] - Graphic library for embedded systems. [`License`][49-39]
 
+  [49-39]: https://github.com/achimdoebler/UGUI/blob/master/LICENSE.md
+  [49-38]: https://github.com/achimdoebler/UGUI
   [49-37]: https://github.com/VincentWei/minigui#authors-and-copying
   [49-36]: https://github.com/VincentWei/minigui
   [49-35]: https://github.com/rxi/microui/blob/master/LICENSE
