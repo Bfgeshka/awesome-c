@@ -4852,7 +4852,10 @@ Engines, libraries and other helpful things specifically for making games.
   * [branchless-utf8][80-31] - Branchless UTF-8 decoder. [`Unlicense`][80-32]
   * [g-berthiaume/strsepf][80-33] - Single header string parsing function with
   memory safety of strsep and the convenience of a sscanf-like interface. [`MIT`][80-34]
+  * [karlmcguire/sing][80-35] - String ring buffer library. [`MIT`][80-36]
 
+  [80-36]: https://github.com/karlmcguire/sing/blob/master/LICENSE
+  [80-35]: https://github.com/karlmcguire/sing
   [80-34]: https://github.com/g-berthiaume/strsepf/blob/master/LICENSE
   [80-33]: https://github.com/g-berthiaume/strsepf
   [80-32]: https://github.com/skeeto/branchless-utf8/blob/master/UNLICENSE
