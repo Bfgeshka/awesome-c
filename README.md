@@ -3018,7 +3018,9 @@ Engines, libraries and other helpful things specifically for making games.
   video games and musical applications. [`Zlib`][47-48]
   * [dr-soft/miniobj][47-49] - Simple library for loading OBJ mesh files. [`Public Domain`][47-50]
   * [dr-soft/mintaro][47-51] - Framework for making simple, retro style games. [`Public Domain`][47-52]
+  * [SasLuca/rayfork][47-53] - raylib fork introducing some changes. `No license`
 
+  [47-53]: https://github.com/SasLuca/rayfork
   [47-52]: https://github.com/dr-soft/mintaro/blob/master/mintaro.h
   [47-51]: https://github.com/dr-soft/mintaro
   [47-50]: https://github.com/dr-soft/miniobj/blob/master/miniobj.h
