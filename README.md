@@ -2501,7 +2501,10 @@ Libraries for working with specific filetypes or classes of filetypes.
   * [samtools/htslib][43-23] - C library for high-throughput sequencing data
   formats. [`License`][43-24]
   * [vmg/houdini][43-25] - API for escaping text for the web. [`MIT`][43-26]
+  * [trumpowen/MegaMimes][43-27] - A C mime type library [`MIT`][43-28]
 
+  [43-28]: https://github.com/trumpowen/MegaMimes/blob/master/LICENSE
+  [43-27]: https://github.com/trumpowen/MegaMimes
   [43-26]: https://github.com/vmg/houdini/blob/master/COPYING
   [43-25]: https://github.com/vmg/houdini
   [43-24]: https://github.com/samtools/htslib/blob/develop/LICENSE
