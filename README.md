@@ -1816,7 +1816,10 @@ structure at all)
   * [rg3/bcrypt][32-55] - bcrypt password hash C library. [`License`][32-56]
   * [LoupVaillant/Monocypher][32-57] - An easy to use, easy to deploy crypto
   library. [`Licenses`][32-58]
+  * [tombonner/blowfish-api][32-59] - Blowfish block cipher implementation. [`License`][32-60]
 
+  [32-60]: https://github.com/tombonner/blowfish-api/blob/master/blowfish.h
+  [32-59]: https://github.com/tombonner/blowfish-api
   [32-58]: https://github.com/LoupVaillant/Monocypher/blob/master/LICENCE.md
   [32-57]: https://github.com/LoupVaillant/Monocypher
   [32-56]: https://github.com/rg3/libbcrypt/blob/master/COPYING
