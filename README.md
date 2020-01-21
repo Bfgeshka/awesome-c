@@ -2750,7 +2750,10 @@ Engines, libraries and other helpful things specifically for making games.
   * [zauonlok/renderer][45-102] - Shader-based software renderer in C89 with
   minimal dependencies. [`MIT`][45-103]
   * [cdev-tux/q3lite][45-104] - Quake 3 engine rendered in OpenGL ES. [`GPL 3`][45-105]
+  * [kondrak/vkQuake2][45-106] - Vulkan Quake 2 implementation. [`LGPL 2`][45-107]
 
+  [45-107]: https://github.com/kondrak/vkQuake2/blob/master/LICENSE
+  [45-106]: https://github.com/kondrak/vkQuake2
   [45-105]: https://github.com/cdev-tux/q3lite/blob/dev/COPYING.txt
   [45-104]: https://github.com/cdev-tux/q3lite
   [45-103]: https://github.com/zauonlok/renderer/blob/master/LICENSE
