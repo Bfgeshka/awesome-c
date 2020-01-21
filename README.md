@@ -2596,7 +2596,10 @@ Libraries for working with specific filetypes or classes of filetypes.
   * [SanderMertens/flecs][44-55] - An Entity Component System with a dashboard. [`MIT`][44-56]
   * [akeep/scheme-to-c][44-57] - A small nanopass compiler from a subset of
   Scheme to C. [`MIT`][44-58]
+  * [takanuva/ANSI-ISO-C-Exception-Handling][44-59] - Exceptions in C. [`LGPL 3`][44-60]
 
+  [44-60]: https://github.com/takanuva/ANSI-ISO-C-Exception-Handling/blob/master/exception.h
+  [44-59]: https://github.com/takanuva/ANSI-ISO-C-Exception-Handling
   [44-58]: https://github.com/akeep/scheme-to-c/blob/master/Copyright
   [44-57]: https://github.com/akeep/scheme-to-c
   [44-56]: https://github.com/SanderMertens/flecs/blob/master/LICENSE
