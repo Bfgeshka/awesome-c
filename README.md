@@ -3883,7 +3883,7 @@ Engines, libraries and other helpful things specifically for making games.
   * [pforemski/libpjf][58-35] - A C library of data structures with tools
   (based on libasn). [`GPL 3`][58-36]
   * [stevedekorte/basekit][58-37] - C based OO portable data structure library. [`BSD 3-Clause`][58-38]
-  * [rampantpixels/foundation_lib][58-39] - Cross-platform foundation library in
+  * [mjansson/foundation_lib][58-39] - Cross-platform foundation library in
   C providing basic support data types and functions to write applications and
   games in a platform-independent fashion. [`Unlicense`][58-40]
   * [happyfish100/libfastcommon][58-41] - Functions including: string, logger,
@@ -3893,8 +3893,8 @@ Engines, libraries and other helpful things specifically for making games.
 
   [58-42]: https://github.com/happyfish100/libfastcommon
   [58-41]: https://github.com/happyfish100/libfastcommon
-  [58-40]: https://github.com/rampantpixels/foundation_lib/blob/master/LICENSE
-  [58-39]: https://github.com/rampantpixels/foundation_lib
+  [58-40]: https://github.com/mjansson/foundation_lib/blob/master/LICENSE
+  [58-39]: https://github.com/mjansson/foundation_lib
   [58-38]: https://github.com/stevedekorte/basekit/blob/master/license/bsd_license.txt
   [58-37]: https://github.com/stevedekorte/basekit
   [58-36]: https://github.com/pforemski/libpjf/blob/master/LICENSE
