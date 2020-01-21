@@ -2330,24 +2330,27 @@ Libraries for working with specific filetypes or classes of filetypes.
   structure. Implement structure serialization and deserialization for C. [`MIT`][39-12]
   * [cesanta/frozen][39-13] - JSON parser and generator for C/C++ with
   scanf/printf like interface. Targeting embedded systems. [`Apache 2`][39-14]
-  * [cloudflare/lua-resty-json][39-15] - json lib for lua and C. [`BSD 2-Clause`][39-16]
+  * [cloudflare/lua-resty-json][39-15] - JSON library for Lua and C. [`BSD 2-Clause`][39-16]
   * [json-c/json-c][39-17] - Official code repository for json-c. [`License`][39-18]
   * [keenerd/jshon][39-19] - JSON parser designed for maximum convenience within
   the shell. [`MIT`][39-20]
   * [kgabis/parson][39-21] - Lightweight JSON library written in C. [`MIT`][39-22]
-  * [kevinbirch/kanabo][39-23] - query JSON/YAML data with JSONPath. [`License`][39-24]
+  * [kevinbirch/kanabo][39-23] - Query JSON/YAML data with JSONPath. [`License`][39-24]
   * [lloyd/yajl][39-25] - A fast streaming JSON parsing library in C. [`ISC`][39-26]
   * [orangeduck/json2c][39-27] - Convert JSON to C data literals. [`BSD 3-Clause`][39-28]
   * [quartzjer/js0n][39-29] - Flexible Zero-Footprint JSON Parser in C. [`Unlicense`][39-30]
-  * [sheredom/json.h][39-31] - json parser for C and C++. [`Unlicense`][39-32]
-  * [vincenthz/libjson][39-33] - a JSON parser and printer library in C. Easy to
+  * [sheredom/json.h][39-31] - JSON parser for C and C++. [`Unlicense`][39-32]
+  * [vincenthz/libjson][39-33] - JSON parser and printer library in C. Easy to
   integrate with any model. [`License`][39-34]
   * [udp/json-parser][39-35] - Very low footprint JSON parser written in
   portable ANSI. [`License`][39-36]
   * [garnetius/jsong][39-37] - Faster than light streaming JSON & USON parser
   and writer with rich and trivial to use API plus SSE optimizations. [`BSD 2-Clause`][39-38]
-  * [recp/json][39-39] - parses JSON files into DOM-like data structures. [`MIT`][39-40]
+  * [recp/json][39-39] - Parses JSON files into DOM-like data structures. [`MIT`][39-40]
+  * [mjansson/json][39-41] - Single header JSON/SJSON parser. [`Unlicense`][39-42]
 
+  [39-42]: https://github.com/mjansson/json/blob/master/LICENSE
+  [39-41]: https://github.com/mjansson/json
   [39-40]: https://github.com/recp/json/blob/master/LICENSE
   [39-39]: https://github.com/recp/json
   [39-38]: https://github.com/garnetius/jsong/blob/master/LICENSE.txt
