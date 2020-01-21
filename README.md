@@ -3954,7 +3954,10 @@ Engines, libraries and other helpful things specifically for making games.
   callbacks or external dependencies. [`MIT`][59-10]
   * [libidn][59-11] - Implementation of the Stringprep, Punycode and IDNA
   specifications. [`Licenses`][59-12]
+  * [mjansson/mdns][59-13] - mDNS/DNS-SD library. [`Unlicense`][59-14]
 
+  [59-14]: https://github.com/mjansson/mdns/blob/master/LICENSE
+  [59-13]: https://github.com/mjansson/mdns
   [59-12]: https://git.savannah.gnu.org/gitweb/?p=libidn.git;a=tree
   [59-11]: https://www.gnu.org/software/libidn
   [59-10]: https://github.com/wahern/dns/blob/master/LICENSE
