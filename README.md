@@ -3903,7 +3903,10 @@ Engines, libraries and other helpful things specifically for making games.
   chain, hash, socket, ini file reader, base64 encode / decode,
   url encode / decode, fast timer, skiplist, object pool etc. detail info please
   see the c header files. [`LGPL`][58-42]
+  * [sabit/libcprops][58-43] - C prototyping tools. [`LGPL 2.1`][58-44]
 
+  [58-44]: https://github.com/sabit/libcprops/blob/master/COPYING
+  [58-43]: https://github.com/sabit/libcprops
   [58-42]: https://github.com/happyfish100/libfastcommon
   [58-41]: https://github.com/happyfish100/libfastcommon
   [58-40]: https://github.com/mjansson/foundation_lib/blob/master/LICENSE
