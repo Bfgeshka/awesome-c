@@ -3406,7 +3406,11 @@ Engines, libraries and other helpful things specifically for making games.
   * [dr-soft/dr_pcx][52-52] - Single file PCX image loader. [`Public Domain`][52-53]
   * [cbraudo/qdbmp][52-54] - Cross-platform C library for handling BMP files. [`MIT`][52-55]
   * [lecram/gifdec][52-56] - GIF decoder. [`Public Domain`][52-57]
+  * [gfxprim/gfxprim][52-58] - Library for processing  and drawing images in
+  variety of formats. [`LGPL 2.1`][52-59]
 
+  [52-59]: https://github.com/gfxprim/gfxprim/blob/master/COPYING
+  [52-58]: https://github.com/gfxprim/gfxprim
   [52-57]: https://github.com/lecram/gifdec
   [52-56]: https://github.com/lecram/gifdec
   [52-55]: https://github.com/cbraudo/qdbmp/blob/master/LICENSE
