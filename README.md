@@ -254,7 +254,10 @@ structure at all)
   * [TCC][3-6] - Tiny C Compiler; a small, fast C compiler. Supports C99 (except
   complex types). [`LGPL 2.1`][3-27]
   * [alexfru/SmallerC][3-29] - Simple C compiler. [`License`][3-28]
+  * [michaelforney/cproc][3-30] - C11 compiler for unix-like systems. [`License`][3-31]
 
+  [3-31]: https://github.com/michaelforney/cproc/blob/master/LICENSE
+  [3-30]: https://github.com/michaelforney/cproc
   [3-29]: https://github.com/alexfru/SmallerC
   [3-28]: https://github.com/alexfru/SmallerC/blob/master/license.txt
   [3-27]: https://repo.or.cz/tinycc.git/blob/HEAD:/COPYING
