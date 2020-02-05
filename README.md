@@ -4367,7 +4367,10 @@ Engines, libraries and other helpful things specifically for making games.
   * [zeromq/zyre][70-45] - Framework for proximity-based peer-to-peer
   applications. [`License`][70-46]
   * [Maxime2/dataparksearch][70-47] - Open source, feature rich search engine. [`License`][70-48]
+  * [kristapsdz/kcgi][70-49] - Minimal CGI and FastCGI library for C/C++. [`ISC`][70-50]
 
+  [70-50]: https://github.com/kristapsdz/kcgi/blob/master/LICENSE.md
+  [70-49]: https://github.com/kristapsdz/kcgi
   [70-48]: https://github.com/Maxime2/dataparksearch/blob/master/LICENSE
   [70-47]: https://github.com/Maxime2/dataparksearch
   [70-46]: https://github.com/zeromq/zyre/blob/master/LICENSE
