@@ -5017,7 +5017,10 @@ Engines, libraries and other helpful things specifically for making games.
   generates mocks. [`MIT`][81-59]
   * [sheredom/utest.h][81-60] - Single header unit testing framework. [`Unlicense`][80-61]
   * [Koldar/crashc][81-62] - Automatic C source code testing framework. [`MIT`][81-63]
+  * [christophercrouzet/rexo][81-64] - Unit testing framework for C and C++. [`Unlicense`][81-65]
 
+  [81-65]: https://github.com/christophercrouzet/rexo/blob/master/UNLICENSE
+  [81-64]: https://github.com/christophercrouzet/rexo
   [81-63]: https://github.com/Koldar/crashc/blob/master/LICENSE.md
   [81-62]: https://github.com/Koldar/crashc
   [81-61]: https://github.com/sheredom/utest.h/blob/master/LICENSE
