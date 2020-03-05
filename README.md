@@ -2209,7 +2209,10 @@ structure at all)
   * [Lupus/libevfibers][35-5] - Small C fiber library that uses libev based event loop and libcoro based coroutine context switching. [`Apache 2`][35-6]
   * [facebook/libphenom][35-7] - An eventing framework for building high performance and high scalability systems in C. [`Apache 2`][35-8]
   * [libuv/libuv][35-9] - Cross-platform asychronous I/O. [`Licenses`][35-10]
+  * [ithewei/libhv][35-11] - Event-loop with non-blocking IO and timer. [`BSD 3-Clause`][35-12]
 
+  [35-12]: https://github.com/ithewei/libhv/blob/master/LICENSE
+  [35-11]: https://github.com/ithewei/libhv
   [35-10]: https://github.com/libuv/libuv/blob/v1.x/LICENSE
   [35-9]: https://github.com/libuv/libuv
   [35-8]: https://github.com/facebookarchive/libphenom/blob/master/LICENSE
