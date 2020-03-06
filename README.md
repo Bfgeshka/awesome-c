@@ -3048,7 +3048,10 @@ Engines, libraries and other helpful things specifically for making games.
   * [dr-soft/miniobj][47-49] - Simple library for loading OBJ mesh files. [`Public Domain`][47-50]
   * [dr-soft/mintaro][47-51] - Framework for making simple, retro style games. [`Public Domain`][47-52]
   * [SasLuca/rayfork][47-53] - raylib fork introducing some changes. `No license`
+  * [jkuhlmann/cgltf][47-54] - Single-file glTF 2.0 loader/writer in C99. [`MIT`][47-55]
 
+  [47-55]: https://github.com/jkuhlmann/cgltf/blob/master/LICENSE
+  [47-54]: https://github.com/jkuhlmann/cgltf
   [47-53]: https://github.com/SasLuca/rayfork
   [47-52]: https://github.com/dr-soft/mintaro/blob/master/mintaro.h
   [47-51]: https://github.com/dr-soft/mintaro
