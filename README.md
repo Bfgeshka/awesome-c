@@ -1,4 +1,4 @@
-# Awesome C #
+﻿# Awesome C #
 
 A curated list of C good stuff. Contributions are welcome.
 
@@ -745,7 +745,9 @@ structure at all)
   * [Akagi201/learning-cmake][17-20] - CMake examples
   * [Let's build a database][17-21]
   * [nikhilm/uvbook][17-22] - An Introduction to libuv
+  * [The ``Clockwise/Spiral Rule''][17-23]
 
+  [17-23]: http://c-faq.com/decl/spiral.anderson.html
   [17-22]: https://github.com/nikhilm/uvbook
   [17-21]: https://cstack.github.io/db_tutorial/
   [17-20]: https://github.com/Akagi201/learning-cmake
