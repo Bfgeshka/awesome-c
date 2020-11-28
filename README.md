@@ -4210,7 +4210,11 @@ Engines, libraries and other helpful things specifically for making games.
   * [lammertb/libhttp][67-47] - Crossplatform HTTP and HTTPS library. [`MIT`][67-48]
   * [zhaojh329/libuhttpd][67-49] - Fully asynchronous HTTP server library based
   on libev and http-parser for embedded Linux. [`MIT`][67-50]
+  * [silgy/silgy][67-51] - Multipurpose asynchronous web application backend
+  engine. [`MIT`][67-52]
 
+  [67-52]: https://github.com/silgy/silgy/blob/master/LICENSE
+  [67-51]: https://github.com/silgy/silgy
   [67-50]: https://github.com/zhaojh329/libuhttpd/blob/master/LICENSE
   [67-49]: https://github.com/zhaojh329/libuhttpd
   [67-48]: https://github.com/lammertb/libhttp/blob/master/LICENSE.md
