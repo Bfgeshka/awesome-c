@@ -2615,7 +2615,11 @@ Libraries for working with specific filetypes or classes of filetypes.
   Scheme to C. [`MIT`][44-58]
   * [takanuva/ANSI-ISO-C-Exception-Handling][44-59] - Exceptions in C. [`LGPL 3`][44-60]
   * [small-c/obj.h][44-61] - A single-header support for OOP in pure C. [`MIT`][44-62]
+  * [Hirrolot/poica][44-63] - Features of modern programming languages in plain
+  C11 implemented via macro system. [`MIT`][44-64]
 
+  [44-64]: https://github.com/Hirrolot/poica/blob/master/LICENSE
+  [44-63]: https://github.com/Hirrolot/poica
   [44-62]: https://github.com/small-c/obj.h/blob/master/LICENSE
   [44-61]: https://github.com/small-c/obj.h
   [44-60]: https://github.com/takanuva/ANSI-ISO-C-Exception-Handling/blob/master/exception.h
