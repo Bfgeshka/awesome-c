@@ -649,7 +649,9 @@ structure at all)
   * [C Programming FAQs: Frequently Asked Questions][13-7]
   * [OpenGL SuperBible][13-8]
   * [OpenGL Insights][13-9]
+  * [Effective C: An Introduction to Professional C Programming][13-10]
 
+  [13-10]: https://nostarch.com/Effective_C
   [13-9]: http://openglinsights.com/
   [13-8]: http://www.openglsuperbible.com
   [13-7]: https://www.goodreads.com/book/show/528549.C_Programming_FAQs
