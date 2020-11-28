@@ -1698,7 +1698,11 @@ structure at all)
   channels, message passing, etc.[`Apache 2`][30-58]
   * [Precisamento/cpthreads][30-59] - Cross Platform (e.g. Windows) support
   for C11 threads. [`MIT`][30-60]
+  * [shiyanhui/libcsp][30-61] - Concurrency C library influenced by the CSP
+  model. [`MIT`][30-62]
 
+  [30-62]: https://github.com/shiyanhui/libcsp/blob/master/LICENSE
+  [30-61]: https://github.com/shiyanhui/libcsp
   [30-60]: https://github.com/Precisamento/cpthreads/blob/master/LICENSE
   [30-59]: https://github.com/Precisamento/cpthreads
   [30-58]: https://github.com/danluu/setjmp-longjmp-ucontext-snippets/blob/master/LICENSE
